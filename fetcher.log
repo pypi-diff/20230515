@@ -129,3 +129,45 @@
 [2023-05-15 00:08:43] INFO root fetch - main [MainThread]: End processing [ensemblem]: success
 [2023-05-15 00:09:20] INFO root fetch - main [MainThread]: End processing [athletes-unlimited-py]: success
 [2023-05-15 00:09:20] INFO root fetch - main [MainThread]: Store serial: [18100428]
+[2023-05-15 00:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100428]
+[2023-05-15 00:14:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ItsuBot
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canonical
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchmarx
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: headless
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cbra
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: XMLAndJSONSerializer
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SerializerOfJsonAndXml
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: commitguard
+[2023-05-15 00:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JsonAndXmlSerializer
+[2023-05-15 00:14:29] WARNING root fetch - processPackages [ItsuBot]: Skipping, unable to determine old version
+[2023-05-15 00:14:29] INFO root fetch - main [MainThread]: End processing [ItsuBot] error
+[2023-05-15 00:14:29] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-15 00:14:29] WARNING root fetch - processPackages [SerializerOfJsonAndXml]: Skipping, unable to determine old version
+[2023-05-15 00:14:29] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-05-15 00:14:29] INFO root fetch - main [MainThread]: End processing [SerializerOfJsonAndXml] error
+[2023-05-15 00:14:29] WARNING root fetch - processPackages [XMLAndJSONSerializer]: Skipping, unable to determine old version
+[2023-05-15 00:14:29] INFO root fetch - processPackages [benchmarx]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 00:14:29] WARNING root fetch - processPackages [commitguard]: Skipping, unable to determine old version
+[2023-05-15 00:14:29] INFO root fetch - main [MainThread]: End processing [XMLAndJSONSerializer] error
+[2023-05-15 00:14:29] INFO root fetch - processPackages [canonical]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 00:14:29] INFO root fetch - main [MainThread]: End processing [commitguard] error
+[2023-05-15 00:14:29] WARNING root fetch - processPackages [JsonAndXmlSerializer]: Skipping, unable to determine old version
+[2023-05-15 00:14:29] INFO root fetch - main [MainThread]: End processing [JsonAndXmlSerializer] error
+[2023-05-15 00:14:29] INFO root fetch - processPackages [canonical]: Downloading https://files.pythonhosted.org/packages/a5/d2/a8a2ddf18c53dcd075763049d0b46580abf1b718bf3428537c995291c72d/canonical-0.8.0.tar.gz
+[2023-05-15 00:14:29] INFO root fetch - processPackages [benchmarx]: Downloading https://files.pythonhosted.org/packages/e2/e9/064a1782442e7751d9ec2436b2e7782fc07b0eec6684d76e601fedb915d8/benchmarx-0.0.6-py3-none-any.whl
+[2023-05-15 00:14:29] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-15 00:14:29] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230515/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-15 00:14:29] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-05-15 00:14:29] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230515/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-15 00:14:29] INFO root fetch - processPackages [canonical]: Downloading https://files.pythonhosted.org/packages/12/1f/2280296077ed31b38308f513c0fdfffeb1e131ffa62d7ccb2659a6d627fb/canonical-0.9.0.tar.gz
+[2023-05-15 00:14:29] INFO root fetch - processPackages [benchmarx]: Downloading https://files.pythonhosted.org/packages/a5/7d/9b139d285638cf59488949e65ed9d7fabbcc76844dd4e6693a4e353cd20e/benchmarx-0.0.7-py3-none-any.whl
+[2023-05-15 00:14:29] INFO root fetch - processPackages [canonical]: executing diffoscope
+[2023-05-15 00:14:29] INFO root fetch - processPackages [canonical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonical-0.8.0.tar.gz tmp/canonical-0.9.0.tar.gz --markdown 20230515/c/canonical/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 00:14:29] INFO root fetch - processPackages [benchmarx]: executing diffoscope
+[2023-05-15 00:14:29] INFO root fetch - processPackages [benchmarx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmarx-0.0.6-py3-none-any.whl.zip tmp/benchmarx-0.0.7-py3-none-any.whl.zip --markdown 20230515/b/benchmarx/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 00:14:30] INFO root fetch - main [MainThread]: End processing [canonical]: success
+[2023-05-15 00:14:30] INFO root fetch - main [MainThread]: End processing [benchmarx]: success
+[2023-05-15 00:14:31] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-05-15 00:14:33] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-15 00:14:33] INFO root fetch - main [MainThread]: Store serial: [18100457]
