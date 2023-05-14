@@ -365,3 +365,37 @@
 [2023-05-15 00:45:54] INFO root fetch - processPackages [colors-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colors_core-1.0.0.tar.gz tmp/colors_core-1.0.1.tar.gz --markdown 20230515/c/colors-core/1.0.0-1.0.1/diff.md --exclude *.pyd
 [2023-05-15 00:45:55] INFO root fetch - main [MainThread]: End processing [colors-core]: success
 [2023-05-15 00:45:55] INFO root fetch - main [MainThread]: Store serial: [18100568]
+[2023-05-15 00:50:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100568]
+[2023-05-15 00:51:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 00:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whacc
+[2023-05-15 00:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: variant
+[2023-05-15 00:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchmarx
+[2023-05-15 00:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lealnumeros
+[2023-05-15 00:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctransformers
+[2023-05-15 00:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FreeTAKServer
+[2023-05-15 00:51:04] INFO root fetch - processPackages [benchmarx]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-15 00:51:04] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 00:51:04] WARNING root fetch - processPackages [lealnumeros]: Skipping, unable to determine old version
+[2023-05-15 00:51:04] INFO root fetch - main [MainThread]: End processing [lealnumeros] error
+[2023-05-15 00:51:04] INFO root fetch - processPackages [FreeTAKServer]: New version: [2.0.66] Old Version: [2.0.21]
+[2023-05-15 00:51:04] INFO root fetch - processPackages [whacc]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-15 00:51:04] WARNING root fetch - processPackages [ctransformers]: Skipping, unable to determine old version
+[2023-05-15 00:51:04] INFO root fetch - main [MainThread]: End processing [ctransformers] error
+[2023-05-15 00:51:04] INFO root fetch - processPackages [benchmarx]: Downloading https://files.pythonhosted.org/packages/f8/90/288203d73503902bf9aae388a0aff74baa28bf466b0d9442274a518d8f42/benchmarx-0.0.8-py3-none-any.whl
+[2023-05-15 00:51:04] INFO root fetch - processPackages [variant]: Downloading https://files.pythonhosted.org/packages/0c/50/c5d1afa4fb0d5e41250f78fb4d0b3a0ebf97c5c51791c5366328fdf0fec8/variant-0.0.8.tar.gz
+[2023-05-15 00:51:04] INFO root fetch - processPackages [FreeTAKServer]: Downloading https://files.pythonhosted.org/packages/9b/b6/9c5e1f50aed0d1f0fa11957334f59d93ec5b5f53e8885a49cdb814f45d05/FreeTAKServer-2.0.21.tar.gz
+[2023-05-15 00:51:04] INFO root fetch - processPackages [benchmarx]: executing diffoscope
+[2023-05-15 00:51:04] INFO root fetch - processPackages [benchmarx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmarx-0.0.7-py3-none-any.whl.zip tmp/benchmarx-0.0.8-py3-none-any.whl.zip --markdown 20230515/b/benchmarx/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-15 00:51:04] INFO root fetch - processPackages [whacc]: executing diffoscope
+[2023-05-15 00:51:04] INFO root fetch - processPackages [whacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whacc-1.3.8.tar.gz tmp/whacc-1.3.9.tar.gz --markdown 20230515/w/whacc/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-15 00:51:04] INFO root fetch - processPackages [FreeTAKServer]: Downloading https://files.pythonhosted.org/packages/d7/91/20ae8c5865592ee178d0a4ff9f34a0577896afbd72479d33a32c6de70b19/FreeTAKServer-2.0.66.tar.gz
+[2023-05-15 00:51:04] INFO root fetch - processPackages [variant]: Downloading https://files.pythonhosted.org/packages/48/0e/e63d42f98ce2e6a9d7828c6fe1a77a925185681f51aa1eca4d3542774eea/variant-0.0.9.tar.gz
+[2023-05-15 00:51:04] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-05-15 00:51:04] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230515/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 00:51:04] INFO root fetch - processPackages [FreeTAKServer]: executing diffoscope
+[2023-05-15 00:51:04] INFO root fetch - processPackages [FreeTAKServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTAKServer-2.0.21.tar.gz tmp/FreeTAKServer-2.0.66.tar.gz --markdown 20230515/F/FreeTAKServer/2.0.21-2.0.66/diff.md --exclude *.pyd
+[2023-05-15 00:51:05] INFO root fetch - main [MainThread]: End processing [benchmarx]: success
+[2023-05-15 00:51:05] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-05-15 00:51:08] INFO root fetch - main [MainThread]: End processing [whacc]: success
+[2023-05-15 00:51:13] INFO root fetch - main [MainThread]: End processing [FreeTAKServer]: success
+[2023-05-15 00:51:13] INFO root fetch - main [MainThread]: Store serial: [18100586]
