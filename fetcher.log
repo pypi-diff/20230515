@@ -64,3 +64,68 @@
 [2023-05-15 00:03:29] INFO root fetch - main [MainThread]: End processing [gantry]: success
 [2023-05-15 00:03:31] INFO root fetch - main [MainThread]: End processing [whisper-cpp-python]: success
 [2023-05-15 00:03:31] INFO root fetch - main [MainThread]: Store serial: [18100397]
+[2023-05-15 00:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100397]
+[2023-05-15 00:08:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yokkaichi
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: traversaal
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragas
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wavelinknextcord
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ensemblem
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: benchmarx
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cwsearch-utils
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: athletes-unlimited-py
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ragas]: New version: [0.0.1a7] Old Version: [0.0.1a6]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [traversaal]: New version: [0.6960] Old Version: [0.57]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230514.9.42.756705] Old Version: [20230514.22.3.602029]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [yokkaichi]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [benchmarx]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [ensemblem]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230514.9.47.23631] Old Version: [20230514.21.25.318801]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 00:08:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/41/82/3cffcc7ec5c71bbde14343f1c3ff80490c0f5c6d827f86b0f7f443131450/certora-cli-alpha-master-20230514.21.25.318801.tar.gz
+[2023-05-15 00:08:40] INFO root fetch - processPackages [athletes-unlimited-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 00:08:40] WARNING root fetch - processPackages [wavelinknextcord]: Skipping, unable to determine old version
+[2023-05-15 00:08:40] INFO root fetch - processPackages [wavelinknextcord]: Start processing: testcell
+[2023-05-15 00:08:40] INFO root fetch - main [MainThread]: End processing [wavelinknextcord] error
+[2023-05-15 00:08:40] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39431043>=10485760
+[2023-05-15 00:08:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 00:08:41] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/97/15/6445c1fbf3be7e7eb3024f1585bf596c64c3a481b91e7bbbee7e6eaa623d/certora-cli-alpha-jtoman-infinite-loop-fix-20230514.22.3.602029.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/ad/1d/ad8f4b9a3b07e39880834fc9cf1cdecd683f7d923facc7bec6c4e245bd21/ragas-0.0.1a7.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230515/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 00:08:41] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39431832>=10485760
+[2023-05-15 00:08:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 00:08:41] INFO root fetch - processPackages [ensemblem]: Downloading https://files.pythonhosted.org/packages/4c/2f/72b8d5a1ded7646b4a481168aede6d976a4a3d6bec517bf6534a9951848a/ensemblem-0.3.2.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/57/bb/970ecff8be4e84d3326e3e64c80da87610d9134cb7c47163b0f097d99bd1/yokkaichi-1.4.3.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [traversaal]: Downloading https://files.pythonhosted.org/packages/b7/e1/83b54eca6d49fd9172a52763201fc83b8c1957ba91f4a2c7cfb4c13110f6/traversaal-0.6960-py3-none-any.whl
+[2023-05-15 00:08:41] INFO root fetch - processPackages [benchmarx]: Downloading https://files.pythonhosted.org/packages/02/91/ace3893bd1da284920401f3f7bb706ecdfc622cdd25578770db631427d38/benchmarx-0.0.4.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [testcell]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 00:08:41] INFO root fetch - processPackages [traversaal]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [traversaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traversaal-0.57-py3-none-any.whl.zip tmp/traversaal-0.6960-py3-none-any.whl.zip --markdown 20230515/t/traversaal/0.57-0.6960/diff.md --exclude *.pyd
+[2023-05-15 00:08:41] INFO root fetch - processPackages [yokkaichi]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [athletes-unlimited-py]: Downloading https://files.pythonhosted.org/packages/fb/21/ae583d79c12bd2e5a23be57b4ab99777577485c13c4ee85b280a7437a507/athletes_unlimited_py-0.0.4.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [yokkaichi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yokkaichi-1.4.2.tar.gz tmp/yokkaichi-1.4.3.tar.gz --markdown 20230515/y/yokkaichi/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-15 00:08:41] INFO root fetch - processPackages [benchmarx]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [benchmarx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmarx-0.0.3.tar.gz tmp/benchmarx-0.0.4.tar.gz --markdown 20230515/b/benchmarx/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 00:08:41] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.1a6.tar.gz tmp/ragas-0.0.1a7.tar.gz --markdown 20230515/r/ragas/0.0.1a6-0.0.1a7/diff.md --exclude *.pyd
+[2023-05-15 00:08:41] INFO root fetch - processPackages [athletes-unlimited-py]: Downloading https://files.pythonhosted.org/packages/f4/60/b47a6fe3c8745d83f01e93b895b46b2383d065de2d5071d9ff55813a808b/athletes_unlimited_py-0.0.5.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [ensemblem]: Downloading https://files.pythonhosted.org/packages/3f/e9/4327daef40c9fc3f5a2c3113e0b8eef3ff14bbf52b823a17289a4901a51a/ensemblem-0.3.4.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [ensemblem]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [ensemblem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensemblem-0.3.2.tar.gz tmp/ensemblem-0.3.4.tar.gz --markdown 20230515/e/ensemblem/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-05-15 00:08:41] INFO root fetch - processPackages [athletes-unlimited-py]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [athletes-unlimited-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athletes_unlimited_py-0.0.4.tar.gz tmp/athletes_unlimited_py-0.0.5.tar.gz --markdown 20230515/a/athletes-unlimited-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 00:08:41] INFO root fetch - processPackages [testcell]: Downloading https://files.pythonhosted.org/packages/51/bb/8384d59e8c130c82f63e34ead668f0ef8aa519e8f6d2c81f88d8e2c5c102/testcell-0.0.5.tar.gz
+[2023-05-15 00:08:41] INFO root fetch - processPackages [testcell]: executing diffoscope
+[2023-05-15 00:08:41] INFO root fetch - processPackages [testcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcell-0.0.4.tar.gz tmp/testcell-0.0.5.tar.gz --markdown 20230515/t/testcell/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 00:08:42] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-15 00:08:42] INFO root fetch - main [MainThread]: End processing [traversaal]: success
+[2023-05-15 00:08:42] INFO root fetch - main [MainThread]: End processing [yokkaichi]: success
+[2023-05-15 00:08:42] INFO root fetch - main [MainThread]: End processing [benchmarx]: success
+[2023-05-15 00:08:42] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-05-15 00:08:43] INFO root fetch - main [MainThread]: End processing [testcell]: success
+[2023-05-15 00:08:43] INFO root fetch - main [MainThread]: End processing [ensemblem]: success
+[2023-05-15 00:09:20] INFO root fetch - main [MainThread]: End processing [athletes-unlimited-py]: success
+[2023-05-15 00:09:20] INFO root fetch - main [MainThread]: Store serial: [18100428]
