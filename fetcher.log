@@ -1,0 +1,66 @@
+[2023-05-15 00:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100355]
+[2023-05-15 00:03:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kynaylibs
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alpsplot
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whisper-cpp-python
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: urwidgets
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wireprobe
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kappadata
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swegram
+[2023-05-15 00:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myra
+[2023-05-15 00:03:25] INFO root fetch - processPackages [kynaylibs]: New version: [7.1.3] Old Version: [7.1.2]
+[2023-05-15 00:03:25] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-15 00:03:25] WARNING root fetch - processPackages [urwidgets]: Skipping, unable to determine old version
+[2023-05-15 00:03:25] INFO root fetch - processPackages [urwidgets]: Start processing: gantry
+[2023-05-15 00:03:25] INFO root fetch - processPackages [alpsplot]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-15 00:03:25] INFO root fetch - main [MainThread]: End processing [urwidgets] error
+[2023-05-15 00:03:25] WARNING root fetch - processPackages [myra]: Skipping, unable to determine old version
+[2023-05-15 00:03:25] INFO root fetch - processPackages [wireprobe]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-15 00:03:25] INFO root fetch - processPackages [whisper-cpp-python]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-15 00:03:25] INFO root fetch - processPackages [myra]: Start processing: benchmarx
+[2023-05-15 00:03:25] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: New version: [20230514.21.18.381636] Old Version: [20230514.16.17.704482]
+[2023-05-15 00:03:25] INFO root fetch - main [MainThread]: End processing [myra] error
+[2023-05-15 00:03:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230514.9.42.407] Old Version: [20230514.22.1.862189]
+[2023-05-15 00:03:25] INFO root fetch - processPackages [swegram]: New version: [1.0.0.dev3] Old Version: [1.0.0.dev2]
+[2023-05-15 00:03:25] INFO root fetch - processPackages [benchmarx]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 00:03:25] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-05-15 00:03:25] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230515/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-15 00:03:25] INFO root fetch - processPackages [swegram]: executing diffoscope
+[2023-05-15 00:03:25] INFO root fetch - processPackages [swegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swegram-1.0.0.dev2-py3-none-any.whl.zip tmp/swegram-1.0.0.dev3-py3-none-any.whl.zip --markdown 20230515/s/swegram/1.0.0.dev2-1.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-15 00:03:25] INFO root fetch - processPackages [wireprobe]: executing diffoscope
+[2023-05-15 00:03:25] INFO root fetch - processPackages [wireprobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wireprobe-0.1.7.tar.gz tmp/wireprobe-0.1.9.tar.gz --markdown 20230515/w/wireprobe/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 00:03:25] INFO root fetch - processPackages [gantry]: New version: [0.6.2a0] Old Version: [0.6.2]
+[2023-05-15 00:03:25] INFO root fetch - processPackages [benchmarx]: executing diffoscope
+[2023-05-15 00:03:25] INFO root fetch - processPackages [benchmarx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmarx-0.0.2.tar.gz tmp/benchmarx-0.0.3.tar.gz --markdown 20230515/b/benchmarx/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 00:03:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/3b/1e/1f844512374d993c6c74573e6479c1b6f68464c7f096f3ba1e7aca9fc986/certora-cli-alpha-jtoman-try-catch-20230514.22.1.862189.tar.gz
+[2023-05-15 00:03:25] INFO root fetch - processPackages [alpsplot]: Downloading https://files.pythonhosted.org/packages/06/ff/163ae9d6e8ce1d19efec0f450da5f504234432d0545d647f2c26d09ce77d/alpsplot-1.1.0.tar.gz
+[2023-05-15 00:03:25] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Downloading https://files.pythonhosted.org/packages/16/e7/8d248a720c5fddcaaf4e2bcfa666c672f2eb6936a158a2dcd1f6473b8ce1/certora-cli-alpha-naftali-CERT-1884_prevent_solidity_func_as_summary-20230514.16.17.704482.tar.gz
+[2023-05-15 00:03:25] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Skipping package: exceeds size limit 39433781>=10485760
+[2023-05-15 00:03:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary] error
+[2023-05-15 00:03:25] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/3a/9f/0385fc632b5d5788d9fec11d49975e3cb18d08ff63cf3ec5b59c4d057c8f/gantry-0.6.2.tar.gz
+[2023-05-15 00:03:25] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/bb/75/87df8bd4b2c3b22bc94d3bb19af69a126e1a7ebf00274d02a5d53e45cdb2/kynaylibs-7.1.3.tar.gz
+[2023-05-15 00:03:25] INFO root fetch - processPackages [whisper-cpp-python]: Downloading https://files.pythonhosted.org/packages/9a/b9/428b18c81503d536a6d79d5101d420c741652d844f2fe9a7c465c24bc7be/whisper_cpp_python-0.1.9.tar.gz
+[2023-05-15 00:03:25] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39431695>=10485760
+[2023-05-15 00:03:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-15 00:03:25] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-15 00:03:25] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-7.1.2.tar.gz tmp/kynaylibs-7.1.3.tar.gz --markdown 20230515/k/kynaylibs/7.1.2-7.1.3/diff.md --exclude *.pyd
+[2023-05-15 00:03:25] INFO root fetch - processPackages [alpsplot]: Downloading https://files.pythonhosted.org/packages/10/af/ff07c282319a85527265d6a5d9799ec140d77bfda39b0bfbc537f2829967/alpsplot-1.1.1.tar.gz
+[2023-05-15 00:03:26] INFO root fetch - processPackages [alpsplot]: executing diffoscope
+[2023-05-15 00:03:26] INFO root fetch - processPackages [alpsplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpsplot-1.1.0.tar.gz tmp/alpsplot-1.1.1.tar.gz --markdown 20230515/a/alpsplot/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 00:03:26] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/3b/33/4c0224cc1751809867cd7e0fac68fb9f2c5ae3adfb5ac165c8e8bc6be16b/gantry-0.6.2a0.tar.gz
+[2023-05-15 00:03:26] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-05-15 00:03:26] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.2.tar.gz tmp/gantry-0.6.2a0.tar.gz --markdown 20230515/g/gantry/0.6.2-0.6.2a0/diff.md --exclude *.pyd
+[2023-05-15 00:03:26] INFO root fetch - processPackages [whisper-cpp-python]: Downloading https://files.pythonhosted.org/packages/1a/e4/4136636cbecd6eb578ede3fa74f4169356a6183092b808414c7987b424ac/whisper_cpp_python-0.2.0.tar.gz
+[2023-05-15 00:03:26] INFO root fetch - main [MainThread]: End processing [benchmarx]: success
+[2023-05-15 00:03:26] INFO root fetch - processPackages [whisper-cpp-python]: executing diffoscope
+[2023-05-15 00:03:26] INFO root fetch - processPackages [whisper-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_cpp_python-0.1.9.tar.gz tmp/whisper_cpp_python-0.2.0.tar.gz --markdown 20230515/w/whisper-cpp-python/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 00:03:27] INFO root fetch - main [MainThread]: End processing [wireprobe]: success
+[2023-05-15 00:03:27] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-15 00:03:27] INFO root fetch - main [MainThread]: End processing [swegram]: success
+[2023-05-15 00:03:27] INFO root fetch - main [MainThread]: End processing [alpsplot]: success
+[2023-05-15 00:03:27] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-05-15 00:03:29] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-05-15 00:03:31] INFO root fetch - main [MainThread]: End processing [whisper-cpp-python]: success
+[2023-05-15 00:03:31] INFO root fetch - main [MainThread]: Store serial: [18100397]
