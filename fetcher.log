@@ -729,3 +729,12 @@
 [2023-05-15 01:32:51] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-05-15 01:32:54] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-05-15 01:32:54] INFO root fetch - main [MainThread]: Store serial: [18100742]
+[2023-05-15 01:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100742]
+[2023-05-15 01:38:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-15 01:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motion-python
+[2023-05-15 01:38:03] INFO root fetch - processPackages [motion-python]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-05-15 01:38:03] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/90/82/1fc0174b2e6bf9e82abb3ee2216e8c3bd11fdabfbf495672b61fc5890271/motion_python-0.1.41.tar.gz
+[2023-05-15 01:38:03] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-05-15 01:38:03] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.40-py3-none-any.whl.zip tmp/motion_python-0.1.41.tar.gz --markdown 20230515/m/motion-python/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-05-15 01:38:04] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-05-15 01:38:04] INFO root fetch - main [MainThread]: Store serial: [18100746]
