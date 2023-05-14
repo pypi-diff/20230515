@@ -399,3 +399,32 @@
 [2023-05-15 00:51:08] INFO root fetch - main [MainThread]: End processing [whacc]: success
 [2023-05-15 00:51:13] INFO root fetch - main [MainThread]: End processing [FreeTAKServer]: success
 [2023-05-15 00:51:13] INFO root fetch - main [MainThread]: Store serial: [18100586]
+[2023-05-15 00:56:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100586]
+[2023-05-15 00:56:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-15 00:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalpy
+[2023-05-15 00:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oresat-olaf
+[2023-05-15 00:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhrms
+[2023-05-15 00:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wireprobe
+[2023-05-15 00:56:22] INFO root fetch - processPackages [oresat-olaf]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-15 00:56:22] INFO root fetch - processPackages [digitalpy]: New version: [0.3.9.2] Old Version: [0.3.9.1]
+[2023-05-15 00:56:22] INFO root fetch - processPackages [pyhrms]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-15 00:56:22] INFO root fetch - processPackages [wireprobe]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-15 00:56:22] INFO root fetch - processPackages [wireprobe]: executing diffoscope
+[2023-05-15 00:56:22] INFO root fetch - processPackages [wireprobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wireprobe-0.1.7.tar.gz tmp/wireprobe-0.1.9.tar.gz --markdown 20230515/w/wireprobe/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 00:56:22] INFO root fetch - processPackages [digitalpy]: Downloading https://files.pythonhosted.org/packages/f8/ba/15ed2b4188119cb9560b4b2c6cb641f7ad0d8b0bcc3de0a2f360c901bc39/digitalpy-0.3.9.1.tar.gz
+[2023-05-15 00:56:22] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/0e/b9/ad145cf8676f0fbc89c983e5afe0aec51afe1700fea170876b296b1d6185/pyhrms-0.5.6.zip
+[2023-05-15 00:56:22] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/4e/f3/67e2a564ca6860a44817bee88f52465e5dddb1027d986f2dae6e806b5add/oresat-olaf-2.1.0.tar.gz
+[2023-05-15 00:56:22] INFO root fetch - processPackages [digitalpy]: Downloading https://files.pythonhosted.org/packages/a4/30/e7b995fd3fbdee7a21ab1bc52e16c1f0faeeaacf5fad65b400166a004b90/digitalpy-0.3.9.2.tar.gz
+[2023-05-15 00:56:22] INFO root fetch - processPackages [digitalpy]: executing diffoscope
+[2023-05-15 00:56:22] INFO root fetch - processPackages [digitalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalpy-0.3.9.1.tar.gz tmp/digitalpy-0.3.9.2.tar.gz --markdown 20230515/d/digitalpy/0.3.9.1-0.3.9.2/diff.md --exclude *.pyd
+[2023-05-15 00:56:22] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/1e/b3/0efb689db7c70ca66658454f6885aae2ad0f1060c42683db019bed7e74d5/oresat-olaf-2.1.1.tar.gz
+[2023-05-15 00:56:22] INFO root fetch - processPackages [oresat-olaf]: executing diffoscope
+[2023-05-15 00:56:22] INFO root fetch - processPackages [oresat-olaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat-olaf-2.1.0.tar.gz tmp/oresat-olaf-2.1.1.tar.gz --markdown 20230515/o/oresat-olaf/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-15 00:56:22] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/a6/ae/50343026e69555f048b8038df7de22a624bc92bd06bcd35908715efee15e/pyhrms-0.5.7.zip
+[2023-05-15 00:56:22] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-05-15 00:56:22] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.5.6.zip tmp/pyhrms-0.5.7.zip --markdown 20230515/p/pyhrms/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-15 00:56:23] INFO root fetch - main [MainThread]: End processing [wireprobe]: success
+[2023-05-15 00:56:24] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-05-15 00:56:24] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
+[2023-05-15 00:56:24] INFO root fetch - main [MainThread]: End processing [digitalpy]: success
+[2023-05-15 00:56:24] INFO root fetch - main [MainThread]: Store serial: [18100598]
