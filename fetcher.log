@@ -307,3 +307,18 @@
 [2023-05-15 00:30:10] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
 [2023-05-15 00:30:23] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-15 00:30:23] INFO root fetch - main [MainThread]: Store serial: [18100542]
+[2023-05-15 00:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100542]
+[2023-05-15 00:35:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-15 00:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmm-mi
+[2023-05-15 00:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: binance-historical-data
+[2023-05-15 00:35:32] INFO root fetch - processPackages [gmm-mi]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-15 00:35:32] INFO root fetch - processPackages [binance-historical-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 00:35:32] INFO root fetch - processPackages [binance-historical-data]: executing diffoscope
+[2023-05-15 00:35:32] INFO root fetch - processPackages [binance-historical-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance_historical_data-0.1.8.tar.gz tmp/binance_historical_data-0.1.9.tar.gz --markdown 20230515/b/binance-historical-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 00:35:32] INFO root fetch - processPackages [gmm-mi]: Downloading https://files.pythonhosted.org/packages/30/b0/f497296a965f6ff46fb016f02a13e2646182ec7462934c6e39ae8c918af9/gmm_mi-0.4.3.tar.gz
+[2023-05-15 00:35:32] INFO root fetch - processPackages [gmm-mi]: Downloading https://files.pythonhosted.org/packages/37/48/b0e35c6743bd711adf516f33fea83567d7cce4e408065d9b192529f82579/gmm_mi-0.5.0.tar.gz
+[2023-05-15 00:35:32] INFO root fetch - processPackages [gmm-mi]: executing diffoscope
+[2023-05-15 00:35:32] INFO root fetch - processPackages [gmm-mi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmm_mi-0.4.3.tar.gz tmp/gmm_mi-0.5.0.tar.gz --markdown 20230515/g/gmm-mi/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 00:35:33] INFO root fetch - main [MainThread]: End processing [binance-historical-data]: success
+[2023-05-15 00:35:33] INFO root fetch - main [MainThread]: End processing [gmm-mi]: success
+[2023-05-15 00:35:33] INFO root fetch - main [MainThread]: Store serial: [18100548]
