@@ -544,3 +544,34 @@
 [2023-05-15 01:06:48] INFO root fetch - main [MainThread]: End processing [beets-filetote]: success
 [2023-05-15 01:06:50] INFO root fetch - main [MainThread]: End processing [picopt]: success
 [2023-05-15 01:06:50] INFO root fetch - main [MainThread]: Store serial: [18100646]
+[2023-05-15 01:11:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100646]
+[2023-05-15 01:11:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-15 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipetool
+[2023-05-15 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bpy-addon-build
+[2023-05-15 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manim-voiceover
+[2023-05-15 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleepyemoji
+[2023-05-15 01:11:58] INFO root fetch - processPackages [manim-voiceover]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 01:11:58] INFO root fetch - processPackages [pipetool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 01:11:58] INFO root fetch - processPackages [bpy-addon-build]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 01:11:58] INFO root fetch - processPackages [sleepyemoji]: New version: [2.2] Old Version: [2.1]
+[2023-05-15 01:11:59] INFO root fetch - processPackages [manim-voiceover]: Downloading https://files.pythonhosted.org/packages/09/c3/8733a6ebe0ff936fb1e90db09f91efd854114a21c0863df54a549c0a3a91/manim_voiceover-0.3.0.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/b3/2a/db19bbe0e19ba7b41631c77166ba076019cbd610a1b38569521c5b1bdaeb/bpy_addon_build-0.1.0.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [pipetool]: Downloading https://files.pythonhosted.org/packages/1a/31/c0e0f601121e462874e5636b648f4c0d9627d0d355de74383e208c3cc8a8/pipetool-0.0.8.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/70/81/3b4e490b8bb75d53cdbd32d299767850da863ddad1a041771be000a54207/sleepyemoji-2.1.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/89/eb/868b40ca063f4a4e655ac5a490343102507f2daf68e828a1dc3967befef2/bpy_addon_build-0.1.1.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [manim-voiceover]: Downloading https://files.pythonhosted.org/packages/f5/1e/e36267cabe466f19de1809d091ebdbf550c0fc05ec79899b9b91c8ab1658/manim_voiceover-0.3.1.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [bpy-addon-build]: executing diffoscope
+[2023-05-15 01:11:59] INFO root fetch - processPackages [bpy-addon-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_addon_build-0.1.0.tar.gz tmp/bpy_addon_build-0.1.1.tar.gz --markdown 20230515/b/bpy-addon-build/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 01:11:59] INFO root fetch - processPackages [manim-voiceover]: executing diffoscope
+[2023-05-15 01:11:59] INFO root fetch - processPackages [manim-voiceover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_voiceover-0.3.0.tar.gz tmp/manim_voiceover-0.3.1.tar.gz --markdown 20230515/m/manim-voiceover/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 01:11:59] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/c6/fa/618b6449d3922acfeae5c50dbd19d4bb13eaf20b0b1a42ee15f331e72b70/sleepyemoji-2.2.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [pipetool]: Downloading https://files.pythonhosted.org/packages/c5/c5/7330ac10e8b24d3f19719691e4203092acc34ce5f8eaca75a0642df18cff/pipetool-0.0.9.tar.gz
+[2023-05-15 01:11:59] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-05-15 01:11:59] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.1.tar.gz tmp/sleepyemoji-2.2.tar.gz --markdown 20230515/s/sleepyemoji/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-15 01:11:59] INFO root fetch - processPackages [pipetool]: executing diffoscope
+[2023-05-15 01:11:59] INFO root fetch - processPackages [pipetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipetool-0.0.8.tar.gz tmp/pipetool-0.0.9.tar.gz --markdown 20230515/p/pipetool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 01:12:00] INFO root fetch - main [MainThread]: End processing [bpy-addon-build]: success
+[2023-05-15 01:12:00] INFO root fetch - main [MainThread]: End processing [manim-voiceover]: success
+[2023-05-15 01:12:00] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-05-15 01:12:00] INFO root fetch - main [MainThread]: End processing [pipetool]: success
+[2023-05-15 01:12:00] INFO root fetch - main [MainThread]: Store serial: [18100661]
