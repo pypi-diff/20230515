@@ -350,3 +350,18 @@
 [2023-05-15 00:40:44] INFO root fetch - main [MainThread]: End processing [aniemore]: success
 [2023-05-15 00:40:44] INFO root fetch - main [MainThread]: End processing [file-validator]: success
 [2023-05-15 00:40:44] INFO root fetch - main [MainThread]: Store serial: [18100561]
+[2023-05-15 00:45:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100561]
+[2023-05-15 00:45:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-15 00:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ItsuBot
+[2023-05-15 00:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colors-core
+[2023-05-15 00:45:53] INFO root fetch - processPackages [ItsuBot]: New version: [3.4.6] Old Version: [2.4.5]
+[2023-05-15 00:45:53] INFO root fetch - processPackages [colors-core]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 00:45:53] INFO root fetch - processPackages [ItsuBot]: Downloading https://files.pythonhosted.org/packages/61/d3/52898baf5f189ac068265bcc016b910ca36b3f60bbed7296067fd40b1eff/ItsuBot-2.4.5.tar.gz
+[2023-05-15 00:45:53] INFO root fetch - processPackages [colors-core]: Downloading https://files.pythonhosted.org/packages/4c/e9/b63a4d893bd9aab50ad98d7a1bc48e0135b1d5297f8064671de31447cb0e/colors_core-1.0.0.tar.gz
+[2023-05-15 00:45:53] ERROR root fetch - processPackages [ItsuBot]: Unable to fetch info: No such project/version 'ItsuBot' 3.4.6
+[2023-05-15 00:45:53] INFO root fetch - main [MainThread]: End processing [ItsuBot] error
+[2023-05-15 00:45:54] INFO root fetch - processPackages [colors-core]: Downloading https://files.pythonhosted.org/packages/33/59/d049a88409c22459f4188b21da8896ea8d3534f4930ec392ab6c6985366e/colors_core-1.0.1.tar.gz
+[2023-05-15 00:45:54] INFO root fetch - processPackages [colors-core]: executing diffoscope
+[2023-05-15 00:45:54] INFO root fetch - processPackages [colors-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colors_core-1.0.0.tar.gz tmp/colors_core-1.0.1.tar.gz --markdown 20230515/c/colors-core/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 00:45:55] INFO root fetch - main [MainThread]: End processing [colors-core]: success
+[2023-05-15 00:45:55] INFO root fetch - main [MainThread]: Store serial: [18100568]
