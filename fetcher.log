@@ -688,3 +688,44 @@
 [2023-05-15 01:27:40] INFO root fetch - main [MainThread]: End processing [solverpy]: success
 [2023-05-15 01:27:40] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
 [2023-05-15 01:27:40] INFO root fetch - main [MainThread]: Store serial: [18100722]
+[2023-05-15 01:32:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100722]
+[2023-05-15 01:32:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 01:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2023-05-15 01:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zyncify
+[2023-05-15 01:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2tf
+[2023-05-15 01:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jira-select
+[2023-05-15 01:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-15 01:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-sb-imageserializer
+[2023-05-15 01:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-Static-Digest
+[2023-05-15 01:32:48] INFO root fetch - processPackages [langflow]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-05-15 01:32:48] INFO root fetch - processPackages [jira-select]: New version: [3.0.1] Old Version: [3.0.0a2]
+[2023-05-15 01:32:48] INFO root fetch - processPackages [zyncify]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 01:32:48] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 01:32:48] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 01:32:48] WARNING root fetch - processPackages [wagtail-sb-imageserializer]: Skipping, unable to determine old version
+[2023-05-15 01:32:48] INFO root fetch - main [MainThread]: End processing [wagtail-sb-imageserializer] error
+[2023-05-15 01:32:48] INFO root fetch - processPackages [Flask-Static-Digest]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-15 01:32:48] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-15 01:32:48] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230515/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 01:32:48] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-15 01:32:48] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.69.tar.gz tmp/langflow-0.0.70.tar.gz --markdown 20230515/l/langflow/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-05-15 01:32:48] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-15 01:32:48] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230515/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 01:32:48] INFO root fetch - processPackages [jira-select]: Downloading https://files.pythonhosted.org/packages/3a/0e/4a68defb0a4793e0db07cc054f183773f58b249b7e8b1744637093599c33/jira-select-3.0.0a2.tar.gz
+[2023-05-15 01:32:48] INFO root fetch - processPackages [zyncify]: Downloading https://files.pythonhosted.org/packages/cf/01/f83f37dafdfc5fcc2469d3585fdc5295ed5c644ee1cce507591a659f0a10/zyncify-0.1.6-py2.py3-none-any.whl
+[2023-05-15 01:32:48] INFO root fetch - processPackages [Flask-Static-Digest]: Downloading https://files.pythonhosted.org/packages/b1/e5/b8537f0a754325f4fd67b30b2498020b852e8e599a71c7729ae0f45de052/Flask-Static-Digest-0.3.0.tar.gz
+[2023-05-15 01:32:48] INFO root fetch - processPackages [zyncify]: executing diffoscope
+[2023-05-15 01:32:48] INFO root fetch - processPackages [zyncify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyncify-0.1.5-py2.py3-none-any.whl.zip tmp/zyncify-0.1.6-py2.py3-none-any.whl.zip --markdown 20230515/z/zyncify/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 01:32:48] INFO root fetch - processPackages [jira-select]: Downloading https://files.pythonhosted.org/packages/dc/c7/3a090fdaf8be37c617a80631f64c928bdb5e8b968b1276a089b1b7e1876e/jira-select-3.0.1.tar.gz
+[2023-05-15 01:32:49] INFO root fetch - processPackages [Flask-Static-Digest]: Downloading https://files.pythonhosted.org/packages/6b/8e/140ce439b7b02e55774d404f575b55b570ff4c5b2763e23d6992f16e7e6c/Flask-Static-Digest-0.4.0.tar.gz
+[2023-05-15 01:32:49] INFO root fetch - processPackages [jira-select]: executing diffoscope
+[2023-05-15 01:32:49] INFO root fetch - processPackages [jira-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira-select-3.0.0a2.tar.gz tmp/jira-select-3.0.1.tar.gz --markdown 20230515/j/jira-select/3.0.0a2-3.0.1/diff.md --exclude *.pyd
+[2023-05-15 01:32:49] INFO root fetch - processPackages [Flask-Static-Digest]: executing diffoscope
+[2023-05-15 01:32:49] INFO root fetch - processPackages [Flask-Static-Digest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Static-Digest-0.3.0.tar.gz tmp/Flask-Static-Digest-0.4.0.tar.gz --markdown 20230515/F/Flask-Static-Digest/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 01:32:49] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-15 01:32:49] INFO root fetch - main [MainThread]: End processing [zyncify]: success
+[2023-05-15 01:32:50] INFO root fetch - main [MainThread]: End processing [Flask-Static-Digest]: success
+[2023-05-15 01:32:50] INFO root fetch - main [MainThread]: End processing [jira-select]: success
+[2023-05-15 01:32:51] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-15 01:32:54] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-15 01:32:54] INFO root fetch - main [MainThread]: Store serial: [18100742]
