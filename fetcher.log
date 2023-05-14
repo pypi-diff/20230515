@@ -428,3 +428,43 @@
 [2023-05-15 00:56:24] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
 [2023-05-15 00:56:24] INFO root fetch - main [MainThread]: End processing [digitalpy]: success
 [2023-05-15 00:56:24] INFO root fetch - main [MainThread]: Store serial: [18100598]
+[2023-05-15 01:01:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100598]
+[2023-05-15 01:01:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 01:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdforest
+[2023-05-15 01:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: regis
+[2023-05-15 01:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devblaze
+[2023-05-15 01:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-llm
+[2023-05-15 01:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: relistats
+[2023-05-15 01:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devblaze
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 01:01:33] INFO root fetch - processPackages [mdforest]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 01:01:33] INFO root fetch - processPackages [python-llm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 01:01:33] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 01:01:33] INFO root fetch - processPackages [relistats]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 01:01:33] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-05-15 01:01:33] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230515/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 01:01:33] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/07/19/3f4da1433fddc8bf0bf3d8c82e180c9980ad1bcdc8625d5c3a0768af12ea/mdforest-0.2.0.tar.gz
+[2023-05-15 01:01:33] INFO root fetch - processPackages [python-llm]: Downloading https://files.pythonhosted.org/packages/29/a1/24f11d03dcbdb3b7e4d3d8212924421adb53ca6276d8b306ec8ba7654d37/python-llm-0.1.2.tar.gz
+[2023-05-15 01:01:33] INFO root fetch - processPackages [relistats]: Downloading https://files.pythonhosted.org/packages/51/ce/58faba5490c0f43fd73e624b128020376fca7bfda4c614c3e533a97ff980/relistats-1.0.0.tar.gz
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: Downloading https://files.pythonhosted.org/packages/5e/23/669b65976d2fd0f1c976b8020b8d3ea40e93607a5d4f0df81f0816b88c3d/devblaze-0.0.3.tar.gz
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: Downloading https://files.pythonhosted.org/packages/5e/23/669b65976d2fd0f1c976b8020b8d3ea40e93607a5d4f0df81f0816b88c3d/devblaze-0.0.3.tar.gz
+[2023-05-15 01:01:33] INFO root fetch - processPackages [python-llm]: executing diffoscope
+[2023-05-15 01:01:33] INFO root fetch - processPackages [python-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-llm-0.1.1.tar.gz tmp/python-llm-0.1.2.tar.gz --markdown 20230515/p/python-llm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 01:01:33] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/28/cd/6058973eb0f12d9b736d41b48bbd2dca90c1be3391bee26a492e25392787/mdforest-1.0.0.tar.gz
+[2023-05-15 01:01:33] INFO root fetch - processPackages [mdforest]: executing diffoscope
+[2023-05-15 01:01:33] INFO root fetch - processPackages [mdforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdforest-0.2.0.tar.gz tmp/mdforest-1.0.0.tar.gz --markdown 20230515/m/mdforest/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: executing diffoscope
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devblaze-0.0.2.tar.gz tmp/devblaze-0.0.3.tar.gz --markdown 20230515/d/devblaze/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: executing diffoscope
+[2023-05-15 01:01:33] INFO root fetch - processPackages [devblaze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devblaze-0.0.2.tar.gz tmp/devblaze-0.0.3.tar.gz --markdown 20230515/d/devblaze/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 01:01:34] INFO root fetch - processPackages [relistats]: Downloading https://files.pythonhosted.org/packages/de/d3/64750679925b4c86fd9348c6dcf99f16025d2a23e0d559a1195b39fc3c12/relistats-1.1.0.tar.gz
+[2023-05-15 01:01:34] INFO root fetch - processPackages [relistats]: executing diffoscope
+[2023-05-15 01:01:34] INFO root fetch - processPackages [relistats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relistats-1.0.0.tar.gz tmp/relistats-1.1.0.tar.gz --markdown 20230515/r/relistats/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 01:01:34] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-05-15 01:01:34] INFO root fetch - main [MainThread]: End processing [python-llm]: success
+[2023-05-15 01:01:35] INFO root fetch - main [MainThread]: End processing [mdforest]: success
+[2023-05-15 01:01:35] INFO root fetch - main [MainThread]: End processing [devblaze]: success
+[2023-05-15 01:01:35] INFO root fetch - main [MainThread]: End processing [devblaze]: success
+[2023-05-15 01:01:35] INFO root fetch - main [MainThread]: End processing [relistats]: success
+[2023-05-15 01:01:35] INFO root fetch - main [MainThread]: Store serial: [18100615]
