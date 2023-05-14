@@ -210,3 +210,38 @@
 [2023-05-15 00:19:44] INFO root fetch - main [MainThread]: End processing [discminer]: success
 [2023-05-15 00:19:46] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-05-15 00:19:46] INFO root fetch - main [MainThread]: Store serial: [18100474]
+[2023-05-15 00:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100474]
+[2023-05-15 00:24:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tomesd
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dartpy
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GrappyLfjv
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aij
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-gpt-copilot
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecida
+[2023-05-15 00:24:56] INFO root fetch - processPackages [tomesd]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ecida]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 00:24:56] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post87] Old Version: [0.1.0.post86]
+[2023-05-15 00:24:56] INFO root fetch - processPackages [keras-gpt-copilot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 00:24:56] WARNING root fetch - processPackages [GrappyLfjv]: Skipping, unable to determine old version
+[2023-05-15 00:24:56] INFO root fetch - main [MainThread]: End processing [GrappyLfjv] error
+[2023-05-15 00:24:56] INFO root fetch - processPackages [aij]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-15 00:24:56] INFO root fetch - processPackages [keras-gpt-copilot]: executing diffoscope
+[2023-05-15 00:24:56] INFO root fetch - processPackages [keras-gpt-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-gpt-copilot-0.1.0.tar.gz tmp/keras-gpt-copilot-0.1.1.tar.gz --markdown 20230515/k/keras-gpt-copilot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-15 00:24:56] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.5.tar.gz tmp/ecida-0.0.6.tar.gz --markdown 20230515/e/ecida/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 00:24:56] INFO root fetch - processPackages [tomesd]: Downloading https://files.pythonhosted.org/packages/f4/98/741c2556824ab7d23e0f585606fbdb45428f352623196acfcc299a090539/tomesd-0.1.2.tar.gz
+[2023-05-15 00:24:56] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/bb/63/239094fcb5c02fe68ca473120c4efaa3cfc411223958ef3eb95dac2060e8/dartpy-0.1.0.post86-cp39-cp39-win_amd64.whl
+[2023-05-15 00:24:56] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20010424>=10485760
+[2023-05-15 00:24:56] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-05-15 00:24:56] INFO root fetch - processPackages [aij]: Downloading https://files.pythonhosted.org/packages/61/86/01f3fe112dd6c1ffbad5b23fbb16a0ac3508c335b44c9a9540ee1b1ff319/aij-1.0.4.tar.gz
+[2023-05-15 00:24:57] INFO root fetch - processPackages [tomesd]: Downloading https://files.pythonhosted.org/packages/29/37/ed74c7449fe5a8a4726be3dab4d879d000babf6ea538658171933b1f000e/tomesd-0.1.3.tar.gz
+[2023-05-15 00:24:57] INFO root fetch - processPackages [tomesd]: executing diffoscope
+[2023-05-15 00:24:57] INFO root fetch - processPackages [tomesd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomesd-0.1.2.tar.gz tmp/tomesd-0.1.3.tar.gz --markdown 20230515/t/tomesd/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 00:24:57] INFO root fetch - processPackages [aij]: Downloading https://files.pythonhosted.org/packages/80/f8/23bf540f662a27050250b111dc9276ff0c100d2d3a17a7ff2f179af9cb1e/aij-1.0.5.tar.gz
+[2023-05-15 00:24:57] INFO root fetch - processPackages [aij]: executing diffoscope
+[2023-05-15 00:24:57] INFO root fetch - processPackages [aij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-1.0.4.tar.gz tmp/aij-1.0.5.tar.gz --markdown 20230515/a/aij/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-15 00:24:57] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-15 00:24:58] INFO root fetch - main [MainThread]: End processing [keras-gpt-copilot]: success
+[2023-05-15 00:24:58] INFO root fetch - main [MainThread]: End processing [tomesd]: success
+[2023-05-15 00:24:58] INFO root fetch - main [MainThread]: End processing [aij]: success
+[2023-05-15 00:24:58] INFO root fetch - main [MainThread]: Store serial: [18100515]
