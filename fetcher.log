@@ -738,3 +738,47 @@
 [2023-05-15 01:38:03] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.40-py3-none-any.whl.zip tmp/motion_python-0.1.41.tar.gz --markdown 20230515/m/motion-python/0.1.40-0.1.41/diff.md --exclude *.pyd
 [2023-05-15 01:38:04] INFO root fetch - main [MainThread]: End processing [motion-python]: success
 [2023-05-15 01:38:04] INFO root fetch - main [MainThread]: Store serial: [18100746]
+[2023-05-15 01:43:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100746]
+[2023-05-15 01:43:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ItsuBot
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythoncoloringpackageV1
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dry-scraper
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cliconfig
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-cron-expression-validator
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythoncoloringpackageV1
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ItsuBot]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-05-15 01:43:14] INFO root fetch - processPackages [aws-cron-expression-validator]: New version: [1.1.2] Old Version: [1.0.9]
+[2023-05-15 01:43:14] INFO root fetch - processPackages [cliconfig]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 01:43:14] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ItsuBot]: Downloading https://files.pythonhosted.org/packages/a4/74/a41bcbbe2701c7712b5ce203449f55c96dc9f659d28b4407a6986b53dab0/ItsuBot-3.4.7.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: Downloading https://files.pythonhosted.org/packages/8b/f4/fa872faedbd168134ce0fb53b9277376c11dc015e33276361d3687d42c7d/pythoncoloringpackageV1-1.0.0.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: Downloading https://files.pythonhosted.org/packages/8b/f4/fa872faedbd168134ce0fb53b9277376c11dc015e33276361d3687d42c7d/pythoncoloringpackageV1-1.0.0.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [aws-cron-expression-validator]: Downloading https://files.pythonhosted.org/packages/24/fd/e9d8514f1b8e456a705901fc5b768605a9f18be2b28306deb8e06d896644/aws_cron_expression_validator-1.0.9.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/f5/fb/0d3d853c1e8110326531b1073e450593c347f4314bd8151adf1944253f35/dry_scraper-0.1.3.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/ff/bb/f246189ab1ab5c26b8fa92957b1b17ded5ca232fb3f2638b4e23cf1d77cc/cliconfig-0.6.1.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-15 01:43:14] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.6.0.tar.gz tmp/cliconfig-0.6.1.tar.gz --markdown 20230515/c/cliconfig/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ItsuBot]: Downloading https://files.pythonhosted.org/packages/21/6e/34f510786218d123117334906fa6e2bb283afe24a8728d4f06cf859c8331/ItsuBot-3.4.8.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [aws-cron-expression-validator]: Downloading https://files.pythonhosted.org/packages/e0/bd/ee1598651c02e313c446fd2d7ab4220644178b02bba30d79c7e7c52c0212/aws_cron_expression_validator-1.1.2.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/b4/f5/f9edda8fd792095001041743c9ce53d884a4027f7b40a962e5e50a7e3a1f/dry_scraper-0.1.4.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: Downloading https://files.pythonhosted.org/packages/27/a7/bde7d0ba7973cd74cd44a667f932ff289ec137119457333546344349da6c/pythoncoloringpackageV1-1.1.0.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: Downloading https://files.pythonhosted.org/packages/27/a7/bde7d0ba7973cd74cd44a667f932ff289ec137119457333546344349da6c/pythoncoloringpackageV1-1.1.0.tar.gz
+[2023-05-15 01:43:14] INFO root fetch - processPackages [aws-cron-expression-validator]: executing diffoscope
+[2023-05-15 01:43:14] INFO root fetch - processPackages [aws-cron-expression-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cron_expression_validator-1.0.9.tar.gz tmp/aws_cron_expression_validator-1.1.2.tar.gz --markdown 20230515/a/aws-cron-expression-validator/1.0.9-1.1.2/diff.md --exclude *.pyd
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ItsuBot]: executing diffoscope
+[2023-05-15 01:43:14] INFO root fetch - processPackages [ItsuBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ItsuBot-3.4.7.tar.gz tmp/ItsuBot-3.4.8.tar.gz --markdown 20230515/I/ItsuBot/3.4.7-3.4.8/diff.md --exclude *.pyd
+[2023-05-15 01:43:14] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-05-15 01:43:14] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.3.tar.gz tmp/dry_scraper-0.1.4.tar.gz --markdown 20230515/d/dry-scraper/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: executing diffoscope
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncoloringpackageV1-1.0.0.tar.gz tmp/pythoncoloringpackageV1-1.1.0.tar.gz --markdown 20230515/p/pythoncoloringpackageV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: executing diffoscope
+[2023-05-15 01:43:14] INFO root fetch - processPackages [pythoncoloringpackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncoloringpackageV1-1.0.0.tar.gz tmp/pythoncoloringpackageV1-1.1.0.tar.gz --markdown 20230515/p/pythoncoloringpackageV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 01:43:15] INFO root fetch - main [MainThread]: End processing [aws-cron-expression-validator]: success
+[2023-05-15 01:43:15] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-05-15 01:43:15] INFO root fetch - main [MainThread]: End processing [pythoncoloringpackageV1]: success
+[2023-05-15 01:43:16] INFO root fetch - main [MainThread]: End processing [ItsuBot]: success
+[2023-05-15 01:43:16] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-15 01:43:16] INFO root fetch - main [MainThread]: End processing [pythoncoloringpackageV1]: success
+[2023-05-15 01:43:16] INFO root fetch - main [MainThread]: Store serial: [18100766]
