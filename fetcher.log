@@ -805,3 +805,26 @@
 [2023-05-15 01:48:25] INFO root fetch - main [MainThread]: End processing [cookiestream]: success
 [2023-05-15 01:48:26] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
 [2023-05-15 01:48:26] INFO root fetch - main [MainThread]: Store serial: [18100784]
+[2023-05-15 01:53:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100784]
+[2023-05-15 01:53:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-15 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dilib
+[2023-05-15 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trojanzoo
+[2023-05-15 01:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyairtable
+[2023-05-15 01:53:34] INFO root fetch - processPackages [dilib]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-15 01:53:34] INFO root fetch - processPackages [trojanzoo]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-15 01:53:34] INFO root fetch - processPackages [pyairtable]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-15 01:53:34] INFO root fetch - processPackages [dilib]: Downloading https://files.pythonhosted.org/packages/45/89/125b3a21b2031a4b116bdde6385a3ad9d2d2532bc4ff1e76e685fae5ea3e/dilib-0.4.2.tar.gz
+[2023-05-15 01:53:34] INFO root fetch - processPackages [trojanzoo]: Downloading https://files.pythonhosted.org/packages/65/3f/afe740899d056593f5c854fae78dbddc3dc69ab2d83b79663f276255880b/trojanzoo-2.0.1.tar.gz
+[2023-05-15 01:53:35] INFO root fetch - processPackages [trojanzoo]: executing diffoscope
+[2023-05-15 01:53:35] INFO root fetch - processPackages [trojanzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trojanzoo-2.0.0.tar.gz tmp/trojanzoo-2.0.1.tar.gz --markdown 20230515/t/trojanzoo/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-15 01:53:35] INFO root fetch - processPackages [dilib]: Downloading https://files.pythonhosted.org/packages/2c/27/5f61fdfff4d1bd5bf9e992b703e37b2edf3efacebd055262da0cb75b8489/dilib-0.4.3.tar.gz
+[2023-05-15 01:53:35] INFO root fetch - processPackages [pyairtable]: Downloading https://files.pythonhosted.org/packages/e5/b7/ae771301e29c69972b09bda8b516c670b65f28ac4a72d0d529d36da31c68/pyairtable-1.4.0.tar.gz
+[2023-05-15 01:53:35] INFO root fetch - processPackages [dilib]: executing diffoscope
+[2023-05-15 01:53:35] INFO root fetch - processPackages [dilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dilib-0.4.2.tar.gz tmp/dilib-0.4.3.tar.gz --markdown 20230515/d/dilib/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-15 01:53:35] INFO root fetch - processPackages [pyairtable]: Downloading https://files.pythonhosted.org/packages/66/31/2eb4ccabeb5d571a9e6d28fd137b8c9e9b660dcfd8cc643c4ec26007eb94/pyairtable-1.5.0.tar.gz
+[2023-05-15 01:53:35] INFO root fetch - processPackages [pyairtable]: executing diffoscope
+[2023-05-15 01:53:35] INFO root fetch - processPackages [pyairtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyairtable-1.4.0.tar.gz tmp/pyairtable-1.5.0.tar.gz --markdown 20230515/p/pyairtable/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-15 01:53:36] INFO root fetch - main [MainThread]: End processing [dilib]: success
+[2023-05-15 01:53:36] INFO root fetch - main [MainThread]: End processing [pyairtable]: success
+[2023-05-15 01:53:37] INFO root fetch - main [MainThread]: End processing [trojanzoo]: success
+[2023-05-15 01:53:37] INFO root fetch - main [MainThread]: Store serial: [18100793]
