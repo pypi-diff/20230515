@@ -468,3 +468,79 @@
 [2023-05-15 01:01:35] INFO root fetch - main [MainThread]: End processing [devblaze]: success
 [2023-05-15 01:01:35] INFO root fetch - main [MainThread]: End processing [relistats]: success
 [2023-05-15 01:01:35] INFO root fetch - main [MainThread]: Store serial: [18100615]
+[2023-05-15 01:06:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100615]
+[2023-05-15 01:06:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picopt
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mef-tools
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-gpt-copilot
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ooliver-botbase
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mdforest
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-llm
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-llm
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opengpt4
+[2023-05-15 01:06:45] INFO root fetch - processPackages [keras-gpt-copilot]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [mef-tools]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [picopt]: New version: [3.3.6] Old Version: [3.3.5]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [opengpt4]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [mdforest]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ooliver-botbase]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230514] Old Version: [0.7.0b20230513]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230514] Old Version: [0.7.0b20230513]
+[2023-05-15 01:06:45] INFO root fetch - processPackages [keras-gpt-copilot]: Downloading https://files.pythonhosted.org/packages/59/88/0df9c5b7e3ecb951b87bf920148bd114a672a12b811c04656f0f093f15c2/keras-gpt-copilot-0.1.2.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: Downloading https://files.pythonhosted.org/packages/54/9d/ac27dff9b923e28d8e6a3b122b702aa809190c736c759d702f32291a61fb/python-llm-0.1.3.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: Downloading https://files.pythonhosted.org/packages/54/9d/ac27dff9b923e28d8e6a3b122b702aa809190c736c759d702f32291a61fb/python-llm-0.1.3.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [opengpt4]: Downloading https://files.pythonhosted.org/packages/b1/ef/04ac3640bd6955aaef7310de5fdace877ef4a0413505ed6662fb6d3a072e/opengpt4-0.1.4.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [mef-tools]: Downloading https://files.pythonhosted.org/packages/70/89/bef6fe96651fece2014c20d9e862b05ae006ba29ab20be2629444aff9322/mef_tools-1.1.0.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/ac/fb/be5a560af6f116a3fd6f21b1ad082631c454e0f215f5a597f0f1728ec4b7/mdforest-1.0.1.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ooliver-botbase]: Downloading https://files.pythonhosted.org/packages/90/74/456cf44c692fc2c931e483c7509c0c30b5728d9a2be13f597ec453100ae5/ooliver_botbase-2.0.2.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/c2/cd/eb52c9c3104a52e46833dc2707187add6b4b1b9ec5a1bff7747b31f5202e/tmnt-0.7.0b20230514.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d4/6d/66382b3c1df91a71c6350c8aba77eda855f55475a456129de9db7f662536/tmnt-cu101-0.7.0b20230513.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [opengpt4]: executing diffoscope
+[2023-05-15 01:06:45] INFO root fetch - processPackages [opengpt4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengpt4-0.1.3.tar.gz tmp/opengpt4-0.1.4.tar.gz --markdown 20230515/o/opengpt4/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: Downloading https://files.pythonhosted.org/packages/69/27/6dcbca3b5b8ecf4079ab0b84f9d899a7307c36e24ffd5601e909639537d7/python-llm-0.1.4.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [keras-gpt-copilot]: Downloading https://files.pythonhosted.org/packages/be/c0/21e9c96e87f1c2ea6e5b8c510fc40d418a2ab8f083a892acbcec98fc0cef/keras-gpt-copilot-0.1.4.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [picopt]: Downloading https://files.pythonhosted.org/packages/24/00/5ce70e6d32a719a9dc68219e20274f90210f7af1debdd06ae26df0e3da1c/picopt-3.3.6.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: Downloading https://files.pythonhosted.org/packages/69/27/6dcbca3b5b8ecf4079ab0b84f9d899a7307c36e24ffd5601e909639537d7/python-llm-0.1.4.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [mdforest]: executing diffoscope
+[2023-05-15 01:06:45] INFO root fetch - processPackages [mdforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdforest-1.0.0.tar.gz tmp/mdforest-1.0.1.tar.gz --markdown 20230515/m/mdforest/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 01:06:45] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-15 01:06:45] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230513.tar.gz tmp/tmnt-0.7.0b20230514.tar.gz --markdown 20230515/t/tmnt/0.7.0b20230513-0.7.0b20230514/diff.md --exclude *.pyd
+[2023-05-15 01:06:45] INFO root fetch - processPackages [keras-gpt-copilot]: executing diffoscope
+[2023-05-15 01:06:45] INFO root fetch - processPackages [keras-gpt-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-gpt-copilot-0.1.2.tar.gz tmp/keras-gpt-copilot-0.1.4.tar.gz --markdown 20230515/k/keras-gpt-copilot/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 01:06:45] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/12/54/0356a86dc715c7861ce0e82c1e829c53dd454622aaeeb61ca36d61c6357a/tmnt-cu101-0.7.0b20230514.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [ooliver-botbase]: Downloading https://files.pythonhosted.org/packages/7a/6f/3b55fdcef5debbb795c74f99a0c89e77801d5f64f4613ab7561d00c3a279/ooliver_botbase-2.0.3.tar.gz
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: executing diffoscope
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-llm-0.1.3.tar.gz tmp/python-llm-0.1.4.tar.gz --markdown 20230515/p/python-llm/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: executing diffoscope
+[2023-05-15 01:06:45] INFO root fetch - processPackages [python-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-llm-0.1.3.tar.gz tmp/python-llm-0.1.4.tar.gz --markdown 20230515/p/python-llm/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 01:06:46] INFO root fetch - processPackages [picopt]: executing diffoscope
+[2023-05-15 01:06:46] INFO root fetch - processPackages [picopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopt-3.3.5.tar.gz tmp/picopt-3.3.6.tar.gz --markdown 20230515/p/picopt/3.3.5-3.3.6/diff.md --exclude *.pyd
+[2023-05-15 01:06:46] INFO root fetch - processPackages [mef-tools]: Downloading https://files.pythonhosted.org/packages/92/3b/35b76a6e5cac858514e61860f7908af5136e9b1cfec38495133b48cc41d1/mef_tools-1.2.0.tar.gz
+[2023-05-15 01:06:46] INFO root fetch - processPackages [mef-tools]: executing diffoscope
+[2023-05-15 01:06:46] INFO root fetch - processPackages [mef-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mef_tools-1.1.0.tar.gz tmp/mef_tools-1.2.0.tar.gz --markdown 20230515/m/mef-tools/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-15 01:06:46] INFO root fetch - processPackages [ooliver-botbase]: executing diffoscope
+[2023-05-15 01:06:46] INFO root fetch - processPackages [ooliver-botbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooliver_botbase-2.0.2.tar.gz tmp/ooliver_botbase-2.0.3.tar.gz --markdown 20230515/o/ooliver-botbase/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-15 01:06:46] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-15 01:06:46] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230513.tar.gz tmp/tmnt-cu101-0.7.0b20230514.tar.gz --markdown 20230515/t/tmnt-cu101/0.7.0b20230513-0.7.0b20230514/diff.md --exclude *.pyd
+[2023-05-15 01:06:47] INFO root fetch - processPackages [opengpt4]: Start processing: beets-filetote
+[2023-05-15 01:06:47] INFO root fetch - main [MainThread]: End processing [opengpt4]: success
+[2023-05-15 01:06:47] INFO root fetch - main [MainThread]: End processing [mdforest]: success
+[2023-05-15 01:06:47] INFO root fetch - processPackages [beets-filetote]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-15 01:06:47] INFO root fetch - processPackages [beets-filetote]: Downloading https://files.pythonhosted.org/packages/70/2c/f79318668175c9bd84a68a542a857fba21c3a861970fa30a0bd16133bbc6/beets_filetote-0.3.3.tar.gz
+[2023-05-15 01:06:47] INFO root fetch - main [MainThread]: End processing [keras-gpt-copilot]: success
+[2023-05-15 01:06:47] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-15 01:06:47] INFO root fetch - main [MainThread]: End processing [python-llm]: success
+[2023-05-15 01:06:47] INFO root fetch - main [MainThread]: End processing [python-llm]: success
+[2023-05-15 01:06:47] INFO root fetch - processPackages [beets-filetote]: Downloading https://files.pythonhosted.org/packages/ea/b6/706630eeeb30f944208f57abbe610336b2fef06738e7977bdac9d95368db/beets_filetote-0.4.0.tar.gz
+[2023-05-15 01:06:47] INFO root fetch - main [MainThread]: End processing [mef-tools]: success
+[2023-05-15 01:06:47] INFO root fetch - processPackages [beets-filetote]: executing diffoscope
+[2023-05-15 01:06:47] INFO root fetch - processPackages [beets-filetote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets_filetote-0.3.3.tar.gz tmp/beets_filetote-0.4.0.tar.gz --markdown 20230515/b/beets-filetote/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 01:06:48] INFO root fetch - main [MainThread]: End processing [ooliver-botbase]: success
+[2023-05-15 01:06:48] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-15 01:06:48] INFO root fetch - main [MainThread]: End processing [beets-filetote]: success
+[2023-05-15 01:06:50] INFO root fetch - main [MainThread]: End processing [picopt]: success
+[2023-05-15 01:06:50] INFO root fetch - main [MainThread]: Store serial: [18100646]
