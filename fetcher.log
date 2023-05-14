@@ -828,3 +828,42 @@
 [2023-05-15 01:53:36] INFO root fetch - main [MainThread]: End processing [pyairtable]: success
 [2023-05-15 01:53:37] INFO root fetch - main [MainThread]: End processing [trojanzoo]: success
 [2023-05-15 01:53:37] INFO root fetch - main [MainThread]: Store serial: [18100793]
+[2023-05-15 01:58:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100793]
+[2023-05-15 01:58:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leda
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyt-gpt
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ogl
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bashparser
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dinero
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkbox-api
+[2023-05-15 01:58:46] INFO root fetch - processPackages [bashparser]: New version: [0.9] Old Version: [0.8]
+[2023-05-15 01:58:46] INFO root fetch - processPackages [leda]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ogl]: New version: [0.70.26] Old Version: [0.70.25]
+[2023-05-15 01:58:46] INFO root fetch - processPackages [dinero]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-15 01:58:46] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 01:58:46] INFO root fetch - processPackages [checkbox-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 01:58:46] INFO root fetch - processPackages [ogl]: Downloading https://files.pythonhosted.org/packages/65/b0/3507e645a352e00a9ce0040e72a4d7951ba694fb21ccedbaa5865749c465/ogl-0.70.25.tar.gz
+[2023-05-15 01:58:46] INFO root fetch - processPackages [dinero]: Downloading https://files.pythonhosted.org/packages/4d/06/0560030237ac3846b9e60443f6638a218b6d9b625573bdf15438b71a34b6/dinero-0.1.8.tar.gz
+[2023-05-15 01:58:46] INFO root fetch - processPackages [leda]: Downloading https://files.pythonhosted.org/packages/76/f2/6f88db70f03b8bf045317112fb6c4295fecd6a658a33715c7ca4dd32f529/leda-0.4.0.tar.gz
+[2023-05-15 01:58:47] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/fa/a4/921d3a2548bdfda56584e84c06dde9c91bfa2975d4ccba4f39e70727d871/checkbox-api-0.1.8.tar.gz
+[2023-05-15 01:58:47] WARNING root fetch - processPackages [leda]: Skipping package: exceeds size limit 90708873>=10485760
+[2023-05-15 01:58:47] INFO root fetch - main [MainThread]: End processing [leda] error
+[2023-05-15 01:58:47] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-15 01:58:47] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230515/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 01:58:47] INFO root fetch - processPackages [bashparser]: executing diffoscope
+[2023-05-15 01:58:47] INFO root fetch - processPackages [bashparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bashparser-0.8.tar.gz tmp/bashparser-0.9.tar.gz --markdown 20230515/b/bashparser/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-15 01:58:47] INFO root fetch - processPackages [dinero]: Downloading https://files.pythonhosted.org/packages/b5/d6/e737be7e4d6dfe83b6191bf56fadbcae2cb0fb8aba52d0455fb54e2e8f19/dinero-0.2.0.tar.gz
+[2023-05-15 01:58:47] INFO root fetch - processPackages [dinero]: executing diffoscope
+[2023-05-15 01:58:47] INFO root fetch - processPackages [dinero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinero-0.1.8.tar.gz tmp/dinero-0.2.0.tar.gz --markdown 20230515/d/dinero/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 01:58:47] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/82/96/934852a545753a06db2ca1d938b3f6397c35c18ef658c5f4780ce5eb2836/checkbox-api-0.1.9.tar.gz
+[2023-05-15 01:58:47] INFO root fetch - processPackages [checkbox-api]: executing diffoscope
+[2023-05-15 01:58:47] INFO root fetch - processPackages [checkbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkbox-api-0.1.8.tar.gz tmp/checkbox-api-0.1.9.tar.gz --markdown 20230515/c/checkbox-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 01:58:47] INFO root fetch - processPackages [ogl]: Downloading https://files.pythonhosted.org/packages/6d/20/f765c46858d65c8c5351397d10691b243627435d409f66562e60f32d27f1/ogl-0.70.26.tar.gz
+[2023-05-15 01:58:47] INFO root fetch - processPackages [ogl]: executing diffoscope
+[2023-05-15 01:58:47] INFO root fetch - processPackages [ogl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogl-0.70.25.tar.gz tmp/ogl-0.70.26.tar.gz --markdown 20230515/o/ogl/0.70.25-0.70.26/diff.md --exclude *.pyd
+[2023-05-15 01:58:48] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-15 01:58:48] INFO root fetch - main [MainThread]: End processing [bashparser]: success
+[2023-05-15 01:58:48] INFO root fetch - main [MainThread]: End processing [checkbox-api]: success
+[2023-05-15 01:58:48] INFO root fetch - main [MainThread]: End processing [dinero]: success
+[2023-05-15 01:58:48] INFO root fetch - main [MainThread]: End processing [ogl]: success
+[2023-05-15 01:58:48] INFO root fetch - main [MainThread]: Store serial: [18100810]
