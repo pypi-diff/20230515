@@ -653,3 +653,38 @@
 [2023-05-15 01:22:26] INFO root fetch - main [MainThread]: End processing [pipetool]: success
 [2023-05-15 01:22:28] INFO root fetch - main [MainThread]: End processing [truss]: success
 [2023-05-15 01:22:28] INFO root fetch - main [MainThread]: Store serial: [18100700]
+[2023-05-15 01:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100700]
+[2023-05-15 01:27:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctransformers
+[2023-05-15 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comicbox
+[2023-05-15 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ia-wumpus
+[2023-05-15 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solverpy
+[2023-05-15 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ia-wumpus
+[2023-05-15 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cashfree-lrs-client
+[2023-05-15 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opengpt4
+[2023-05-15 01:27:38] WARNING root fetch - processPackages [ia-wumpus]: Skipping, unable to determine old version
+[2023-05-15 01:27:38] INFO root fetch - main [MainThread]: End processing [ia-wumpus] error
+[2023-05-15 01:27:38] INFO root fetch - processPackages [cashfree-lrs-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 01:27:38] WARNING root fetch - processPackages [ia-wumpus]: Skipping, unable to determine old version
+[2023-05-15 01:27:38] WARNING root fetch - processPackages [ctransformers]: Skipping, unable to determine old version
+[2023-05-15 01:27:38] INFO root fetch - main [MainThread]: End processing [ia-wumpus] error
+[2023-05-15 01:27:38] INFO root fetch - main [MainThread]: End processing [ctransformers] error
+[2023-05-15 01:27:38] INFO root fetch - processPackages [opengpt4]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 01:27:38] INFO root fetch - processPackages [comicbox]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-15 01:27:38] INFO root fetch - processPackages [solverpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 01:27:38] INFO root fetch - processPackages [cashfree-lrs-client]: executing diffoscope
+[2023-05-15 01:27:38] INFO root fetch - processPackages [cashfree-lrs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_lrs_client-1.0.8.tar.gz tmp/cashfree_lrs_client-1.0.9.tar.gz --markdown 20230515/c/cashfree-lrs-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 01:27:38] INFO root fetch - processPackages [solverpy]: Downloading https://files.pythonhosted.org/packages/31/75/bb215e623cf06944ab607f96530388a949c8de930a333f064f084f106a87/solverpy-0.1.0.tar.gz
+[2023-05-15 01:27:38] INFO root fetch - processPackages [comicbox]: Downloading https://files.pythonhosted.org/packages/55/e7/29b0e30aabcf1e230ef035df8326fcb3076bf1072726780e1623dc76bf18/comicbox-0.7.0.tar.gz
+[2023-05-15 01:27:38] INFO root fetch - processPackages [opengpt4]: Downloading https://files.pythonhosted.org/packages/f7/8b/e4cf7c2d8ea436a6b9cb35e1af2eb5bfb7ae625f19cbc86bb11223f4eb1f/opengpt4-0.1.5.tar.gz
+[2023-05-15 01:27:38] INFO root fetch - processPackages [opengpt4]: executing diffoscope
+[2023-05-15 01:27:38] INFO root fetch - processPackages [opengpt4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengpt4-0.1.4.tar.gz tmp/opengpt4-0.1.5.tar.gz --markdown 20230515/o/opengpt4/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 01:27:38] WARNING root fetch - processPackages [comicbox]: Skipping package: exceeds size limit 78947953>=10485760
+[2023-05-15 01:27:38] INFO root fetch - main [MainThread]: End processing [comicbox] error
+[2023-05-15 01:27:38] INFO root fetch - processPackages [solverpy]: Downloading https://files.pythonhosted.org/packages/1f/d8/0027f6fdac3aaedc4e7a3237d4c9ab9a34374f3f0edd3c3d1a08b2cee715/solverpy-0.1.1.tar.gz
+[2023-05-15 01:27:38] INFO root fetch - processPackages [solverpy]: executing diffoscope
+[2023-05-15 01:27:38] INFO root fetch - processPackages [solverpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solverpy-0.1.0.tar.gz tmp/solverpy-0.1.1.tar.gz --markdown 20230515/s/solverpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 01:27:39] INFO root fetch - main [MainThread]: End processing [opengpt4]: success
+[2023-05-15 01:27:40] INFO root fetch - main [MainThread]: End processing [solverpy]: success
+[2023-05-15 01:27:40] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
+[2023-05-15 01:27:40] INFO root fetch - main [MainThread]: Store serial: [18100722]
