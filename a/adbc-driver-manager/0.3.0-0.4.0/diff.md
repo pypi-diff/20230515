@@ -1,9 +1,9 @@
-# Comparing `tmp/adbc_driver_manager-0.3.0-cp39-cp39-win_amd64.whl.zip` & `tmp/adbc_driver_manager-0.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip`
+# Comparing `tmp/adbc_driver_manager-0.3.0-cp39-cp39-win_amd64.whl.zip` & `tmp/adbc_driver_manager-0.4.0-cp39-cp39-win_amd64.whl.zip`
 
 ## zipinfo {}
 
 ```diff
-@@ -1,21 +1,20 @@
+@@ -1,21 +1,21 @@
 -Zip file size: 447329 bytes, number of entries: 19
 --rw-rw-rw-  2.0 fat    49487 b- defN 23-Mar-16 23:17 adbc_driver_manager/adbc.h
 --rw-rw-rw-  2.0 fat    30449 b- defN 23-Mar-16 23:17 adbc_driver_manager/adbc_driver_manager.cc
@@ -25,115 +25,80 @@
 --rw-rw-rw-  2.0 fat   306688 b- defN 23-Mar-16 23:17 adbc_driver_manager.libs/concrt140-f127dce24c423eb7d9ed01a1d59824c6.dll
 --rw-rw-rw-  2.0 fat   611328 b- defN 23-Mar-16 23:17 adbc_driver_manager.libs/msvcp140-d8d8c3a94a10e2587fb163777039c39f.dll
 -19 files, 1299659 bytes uncompressed, 444211 bytes compressed:  65.8%
-+Zip file size: 610736 bytes, number of entries: 18
-+drwxr-xr-x  2.0 unx        0 b- stor 23-May-08 19:11 adbc_driver_manager/
-+drwxr-xr-x  2.0 unx        0 b- stor 23-May-08 19:11 adbc_driver_manager-0.4.0.dist-info/
-+drwxr-xr-x  2.0 unx        0 b- stor 23-May-08 19:11 adbc_driver_manager.libs/
-+-rw-r--r--  2.0 unx    36290 b- defN 23-May-08 19:11 adbc_driver_manager/_lib.pyx
-+-rw-r--r--  2.0 unx    29691 b- defN 23-May-08 19:11 adbc_driver_manager/dbapi.py
-+-rw-r--r--  2.0 unx    30449 b- defN 23-May-08 19:11 adbc_driver_manager/adbc_driver_manager.cc
-+-rwxr-xr-x  2.0 unx  2090968 b- defN 23-May-08 19:11 adbc_driver_manager/_lib.cpython-310-aarch64-linux-gnu.so
-+-rw-r--r--  2.0 unx     3188 b- defN 23-May-08 19:11 adbc_driver_manager/__init__.py
-+-rw-r--r--  2.0 unx       60 b- defN 23-May-08 19:11 adbc_driver_manager/_static_version.py
-+-rw-r--r--  2.0 unx    49487 b- defN 23-May-08 19:11 adbc_driver_manager/adbc.h
-+-rw-r--r--  2.0 unx     7108 b- defN 23-May-08 19:11 adbc_driver_manager/_version.py
-+-rw-r--r--  2.0 unx     3460 b- defN 23-May-08 19:11 adbc_driver_manager/adbc_driver_manager.h
-+-rw-r--r--  2.0 unx      644 b- defN 23-May-08 19:11 adbc_driver_manager-0.4.0.dist-info/METADATA
-+-rw-r--r--  2.0 unx    68958 b- defN 23-May-08 19:11 adbc_driver_manager-0.4.0.dist-info/LICENSE.txt
-+-rw-r--r--  2.0 unx       20 b- defN 23-May-08 19:11 adbc_driver_manager-0.4.0.dist-info/top_level.txt
-+-rw-rw-r--  2.0 unx     1408 b- defN 23-May-08 19:11 adbc_driver_manager-0.4.0.dist-info/RECORD
-+-rw-r--r--  2.0 unx      166 b- defN 23-May-08 19:11 adbc_driver_manager-0.4.0.dist-info/NOTICE.txt
-+-rw-r--r--  2.0 unx      154 b- defN 23-May-08 19:11 adbc_driver_manager-0.4.0.dist-info/WHEEL
-+18 files, 2322051 bytes uncompressed, 608002 bytes compressed:  73.8%
++Zip file size: 449571 bytes, number of entries: 19
++-rw-rw-rw-  2.0 fat    49487 b- defN 23-May-08 18:58 adbc_driver_manager/adbc.h
++-rw-rw-rw-  2.0 fat    30449 b- defN 23-May-08 18:58 adbc_driver_manager/adbc_driver_manager.cc
++-rw-rw-rw-  2.0 fat     3460 b- defN 23-May-08 18:58 adbc_driver_manager/adbc_driver_manager.h
++-rw-rw-rw-  2.0 fat    29691 b- defN 23-May-08 18:58 adbc_driver_manager/dbapi.py
++-rw-rw-rw-  2.0 fat   177664 b- defN 23-May-08 18:58 adbc_driver_manager/_lib.cp39-win_amd64.pyd
++-rw-rw-rw-  2.0 fat    36290 b- defN 23-May-08 18:58 adbc_driver_manager/_lib.pyx
++-rw-rw-rw-  2.0 fat       62 b- defN 23-May-08 18:58 adbc_driver_manager/_static_version.py
++-rw-rw-rw-  2.0 fat     7108 b- defN 23-May-08 18:58 adbc_driver_manager/_version.py
++-rw-rw-rw-  2.0 fat     4501 b- defN 23-May-08 18:58 adbc_driver_manager/__init__.py
++-rw-rw-rw-  2.0 fat      197 b- defN 23-May-08 18:58 adbc_driver_manager-0.4.0.dist-info/DELVEWHEEL
++-rw-rw-rw-  2.0 fat    68958 b- defN 23-May-08 18:58 adbc_driver_manager-0.4.0.dist-info/LICENSE.txt
++-rw-rw-rw-  2.0 fat      663 b- defN 23-May-08 18:58 adbc_driver_manager-0.4.0.dist-info/METADATA
++-rw-rw-rw-  2.0 fat      166 b- defN 23-May-08 18:58 adbc_driver_manager-0.4.0.dist-info/NOTICE.txt
++-rw-rw-rw-  2.0 fat     1856 b- defN 23-May-08 18:58 adbc_driver_manager-0.4.0.dist-info/RECORD
++-rw-rw-rw-  2.0 fat       20 b- defN 23-May-08 18:58 adbc_driver_manager-0.4.0.dist-info/top_level.txt
++-rw-rw-rw-  2.0 fat      100 b- defN 23-May-08 18:58 adbc_driver_manager-0.4.0.dist-info/WHEEL
++-rw-rw-rw-  2.0 fat       93 b- defN 23-May-08 18:58 adbc_driver_manager.libs/.load-order-adbc_driver_manager-0.4.0
++-rw-rw-rw-  2.0 fat   306688 b- defN 23-May-08 18:58 adbc_driver_manager.libs/concrt140-f127dce24c423eb7d9ed01a1d59824c6.dll
++-rw-rw-rw-  2.0 fat   611328 b- defN 23-May-08 18:58 adbc_driver_manager.libs/msvcp140-20386bd4d6207e564a09ddc65ce3644c.dll
++19 files, 1328781 bytes uncompressed, 446453 bytes compressed:  66.4%
 ```
 
 ## zipnote {}
 
 ```diff
-@@ -1,58 +1,55 @@
--Filename: adbc_driver_manager/adbc.h
--Comment: 
--
--Filename: adbc_driver_manager/adbc_driver_manager.cc
-+Filename: adbc_driver_manager/
- Comment: 
+@@ -21,38 +21,38 @@
  
--Filename: adbc_driver_manager/adbc_driver_manager.h
-+Filename: adbc_driver_manager-0.4.0.dist-info/
- Comment: 
- 
--Filename: adbc_driver_manager/dbapi.py
-+Filename: adbc_driver_manager.libs/
- Comment: 
- 
--Filename: adbc_driver_manager/_lib.cp39-win_amd64.pyd
-+Filename: adbc_driver_manager/_lib.pyx
- Comment: 
- 
--Filename: adbc_driver_manager/_lib.pyx
-+Filename: adbc_driver_manager/dbapi.py
- Comment: 
- 
--Filename: adbc_driver_manager/_static_version.py
-+Filename: adbc_driver_manager/adbc_driver_manager.cc
- Comment: 
- 
--Filename: adbc_driver_manager/_version.py
-+Filename: adbc_driver_manager/_lib.cpython-310-aarch64-linux-gnu.so
+ Filename: adbc_driver_manager/_version.py
  Comment: 
  
  Filename: adbc_driver_manager/__init__.py
  Comment: 
  
 -Filename: adbc_driver_manager-0.3.0.dist-info/DELVEWHEEL
-+Filename: adbc_driver_manager/_static_version.py
++Filename: adbc_driver_manager-0.4.0.dist-info/DELVEWHEEL
  Comment: 
  
 -Filename: adbc_driver_manager-0.3.0.dist-info/LICENSE.txt
-+Filename: adbc_driver_manager/adbc.h
- Comment: 
- 
--Filename: adbc_driver_manager-0.3.0.dist-info/METADATA
-+Filename: adbc_driver_manager/_version.py
- Comment: 
- 
--Filename: adbc_driver_manager-0.3.0.dist-info/NOTICE.txt
-+Filename: adbc_driver_manager/adbc_driver_manager.h
- Comment: 
- 
--Filename: adbc_driver_manager-0.3.0.dist-info/RECORD
-+Filename: adbc_driver_manager-0.4.0.dist-info/METADATA
- Comment: 
- 
--Filename: adbc_driver_manager-0.3.0.dist-info/top_level.txt
 +Filename: adbc_driver_manager-0.4.0.dist-info/LICENSE.txt
  Comment: 
  
--Filename: adbc_driver_manager-0.3.0.dist-info/WHEEL
-+Filename: adbc_driver_manager-0.4.0.dist-info/top_level.txt
+-Filename: adbc_driver_manager-0.3.0.dist-info/METADATA
++Filename: adbc_driver_manager-0.4.0.dist-info/METADATA
  Comment: 
  
--Filename: adbc_driver_manager.libs/.load-order-adbc_driver_manager-0.3.0
-+Filename: adbc_driver_manager-0.4.0.dist-info/RECORD
- Comment: 
- 
--Filename: adbc_driver_manager.libs/concrt140-f127dce24c423eb7d9ed01a1d59824c6.dll
+-Filename: adbc_driver_manager-0.3.0.dist-info/NOTICE.txt
 +Filename: adbc_driver_manager-0.4.0.dist-info/NOTICE.txt
  Comment: 
  
--Filename: adbc_driver_manager.libs/msvcp140-d8d8c3a94a10e2587fb163777039c39f.dll
+-Filename: adbc_driver_manager-0.3.0.dist-info/RECORD
++Filename: adbc_driver_manager-0.4.0.dist-info/RECORD
+ Comment: 
+ 
+-Filename: adbc_driver_manager-0.3.0.dist-info/top_level.txt
++Filename: adbc_driver_manager-0.4.0.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: adbc_driver_manager-0.3.0.dist-info/WHEEL
 +Filename: adbc_driver_manager-0.4.0.dist-info/WHEEL
  Comment: 
  
+-Filename: adbc_driver_manager.libs/.load-order-adbc_driver_manager-0.3.0
++Filename: adbc_driver_manager.libs/.load-order-adbc_driver_manager-0.4.0
+ Comment: 
+ 
+ Filename: adbc_driver_manager.libs/concrt140-f127dce24c423eb7d9ed01a1d59824c6.dll
+ Comment: 
+ 
+-Filename: adbc_driver_manager.libs/msvcp140-d8d8c3a94a10e2587fb163777039c39f.dll
++Filename: adbc_driver_manager.libs/msvcp140-20386bd4d6207e564a09ddc65ce3644c.dll
+ Comment: 
+ 
  Zip file comment:
-```
-
-## filetype from file(1)
-
-```diff
-@@ -1 +1 @@
--Zip archive data, at least v2.0 to extract, compression method=deflate
-+Zip archive data, at least v2.0 to extract, compression method=store
 ```
 
 ## adbc_driver_manager/dbapi.py
@@ -300,31 +265,30 @@
 
 ```diff
 @@ -1,2 +1,2 @@
--# This file has been created by setup.py.
+ # This file has been created by setup.py.
 -version = '0.3.0'
-+# This file has been created by setup.py.
 +version = '0.4.0'
 ```
 
 ## adbc_driver_manager/__init__.py
 
 ```diff
-@@ -18,38 +18,14 @@
- """Low-level ADBC bindings for Python.
- 
+@@ -20,32 +20,38 @@
  The root module provides a fairly direct, 1:1 mapping to the C API
  definitions in Python.  For a higher-level interface, use
  :mod:`adbc_driver_manager.dbapi`.  (This requires PyArrow.)
  """
  
--
--# start delvewheel patch
+ 
+ # start delvewheel patch
 -def _delvewheel_init_patch_1_3_4():
--    import ctypes
--    import os
--    import sys
--    libs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'adbc_driver_manager.libs'))
--    is_pyinstaller = getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')
++def _delvewheel_init_patch_1_3_6():
+     import ctypes
+     import os
++    import platform
+     import sys
+     libs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'adbc_driver_manager.libs'))
+     is_pyinstaller = getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')
 -    load_order_filepath = os.path.join(libs_dir, '.load-order-adbc_driver_manager-0.3.0')
 -    if not is_pyinstaller or os.path.isfile(load_order_filepath):
 -        with open(os.path.join(libs_dir, '.load-order-adbc_driver_manager-0.3.0')) as file:
@@ -333,31 +297,132 @@
 -            lib_path = os.path.join(libs_dir, lib)
 -            if not is_pyinstaller or os.path.isfile(lib_path):
 -                ctypes.WinDLL(lib_path)
--
--
++    is_conda_cpython = platform.python_implementation() == 'CPython' and (hasattr(ctypes.pythonapi, 'Anaconda_GetVersion') or 'packaged by conda-forge' in sys.version)
++    if sys.version_info[:2] >= (3, 8) and not is_conda_cpython or sys.version_info[:2] >= (3, 10):
++        if not is_pyinstaller or os.path.isdir(libs_dir):
++            os.add_dll_directory(libs_dir)
++    else:
++        load_order_filepath = os.path.join(libs_dir, '.load-order-adbc_driver_manager-0.4.0')
++        if not is_pyinstaller or os.path.isfile(load_order_filepath):
++            with open(os.path.join(libs_dir, '.load-order-adbc_driver_manager-0.4.0')) as file:
++                load_order = file.read().split()
++            for lib in load_order:
++                lib_path = os.path.join(os.path.join(libs_dir, lib))
++                if not is_pyinstaller or os.path.isfile(lib_path):
++                    ctypes.WinDLL(lib_path)
+ 
+ 
 -_delvewheel_init_patch_1_3_4()
 -del _delvewheel_init_patch_1_3_4
--# end delvewheel patch
--
--
--
++_delvewheel_init_patch_1_3_6()
++del _delvewheel_init_patch_1_3_6
+ # end delvewheel patch
+ 
+ 
+ 
  import enum
  
  from ._lib import (
-     INGEST_OPTION_MODE,
-     INGEST_OPTION_MODE_APPEND,
-     INGEST_OPTION_MODE_CREATE,
-     INGEST_OPTION_TARGET_TABLE,
-@@ -133,8 +109,8 @@
+```
+
+## adbc_driver_manager.libs/concrt140-f127dce24c423eb7d9ed01a1d59824c6.dll
+
+### objdump
+
+```diff
+@@ -25,15 +25,15 @@
+ MajorImageVersion	10
+ MinorImageVersion	0
+ MajorSubsystemVersion	6
+ MinorSubsystemVersion	0
+ Win32Version		00000000
+ SizeOfImage		0004e000
+ SizeOfHeaders		00000400
+-CheckSum		00059f97
++CheckSum		0005391d
+ Subsystem		00000003	(Windows CUI)
+ DllCharacteristics	00004160
+ 					HIGH_ENTROPY_VA
+ 					DYNAMIC_BASE
+ 					NX_COMPAT
+ 					GUARD_CF
+ SizeOfStackReserve	0000000000100000
+@@ -64,15 +64,15 @@
+ There is an import table in .rdata at 0x180042bbc
  
-     Not all drivers support all options.
-     """
+ The Import Tables (interpreted .rdata section contents)
+  vma:            Hint    Time      Forward  DLL       First
+                  Table   Stamp     Chain    Name      Thunk
+  00042bbc	00042f20 00000000 00000000 00043dc6 0002f298
  
-     #: For bulk ingestion, whether to create or append to the table.
-     INGEST_MODE = INGEST_OPTION_MODE
-     #: For bulk ingestion, the table to ingest into.
--    INGEST_TARGET_TABLE = INGEST_OPTION_TARGET_TABLE
-+    INGEST_TARGET_TABLE = INGEST_OPTION_TARGET_TABLE
+-	DLL Name: msvcp140-d8d8c3a94a10e2587fb163777039c39f.dll
++	DLL Name: msvcp140-20386bd4d6207e564a09ddc65ce3644c.dll
+ 	vma:  Hint/Ord Member-Name Bound-To
+ 	43118	  652  ?_Xbad_function_call@std@@YAXXZ
+ 	4313a	  398  ?GetCurrentThreadId@platform@details@Concurrency@@YAJXZ
+ 	43174	 1412  _Mtx_init_in_situ
+ 	43188	 1409  _Mtx_destroy_in_situ
+ 	431a0	 1413  _Mtx_lock
+ 	431ac	 1417  _Mtx_unlock
+@@ -10857,17 +10857,17 @@
+ 	  69c0: 51 75 65 72 79 50 65 72 66 6f 72 6d 61 6e 63 65
+ 	  69d0: 43 6f 75 6e 74 65 72 00 2b 02 47 65 74 43 75 72
+ 	  69e0: 72 65 6e 74 50 72 6f 63 65 73 73 49 64 00 01 03
+ 	  69f0: 47 65 74 53 79 73 74 65 6d 54 69 6d 65 41 73 46
+ 	  6a00: 69 6c 65 54 69 6d 65 00 2c 01 44 69 73 61 62 6c
+ 	  6a10: 65 54 68 72 65 61 64 4c 69 62 72 61 72 79 43 61
+ 	  6a20: 6c 6c 73 00 4b 45 52 4e 45 4c 33 32 2e 64 6c 6c
+-	  6a30: 00 00 6d 73 76 63 70 31 34 30 2d 64 38 64 38 63
+-	  6a40: 33 61 39 34 61 31 30 65 32 35 38 37 66 62 31 36
+-	  6a50: 33 37 37 37 30 33 39 63 33 39 66 2e 64 6c 6c 00
++	  6a30: 00 00 6d 73 76 63 70 31 34 30 2d 32 30 33 38 36
++	  6a40: 62 64 34 64 36 32 30 37 65 35 36 34 61 30 39 64
++	  6a50: 64 63 36 35 63 65 33 36 34 34 63 2e 64 6c 6c 00
+  0000000180039cec (rva: 00039cec): 000000018002d480 - 000000018002d4a3
+ 	Version: 1, Flags: none
+ 	Nbr codes: 1, Prologue size: 0x04, Frame offset: 0x0, Frame reg: none
+ 	  pc+0x04: alloc small area: rsp = rsp - 0x28
+  0000000180039cec also used for function at 000000018002d4c8
+  0000000180039cc8 (rva: 00039cc8): 000000018002d4ec - 000000018002d528
+ 	Version: 1, Flags: none
+@@ -99901,27 +99901,24 @@
+    180043dc0:	cs fs insb (%dx),%es:(%rdi)
+    180043dc3:	insb   (%dx),%es:(%rdi)
+    180043dc4:	add    %al,(%rax)
+    180043dc6:	insl   (%dx),%es:(%rdi)
+    180043dc7:	jae    0x180043e3f
+    180043dc9:	movsxd 0x31(%rax),%esi
+    180043dcc:	xor    $0x30,%al
+-   180043dce:	sub    $0x38643864,%eax
+-   180043dd3:	movsxd (%rbx),%esi
+-   180043dd5:	(bad)
+-   180043dd6:	cmp    %esi,(%rcx,%riz,2)
+-   180043dd9:	xor    %esi,(%rax)
+-   180043ddb:	xor    %gs:0x62663738(%rip),%dh        # 0x1e26a751a
+-   180043de2:	xor    %esi,(%rsi)
+-   180043de4:	xor    (%rdi),%esi
+-   180043de6:	(bad)
+-   180043de7:	(bad)
+-   180043de8:	xor    %dh,(%rbx)
+-   180043dea:	cmp    %esp,0x33(%rbx)
+-   180043ded:	cmp    %esp,0x2e(%rsi)
++   180043dce:	sub    $0x38333032,%eax
++   180043dd3:	ss (bad)
++   180043dd5:	fs xor $0x64,%al
++   180043dd8:	ss xor (%rax),%dh
++   180043ddb:	(bad)
++   180043ddc:	gs xor $0x30613436,%eax
++   180043de2:	cmp    %esp,0x63(%rsp,%riz,2)
++   180043de6:	ss xor $0x36336563,%eax
++   180043dec:	xor    $0x34,%al
++   180043dee:	movsxd (%rsi),%ebp
+    180043df0:	fs insb (%dx),%es:(%rdi)
+    180043df2:	insb   (%dx),%es:(%rdi)
+ 	...
+ 
+ Disassembly of section .data:
+ 
+ 0000000180044000 <.data>:
 ```
 
 ## Comparing `adbc_driver_manager-0.3.0.dist-info/LICENSE.txt` & `adbc_driver_manager-0.4.0.dist-info/LICENSE.txt`
@@ -1123,47 +1188,66 @@
 
 ## Comparing `adbc_driver_manager-0.3.0.dist-info/METADATA` & `adbc_driver_manager-0.4.0.dist-info/METADATA`
 
- * *Files 23% similar despite different names*
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: adbc-driver-manager
+-Version: 0.3.0
++Version: 0.4.0
+ Summary: A generic entrypoint for ADBC drivers.
+ Author-email: Apache Arrow Developers <dev@arrow.apache.org>
+ License: Apache-2.0
+ Project-URL: homepage, https://arrow.apache.org
+ Project-URL: repository, https://github.com/apache/arrow-adbc
+ Requires-Python: >=3.9
+ License-File: LICENSE.txt
+```
+
+## Comparing `adbc_driver_manager-0.3.0.dist-info/RECORD` & `adbc_driver_manager-0.4.0.dist-info/RECORD`
+
+ * *Files 26% similar despite different names*
 
 ```diff
 @@ -1,19 +1,19 @@
--Metadata-Version: 2.1
--Name: adbc-driver-manager
--Version: 0.3.0
--Summary: A generic entrypoint for ADBC drivers.
--Author-email: Apache Arrow Developers <dev@arrow.apache.org>
--License: Apache-2.0
--Project-URL: homepage, https://arrow.apache.org
--Project-URL: repository, https://github.com/apache/arrow-adbc
--Requires-Python: >=3.9
--License-File: LICENSE.txt
--License-File: NOTICE.txt
--Provides-Extra: dbapi
--Requires-Dist: pandas ; extra == 'dbapi'
--Requires-Dist: pyarrow (>=8.0.0) ; extra == 'dbapi'
--Provides-Extra: test
--Requires-Dist: pandas ; extra == 'test'
--Requires-Dist: pyarrow (>=8.0.0) ; extra == 'test'
--Requires-Dist: pytest ; extra == 'test'
--
-+Metadata-Version: 2.1
-+Name: adbc-driver-manager
-+Version: 0.4.0
-+Summary: A generic entrypoint for ADBC drivers.
-+Author-email: Apache Arrow Developers <dev@arrow.apache.org>
-+License: Apache-2.0
-+Project-URL: homepage, https://arrow.apache.org
-+Project-URL: repository, https://github.com/apache/arrow-adbc
-+Requires-Python: >=3.9
-+License-File: LICENSE.txt
-+License-File: NOTICE.txt
-+Provides-Extra: dbapi
-+Requires-Dist: pandas ; extra == 'dbapi'
-+Requires-Dist: pyarrow (>=8.0.0) ; extra == 'dbapi'
-+Provides-Extra: test
-+Requires-Dist: pandas ; extra == 'test'
-+Requires-Dist: pyarrow (>=8.0.0) ; extra == 'test'
-+Requires-Dist: pytest ; extra == 'test'
-+
+ adbc_driver_manager/adbc.h,sha256=rbbq_wSalWjAw2j_cTjmfutV3jsBy9GtEA0EMjBAXDo,49487
+ adbc_driver_manager/adbc_driver_manager.cc,sha256=n2jLKmYz9IhLc3Fy96lZoXs74oILD-H_ta9UAhgvZ2s,30449
+ adbc_driver_manager/adbc_driver_manager.h,sha256=pBD2H0s26sGcYcmohsGdYMOOKx02_FAUg5O1eULoFvY,3460
+-adbc_driver_manager/dbapi.py,sha256=x9fvwrPhLL-B4oapntIQMjDX0s6JDxBFgK_Dr2CdJGY,28763
+-adbc_driver_manager/_lib.cp39-win_amd64.pyd,sha256=aKZJsIPavYaFqU8i4acg1iuejE6unZ6I8l-f8vAZCXw,176128
+-adbc_driver_manager/_lib.pyx,sha256=QZihsENiI03N2LwVrtuYcM7cp2041WVkx6fyYQ7DQNM,34954
+-adbc_driver_manager/_static_version.py,sha256=HEa4UdsfjT5nhu94IIIegbfaHnuJN98Xnwrs4FsFqWI,62
++adbc_driver_manager/dbapi.py,sha256=HVMQbUOXMp0cTe42TCDa4V4tpjPOiphcOjt45WUdiaQ,29691
++adbc_driver_manager/_lib.cp39-win_amd64.pyd,sha256=KhhC_wfO3q9OOu-pGfzcasDJBGfsuAbrOmTOyzq3xUI,177664
++adbc_driver_manager/_lib.pyx,sha256=ZVw4WA6C0gSaQ9FkgbamS43jxAQPZMi94vJMNyk_Qx8,36290
++adbc_driver_manager/_static_version.py,sha256=vM76lfkzwrQOurWjZm4U1srUNlkPL5VMJUS8KVlZskE,62
+ adbc_driver_manager/_version.py,sha256=90XJ0YVfNMVV5LO2o_Od-JbLxo9qkDrMSXCUFootTSw,7108
+-adbc_driver_manager/__init__.py,sha256=QPMtHYbNgto8tM20f_a4-vCIqdfhZv57s5PTZfsjdrU,4057
+-adbc_driver_manager-0.3.0.dist-info/DELVEWHEEL,sha256=Jqq2JVAKdakQoQdfhDvH1Uowwf7sWgqDdB3vcDTHe7s,197
+-adbc_driver_manager-0.3.0.dist-info/LICENSE.txt,sha256=30Fx9d7YN84HQeDf24X9Hap09EOgUU4OKIYINbMR7z8,44080
+-adbc_driver_manager-0.3.0.dist-info/METADATA,sha256=Yf9lxwqe4Q_h1fE4BSNJ1F-mkODcLUvQZnUvbCUwo0M,663
+-adbc_driver_manager-0.3.0.dist-info/NOTICE.txt,sha256=ork4LFdNC7tkM_o0ZVZZBsBc3mUQAnu9tKovmU3-w60,166
+-adbc_driver_manager-0.3.0.dist-info/RECORD,,
+-adbc_driver_manager-0.3.0.dist-info/top_level.txt,sha256=mDcKQErjAAj_tTVBqA3LLh9T69P_YY_P2bFkUsshgT4,20
+-adbc_driver_manager-0.3.0.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+-adbc_driver_manager.libs/.load-order-adbc_driver_manager-0.3.0,sha256=33-26jdgFUSfjXmMdwkp57ip7hZYeaamMWujfdR3Qqw,93
+-adbc_driver_manager.libs/concrt140-f127dce24c423eb7d9ed01a1d59824c6.dll,sha256=f4bnyCphk0eF216BR0MOgxBcel82amZ5l9Em26ezjfU,306688
+-adbc_driver_manager.libs/msvcp140-d8d8c3a94a10e2587fb163777039c39f.dll,sha256=iaFbtzTGUiab-M4W0d45LsD28X39liz-B18cNRJWQek,611328
++adbc_driver_manager/__init__.py,sha256=WdE44_VNZjr2Dk9IaS81WFzBty1cjZfcRCjTcu52cwE,4501
++adbc_driver_manager-0.4.0.dist-info/DELVEWHEEL,sha256=fZurPtKqU-a3qMOx6Pb2JywWemqH0EcfS7ubRUL6_kw,197
++adbc_driver_manager-0.4.0.dist-info/LICENSE.txt,sha256=MEkXmKCrWQBEVb487oulLdsXcQsTlnZtStQsmqE_JBM,68958
++adbc_driver_manager-0.4.0.dist-info/METADATA,sha256=9_iSyHgX6Uw5a262reVGAvN7ygMPc6gWI_aBtrfxoL0,663
++adbc_driver_manager-0.4.0.dist-info/NOTICE.txt,sha256=ork4LFdNC7tkM_o0ZVZZBsBc3mUQAnu9tKovmU3-w60,166
++adbc_driver_manager-0.4.0.dist-info/RECORD,,
++adbc_driver_manager-0.4.0.dist-info/top_level.txt,sha256=mDcKQErjAAj_tTVBqA3LLh9T69P_YY_P2bFkUsshgT4,20
++adbc_driver_manager-0.4.0.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
++adbc_driver_manager.libs/.load-order-adbc_driver_manager-0.4.0,sha256=6ue90QQ2wYwVUoSQfIFwLQ6b0oi_I0JxLKFr7K1lg98,93
++adbc_driver_manager.libs/concrt140-f127dce24c423eb7d9ed01a1d59824c6.dll,sha256=CYATrbIJ458JbdUf6YebQRuZK9fV2ihPy0kWkvR-TtY,306688
++adbc_driver_manager.libs/msvcp140-20386bd4d6207e564a09ddc65ce3644c.dll,sha256=iaFbtzTGUiab-M4W0d45LsD28X39liz-B18cNRJWQek,611328
 ```
+
+## Comparing `adbc_driver_manager.libs/msvcp140-d8d8c3a94a10e2587fb163777039c39f.dll` & `adbc_driver_manager.libs/msvcp140-20386bd4d6207e564a09ddc65ce3644c.dll`
+
+ * *Files identical despite different names*
 
