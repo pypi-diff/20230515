@@ -9974,3 +9974,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:22:51] INFO root fetch - main [MainThread]: End processing [orwynn]: success
 [2023-05-15 12:22:57] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-15 12:22:57] INFO root fetch - main [MainThread]: Store serial: [18105835]
+[2023-05-15 12:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105835]
+[2023-05-15 12:28:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csvsheet
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headless
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clear-skies-aws
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultralytics
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: font-CLI
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jack-rhoas-sdks
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imagedata
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imagedata
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boogishell5
+[2023-05-15 12:28:08] WARNING root fetch - processPackages [csvsheet]: Skipping, unable to determine old version
+[2023-05-15 12:28:08] INFO root fetch - processPackages [csvsheet]: Start processing: crawler-commons
+[2023-05-15 12:28:08] INFO root fetch - main [MainThread]: End processing [csvsheet] error
+[2023-05-15 12:28:08] INFO root fetch - processPackages [font-CLI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 12:28:08] WARNING root fetch - processPackages [boogishell5]: Skipping, unable to determine old version
+[2023-05-15 12:28:08] INFO root fetch - processPackages [boogishell5]: Start processing: fast-oad-cs25
+[2023-05-15 12:28:08] INFO root fetch - main [MainThread]: End processing [boogishell5] error
+[2023-05-15 12:28:08] INFO root fetch - processPackages [jack-rhoas-sdks]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: New version: [20230515.9.13.469102] Old Version: [20230515.10.23.851666]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [imagedata]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [imagedata]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 12:28:08] INFO root fetch - processPackages [fast-oad-cs25]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 12:28:09] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230515/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230515/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230515/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Downloading https://files.pythonhosted.org/packages/22/f6/2275c27e8557574481ddaf1168e5836c1fc18c9b3066edf19cab8a72e4a5/certora-cli-alpha-naftali-CERT-1883_support_multiple_blocks_in_hook-20230515.10.23.851666.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/1a/af/f46f9716a9e5eab575da25e70c10d7d808d47fdfb219882cacd0187c07ac/clear-skies-aws-1.2.5.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/a3/f4/cde7456c4b7788088f0f77f4a2d82bda1dd872bb6bfc72f6dff526f4d399/imagedata-2.1.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/a3/f4/cde7456c4b7788088f0f77f4a2d82bda1dd872bb6bfc72f6dff526f4d399/imagedata-2.1.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/06/60/9a4e563794daa93134d8c5427df6bf3a3d4b52b1d2f640738b6cf7b03ea6/font-CLI-0.9.8.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [jack-rhoas-sdks]: Downloading https://files.pythonhosted.org/packages/26/90/b9509eb049272203cf37b72efb59fb952035f60da46ce4be9a5fa9373022/jack_rhoas_sdks-0.0.6.tar.gz
+[2023-05-15 12:28:09] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Skipping package: exceeds size limit 39438297>=10485760
+[2023-05-15 12:28:09] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Start processing: skytemple-files
+[2023-05-15 12:28:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook] error
+[2023-05-15 12:28:09] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 21212441>=10485760
+[2023-05-15 12:28:09] INFO root fetch - processPackages [imagedata]: Start processing: aioecowitt
+[2023-05-15 12:28:09] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2023-05-15 12:28:09] INFO root fetch - processPackages [skytemple-files]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-15 12:28:09] INFO root fetch - processPackages [aioecowitt]: New version: [2023.5.0] Old Version: [2023.1.0]
+[2023-05-15 12:28:09] INFO root fetch - processPackages [fast-oad-cs25]: Downloading https://files.pythonhosted.org/packages/a1/14/cbec9073fe09c9f454f297c51324c0d9c78f051466e7cc8d39f1d8e5add3/FAST-OAD-CS25-0.2.0.tar.gz
+[2023-05-15 12:28:09] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 21212441>=10485760
+[2023-05-15 12:28:09] INFO root fetch - processPackages [imagedata]: Start processing: clear-skies
+[2023-05-15 12:28:09] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-15 12:28:09] INFO root fetch - processPackages [jack-rhoas-sdks]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [jack-rhoas-sdks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jack_rhoas_sdks-0.0.5.tar.gz tmp/jack_rhoas_sdks-0.0.6.tar.gz --markdown 20230515/j/jack-rhoas-sdks/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/98/d3/6688cebdd0197ecd0099991daee4beeaee1b7516b0adb1bf681bed048a48/clear-skies-aws-1.3.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [skytemple-files]: Downloading https://files.pythonhosted.org/packages/9c/85/f8c6d3653925548a89bccb09032c0bc0e7f9247a5e94a5de134339274b38/skytemple_files-1.5.0-py3-none-any.whl
+[2023-05-15 12:28:09] INFO root fetch - processPackages [aioecowitt]: Downloading https://files.pythonhosted.org/packages/41/a6/2b110b9f88628602f5d02f111bea98ed04493bf97858cdd53f5d6fc83901/aioecowitt-2023.1.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/32/a2/92d8279cf0ec790d01e55a0b0024fe518128e1728d42dfbbb55e17f8a4c9/font-CLI-0.9.9.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-aws-1.2.5.tar.gz tmp/clear-skies-aws-1.3.0.tar.gz --markdown 20230515/c/clear-skies-aws/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.8.tar.gz tmp/font-CLI-0.9.9.tar.gz --markdown 20230515/f/font-CLI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [aioecowitt]: Downloading https://files.pythonhosted.org/packages/e9/c2/c30a875a3eb38a7c8d6ea21cf37f035d7d93773ccb972e117f8ede88acac/aioecowitt-2023.5.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [fast-oad-cs25]: Downloading https://files.pythonhosted.org/packages/68/48/bc7ba14479dfac53aa7e8bf88a48458b3eaa5400ffd45c39f703bd04e8c2/fast_oad_cs25-0.3.0.tar.gz
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230515/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [aioecowitt]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [aioecowitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioecowitt-2023.1.0.tar.gz tmp/aioecowitt-2023.5.0.tar.gz --markdown 20230515/a/aioecowitt/2023.1.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-15 12:28:09] INFO root fetch - processPackages [skytemple-files]: Downloading https://files.pythonhosted.org/packages/ee/14/fc6330e3817b9d0eb5e6008c7dedf79a8a46d4e7ed10e30c88081700185e/skytemple_files-1.5.1-py3-none-any.whl
+[2023-05-15 12:28:09] INFO root fetch - processPackages [fast-oad-cs25]: executing diffoscope
+[2023-05-15 12:28:09] INFO root fetch - processPackages [fast-oad-cs25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAST-OAD-CS25-0.2.0.tar.gz tmp/fast_oad_cs25-0.3.0.tar.gz --markdown 20230515/f/fast-oad-cs25/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 12:28:10] INFO root fetch - processPackages [skytemple-files]: executing diffoscope
+[2023-05-15 12:28:10] INFO root fetch - processPackages [skytemple-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple_files-1.5.0-py3-none-any.whl.zip tmp/skytemple_files-1.5.1-py3-none-any.whl.zip --markdown 20230515/s/skytemple-files/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-15 12:28:10] INFO root fetch - processPackages [crawler-commons]: Start processing: crawler-commons
+[2023-05-15 12:28:10] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-15 12:28:10] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 12:28:10] INFO root fetch - main [MainThread]: End processing [jack-rhoas-sdks]: success
+[2023-05-15 12:28:10] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-15 12:28:10] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230515/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 12:28:11] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-05-15 12:28:11] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-05-15 12:28:11] INFO root fetch - main [MainThread]: End processing [aioecowitt]: success
+[2023-05-15 12:28:11] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-15 12:28:12] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-05-15 12:28:12] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-15 12:28:12] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-15 12:28:14] INFO root fetch - main [MainThread]: End processing [fast-oad-cs25]: success
+[2023-05-15 12:28:26] INFO root fetch - main [MainThread]: End processing [skytemple-files]: success
+[2023-05-15 12:28:26] INFO root fetch - main [MainThread]: Store serial: [18105887]
