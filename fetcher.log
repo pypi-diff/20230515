@@ -22792,3 +22792,90 @@ EOFError: EOF read where object expected
 [2023-05-15 23:27:20] INFO root fetch - main [MainThread]: End processing [trame-client]: success
 [2023-05-15 23:27:57] INFO root fetch - main [MainThread]: End processing [pytest-smtpd]: success
 [2023-05-15 23:27:57] INFO root fetch - main [MainThread]: Store serial: [18113620]
+[2023-05-15 23:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113620]
+[2023-05-15 23:33:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezbeq
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semantic-kernel
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dotabase
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: filesystem-dict
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: category-encoders
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: visbeats
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JBPhD
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neuroboros
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: my-python-serializer
+[2023-05-15 23:33:07] WARNING root fetch - processPackages [my-python-serializer]: Skipping, unable to determine old version
+[2023-05-15 23:33:07] INFO root fetch - processPackages [my-python-serializer]: Start processing: robotframework-webservice
+[2023-05-15 23:33:07] INFO root fetch - processPackages [JBPhD]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-15 23:33:07] INFO root fetch - main [MainThread]: End processing [my-python-serializer] error
+[2023-05-15 23:33:07] INFO root fetch - processPackages [neuroboros]: New version: [0.1.2] Old Version: [0.1.1a0]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [dotabase]: New version: [7.4.3] Old Version: [7.4.2]
+[2023-05-15 23:33:07] WARNING root fetch - processPackages [filesystem-dict]: Skipping, unable to determine old version
+[2023-05-15 23:33:07] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-15 23:33:07] INFO root fetch - processPackages [filesystem-dict]: Start processing: cliconfig
+[2023-05-15 23:33:07] INFO root fetch - main [MainThread]: End processing [filesystem-dict] error
+[2023-05-15 23:33:07] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.1.5-py3-none-any.whl.zip tmp/JBPhD-2.1.6.tar.gz --markdown 20230515/J/JBPhD/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-15 23:33:07] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [semantic-kernel]: New version: [0.2.8.dev0] Old Version: [0.2.7.dev0]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ezbeq]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [visbeats]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [category-encoders]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [robotframework-webservice]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [cliconfig]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [neuroboros]: executing diffoscope
+[2023-05-15 23:33:07] INFO root fetch - processPackages [neuroboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroboros-0.1.1a0.tar.gz tmp/neuroboros-0.1.2.tar.gz --markdown 20230515/n/neuroboros/0.1.1a0-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 23:33:07] INFO root fetch - processPackages [dotabase]: Downloading https://files.pythonhosted.org/packages/c5/79/af7b728f706c391cdd72f7dab79fed2145cf0bdcdfc61a852e41f07a0803/dotabase-7.4.2.tar.gz
+[2023-05-15 23:33:07] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/a1/91/8e6003398d61c930d68828b344c4a171ac3f13f4cfcbb5329a5058a04715/mystring-0.0.89.tar.gz
+[2023-05-15 23:33:07] WARNING root fetch - processPackages [dotabase]: Skipping package: exceeds size limit 16039836>=10485760
+[2023-05-15 23:33:07] INFO root fetch - processPackages [dotabase]: Start processing: pulumi-docker
+[2023-05-15 23:33:07] INFO root fetch - main [MainThread]: End processing [dotabase] error
+[2023-05-15 23:33:07] INFO root fetch - processPackages [robotframework-webservice]: Downloading https://files.pythonhosted.org/packages/8f/a4/e5b6f1c971e98a70216e5c7fcf7293524e97e4ffc41188df1d0eeea91917/robotframework-webservice-0.6.2.tar.gz
+[2023-05-15 23:33:07] INFO root fetch - processPackages [category-encoders]: Downloading https://files.pythonhosted.org/packages/06/e4/1a8dabdeb9ef909a1fc7bd69a0c1c88bf300ec025339fb8323d5f0c696cf/category_encoders-2.6.0.tar.gz
+[2023-05-15 23:33:07] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/67/6a/f2d2c6a53c88bc5c85392dbd13c14568cdac9d9b9bf8e9917480b9158fc4/cliconfig-0.6.2.tar.gz
+[2023-05-15 23:33:07] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/c8/65/a520938f7d15f6699477c2ba517adffe3df97b6e21e4db030c3257c657e3/semantic_kernel-0.2.7.dev0.tar.gz
+[2023-05-15 23:33:07] INFO root fetch - processPackages [visbeats]: Downloading https://files.pythonhosted.org/packages/2a/e1/29b457dddcf2c8dc32c06c12c540452aad4dd1c83045348d01b8d63f5bdb/visbeats-0.0.3-py3.9.egg
+[2023-05-15 23:33:07] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1684184527] Old Version: [4.3.0a1683956242]
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/d8/b0/339c75d4d4c1df594353f9ffc0c05416a3ab7410a1dd30fa76bccf228a6c/ezbeq-1.0.0b6.tar.gz
+[2023-05-15 23:33:07] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-15 23:33:07] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.89.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230515/m/mystring/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 23:33:07] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-15 23:33:07] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.6.1.tar.gz tmp/cliconfig-0.6.2.tar.gz --markdown 20230515/c/cliconfig/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-15 23:33:07] INFO root fetch - processPackages [visbeats]: executing diffoscope
+[2023-05-15 23:33:07] INFO root fetch - processPackages [visbeats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visbeats-0.0.2-py3.9.egg tmp/visbeats-0.0.3-py3.9.egg --markdown 20230515/v/visbeats/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 23:33:07] INFO root fetch - processPackages [robotframework-webservice]: Downloading https://files.pythonhosted.org/packages/ed/27/71d0a3b499c8c7160aedb4c7680f8abab9a6dcaf68d137f352b6a14122db/robotframework-webservice-0.7.0.tar.gz
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-05-15 23:33:07] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b5.tar.gz tmp/ezbeq-1.0.0b6.tar.gz --markdown 20230515/e/ezbeq/1.0.0b5-1.0.0b6/diff.md --exclude *.pyd
+[2023-05-15 23:33:07] INFO root fetch - processPackages [category-encoders]: Downloading https://files.pythonhosted.org/packages/13/c7/a59dafc1d59fdcc9620691f94ea028f9127ffa7fe998029c74060a6e8c82/category_encoders-2.6.1.tar.gz
+[2023-05-15 23:33:08] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/0a/c9/5fb453a21a999fd04d81f4b59d4264b87def7daab7e38bcbc37be6efd1b8/semantic_kernel-0.2.8.dev0.tar.gz
+[2023-05-15 23:33:08] INFO root fetch - processPackages [robotframework-webservice]: executing diffoscope
+[2023-05-15 23:33:08] INFO root fetch - processPackages [robotframework-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-webservice-0.6.2.tar.gz tmp/robotframework-webservice-0.7.0.tar.gz --markdown 20230515/r/robotframework-webservice/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 23:33:08] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2023-05-15 23:33:08] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.2.7.dev0.tar.gz tmp/semantic_kernel-0.2.8.dev0.tar.gz --markdown 20230515/s/semantic-kernel/0.2.7.dev0-0.2.8.dev0/diff.md --exclude *.pyd
+[2023-05-15 23:33:08] INFO root fetch - processPackages [category-encoders]: executing diffoscope
+[2023-05-15 23:33:08] INFO root fetch - processPackages [category-encoders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/category_encoders-2.6.0.tar.gz tmp/category_encoders-2.6.1.tar.gz --markdown 20230515/c/category-encoders/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-15 23:33:08] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/e9/6d/68018563afc2ade6a08b1a862386a0c4b34a02e7b9620982175b86528fcb/pulumi_docker-4.3.0a1684184527.tar.gz
+[2023-05-15 23:33:08] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-05-15 23:33:08] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1683956242.tar.gz tmp/pulumi_docker-4.3.0a1684184527.tar.gz --markdown 20230515/p/pulumi-docker/4.3.0a1683956242-4.3.0a1684184527/diff.md --exclude *.pyd
+[2023-05-15 23:33:09] INFO root fetch - processPackages [mystring]: Start processing: dev-gpt
+[2023-05-15 23:33:09] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-15 23:33:09] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-15 23:33:09] INFO root fetch - processPackages [visbeats]: Start processing: autoinject
+[2023-05-15 23:33:09] INFO root fetch - main [MainThread]: End processing [visbeats]: success
+[2023-05-15 23:33:09] INFO root fetch - processPackages [autoinject]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-15 23:33:09] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/62/50/18d170d79943768078145ad041004029e98fb51e41b20c1134bd9d23f835/dev-gpt-0.18.41.dev9.tar.gz
+[2023-05-15 23:33:09] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-15 23:33:09] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230515/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-15 23:33:09] INFO root fetch - processPackages [autoinject]: Downloading https://files.pythonhosted.org/packages/ec/f7/71f3728af3d49eb0eb10156391ccaee0ccda147626af44d4cce85fa95e39/autoinject-1.3.1.tar.gz
+[2023-05-15 23:33:09] INFO root fetch - main [MainThread]: End processing [robotframework-webservice]: success
+[2023-05-15 23:33:09] INFO root fetch - processPackages [autoinject]: executing diffoscope
+[2023-05-15 23:33:09] INFO root fetch - processPackages [autoinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoinject-1.3.0.tar.gz tmp/autoinject-1.3.1.tar.gz --markdown 20230515/a/autoinject/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-15 23:33:09] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-05-15 23:33:09] INFO root fetch - main [MainThread]: End processing [category-encoders]: success
+[2023-05-15 23:33:10] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-15 23:33:10] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2023-05-15 23:33:10] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-15 23:33:11] INFO root fetch - main [MainThread]: End processing [autoinject]: success
+[2023-05-15 23:33:11] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-15 23:33:11] INFO root fetch - main [MainThread]: End processing [neuroboros]: success
+[2023-05-15 23:33:11] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-05-15 23:33:11] INFO root fetch - main [MainThread]: Store serial: [18113664]
