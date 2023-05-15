@@ -20591,3 +20591,75 @@ EOFError: EOF read where object expected
 [2023-05-15 21:14:39] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-15 21:15:05] INFO root fetch - main [MainThread]: End processing [yroom]: success
 [2023-05-15 21:15:05] INFO root fetch - main [MainThread]: Store serial: [18112291]
+[2023-05-15 21:20:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112291]
+[2023-05-15 21:20:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lana
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptty
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecopipeline
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geospace
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-arroyo
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatcmd
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crate-docs-theme
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simplified-JSON-DICT-LIST-printer
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dxsp
+[2023-05-15 21:20:15] INFO root fetch - processPackages [kfish]: New version: [99.0.202305151910] Old Version: [99.0.202305141903]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [lana]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [gptty]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [chatcmd]: New version: [1.0.12] Old Version: [1.0.11]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [sentry-arroyo]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [geospace]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-15 21:20:15] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230515/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:20:15] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-15 21:20:15] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305141903-py3-none-any.whl.zip tmp/kfish-99.0.202305151910-py3-none-any.whl.zip --markdown 20230515/k/kfish/99.0.202305141903-99.0.202305151910/diff.md --exclude *.pyd
+[2023-05-15 21:20:15] WARNING root fetch - processPackages [Simplified-JSON-DICT-LIST-printer]: Skipping, unable to determine old version
+[2023-05-15 21:20:15] INFO root fetch - processPackages [Simplified-JSON-DICT-LIST-printer]: Start processing: mozanalysis
+[2023-05-15 21:20:15] INFO root fetch - main [MainThread]: End processing [Simplified-JSON-DICT-LIST-printer] error
+[2023-05-15 21:20:15] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-15 21:20:15] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230515/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-15 21:20:15] INFO root fetch - processPackages [chatcmd]: executing diffoscope
+[2023-05-15 21:20:15] INFO root fetch - processPackages [chatcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcmd-1.0.11.tar.gz tmp/chatcmd-1.0.12.tar.gz --markdown 20230515/c/chatcmd/1.0.11-1.0.12/diff.md --exclude *.pyd
+[2023-05-15 21:20:15] INFO root fetch - processPackages [mozanalysis]: New version: [2023.4.2] Old Version: [2023.3.4]
+[2023-05-15 21:20:15] INFO root fetch - processPackages [geospace]: Downloading https://files.pythonhosted.org/packages/25/40/780f059548ab8c81d694bd03a165827613bb773b4d5989f1226e5c0e3bf4/geospace-0.3.2.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [gptty]: Downloading https://files.pythonhosted.org/packages/90/1f/413888b5c8dcd2ef92da711a6dd44f3ced70221d85136fce1c20e3eaa9bb/gptty-0.2.5.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/33/e1/d5ea1b22b184f43c89eebc82467cf5401a9d986666a8ea6294a7b4969699/sentry-arroyo-2.9.0.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [mozanalysis]: Downloading https://files.pythonhosted.org/packages/dd/5b/846b4713fad41fad1cd86a672ca129ecd7f13b3a71cfe92e729387845994/mozanalysis-2023.3.4.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [geospace]: Downloading https://files.pythonhosted.org/packages/c8/0a/57912b77669610c67232e9208a4ec2b940a99b26a5a9e3d761d6baa23ba6/geospace-0.3.3.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [gptty]: Downloading https://files.pythonhosted.org/packages/0a/21/e0f84c7d309512ad5d74e61c9446424306f8ed5f9f51a303d39aaf32c0ea/gptty-0.2.6.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [gptty]: executing diffoscope
+[2023-05-15 21:20:15] INFO root fetch - processPackages [gptty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptty-0.2.5.tar.gz tmp/gptty-0.2.6.tar.gz --markdown 20230515/g/gptty/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-15 21:20:15] INFO root fetch - processPackages [geospace]: executing diffoscope
+[2023-05-15 21:20:15] INFO root fetch - processPackages [geospace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geospace-0.3.2.tar.gz tmp/geospace-0.3.3.tar.gz --markdown 20230515/g/geospace/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-15 21:20:15] INFO root fetch - processPackages [mozanalysis]: Downloading https://files.pythonhosted.org/packages/61/2a/ccda6c371860de4f8226f6f2710cb6d70f25af07bf1b7a41a698ee6e5b59/mozanalysis-2023.4.2.tar.gz
+[2023-05-15 21:20:15] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/d4/1a/90766875f9eaa1377c255103ddf3aa1ef3182ea97e8782b0779ebd2e4769/sentry-arroyo-2.9.1.tar.gz
+[2023-05-15 21:20:16] INFO root fetch - processPackages [lana]: Downloading https://files.pythonhosted.org/packages/92/07/5dd976bfa3347de76668eed43bc278a2918eafa5e20dafbec49ba902c7fe/lana-0.0.4-cp37-abi3-macosx_10_7_x86_64.whl
+[2023-05-15 21:20:16] INFO root fetch - processPackages [mozanalysis]: executing diffoscope
+[2023-05-15 21:20:16] INFO root fetch - processPackages [mozanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozanalysis-2023.3.4.tar.gz tmp/mozanalysis-2023.4.2.tar.gz --markdown 20230515/m/mozanalysis/2023.3.4-2023.4.2/diff.md --exclude *.pyd
+[2023-05-15 21:20:16] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-15 21:20:16] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.0.3-cp39-cp39-macosx_10_7_x86_64.whl.zip tmp/lana-0.0.4-cp37-abi3-macosx_10_7_x86_64.whl.zip --markdown 20230515/l/lana/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 21:20:16] INFO root fetch - processPackages [sentry-arroyo]: executing diffoscope
+[2023-05-15 21:20:16] INFO root fetch - processPackages [sentry-arroyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-arroyo-2.9.0.tar.gz tmp/sentry-arroyo-2.9.1.tar.gz --markdown 20230515/s/sentry-arroyo/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-15 21:20:16] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2023-05-15 21:20:16] INFO root fetch - processPackages [kfish]: Start processing: nso-oc
+[2023-05-15 21:20:16] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-15 21:20:16] INFO root fetch - processPackages [nso-oc]: New version: [2.50.0] Old Version: [2.49.0]
+[2023-05-15 21:20:16] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-05-15 21:20:16] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.49.0.tar.gz tmp/nso-oc-2.50.0.tar.gz --markdown 20230515/n/nso-oc/2.49.0-2.50.0/diff.md --exclude *.pyd
+[2023-05-15 21:20:16] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-15 21:20:16] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2023-05-15 21:20:16] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20230515/c/crate-docs-theme/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-15 21:20:17] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-15 21:20:17] INFO root fetch - main [MainThread]: End processing [chatcmd]: success
+[2023-05-15 21:20:17] INFO root fetch - main [MainThread]: End processing [geospace]: success
+[2023-05-15 21:20:17] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-15 21:20:17] INFO root fetch - main [MainThread]: End processing [sentry-arroyo]: success
+[2023-05-15 21:20:18] INFO root fetch - main [MainThread]: End processing [gptty]: success
+[2023-05-15 21:20:18] INFO root fetch - main [MainThread]: End processing [mozanalysis]: success
+[2023-05-15 21:20:19] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2023-05-15 21:20:53] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-05-15 21:20:53] INFO root fetch - main [MainThread]: Store serial: [18112369]
