@@ -15377,3 +15377,113 @@ EOFError: EOF read where object expected
 [2023-05-15 16:33:35] INFO root fetch - main [MainThread]: End processing [iCCF]: success
 [2023-05-15 16:33:37] INFO root fetch - main [MainThread]: End processing [justbytes]: success
 [2023-05-15 16:33:37] INFO root fetch - main [MainThread]: Store serial: [18109216]
+[2023-05-15 16:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109216]
+[2023-05-15 16:38:46] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydivsufsort
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alacorder
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selfcord.py
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tala
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkgsettings
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-schema-registry-client
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipcolouringsmodule
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: facefinder
+[2023-05-15 16:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfsd
+[2023-05-15 16:38:46] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [alacorder]: New version: [80.5.3] Old Version: [80.5.1]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [pydivsufsort]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230515.14.33.601725] Old Version: [20230511.17.36.676347]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [python-schema-registry-client]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [facefinder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [pipcolouringsmodule]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [selfcord.py]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-15 16:38:46] INFO root fetch - processPackages [pkgsettings]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 16:38:47] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:47] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230515/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pydivsufsort]: Downloading https://files.pythonhosted.org/packages/ff/4a/3f764fcc882c00bc2a735594ae73826ed5a50a014b6b70f5188bd25e88fd/pydivsufsort-0.0.8.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/7e/3a/a62dad5948a1ec2d4817a6d44bf73e99c9e5b57df56d541898a44395e4a2/certora-cli-alpha-uri-eradicate_certora_dir-20230511.17.36.676347.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pipcolouringsmodule]: Downloading https://files.pythonhosted.org/packages/96/c8/7f2327e3e1d6a10a18ce26438ba33f571668c2a11ed86968c28320ba4e1d/pipcolouringsmodule-1.0.0.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [python-schema-registry-client]: Downloading https://files.pythonhosted.org/packages/61/0d/ddf6753a08577642223591d2313ea0d997e3d0669a0366ebd515b9fd0755/python-schema-registry-client-2.4.2.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pkgsettings]: Downloading https://files.pythonhosted.org/packages/c2/89/c89ecd9517a7b31477dcef2f0fb4356da6bf41fe01e3dc909ccea67d9d08/pkgsettings-1.0.0.tar.gz
+[2023-05-15 16:38:47] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 39421494>=10485760
+[2023-05-15 16:38:47] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: spacepackets
+[2023-05-15 16:38:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-15 16:38:47] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.5.1.tar.gz tmp/alacorder-80.5.3.tar.gz --markdown 20230515/a/alacorder/80.5.1-80.5.3/diff.md --exclude *.pyd
+[2023-05-15 16:38:47] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/a6/0a/02abf1dd3b1b95cd05e69ec4c3a69516db41bb36e3b60ef8633392f882b5/selfcord.py-0.1.7.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [spacepackets]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pydivsufsort]: Downloading https://files.pythonhosted.org/packages/2a/51/627f6f62aed1b79208510c2cf990d05362e8d09b614d37d1e4859fc1bf6c/pydivsufsort-0.0.9-cp39-cp39-win_amd64.whl
+[2023-05-15 16:38:47] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.1.6.tar.gz tmp/selfcord.py-0.1.7.tar.gz --markdown 20230515/s/selfcord.py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pipcolouringsmodule]: Downloading https://files.pythonhosted.org/packages/f5/e3/f712fa986286d36fd2722507a6dddc412b6c330795ad71ff2a494142c386/pipcolouringsmodule-1.1.0.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/67/78/384a5ffad7eac5f8e6f7842bd2d4e81eb8f8bfefae020ec3b6d8403d5e32/spacepackets-0.8.1.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [python-schema-registry-client]: Downloading https://files.pythonhosted.org/packages/9e/52/9845d041fcd1cfe9b6ab880b38ff2d8d3d37626b80f2df1072e20f198b78/python-schema-registry-client-2.4.3.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [python-schema-registry-client]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [python-schema-registry-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-schema-registry-client-2.4.2.tar.gz tmp/python-schema-registry-client-2.4.3.tar.gz --markdown 20230515/p/python-schema-registry-client/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pkgsettings]: Downloading https://files.pythonhosted.org/packages/33/b8/a68f71d27f35a3614a1c6ff4ccf65a818b011ae0250aa8d176c83a9e954f/pkgsettings-1.1.0.tar.gz
+[2023-05-15 16:38:47] INFO root fetch - processPackages [facefinder]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [facefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facefinder-0.1.8.tar.gz tmp/facefinder-0.1.9.tar.gz --markdown 20230515/f/facefinder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pipcolouringsmodule]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pipcolouringsmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcolouringsmodule-1.0.0.tar.gz tmp/pipcolouringsmodule-1.1.0.tar.gz --markdown 20230515/p/pipcolouringsmodule/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pkgsettings]: executing diffoscope
+[2023-05-15 16:38:47] INFO root fetch - processPackages [pkgsettings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgsettings-1.0.0.tar.gz tmp/pkgsettings-1.1.0.tar.gz --markdown 20230515/p/pkgsettings/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:48] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/5a/3a/0c57835afff418d02db88f9c0ee240e220431a0dffb7d13a3fad468fdafa/spacepackets-0.9.0.tar.gz
+[2023-05-15 16:38:48] INFO root fetch - processPackages [spacepackets]: executing diffoscope
+[2023-05-15 16:38:48] INFO root fetch - processPackages [spacepackets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacepackets-0.8.1.tar.gz tmp/spacepackets-0.9.0.tar.gz --markdown 20230515/s/spacepackets/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:48] INFO root fetch - processPackages [pydivsufsort]: executing diffoscope
+[2023-05-15 16:38:48] INFO root fetch - processPackages [pydivsufsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivsufsort-0.0.8.tar.gz tmp/pydivsufsort-0.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230515/p/pydivsufsort/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:38:48] INFO root fetch - processPackages [selfcord.py]: Start processing: seunggabi-core-python
+[2023-05-15 16:38:48] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-05-15 16:38:48] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-15 16:38:48] INFO root fetch - processPackages [facefinder]: Start processing: slap-cli
+[2023-05-15 16:38:48] INFO root fetch - main [MainThread]: End processing [facefinder]: success
+[2023-05-15 16:38:48] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-05-15 16:38:48] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.0.2.tar.gz tmp/seunggabi_core_python-0.1.0.tar.gz --markdown 20230515/s/seunggabi-core-python/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:49] INFO root fetch - processPackages [slap-cli]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-15 16:38:49] INFO root fetch - processPackages [pipcolouringsmodule]: Start processing: substra
+[2023-05-15 16:38:49] INFO root fetch - main [MainThread]: End processing [pipcolouringsmodule]: success
+[2023-05-15 16:38:49] INFO root fetch - processPackages [substra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 16:38:49] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/c3/2f/3177d048be60c0d87fd2551698ddf28cfff09c2971b4e418627af26c4cc5/slap_cli-1.9.0.tar.gz
+[2023-05-15 16:38:49] INFO root fetch - processPackages [slap-cli]: executing diffoscope
+[2023-05-15 16:38:49] INFO root fetch - processPackages [slap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slap_cli-1.8.1.tar.gz tmp/slap_cli-1.9.0.tar.gz --markdown 20230515/s/slap-cli/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:49] INFO root fetch - processPackages [pkgsettings]: Start processing: certora-cli-alpha-master
+[2023-05-15 16:38:49] INFO root fetch - main [MainThread]: End processing [pkgsettings]: success
+[2023-05-15 16:38:49] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.9.25.343999] Old Version: [20230515.8.28.196716]
+[2023-05-15 16:38:49] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/57/3c8e4f696ecc29a6da16dae52cb9b9d1391b25ce946105a3f96ced6e88c4/certora-cli-alpha-master-20230515.8.28.196716.tar.gz
+[2023-05-15 16:38:49] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430676>=10485760
+[2023-05-15 16:38:49] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pipcolouringsmodule
+[2023-05-15 16:38:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 16:38:49] INFO root fetch - processPackages [pydivsufsort]: Start processing: ersilia
+[2023-05-15 16:38:49] INFO root fetch - main [MainThread]: End processing [pydivsufsort]: success
+[2023-05-15 16:38:49] INFO root fetch - processPackages [substra]: executing diffoscope
+[2023-05-15 16:38:49] INFO root fetch - processPackages [substra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substra-0.8.0.tar.gz tmp/substra-0.9.0.tar.gz --markdown 20230515/s/substra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:49] INFO root fetch - processPackages [pipcolouringsmodule]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 16:38:49] INFO root fetch - processPackages [ersilia]: New version: [0.1.8] Old Version: [0.1.1]
+[2023-05-15 16:38:49] INFO root fetch - processPackages [pipcolouringsmodule]: executing diffoscope
+[2023-05-15 16:38:49] INFO root fetch - processPackages [pipcolouringsmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcolouringsmodule-1.0.0.tar.gz tmp/pipcolouringsmodule-1.1.0.tar.gz --markdown 20230515/p/pipcolouringsmodule/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 16:38:50] INFO root fetch - processPackages [spacepackets]: Start processing: requests-toolkit-stable
+[2023-05-15 16:38:50] INFO root fetch - main [MainThread]: End processing [spacepackets]: success
+[2023-05-15 16:38:50] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-05-15 16:38:50] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.1.tar.gz tmp/ersilia-0.1.8.tar.gz --markdown 20230515/e/ersilia/0.1.1-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 16:38:50] INFO root fetch - processPackages [requests-toolkit-stable]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-15 16:38:50] INFO root fetch - processPackages [requests-toolkit-stable]: Downloading https://files.pythonhosted.org/packages/ea/2f/fe7a713c70fae1c4c4ef94d529e28761f5be3d093a3007ce34ad84555e08/requests-toolkit-stable-0.9.1.tar.gz
+[2023-05-15 16:38:50] INFO root fetch - processPackages [seunggabi-core-python]: Start processing: normal-captcha
+[2023-05-15 16:38:50] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-05-15 16:38:50] WARNING root fetch - processPackages [normal-captcha]: Skipping, unable to determine old version
+[2023-05-15 16:38:50] INFO root fetch - main [MainThread]: End processing [normal-captcha] error
+[2023-05-15 16:38:50] INFO root fetch - processPackages [requests-toolkit-stable]: Downloading https://files.pythonhosted.org/packages/8b/f3/99e29ddebe019e9d662d5ee6ad128fcfabbfd728e75d465bdd99f3d7dabe/requests-toolkit-stable-0.9.2.tar.gz
+[2023-05-15 16:38:50] INFO root fetch - main [MainThread]: End processing [python-schema-registry-client]: success
+[2023-05-15 16:38:50] INFO root fetch - processPackages [requests-toolkit-stable]: executing diffoscope
+[2023-05-15 16:38:50] INFO root fetch - processPackages [requests-toolkit-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests-toolkit-stable-0.9.1.tar.gz tmp/requests-toolkit-stable-0.9.2.tar.gz --markdown 20230515/r/requests-toolkit-stable/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-15 16:38:50] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 16:38:50] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-15 16:38:51] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-15 16:38:51] INFO root fetch - main [MainThread]: End processing [pipcolouringsmodule]: success
+[2023-05-15 16:38:51] INFO root fetch - main [MainThread]: End processing [slap-cli]: success
+[2023-05-15 16:38:52] INFO root fetch - main [MainThread]: End processing [substra]: success
+[2023-05-15 16:38:52] INFO root fetch - main [MainThread]: End processing [requests-toolkit-stable]: success
+[2023-05-15 16:38:53] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-05-15 16:38:53] INFO root fetch - main [MainThread]: Store serial: [18109291]
