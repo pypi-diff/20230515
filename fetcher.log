@@ -14267,3 +14267,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 15:29:34] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
 [2023-05-15 15:29:38] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-15 15:29:38] INFO root fetch - main [MainThread]: Store serial: [18108484]
+[2023-05-15 15:34:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108484]
+[2023-05-15 15:34:49] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: procurement-bytetheory
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mis-builder-total-committed-purchase
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commitguard
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tllab-common
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WX-Push-Services
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: toui
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edx-event-bus-redis
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libdeeplake
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mathqe
+[2023-05-15 15:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gamma-pytools
+[2023-05-15 15:34:49] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [toui]: New version: [2.0.0] Old Version: [1.2.0a1]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [odoo-addon-mis-builder-total-committed-purchase]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.3]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [commitguard]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [procurement-bytetheory]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 15:34:49] WARNING root fetch - processPackages [mathqe]: Skipping, unable to determine old version
+[2023-05-15 15:34:49] INFO root fetch - processPackages [mathqe]: Start processing: gps-building-blocks
+[2023-05-15 15:34:49] INFO root fetch - main [MainThread]: End processing [mathqe] error
+[2023-05-15 15:34:49] INFO root fetch - processPackages [tllab-common]: New version: [2023.5.0] Old Version: [2023.4.1]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [edx-event-bus-redis]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-05-15 15:34:49] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-1.2.0a1.tar.gz tmp/toui-2.0.0.tar.gz --markdown 20230515/t/toui/1.2.0a1-2.0.0/diff.md --exclude *.pyd
+[2023-05-15 15:34:49] INFO root fetch - processPackages [gamma-pytools]: New version: [2.1rc2] Old Version: [2.1rc1]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [commitguard]: Downloading https://files.pythonhosted.org/packages/0f/8d/0e1854f90617ddf68b7897dfde3b68b8681b9345cc24300f96623df82a00/commitguard-2.1.0.tar.gz
+[2023-05-15 15:34:49] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 15:34:49] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.8.tar.gz tmp/WX_Push_Services-1.0.9.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 15:34:49] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [odoo-addon-mis-builder-total-committed-purchase]: Downloading https://files.pythonhosted.org/packages/46/24/348790f212645503533a4173acdc62a0653d9dc765f07a2ad7dd612c4b66/odoo_addon_mis_builder_total_committed_purchase-15.0.1.0.1.3-py3-none-any.whl
+[2023-05-15 15:34:49] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/0d/c7/a9ca8b949467cff05e1feea52bc069ec5a2cbbb9a57edd74a08000fbeae7/tllab_common-2023.4.1.tar.gz
+[2023-05-15 15:34:49] INFO root fetch - processPackages [gamma-pytools]: Downloading https://files.pythonhosted.org/packages/a6/7b/e1b19a9e4725c95f9b97d50beda19cccab6cc31a989983dff07e7226050b/gamma-pytools-2.1rc1.tar.gz
+[2023-05-15 15:34:49] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-15 15:34:49] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-05-15 15:34:49] INFO root fetch - processPackages [libdeeplake]: Start processing: finetune-eval
+[2023-05-15 15:34:49] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-05-15 15:34:49] INFO root fetch - processPackages [edx-event-bus-redis]: Downloading https://files.pythonhosted.org/packages/cb/88/e003cd3b64938eea31b2abbf9320f03c13bd4335d07665ca388d6e4fa78d/edx_event_bus_redis-0.2.1.tar.gz
+[2023-05-15 15:34:49] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/71/de/29b8d5afef1de629736885761de3eeeed53a58c7f5dc93ea834fa2edae65/gps_building_blocks-1.98.0-py3-none-any.whl
+[2023-05-15 15:34:49] WARNING root fetch - processPackages [finetune-eval]: Skipping, unable to determine old version
+[2023-05-15 15:34:49] INFO root fetch - processPackages [finetune-eval]: Start processing: mml-qae
+[2023-05-15 15:34:49] INFO root fetch - main [MainThread]: End processing [finetune-eval] error
+[2023-05-15 15:34:49] INFO root fetch - processPackages [procurement-bytetheory]: executing diffoscope
+[2023-05-15 15:34:49] INFO root fetch - processPackages [procurement-bytetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procurement_bytetheory-1.0.8.tar.gz tmp/procurement_bytetheory-1.0.9.tar.gz --markdown 20230515/p/procurement-bytetheory/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 15:34:49] INFO root fetch - processPackages [commitguard]: Downloading https://files.pythonhosted.org/packages/9a/df/5354733bc42ad61048c785038dd9419ed566a1c023f2909cd58111cf50ec/commitguard-2.2.0.tar.gz
+[2023-05-15 15:34:49] INFO root fetch - processPackages [odoo-addon-mis-builder-total-committed-purchase]: Downloading https://files.pythonhosted.org/packages/c4/14/e4e3badd7d561b900fffa70052e1d34e9e93145f8156f1af4571ae4b2e81/odoo_addon_mis_builder_total_committed_purchase-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 15:34:49] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/0d/9c/608250e782396ee5a33bb458a398c5183b5781361ab8ad61c7300ebfbf8b/tllab_common-2023.5.0.tar.gz
+[2023-05-15 15:34:49] INFO root fetch - processPackages [edx-event-bus-redis]: executing diffoscope
+[2023-05-15 15:34:49] INFO root fetch - processPackages [edx-event-bus-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx_event_bus_redis-0.1.1.tar.gz tmp/edx_event_bus_redis-0.2.1.tar.gz --markdown 20230515/e/edx-event-bus-redis/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 15:34:49] INFO root fetch - processPackages [mml-qae]: New version: [1.0.1.4] Old Version: [1.0.1.3]
+[2023-05-15 15:34:49] INFO root fetch - processPackages [commitguard]: executing diffoscope
+[2023-05-15 15:34:49] INFO root fetch - processPackages [commitguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitguard-2.1.0.tar.gz tmp/commitguard-2.2.0.tar.gz --markdown 20230515/c/commitguard/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-15 15:34:49] INFO root fetch - processPackages [tllab-common]: executing diffoscope
+[2023-05-15 15:34:49] INFO root fetch - processPackages [tllab-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tllab_common-2023.4.1.tar.gz tmp/tllab_common-2023.5.0.tar.gz --markdown 20230515/t/tllab-common/2023.4.1-2023.5.0/diff.md --exclude *.pyd
+[2023-05-15 15:34:50] INFO root fetch - processPackages [gamma-pytools]: Downloading https://files.pythonhosted.org/packages/c9/e3/97cb7c779bc44f611f642959d072a603c54491ce568a41b4926fd9b67172/gamma-pytools-2.1rc2.tar.gz
+[2023-05-15 15:34:50] INFO root fetch - processPackages [odoo-addon-mis-builder-total-committed-purchase]: executing diffoscope
+[2023-05-15 15:34:50] INFO root fetch - processPackages [odoo-addon-mis-builder-total-committed-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder_total_committed_purchase-15.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_mis_builder_total_committed_purchase-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-mis-builder-total-committed-purchase/15.0.1.0.1.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 15:34:50] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/79/b4/9d18eee49dfd6521e304862a4c835a7fe5cf477f45d83a4f98f885c76c29/gps_building_blocks-1.99.0-py3-none-any.whl
+[2023-05-15 15:34:50] INFO root fetch - processPackages [gamma-pytools]: executing diffoscope
+[2023-05-15 15:34:50] INFO root fetch - processPackages [gamma-pytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamma-pytools-2.1rc1.tar.gz tmp/gamma-pytools-2.1rc2.tar.gz --markdown 20230515/g/gamma-pytools/2.1rc1-2.1rc2/diff.md --exclude *.pyd
+[2023-05-15 15:34:50] INFO root fetch - processPackages [mml-qae]: Downloading https://files.pythonhosted.org/packages/00/35/a826981cf2452090c57f737b035a2adce86ce2b617ad3f33b05a7c352815/mml_qae-1.0.1.4.tar.gz
+[2023-05-15 15:34:50] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-05-15 15:34:50] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230515/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-15 15:34:50] INFO root fetch - processPackages [mml-qae]: executing diffoscope
+[2023-05-15 15:34:50] INFO root fetch - processPackages [mml-qae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mml_qae-1.0.1.3.tar.gz tmp/mml_qae-1.0.1.4.tar.gz --markdown 20230515/m/mml-qae/1.0.1.3-1.0.1.4/diff.md --exclude *.pyd
+[2023-05-15 15:34:51] INFO root fetch - processPackages [WX-Push-Services]: Start processing: video-utils
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 15:34:51] INFO root fetch - processPackages [video-utils]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-15 15:34:51] INFO root fetch - processPackages [procurement-bytetheory]: Start processing: fschat
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
+[2023-05-15 15:34:51] INFO root fetch - processPackages [video-utils]: Downloading https://files.pythonhosted.org/packages/72/1e/3cb4fd1e24104e776865a9dd0df14af489dc67845037b9f6ae8b431cc244/video_utils-2.2.4.tar.gz
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [edx-event-bus-redis]: success
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [tllab-common]: success
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder-total-committed-purchase]: success
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [commitguard]: success
+[2023-05-15 15:34:51] INFO root fetch - processPackages [video-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/b79b4855b91700ae96841f4e2d640109761d1a02e7278e873ccc7f46b7c2/video_utils-2.2.5.tar.gz
+[2023-05-15 15:34:51] INFO root fetch - main [MainThread]: End processing [mml-qae]: success
+[2023-05-15 15:34:51] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 15:34:52] INFO root fetch - processPackages [video-utils]: executing diffoscope
+[2023-05-15 15:34:52] INFO root fetch - processPackages [video-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_utils-2.2.4.tar.gz tmp/video_utils-2.2.5.tar.gz --markdown 20230515/v/video-utils/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-15 15:34:52] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-05-15 15:34:52] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-15 15:34:52] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-05-15 15:34:52] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-05-15 15:34:52] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230515/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 15:34:53] INFO root fetch - main [MainThread]: End processing [video-utils]: success
+[2023-05-15 15:34:53] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-05-15 15:34:54] INFO root fetch - main [MainThread]: End processing [gamma-pytools]: success
+[2023-05-15 15:34:54] INFO root fetch - main [MainThread]: Store serial: [18108548]
