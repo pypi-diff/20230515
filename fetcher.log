@@ -18052,3 +18052,117 @@ EOFError: EOF read where object expected
 [2023-05-15 18:39:29] INFO root fetch - main [MainThread]: End processing [lana]: success
 [2023-05-15 18:39:32] INFO root fetch - main [MainThread]: End processing [wiki]: success
 [2023-05-15 18:39:32] INFO root fetch - main [MainThread]: Store serial: [18110745]
+[2023-05-15 18:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110745]
+[2023-05-15 18:44:41] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmaps-ppidownloader
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aleksis-app-stoelindeling
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperparameters
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: citation-utils
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlglot
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wise-pizza
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk-preview
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-sdk
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tradchat
+[2023-05-15 18:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shellous
+[2023-05-15 18:44:41] WARNING root fetch - processPackages [cellmaps-ppidownloader]: Skipping, unable to determine old version
+[2023-05-15 18:44:41] INFO root fetch - processPackages [cellmaps-ppidownloader]: Start processing: pythoncolormodsV2
+[2023-05-15 18:44:41] INFO root fetch - main [MainThread]: End processing [cellmaps-ppidownloader] error
+[2023-05-15 18:44:41] INFO root fetch - processPackages [hyperparameters]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-15 18:44:41] INFO root fetch - processPackages [citation-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 18:44:41] INFO root fetch - processPackages [aleksis-app-stoelindeling]: New version: [2.0b0] Old Version: [2.0]
+[2023-05-15 18:44:41] WARNING root fetch - processPackages [wise-pizza]: Skipping, unable to determine old version
+[2023-05-15 18:44:41] INFO root fetch - processPackages [wise-pizza]: Start processing: tap-totango
+[2023-05-15 18:44:41] INFO root fetch - main [MainThread]: End processing [wise-pizza] error
+[2023-05-15 18:44:41] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-15 18:44:41] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-05-15 18:44:41] INFO root fetch - processPackages [tradchat]: Start processing: gctree
+[2023-05-15 18:44:41] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-05-15 18:44:41] INFO root fetch - processPackages [tap-totango]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-15 18:44:41] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-15 18:44:42] INFO root fetch - processPackages [shellous]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-15 18:44:42] WARNING root fetch - processPackages [pythoncolormodsV2]: Skipping, unable to determine old version
+[2023-05-15 18:44:42] INFO root fetch - processPackages [pythoncolormodsV2]: Start processing: statute-patterns
+[2023-05-15 18:44:42] INFO root fetch - main [MainThread]: End processing [pythoncolormodsV2] error
+[2023-05-15 18:44:42] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/c5/ef/011657546ac7a0c2caa452b7f88012a35819642d0d5e88aad1faa07ec5d5/citation_utils-0.2.8.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [aleksis-app-stoelindeling]: Downloading https://files.pythonhosted.org/packages/06/68/89b4c4ee3c5f09f52695c46d0db3a32732e23351d71bf87dcdf636440eb9/aleksis_app_stoelindeling-2.0.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [gctree]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-05-15 18:44:42] INFO root fetch - processPackages [tap-totango]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [tap-totango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_totango-0.3.0.tar.gz tmp/tap_totango-0.4.0.tar.gz --markdown 20230515/t/tap-totango/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [statute-patterns]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-15 18:44:42] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [shellous]: Downloading https://files.pythonhosted.org/packages/57/12/8024415ab45dfb8304a8ae9ef96388ed8e8fb3978d8c372b1d84bc6359f1/shellous-0.9.2.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/7c/8f/3e96d1fb91046bd752a8100b2cf9df285a1545d7d6fcfa96f6a58aed7d7d/citation_utils-0.2.9.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.2.8.tar.gz tmp/citation_utils-0.2.9.tar.gz --markdown 20230515/c/citation-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [hyperparameters]: Downloading https://files.pythonhosted.org/packages/b3/76/70d280dd9b5282185cc8a86c93a9a87c561d1cbf36998e84df4a8880ca3d/hyperparameters-0.3.0.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [aleksis-app-stoelindeling]: Downloading https://files.pythonhosted.org/packages/1f/90/6fe09ade9ee5a1948a6825080724887999c9d2b1948c64cf726792b2c819/aleksis_app_stoelindeling-2.0b0.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [statute-patterns]: Downloading https://files.pythonhosted.org/packages/42/ae/e21675e7e69554044e73a61e25970ea38e5d76a9cbaaf73abdb79a00d5c6/statute_patterns-0.2.2.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [hyperparameters]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [hyperparameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameters-0.2.1.tar.gz tmp/hyperparameters-0.3.0.tar.gz --markdown 20230515/h/hyperparameters/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [gctree]: Downloading https://files.pythonhosted.org/packages/af/49/bc4de9030bd09323cec4255c18ff9105b5ec873b8c7d885b3f2f9a8f6d48/gctree-4.1.1.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [aleksis-app-stoelindeling]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [aleksis-app-stoelindeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_stoelindeling-2.0.tar.gz tmp/aleksis_app_stoelindeling-2.0b0.tar.gz --markdown 20230515/a/aleksis-app-stoelindeling/2.0-2.0b0/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [shellous]: Downloading https://files.pythonhosted.org/packages/14/c1/3e0184909c63dd8edb728e9017c7e42107112ddb5e871b438fcca0464301/shellous-0.9.3.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230515/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [gctree]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [gctree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gctree-4.1.0.tar.gz tmp/gctree-4.1.1.tar.gz --markdown 20230515/g/gctree/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230515/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [statute-patterns]: Downloading https://files.pythonhosted.org/packages/e1/21/6d7aaff981baa738d5a21b2d042519dcaa8c49c70101feb44f15ac8a26a0/statute_patterns-0.2.3.tar.gz
+[2023-05-15 18:44:42] INFO root fetch - processPackages [shellous]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [shellous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellous-0.9.2.tar.gz tmp/shellous-0.9.3.tar.gz --markdown 20230515/s/shellous/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230515/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-15 18:44:42] INFO root fetch - processPackages [statute-patterns]: executing diffoscope
+[2023-05-15 18:44:42] INFO root fetch - processPackages [statute-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_patterns-0.2.2.tar.gz tmp/statute_patterns-0.2.3.tar.gz --markdown 20230515/s/statute-patterns/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-15 18:44:43] INFO root fetch - processPackages [tap-totango]: Start processing: param-sweeps
+[2023-05-15 18:44:43] INFO root fetch - main [MainThread]: End processing [tap-totango]: success
+[2023-05-15 18:44:43] INFO root fetch - processPackages [param-sweeps]: New version: [0.1.5rc1] Old Version: [0.1.5]
+[2023-05-15 18:44:43] INFO root fetch - processPackages [param-sweeps]: Downloading https://files.pythonhosted.org/packages/4a/5a/54c0bef44e9e58de1b7eb2a8f8e4cb7ab10279f0f82cbac75c72f4f0d935/param_sweeps-0.1.5.tar.gz
+[2023-05-15 18:44:43] INFO root fetch - processPackages [citation-utils]: Start processing: jiggybase
+[2023-05-15 18:44:43] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-05-15 18:44:43] INFO root fetch - processPackages [jiggybase]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-05-15 18:44:43] INFO root fetch - processPackages [hyperparameters]: Start processing: jupyterlab
+[2023-05-15 18:44:43] INFO root fetch - main [MainThread]: End processing [hyperparameters]: success
+[2023-05-15 18:44:43] INFO root fetch - processPackages [jupyterlab]: New version: [4.0.0rc1] Old Version: [4.0.0rc0]
+[2023-05-15 18:44:44] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/b7/72/1e2b480a03647a6d135561c7eed149f310f780a5912a8c2b8b1bbde97137/jiggybase-0.0.31.tar.gz
+[2023-05-15 18:44:44] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/93/e7/4513428cca194dcbf1c3acf6589a7e5cc963edc51f3b6c692aef6146951b/jupyterlab-4.0.0rc0.tar.gz
+[2023-05-15 18:44:44] INFO root fetch - processPackages [param-sweeps]: Downloading https://files.pythonhosted.org/packages/37/47/35a45e7092437df062a3b1b629e60714ea924c8e75f9fcb38d4fe95f605d/param-sweeps-0.1.5rc1.tar.gz
+[2023-05-15 18:44:44] INFO root fetch - processPackages [aleksis-app-stoelindeling]: Start processing: pulumi-aws
+[2023-05-15 18:44:44] INFO root fetch - main [MainThread]: End processing [aleksis-app-stoelindeling]: success
+[2023-05-15 18:44:44] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-05-15 18:44:44] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-15 18:44:44] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.30.tar.gz tmp/jiggybase-0.0.31.tar.gz --markdown 20230515/j/jiggybase/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-05-15 18:44:44] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 18200222>=10485760
+[2023-05-15 18:44:44] INFO root fetch - processPackages [jupyterlab]: Start processing: kicost
+[2023-05-15 18:44:44] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2023-05-15 18:44:44] INFO root fetch - processPackages [kicost]: New version: [1.1.8] Old Version: [1.1.6]
+[2023-05-15 18:44:44] INFO root fetch - processPackages [param-sweeps]: executing diffoscope
+[2023-05-15 18:44:44] INFO root fetch - processPackages [param-sweeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/param_sweeps-0.1.5.tar.gz tmp/param-sweeps-0.1.5rc1.tar.gz --markdown 20230515/p/param-sweeps/0.1.5-0.1.5rc1/diff.md --exclude *.pyd
+[2023-05-15 18:44:44] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-05-15 18:44:44] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230515/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-05-15 18:44:44] INFO root fetch - processPackages [kicost]: Downloading https://files.pythonhosted.org/packages/40/f3/1f0335b13b6e612e5cd111644ea8f346569abc3c8fe6ea25a889900769cb/kicost-1.1.6.tar.gz
+[2023-05-15 18:44:44] INFO root fetch - processPackages [statute-patterns]: Start processing: psfam
+[2023-05-15 18:44:44] INFO root fetch - main [MainThread]: End processing [statute-patterns]: success
+[2023-05-15 18:44:44] INFO root fetch - processPackages [kicost]: Downloading https://files.pythonhosted.org/packages/82/60/f979d9b374917c0c9e2d0cec3bdbaabd608f12def1efbf4dcc6ccaadcba7/kicost-1.1.8.tar.gz
+[2023-05-15 18:44:44] INFO root fetch - main [MainThread]: End processing [shellous]: success
+[2023-05-15 18:44:44] INFO root fetch - processPackages [kicost]: executing diffoscope
+[2023-05-15 18:44:44] INFO root fetch - processPackages [kicost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kicost-1.1.6.tar.gz tmp/kicost-1.1.8.tar.gz --markdown 20230515/k/kicost/1.1.6-1.1.8/diff.md --exclude *.pyd
+[2023-05-15 18:44:44] WARNING root fetch - processPackages [psfam]: Skipping, unable to determine old version
+[2023-05-15 18:44:44] INFO root fetch - main [MainThread]: End processing [psfam] error
+[2023-05-15 18:44:45] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-15 18:44:45] INFO root fetch - main [MainThread]: End processing [param-sweeps]: success
+[2023-05-15 18:44:45] INFO root fetch - main [MainThread]: End processing [gctree]: success
+[2023-05-15 18:44:46] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-15 18:44:48] INFO root fetch - main [MainThread]: End processing [kicost]: success
+[2023-05-15 18:45:01] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-15 18:45:14] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-15 18:45:22] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-05-15 18:45:22] INFO root fetch - main [MainThread]: Store serial: [18110809]
