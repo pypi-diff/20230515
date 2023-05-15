@@ -5437,3 +5437,43 @@
 [2023-05-15 08:03:11] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
 [2023-05-15 08:03:13] INFO root fetch - main [MainThread]: End processing [usearch]: success
 [2023-05-15 08:03:13] INFO root fetch - main [MainThread]: Store serial: [18103439]
+[2023-05-15 08:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103439]
+[2023-05-15 08:08:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 08:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kudio
+[2023-05-15 08:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trex-model
+[2023-05-15 08:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-05-15 08:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aspose-diagram-python
+[2023-05-15 08:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trex-apis
+[2023-05-15 08:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vl-datasets
+[2023-05-15 08:08:23] INFO root fetch - processPackages [aspose-diagram-python]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-15 08:08:23] INFO root fetch - processPackages [kudio]: New version: [1.1.4.2] Old Version: [1.1.4.1]
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-model]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 08:08:23] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230514] Old Version: [2.4.0.dev20230513]
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-apis]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-15 08:08:23] INFO root fetch - processPackages [vl-datasets]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 08:08:23] INFO root fetch - processPackages [aspose-diagram-python]: Downloading https://files.pythonhosted.org/packages/22/f7/b585e8543ad98baf6b8a2a1a706587ffcd313f765693de599d17ed2b1260/aspose_diagram_python-23.4-py3-none-win_amd64.whl
+[2023-05-15 08:08:23] INFO root fetch - processPackages [kudio]: Downloading https://files.pythonhosted.org/packages/89/88/e5ccfbd40093430054c967f6a28cae338c7c0ddc2d3103d214af5457e7f6/kudio-1.1.4.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/06/54/2eefbb9eb5aed022de031c2d793acb9b197a5362b3fc49d8d9219b5bb713/trex-model-1.0.3.tar.gz
+[2023-05-15 08:08:23] INFO root fetch - processPackages [vl-datasets]: Downloading https://files.pythonhosted.org/packages/a5/f4/067f4683fd35b5e1b1de0cd8dd2c7189fe985a9558384d1823f47e4b504f/vl_datasets-0.0.4-py3.9-none-any.whl
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/29/26/71a9c64786d16774fd5cf2a71281209ece8de0042e452a5c9b9d4655b95e/trex-apis-1.0.4.tar.gz
+[2023-05-15 08:08:23] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/3d/78/1d81fb59af726adede27043c41b2fc0d045fb3d7aca0eaf2280c527b1b15/pyg-nightly-2.4.0.dev20230514.tar.gz
+[2023-05-15 08:08:23] WARNING root fetch - processPackages [aspose-diagram-python]: Skipping package: exceeds size limit 38611790>=10485760
+[2023-05-15 08:08:23] INFO root fetch - main [MainThread]: End processing [aspose-diagram-python] error
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-model]: executing diffoscope
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-model-1.0.2.tar.gz tmp/trex-model-1.0.3.tar.gz --markdown 20230515/t/trex-model/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2023-05-15 08:08:23] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-1.0.3.tar.gz tmp/trex-apis-1.0.4.tar.gz --markdown 20230515/t/trex-apis/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-15 08:08:23] INFO root fetch - processPackages [vl-datasets]: Downloading https://files.pythonhosted.org/packages/ae/ca/e0e601985bc5b4b271b932be2eb185452ba19008021b6e79a4acb56e626f/vl_datasets-0.0.5-py3.9-none-any.whl
+[2023-05-15 08:08:23] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-15 08:08:23] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230513.tar.gz tmp/pyg-nightly-2.4.0.dev20230514.tar.gz --markdown 20230515/p/pyg-nightly/2.4.0.dev20230513-2.4.0.dev20230514/diff.md --exclude *.pyd
+[2023-05-15 08:08:24] INFO root fetch - processPackages [kudio]: Downloading https://files.pythonhosted.org/packages/4a/5f/05f4006a6deb250af7dccf861f423663f4972ddc3d2ef3eb00f7568fdc12/kudio-1.1.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 08:08:24] INFO root fetch - processPackages [kudio]: executing diffoscope
+[2023-05-15 08:08:24] INFO root fetch - processPackages [kudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kudio-1.1.4.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/kudio-1.1.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230515/k/kudio/1.1.4.1-1.1.4.2/diff.md --exclude *.pyd
+[2023-05-15 08:08:24] INFO root fetch - processPackages [vl-datasets]: executing diffoscope
+[2023-05-15 08:08:24] INFO root fetch - processPackages [vl-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_datasets-0.0.4-py3.9-none-any.whl.zip tmp/vl_datasets-0.0.5-py3.9-none-any.whl.zip --markdown 20230515/v/vl-datasets/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 08:08:25] INFO root fetch - main [MainThread]: End processing [vl-datasets]: success
+[2023-05-15 08:08:25] INFO root fetch - main [MainThread]: End processing [trex-model]: success
+[2023-05-15 08:08:25] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2023-05-15 08:08:28] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-15 08:08:33] INFO root fetch - main [MainThread]: End processing [kudio]: success
+[2023-05-15 08:08:33] INFO root fetch - main [MainThread]: Store serial: [18103454]
