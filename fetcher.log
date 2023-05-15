@@ -20737,3 +20737,117 @@ EOFError: EOF read where object expected
 [2023-05-15 21:26:13] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-15 21:26:29] INFO root fetch - main [MainThread]: End processing [hyphy-python]: success
 [2023-05-15 21:26:29] INFO root fetch - main [MainThread]: Store serial: [18112406]
+[2023-05-15 21:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112406]
+[2023-05-15 21:31:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quant-invest-lab
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mixture-of-attention
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hivclustering
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ts-sdk
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycoloringsaddition
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spacetraders
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phenospy
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensourceleg
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autonity
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bytez
+[2023-05-15 21:31:39] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [spacetraders]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [quant-invest-lab]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [phenospy]: New version: [0.18] Old Version: [0.17]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [hivclustering]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [opensourceleg]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [autonity]: New version: [0.2.dev2] Old Version: [0.2.dev1]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ts-sdk]: New version: [2.0.0rc5] Old Version: [2.0.0rc4]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [pycoloringsaddition]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-05-15 21:31:39] INFO root fetch - processPackages [autonity]: executing diffoscope
+[2023-05-15 21:31:39] INFO root fetch - processPackages [autonity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonity-0.2.dev1.tar.gz tmp/autonity-0.2.dev2-py3-none-any.whl.zip --markdown 20230515/a/autonity/0.2.dev1-0.2.dev2/diff.md --exclude *.pyd
+[2023-05-15 21:31:39] INFO root fetch - processPackages [phenospy]: Downloading https://files.pythonhosted.org/packages/59/a6/8a239d5bdae979c0809984a4520b05f688666a53ecd4379001117930cbf6/phenospy-0.17.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [pycoloringsaddition]: Downloading https://files.pythonhosted.org/packages/5b/c9/59f15c470dce53b545e519c42c1a056ade25811cf0610b5ac15b2c3f7ba4/pycoloringsaddition-1.0.0.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/13/c8/2650e9972063766494fb16bcc40b1a2e7ad92fce2897986e95c0b69f81f5/opensourceleg-1.0.2.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/e3/8d/20eecc19afeddf38a2563175938d001c94f185db3103f692b9f212f4b79f/bytez-0.1.82.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ts-sdk]: Downloading https://files.pythonhosted.org/packages/25/7d/5422b3c2c427bd9e17cbc031cb7333e5454b6d87ca9201c0d1d91aeee8aa/ts_sdk-2.0.0rc4-py3-none-any.whl
+[2023-05-15 21:31:39] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/82/7d/6dbccf1427c1aa963c752c20cea9a18216394afc5684ac586d2025e12d41/mixture-of-attention-0.0.3.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [hivclustering]: Downloading https://files.pythonhosted.org/packages/4c/b4/7a699eca4918e73b2eb14ad3ff99c7e609ee88601b060a2fee4c96417673/hivclustering-1.6.5.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/07/c7/374766ef686ded38eb7bbafe00bb4176531dc2fb401e6dd988de132a829a/spacetraders-0.4.0.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-15 21:31:39] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.2.tar.gz tmp/mixture-of-attention-0.0.3.tar.gz --markdown 20230515/m/mixture-of-attention/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 21:31:39] INFO root fetch - processPackages [quant-invest-lab]: Downloading https://files.pythonhosted.org/packages/f5/09/14c6e0baec7eb1ef2e0e7665290eeb1fef821e7af51ce682788060bf4f6d/quant_invest_lab-0.2.2.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [hivclustering]: executing diffoscope
+[2023-05-15 21:31:39] INFO root fetch - processPackages [hivclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivclustering-1.6.4.tar.gz tmp/hivclustering-1.6.5.tar.gz --markdown 20230515/h/hivclustering/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-15 21:31:39] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-15 21:31:39] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.82.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230515/b/bytez/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 21:31:39] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/de/3d/023cf52bff39853e512c71698f0adb5c25a1ed3acdf65fef2f2c082eb994/opensourceleg-1.1.0.tar.gz
+[2023-05-15 21:31:39] INFO root fetch - processPackages [spacetraders]: executing diffoscope
+[2023-05-15 21:31:39] INFO root fetch - processPackages [spacetraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetraders-0.3.0.tar.gz tmp/spacetraders-0.4.0.tar.gz --markdown 20230515/s/spacetraders/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 21:31:39] INFO root fetch - processPackages [ts-sdk]: Downloading https://files.pythonhosted.org/packages/fe/03/2253a9bd15ed3c6c59279be70d334a6cd1f8c8041c0ee96ab50efd6a1d94/ts_sdk-2.0.0rc5-py3-none-any.whl
+[2023-05-15 21:31:39] INFO root fetch - processPackages [quant-invest-lab]: executing diffoscope
+[2023-05-15 21:31:39] INFO root fetch - processPackages [quant-invest-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant_invest_lab-0.2.1.tar.gz tmp/quant_invest_lab-0.2.2.tar.gz --markdown 20230515/q/quant-invest-lab/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-15 21:31:39] INFO root fetch - processPackages [phenospy]: Downloading https://files.pythonhosted.org/packages/70/0b/f87756d1fda7ef1b965740961e242072260f0af89d9edd53532cc2bd60e2/phenospy-0.18.tar.gz
+[2023-05-15 21:31:40] INFO root fetch - processPackages [pycoloringsaddition]: Downloading https://files.pythonhosted.org/packages/ca/aa/b267fb7e72982650ed8d40f8d9b6f8e5102122d3cd5c7375b87d260b720f/pycoloringsaddition-1.1.0.tar.gz
+[2023-05-15 21:31:40] INFO root fetch - processPackages [opensourceleg]: executing diffoscope
+[2023-05-15 21:31:40] INFO root fetch - processPackages [opensourceleg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourceleg-1.0.2.tar.gz tmp/opensourceleg-1.1.0.tar.gz --markdown 20230515/o/opensourceleg/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 21:31:40] INFO root fetch - processPackages [phenospy]: executing diffoscope
+[2023-05-15 21:31:40] INFO root fetch - processPackages [phenospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenospy-0.17.tar.gz tmp/phenospy-0.18.tar.gz --markdown 20230515/p/phenospy/0.17-0.18/diff.md --exclude *.pyd
+[2023-05-15 21:31:40] INFO root fetch - processPackages [pycoloringsaddition]: executing diffoscope
+[2023-05-15 21:31:40] INFO root fetch - processPackages [pycoloringsaddition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycoloringsaddition-1.0.0.tar.gz tmp/pycoloringsaddition-1.1.0.tar.gz --markdown 20230515/p/pycoloringsaddition/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 21:31:40] INFO root fetch - processPackages [ts-sdk]: executing diffoscope
+[2023-05-15 21:31:40] INFO root fetch - processPackages [ts-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_sdk-2.0.0rc4-py3-none-any.whl.zip tmp/ts_sdk-2.0.0rc5-py3-none-any.whl.zip --markdown 20230515/t/ts-sdk/2.0.0rc4-2.0.0rc5/diff.md --exclude *.pyd
+[2023-05-15 21:31:41] INFO root fetch - processPackages [autonity]: Start processing: hivtrace
+[2023-05-15 21:31:41] INFO root fetch - main [MainThread]: End processing [autonity]: success
+[2023-05-15 21:31:41] INFO root fetch - processPackages [hivtrace]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-15 21:31:41] INFO root fetch - processPackages [mixture-of-attention]: Start processing: ladybug-display
+[2023-05-15 21:31:41] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-15 21:31:41] INFO root fetch - processPackages [ladybug-display]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 21:31:41] INFO root fetch - processPackages [bytez]: Start processing: tsuchinoko
+[2023-05-15 21:31:41] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-15 21:31:41] INFO root fetch - processPackages [hivtrace]: Downloading https://files.pythonhosted.org/packages/ab/d5/dab8c0b534f2373a5b1a23848ac9a20248e2fe1a6da727a8e863a4a0351d/hivtrace-0.6.2.tar.gz
+[2023-05-15 21:31:41] WARNING root fetch - processPackages [hivtrace]: Skipping package: exceeds size limit 39752125>=10485760
+[2023-05-15 21:31:41] INFO root fetch - processPackages [hivtrace]: Start processing: outerbounds
+[2023-05-15 21:31:41] INFO root fetch - main [MainThread]: End processing [hivtrace] error
+[2023-05-15 21:31:41] INFO root fetch - processPackages [tsuchinoko]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 21:31:41] INFO root fetch - processPackages [ladybug-display]: Downloading https://files.pythonhosted.org/packages/67/a2/83f715d88e0061165bf68bd8d0a2952d9abd76dc342523a071a0f787d5a7/ladybug-display-0.8.0.tar.gz
+[2023-05-15 21:31:41] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 21:31:41] INFO root fetch - processPackages [tsuchinoko]: Downloading https://files.pythonhosted.org/packages/8d/57/0eba868e553c49f37f9ed686caddf2084acfc52ec6de3d667baaf9e9cc41/tsuchinoko-1.0.8.tar.gz
+[2023-05-15 21:31:41] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-05-15 21:31:41] INFO root fetch - processPackages [ladybug-display]: Downloading https://files.pythonhosted.org/packages/1e/02/cec14e3a43e6e2fc76e6653561b4cf84608834a24c06c7fc25faaa97b4eb/ladybug-display-0.9.0.tar.gz
+[2023-05-15 21:31:41] INFO root fetch - processPackages [ladybug-display]: executing diffoscope
+[2023-05-15 21:31:41] INFO root fetch - processPackages [ladybug-display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-display-0.8.0.tar.gz tmp/ladybug-display-0.9.0.tar.gz --markdown 20230515/l/ladybug-display/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 21:31:42] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-05-15 21:31:42] INFO root fetch - processPackages [tsuchinoko]: Downloading https://files.pythonhosted.org/packages/fd/20/4e206ac339b14f859b4e197663c084b5d3c2e1098e28151f267b4ea85773/tsuchinoko-1.0.9.tar.gz
+[2023-05-15 21:31:42] INFO root fetch - processPackages [pycoloringsaddition]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-05-15 21:31:42] INFO root fetch - main [MainThread]: End processing [pycoloringsaddition]: success
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-05-15 21:31:42] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-05-15 21:31:42] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230515/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 21:31:42] INFO root fetch - processPackages [tsuchinoko]: executing diffoscope
+[2023-05-15 21:31:42] INFO root fetch - processPackages [tsuchinoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsuchinoko-1.0.8.tar.gz tmp/tsuchinoko-1.0.9.tar.gz --markdown 20230515/t/tsuchinoko/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:31:42] INFO root fetch - processPackages [quant-invest-lab]: Start processing: odoo-addon-l10n-es-aeat-sii-oss
+[2023-05-15 21:31:42] INFO root fetch - main [MainThread]: End processing [quant-invest-lab]: success
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.2]
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/d1/b5/567726970aabe19bdf1527ba5e9e22ec87ed52f0dac3a76731b567c8418d/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.0-py3-none-any.whl
+[2023-05-15 21:31:42] INFO root fetch - processPackages [phenospy]: Start processing: claudia
+[2023-05-15 21:31:42] INFO root fetch - main [MainThread]: End processing [phenospy]: success
+[2023-05-15 21:31:42] INFO root fetch - processPackages [ts-sdk]: Start processing: terka
+[2023-05-15 21:31:42] INFO root fetch - main [MainThread]: End processing [ts-sdk]: success
+[2023-05-15 21:31:42] WARNING root fetch - processPackages [claudia]: Skipping, unable to determine old version
+[2023-05-15 21:31:42] INFO root fetch - main [MainThread]: End processing [claudia] error
+[2023-05-15 21:31:42] INFO root fetch - processPackages [terka]: New version: [1.9.0.1] Old Version: [1.9.0]
+[2023-05-15 21:31:42] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: Downloading https://files.pythonhosted.org/packages/6a/8f/f253bcf7f7e128e763b7a746b837826d01b593593ec4b94894332e0c880c/odoo_addon_l10n_es_aeat_sii_oss-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 21:31:42] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-05-15 21:31:42] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.9.0.tar.gz tmp/terka-1.9.0.1.tar.gz --markdown 20230515/t/terka/1.9.0-1.9.0.1/diff.md --exclude *.pyd
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/ff/f7/c79cd8d112fbaeff4f6260fd152da63a42295208ee282e198fffcd3a5db5/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.0.1-py3-none-any.whl
+[2023-05-15 21:31:42] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: Downloading https://files.pythonhosted.org/packages/c0/dd/4df0524879e4408ed10af880c376f87ddb95afe07995478bb280fe724f7e/odoo_addon_l10n_es_aeat_sii_oss-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: executing diffoscope
+[2023-05-15 21:31:42] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oss-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oss-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-l10n-es-aeat-sii-oss/15.0.1.0.0.2-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-15 21:31:43] INFO root fetch - main [MainThread]: End processing [hivclustering]: success
+[2023-05-15 21:31:43] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-05-15 21:31:43] INFO root fetch - main [MainThread]: End processing [ladybug-display]: success
+[2023-05-15 21:31:43] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-05-15 21:31:44] INFO root fetch - main [MainThread]: End processing [tsuchinoko]: success
+[2023-05-15 21:31:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oss]: success
+[2023-05-15 21:31:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-05-15 21:31:44] INFO root fetch - main [MainThread]: Store serial: [18112456]
