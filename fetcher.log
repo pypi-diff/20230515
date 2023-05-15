@@ -18464,3 +18464,130 @@ EOFError: EOF read where object expected
 [2023-05-15 19:01:06] INFO root fetch - main [MainThread]: End processing [shodan]: success
 [2023-05-15 19:01:06] INFO root fetch - main [MainThread]: End processing [picai-baseline]: success
 [2023-05-15 19:01:06] INFO root fetch - main [MainThread]: Store serial: [18110984]
+[2023-05-15 19:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110984]
+[2023-05-15 19:06:16] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Log-Api
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t2c
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maxtime
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trill-proteins
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: behave-xray
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: file-validator
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twitter-api-py
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citronella
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-gallery
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ewoksorange
+[2023-05-15 19:06:16] WARNING root fetch - processPackages [maxtime]: Skipping, unable to determine old version
+[2023-05-15 19:06:16] INFO root fetch - processPackages [maxtime]: Start processing: trill-proteins
+[2023-05-15 19:06:16] INFO root fetch - main [MainThread]: End processing [maxtime] error
+[2023-05-15 19:06:16] INFO root fetch - processPackages [t2c]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [Log-Api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [mkdocs-gallery]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [trill-proteins]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [behave-xray]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [trill-proteins]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [file-validator]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [citronella]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [twitter-api-py]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [Log-Api]: Downloading https://files.pythonhosted.org/packages/f9/8f/08be7346a0ffb24b016a91c01c2ff527082835af6e15d7a0f919c1dae5f9/Log_Api-0.0.1.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [trill-proteins]: Downloading https://files.pythonhosted.org/packages/84/2b/0767919d44eb5efb595099d9e1380d2a85ad12912ff11f80d90e5989996e/trill_proteins-1.3.1.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [trill-proteins]: Downloading https://files.pythonhosted.org/packages/84/2b/0767919d44eb5efb595099d9e1380d2a85ad12912ff11f80d90e5989996e/trill_proteins-1.3.1.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [file-validator]: Downloading https://files.pythonhosted.org/packages/cb/76/a149a7aa789842fcd3dc9fead7ad101287e633d4c9b0b64cabb35cef4688/file_validator-1.0.7.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [mkdocs-gallery]: Downloading https://files.pythonhosted.org/packages/6f/07/99951544c9fe92e37e7713112761d93600af704a5cb6648368ab1a34f11b/mkdocs-gallery-0.7.6.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [behave-xray]: Downloading https://files.pythonhosted.org/packages/4d/95/39c2e38f733ef5fc95f395604cedc15a20afbd13974fe1db90f18828b45b/behave_xray-0.2.0-py3-none-any.whl
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ewoksorange]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [citronella]: Downloading https://files.pythonhosted.org/packages/58/51/cfe4deb2cc81f1d53e413d0bb05586dc43d7b0930752754c0b35592fb3d5/citronella-0.0.5.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [file-validator]: executing diffoscope
+[2023-05-15 19:06:16] INFO root fetch - processPackages [file-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_validator-1.0.6.tar.gz tmp/file_validator-1.0.7.tar.gz --markdown 20230515/f/file-validator/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-15 19:06:16] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/4e/3e/e37ec3cb3b58171967bf577c8f320f28cb5a99f41dc0e5338e5e36306792/twitter_api_py-0.7.1.tar.gz
+[2023-05-15 19:06:16] WARNING root fetch - processPackages [trill-proteins]: Skipping package: exceeds size limit 11003929>=10485760
+[2023-05-15 19:06:16] WARNING root fetch - processPackages [trill-proteins]: Skipping package: exceeds size limit 11003929>=10485760
+[2023-05-15 19:06:16] INFO root fetch - processPackages [trill-proteins]: Start processing: qget
+[2023-05-15 19:06:16] INFO root fetch - processPackages [trill-proteins]: Start processing: ewoksppf
+[2023-05-15 19:06:16] INFO root fetch - main [MainThread]: End processing [trill-proteins] error
+[2023-05-15 19:06:16] INFO root fetch - main [MainThread]: End processing [trill-proteins] error
+[2023-05-15 19:06:16] INFO root fetch - processPackages [t2c]: Downloading https://files.pythonhosted.org/packages/03/6b/40298b2d7c14a3be97424de11c7f4bd0df3bba27453c807c29f9e88e3795/t2c-0.0.5.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [t2c]: executing diffoscope
+[2023-05-15 19:06:16] INFO root fetch - processPackages [t2c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2c-0.0.4.tar.gz tmp/t2c-0.0.5.tar.gz --markdown 20230515/t/t2c/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 19:06:16] INFO root fetch - processPackages [Log-Api]: Downloading https://files.pythonhosted.org/packages/8b/86/9d8bbb81f7f09645028d061953e1b985ae48e75c38d9ce17d919017f4531/Log_Api-0.0.2.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [Log-Api]: executing diffoscope
+[2023-05-15 19:06:16] INFO root fetch - processPackages [Log-Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Log_Api-0.0.1.tar.gz tmp/Log_Api-0.0.2.tar.gz --markdown 20230515/L/Log-Api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 19:06:16] INFO root fetch - processPackages [qget]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-15 19:06:16] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.7.0.tar.gz tmp/twitter_api_py-0.7.1.tar.gz --markdown 20230515/t/twitter-api-py/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ewoksppf]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 19:06:16] INFO root fetch - processPackages [citronella]: Downloading https://files.pythonhosted.org/packages/51/ca/541653489c92ff8ba30d5e27da72d230ebe7304ed3050bbf8dc4219d4e28/citronella-0.0.6.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [behave-xray]: Downloading https://files.pythonhosted.org/packages/f2/95/000b57d94dcda0dc4a93a6f301824c3351e50fe49832e244f714fd530ebf/behave_xray-0.2.1-py3-none-any.whl
+[2023-05-15 19:06:16] INFO root fetch - processPackages [mkdocs-gallery]: Downloading https://files.pythonhosted.org/packages/cd/62/d445088aa5d14230abfa20261f350ba40a7e1ce632c70a44294655835d9b/mkdocs-gallery-0.7.7.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [ewoksorange]: Downloading https://files.pythonhosted.org/packages/d5/5b/9f1d946dcf60e4d1fb530a08c63848f4e552e646b3c43aeb8fa7825d6323/ewoksorange-0.1.7.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [citronella]: executing diffoscope
+[2023-05-15 19:06:16] INFO root fetch - processPackages [citronella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citronella-0.0.5.tar.gz tmp/citronella-0.0.6.tar.gz --markdown 20230515/c/citronella/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 19:06:16] INFO root fetch - processPackages [qget]: Downloading https://files.pythonhosted.org/packages/2a/a3/b5c0f28e23ea1d637830beb3daa970daf211ded36d6693db7e762f6788f2/qget-0.1.5.tar.gz
+[2023-05-15 19:06:16] INFO root fetch - processPackages [behave-xray]: executing diffoscope
+[2023-05-15 19:06:16] INFO root fetch - processPackages [behave-xray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behave_xray-0.2.0-py3-none-any.whl.zip tmp/behave_xray-0.2.1-py3-none-any.whl.zip --markdown 20230515/b/behave-xray/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 19:06:17] INFO root fetch - processPackages [ewoksppf]: Downloading https://files.pythonhosted.org/packages/69/17/1f0c4c05ab4ccf4fd45f135df83607765de80ffd311cd855415bc6e7913e/ewoksppf-0.1.3.tar.gz
+[2023-05-15 19:06:17] INFO root fetch - processPackages [mkdocs-gallery]: executing diffoscope
+[2023-05-15 19:06:17] INFO root fetch - processPackages [mkdocs-gallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-gallery-0.7.6.tar.gz tmp/mkdocs-gallery-0.7.7.tar.gz --markdown 20230515/m/mkdocs-gallery/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-15 19:06:17] INFO root fetch - processPackages [ewoksorange]: Downloading https://files.pythonhosted.org/packages/33/c7/dbfe943563f98bc4b268691d52031f02b1cb19a6c436fc6e5dd433f9ce09/ewoksorange-0.1.8.tar.gz
+[2023-05-15 19:06:17] INFO root fetch - processPackages [ewoksppf]: Downloading https://files.pythonhosted.org/packages/9e/c3/968a430d5b5f7090effc252bd63d8ce7d0f0c595e95ffa3f8504abb41b6e/ewoksppf-0.1.4.tar.gz
+[2023-05-15 19:06:17] INFO root fetch - processPackages [ewoksorange]: executing diffoscope
+[2023-05-15 19:06:17] INFO root fetch - processPackages [ewoksorange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksorange-0.1.7.tar.gz tmp/ewoksorange-0.1.8.tar.gz --markdown 20230515/e/ewoksorange/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 19:06:17] INFO root fetch - processPackages [qget]: Downloading https://files.pythonhosted.org/packages/eb/17/eca590c803c53f181e67f8d9c021939c31742518ba256367c08f9d45732f/qget-0.1.6.tar.gz
+[2023-05-15 19:06:17] INFO root fetch - processPackages [ewoksppf]: executing diffoscope
+[2023-05-15 19:06:17] INFO root fetch - processPackages [ewoksppf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksppf-0.1.3.tar.gz tmp/ewoksppf-0.1.4.tar.gz --markdown 20230515/e/ewoksppf/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 19:06:17] INFO root fetch - processPackages [qget]: executing diffoscope
+[2023-05-15 19:06:17] INFO root fetch - processPackages [qget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qget-0.1.5.tar.gz tmp/qget-0.1.6.tar.gz --markdown 20230515/q/qget/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 19:06:18] INFO root fetch - processPackages [file-validator]: Start processing: storage-remote-python-client
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [file-validator]: success
+[2023-05-15 19:06:18] INFO root fetch - processPackages [t2c]: Start processing: ewoksdask
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [t2c]: success
+[2023-05-15 19:06:18] WARNING root fetch - processPackages [storage-remote-python-client]: Skipping, unable to determine old version
+[2023-05-15 19:06:18] INFO root fetch - processPackages [storage-remote-python-client]: Start processing: subgrounds
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [storage-remote-python-client] error
+[2023-05-15 19:06:18] INFO root fetch - processPackages [ewoksdask]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 19:06:18] INFO root fetch - processPackages [Log-Api]: Start processing: chorde
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [Log-Api]: success
+[2023-05-15 19:06:18] INFO root fetch - processPackages [subgrounds]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-15 19:06:18] INFO root fetch - processPackages [chorde]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-15 19:06:18] INFO root fetch - processPackages [ewoksdask]: Downloading https://files.pythonhosted.org/packages/51/1f/eae7a17e8a3508c3b838bdf0caa1956c186f13e081313363bd94464585c1/ewoksdask-0.1.1.tar.gz
+[2023-05-15 19:06:18] INFO root fetch - processPackages [behave-xray]: Start processing: exco
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [behave-xray]: success
+[2023-05-15 19:06:18] INFO root fetch - processPackages [citronella]: Start processing: corpus-pax
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [citronella]: success
+[2023-05-15 19:06:18] INFO root fetch - processPackages [corpus-pax]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 19:06:18] INFO root fetch - processPackages [subgrounds]: Downloading https://files.pythonhosted.org/packages/92/37/6eab8744e40179fb38a1a12b5d1709d9ed3ac55020bfe4dd6c99ab250fe5/subgrounds-1.5.0.tar.gz
+[2023-05-15 19:06:18] INFO root fetch - processPackages [exco]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 19:06:18] INFO root fetch - processPackages [corpus-pax]: executing diffoscope
+[2023-05-15 19:06:18] INFO root fetch - processPackages [corpus-pax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corpus_pax-0.1.8.tar.gz tmp/corpus_pax-0.1.9.tar.gz --markdown 20230515/c/corpus-pax/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 19:06:18] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/06/21/874bb81b300e7ac3d9fcc1863e1ac4d49802374f875943ca3da7ea3ab365/chorde-1.0.3.tar.gz
+[2023-05-15 19:06:18] INFO root fetch - processPackages [ewoksdask]: Downloading https://files.pythonhosted.org/packages/3a/0b/a211c3a41f01c08509fd54a51bcb77874d11a934803a6a2711ac35cbf986/ewoksdask-0.1.2.tar.gz
+[2023-05-15 19:06:18] INFO root fetch - processPackages [exco]: Downloading https://files.pythonhosted.org/packages/fc/69/c08f3127be0a1c91de2ab2e8e2df5561a15308c2be0166cbfc96574f114d/exco-0.2.8.tar.gz
+[2023-05-15 19:06:18] INFO root fetch - processPackages [ewoksdask]: executing diffoscope
+[2023-05-15 19:06:18] INFO root fetch - processPackages [ewoksdask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksdask-0.1.1.tar.gz tmp/ewoksdask-0.1.2.tar.gz --markdown 20230515/e/ewoksdask/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 19:06:18] INFO root fetch - processPackages [subgrounds]: Downloading https://files.pythonhosted.org/packages/52/2d/87bb7e58cb72bcc1dd38c462549b485debc2b8d812631255e2e55b060d8e/subgrounds-1.5.1.tar.gz
+[2023-05-15 19:06:18] INFO root fetch - processPackages [ewoksppf]: Start processing: wise-pizza
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [ewoksppf]: success
+[2023-05-15 19:06:18] WARNING root fetch - processPackages [wise-pizza]: Skipping, unable to determine old version
+[2023-05-15 19:06:18] INFO root fetch - processPackages [wise-pizza]: Start processing: trill-proteins
+[2023-05-15 19:06:18] INFO root fetch - main [MainThread]: End processing [wise-pizza] error
+[2023-05-15 19:06:18] INFO root fetch - processPackages [subgrounds]: executing diffoscope
+[2023-05-15 19:06:18] INFO root fetch - processPackages [subgrounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subgrounds-1.5.0.tar.gz tmp/subgrounds-1.5.1.tar.gz --markdown 20230515/s/subgrounds/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-15 19:06:18] INFO root fetch - processPackages [exco]: Downloading https://files.pythonhosted.org/packages/06/29/e56c6c75edbe1881e9ed4ecd6688dafe1365809e2a53d5f7c1c302b812ea/exco-0.2.9.tar.gz
+[2023-05-15 19:06:18] INFO root fetch - processPackages [trill-proteins]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-15 19:06:19] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/f5/ed/8df2abeb52fa90084b77b31628899d0cfdf28daf8a65ed5fd05dea814c85/chorde-1.0.4.tar.gz
+[2023-05-15 19:06:19] INFO root fetch - processPackages [exco]: executing diffoscope
+[2023-05-15 19:06:19] INFO root fetch - processPackages [exco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exco-0.2.8.tar.gz tmp/exco-0.2.9.tar.gz --markdown 20230515/e/exco/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 19:06:19] INFO root fetch - main [MainThread]: End processing [qget]: success
+[2023-05-15 19:06:19] INFO root fetch - processPackages [trill-proteins]: Downloading https://files.pythonhosted.org/packages/9c/2a/5cfbaca89ee8b1adaf34fe9595286da7e38b98407b9cd645121486082256/trill_proteins-1.3.3.tar.gz
+[2023-05-15 19:06:19] WARNING root fetch - processPackages [trill-proteins]: Skipping package: exceeds size limit 11003920>=10485760
+[2023-05-15 19:06:19] INFO root fetch - main [MainThread]: End processing [trill-proteins] error
+[2023-05-15 19:06:19] INFO root fetch - processPackages [chorde]: executing diffoscope
+[2023-05-15 19:06:19] INFO root fetch - processPackages [chorde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chorde-1.0.3.tar.gz tmp/chorde-1.0.4.tar.gz --markdown 20230515/c/chorde/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-15 19:06:19] INFO root fetch - main [MainThread]: End processing [corpus-pax]: success
+[2023-05-15 19:06:19] INFO root fetch - main [MainThread]: End processing [ewoksdask]: success
+[2023-05-15 19:06:20] INFO root fetch - main [MainThread]: End processing [subgrounds]: success
+[2023-05-15 19:06:20] INFO root fetch - main [MainThread]: End processing [exco]: success
+[2023-05-15 19:06:20] INFO root fetch - main [MainThread]: End processing [ewoksorange]: success
+[2023-05-15 19:06:20] INFO root fetch - main [MainThread]: End processing [mkdocs-gallery]: success
+[2023-05-15 19:06:21] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-15 19:06:22] INFO root fetch - main [MainThread]: End processing [chorde]: success
+[2023-05-15 19:06:22] INFO root fetch - main [MainThread]: Store serial: [18111047]
