@@ -16045,3 +16045,157 @@ EOFError: EOF read where object expected
 [2023-05-15 17:02:24] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
 [2023-05-15 17:02:24] INFO root fetch - main [MainThread]: End processing [etl-entities]: success
 [2023-05-15 17:02:24] INFO root fetch - main [MainThread]: Store serial: [18109585]
+[2023-05-15 17:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109585]
+[2023-05-15 17:07:34] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autumn8
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: birdnetlib
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyAreaSampleTrial
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: picframe
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycolorpackagesV2
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_lamin1
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seunggabi-core-python
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytket-offline-display
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterhub-backendspawner
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ucampurestorage
+[2023-05-15 17:07:34] WARNING root fetch - processPackages [pycolorpackagesV2]: Skipping, unable to determine old version
+[2023-05-15 17:07:34] INFO root fetch - processPackages [pycolorpackagesV2]: Start processing: jinja-unquote-resolvers-filter
+[2023-05-15 17:07:34] INFO root fetch - main [MainThread]: End processing [pycolorpackagesV2] error
+[2023-05-15 17:07:34] INFO root fetch - processPackages [lnschema_lamin1]: New version: [0.16.1] Old Version: [0.16.0]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.2.6.1] Old Version: [0.2.5]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.2.5.tar.gz tmp/jupyterhub-backendspawner-0.2.6.1.tar.gz --markdown 20230515/j/jupyterhub-backendspawner/0.2.5-0.2.6.1/diff.md --exclude *.pyd
+[2023-05-15 17:07:34] INFO root fetch - processPackages [picframe]: New version: [2022.6.3] Old Version: [2022.4.19]
+[2023-05-15 17:07:34] WARNING root fetch - processPackages [pyAreaSampleTrial]: Skipping, unable to determine old version
+[2023-05-15 17:07:34] INFO root fetch - processPackages [pyAreaSampleTrial]: Start processing: nucliadb
+[2023-05-15 17:07:34] INFO root fetch - main [MainThread]: End processing [pyAreaSampleTrial] error
+[2023-05-15 17:07:34] INFO root fetch - processPackages [pytket-offline-display]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [birdnetlib]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-15 17:07:34] WARNING root fetch - processPackages [ucampurestorage]: Skipping, unable to determine old version
+[2023-05-15 17:07:34] INFO root fetch - processPackages [ucampurestorage]: Start processing: nucliadb-client
+[2023-05-15 17:07:34] INFO root fetch - main [MainThread]: End processing [ucampurestorage] error
+[2023-05-15 17:07:34] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc5] Old Version: [1.0.5rc4]
+[2023-05-15 17:07:34] WARNING root fetch - processPackages [jinja-unquote-resolvers-filter]: Skipping, unable to determine old version
+[2023-05-15 17:07:34] INFO root fetch - processPackages [jinja-unquote-resolvers-filter]: Start processing: nucliadb-dataset
+[2023-05-15 17:07:34] INFO root fetch - main [MainThread]: End processing [jinja-unquote-resolvers-filter] error
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [lnschema_lamin1]: Downloading https://files.pythonhosted.org/packages/97/79/faf74a5e457c0b1d339a49d883ed18aa938921363bfba97abbee446f50b7/lnschema_lamin1-0.16.0.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/b9/f4/301dfb298f72928ece33086084bb8be8386de5277a3c30bcc01c0dbdf755/seunggabi_core_python-0.1.1.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [pytket-offline-display]: Downloading https://files.pythonhosted.org/packages/84/e5/00fe7d7998449a360a63ed3994c9d76894c7dfe276e7b010a1b9de8c91b6/pytket-offline-display-0.0.4.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [picframe]: Downloading https://files.pythonhosted.org/packages/24/f8/09c79f639938bf2f8a67dffac7b22ae02644653fed38c6862dc71c21b593/picframe-2022.4.19.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/79/ea/ed9ba842a738a3ca09248b6dd70ad3a1fe272f0b159c211a937a7f7e4641/autumn8-1.0.5rc4.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [birdnetlib]: Downloading https://files.pythonhosted.org/packages/27/4d/c79fc02c76e5aeb9bf2a02db80f02bd40955c7620d4ec7a6028b41067752/birdnetlib-0.5.1.tar.gz
+[2023-05-15 17:07:34] WARNING root fetch - processPackages [birdnetlib]: Skipping package: exceeds size limit 91505575>=10485760
+[2023-05-15 17:07:34] INFO root fetch - processPackages [birdnetlib]: Start processing: nucliadb-models
+[2023-05-15 17:07:34] INFO root fetch - main [MainThread]: End processing [birdnetlib] error
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-05-15 17:07:34] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.1.0.tar.gz tmp/seunggabi_core_python-0.1.1.tar.gz --markdown 20230515/s/seunggabi-core-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [lnschema_lamin1]: Downloading https://files.pythonhosted.org/packages/e7/2f/d05339afe8805cf97afd6338b3b7a27efb291d66e698e1807d646eededdb/lnschema_lamin1-0.16.1.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230515/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-15 17:07:34] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/54/7c/004b9b46aacbf228d6ae6216acd1f4455ed0ad4f9538e1d66ed5a34057e1/autumn8-1.0.5rc5.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [pytket-offline-display]: Downloading https://files.pythonhosted.org/packages/33/dd/b04b7d703c3b86a3cedac539f928ce9ecc789175160a605c263874fc555c/pytket-offline-display-0.0.5.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230515/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230515/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-15 17:07:34] INFO root fetch - processPackages [lnschema_lamin1]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [lnschema_lamin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_lamin1-0.16.0.tar.gz tmp/lnschema_lamin1-0.16.1.tar.gz --markdown 20230515/l/lnschema_lamin1/0.16.0-0.16.1/diff.md --exclude *.pyd
+[2023-05-15 17:07:34] INFO root fetch - processPackages [pytket-offline-display]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [pytket-offline-display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-offline-display-0.0.4.tar.gz tmp/pytket-offline-display-0.0.5.tar.gz --markdown 20230515/p/pytket-offline-display/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 17:07:34] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-05-15 17:07:34] INFO root fetch - processPackages [picframe]: Downloading https://files.pythonhosted.org/packages/c0/e1/f8ef0c512c24bd818e272ebf43325e791bea6989b9caca5d1de5e28221de/picframe-2022.6.3.tar.gz
+[2023-05-15 17:07:34] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-15 17:07:34] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc4.tar.gz tmp/autumn8-1.0.5rc5.tar.gz --markdown 20230515/a/autumn8/1.0.5rc4-1.0.5rc5/diff.md --exclude *.pyd
+[2023-05-15 17:07:35] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-15 17:07:35] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230515/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-15 17:07:35] INFO root fetch - processPackages [picframe]: executing diffoscope
+[2023-05-15 17:07:35] INFO root fetch - processPackages [picframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picframe-2022.4.19.tar.gz tmp/picframe-2022.6.3.tar.gz --markdown 20230515/p/picframe/2022.4.19-2022.6.3/diff.md --exclude *.pyd
+[2023-05-15 17:07:36] INFO root fetch - processPackages [jupyterhub-backendspawner]: Start processing: nucliadb-protos
+[2023-05-15 17:07:36] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: ansible-compat
+[2023-05-15 17:07:36] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-sdk
+[2023-05-15 17:07:36] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-15 17:07:36] INFO root fetch - processPackages [ansible-compat]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-15 17:07:36] INFO root fetch - processPackages [seunggabi-core-python]: Start processing: nucliadb-utils
+[2023-05-15 17:07:36] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230515/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-15 17:07:36] INFO root fetch - processPackages [ansible-compat]: Downloading https://files.pythonhosted.org/packages/29/cb/0c84108be91ea03002762aca9533effd8823490c3f61da19dd85d4f5eccd/ansible-compat-4.0.2.tar.gz
+[2023-05-15 17:07:36] INFO root fetch - processPackages [lnschema_lamin1]: Start processing: pynterface
+[2023-05-15 17:07:36] INFO root fetch - main [MainThread]: End processing [lnschema_lamin1]: success
+[2023-05-15 17:07:36] INFO root fetch - processPackages [pynterface]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-models]: Start processing: melon-translate
+[2023-05-15 17:07:36] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230515/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-15 17:07:36] INFO root fetch - processPackages [melon-translate]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 17:07:36] INFO root fetch - processPackages [pynterface]: Downloading https://files.pythonhosted.org/packages/5c/30/74ecbdb4f66c7fdbe78c23e04085b78f7ea6db4fe9cc00f440e8aa5d8a1a/pynterface-0.0.2.tar.gz
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-15 17:07:36] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230515/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-15 17:07:36] INFO root fetch - processPackages [ansible-compat]: Downloading https://files.pythonhosted.org/packages/b3/b3/37d8a98f7eaa86571cdfe031697ada760dcdd832a218beaa3196e579e8ec/ansible-compat-4.0.3.tar.gz
+[2023-05-15 17:07:36] INFO root fetch - processPackages [pynterface]: executing diffoscope
+[2023-05-15 17:07:36] INFO root fetch - processPackages [pynterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynterface-0.0.1.tar.gz tmp/pynterface-0.0.2.tar.gz --markdown 20230515/p/pynterface/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 17:07:36] INFO root fetch - processPackages [melon-translate]: Downloading https://files.pythonhosted.org/packages/9e/cc/3d89d2471cdb3ff942123f108ce1b819d7316951000a2102d7b4e29f566b/melon_translate-0.9.3.tar.gz
+[2023-05-15 17:07:36] INFO root fetch - processPackages [ansible-compat]: executing diffoscope
+[2023-05-15 17:07:36] INFO root fetch - processPackages [ansible-compat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-compat-4.0.2.tar.gz tmp/ansible-compat-4.0.3.tar.gz --markdown 20230515/a/ansible-compat/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-15 17:07:37] INFO root fetch - processPackages [melon-translate]: Downloading https://files.pythonhosted.org/packages/99/60/57469d69aee6ce37fc5e45b2cce9342abccbd970d8c556e49fa195076399/melon_translate-0.9.4.tar.gz
+[2023-05-15 17:07:37] INFO root fetch - processPackages [picframe]: Start processing: melon-translate-client
+[2023-05-15 17:07:37] INFO root fetch - main [MainThread]: End processing [picframe]: success
+[2023-05-15 17:07:37] INFO root fetch - processPackages [melon-translate]: executing diffoscope
+[2023-05-15 17:07:37] INFO root fetch - processPackages [melon-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_translate-0.9.3.tar.gz tmp/melon_translate-0.9.4.tar.gz --markdown 20230515/m/melon-translate/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 17:07:37] INFO root fetch - processPackages [melon-translate-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 17:07:37] INFO root fetch - processPackages [melon-translate-client]: Downloading https://files.pythonhosted.org/packages/79/71/832c30fbd7bead9860acef7010438ce5d68db95f78cfd238adc993e8da22/melon_translate_client-0.9.3.tar.gz
+[2023-05-15 17:07:37] INFO root fetch - processPackages [nucliadb-protos]: Start processing: tensorflow-text-nightly
+[2023-05-15 17:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-15 17:07:37] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230514] Old Version: [2.14.0.dev20230513]
+[2023-05-15 17:07:37] INFO root fetch - processPackages [melon-translate-client]: Downloading https://files.pythonhosted.org/packages/b7/b9/f6bb1a9604fd21b6d1f04a39cbabfa2bd365fb891a4bd908f8fd079832ca/melon_translate_client-0.9.4.tar.gz
+[2023-05-15 17:07:38] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: certora-cli-alpha-shays-CERT-1717-b
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-15 17:07:38] INFO root fetch - processPackages [melon-translate-client]: executing diffoscope
+[2023-05-15 17:07:38] INFO root fetch - processPackages [melon-translate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_translate_client-0.9.3.tar.gz tmp/melon_translate_client-0.9.4.tar.gz --markdown 20230515/m/melon-translate-client/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 17:07:38] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: New version: [20230515.8.39.685357] Old Version: [20230515.13.51.956104]
+[2023-05-15 17:07:38] INFO root fetch - processPackages [pynterface]: Start processing: dadosSPF
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [pynterface]: success
+[2023-05-15 17:07:38] WARNING root fetch - processPackages [dadosSPF]: Skipping, unable to determine old version
+[2023-05-15 17:07:38] INFO root fetch - processPackages [dadosSPF]: Start processing: minet
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [dadosSPF] error
+[2023-05-15 17:07:38] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Downloading https://files.pythonhosted.org/packages/d3/13/d0c183a6dad3b1d59efe91f8b27b30e9982057a986642493c0a2fa42f0ea/certora-cli-alpha-shays-CERT-1717-b-20230515.13.51.956104.tar.gz
+[2023-05-15 17:07:38] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/66/fa/9420b837232a28d58087abc05b63f88c34c822ad2cc6095f1a52da89b32e/tensorflow_text_nightly-2.14.0.dev20230514-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 17:07:38] INFO root fetch - processPackages [autumn8]: Start processing: slap-cli
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-15 17:07:38] INFO root fetch - processPackages [slap-cli]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-15 17:07:38] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Skipping package: exceeds size limit 39435595>=10485760
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717-b] error
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-15 17:07:38] INFO root fetch - processPackages [slap-cli]: executing diffoscope
+[2023-05-15 17:07:38] INFO root fetch - processPackages [slap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slap_cli-1.8.1.tar.gz tmp/slap_cli-1.9.0.tar.gz --markdown 20230515/s/slap-cli/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:07:38] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-15 17:07:38] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230513-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230514-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230515/t/tensorflow-text-nightly/2.14.0.dev20230513-2.14.0.dev20230514/diff.md --exclude *.pyd
+[2023-05-15 17:07:38] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [ansible-compat]: success
+[2023-05-15 17:07:38] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/94/41/154a6ff426782236dbac9d1f34cf02f023cf30692810e4d15682f8b7c8c5/minet-1.0.0a8.tar.gz
+[2023-05-15 17:07:38] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-15 17:07:39] INFO root fetch - main [MainThread]: End processing [melon-translate]: success
+[2023-05-15 17:07:39] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/4e/e5/909a67e95297d6394fab66a1746fc102658cf4b729a2c90a72872c3dd759/minet-1.0.0a9.tar.gz
+[2023-05-15 17:07:39] INFO root fetch - main [MainThread]: End processing [pytket-offline-display]: success
+[2023-05-15 17:07:39] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-05-15 17:07:39] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230515/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-15 17:07:39] INFO root fetch - main [MainThread]: End processing [melon-translate-client]: success
+[2023-05-15 17:07:39] INFO root fetch - main [MainThread]: End processing [slap-cli]: success
+[2023-05-15 17:07:40] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-15 17:07:41] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-05-15 17:07:41] INFO root fetch - main [MainThread]: Store serial: [18109667]
