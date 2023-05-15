@@ -14400,3 +14400,110 @@ EOFError: EOF read where object expected
 [2023-05-15 15:34:53] INFO root fetch - main [MainThread]: End processing [fschat]: success
 [2023-05-15 15:34:54] INFO root fetch - main [MainThread]: End processing [gamma-pytools]: success
 [2023-05-15 15:34:54] INFO root fetch - main [MainThread]: Store serial: [18108548]
+[2023-05-15 15:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108548]
+[2023-05-15 15:40:03] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: propan
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postgres-tq
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vss-tools
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: convert-videos
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hahomematic
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pasta-eln
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: start-cloudflare
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-donation-bank-statement-oca
+[2023-05-15 15:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-donation
+[2023-05-15 15:40:03] INFO root fetch - processPackages [pasta-eln]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-15 15:40:03] INFO root fetch - processPackages [convert-videos]: New version: [2.8.7] Old Version: [2.8.6]
+[2023-05-15 15:40:03] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev7] Old Version: [0.6.4.dev6]
+[2023-05-15 15:40:03] INFO root fetch - processPackages [propan]: New version: [0.1.0.0] Old Version: [0.0.9.4]
+[2023-05-15 15:40:03] WARNING root fetch - processPackages [start-cloudflare]: Skipping, unable to determine old version
+[2023-05-15 15:40:03] INFO root fetch - processPackages [start-cloudflare]: Start processing: hiclass
+[2023-05-15 15:40:03] WARNING root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: Skipping, unable to determine old version
+[2023-05-15 15:40:03] INFO root fetch - processPackages [postgres-tq]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 15:40:03] INFO root fetch - main [MainThread]: End processing [start-cloudflare] error
+[2023-05-15 15:40:03] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: Start processing: diambra-engine
+[2023-05-15 15:40:03] WARNING root fetch - processPackages [vss-tools]: Skipping, unable to determine old version
+[2023-05-15 15:40:03] WARNING root fetch - processPackages [odoo-addon-donation]: Skipping, unable to determine old version
+[2023-05-15 15:40:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-bank-statement-oca] error
+[2023-05-15 15:40:03] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-05-15 15:40:03] INFO root fetch - processPackages [vss-tools]: Start processing: sadsacxz
+[2023-05-15 15:40:03] INFO root fetch - processPackages [odoo-addon-donation]: Start processing: droidlysis
+[2023-05-15 15:40:03] INFO root fetch - processPackages [convert-videos]: executing diffoscope
+[2023-05-15 15:40:03] INFO root fetch - main [MainThread]: End processing [vss-tools] error
+[2023-05-15 15:40:03] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.8-py3-none-any.whl.zip tmp/pasta_eln-2.3.9-py3-none-any.whl.zip --markdown 20230515/p/pasta-eln/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-15 15:40:03] INFO root fetch - processPackages [convert-videos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convert_videos-2.8.6.tar.gz tmp/convert_videos-2.8.7.tar.gz --markdown 20230515/c/convert-videos/2.8.6-2.8.7/diff.md --exclude *.pyd
+[2023-05-15 15:40:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation] error
+[2023-05-15 15:40:03] INFO root fetch - processPackages [hahomematic]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-15 15:40:03] INFO root fetch - processPackages [hiclass]: New version: [4.3.5] Old Version: [4.3.4]
+[2023-05-15 15:40:03] INFO root fetch - processPackages [diambra-engine]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-05-15 15:40:04] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/22/e4/8295fdf02c055d2986623f223bb8417c6bc52419437e9323f32d95c94e17/propan-0.0.9.4.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [droidlysis]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-05-15 15:40:04] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev6.tar.gz tmp/coiled-0.6.4.dev7.tar.gz --markdown 20230515/c/coiled/0.6.4.dev6-0.6.4.dev7/diff.md --exclude *.pyd
+[2023-05-15 15:40:04] WARNING root fetch - processPackages [sadsacxz]: Skipping, unable to determine old version
+[2023-05-15 15:40:04] INFO root fetch - processPackages [sadsacxz]: Start processing: graphql-service-framework
+[2023-05-15 15:40:04] INFO root fetch - main [MainThread]: End processing [sadsacxz] error
+[2023-05-15 15:40:04] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-15 15:40:04] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230515/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-15 15:40:04] INFO root fetch - processPackages [hiclass]: Downloading https://files.pythonhosted.org/packages/be/28/db0eae9a2c8fc3199cff4cdec3b27a367eb2951d977248d2072564ecc71e/hiclass-4.3.4.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [postgres-tq]: Downloading https://files.pythonhosted.org/packages/81/e2/6afe484ec9f506239ce2cb236231c7cf6f056d47d4dcef585a8e285c651b/postgres-tq-0.0.2.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [droidlysis]: Downloading https://files.pythonhosted.org/packages/a0/77/44eaa9d9f3af04ccb1f1b160327c308b14c74e46543bfbe164b6e98510a0/droidlysis-3.4.3.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/3f/44/d9dd095757e5f2f268b86adb1f0fcfaa1faef1605221bb7847f8c04868e3/hahomematic-2023.5.2.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/b7/3f/72d3d14f5496d5d38dc3395928fbdd244c990388e430f5dad05964f54254/propan-0.1.0.0.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [postgres-tq]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [postgres-tq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres-tq-0.0.1.tar.gz tmp/postgres-tq-0.0.2.tar.gz --markdown 20230515/p/postgres-tq/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 15:40:04] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.5.1.tar.gz tmp/hahomematic-2023.5.2.tar.gz --markdown 20230515/h/hahomematic/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-15 15:40:04] INFO root fetch - processPackages [diambra-engine]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [diambra-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-engine-2.1.0rc8.tar.gz tmp/diambra-engine-2.1.0rc9.tar.gz --markdown 20230515/d/diambra-engine/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-05-15 15:40:04] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.0.9.4.tar.gz tmp/propan-0.1.0.0.tar.gz --markdown 20230515/p/propan/0.0.9.4-0.1.0.0/diff.md --exclude *.pyd
+[2023-05-15 15:40:04] INFO root fetch - processPackages [hiclass]: Downloading https://files.pythonhosted.org/packages/fc/4c/9151dc76f8c36d8d2969b00ccc3fabbe5557c98adeb0c6d0869bbfc263d7/hiclass-4.3.5.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [droidlysis]: Downloading https://files.pythonhosted.org/packages/17/31/6665c5ff2a22321010bb6981c8df4c89c40a946000cc54e35c72053219d4/droidlysis-3.4.4.tar.gz
+[2023-05-15 15:40:04] INFO root fetch - processPackages [hiclass]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [hiclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiclass-4.3.4.tar.gz tmp/hiclass-4.3.5.tar.gz --markdown 20230515/h/hiclass/4.3.4-4.3.5/diff.md --exclude *.pyd
+[2023-05-15 15:40:04] INFO root fetch - processPackages [droidlysis]: executing diffoscope
+[2023-05-15 15:40:04] INFO root fetch - processPackages [droidlysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/droidlysis-3.4.3.tar.gz tmp/droidlysis-3.4.4.tar.gz --markdown 20230515/d/droidlysis/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-05-15 15:40:05] INFO root fetch - processPackages [convert-videos]: Start processing: dbt-athena-community
+[2023-05-15 15:40:05] INFO root fetch - main [MainThread]: End processing [convert-videos]: success
+[2023-05-15 15:40:06] INFO root fetch - processPackages [dbt-athena-community]: New version: [1.5.0] Old Version: [1.4.5]
+[2023-05-15 15:40:06] INFO root fetch - processPackages [coiled]: Start processing: fbgemm-gpu-nightly
+[2023-05-15 15:40:06] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-15 15:40:06] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/2b/b7/b856adc3f414abd1d54a92eaa31cda13ec5315457c9c6c707be444ea278a/dbt-athena-community-1.4.5.tar.gz
+[2023-05-15 15:40:06] INFO root fetch - processPackages [pasta-eln]: Start processing: terminalgpt
+[2023-05-15 15:40:06] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-05-15 15:40:06] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.15] Old Version: [2023.5.14]
+[2023-05-15 15:40:06] INFO root fetch - processPackages [postgres-tq]: Start processing: recode
+[2023-05-15 15:40:06] INFO root fetch - main [MainThread]: End processing [postgres-tq]: success
+[2023-05-15 15:40:06] INFO root fetch - processPackages [terminalgpt]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-15 15:40:06] INFO root fetch - processPackages [recode]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 15:40:06] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/ce/03/4c2854006f648a95500b338001a7cbb1daa232cab95c4fa1b8f43a80513e/dbt-athena-community-1.5.0.tar.gz
+[2023-05-15 15:40:06] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/1c/86/f45a9fc469e716b8b3217109d63a53456b8c3e733947f0e3ba5853d81ca8/fbgemm_gpu_nightly-2023.5.14-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-15 15:40:06] INFO root fetch - processPackages [graphql-service-framework]: Start processing: WX-Push-Services
+[2023-05-15 15:40:06] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-15 15:40:06] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 266597211>=10485760
+[2023-05-15 15:40:06] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-15 15:40:06] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 15:40:06] INFO root fetch - main [MainThread]: End processing [diambra-engine]: success
+[2023-05-15 15:40:06] INFO root fetch - processPackages [terminalgpt]: Downloading https://files.pythonhosted.org/packages/1c/aa/5f4986cd8f8f3385cd8054620805a94265b18e794b9a245e5068cb62359a/terminalgpt-1.0.9.tar.gz
+[2023-05-15 15:40:06] INFO root fetch - processPackages [recode]: Downloading https://files.pythonhosted.org/packages/ce/8a/9d43705268e78ec5e7bda26a3c3c9c617a0106f427fd41cceae1192112b1/recode-0.1.8.tar.gz
+[2023-05-15 15:40:06] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 15:40:06] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.8.tar.gz tmp/WX_Push_Services-1.0.9.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 15:40:06] INFO root fetch - processPackages [dbt-athena-community]: executing diffoscope
+[2023-05-15 15:40:06] INFO root fetch - processPackages [dbt-athena-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-athena-community-1.4.5.tar.gz tmp/dbt-athena-community-1.5.0.tar.gz --markdown 20230515/d/dbt-athena-community/1.4.5-1.5.0/diff.md --exclude *.pyd
+[2023-05-15 15:40:06] INFO root fetch - processPackages [terminalgpt]: Downloading https://files.pythonhosted.org/packages/8c/d7/a507a4f5ad76654a85c106ec32906fe25596d39205e539166d42a765f49d/terminalgpt-1.1.0.tar.gz
+[2023-05-15 15:40:07] INFO root fetch - processPackages [terminalgpt]: executing diffoscope
+[2023-05-15 15:40:07] INFO root fetch - processPackages [terminalgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminalgpt-1.0.9.tar.gz tmp/terminalgpt-1.1.0.tar.gz --markdown 20230515/t/terminalgpt/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 15:40:07] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-05-15 15:40:07] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-05-15 15:40:07] INFO root fetch - processPackages [recode]: Downloading https://files.pythonhosted.org/packages/40/73/7d18a20061bf5d4a2ca248f0e14bb067c8d8827264172eda7f75c169374d/recode-0.1.9.tar.gz
+[2023-05-15 15:40:07] INFO root fetch - processPackages [recode]: executing diffoscope
+[2023-05-15 15:40:07] INFO root fetch - processPackages [recode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recode-0.1.8.tar.gz tmp/recode-0.1.9.tar.gz --markdown 20230515/r/recode/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 15:40:07] INFO root fetch - main [MainThread]: End processing [hiclass]: success
+[2023-05-15 15:40:07] INFO root fetch - main [MainThread]: End processing [droidlysis]: success
+[2023-05-15 15:40:07] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 15:40:08] INFO root fetch - main [MainThread]: End processing [terminalgpt]: success
+[2023-05-15 15:40:08] INFO root fetch - main [MainThread]: End processing [dbt-athena-community]: success
+[2023-05-15 15:40:08] INFO root fetch - main [MainThread]: End processing [recode]: success
+[2023-05-15 15:40:08] INFO root fetch - main [MainThread]: Store serial: [18108612]
