@@ -5179,3 +5179,62 @@
 [2023-05-15 07:21:34] INFO root fetch - main [MainThread]: End processing [pyreason]: success
 [2023-05-15 07:21:34] INFO root fetch - main [MainThread]: End processing [restoreio]: success
 [2023-05-15 07:21:34] INFO root fetch - main [MainThread]: Store serial: [18103269]
+[2023-05-15 07:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103269]
+[2023-05-15 07:26:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edman
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: animateplot
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ia-wumpus
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docs-ranking-metrics
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hkbot
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usecyclone
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ChatLLM
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-enroll
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cduv
+[2023-05-15 07:26:43] INFO root fetch - processPackages [animateplot]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-05-15 07:26:43] INFO root fetch - processPackages [docs-ranking-metrics]: New version: [0.0.3] Old Version: [0.0.2.dev2]
+[2023-05-15 07:26:43] INFO root fetch - processPackages [edman]: New version: [2023.5.8] Old Version: [2023.5.15]
+[2023-05-15 07:26:43] WARNING root fetch - processPackages [cduv]: Skipping, unable to determine old version
+[2023-05-15 07:26:43] INFO root fetch - processPackages [usecyclone]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ia-wumpus]: New version: [0.2.21] Old Version: [0.2.2]
+[2023-05-15 07:26:43] INFO root fetch - main [MainThread]: End processing [cduv] error
+[2023-05-15 07:26:43] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 07:26:43] INFO root fetch - processPackages [hkbot]: New version: [2.1] Old Version: [2.0]
+[2023-05-15 07:26:43] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-15 07:26:44] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 07:26:44] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/fa/32/f14e6f9802f023431b3ef11d643fda98c8d64be0606ce1b9baa9bd8feea0/edman-2023.5.15.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [docs-ranking-metrics]: Downloading https://files.pythonhosted.org/packages/de/2c/782f81bdad4fe45ca7036678f92bbd45e57efdc44fb5f1e766e6244fcd77/docs-ranking-metrics-0.0.2.dev2.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [ia-wumpus]: Downloading https://files.pythonhosted.org/packages/2b/13/f280b32b87979596df56b1dc5c0faac2a1d9832f8216e9dfe127de72844d/ia_wumpus-0.2.2.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [usecyclone]: Downloading https://files.pythonhosted.org/packages/cc/bb/9d0b87a9736f71d54b00eb191a22fde3d58e6c78ae96d66f74f28805f14f/usecyclone-0.1.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [hkbot]: Downloading https://files.pythonhosted.org/packages/72/a5/03cedaab9a080210969c2ef08f8fdcb3eb7a0b5c1ed1dc4ab0191133517b/hkbot-2.0.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [animateplot]: Downloading https://files.pythonhosted.org/packages/75/e7/4c8a06fba604fbafdfb72f414c02bee953a23342c9698a5e1d6b1d152805/animateplot-0.4.1-py3-none-any.whl
+[2023-05-15 07:26:44] INFO root fetch - processPackages [docs-ranking-metrics]: Downloading https://files.pythonhosted.org/packages/4c/3c/208aa6ef35264b9a287afaf244bdb0412236de3bf0bb64f3583352b9404d/docs-ranking-metrics-0.0.3.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [docs-ranking-metrics]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [docs-ranking-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs-ranking-metrics-0.0.2.dev2.tar.gz tmp/docs-ranking-metrics-0.0.3.tar.gz --markdown 20230515/d/docs-ranking-metrics/0.0.2.dev2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 07:26:44] INFO root fetch - processPackages [hkbot]: Downloading https://files.pythonhosted.org/packages/e4/59/cd5eefe08f3c33850d46ca4ccb5756f8c10e92ac457c0282ecbb67bba216/hkbot-2.1.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [hkbot]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [hkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkbot-2.0.tar.gz tmp/hkbot-2.1.tar.gz --markdown 20230515/h/hkbot/2.0-2.1/diff.md --exclude *.pyd
+[2023-05-15 07:26:44] INFO root fetch - processPackages [animateplot]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [animateplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animateplot-0.3.2-py3-none-any.whl.zip tmp/animateplot-0.4.1-py3-none-any.whl.zip --markdown 20230515/a/animateplot/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-05-15 07:26:44] INFO root fetch - processPackages [usecyclone]: Downloading https://files.pythonhosted.org/packages/07/08/0c973c50ec1c1dd1e6b6aaa96d31b75a3de81397681e1bcd3709b5ffdd4a/usecyclone-0.1.1-py3-none-any.whl
+[2023-05-15 07:26:44] INFO root fetch - processPackages [ia-wumpus]: Downloading https://files.pythonhosted.org/packages/dd/a4/765baa5a96cb00ea0bcdd2171cbce315e1df089181dfa4a26ac0a5f02a06/ia_wumpus-0.2.21.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [usecyclone]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [usecyclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usecyclone-0.1.tar.gz tmp/usecyclone-0.1.1-py3-none-any.whl.zip --markdown 20230515/u/usecyclone/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 07:26:44] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/fe/9d/f5d4a0e84bf32c5d43603830b85aff308ae0f695236274c9846c6959a9e1/edman-2023.5.8.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-05-15 07:26:44] INFO root fetch - processPackages [edman]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2023.5.15.tar.gz tmp/edman-2023.5.8.tar.gz --markdown 20230515/e/edman/2023.5.15-2023.5.8/diff.md --exclude *.pyd
+[2023-05-15 07:26:44] INFO root fetch - processPackages [ia-wumpus]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [ia-wumpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia_wumpus-0.2.2.tar.gz tmp/ia_wumpus-0.2.21.tar.gz --markdown 20230515/i/ia-wumpus/0.2.2-0.2.21/diff.md --exclude *.pyd
+[2023-05-15 07:26:44] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-15 07:26:44] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230515/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-15 07:26:45] INFO root fetch - main [MainThread]: End processing [docs-ranking-metrics]: success
+[2023-05-15 07:26:45] INFO root fetch - main [MainThread]: End processing [usecyclone]: success
+[2023-05-15 07:26:45] INFO root fetch - main [MainThread]: End processing [animateplot]: success
+[2023-05-15 07:26:45] INFO root fetch - main [MainThread]: End processing [ia-wumpus]: success
+[2023-05-15 07:26:46] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 07:26:46] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-15 07:26:47] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2023-05-15 07:26:47] INFO root fetch - main [MainThread]: End processing [hkbot]: success
+[2023-05-15 07:26:47] INFO root fetch - main [MainThread]: Store serial: [18103295]
