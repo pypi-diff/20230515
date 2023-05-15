@@ -21309,3 +21309,86 @@ EOFError: EOF read where object expected
 [2023-05-15 21:54:53] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-05-15 21:54:54] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
 [2023-05-15 21:54:54] INFO root fetch - main [MainThread]: Store serial: [18112693]
+[2023-05-15 22:00:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112693]
+[2023-05-15 22:00:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tstoolbox
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-sqlalchemy-session
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vecs
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: objinspect
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmlb
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: harlequin
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: screens-py
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sonyci
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mitzu
+[2023-05-15 22:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paper-qa
+[2023-05-15 22:00:05] WARNING root fetch - processPackages [vecs]: Skipping, unable to determine old version
+[2023-05-15 22:00:05] INFO root fetch - processPackages [objinspect]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [pytest-sqlalchemy-session]: New version: [0.3.1b1] Old Version: [0.3.0b1]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [vecs]: Start processing: capsulecorp
+[2023-05-15 22:00:05] INFO root fetch - main [MainThread]: End processing [vecs] error
+[2023-05-15 22:00:05] INFO root fetch - processPackages [screens-py]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [kmlb]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [tstoolbox]: New version: [9.31.17.13] Old Version: [9.30.17.13]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [paper-qa]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [harlequin]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [mitzu]: New version: [0.6.0rc9] Old Version: [0.6.0rc8]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [sonyci]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [capsulecorp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 22:00:05] INFO root fetch - processPackages [kmlb]: Downloading https://files.pythonhosted.org/packages/c6/22/7306f29d40d113077df1fe3575641808596fad6155878db0341ebc16ccac/kmlb-0.0.93.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [sonyci]: Downloading https://files.pythonhosted.org/packages/b6/f5/8e17dffa38fd170a5ff6434fe4450135391e87498698a33565f22c220f37/sonyci-0.1.1.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/ba/4e/f783b8d57a959a7f9286516c4952cfe57501e0f63af762b870d7ced42914/pytest-sqlalchemy-session-0.3.0b1.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [objinspect]: Downloading https://files.pythonhosted.org/packages/51/30/891a64505f21fdbfd2f39229e8ecde6ddfbfc71926e5a1313a409a95122e/objinspect-0.2.0.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [tstoolbox]: Downloading https://files.pythonhosted.org/packages/01/c0/10fae200ccd26252e3c2bd8dfa350e55067450023164f6ee52c929c640ab/tstoolbox-9.30.17.13.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [screens-py]: Downloading https://files.pythonhosted.org/packages/9b/cf/646f2b6cac5ecfbe3fcd3c9d79afa053436547a0c49b1fb95be7639ecec2/screens.py-0.4.5.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/2d/8e/7c564aa9bada3418249ceb673092f66db596ca47eb905d41530154f11c80/paper-qa-1.4.0.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/9f/a9/732cda2d5600f6e7f93a473bfc7d4e20ba5cbe4bd862a0fc0e1e1aff0e66/mitzu-0.6.0rc8.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/9a/84/d4433542b532cc2cf84b7c6f9c0fc8a4dacf46f0869451b85488cd9c70f9/harlequin-0.0.8.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [capsulecorp]: executing diffoscope
+[2023-05-15 22:00:05] INFO root fetch - processPackages [capsulecorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsulecorp-0.0.8.tar.gz tmp/capsulecorp-0.0.9.tar.gz --markdown 20230515/c/capsulecorp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:00:05] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-05-15 22:00:05] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.7.tar.gz tmp/harlequin-0.0.8.tar.gz --markdown 20230515/h/harlequin/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-15 22:00:05] INFO root fetch - processPackages [kmlb]: Downloading https://files.pythonhosted.org/packages/f7/fb/a9afef5dcbe67ff3d194cefaa365e611a55ebd2838c92f8b89bbe96e016a/kmlb-0.0.94.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/9c/bb/dc5e25762d15bd485e1871edd34ac45ae9e5890858a239980e529045940a/pytest-sqlalchemy-session-0.3.1b1.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [sonyci]: Downloading https://files.pythonhosted.org/packages/2e/e3/58ef6ad4265201778d79355f6d89251b1945e175f9288bc89528e6df3afa/sonyci-0.1.1a0.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [objinspect]: Downloading https://files.pythonhosted.org/packages/a1/89/635f93efcfd6e99fff2642b289d7aa998e1516f27e17f851701d42cabfaf/objinspect-0.2.1.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/8f/8d/fdc6ea0154618c527e3b5b7a71eeb1fa3d895a44710f0f968b63903d9c97/paper-qa-1.4.1.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/cd/97/d18f96a32331c75ee5a7115f076b6e80eb2e15d3660aae3890d60ce8b228/mitzu-0.6.0rc9.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [tstoolbox]: Downloading https://files.pythonhosted.org/packages/83/0f/c38ea34731e748e4e2482fe023c5c496ab36cbda13aa3b3f0d5328239841/tstoolbox-9.31.17.13.tar.gz
+[2023-05-15 22:00:05] INFO root fetch - processPackages [sonyci]: executing diffoscope
+[2023-05-15 22:00:05] INFO root fetch - processPackages [sonyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonyci-0.1.1.tar.gz tmp/sonyci-0.1.1a0.tar.gz --markdown 20230515/s/sonyci/0.1.1-0.1.1a0/diff.md --exclude *.pyd
+[2023-05-15 22:00:05] INFO root fetch - processPackages [pytest-sqlalchemy-session]: executing diffoscope
+[2023-05-15 22:00:05] INFO root fetch - processPackages [pytest-sqlalchemy-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sqlalchemy-session-0.3.0b1.tar.gz tmp/pytest-sqlalchemy-session-0.3.1b1.tar.gz --markdown 20230515/p/pytest-sqlalchemy-session/0.3.0b1-0.3.1b1/diff.md --exclude *.pyd
+[2023-05-15 22:00:06] INFO root fetch - processPackages [kmlb]: executing diffoscope
+[2023-05-15 22:00:06] INFO root fetch - processPackages [kmlb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmlb-0.0.93.tar.gz tmp/kmlb-0.0.94.tar.gz --markdown 20230515/k/kmlb/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-05-15 22:00:06] INFO root fetch - processPackages [screens-py]: Downloading https://files.pythonhosted.org/packages/4f/8a/8097d23e0f541e34127672a218067d3d191aeddc2681a9eeb81b8fe6313e/screens_py-0.5.0.tar.gz
+[2023-05-15 22:00:06] INFO root fetch - processPackages [objinspect]: executing diffoscope
+[2023-05-15 22:00:06] INFO root fetch - processPackages [objinspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objinspect-0.2.0.tar.gz tmp/objinspect-0.2.1.tar.gz --markdown 20230515/o/objinspect/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 22:00:06] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-05-15 22:00:06] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-1.4.0.tar.gz tmp/paper-qa-1.4.1.tar.gz --markdown 20230515/p/paper-qa/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-15 22:00:06] INFO root fetch - processPackages [tstoolbox]: executing diffoscope
+[2023-05-15 22:00:06] INFO root fetch - processPackages [tstoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tstoolbox-9.30.17.13.tar.gz tmp/tstoolbox-9.31.17.13.tar.gz --markdown 20230515/t/tstoolbox/9.30.17.13-9.31.17.13/diff.md --exclude *.pyd
+[2023-05-15 22:00:06] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-05-15 22:00:06] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.0rc8.tar.gz tmp/mitzu-0.6.0rc9.tar.gz --markdown 20230515/m/mitzu/0.6.0rc8-0.6.0rc9/diff.md --exclude *.pyd
+[2023-05-15 22:00:06] INFO root fetch - processPackages [screens-py]: executing diffoscope
+[2023-05-15 22:00:06] INFO root fetch - processPackages [screens-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screens.py-0.4.5.tar.gz tmp/screens_py-0.5.0.tar.gz --markdown 20230515/s/screens-py/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 22:00:07] INFO root fetch - processPackages [capsulecorp]: Start processing: hercules-jit
+[2023-05-15 22:00:07] INFO root fetch - main [MainThread]: End processing [capsulecorp]: success
+[2023-05-15 22:00:07] INFO root fetch - processPackages [hercules-jit]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 22:00:07] INFO root fetch - processPackages [harlequin]: Start processing: kynaylibs
+[2023-05-15 22:00:07] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-05-15 22:00:07] INFO root fetch - processPackages [hercules-jit]: Downloading https://files.pythonhosted.org/packages/91/e5/5b8bcb5c4072aab35f8b619af287f3832a67f34a6b808c374f79666df4f0/hercules_jit-0.2.0-py3-none-any.whl
+[2023-05-15 22:00:07] INFO root fetch - processPackages [kynaylibs]: New version: [7.1.4] Old Version: [7.1.3]
+[2023-05-15 22:00:07] WARNING root fetch - processPackages [hercules-jit]: Skipping package: exceeds size limit 63653246>=10485760
+[2023-05-15 22:00:07] INFO root fetch - main [MainThread]: End processing [hercules-jit] error
+[2023-05-15 22:00:07] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-15 22:00:07] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-7.1.3.tar.gz tmp/kynaylibs-7.1.4.tar.gz --markdown 20230515/k/kynaylibs/7.1.3-7.1.4/diff.md --exclude *.pyd
+[2023-05-15 22:00:07] INFO root fetch - main [MainThread]: End processing [pytest-sqlalchemy-session]: success
+[2023-05-15 22:00:07] INFO root fetch - main [MainThread]: End processing [objinspect]: success
+[2023-05-15 22:00:07] INFO root fetch - main [MainThread]: End processing [sonyci]: success
+[2023-05-15 22:00:07] INFO root fetch - main [MainThread]: End processing [screens-py]: success
+[2023-05-15 22:00:08] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-05-15 22:00:08] INFO root fetch - main [MainThread]: End processing [kmlb]: success
+[2023-05-15 22:00:08] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-15 22:00:08] INFO root fetch - main [MainThread]: End processing [tstoolbox]: success
+[2023-05-15 22:00:08] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-05-15 22:00:08] INFO root fetch - main [MainThread]: Store serial: [18112734]
