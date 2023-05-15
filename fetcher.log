@@ -2084,3 +2084,67 @@
 [2023-05-15 03:43:54] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
 [2023-05-15 03:43:55] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-15 03:43:55] INFO root fetch - main [MainThread]: Store serial: [18101492]
+[2023-05-15 03:48:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101492]
+[2023-05-15 03:49:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shady-island
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bingbong
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-apl
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcmc-statphys
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdivas
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-smallapi
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plugnplai
+[2023-05-15 03:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: intel-extension-for-pytorch
+[2023-05-15 03:49:04] INFO root fetch - processPackages [bingbong]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [mcmc-statphys]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nonebot-plugin-smallapi]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pdivas]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.773] Old Version: [0.0.772]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [plugnplai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [intel-extension-for-pytorch]: New version: [2.0.100] Old Version: [2.0.0]
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230515/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-15 03:49:04] INFO root fetch - processPackages [intel-extension-for-pytorch]: Downloading https://files.pythonhosted.org/packages/52/c7/77d76d6aa2db06b5ee9ad4a6614afc6a4192c4e8d52ee18fccdb90ccf668/intel_extension_for_pytorch-2.0.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/36/4c/d3998c6de5c6e43fe52e05e1e691c250eea50218c487bab8e3cf4a77b110/nbdev-apl-0.0.773.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/3f/96/cea53d208e797a27b0ed22dc35f0f3ba9ce4cedb45601aa5a1a10894c6ed/nonebot_plugin_smallapi-0.0.2.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-05-15 03:49:04] WARNING root fetch - processPackages [intel-extension-for-pytorch]: Skipping package: exceeds size limit 41829273>=10485760
+[2023-05-15 03:49:04] INFO root fetch - main [MainThread]: End processing [intel-extension-for-pytorch] error
+[2023-05-15 03:49:04] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/b4/bc/a3f5b69e585694bb01895ec03551f7bfc534ab6257e83358dfd49e7c260c/bingbong-0.1.8-py3-none-any.whl
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pdivas]: Downloading https://files.pythonhosted.org/packages/d2/8a/9979fdd35779305bee920728dffd69516b5da5f1b222bd3fed1b866a4497/pdivas-1.0.0.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.772.tar.gz tmp/nbdev-apl-0.0.773.tar.gz --markdown 20230515/n/nbdev-apl/0.0.772-0.0.773/diff.md --exclude *.pyd
+[2023-05-15 03:49:04] INFO root fetch - processPackages [mcmc-statphys]: Downloading https://files.pythonhosted.org/packages/81/45/8fe6ad6984222d35838180996f79ecaa3e8294be53bacda19cb710d64c48/mcmc_statphys-0.1.2.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [mcmc-statphys]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [mcmc-statphys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcmc_statphys-0.1.1.tar.gz tmp/mcmc_statphys-0.1.2.tar.gz --markdown 20230515/m/mcmc-statphys/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230515/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/12/ce/c0f1a8865fa92415fac08bdf2d784bd2260587007bf5887a9fb17f4db03d/nonebot_plugin_smallapi-1.0.0.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [plugnplai]: Downloading https://files.pythonhosted.org/packages/59/fd/b769fa3dfe4ab5c03742e8e00088201bf677db6ca0b47368ee1d08fe10e1/plugnplai-0.0.6.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pdivas]: Downloading https://files.pythonhosted.org/packages/9c/fe/44fb4d2c9d20c7e3c5958f499533dca5b5a384c00af4c3ff5af304ef58d1/pdivas-1.1.0.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/ab/7e/ca551ee61756da5f9732ff58eff92f02957453f33af1f4a83dfd2db24e43/bingbong-0.1.9-py3-none-any.whl
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nonebot-plugin-smallapi]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [nonebot-plugin-smallapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smallapi-0.0.2.tar.gz tmp/nonebot_plugin_smallapi-1.0.0.tar.gz --markdown 20230515/n/nonebot-plugin-smallapi/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 03:49:04] INFO root fetch - processPackages [plugnplai]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [plugnplai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugnplai-0.0.5.tar.gz tmp/plugnplai-0.0.6.tar.gz --markdown 20230515/p/plugnplai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 03:49:04] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.8-py3-none-any.whl.zip tmp/bingbong-0.1.9-py3-none-any.whl.zip --markdown 20230515/b/bingbong/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 03:49:04] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pdivas]: executing diffoscope
+[2023-05-15 03:49:04] INFO root fetch - processPackages [pdivas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdivas-1.0.0.tar.gz tmp/pdivas-1.1.0.tar.gz --markdown 20230515/p/pdivas/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 03:49:05] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-05-15 03:49:05] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230515/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 03:49:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-15 03:49:05] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-15 03:49:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smallapi]: success
+[2023-05-15 03:49:06] INFO root fetch - main [MainThread]: End processing [plugnplai]: success
+[2023-05-15 03:49:06] INFO root fetch - main [MainThread]: End processing [mcmc-statphys]: success
+[2023-05-15 03:49:06] INFO root fetch - main [MainThread]: End processing [pdivas]: success
+[2023-05-15 03:49:06] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-05-15 03:49:06] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-05-15 03:49:07] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-15 03:49:07] INFO root fetch - main [MainThread]: Store serial: [18101537]
