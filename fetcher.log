@@ -22463,3 +22463,111 @@ EOFError: EOF read where object expected
 [2023-05-15 23:01:10] INFO root fetch - main [MainThread]: End processing [vision6D]: success
 [2023-05-15 23:01:10] INFO root fetch - main [MainThread]: End processing [xgboost-ray]: success
 [2023-05-15 23:01:10] INFO root fetch - main [MainThread]: Store serial: [18113368]
+[2023-05-15 23:06:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113368]
+[2023-05-15 23:06:20] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prova-pypi
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-freight
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gtirb-pprinter
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dl2050nn
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sd-sdk-python
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-honeybee
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bytez
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbra
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syscolouringlibary
+[2023-05-15 23:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neural-admixture
+[2023-05-15 23:06:20] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [neural-admixture]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [aa-freight]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [syscolouringlibary]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 23:06:20] WARNING root fetch - processPackages [gtirb-pprinter]: Skipping, unable to determine old version
+[2023-05-15 23:06:20] INFO root fetch - processPackages [sd-sdk-python]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [gtirb-pprinter]: Start processing: SuperSuit
+[2023-05-15 23:06:20] INFO root fetch - main [MainThread]: End processing [gtirb-pprinter] error
+[2023-05-15 23:06:20] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230515/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.85.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230515/b/bytez/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [dl2050nn]: New version: [1.0.8] Old Version: [1.0.73]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230515/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [SuperSuit]: New version: [3.8.0] Old Version: [3.7.2]
+[2023-05-15 23:06:20] INFO root fetch - processPackages [syscolouringlibary]: Downloading https://files.pythonhosted.org/packages/83/70/c826a5edf980019bbb616d754ceb782352b30b7a013de8643ec6de76dc42/syscolouringlibary-1.0.0.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [sd-sdk-python]: Downloading https://files.pythonhosted.org/packages/de/b7/18b423e92ae924f2f23baf550839a8e3c3c50e157ad2dbcbcd99c5d0787c/sd_sdk_python-0.2.1.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/70/98/d3010bc80d58cac181b721543a0532d985eea47cfb6bb74c86dbae29a957/dl2050nn-1.0.73.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [neural-admixture]: Downloading https://files.pythonhosted.org/packages/b3/19/29601f34c8df8ef6ae4f8a90dbb48e28122883c3615588e856951a5751f3/neural-admixture-1.2.3.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [aa-freight]: Downloading https://files.pythonhosted.org/packages/8b/d5/e632782f40e48007fb3cd63c5e753c4a356c305a6071aa7aa59468847cb7/aa_freight-1.9.0.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [neural-admixture]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [neural-admixture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-admixture-1.2.2.tar.gz tmp/neural-admixture-1.2.3.tar.gz --markdown 20230515/n/neural-admixture/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [SuperSuit]: Downloading https://files.pythonhosted.org/packages/ea/46/a966520971d4dc1c5159b13d4cfb0b7e15ebf12e5a8aafd98d807ee2c93d/SuperSuit-3.7.2.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.8.tar.gz tmp/prova_pypi-0.0.9.tar.gz --markdown 20230515/p/prova-pypi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [syscolouringlibary]: Downloading https://files.pythonhosted.org/packages/b8/77/41d2b038548184e7dedb9e220609853cbfb5acc5d0544186ce7f86603428/syscolouringlibary-1.1.0.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [sd-sdk-python]: Downloading https://files.pythonhosted.org/packages/19/8d/9121099a8a22eb2dff5dbb3598d86c3ebad5e733042721e64e1a432adf1a/sd_sdk_python-0.2.2.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [aa-freight]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [aa-freight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_freight-1.8.0.tar.gz tmp/aa_freight-1.9.0.tar.gz --markdown 20230515/a/aa-freight/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [sd-sdk-python]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [sd-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_sdk_python-0.2.1.tar.gz tmp/sd_sdk_python-0.2.2.tar.gz --markdown 20230515/s/sd-sdk-python/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [syscolouringlibary]: executing diffoscope
+[2023-05-15 23:06:20] INFO root fetch - processPackages [syscolouringlibary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouringlibary-1.0.0.tar.gz tmp/syscolouringlibary-1.1.0.tar.gz --markdown 20230515/s/syscolouringlibary/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 23:06:20] INFO root fetch - processPackages [dl2050nn]: Downloading https://files.pythonhosted.org/packages/e0/5a/84fbb5452696b3b82f69f9544f00ef2209e57c8e85977d1198e8610ee2b4/dl2050nn-1.0.8.tar.gz
+[2023-05-15 23:06:20] INFO root fetch - processPackages [SuperSuit]: Downloading https://files.pythonhosted.org/packages/b5/f9/a88218116ed25160364a657964cb97acf1bafdb03cf8eb755967dbfebeb3/SuperSuit-3.8.0.tar.gz
+[2023-05-15 23:06:21] INFO root fetch - processPackages [dl2050nn]: executing diffoscope
+[2023-05-15 23:06:21] INFO root fetch - processPackages [dl2050nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050nn-1.0.73.tar.gz tmp/dl2050nn-1.0.8.tar.gz --markdown 20230515/d/dl2050nn/1.0.73-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 23:06:21] INFO root fetch - processPackages [SuperSuit]: executing diffoscope
+[2023-05-15 23:06:21] INFO root fetch - processPackages [SuperSuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuperSuit-3.7.2.tar.gz tmp/SuperSuit-3.8.0.tar.gz --markdown 20230515/S/SuperSuit/3.7.2-3.8.0/diff.md --exclude *.pyd
+[2023-05-15 23:06:21] INFO root fetch - processPackages [lbt-honeybee]: Start processing: gpt-review
+[2023-05-15 23:06:21] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-15 23:06:21] INFO root fetch - processPackages [gpt-review]: New version: [0.9.0rc720.post1] Old Version: [0.9.0rc719.post1]
+[2023-05-15 23:06:22] INFO root fetch - processPackages [prova-pypi]: Start processing: devcycle-python-server-sdk
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 23:06:22] INFO root fetch - processPackages [devcycle-python-server-sdk]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-15 23:06:22] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/59/86/5cd3e4fab0bb4b277058082338d94a95000cfcd783c312a44f11cb066905/gpt_review-0.9.0rc719.post1.tar.gz
+[2023-05-15 23:06:22] INFO root fetch - processPackages [bytez]: Start processing: syscolouringlibary
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-15 23:06:22] INFO root fetch - processPackages [syscolouringlibary]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 23:06:22] INFO root fetch - processPackages [devcycle-python-server-sdk]: executing diffoscope
+[2023-05-15 23:06:22] INFO root fetch - processPackages [devcycle-python-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcycle-python-server-sdk-1.1.0.tar.gz tmp/devcycle-python-server-sdk-1.1.1.tar.gz --markdown 20230515/d/devcycle-python-server-sdk/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 23:06:22] INFO root fetch - processPackages [syscolouringlibary]: executing diffoscope
+[2023-05-15 23:06:22] INFO root fetch - processPackages [syscolouringlibary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouringlibary-1.0.0.tar.gz tmp/syscolouringlibary-1.1.0.tar.gz --markdown 20230515/s/syscolouringlibary/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 23:06:22] INFO root fetch - processPackages [sd-sdk-python]: Start processing: yroom
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [sd-sdk-python]: success
+[2023-05-15 23:06:22] INFO root fetch - processPackages [yroom]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 23:06:22] INFO root fetch - processPackages [syscolouringlibary]: Start processing: lbt-dragonfly
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [syscolouringlibary]: success
+[2023-05-15 23:06:22] INFO root fetch - processPackages [neural-admixture]: Start processing: vim-python-framework
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [neural-admixture]: success
+[2023-05-15 23:06:22] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/d0/ab/f4d7b1fc58e0109c95ec10d513eb9cdd62cac0f84a5b59b6bb76e4ef0365/gpt_review-0.9.0rc720.post1.tar.gz
+[2023-05-15 23:06:22] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-15 23:06:22] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 23:06:22] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-15 23:06:22] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230515/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-15 23:06:22] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-15 23:06:22] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.0rc719.post1.tar.gz tmp/gpt_review-0.9.0rc720.post1.tar.gz --markdown 20230515/g/gpt-review/0.9.0rc719.post1-0.9.0rc720.post1/diff.md --exclude *.pyd
+[2023-05-15 23:06:22] INFO root fetch - processPackages [aa-freight]: Start processing: fern-seam
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [aa-freight]: success
+[2023-05-15 23:06:22] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/b6/48/e56859d0985029628518a0ac972beee7177e1c9f4b266c254aec8809b2dd/vim-python-framework-0.1.2.tar.gz
+[2023-05-15 23:06:22] WARNING root fetch - processPackages [fern-seam]: Skipping, unable to determine old version
+[2023-05-15 23:06:22] INFO root fetch - processPackages [fern-seam]: Start processing: dl2050nn
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [fern-seam] error
+[2023-05-15 23:06:22] INFO root fetch - processPackages [dl2050nn]: New version: [1.0.8] Old Version: [1.0.73]
+[2023-05-15 23:06:22] INFO root fetch - processPackages [yroom]: Downloading https://files.pythonhosted.org/packages/73/51/b8490f5db533add8124f9b946922441271274c91b1a97ffc22047c9eb486/yroom-0.0.7.tar.gz
+[2023-05-15 23:06:22] INFO root fetch - processPackages [dl2050nn]: executing diffoscope
+[2023-05-15 23:06:22] INFO root fetch - processPackages [dl2050nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050nn-1.0.73.tar.gz tmp/dl2050nn-1.0.8.tar.gz --markdown 20230515/d/dl2050nn/1.0.73-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 23:06:22] INFO root fetch - main [MainThread]: End processing [dl2050nn]: success
+[2023-05-15 23:06:22] INFO root fetch - processPackages [yroom]: executing diffoscope
+[2023-05-15 23:06:22] INFO root fetch - processPackages [yroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yroom-0.0.6.tar.gz tmp/yroom-0.0.7.tar.gz --markdown 20230515/y/yroom/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 23:06:22] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-15 23:06:22] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.1.tar.gz tmp/vim-python-framework-0.1.2.tar.gz --markdown 20230515/v/vim-python-framework/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 23:06:23] INFO root fetch - main [MainThread]: End processing [syscolouringlibary]: success
+[2023-05-15 23:06:23] INFO root fetch - main [MainThread]: End processing [devcycle-python-server-sdk]: success
+[2023-05-15 23:06:23] INFO root fetch - main [MainThread]: End processing [SuperSuit]: success
+[2023-05-15 23:06:24] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-15 23:06:24] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-15 23:06:24] INFO root fetch - main [MainThread]: End processing [dl2050nn]: success
+[2023-05-15 23:06:24] INFO root fetch - main [MainThread]: End processing [yroom]: success
+[2023-05-15 23:06:24] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-15 23:06:28] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-15 23:06:28] INFO root fetch - main [MainThread]: Store serial: [18113465]
