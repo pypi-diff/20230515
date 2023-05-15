@@ -6804,3 +6804,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:54:38] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
 [2023-05-15 09:54:41] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2023-05-15 09:54:41] INFO root fetch - main [MainThread]: Store serial: [18104109]
+[2023-05-15 09:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104109]
+[2023-05-15 09:59:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-shays-CERT-1717
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognicept-shell
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eindex
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythonsqladditionV2
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: core-utils
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-apt-binary
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandas-llm
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-apt-binary
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-patch
+[2023-05-15 09:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jfExt
+[2023-05-15 09:59:51] INFO root fetch - processPackages [core-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pandas-llm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 09:59:51] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-15 09:59:51] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Skipping, unable to determine old version
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: New version: [2.2.1] Old Version: [1.8.4.3]
+[2023-05-15 09:59:51] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Start processing: pyclickhouse3
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: New version: [2.2.1] Old Version: [1.8.4.3]
+[2023-05-15 09:59:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717] error
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 09:59:51] WARNING root fetch - processPackages [eindex]: Skipping, unable to determine old version
+[2023-05-15 09:59:51] WARNING root fetch - processPackages [sqlalchemy-patch]: Skipping, unable to determine old version
+[2023-05-15 09:59:51] INFO root fetch - processPackages [eindex]: Start processing: pythonsqladditionV2
+[2023-05-15 09:59:51] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - main [MainThread]: End processing [eindex] error
+[2023-05-15 09:59:51] INFO root fetch - processPackages [sqlalchemy-patch]: Start processing: aw-core
+[2023-05-15 09:59:51] INFO root fetch - processPackages [cognicept-shell]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-05-15 09:59:51] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20230515/j/jfExt/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - main [MainThread]: End processing [sqlalchemy-patch] error
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pyclickhouse3]: New version: [0.9.32] Old Version: [0.9.31]
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pandas-llm]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pandas-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_llm-0.0.4.tar.gz tmp/pandas_llm-0.0.5.tar.gz --markdown 20230515/p/pandas-llm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - processPackages [core-utils]: Downloading https://files.pythonhosted.org/packages/5d/09/f9fb2bb2f4eba10ff5b3f27227d23f1ace4517cfa77c45797d9433e44a63/core_utils-0.1.0.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: Downloading https://files.pythonhosted.org/packages/59/02/5ef0aaead5f76cfdccd609f14f133f63a8f5b2785c98dc6f236ca6727a6f/python_apt_binary-1.8.4.3-cp37-cp37m-manylinux_2_28_x86_64.whl
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: Downloading https://files.pythonhosted.org/packages/b9/fc/8614a5f38f4de0b6f0bc5be542cc6e5f9f6904555774ea1b6a31bccfc9d0/pythonsqladditionV2-1.0.0.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: Downloading https://files.pythonhosted.org/packages/59/02/5ef0aaead5f76cfdccd609f14f133f63a8f5b2785c98dc6f236ca6727a6f/python_apt_binary-1.8.4.3-cp37-cp37m-manylinux_2_28_x86_64.whl
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pyclickhouse3]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pyclickhouse3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclickhouse3-0.9.31.tar.gz tmp/pyclickhouse3-0.9.32.tar.gz --markdown 20230515/p/pyclickhouse3/0.9.31-0.9.32/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: Downloading https://files.pythonhosted.org/packages/b9/fc/8614a5f38f4de0b6f0bc5be542cc6e5f9f6904555774ea1b6a31bccfc9d0/pythonsqladditionV2-1.0.0.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [aw-core]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-15 09:59:51] INFO root fetch - processPackages [cognicept-shell]: Downloading https://files.pythonhosted.org/packages/6b/d2/9316c0b17ae9c052246b721ff097d138fd3a9290bc8d9c95c4446ed5461f/cognicept-shell-1.5.2.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [aw-core]: Downloading https://files.pythonhosted.org/packages/c6/62/6149af3593297b385889a850fa58312aba7b0387d8eb8ce4e0ffd79fcc99/aw-core-0.5.8.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [core-utils]: Downloading https://files.pythonhosted.org/packages/bb/8c/a70bed9c948aedd674494dd4f29ea5b4fbf8d44589ad86499042c4de4e45/core_utils-0.1.1.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: Downloading https://files.pythonhosted.org/packages/e3/43/d6139f384d3371b8b049308097956c5ff0e0ba7a29438a936d0a3273c438/python_apt_binary-2.2.1-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: Downloading https://files.pythonhosted.org/packages/e3/43/d6139f384d3371b8b049308097956c5ff0e0ba7a29438a936d0a3273c438/python_apt_binary-2.2.1-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: Downloading https://files.pythonhosted.org/packages/82/60/8e10e198aeb50de4042247e31c80a6bc26b1f8cf863afa3430bd3e001894/pythonsqladditionV2-1.1.0.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: Downloading https://files.pythonhosted.org/packages/82/60/8e10e198aeb50de4042247e31c80a6bc26b1f8cf863afa3430bd3e001894/pythonsqladditionV2-1.1.0.tar.gz
+[2023-05-15 09:59:51] INFO root fetch - processPackages [core-utils]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - processPackages [core-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_utils-0.1.0.tar.gz tmp/core_utils-0.1.1.tar.gz --markdown 20230515/c/core-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_apt_binary-1.8.4.3-cp37-cp37m-manylinux_2_28_x86_64.whl.zip tmp/python_apt_binary-2.2.1-cp39-cp39-manylinux_2_31_x86_64.whl.zip --markdown 20230515/p/python-apt-binary/1.8.4.3-2.2.1/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqladditionV2-1.0.0.tar.gz tmp/pythonsqladditionV2-1.1.0.tar.gz --markdown 20230515/p/pythonsqladditionV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - processPackages [python-apt-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_apt_binary-1.8.4.3-cp37-cp37m-manylinux_2_28_x86_64.whl.zip tmp/python_apt_binary-2.2.1-cp39-cp39-manylinux_2_31_x86_64.whl.zip --markdown 20230515/p/python-apt-binary/1.8.4.3-2.2.1/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: executing diffoscope
+[2023-05-15 09:59:51] INFO root fetch - processPackages [pythonsqladditionV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqladditionV2-1.0.0.tar.gz tmp/pythonsqladditionV2-1.1.0.tar.gz --markdown 20230515/p/pythonsqladditionV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 09:59:51] INFO root fetch - processPackages [cognicept-shell]: Downloading https://files.pythonhosted.org/packages/f4/75/6ca576d90f8c3df14d5b084315c915ac500bb2c51adffd62af8e564030d8/cognicept-shell-1.6.0.tar.gz
+[2023-05-15 09:59:52] INFO root fetch - processPackages [cognicept-shell]: executing diffoscope
+[2023-05-15 09:59:52] INFO root fetch - processPackages [cognicept-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognicept-shell-1.5.2.tar.gz tmp/cognicept-shell-1.6.0.tar.gz --markdown 20230515/c/cognicept-shell/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-05-15 09:59:52] INFO root fetch - processPackages [aw-core]: Downloading https://files.pythonhosted.org/packages/25/3e/4dca1255771401ba5cb9cd580a7bffa9b67886573a87735d7d00629a3ca6/aw-core-0.5.9.tar.gz
+[2023-05-15 09:59:52] INFO root fetch - processPackages [aw-core]: executing diffoscope
+[2023-05-15 09:59:52] INFO root fetch - processPackages [aw-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aw-core-0.5.8.tar.gz tmp/aw-core-0.5.9.tar.gz --markdown 20230515/a/aw-core/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-15 09:59:52] INFO root fetch - processPackages [pyclickhouse3]: Start processing: pyikarus
+[2023-05-15 09:59:52] INFO root fetch - main [MainThread]: End processing [pyclickhouse3]: success
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000062] Old Version: [0.3.0.dev202310000061]
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pandas-llm]: Start processing: lazi
+[2023-05-15 09:59:53] INFO root fetch - main [MainThread]: End processing [pandas-llm]: success
+[2023-05-15 09:59:53] INFO root fetch - processPackages [lazi]: New version: [1.5.52] Old Version: [1.4.0.32]
+[2023-05-15 09:59:53] INFO root fetch - processPackages [jfExt]: Start processing: ChatLLM
+[2023-05-15 09:59:53] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/f9/a7/81f5855c3d3d1b79c0ee65cf487770bc1e113ce62165faf516e55980b8ab/pyikarus-0.3.0.dev202310000061.tar.gz
+[2023-05-15 09:59:53] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 09:59:53] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 09:59:53] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 09:59:53] INFO root fetch - processPackages [core-utils]: Start processing: jfExt
+[2023-05-15 09:59:53] INFO root fetch - main [MainThread]: End processing [core-utils]: success
+[2023-05-15 09:59:53] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/b0/04/8d2e2ff8c6449e6cb7174be70565a87ba242230efd2faf09ff9890903109/pyikarus-0.3.0.dev202310000062.tar.gz
+[2023-05-15 09:59:53] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/ef/20/4c7dcc0cf2f51d733b0031107700dab74f9e97bbc51103b90df63243cdc0/lazi-1.5.52.tar.gz
+[2023-05-15 09:59:53] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2023-05-15 09:59:53] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20230515/j/jfExt/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pythonsqladditionV2]: Start processing: deale-shared-library
+[2023-05-15 09:59:53] INFO root fetch - main [MainThread]: End processing [pythonsqladditionV2]: success
+[2023-05-15 09:59:53] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-15 09:59:53] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.4.0.32.tar.gz tmp/lazi-1.5.52.tar.gz --markdown 20230515/l/lazi/1.4.0.32-1.5.52/diff.md --exclude *.pyd
+[2023-05-15 09:59:53] INFO root fetch - processPackages [deale-shared-library]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 09:59:53] INFO root fetch - processPackages [deale-shared-library]: executing diffoscope
+[2023-05-15 09:59:53] INFO root fetch - processPackages [deale-shared-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deale_shared_library-0.0.3.tar.gz tmp/deale_shared_library-0.0.4.tar.gz --markdown 20230515/d/deale-shared-library/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pythonsqladditionV2]: Start processing: alibabacloud-dms-enterprise20181101
+[2023-05-15 09:59:53] INFO root fetch - main [MainThread]: End processing [pythonsqladditionV2]: success
+[2023-05-15 09:59:53] INFO root fetch - processPackages [cognicept-shell]: Start processing: pywayne
+[2023-05-15 09:59:53] INFO root fetch - main [MainThread]: End processing [cognicept-shell]: success
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-15 09:59:53] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000061.tar.gz tmp/pyikarus-0.3.0.dev202310000062.tar.gz --markdown 20230515/p/pyikarus/0.3.0.dev202310000061-0.3.0.dev202310000062/diff.md --exclude *.pyd
+[2023-05-15 09:59:54] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: New version: [1.48.0] Old Version: [1.47.0]
+[2023-05-15 09:59:54] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.3.9] Old Version: [1.0.0.3.8]
+[2023-05-15 09:59:54] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/5a/83/6280a8847a602c3a6a7c939f4c2aa92b7dd119a5cab38a4b171770923a45/alibabacloud_dms-enterprise20181101-1.47.0.tar.gz
+[2023-05-15 09:59:54] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/ec/2a/0e48f9a2d50d3681625f04fba32425ddf579f1d89fdbc0a00d73b8b37b3a/pywayne-1.0.0.3.8.tar.gz
+[2023-05-15 09:59:54] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/12/76/07306a3bca0d59601ba8c61a966c868bf0036742701867afad3870072509/pywayne-1.0.0.3.9.tar.gz
+[2023-05-15 09:59:54] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/bc/40/fdf95727ffb3331617e1ca18c27796b340a2216df3208430247152077348/alibabacloud_dms-enterprise20181101-1.48.0.tar.gz
+[2023-05-15 09:59:54] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2023-05-15 09:59:54] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.3.8.tar.gz tmp/pywayne-1.0.0.3.9.tar.gz --markdown 20230515/p/pywayne/1.0.0.3.8-1.0.0.3.9/diff.md --exclude *.pyd
+[2023-05-15 09:59:54] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: executing diffoscope
+[2023-05-15 09:59:54] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dms-enterprise20181101-1.47.0.tar.gz tmp/alibabacloud_dms-enterprise20181101-1.48.0.tar.gz --markdown 20230515/a/alibabacloud-dms-enterprise20181101/1.47.0-1.48.0/diff.md --exclude *.pyd
+[2023-05-15 09:59:55] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-15 09:59:55] INFO root fetch - main [MainThread]: End processing [aw-core]: success
+[2023-05-15 09:59:55] INFO root fetch - main [MainThread]: End processing [deale-shared-library]: success
+[2023-05-15 09:59:55] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2023-05-15 09:59:56] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2023-05-15 09:59:56] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 09:59:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101]: success
+[2023-05-15 09:59:58] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-15 10:00:19] INFO root fetch - main [MainThread]: End processing [python-apt-binary]: success
+[2023-05-15 10:00:20] INFO root fetch - main [MainThread]: End processing [python-apt-binary]: success
+[2023-05-15 10:00:20] INFO root fetch - main [MainThread]: Store serial: [18104176]
