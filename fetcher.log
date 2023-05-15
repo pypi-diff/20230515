@@ -20256,3 +20256,80 @@ EOFError: EOF read where object expected
 [2023-05-15 20:47:51] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
 [2023-05-15 20:47:51] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-15 20:47:51] INFO root fetch - main [MainThread]: Store serial: [18112100]
+[2023-05-15 20:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112100]
+[2023-05-15 20:53:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geolibs
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acids-msprior
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: combocurve-api-v1
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatcmd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridworks-proactor
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: list-cli
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airportfinder
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mixture-of-attention
+[2023-05-15 20:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: h3sed
+[2023-05-15 20:53:01] INFO root fetch - processPackages [list-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 20:53:01] INFO root fetch - processPackages [sentry]: New version: [9.1.2] Old Version: [9.1.1]
+[2023-05-15 20:53:01] INFO root fetch - processPackages [acids-msprior]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 20:53:01] INFO root fetch - processPackages [combocurve-api-v1]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-15 20:53:01] INFO root fetch - processPackages [chatcmd]: New version: [1.0.12] Old Version: [1.0.11]
+[2023-05-15 20:53:01] WARNING root fetch - processPackages [airportfinder]: Skipping, unable to determine old version
+[2023-05-15 20:53:01] INFO root fetch - processPackages [h3sed]: New version: [1.6] Old Version: [1.0]
+[2023-05-15 20:53:01] INFO root fetch - processPackages [gridworks-proactor]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-15 20:53:01] INFO root fetch - processPackages [airportfinder]: Start processing: certora-cli-alpha-eric-toolchain
+[2023-05-15 20:53:01] INFO root fetch - main [MainThread]: End processing [airportfinder] error
+[2023-05-15 20:53:01] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 20:53:01] INFO root fetch - processPackages [geolibs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 20:53:01] WARNING root fetch - processPackages [certora-cli-alpha-eric-toolchain]: Skipping, unable to determine old version
+[2023-05-15 20:53:01] INFO root fetch - processPackages [certora-cli-alpha-eric-toolchain]: Start processing: sarpy
+[2023-05-15 20:53:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-toolchain] error
+[2023-05-15 20:53:01] INFO root fetch - processPackages [acids-msprior]: Downloading https://files.pythonhosted.org/packages/3f/aa/c1be05c68dfa23599b3e7742c217627e08622015a2ce0b32e875789d121c/acids-msprior-1.0.5.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [list-cli]: Downloading https://files.pythonhosted.org/packages/2e/e3/924195cf9cbc3e035d98165c52101317ac1afd1cf50082c7f8f843604501/list-cli-0.1.1.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [sentry]: Downloading https://files.pythonhosted.org/packages/21/4d/5da43a7276652141ddd62b94c722e359bdae2b7a22878a87cbd2e19b97c0/sentry-9.1.1.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [chatcmd]: Downloading https://files.pythonhosted.org/packages/ba/8f/a603341604273252c58ffd32b565dd615d484cebcecd6e30e70e003bd030/chatcmd-1.0.11.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/ae/aa/3ab25d8327400f49c6da196b35b5193c457df8c231f699eb67b54c73f51a/geolibs-0.0.4.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/d8/98/748cb8b84893b745eb0c1a292abd0a1c3c6a2a27f87b43001cb47760ac1b/mixture-of-attention-0.0.1.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [h3sed]: Downloading https://files.pythonhosted.org/packages/21/a5/72d452659c859082c4ef6951e99ce2a0a75a8fa780db893576fa286070e2/h3sed-1.0-py2.py3-none-any.whl
+[2023-05-15 20:53:01] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/f9/fa/8f9165ff59b1a6696cb24a83d014be88399428a2101386f0b9921ef5a769/gridworks_proactor-0.1.8.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [combocurve-api-v1]: Downloading https://files.pythonhosted.org/packages/2e/43/d2ccfd580eb2649dc245c677ec595a483bb1f2911d97c6395f95535d82c0/combocurve-api-v1-0.2.4.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [sarpy]: New version: [1.3.9] Old Version: [1.3.7]
+[2023-05-15 20:53:01] WARNING root fetch - processPackages [sentry]: Skipping package: exceeds size limit 25304555>=10485760
+[2023-05-15 20:53:01] INFO root fetch - main [MainThread]: End processing [sentry] error
+[2023-05-15 20:53:01] INFO root fetch - processPackages [acids-msprior]: Downloading https://files.pythonhosted.org/packages/4c/cd/97071cb173d707a9591fae28448ec645bb186dfffc3b1d2fced00257dca1/acids-msprior-1.0.6.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [list-cli]: Downloading https://files.pythonhosted.org/packages/e7/a3/52d6883ee6029026a092313c28e491878d22415974235e3155f483e3480d/list-cli-0.1.2.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/98/7d/9ac635bf7305247463094d0dc3e3ded2241db3109b42020efad2541ff8a3/geolibs-0.0.5.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/82/96/4e775704e483d91c5df04071e14f761ba48ce41f3792ed3a525455619154/mixture-of-attention-0.0.2.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [h3sed]: Downloading https://files.pythonhosted.org/packages/6b/17/002fba47de4ae2f613c1e40c5a32d88106439f15154742efe0c1d8a05bd7/h3sed-1.6-py2-none-any.whl
+[2023-05-15 20:53:01] INFO root fetch - processPackages [combocurve-api-v1]: Downloading https://files.pythonhosted.org/packages/f0/2d/563c8b2358fa8ba3e230c5bcfb7937ce891408f38e20e10a427b11b4a6e4/combocurve-api-v1-0.2.5.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [chatcmd]: Downloading https://files.pythonhosted.org/packages/ca/e4/79e76342bd9d19135dd58a32fbd151d3cbd49b3057f6b8703be70363bd05/chatcmd-1.0.12.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [list-cli]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [list-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list-cli-0.1.1.tar.gz tmp/list-cli-0.1.2.tar.gz --markdown 20230515/l/list-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [acids-msprior]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [acids-msprior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids-msprior-1.0.5.tar.gz tmp/acids-msprior-1.0.6.tar.gz --markdown 20230515/a/acids-msprior/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/6d/d8/655c9d5c3fce76dfff63f1f3f6f53964073d85c8d660a2c2de55b8a44ccc/gridworks_proactor-0.2.0.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [sarpy]: Downloading https://files.pythonhosted.org/packages/f0/b7/6c4b5051a973e56ca2cc5ee4d03f4197477def218a72333ceba9c140c710/sarpy-1.3.7.tar.gz
+[2023-05-15 20:53:01] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.4.tar.gz tmp/geolibs-0.0.5.tar.gz --markdown 20230515/g/geolibs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.1.tar.gz tmp/mixture-of-attention-0.0.2.tar.gz --markdown 20230515/m/mixture-of-attention/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [combocurve-api-v1]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [combocurve-api-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combocurve-api-v1-0.2.4.tar.gz tmp/combocurve-api-v1-0.2.5.tar.gz --markdown 20230515/c/combocurve-api-v1/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [chatcmd]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [chatcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcmd-1.0.11.tar.gz tmp/chatcmd-1.0.12.tar.gz --markdown 20230515/c/chatcmd/1.0.11-1.0.12/diff.md --exclude *.pyd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [h3sed]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [h3sed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h3sed-1.0-py2.py3-none-any.whl.zip tmp/h3sed-1.6-py2-none-any.whl.zip --markdown 20230515/h/h3sed/1.0-1.6/diff.md --exclude *.pyd
+[2023-05-15 20:53:01] INFO root fetch - processPackages [gridworks-proactor]: executing diffoscope
+[2023-05-15 20:53:01] INFO root fetch - processPackages [gridworks-proactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_proactor-0.1.8.tar.gz tmp/gridworks_proactor-0.2.0.tar.gz --markdown 20230515/g/gridworks-proactor/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 20:53:02] INFO root fetch - processPackages [sarpy]: Downloading https://files.pythonhosted.org/packages/43/06/ab70e2c79d0ab76d6488034a535af3c6f5aa2640790169277a8c64fddfdb/sarpy-1.3.9.tar.gz
+[2023-05-15 20:53:02] INFO root fetch - processPackages [sarpy]: executing diffoscope
+[2023-05-15 20:53:02] INFO root fetch - processPackages [sarpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarpy-1.3.7.tar.gz tmp/sarpy-1.3.9.tar.gz --markdown 20230515/s/sarpy/1.3.7-1.3.9/diff.md --exclude *.pyd
+[2023-05-15 20:53:03] INFO root fetch - main [MainThread]: End processing [list-cli]: success
+[2023-05-15 20:53:03] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-05-15 20:53:03] INFO root fetch - main [MainThread]: End processing [combocurve-api-v1]: success
+[2023-05-15 20:53:03] INFO root fetch - main [MainThread]: End processing [acids-msprior]: success
+[2023-05-15 20:53:03] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-15 20:53:03] INFO root fetch - main [MainThread]: End processing [chatcmd]: success
+[2023-05-15 20:53:03] INFO root fetch - main [MainThread]: End processing [h3sed]: success
+[2023-05-15 20:53:04] INFO root fetch - main [MainThread]: End processing [gridworks-proactor]: success
+[2023-05-15 20:53:20] INFO root fetch - main [MainThread]: End processing [sarpy]: success
+[2023-05-15 20:53:20] INFO root fetch - main [MainThread]: Store serial: [18112142]
