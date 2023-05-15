@@ -7021,3 +7021,242 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 10:05:45] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
 [2023-05-15 10:05:54] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-15 10:05:54] INFO root fetch - main [MainThread]: Store serial: [18104220]
+[2023-05-15 10:10:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104220]
+[2023-05-15 10:11:04] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-board
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FastSession
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectice
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyikarus
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cm-two
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-base
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-cli
+[2023-05-15 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-dso
+[2023-05-15 10:11:04] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230514] Old Version: [0.3.1.dev20230513]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000062] Old Version: [0.3.0.dev202310000061]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [cm-two]: New version: [2.3.0] Old Version: [2.2.67]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 10:11:04] WARNING root fetch - processPackages [FastSession]: Skipping, unable to determine old version
+[2023-05-15 10:11:04] INFO root fetch - processPackages [FastSession]: Start processing: gardener-cicd-libs
+[2023-05-15 10:11:04] INFO root fetch - processPackages [spaceone-board]: New version: [1.9.7rc1] Old Version: [1.9.7]
+[2023-05-15 10:11:04] INFO root fetch - main [MainThread]: End processing [FastSession] error
+[2023-05-15 10:11:04] INFO root fetch - processPackages [vectice]: New version: [23.2.3.0] Old Version: [23.2.2.1]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-15 10:11:04] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000061.tar.gz tmp/pyikarus-0.3.0.dev202310000062.tar.gz --markdown 20230515/p/pyikarus/0.3.0.dev202310000061-0.3.0.dev202310000062/diff.md --exclude *.pyd
+[2023-05-15 10:11:04] INFO root fetch - processPackages [returnn]: New version: [1.20230515.93528] Old Version: [1.20230512.95100]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 10:11:04] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-15 10:11:04] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.2.67-py3-none-any.whl.zip tmp/cm_two-2.3.0-py3-none-any.whl.zip --markdown 20230515/c/cm-two/2.2.67-2.3.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2054.0.tar.gz tmp/gardener-cicd-base-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-base/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:04] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-15 10:11:04] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230513.tar.gz tmp/pyglove-0.3.1.dev20230514.tar.gz --markdown 20230515/p/pyglove/0.3.1.dev20230513-0.3.1.dev20230514/diff.md --exclude *.pyd
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2054.0.tar.gz tmp/gardener-cicd-cli-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-cli/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2054.0.tar.gz tmp/gardener-cicd-dso-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-dso/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:04] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/b1/5c/05cfffc57477de50ac7a661ad16a99f47fec44ef23091719fbef8a82b0f6/vectice-23.2.2.1.tar.gz
+[2023-05-15 10:11:04] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/f5/66/e3fde81dfecfe1b911035bf54d30137e630f2b55fefc30aa5c025d264ef6/spaceone_board-1.9.7-py3-none-any.whl
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-15 10:11:04] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2054.0.tar.gz tmp/gardener-cicd-libs-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-libs/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:05] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/7d/ce/2888b6e5d53ca67abd939ea613101b9f6de18f02806d1972727244a9ab1a/returnn-1.20230515.93528.tar.gz
+[2023-05-15 10:11:05] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/cf/13/b22b3b2659618c28c93f0bf4016a33927b1eb85eb96c85317c80e421c06c/vectice-23.2.3.0.tar.gz
+[2023-05-15 10:11:05] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/6c/99/76c76da493b5a9ae9d6064d18ad2cc9d486b74675a1c2f37ff58337a7878/spaceone_board-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:11:05] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-05-15 10:11:05] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.2.1.tar.gz tmp/vectice-23.2.3.0.tar.gz --markdown 20230515/v/vectice/23.2.2.1-23.2.3.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:05] INFO root fetch - processPackages [spaceone-board]: executing diffoscope
+[2023-05-15 10:11:05] INFO root fetch - processPackages [spaceone-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_board-1.9.7-py3-none-any.whl.zip tmp/spaceone_board-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-board/1.9.7-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:11:05] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-15 10:11:05] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230512.95100.tar.gz tmp/returnn-1.20230515.93528.tar.gz --markdown 20230515/r/returnn/1.20230512.95100-1.20230515.93528/diff.md --exclude *.pyd
+[2023-05-15 10:11:06] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-15 10:11:06] INFO root fetch - processPackages [cm-two]: Start processing: gardener-cicd-whd
+[2023-05-15 10:11:06] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2054.0.tar.gz tmp/gardener-cicd-whd-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-whd/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: gardener-oci
+[2023-05-15 10:11:06] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: recon-lw
+[2023-05-15 10:11:06] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-15 10:11:06] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230515/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:06] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4977997714] Old Version: [2.0.0.dev4948681311]
+[2023-05-15 10:11:06] INFO root fetch - processPackages [spaceone-board]: Start processing: renus
+[2023-05-15 10:11:06] INFO root fetch - main [MainThread]: End processing [spaceone-board]: success
+[2023-05-15 10:11:06] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/05/cf/c06b03708a95e437054e2dfdb9459a9d1cb16b3642c698b2e3991345143c/recon_lw-2.0.0.dev4948681311.tar.gz
+[2023-05-15 10:11:06] INFO root fetch - processPackages [renus]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-15 10:11:07] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/7b/2e/ac11436cf5932c1b8db3727023e83631f8ad3d92d94bf8804a16f3361f8d/recon_lw-2.0.0.dev4977997714.tar.gz
+[2023-05-15 10:11:07] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-15 10:11:07] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4948681311.tar.gz tmp/recon_lw-2.0.0.dev4977997714.tar.gz --markdown 20230515/r/recon-lw/2.0.0.dev4948681311-2.0.0.dev4977997714/diff.md --exclude *.pyd
+[2023-05-15 10:11:07] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/d3/7f/28f2a1a42c12b58a9de678287d750b65167136ccb0053221c9ca43e88829/renus-1.1.4.tar.gz
+[2023-05-15 10:11:07] INFO root fetch - processPackages [renus]: executing diffoscope
+[2023-05-15 10:11:07] INFO root fetch - processPackages [renus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renus-1.1.3.tar.gz tmp/renus-1.1.4.tar.gz --markdown 20230515/r/renus/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-15 10:11:07] INFO root fetch - processPackages [vectice]: Start processing: wikimedia-spicerack
+[2023-05-15 10:11:07] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-05-15 10:11:07] INFO root fetch - processPackages [wikimedia-spicerack]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-05-15 10:11:07] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: spaceone-config
+[2023-05-15 10:11:07] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-15 10:11:07] INFO root fetch - processPackages [spaceone-config]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-15 10:11:07] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: omicverse
+[2023-05-15 10:11:07] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-15 10:11:07] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/0d/c9/e8a005f36249db3dad30b90349f856007f5e541edbcacfd2bd51f89b52f2/wikimedia-spicerack-7.0.0.tar.gz
+[2023-05-15 10:11:07] WARNING root fetch - processPackages [omicverse]: Skipping, unable to determine old version
+[2023-05-15 10:11:07] INFO root fetch - processPackages [omicverse]: Start processing: data-job-etl
+[2023-05-15 10:11:07] INFO root fetch - main [MainThread]: End processing [omicverse] error
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/08/28/a6ce3345230d3f14eda6a5c108839017b971498dd9b3a4c8ff660bdd3ae7/spaceone_config-1.9.7.1-py3-none-any.whl
+[2023-05-15 10:11:08] INFO root fetch - processPackages [data-job-etl]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-15 10:11:08] INFO root fetch - processPackages [gardener-oci]: Start processing: spaceone-cost-analysis
+[2023-05-15 10:11:08] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-15 10:11:08] INFO root fetch - processPackages [data-job-etl]: Downloading https://files.pythonhosted.org/packages/ba/bc/d11eb62f586828bba10148a2b6902cbc38f856b31ae95c87d5af639fc0e3/data_job_etl-1.1.0-py3-none-any.whl
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/2e/52/933581152a4ad53294053afa4f1e01b4306b1cc56d69a4b3b5bf10067b9a/spaceone_config-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:11:08] INFO root fetch - processPackages [gardener-cicd-libs]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-15 10:11:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-15 10:11:08] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 10:11:08] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/fc/41/cd2edc70631384ee3bb400cafb128b3e9c64d815e99d86b3e68a85e40611/wikimedia-spicerack-7.1.0.tar.gz
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/ca/57/274de01859938ee0ea18fde02a27bd004721324e14d9173c1aed6ce505f5/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl
+[2023-05-15 10:11:08] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-15 10:11:08] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230515/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 10:11:08] INFO root fetch - processPackages [recon-lw]: Start processing: spaceone-dashboard
+[2023-05-15 10:11:08] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-15 10:11:08] INFO root fetch - processPackages [wikimedia-spicerack]: executing diffoscope
+[2023-05-15 10:11:08] INFO root fetch - processPackages [wikimedia-spicerack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikimedia-spicerack-7.0.0.tar.gz tmp/wikimedia-spicerack-7.1.0.tar.gz --markdown 20230515/w/wikimedia-spicerack/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-config]: executing diffoscope
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_config-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_config-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-config/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:11:08] INFO root fetch - processPackages [data-job-etl]: Downloading https://files.pythonhosted.org/packages/e2/e4/af5e2d2bc772e4512463e5bf4ec125dbc0399afbdb137ed3a4fa4e6b6278/data_job_etl-1.1.1-py3-none-any.whl
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-dashboard]: New version: [1.12.dev4] Old Version: [1.12.dev3]
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/cf/26/f9d82f22108804a06ee9380b339d652897bc5997f046962edc93c30d5f6a/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:11:08] INFO root fetch - processPackages [data-job-etl]: executing diffoscope
+[2023-05-15 10:11:08] INFO root fetch - processPackages [data-job-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_job_etl-1.1.0-py3-none-any.whl.zip tmp/data_job_etl-1.1.1-py3-none-any.whl.zip --markdown 20230515/d/data-job-etl/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/52/97/3165bae7b5c155751eba24a9cbf502057b502a6a8a3c3242df9a70fa4ef1/spaceone-dashboard-1.12.dev3.tar.gz
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2023-05-15 10:11:08] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-cost-analysis/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:11:09] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/9a/26/e679ecda8fc475dd325a594752eaa2ed62779cff2167fa98af659c4f11ad/spaceone-dashboard-1.12.dev4.tar.gz
+[2023-05-15 10:11:09] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2023-05-15 10:11:09] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-dashboard-1.12.dev3.tar.gz tmp/spaceone-dashboard-1.12.dev4.tar.gz --markdown 20230515/s/spaceone-dashboard/1.12.dev3-1.12.dev4/diff.md --exclude *.pyd
+[2023-05-15 10:11:09] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: Start processing: odoo-addon-l10n-th-account-tax
+[2023-05-15 10:11:09] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-15 10:11:09] INFO root fetch - processPackages [spaceone-config]: Start processing: phonepiece
+[2023-05-15 10:11:09] INFO root fetch - main [MainThread]: End processing [spaceone-config]: success
+[2023-05-15 10:11:09] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: New version: [15.0.1.2.1] Old Version: [15.0.1.2.0]
+[2023-05-15 10:11:09] INFO root fetch - processPackages [phonepiece]: New version: [1.4.2] Old Version: [1.4.0]
+[2023-05-15 10:11:10] INFO root fetch - processPackages [renus]: Start processing: mammopy
+[2023-05-15 10:11:10] INFO root fetch - main [MainThread]: End processing [renus]: success
+[2023-05-15 10:11:10] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/96/d7/1110b5ba7822411bbedcacebb22247eee3d941badf5046ebedd71dd37112/odoo_addon_l10n_th_account_tax-15.0.1.2.0-py3-none-any.whl
+[2023-05-15 10:11:10] INFO root fetch - processPackages [mammopy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 10:11:10] INFO root fetch - processPackages [phonepiece]: Downloading https://files.pythonhosted.org/packages/0b/98/75a6cd42ca7a411d4a2038bdcac4975011e5b22781f7964f05dd6ad31029/phonepiece-1.4.0.tar.gz
+[2023-05-15 10:11:10] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-05-15 10:11:10] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.8.tar.gz tmp/mammopy-0.0.9.tar.gz --markdown 20230515/m/mammopy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 10:11:10] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: Downloading https://files.pythonhosted.org/packages/1e/76/08455e6b123d2f9c9e1f6cf168447516b1f2a915a39e4790e675aaa619e1/odoo_addon_l10n_th_account_tax-15.0.1.2.1-py3-none-any.whl
+[2023-05-15 10:11:10] INFO root fetch - processPackages [phonepiece]: Downloading https://files.pythonhosted.org/packages/f1/9a/2424484231cde906b68fbeb10602ee27ed883585df52c461ca4d1fce038e/phonepiece-1.4.2.tar.gz
+[2023-05-15 10:11:10] INFO root fetch - processPackages [spaceone-dashboard]: Start processing: odoo-addon-product-fao-fishing
+[2023-05-15 10:11:10] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2023-05-15 10:11:10] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-05-15 10:11:10] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: executing diffoscope
+[2023-05-15 10:11:10] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax-15.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax-15.0.1.2.1-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-l10n-th-account-tax/15.0.1.2.0-15.0.1.2.1/diff.md --exclude *.pyd
+[2023-05-15 10:11:10] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-15 10:11:10] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2023-05-15 10:11:10] INFO root fetch - processPackages [phonepiece]: executing diffoscope
+[2023-05-15 10:11:10] INFO root fetch - processPackages [phonepiece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonepiece-1.4.0.tar.gz tmp/phonepiece-1.4.2.tar.gz --markdown 20230515/p/phonepiece/1.4.0-1.4.2/diff.md --exclude *.pyd
+[2023-05-15 10:11:10] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Downloading https://files.pythonhosted.org/packages/19/f2/9e176275a60cefe0e80041a9f09f9218aa6d40553d3902729f933cb1a5a0/odoo_addon_product_fao_fishing-15.0.1.0.1-py3-none-any.whl
+[2023-05-15 10:11:10] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-15 10:11:10] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Downloading https://files.pythonhosted.org/packages/f2/08/db7d96a1a6722f12614fe5f27dba13ecda9a6a16386d9509095c629635f9/odoo_addon_product_fao_fishing-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 10:11:11] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: executing diffoscope
+[2023-05-15 10:11:11] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_fao_fishing-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_fao_fishing-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-product-fao-fishing/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 10:11:11] INFO root fetch - main [MainThread]: End processing [data-job-etl]: success
+[2023-05-15 10:11:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax]: success
+[2023-05-15 10:11:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-fao-fishing]: success
+[2023-05-15 10:11:12] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-15 10:11:12] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-05-15 10:11:13] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
+[2023-05-15 10:11:13] INFO root fetch - main [MainThread]: End processing [phonepiece]: success
+[2023-05-15 10:11:13] INFO root fetch - main [MainThread]: Store serial: [18104294]
