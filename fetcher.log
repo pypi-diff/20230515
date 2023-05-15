@@ -16362,3 +16362,101 @@ EOFError: EOF read where object expected
 [2023-05-15 17:18:07] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
 [2023-05-15 17:18:21] INFO root fetch - main [MainThread]: End processing [translate-toolkit]: success
 [2023-05-15 17:18:21] INFO root fetch - main [MainThread]: Store serial: [18109774]
+[2023-05-15 17:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109774]
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dirt-ssg
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-build
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secrets-env
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lab-serializer
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blaster-server
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jinja-markdown2
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terraform-backend-s3-bucket
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple-i18n
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbcollage
+[2023-05-15 17:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MedSimilarity
+[2023-05-15 17:23:31] WARNING root fetch - processPackages [jinja-markdown2]: Skipping, unable to determine old version
+[2023-05-15 17:23:31] INFO root fetch - processPackages [jinja-markdown2]: Start processing: auxipackage-b1
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [jinja-markdown2] error
+[2023-05-15 17:23:31] WARNING root fetch - processPackages [lbcollage]: Skipping, unable to determine old version
+[2023-05-15 17:23:31] INFO root fetch - processPackages [lbcollage]: Start processing: cloudflare-r2
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [lbcollage] error
+[2023-05-15 17:23:31] INFO root fetch - processPackages [blaster-server]: New version: [0.0.430] Old Version: [0.0.429b0]
+[2023-05-15 17:23:31] INFO root fetch - processPackages [simple-i18n]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 17:23:31] WARNING root fetch - processPackages [lab-serializer]: Skipping, unable to determine old version
+[2023-05-15 17:23:31] INFO root fetch - processPackages [lab-serializer]: Start processing: docarray
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [lab-serializer] error
+[2023-05-15 17:23:31] WARNING root fetch - processPackages [dirt-ssg]: Skipping, unable to determine old version
+[2023-05-15 17:23:31] INFO root fetch - processPackages [dirt-ssg]: Start processing: certora-cli-alpha-assaf-braveOrStupidExperiment
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [dirt-ssg] error
+[2023-05-15 17:23:31] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-15 17:23:31] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.429b0.tar.gz tmp/blaster-server-0.0.430.tar.gz --markdown 20230515/b/blaster-server/0.0.429b0-0.0.430/diff.md --exclude *.pyd
+[2023-05-15 17:23:31] INFO root fetch - processPackages [secrets-env]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 17:23:31] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 17:23:31] WARNING root fetch - processPackages [auxipackage-b1]: Skipping, unable to determine old version
+[2023-05-15 17:23:31] INFO root fetch - processPackages [auxipackage-b1]: Start processing: maptasker
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [auxipackage-b1] error
+[2023-05-15 17:23:31] ERROR root fetch - processPackages [MedSimilarity]: Unable to get metadata: No such project 'MedSimilarity'
+[2023-05-15 17:23:31] INFO root fetch - processPackages [MedSimilarity]: Start processing: parse-emails
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [MedSimilarity] error
+[2023-05-15 17:23:31] INFO root fetch - processPackages [scikit-build]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-15 17:23:31] WARNING root fetch - processPackages [cloudflare-r2]: Skipping, unable to determine old version
+[2023-05-15 17:23:31] INFO root fetch - processPackages [cloudflare-r2]: Start processing: eve-client
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [cloudflare-r2] error
+[2023-05-15 17:23:31] INFO root fetch - processPackages [maptasker]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-15 17:23:31] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-15 17:23:31] WARNING root fetch - processPackages [certora-cli-alpha-assaf-braveOrStupidExperiment]: Skipping, unable to determine old version
+[2023-05-15 17:23:31] INFO root fetch - processPackages [certora-cli-alpha-assaf-braveOrStupidExperiment]: Start processing: picframe
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-braveOrStupidExperiment] error
+[2023-05-15 17:23:31] INFO root fetch - processPackages [picframe]: New version: [2022.6.3] Old Version: [2022.4.19]
+[2023-05-15 17:23:31] INFO root fetch - processPackages [parse-emails]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 17:23:31] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-15 17:23:31] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230515/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-15 17:23:31] INFO root fetch - processPackages [simple-i18n]: Downloading https://files.pythonhosted.org/packages/c6/de/8ff8ae7064619e927acba5e70395033f89653d2368caef401e614953d25a/simple-i18n-0.1.1.tar.gz
+[2023-05-15 17:23:31] INFO root fetch - processPackages [picframe]: executing diffoscope
+[2023-05-15 17:23:31] INFO root fetch - processPackages [picframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picframe-2022.4.19.tar.gz tmp/picframe-2022.6.3.tar.gz --markdown 20230515/p/picframe/2022.4.19-2022.6.3/diff.md --exclude *.pyd
+[2023-05-15 17:23:31] INFO root fetch - processPackages [eve-client]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-15 17:23:31] INFO root fetch - processPackages [secrets-env]: Downloading https://files.pythonhosted.org/packages/d0/40/079851ea6eb1e83288c07004b0971996976fcef632afb0a328e7cca8a287/secrets_env-0.8.0-py3-none-any.whl
+[2023-05-15 17:23:31] ERROR root fetch - processPackages [maptasker]: Unable to fetch info: No such project/version 'maptasker' 1.3.3
+[2023-05-15 17:23:31] INFO root fetch - processPackages [maptasker]: Start processing: miniworldmaker
+[2023-05-15 17:23:31] INFO root fetch - main [MainThread]: End processing [maptasker] error
+[2023-05-15 17:23:31] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-05-15 17:23:31] INFO root fetch - processPackages [scikit-build]: Downloading https://files.pythonhosted.org/packages/30/ee/1d6bc8c865b77d7c74487c63770582b72675c5f3260d687f1504996a5379/scikit-build-0.8.1.tar.gz
+[2023-05-15 17:23:31] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-05-15 17:23:31] INFO root fetch - processPackages [parse-emails]: Downloading https://files.pythonhosted.org/packages/d0/1f/b63b82e92164441e2fbcb5f2cbb938f02674ffa9cb49df0688dfda802705/parse_emails-0.1.8.tar.gz
+[2023-05-15 17:23:31] INFO root fetch - processPackages [eve-client]: Downloading https://files.pythonhosted.org/packages/42/ed/56053e96b8c1f711f73f3f69f72d3e6905f008952e115f2ea3a6e9f7c70d/eve_client-2.0.8.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [simple-i18n]: Downloading https://files.pythonhosted.org/packages/f3/57/c278f4b795c5a2dec756d714d81077e8afd0bf411368491e76a988663d10/simple-i18n-0.1.2.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/f3/13/feb81bd15d26786614c70fa63b5049afcd9c93969921a39ab1714f36930f/miniworldmaker-2.8.0.0.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [scikit-build]: Downloading https://files.pythonhosted.org/packages/bb/48/412c5f3fb48364caa8e339d8e84dd2706c75b82d80df377353deecb5b2dc/scikit-build-0.9.0.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-05-15 17:23:32] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230515/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:23:32] INFO root fetch - processPackages [eve-client]: Downloading https://files.pythonhosted.org/packages/60/f1/6d37afdd19c24d2402c2f12d74e8fe4b2ad8bb3a23b7102f0a10a8248d8c/eve_client-2.0.9.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [simple-i18n]: executing diffoscope
+[2023-05-15 17:23:32] INFO root fetch - processPackages [simple-i18n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-i18n-0.1.1.tar.gz tmp/simple-i18n-0.1.2.tar.gz --markdown 20230515/s/simple-i18n/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 17:23:32] INFO root fetch - processPackages [scikit-build]: executing diffoscope
+[2023-05-15 17:23:32] INFO root fetch - processPackages [scikit-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-build-0.8.1.tar.gz tmp/scikit-build-0.9.0.tar.gz --markdown 20230515/s/scikit-build/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:23:32] INFO root fetch - processPackages [secrets-env]: Downloading https://files.pythonhosted.org/packages/2c/68/06f6d7814b78d71721223ed0e03e90e48e2959c60319bb23cf0d7fd0eef0/secrets_env-0.9.0.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [eve-client]: executing diffoscope
+[2023-05-15 17:23:32] INFO root fetch - processPackages [eve-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eve_client-2.0.8.tar.gz tmp/eve_client-2.0.9.tar.gz --markdown 20230515/e/eve-client/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:23:32] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/b9/2b/8e1c164f9e757ed512553b53cb0b2c7af2cdb34d75275dc4b4ce72b1b5ee/miniworldmaker-2.9.0.0.tar.gz
+[2023-05-15 17:23:32] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-05-15 17:23:32] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230515/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-05-15 17:23:32] INFO root fetch - processPackages [secrets-env]: executing diffoscope
+[2023-05-15 17:23:32] INFO root fetch - processPackages [secrets-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets_env-0.8.0-py3-none-any.whl.zip tmp/secrets_env-0.9.0.tar.gz --markdown 20230515/s/secrets-env/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:23:33] INFO root fetch - processPackages [parse-emails]: Downloading https://files.pythonhosted.org/packages/86/2e/7d74e4e6e573160a15da3effd044c6ad9eac83ed0fa2a23be82b1b5002ae/parse_emails-0.1.9.tar.gz
+[2023-05-15 17:23:33] INFO root fetch - processPackages [picframe]: Start processing: paczka
+[2023-05-15 17:23:33] INFO root fetch - main [MainThread]: End processing [picframe]: success
+[2023-05-15 17:23:33] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-15 17:23:33] WARNING root fetch - processPackages [paczka]: Skipping, unable to determine old version
+[2023-05-15 17:23:33] INFO root fetch - main [MainThread]: End processing [paczka] error
+[2023-05-15 17:23:33] INFO root fetch - processPackages [parse-emails]: executing diffoscope
+[2023-05-15 17:23:33] INFO root fetch - processPackages [parse-emails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_emails-0.1.8.tar.gz tmp/parse_emails-0.1.9.tar.gz --markdown 20230515/p/parse-emails/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 17:23:33] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-05-15 17:23:33] INFO root fetch - main [MainThread]: End processing [eve-client]: success
+[2023-05-15 17:23:33] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-15 17:23:34] INFO root fetch - main [MainThread]: End processing [simple-i18n]: success
+[2023-05-15 17:23:34] INFO root fetch - main [MainThread]: End processing [secrets-env]: success
+[2023-05-15 17:23:34] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-05-15 17:23:34] INFO root fetch - main [MainThread]: End processing [scikit-build]: success
+[2023-05-15 17:23:37] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
+[2023-05-15 17:23:37] INFO root fetch - main [MainThread]: Store serial: [18109854]
