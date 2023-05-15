@@ -21464,3 +21464,120 @@ EOFError: EOF read where object expected
 [2023-05-15 22:05:24] INFO root fetch - main [MainThread]: End processing [metaapi-cloud-sdk]: success
 [2023-05-15 22:05:44] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
 [2023-05-15 22:05:44] INFO root fetch - main [MainThread]: Store serial: [18112772]
+[2023-05-15 22:10:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112772]
+[2023-05-15 22:10:57] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedml
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arthurai
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiorobonect
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-ansible
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: internetarchivesync
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: greenswitch
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ndr-core
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-ai-ml
+[2023-05-15 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shillelagh
+[2023-05-15 22:10:57] WARNING root fetch - processPackages [aiorobonect]: Skipping, unable to determine old version
+[2023-05-15 22:10:57] INFO root fetch - processPackages [aiorobonect]: Start processing: appthreat-vulnerability-db
+[2023-05-15 22:10:57] INFO root fetch - main [MainThread]: End processing [aiorobonect] error
+[2023-05-15 22:10:57] INFO root fetch - processPackages [internetarchivesync]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [arthurai]: New version: [3.9.0] Old Version: [3.8.8]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [greenswitch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [django-ndr-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [pytest-ansible]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [azure-ai-ml]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [shillelagh]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [appthreat-vulnerability-db]: New version: [5.1.4] Old Version: [5.1.3]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [kcli]: New version: [99.0.202305152006] Old Version: [99.0.202305151933]
+[2023-05-15 22:10:57] INFO root fetch - processPackages [arthurai]: Downloading https://files.pythonhosted.org/packages/73/0a/07530eb1eee962adf738778fa258fd4870802f4b98af16a1dce0e184f100/arthurai-3.8.8.tar.gz
+[2023-05-15 22:10:57] INFO root fetch - processPackages [greenswitch]: Downloading https://files.pythonhosted.org/packages/f8/e5/b2071b18f83c6cad30d6c3c1003acb5f4fe9206a464698280ebc32c7be4c/greenswitch-0.0.8.tar.gz
+[2023-05-15 22:10:57] INFO root fetch - processPackages [azure-ai-ml]: Downloading https://files.pythonhosted.org/packages/ab/37/3d22f4d74b21c1626bb2ea3e2f6cb802fde774fd5abeec4308cc6371330d/azure-ai-ml-1.6.0.zip
+[2023-05-15 22:10:57] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/be/76/c0ce4623b4d568180fe7966c30fdac0e760658e794b566f0509f4e86ecf0/shillelagh-1.2.4.tar.gz
+[2023-05-15 22:10:57] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a0/c4/85e5307803a1c3491571ddc6fe7c5651ba0dccd8e2686cd1f97706ab739a/kcli-99.0.202305152006-py3-none-any.whl
+[2023-05-15 22:10:57] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/e7/7d/4cdcb5fdfdeea236c16a5c33c3313b63455de120c17426d4eed88dd7ad56/appthreat-vulnerability-db-5.1.3.tar.gz
+[2023-05-15 22:10:57] INFO root fetch - processPackages [internetarchivesync]: Downloading https://files.pythonhosted.org/packages/0c/84/6a04d3f0504edcd14d9d6fde564d53a653ab520c4debf3d2926214a3c44e/internetarchivesync-1.0.2.tar.gz
+[2023-05-15 22:10:57] INFO root fetch - processPackages [pytest-ansible]: Downloading https://files.pythonhosted.org/packages/67/6d/84e8cb5dc361585f74ab60ed4671dfd75b3d90cc2b635380a2b7053f66c3/pytest-ansible-3.1.5.tar.gz
+[2023-05-15 22:10:57] INFO root fetch - processPackages [shillelagh]: executing diffoscope
+[2023-05-15 22:10:57] INFO root fetch - processPackages [shillelagh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shillelagh-1.2.3.tar.gz tmp/shillelagh-1.2.4.tar.gz --markdown 20230515/s/shillelagh/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-15 22:10:57] INFO root fetch - processPackages [internetarchivesync]: executing diffoscope
+[2023-05-15 22:10:57] INFO root fetch - processPackages [internetarchivesync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internetarchivesync-1.0.1.tar.gz tmp/internetarchivesync-1.0.2.tar.gz --markdown 20230515/i/internetarchivesync/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 22:10:57] INFO root fetch - processPackages [django-ndr-core]: Downloading https://files.pythonhosted.org/packages/3c/4c/189aa8699000ae89bef7c0cbe8a778404fa4a00d25d8744071fde241b0cf/django-ndr-core-0.8.0.tar.gz
+[2023-05-15 22:10:57] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-15 22:10:57] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230515/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-15 22:10:57] INFO root fetch - processPackages [pytest-ansible]: executing diffoscope
+[2023-05-15 22:10:57] INFO root fetch - processPackages [pytest-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-ansible-3.1.4.tar.gz tmp/pytest-ansible-3.1.5.tar.gz --markdown 20230515/p/pytest-ansible/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-05-15 22:10:58] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 22:10:58] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305151933-py3-none-any.whl.zip tmp/kcli-99.0.202305152006-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305151933-99.0.202305152006/diff.md --exclude *.pyd
+[2023-05-15 22:10:58] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/05/3b/149df8550470897aeb125c5dd43bbbb7ed03e4ce93f8f48b308daf9a2ede/appthreat-vulnerability-db-5.1.4.tar.gz
+[2023-05-15 22:10:58] INFO root fetch - processPackages [greenswitch]: Downloading https://files.pythonhosted.org/packages/d0/73/e0d0971cca3e9f5130642d1edff50d1f41a7b1902b0739f200da3b1770a8/greenswitch-0.0.9.tar.gz
+[2023-05-15 22:10:58] INFO root fetch - processPackages [arthurai]: Downloading https://files.pythonhosted.org/packages/c7/a0/679d0614708a6b029d9a4b2c99c6f428aa540771fbfc7ec829fcea28d54c/arthurai-3.9.0.tar.gz
+[2023-05-15 22:10:58] INFO root fetch - processPackages [azure-ai-ml]: Downloading https://files.pythonhosted.org/packages/c4/8c/c16ea29db9ccf265cfeb809cdd2e04b497754879e7696981c86a1ebbdbfb/azure-ai-ml-1.7.0.zip
+[2023-05-15 22:10:58] INFO root fetch - processPackages [appthreat-vulnerability-db]: executing diffoscope
+[2023-05-15 22:10:58] INFO root fetch - processPackages [appthreat-vulnerability-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appthreat-vulnerability-db-5.1.3.tar.gz tmp/appthreat-vulnerability-db-5.1.4.tar.gz --markdown 20230515/a/appthreat-vulnerability-db/5.1.3-5.1.4/diff.md --exclude *.pyd
+[2023-05-15 22:10:58] INFO root fetch - processPackages [greenswitch]: executing diffoscope
+[2023-05-15 22:10:58] INFO root fetch - processPackages [greenswitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenswitch-0.0.8.tar.gz tmp/greenswitch-0.0.9.tar.gz --markdown 20230515/g/greenswitch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:10:58] INFO root fetch - processPackages [arthurai]: executing diffoscope
+[2023-05-15 22:10:58] INFO root fetch - processPackages [arthurai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthurai-3.8.8.tar.gz tmp/arthurai-3.9.0.tar.gz --markdown 20230515/a/arthurai/3.8.8-3.9.0/diff.md --exclude *.pyd
+[2023-05-15 22:10:59] INFO root fetch - processPackages [internetarchivesync]: Start processing: pylance
+[2023-05-15 22:10:59] INFO root fetch - main [MainThread]: End processing [internetarchivesync]: success
+[2023-05-15 22:10:59] INFO root fetch - processPackages [pylance]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-15 22:10:59] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/1d/3d/b7f8dbc01ee9f99333c1a157af27411304e05950acd0a0a594cacfeb1537/pylance-0.4.8-cp38-abi3-win_amd64.whl
+[2023-05-15 22:10:59] INFO root fetch - processPackages [pytest-ansible]: Start processing: vim-python-framework
+[2023-05-15 22:10:59] INFO root fetch - main [MainThread]: End processing [pytest-ansible]: success
+[2023-05-15 22:10:59] INFO root fetch - processPackages [azure-ai-ml]: executing diffoscope
+[2023-05-15 22:10:59] INFO root fetch - processPackages [azure-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-ml-1.6.0.zip tmp/azure-ai-ml-1.7.0.zip --markdown 20230515/a/azure-ai-ml/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-15 22:10:59] WARNING root fetch - processPackages [vim-python-framework]: Skipping, unable to determine old version
+[2023-05-15 22:10:59] INFO root fetch - processPackages [vim-python-framework]: Start processing: amdfan
+[2023-05-15 22:10:59] INFO root fetch - main [MainThread]: End processing [vim-python-framework] error
+[2023-05-15 22:10:59] INFO root fetch - processPackages [amdfan]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 22:10:59] INFO root fetch - processPackages [greenswitch]: Start processing: promnesia
+[2023-05-15 22:10:59] INFO root fetch - main [MainThread]: End processing [greenswitch]: success
+[2023-05-15 22:10:59] INFO root fetch - processPackages [promnesia]: New version: [1.2.20230515] Old Version: [1.1.20230129]
+[2023-05-15 22:10:59] INFO root fetch - processPackages [appthreat-vulnerability-db]: Start processing: kfish
+[2023-05-15 22:10:59] INFO root fetch - main [MainThread]: End processing [appthreat-vulnerability-db]: success
+[2023-05-15 22:10:59] INFO root fetch - processPackages [kfish]: New version: [99.0.202305152009] Old Version: [99.0.202305151935]
+[2023-05-15 22:10:59] INFO root fetch - processPackages [amdfan]: Downloading https://files.pythonhosted.org/packages/a5/84/eaf0780a35d2771e2f65c31662d8ccd82ffff08cf9e8e4bc0c8f10668587/amdfan-0.1.8.tar.gz
+[2023-05-15 22:10:59] INFO root fetch - processPackages [django-ndr-core]: Downloading https://files.pythonhosted.org/packages/af/1f/6c8d201f910661ad2d4686d9c6ab9338d261332237259c6c05be4015920e/django-ndr-core-0.9.0.tar.gz
+[2023-05-15 22:10:59] INFO root fetch - processPackages [promnesia]: Downloading https://files.pythonhosted.org/packages/2c/4f/3de7c4d9544c197c43213b6593e0807cc022987a74186e9a095adb796244/promnesia-1.1.20230129.tar.gz
+[2023-05-15 22:11:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/75/ab/e2a7ee7904ee737ff7625b100dc971255df6b7866351a1372fa20ecc6e48/kfish-99.0.202305152009-py3-none-any.whl
+[2023-05-15 22:11:00] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 20868431>=10485760
+[2023-05-15 22:11:00] INFO root fetch - processPackages [pylance]: Start processing: intersight
+[2023-05-15 22:11:00] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-05-15 22:11:00] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2023-05-15 22:11:00] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-15 22:11:00] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305151935-py3-none-any.whl.zip tmp/kfish-99.0.202305152009-py3-none-any.whl.zip --markdown 20230515/k/kfish/99.0.202305151935-99.0.202305152009/diff.md --exclude *.pyd
+[2023-05-15 22:11:00] INFO root fetch - processPackages [promnesia]: Downloading https://files.pythonhosted.org/packages/e7/42/071734166e335f537d2bd0ac2bd4b1feca4281e0b248d59f934f1f9904ef/promnesia-1.2.20230515.tar.gz
+[2023-05-15 22:11:00] INFO root fetch - processPackages [amdfan]: Downloading https://files.pythonhosted.org/packages/f2/fc/abdc2525391e94984012cd44bc9d28985eaa38a41b8492ec8d90761b5a30/amdfan-0.1.9.tar.gz
+[2023-05-15 22:11:00] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2023-05-15 22:11:00] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2023-05-15 22:11:00] INFO root fetch - processPackages [intersight]: Start processing: pytest-logikal
+[2023-05-15 22:11:00] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2023-05-15 22:11:00] INFO root fetch - processPackages [pytest-logikal]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-05-15 22:11:00] INFO root fetch - processPackages [promnesia]: executing diffoscope
+[2023-05-15 22:11:00] INFO root fetch - processPackages [promnesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promnesia-1.1.20230129.tar.gz tmp/promnesia-1.2.20230515.tar.gz --markdown 20230515/p/promnesia/1.1.20230129-1.2.20230515/diff.md --exclude *.pyd
+[2023-05-15 22:11:00] INFO root fetch - processPackages [amdfan]: executing diffoscope
+[2023-05-15 22:11:00] INFO root fetch - processPackages [amdfan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdfan-0.1.8.tar.gz tmp/amdfan-0.1.9.tar.gz --markdown 20230515/a/amdfan/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 22:11:00] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/06/8c/56e404ba5702b7e915fe9a9d28c1563f5b0018e9768634094b96007f0939/pytest-logikal-1.8.4.tar.gz
+[2023-05-15 22:11:00] INFO root fetch - processPackages [arthurai]: Start processing: MusicCLI
+[2023-05-15 22:11:00] INFO root fetch - main [MainThread]: End processing [arthurai]: success
+[2023-05-15 22:11:00] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2023-05-15 22:11:00] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-logikal-1.8.3.tar.gz tmp/pytest-logikal-1.8.4.tar.gz --markdown 20230515/p/pytest-logikal/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-05-15 22:11:00] WARNING root fetch - processPackages [MusicCLI]: Skipping, unable to determine old version
+[2023-05-15 22:11:00] INFO root fetch - processPackages [MusicCLI]: Start processing: Log-Api
+[2023-05-15 22:11:00] INFO root fetch - main [MainThread]: End processing [MusicCLI] error
+[2023-05-15 22:11:00] INFO root fetch - processPackages [Log-Api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 22:11:01] INFO root fetch - processPackages [Log-Api]: executing diffoscope
+[2023-05-15 22:11:01] INFO root fetch - processPackages [Log-Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Log_Api-0.0.1.tar.gz tmp/Log_Api-0.0.2.tar.gz --markdown 20230515/L/Log-Api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 22:11:01] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-15 22:11:01] INFO root fetch - main [MainThread]: End processing [amdfan]: success
+[2023-05-15 22:11:02] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2023-05-15 22:11:02] INFO root fetch - processPackages [django-ndr-core]: executing diffoscope
+[2023-05-15 22:11:02] INFO root fetch - processPackages [django-ndr-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ndr-core-0.8.0.tar.gz tmp/django-ndr-core-0.9.0.tar.gz --markdown 20230515/d/django-ndr-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 22:11:02] INFO root fetch - main [MainThread]: End processing [shillelagh]: success
+[2023-05-15 22:11:02] INFO root fetch - main [MainThread]: End processing [Log-Api]: success
+[2023-05-15 22:11:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 22:11:06] INFO root fetch - main [MainThread]: End processing [django-ndr-core]: success
+[2023-05-15 22:11:07] INFO root fetch - main [MainThread]: End processing [promnesia]: success
+[2023-05-15 22:11:09] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-15 22:11:49] INFO root fetch - main [MainThread]: End processing [azure-ai-ml]: success
+[2023-05-15 22:11:49] INFO root fetch - main [MainThread]: Store serial: [18112836]
