@@ -12401,3 +12401,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 14:13:19] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-15 14:13:20] INFO root fetch - main [MainThread]: End processing [pyseobnr]: success
 [2023-05-15 14:13:20] INFO root fetch - main [MainThread]: Store serial: [18107301]
+[2023-05-15 14:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18107301]
+[2023-05-15 14:18:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 14:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchility
+[2023-05-15 14:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vgd-counterfactuals
+[2023-05-15 14:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-15 14:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tira
+[2023-05-15 14:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnbase_biolab
+[2023-05-15 14:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TradeCalCN
+[2023-05-15 14:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DIRAC
+[2023-05-15 14:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-equilibrium
+[2023-05-15 14:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: security-util-py
+[2023-05-15 14:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandasflow
+[2023-05-15 14:18:29] INFO root fetch - processPackages [pandasflow]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [lnbase_biolab]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [TradeCalCN]: New version: [0.1] Old Version: [0.0.1]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [security-util-py]: New version: [0.0.6] Old Version: [0.0.3]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [python-equilibrium]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [vgd-counterfactuals]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [tira]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [torchility]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [DIRAC]: New version: [8.1.0a9] Old Version: [8.1.0a8]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 14:18:29] INFO root fetch - processPackages [TradeCalCN]: executing diffoscope
+[2023-05-15 14:18:29] INFO root fetch - processPackages [TradeCalCN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TradeCalCN-0.0.1.tar.gz tmp/TradeCalCN-0.1.tar.gz --markdown 20230515/T/TradeCalCN/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-05-15 14:18:29] INFO root fetch - processPackages [lnbase_biolab]: Downloading https://files.pythonhosted.org/packages/27/4e/2ebd99bcd670554cef3610b754420668eb8cd9e64da652062927bec50747/lnbase_biolab-0.15.0.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/86/f3/fb79d9f32ccad04bc0be68d8c35c7b5074597eea592d8e486c67a715e19b/pandasflow-0.5.4.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/b1/de/facfafdf2ccd39ea46ce519f381feebcce6c4ba47a0eb6cf81a8375776ee/python_equilibrium-0.1.0.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/43/c4/b81bb3f967a30227b00188bc5062cff5d1a04fab70a9a31189f474c84ced/tira-0.0.8.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/35/19/2c6f883597e847d7ba7e96999b7f94ac5b16d8485a5e04f508ab7ba93aa0/DIRAC-8.1.0a8.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/40/62/85024c34c7f753c0aa0d0522efefbb872c28645382653aa4f8b331cc0a17/vgd_counterfactuals-0.1.1.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-05-15 14:18:29] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.5.3.tar.gz tmp/pandasflow-0.5.4.tar.gz --markdown 20230515/p/pandasflow/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-15 14:18:29] INFO root fetch - processPackages [lnbase_biolab]: Downloading https://files.pythonhosted.org/packages/46/8c/00b4d57903aa4736aef5cbe7eb7d960ecb73e832ee921758c5563fc52b11/lnbase_biolab-0.15.1.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [security-util-py]: Downloading https://files.pythonhosted.org/packages/ba/c7/cd00a5bee8f5b5f260baf8102e0df1ee02bc4cd5ae037e820da7ab232bc4/security-util-py-0.0.6.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/4a/d1/c0b1646f615ef661f1f67e37a07dba4035c4ea151a4828f8ecb3a912cefd/python_equilibrium-0.2.0.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [lnbase_biolab]: executing diffoscope
+[2023-05-15 14:18:29] INFO root fetch - processPackages [lnbase_biolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnbase_biolab-0.15.0.tar.gz tmp/lnbase_biolab-0.15.1.tar.gz --markdown 20230515/l/lnbase_biolab/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-05-15 14:18:29] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/65/7d/c3663c20a3ca78e2834d09ac77a8bbb2bf829fb34f8473943537b8421e43/torchility-0.6.9.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/28/38/f591497dbf58502a6139731630d7f9fdf672f8627e5e7046fe61348f2c44/vgd_counterfactuals-0.1.2.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/9b/f4/9ea6ae03b0e08b169bc3b6c3b2b915f1fd6005389bcaa0b6d5e43a5fda17/tira-0.0.9.tar.gz
+[2023-05-15 14:18:29] INFO root fetch - processPackages [tira]: executing diffoscope
+[2023-05-15 14:18:29] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.8.tar.gz tmp/tira-0.0.9.tar.gz --markdown 20230515/t/tira/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 14:18:29] INFO root fetch - processPackages [security-util-py]: executing diffoscope
+[2023-05-15 14:18:29] INFO root fetch - processPackages [security-util-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/security-util-py-0.0.3.tar.gz tmp/security-util-py-0.0.6.tar.gz --markdown 20230515/s/security-util-py/0.0.3-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 14:18:29] INFO root fetch - processPackages [python-equilibrium]: executing diffoscope
+[2023-05-15 14:18:29] INFO root fetch - processPackages [python-equilibrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_equilibrium-0.1.0.tar.gz tmp/python_equilibrium-0.2.0.tar.gz --markdown 20230515/p/python-equilibrium/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 14:18:29] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-05-15 14:18:29] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.6.8.tar.gz tmp/torchility-0.6.9.tar.gz --markdown 20230515/t/torchility/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-15 14:18:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-05-15 14:18:30] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-15 14:18:30] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 14:18:30] INFO root fetch - processPackages [vgd-counterfactuals]: executing diffoscope
+[2023-05-15 14:18:30] INFO root fetch - processPackages [vgd-counterfactuals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgd_counterfactuals-0.1.1.tar.gz tmp/vgd_counterfactuals-0.1.2.tar.gz --markdown 20230515/v/vgd-counterfactuals/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 14:18:30] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/dc/e4/3d433b449dc9be87754c2eb6eea8594f46aafce3f0d92348f727d4bbdc04/DIRAC-8.1.0a9.tar.gz
+[2023-05-15 14:18:30] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2023-05-15 14:18:30] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-8.1.0a8.tar.gz tmp/DIRAC-8.1.0a9.tar.gz --markdown 20230515/D/DIRAC/8.1.0a8-8.1.0a9/diff.md --exclude *.pyd
+[2023-05-15 14:18:31] INFO root fetch - processPackages [TradeCalCN]: Start processing: chromedriverhandlar
+[2023-05-15 14:18:31] INFO root fetch - main [MainThread]: End processing [TradeCalCN]: success
+[2023-05-15 14:18:31] ERROR root fetch - processPackages [chromedriverhandlar]: Unable to get metadata: No such project 'chromedriverhandlar'
+[2023-05-15 14:18:31] INFO root fetch - processPackages [chromedriverhandlar]: Start processing: langchain-serve
+[2023-05-15 14:18:31] INFO root fetch - main [MainThread]: End processing [chromedriverhandlar] error
+[2023-05-15 14:18:31] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-15 14:18:31] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-15 14:18:31] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230515/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-15 14:18:32] INFO root fetch - processPackages [security-util-py]: Start processing: gmsofttesttool
+[2023-05-15 14:18:32] INFO root fetch - main [MainThread]: End processing [security-util-py]: success
+[2023-05-15 14:18:32] INFO root fetch - main [MainThread]: End processing [lnbase_biolab]: success
+[2023-05-15 14:18:32] WARNING root fetch - processPackages [gmsofttesttool]: Skipping, unable to determine old version
+[2023-05-15 14:18:32] INFO root fetch - main [MainThread]: End processing [gmsofttesttool] error
+[2023-05-15 14:18:32] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2023-05-15 14:18:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-15 14:18:32] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-05-15 14:18:32] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-05-15 14:18:33] INFO root fetch - main [MainThread]: End processing [python-equilibrium]: success
+[2023-05-15 14:18:34] INFO root fetch - main [MainThread]: End processing [vgd-counterfactuals]: success
+[2023-05-15 14:18:34] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-15 14:19:05] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2023-05-15 14:19:05] INFO root fetch - main [MainThread]: Store serial: [18107364]
