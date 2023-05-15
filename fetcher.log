@@ -867,3 +867,51 @@
 [2023-05-15 01:58:48] INFO root fetch - main [MainThread]: End processing [dinero]: success
 [2023-05-15 01:58:48] INFO root fetch - main [MainThread]: End processing [ogl]: success
 [2023-05-15 01:58:48] INFO root fetch - main [MainThread]: Store serial: [18100810]
+[2023-05-15 02:03:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18100810]
+[2023-05-15 02:03:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baseclasses
+[2023-05-15 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: realtouch
+[2023-05-15 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NlpToolkit-DependencyParser-Cy
+[2023-05-15 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arkdata
+[2023-05-15 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dictdot
+[2023-05-15 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pssm-promoter-tool
+[2023-05-15 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchdatasets-nightly
+[2023-05-15 02:03:57] INFO root fetch - processPackages [dictdot]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-15 02:03:57] INFO root fetch - processPackages [NlpToolkit-DependencyParser-Cy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 02:03:57] INFO root fetch - processPackages [baseclasses]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 02:03:57] INFO root fetch - processPackages [realtouch]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 02:03:57] INFO root fetch - processPackages [pssm-promoter-tool]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 02:03:57] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 02:03:57] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1684022592] Old Version: [1683936161]
+[2023-05-15 02:03:57] INFO root fetch - processPackages [dictdot]: Downloading https://files.pythonhosted.org/packages/dc/d7/2697457f42e113fd5ea80d6ffd96d61ef11c5940b266cb506622791f9ad2/dictdot-1.4.0-py3-none-any.whl
+[2023-05-15 02:03:57] INFO root fetch - processPackages [pssm-promoter-tool]: Downloading https://files.pythonhosted.org/packages/fb/3d/56bdbe1bd0a1aac30686604bbe053a4c03fdc0510b51afb857f5f860a5f0/pssm-promoter-tool-1.0.2.tar.gz
+[2023-05-15 02:03:57] INFO root fetch - processPackages [baseclasses]: Downloading https://files.pythonhosted.org/packages/4a/f7/68422ac3c0c1e88cdc6e60190f9f0cd165cf4c8e8aee9d9dfabc14ddf938/baseclasses-0.1.0.tar.gz
+[2023-05-15 02:03:57] INFO root fetch - processPackages [NlpToolkit-DependencyParser-Cy]: Downloading https://files.pythonhosted.org/packages/f8/8f/e12866805fde9fe8afa4e0b0f7211fbbbc6b4d61f96943fff79fb5d3fc3a/NlpToolkit-DependencyParser-Cy-1.0.8.tar.gz
+[2023-05-15 02:03:57] INFO root fetch - processPackages [realtouch]: Downloading https://files.pythonhosted.org/packages/0c/18/5dfe5c89e677b543a2f685013fd9f60aa4c5b493d243dd28de00ad83775c/realtouch-0.1.4.tar.gz
+[2023-05-15 02:03:57] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 02:03:57] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 02:03:57] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/ce/37/cc21cdfcdebefd3b37fe4bf3c9fe2d10029df4286f6b1565500fee0ebef5/torchdatasets-nightly-1684022592.tar.gz
+[2023-05-15 02:03:57] INFO root fetch - processPackages [dictdot]: Downloading https://files.pythonhosted.org/packages/3b/a3/bb232576d07d28d5bed81ee28ef51209ce307e5b3a21f91acce711737072/dictdot-1.5.0-py3-none-any.whl
+[2023-05-15 02:03:57] INFO root fetch - processPackages [realtouch]: executing diffoscope
+[2023-05-15 02:03:57] INFO root fetch - processPackages [realtouch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realtouch-0.1.3.tar.gz tmp/realtouch-0.1.4.tar.gz --markdown 20230515/r/realtouch/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 02:03:57] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-15 02:03:57] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1683936161.tar.gz tmp/torchdatasets-nightly-1684022592.tar.gz --markdown 20230515/t/torchdatasets-nightly/1683936161-1684022592/diff.md --exclude *.pyd
+[2023-05-15 02:03:57] INFO root fetch - processPackages [dictdot]: executing diffoscope
+[2023-05-15 02:03:57] INFO root fetch - processPackages [dictdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictdot-1.4.0-py3-none-any.whl.zip tmp/dictdot-1.5.0-py3-none-any.whl.zip --markdown 20230515/d/dictdot/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-15 02:03:58] INFO root fetch - processPackages [baseclasses]: Downloading https://files.pythonhosted.org/packages/db/c8/11ed8eab6cf265bffbabaea9bb4af2c1bbb3f3f0141bdefde10bd9ba4512/baseclasses-0.1.1.tar.gz
+[2023-05-15 02:03:58] INFO root fetch - processPackages [pssm-promoter-tool]: Downloading https://files.pythonhosted.org/packages/42/73/25e411a2dc487eab80e6b093028461cfed6c4d2f29e9d32459ddde1a264c/pssm-promoter-tool-1.0.3.tar.gz
+[2023-05-15 02:03:58] INFO root fetch - processPackages [pssm-promoter-tool]: executing diffoscope
+[2023-05-15 02:03:58] INFO root fetch - processPackages [pssm-promoter-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssm-promoter-tool-1.0.2.tar.gz tmp/pssm-promoter-tool-1.0.3.tar.gz --markdown 20230515/p/pssm-promoter-tool/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 02:03:58] INFO root fetch - processPackages [baseclasses]: executing diffoscope
+[2023-05-15 02:03:58] INFO root fetch - processPackages [baseclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseclasses-0.1.0.tar.gz tmp/baseclasses-0.1.1.tar.gz --markdown 20230515/b/baseclasses/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 02:03:58] INFO root fetch - processPackages [NlpToolkit-DependencyParser-Cy]: Downloading https://files.pythonhosted.org/packages/53/c3/413389920a4e153d9ff568a53a29da498b8ca1c080bd13d2cbe01837275a/NlpToolkit-DependencyParser-Cy-1.0.9.tar.gz
+[2023-05-15 02:03:58] INFO root fetch - processPackages [NlpToolkit-DependencyParser-Cy]: executing diffoscope
+[2023-05-15 02:03:58] INFO root fetch - processPackages [NlpToolkit-DependencyParser-Cy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NlpToolkit-DependencyParser-Cy-1.0.8.tar.gz tmp/NlpToolkit-DependencyParser-Cy-1.0.9.tar.gz --markdown 20230515/N/NlpToolkit-DependencyParser-Cy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 02:03:59] INFO root fetch - main [MainThread]: End processing [dictdot]: success
+[2023-05-15 02:03:59] INFO root fetch - main [MainThread]: End processing [pssm-promoter-tool]: success
+[2023-05-15 02:03:59] INFO root fetch - main [MainThread]: End processing [realtouch]: success
+[2023-05-15 02:03:59] INFO root fetch - main [MainThread]: End processing [baseclasses]: success
+[2023-05-15 02:03:59] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 02:03:59] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-15 02:04:00] INFO root fetch - main [MainThread]: End processing [NlpToolkit-DependencyParser-Cy]: success
+[2023-05-15 02:04:00] INFO root fetch - main [MainThread]: Store serial: [18100829]
