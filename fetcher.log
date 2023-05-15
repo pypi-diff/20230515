@@ -22745,3 +22745,50 @@ EOFError: EOF read where object expected
 [2023-05-15 23:22:07] INFO root fetch - main [MainThread]: End processing [selenium-assist]: success
 [2023-05-15 23:22:08] INFO root fetch - main [MainThread]: End processing [kodexa]: success
 [2023-05-15 23:22:08] INFO root fetch - main [MainThread]: Store serial: [18113599]
+[2023-05-15 23:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113599]
+[2023-05-15 23:27:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 23:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatcmd
+[2023-05-15 23:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-ioc
+[2023-05-15 23:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pierskarsenbarg-pulumi-ngrok
+[2023-05-15 23:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-smtpd
+[2023-05-15 23:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsuchinoko
+[2023-05-15 23:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trame-client
+[2023-05-15 23:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RlEvaluation
+[2023-05-15 23:27:16] INFO root fetch - processPackages [chatcmd]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-05-15 23:27:16] INFO root fetch - processPackages [clean-ioc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 23:27:16] INFO root fetch - processPackages [pytest-smtpd]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2023-05-15 23:27:16] INFO root fetch - processPackages [RlEvaluation]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 23:27:16] INFO root fetch - processPackages [trame-client]: New version: [2.7.6] Old Version: [2.7.5]
+[2023-05-15 23:27:16] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-15 23:27:16] INFO root fetch - processPackages [tsuchinoko]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 23:27:17] INFO root fetch - processPackages [chatcmd]: Downloading https://files.pythonhosted.org/packages/b2/77/02cd911942a4a0825b1efba989ca87918a2f3edf127b5b77bc04d313d6c5/chatcmd-1.0.13.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [pytest-smtpd]: Downloading https://files.pythonhosted.org/packages/8d/35/57de31ff2bd745aafa940839125104c5150ea1d4c472946c18d99e6813fd/pytest_smtpd-0.1.0.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [tsuchinoko]: executing diffoscope
+[2023-05-15 23:27:17] INFO root fetch - processPackages [tsuchinoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsuchinoko-1.0.8.tar.gz tmp/tsuchinoko-1.0.9.tar.gz --markdown 20230515/t/tsuchinoko/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 23:27:17] INFO root fetch - processPackages [trame-client]: Downloading https://files.pythonhosted.org/packages/7e/a5/db751d717d402befb2cb2a30d80d33b05a746c9cd376ce19d5b4713826fc/trame-client-2.7.5.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [clean-ioc]: Downloading https://files.pythonhosted.org/packages/e9/63/266645df0ff1be3f5ff9dca0748d7aaf18cb65548f88a8b9d06d11801c5a/clean_ioc-0.0.6.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Downloading https://files.pythonhosted.org/packages/f7/b0/e74c40e72ff108f3ef0e70623550b30591b47439808397ce0551e2f40a44/pierskarsenbarg_pulumi_ngrok-0.0.20.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [RlEvaluation]: Downloading https://files.pythonhosted.org/packages/5c/67/1fbc71f3418a4e63f99f1a0f70a0f988b83cfb4e2f3131ec6d351dcc7230/RlEvaluation-0.1.1.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [clean-ioc]: executing diffoscope
+[2023-05-15 23:27:17] INFO root fetch - processPackages [clean-ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_ioc-0.0.5.tar.gz tmp/clean_ioc-0.0.6.tar.gz --markdown 20230515/c/clean-ioc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 23:27:17] INFO root fetch - processPackages [chatcmd]: Downloading https://files.pythonhosted.org/packages/87/29/eee5883bca2d72fba853faec98f3c623731c755fffa4336a76e1063b676e/chatcmd-1.0.14.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: executing diffoscope
+[2023-05-15 23:27:17] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_ngrok-0.0.19.tar.gz tmp/pierskarsenbarg_pulumi_ngrok-0.0.20.tar.gz --markdown 20230515/p/pierskarsenbarg-pulumi-ngrok/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-15 23:27:17] INFO root fetch - processPackages [RlEvaluation]: executing diffoscope
+[2023-05-15 23:27:17] INFO root fetch - processPackages [RlEvaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RlEvaluation-0.1.0.tar.gz tmp/RlEvaluation-0.1.1.tar.gz --markdown 20230515/R/RlEvaluation/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 23:27:17] INFO root fetch - processPackages [chatcmd]: executing diffoscope
+[2023-05-15 23:27:17] INFO root fetch - processPackages [chatcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcmd-1.0.13.tar.gz tmp/chatcmd-1.0.14.tar.gz --markdown 20230515/c/chatcmd/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-05-15 23:27:17] INFO root fetch - processPackages [trame-client]: Downloading https://files.pythonhosted.org/packages/a4/01/28ba5824e908ad6d19731c608ce138bbf22c685bc88044c0e24e2db9d261/trame-client-2.7.6.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [pytest-smtpd]: Downloading https://files.pythonhosted.org/packages/bf/f6/67a264e6d6a5f3e8e8ce1452aa6e20652e4d271c286a61eabd2f71977831/pytest-smtpd-0.1.0a0.tar.gz
+[2023-05-15 23:27:17] INFO root fetch - processPackages [pytest-smtpd]: executing diffoscope
+[2023-05-15 23:27:17] INFO root fetch - processPackages [pytest-smtpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_smtpd-0.1.0.tar.gz tmp/pytest-smtpd-0.1.0a0.tar.gz --markdown 20230515/p/pytest-smtpd/0.1.0-0.1.0a0/diff.md --exclude *.pyd
+[2023-05-15 23:27:17] INFO root fetch - processPackages [trame-client]: executing diffoscope
+[2023-05-15 23:27:17] INFO root fetch - processPackages [trame-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-client-2.7.5.tar.gz tmp/trame-client-2.7.6.tar.gz --markdown 20230515/t/trame-client/2.7.5-2.7.6/diff.md --exclude *.pyd
+[2023-05-15 23:27:18] INFO root fetch - main [MainThread]: End processing [clean-ioc]: success
+[2023-05-15 23:27:18] INFO root fetch - main [MainThread]: End processing [chatcmd]: success
+[2023-05-15 23:27:18] INFO root fetch - main [MainThread]: End processing [RlEvaluation]: success
+[2023-05-15 23:27:18] INFO root fetch - main [MainThread]: End processing [tsuchinoko]: success
+[2023-05-15 23:27:18] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-ngrok]: success
+[2023-05-15 23:27:20] INFO root fetch - main [MainThread]: End processing [trame-client]: success
+[2023-05-15 23:27:57] INFO root fetch - main [MainThread]: End processing [pytest-smtpd]: success
+[2023-05-15 23:27:57] INFO root fetch - main [MainThread]: Store serial: [18113620]
