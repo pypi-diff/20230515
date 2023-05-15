@@ -4336,3 +4336,45 @@
 [2023-05-15 06:24:59] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-05-15 06:25:27] INFO root fetch - main [MainThread]: End processing [lifx-cli]: success
 [2023-05-15 06:25:27] INFO root fetch - main [MainThread]: Store serial: [18102829]
+[2023-05-15 06:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102829]
+[2023-05-15 06:30:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 06:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: validmind
+[2023-05-15 06:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-sslpod
+[2023-05-15 06:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-ssm
+[2023-05-15 06:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatLLM
+[2023-05-15 06:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiolm-pytorch
+[2023-05-15 06:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mecord-cli
+[2023-05-15 06:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartgpt
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 06:30:36] INFO root fetch - processPackages [audiolm-pytorch]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-15 06:30:36] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 06:30:36] INFO root fetch - processPackages [smartgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 06:30:36] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-05-15 06:30:36] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 06:30:36] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 06:30:36] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 06:30:36] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-15 06:30:36] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230515/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 06:30:36] INFO root fetch - processPackages [smartgpt]: executing diffoscope
+[2023-05-15 06:30:36] INFO root fetch - processPackages [smartgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartgpt-0.1.1.tar.gz tmp/smartgpt-0.1.2.tar.gz --markdown 20230515/s/smartgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 06:30:36] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/92/0a/c6e89e1b4a2b572d25ac6e169cdc8dcb16c098f642b85bc7ad51a6a3d3f6/audiolm-pytorch-0.9.6.tar.gz
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: Downloading https://files.pythonhosted.org/packages/15/63/fb9b284e3f9f89e4c7f5a8a240e9bb2e2eda8a2af524d1aab34532db5e17/tencentcloud-sdk-python-ssm-3.0.891.tar.gz
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: Downloading https://files.pythonhosted.org/packages/12/2d/0f3b248f4d7077963a432ea9b9d2f7d381f100c66c91b31200d1dc47e1c8/tencentcloud-sdk-python-sslpod-3.0.891.tar.gz
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: executing diffoscope
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ssm-3.0.890.tar.gz tmp/tencentcloud-sdk-python-ssm-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-ssm/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 06:30:36] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-15 06:30:36] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230515/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: executing diffoscope
+[2023-05-15 06:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sslpod-3.0.890.tar.gz tmp/tencentcloud-sdk-python-sslpod-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-sslpod/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 06:30:36] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/55/73/d7da16fe66ad5d72644595a873b27c8157def3f912653c4e5dfaa3b8e36b/audiolm-pytorch-0.9.7.tar.gz
+[2023-05-15 06:30:36] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-15 06:30:36] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-0.9.6.tar.gz tmp/audiolm-pytorch-0.9.7.tar.gz --markdown 20230515/a/audiolm-pytorch/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-15 06:30:37] INFO root fetch - main [MainThread]: End processing [smartgpt]: success
+[2023-05-15 06:30:37] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-15 06:30:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssm]: success
+[2023-05-15 06:30:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sslpod]: success
+[2023-05-15 06:30:37] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-15 06:30:38] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-15 06:30:39] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 06:30:39] INFO root fetch - main [MainThread]: Store serial: [18102849]
