@@ -10506,3 +10506,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:49:28] INFO root fetch - main [MainThread]: End processing [odoo-module-migrator]: success
 [2023-05-15 12:49:28] INFO root fetch - main [MainThread]: End processing [gocardless-pro]: success
 [2023-05-15 12:49:28] INFO root fetch - main [MainThread]: Store serial: [18106088]
+[2023-05-15 12:54:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18106088]
+[2023-05-15 12:54:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gocardless-pro
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MultiResImagePy
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-time-range-menu-custom
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: somnium
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discoger
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Products.MeetingCPASLalouviere
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bilix
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pb-encoding
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-05-15 12:54:37] WARNING root fetch - processPackages [MultiResImagePy]: Skipping, unable to determine old version
+[2023-05-15 12:54:37] INFO root fetch - processPackages [MultiResImagePy]: Start processing: subtitles-translator
+[2023-05-15 12:54:37] INFO root fetch - main [MainThread]: End processing [MultiResImagePy] error
+[2023-05-15 12:54:37] INFO root fetch - processPackages [gocardless-pro]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [odoo-addon-web-time-range-menu-custom]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230515.9.38.936699] Old Version: [20230515.10.50.245321]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [discoger]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: New version: [4.2.0a3] Old Version: [4.2.0a2]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [somnium]: New version: [8.9.8] Old Version: [7.9.7]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [bilix]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 12:54:37] WARNING root fetch - processPackages [subtitles-translator]: Skipping, unable to determine old version
+[2023-05-15 12:54:37] INFO root fetch - processPackages [subtitles-translator]: Start processing: certora-cli-alpha-eytan-view-reentrency
+[2023-05-15 12:54:37] INFO root fetch - main [MainThread]: End processing [subtitles-translator] error
+[2023-05-15 12:54:37] INFO root fetch - processPackages [pb-encoding]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: New version: [20230515.10.12.967575] Old Version: [20230511.8.48.233977]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/22/5f/6272708e320941359f74c875c2c6192db864588c40d60e5b26d029cb125a/certora-cli-alpha-rahav-cert-1987_update_regTest-20230515.10.50.245321.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/54/4e/cbe3fcc55f579ea9c32d2c324847dd9634c3e44495f31a41b0f5758e19e8/Products.MeetingCPASLalouviere-4.2.0a2.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/03/f5/3c488d1ccd5db6a0799af89a03a97fd942e29229cc436e03879701700aad/discoger-1.1.5.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [odoo-addon-web-time-range-menu-custom]: Downloading https://files.pythonhosted.org/packages/25/a3/913f5a570313f0483859c96b7df7caf8f3890494d5481b8ce32ba7ce48f3/odoo_addon_web_time_range_menu_custom-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 12:54:37] INFO root fetch - processPackages [somnium]: Downloading https://files.pythonhosted.org/packages/26/98/6e3b5a558d61f820cc3abe1a0b5191fa7355cc6ac1e329b2abcc222e8552/somnium-8.9.8.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Downloading https://files.pythonhosted.org/packages/38/63/f67afff41ae09671637fdfdadba5b0b5ce79f699130659b6ca5a1de5b0a1/certora-cli-alpha-eytan-view_reentrency-20230511.8.48.233977.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-05-15 12:54:37] WARNING root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Skipping package: exceeds size limit 39241828>=10485760
+[2023-05-15 12:54:37] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Start processing: PatryksAutoAI
+[2023-05-15 12:54:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-view-reentrency] error
+[2023-05-15 12:54:37] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/7d/94/ca2cf30864afb7e15c552ee7fa604327aa0598789f4b5a146b957109d51a/bilix-0.9.3.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [pb-encoding]: Downloading https://files.pythonhosted.org/packages/3a/7f/29a1fbbc5206f96be498bae4a34479130d7c4a4e07f0a92f07b74a308136/pb_encoding-0.2.0.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [somnium]: executing diffoscope
+[2023-05-15 12:54:37] INFO root fetch - processPackages [somnium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somnium-7.9.7.tar.gz tmp/somnium-8.9.8.tar.gz --markdown 20230515/s/somnium/7.9.7-8.9.8/diff.md --exclude *.pyd
+[2023-05-15 12:54:37] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-15 12:54:37] INFO root fetch - processPackages [gocardless-pro]: executing diffoscope
+[2023-05-15 12:54:37] INFO root fetch - processPackages [gocardless-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocardless_pro-1.8.0.tar.gz tmp/gocardless_pro-1.9.0.tar.gz --markdown 20230515/g/gocardless-pro/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 12:54:37] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/66/68/bc8d5cd2373444a6cd1f5b5cccd5fd7dc91dbc5d2c9846fb1f1fa07bdd14/Products.MeetingCPASLalouviere-4.2.0a3.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/80/20/84701dd112588c4639aef807715f75c6846fbea4c3610c6b307f442f5d54/discoger-1.1.6.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [odoo-addon-web-time-range-menu-custom]: Downloading https://files.pythonhosted.org/packages/ee/f6/ee1cf790bc565e4e7cfe3bd76d769b9096c982503e2d822934e15d6624d5/odoo_addon_web_time_range_menu_custom-15.0.1.0.1-py3-none-any.whl
+[2023-05-15 12:54:37] INFO root fetch - processPackages [pb-encoding]: Downloading https://files.pythonhosted.org/packages/05/58/fc9c05e672e88bbd779b6ff0b5863cbdb97937eec365ba98b5300325a5a5/pb_encoding-0.3.0.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-05-15 12:54:37] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-1.1.5.tar.gz tmp/discoger-1.1.6.tar.gz --markdown 20230515/d/discoger/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-15 12:54:37] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 39432269>=10485760
+[2023-05-15 12:54:37] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-15 12:54:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-15 12:54:37] INFO root fetch - processPackages [odoo-addon-web-time-range-menu-custom]: executing diffoscope
+[2023-05-15 12:54:37] INFO root fetch - processPackages [odoo-addon-web-time-range-menu-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_time_range_menu_custom-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_time_range_menu_custom-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-web-time-range-menu-custom/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-15 12:54:37] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/c5/e9/8f9bd3f485adff1943fbff5116a767b6a55ff0357fd8f155f5a1b0bdcdff/PatryksAutoAI-0.6.4.tar.gz
+[2023-05-15 12:54:37] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: executing diffoscope
+[2023-05-15 12:54:37] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingCPASLalouviere-4.2.0a2.tar.gz tmp/Products.MeetingCPASLalouviere-4.2.0a3.tar.gz --markdown 20230515/P/Products.MeetingCPASLalouviere/4.2.0a2-4.2.0a3/diff.md --exclude *.pyd
+[2023-05-15 12:54:37] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/2a/f0/5db1257e389b7548838bdd99a4d8b545b3bb1b60a5195e674a98f25705fc/bilix-0.9.4.tar.gz
+[2023-05-15 12:54:38] INFO root fetch - processPackages [pb-encoding]: executing diffoscope
+[2023-05-15 12:54:38] INFO root fetch - processPackages [pb-encoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pb_encoding-0.2.0.tar.gz tmp/pb_encoding-0.3.0.tar.gz --markdown 20230515/p/pb-encoding/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 12:54:38] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-15 12:54:38] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.6.3.tar.gz tmp/PatryksAutoAI-0.6.4.tar.gz --markdown 20230515/P/PatryksAutoAI/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-15 12:54:38] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-05-15 12:54:38] INFO root fetch - processPackages [bilix]: executing diffoscope
+[2023-05-15 12:54:38] INFO root fetch - processPackages [bilix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilix-0.9.3.tar.gz tmp/bilix-0.9.4.tar.gz --markdown 20230515/b/bilix/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 12:54:38] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-15 12:54:38] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230515/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-15 12:54:38] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 12:54:38] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-15 12:54:38] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230515/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 12:54:39] INFO root fetch - main [MainThread]: End processing [somnium]: success
+[2023-05-15 12:54:39] INFO root fetch - main [MainThread]: End processing [pb-encoding]: success
+[2023-05-15 12:54:39] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-05-15 12:54:39] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-15 12:54:39] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-15 12:54:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-time-range-menu-custom]: success
+[2023-05-15 12:54:40] INFO root fetch - main [MainThread]: End processing [bilix]: success
+[2023-05-15 12:54:40] INFO root fetch - main [MainThread]: End processing [Products.MeetingCPASLalouviere]: success
+[2023-05-15 12:54:40] INFO root fetch - main [MainThread]: End processing [gocardless-pro]: success
+[2023-05-15 12:54:40] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-15 12:54:40] INFO root fetch - main [MainThread]: Store serial: [18106165]
