@@ -6191,3 +6191,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:12:17] INFO root fetch - main [MainThread]: End processing [renku]: success
 [2023-05-15 09:12:20] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-15 09:12:20] INFO root fetch - main [MainThread]: Store serial: [18103793]
+[2023-05-15 09:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103793]
+[2023-05-15 09:17:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quorum-eth-py
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pushsource
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vMedNLP
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: add-15-05-23
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tablite
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e2enetworks
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk-preview
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alphaz
+[2023-05-15 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cc-py-commons
+[2023-05-15 09:17:29] WARNING root fetch - processPackages [e2enetworks]: Skipping, unable to determine old version
+[2023-05-15 09:17:29] INFO root fetch - processPackages [e2enetworks]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-15 09:17:29] INFO root fetch - main [MainThread]: End processing [e2enetworks] error
+[2023-05-15 09:17:29] INFO root fetch - processPackages [quorum-eth-py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-15 09:17:29] INFO root fetch - processPackages [tablite]: New version: [2022.9.3] Old Version: [2022.9.1]
+[2023-05-15 09:17:29] WARNING root fetch - processPackages [add-15-05-23]: Skipping, unable to determine old version
+[2023-05-15 09:17:29] INFO root fetch - processPackages [add-15-05-23]: Start processing: konta-testing
+[2023-05-15 09:17:29] INFO root fetch - main [MainThread]: End processing [add-15-05-23] error
+[2023-05-15 09:17:29] INFO root fetch - processPackages [alphaz]: New version: [0.7.8] Old Version: [0.7.7.9]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [vMedNLP]: New version: [3.0] Old Version: [2.0.1]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [pushsource]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [cg]: New version: [30.2.2] Old Version: [30.2.0]
+[2023-05-15 09:17:30] WARNING root fetch - processPackages [konta-testing]: Skipping, unable to determine old version
+[2023-05-15 09:17:30] INFO root fetch - processPackages [konta-testing]: Start processing: tfq-nightly
+[2023-05-15 09:17:30] INFO root fetch - main [MainThread]: End processing [konta-testing] error
+[2023-05-15 09:17:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230514] Old Version: [0.7.3.dev20230513]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/05/27/6c9212665ca0b24094cf02acabc1d3090669759abf2bbf96f2985642cd01/tablite-2022.9.1-py3-none-any.whl
+[2023-05-15 09:17:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-15 09:17:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230515/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-15 09:17:30] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/4e/24/03767be3af24610488a2097b4454b6f91689c54df656a8fc7d8a3ec533b5/alphaz-0.7.7.9.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/54/c8/0c30f082e4933c476e88719112894bebd7e57bca2bd90267ca6ea7b69713/vMedNLP-2.0.1-py310-none-any.whl
+[2023-05-15 09:17:30] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/58/de/89de756c0eaaa15a4eb489f78c581a4fdab1206049088d6e82c204c0de2b/pushsource-2.8.0.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/5d/48/90d3ecd98b053fb4856afd91f0313cfb4829264815d81fe68e45a7c0f667/quorum_eth_py-0.2.2.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/08/09/e9fbe30738d204aff2357a75358d34aadba88ddf282f26eca11d3189ef23/tfq_nightly-0.7.3.dev20230513-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 09:17:30] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819844>=10485760
+[2023-05-15 09:17:30] INFO root fetch - processPackages [tfq-nightly]: Start processing: hkkang-utils
+[2023-05-15 09:17:30] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-15 09:17:30] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 09:17:30] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/8e/a0/12d9501cd1ff91986f451177d5e8c052bc85f3e4b33c902ccb3eb95a4a6a/cg-30.2.2.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [quorum-eth-py]: executing diffoscope
+[2023-05-15 09:17:30] INFO root fetch - processPackages [quorum-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_eth_py-0.2.1.tar.gz tmp/quorum_eth_py-0.2.2.tar.gz --markdown 20230515/q/quorum-eth-py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-15 09:17:30] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-15 09:17:30] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230515/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 09:17:30] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/f8/3c/74341ef1ca7a7c3246f3735c8aef83907905c49162fa50c0dccd340a4e44/vMedNLP-3.0-py38-none-any.whl
+[2023-05-15 09:17:30] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/60/12/a13081906a04561cea33c22985e9b922cf569851134cc72604fada07f2fd/tablite-2022.9.3-py3-none-any.whl
+[2023-05-15 09:17:30] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [vMedNLP]: executing diffoscope
+[2023-05-15 09:17:30] INFO root fetch - processPackages [vMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vMedNLP-2.0.1-py310-none-any.whl.zip tmp/vMedNLP-3.0-py38-none-any.whl.zip --markdown 20230515/v/vMedNLP/2.0.1-3.0/diff.md --exclude *.pyd
+[2023-05-15 09:17:30] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-15 09:17:30] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230515/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 09:17:30] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/b2/3c/5e5a3f952ff711fb7ae8258cfbbd02ec112b5c51cc8745d6e8fd7b8b8cbb/pushsource-2.9.0.tar.gz
+[2023-05-15 09:17:30] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-15 09:17:30] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230515/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-15 09:17:30] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-05-15 09:17:30] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2022.9.1-py3-none-any.whl.zip tmp/tablite-2022.9.3-py3-none-any.whl.zip --markdown 20230515/t/tablite/2022.9.1-2022.9.3/diff.md --exclude *.pyd
+[2023-05-15 09:17:31] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-15 09:17:31] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.2.0.tar.gz tmp/cg-30.2.2.tar.gz --markdown 20230515/c/cg/30.2.0-30.2.2/diff.md --exclude *.pyd
+[2023-05-15 09:17:31] INFO root fetch - processPackages [pushsource]: executing diffoscope
+[2023-05-15 09:17:31] INFO root fetch - processPackages [pushsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushsource-2.8.0.tar.gz tmp/pushsource-2.9.0.tar.gz --markdown 20230515/p/pushsource/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-15 09:17:31] INFO root fetch - processPackages [quorum-eth-py]: Start processing: velait-api
+[2023-05-15 09:17:31] INFO root fetch - main [MainThread]: End processing [quorum-eth-py]: success
+[2023-05-15 09:17:31] INFO root fetch - processPackages [velait-api]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-15 09:17:31] INFO root fetch - processPackages [hkkang-utils]: Start processing: pubtools-quay
+[2023-05-15 09:17:31] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-15 09:17:31] INFO root fetch - processPackages [pubtools-quay]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-15 09:17:32] INFO root fetch - processPackages [velait-api]: Downloading https://files.pythonhosted.org/packages/9a/2f/b8e790754038c8eb152342838c400b163d2f3b45514968e2804255964682/velait_api-0.5.2.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [vMedNLP]: Start processing: pedon
+[2023-05-15 09:17:32] INFO root fetch - main [MainThread]: End processing [vMedNLP]: success
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pedon]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/38/43/fe7538ba9bedf2c940fceb670822ab6a89333b35994bb69f8c87e1a2ad64/pubtools-quay-0.9.2.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: ia-wumpus
+[2023-05-15 09:17:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-15 09:17:32] INFO root fetch - processPackages [ia-wumpus]: New version: [0.2.22] Old Version: [0.2.21]
+[2023-05-15 09:17:32] INFO root fetch - processPackages [velait-api]: Downloading https://files.pythonhosted.org/packages/63/93/22ca5e5e43df7bd4582271738e2eab83bf5960399f9f6be45b72326e026b/velait_api-0.5.3.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pedon]: Downloading https://files.pythonhosted.org/packages/c7/4a/9ac9e70244726c7ada882d0da78b8cb103a7f8b4d1594f0197a920555715/pedon-0.0.2.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/3d/6e/58d143f491f204db68c4be150edad857a798491d74b4287b4e8fced63ba9/alphaz-0.7.8.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [velait-api]: executing diffoscope
+[2023-05-15 09:17:32] INFO root fetch - processPackages [velait-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velait_api-0.5.2.tar.gz tmp/velait_api-0.5.3.tar.gz --markdown 20230515/v/velait-api/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-15 09:17:32] INFO root fetch - processPackages [ia-wumpus]: Downloading https://files.pythonhosted.org/packages/e0/a3/86ddcd758e44613b47d05f1480254be7f1981e835437d17220b889a6f8f9/ia_wumpus-0.2.22.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/ef/0a/683ad866465b2a2d90cc7e39a365c6eb98974c20f920d7c50542d9012b92/pubtools-quay-0.9.3.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pedon]: Downloading https://files.pythonhosted.org/packages/45/e9/add27cf49e22fc9445f61d7294d269a8b1769a058fe841dc5be5d8c366f4/pedon-0.0.3.tar.gz
+[2023-05-15 09:17:32] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-15 09:17:32] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.9.tar.gz tmp/alphaz-0.7.8.tar.gz --markdown 20230515/a/alphaz/0.7.7.9-0.7.8/diff.md --exclude *.pyd
+[2023-05-15 09:17:32] INFO root fetch - processPackages [ia-wumpus]: executing diffoscope
+[2023-05-15 09:17:32] INFO root fetch - processPackages [ia-wumpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia_wumpus-0.2.21.tar.gz tmp/ia_wumpus-0.2.22.tar.gz --markdown 20230515/i/ia-wumpus/0.2.21-0.2.22/diff.md --exclude *.pyd
+[2023-05-15 09:17:32] INFO root fetch - processPackages [tablite]: Start processing: ai-models-panguweather
+[2023-05-15 09:17:32] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-05-15 09:17:32] WARNING root fetch - processPackages [ai-models-panguweather]: Skipping, unable to determine old version
+[2023-05-15 09:17:32] INFO root fetch - main [MainThread]: End processing [ai-models-panguweather] error
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pedon]: executing diffoscope
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pedon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedon-0.0.2.tar.gz tmp/pedon-0.0.3.tar.gz --markdown 20230515/p/pedon/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pubtools-quay]: executing diffoscope
+[2023-05-15 09:17:32] INFO root fetch - processPackages [pubtools-quay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-quay-0.9.2.tar.gz tmp/pubtools-quay-0.9.3.tar.gz --markdown 20230515/p/pubtools-quay/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-15 09:17:33] INFO root fetch - main [MainThread]: End processing [pushsource]: success
+[2023-05-15 09:17:33] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-15 09:17:34] INFO root fetch - main [MainThread]: End processing [velait-api]: success
+[2023-05-15 09:17:34] INFO root fetch - main [MainThread]: End processing [ia-wumpus]: success
+[2023-05-15 09:17:34] INFO root fetch - main [MainThread]: End processing [pedon]: success
+[2023-05-15 09:17:34] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-15 09:17:36] INFO root fetch - main [MainThread]: End processing [pubtools-quay]: success
+[2023-05-15 09:17:40] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-15 09:17:44] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-15 09:17:44] INFO root fetch - main [MainThread]: Store serial: [18103853]
