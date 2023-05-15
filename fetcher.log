@@ -5740,3 +5740,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 08:34:58] INFO root fetch - main [MainThread]: End processing [sphinx-prompt]: success
 [2023-05-15 08:35:08] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-05-15 08:35:08] INFO root fetch - main [MainThread]: Store serial: [18103549]
+[2023-05-15 08:40:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103549]
+[2023-05-15 08:40:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydrogibs
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-base
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-cli
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-dso
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-libs
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-whd
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-oci
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ukitai
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quasinet
+[2023-05-15 08:40:17] INFO root fetch - processPackages [hydrogibs]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 08:40:17] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 08:40:17] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 08:40:17] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 08:40:17] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 08:40:17] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-05-15 08:40:17] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.3.0.tar.gz tmp/hydrogibs-0.3.1.tar.gz --markdown 20230515/h/hydrogibs/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 08:40:17] INFO root fetch - processPackages [ukitai]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230515063600] Old Version: [2.0.3.dev20230512211955]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2055.0] Old Version: [1.2054.0]
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [ukitai]: Downloading https://files.pythonhosted.org/packages/f1/26/4e943d9a448e2ceefae974bf35294c2fd96c91e469bdbf7b40bbc45288d1/ukitai-0.1.5.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/51/74/8b9b6f0d223a05ab937e666427d1b9c9d9d2d98f65f6e1e53b923bab8836/gardener-cicd-dso-1.2055.0.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/21/af/4b1f09e020a73f683dfc68d3cec1bee4511d5daa1e551e5d7e9e933e2792/localstack-core-2.0.3.dev20230515063600.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/e4/90/61ae3745fece483e490b8b48a55e068446b41cca9ee39cd70c451b6717a1/gardener-cicd-base-1.2055.0.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/90/ee/be2846e87a6216a3b681262b114c1aaa11a66a27dcf8179686548ea4475a/gardener-cicd-whd-1.2055.0.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/a3/0c/85654f99a9fede0473940b8a8d8a201b3be1f1d825d49872a22fbb9f3f33/gardener-cicd-cli-1.2055.0.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ce/a9/9e3db73727bcdd3de5ad9d1098727bb26209cf55930d337286f61eb1a1a5/gardener-cicd-libs-1.2055.0.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2054.0.tar.gz tmp/gardener-cicd-dso-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-dso/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2054.0.tar.gz tmp/gardener-cicd-whd-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-whd/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2054.0.tar.gz tmp/gardener-cicd-base-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-base/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230515/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2054.0.tar.gz tmp/gardener-cicd-cli-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-cli/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-15 08:40:18] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2054.0.tar.gz tmp/gardener-cicd-libs-1.2055.0.tar.gz --markdown 20230515/g/gardener-cicd-libs/1.2054.0-1.2055.0/diff.md --exclude *.pyd
+[2023-05-15 08:40:18] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-15 08:40:18] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230512211955.tar.gz tmp/localstack-core-2.0.3.dev20230515063600.tar.gz --markdown 20230515/l/localstack-core/2.0.3.dev20230512211955-2.0.3.dev20230515063600/diff.md --exclude *.pyd
+[2023-05-15 08:40:19] INFO root fetch - processPackages [ukitai]: executing diffoscope
+[2023-05-15 08:40:19] INFO root fetch - processPackages [ukitai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukitai-0.1.2.tar.gz tmp/ukitai-0.1.5.tar.gz --markdown 20230515/u/ukitai/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 08:40:19] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-05-15 08:40:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-15 08:40:20] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-15 08:40:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-15 08:40:21] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-15 08:40:22] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-15 08:40:22] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-15 08:40:23] INFO root fetch - main [MainThread]: End processing [ukitai]: success
+[2023-05-15 08:40:26] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-15 08:40:26] INFO root fetch - main [MainThread]: Store serial: [18103580]
