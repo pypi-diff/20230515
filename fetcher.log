@@ -3595,3 +3595,28 @@
 [2023-05-15 05:30:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-gse]: success
 [2023-05-15 05:30:30] INFO root fetch - main [MainThread]: End processing [stitchtoon]: success
 [2023-05-15 05:30:30] INFO root fetch - main [MainThread]: Store serial: [18102428]
+[2023-05-15 05:35:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102428]
+[2023-05-15 05:35:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ardilla
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pantsbuild.pants
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantsbuild.pants.testutil
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rhemati-firestore
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Inputbetter
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ardilla]: New version: [0.0.9a0] Old Version: [0.0.8a0]
+[2023-05-15 05:35:39] INFO root fetch - processPackages [Inputbetter]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-15 05:35:39] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-05-15 05:35:39] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-05-15 05:35:39] WARNING root fetch - processPackages [rhemati-firestore]: Skipping, unable to determine old version
+[2023-05-15 05:35:39] INFO root fetch - main [MainThread]: End processing [rhemati-firestore] error
+[2023-05-15 05:35:39] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-15 05:35:39] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-05-15 05:35:39] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ardilla]: executing diffoscope
+[2023-05-15 05:35:39] INFO root fetch - processPackages [ardilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardilla-0.0.8a0.tar.gz tmp/ardilla-0.0.9a0.tar.gz --markdown 20230515/a/ardilla/0.0.8a0-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-15 05:35:39] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-05-15 05:35:39] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230515/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-05-15 05:35:39] ERROR root fetch - processPackages [Inputbetter]: Unable to fetch info: No such project/version 'Inputbetter' 0.5.1
+[2023-05-15 05:35:39] INFO root fetch - main [MainThread]: End processing [Inputbetter] error
+[2023-05-15 05:35:40] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-05-15 05:35:40] INFO root fetch - main [MainThread]: End processing [ardilla]: success
+[2023-05-15 05:35:40] INFO root fetch - main [MainThread]: Store serial: [18102456]
