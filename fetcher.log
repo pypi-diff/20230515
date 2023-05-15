@@ -5074,3 +5074,69 @@
 [2023-05-15 07:08:07] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
 [2023-05-15 07:10:54] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-15 07:10:54] INFO root fetch - main [MainThread]: Store serial: [18103207]
+[2023-05-15 07:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103207]
+[2023-05-15 07:16:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-model-maker-nightly
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylebai
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastqueue-lib
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usecyclone
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-homeassistant-custom-component
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-sitvanit-no-payable-bug
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hkbot
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-l10n-romania
+[2023-05-15 07:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: database-factory
+[2023-05-15 07:16:03] WARNING root fetch - processPackages [usecyclone]: Skipping, unable to determine old version
+[2023-05-15 07:16:03] INFO root fetch - processPackages [usecyclone]: Start processing: arkdata
+[2023-05-15 07:16:03] INFO root fetch - main [MainThread]: End processing [usecyclone] error
+[2023-05-15 07:16:03] WARNING root fetch - processPackages [hkbot]: Skipping, unable to determine old version
+[2023-05-15 07:16:03] INFO root fetch - main [MainThread]: End processing [hkbot] error
+[2023-05-15 07:16:03] INFO root fetch - processPackages [pylebai]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: New version: [16.0.20230514.1] Old Version: [16.0.20230512.0]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-no-payable-bug]: New version: [20230515.5.11.975786] Old Version: [20230514.13.45.337296]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [database-factory]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230515] Old Version: [0.1.1.dev20230514]
+[2023-05-15 07:16:03] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 07:16:03] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 07:16:03] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/71/27/26c3d81460d00fe753045d1b935b8623f6e9953872fa4953a8577a2e8b1b/pylebai-1.0.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-15 07:16:04] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/2b/43/e1d106c04d8f630bfb6b429de4dd340f8017d018f7f4c5295175ba345d62/fastqueue-lib-0.0.6.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [database-factory]: Downloading https://files.pythonhosted.org/packages/06/73/1ecc91f018bcb2109943defe4630fb533c0ac2749dd777ac15863873a3e3/database-factory-1.0.5.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-no-payable-bug]: Downloading https://files.pythonhosted.org/packages/3e/e5/c5dcbcf6b0e5b68d54f0abf50e2df1092c824c8081c5661f38298d855835/certora-cli-alpha-sitvanit-no-payable-bug-20230514.13.45.337296.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9a/c3/a33fad1b337c1a6b3d6816b1320dafc6529531285cbd10d67355a435a74d/rapid_pe-0.1.1.dev20230515.tar.gz
+[2023-05-15 07:16:04] WARNING root fetch - processPackages [certora-cli-alpha-sitvanit-no-payable-bug]: Skipping package: exceeds size limit 39431719>=10485760
+[2023-05-15 07:16:04] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-sitvanit-no-payable-bug] error
+[2023-05-15 07:16:04] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Downloading https://files.pythonhosted.org/packages/77/9c/d14ba1a3558c81f7258b750502f3de90071305f50ed2a672451207ee9057/odoo_addons_oca_l10n_romania-16.0.20230514.1-py3-none-any.whl
+[2023-05-15 07:16:04] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-15 07:16:04] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230514.tar.gz tmp/rapid_pe-0.1.1.dev20230515.tar.gz --markdown 20230515/r/rapid-pe/0.1.1.dev20230514-0.1.1.dev20230515/diff.md --exclude *.pyd
+[2023-05-15 07:16:04] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: executing diffoscope
+[2023-05-15 07:16:04] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_romania-16.0.20230512.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_romania-16.0.20230514.1-py3-none-any.whl.zip --markdown 20230515/o/odoo-addons-oca-l10n-romania/16.0.20230512.0-16.0.20230514.1/diff.md --exclude *.pyd
+[2023-05-15 07:16:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305150508] Old Version: [0.4.3.dev202305140506]
+[2023-05-15 07:16:04] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/2b/9f/043c12e7bd490c5b8eddcc8d32051af7f185ab3fda30e230c1e33ee72126/fastqueue-lib-0.0.7.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [database-factory]: Downloading https://files.pythonhosted.org/packages/ba/9e/7c574b1297b7f65d80229cd66ce8c33124f3529709c8986bce9838191c7c/database-factory-1.0.6.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-05-15 07:16:04] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.6.tar.gz tmp/fastqueue-lib-0.0.7.tar.gz --markdown 20230515/f/fastqueue-lib/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 07:16:04] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/22/bd/1f6666aef7a5e2fe3905cc2a1e805833f16f80dad70fed6bff738b67cfa2/pylebai-1.1.0-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-15 07:16:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/f2/a2/e85d0a687e3834264445bf037bb318191417757e02e0adccb842accd9a9c/tflite-model-maker-nightly-0.4.3.dev202305140506.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [database-factory]: executing diffoscope
+[2023-05-15 07:16:04] INFO root fetch - processPackages [database-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-factory-1.0.5.tar.gz tmp/database-factory-1.0.6.tar.gz --markdown 20230515/d/database-factory/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-15 07:16:04] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [pylebai]: executing diffoscope
+[2023-05-15 07:16:04] INFO root fetch - processPackages [pylebai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylebai-1.0.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/pylebai-1.1.0-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230515/p/pylebai/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 07:16:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/c7/ae/3264551adaf063b2966adeaec8794ea6b7ba36230b4bc4e2427ade87e9e9/tflite-model-maker-nightly-0.4.3.dev202305150508.tar.gz
+[2023-05-15 07:16:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-15 07:16:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305140506.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305150508.tar.gz --markdown 20230515/t/tflite-model-maker-nightly/0.4.3.dev202305140506-0.4.3.dev202305150508/diff.md --exclude *.pyd
+[2023-05-15 07:16:04] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-05-15 07:16:04] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230515/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 07:16:05] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-romania]: success
+[2023-05-15 07:16:05] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 07:16:05] INFO root fetch - main [MainThread]: End processing [database-factory]: success
+[2023-05-15 07:16:05] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-05-15 07:16:06] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-05-15 07:16:06] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-15 07:16:07] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-15 07:16:21] INFO root fetch - main [MainThread]: End processing [pylebai]: success
+[2023-05-15 07:16:21] INFO root fetch - main [MainThread]: Store serial: [18103253]
