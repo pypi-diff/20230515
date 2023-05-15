@@ -5311,3 +5311,18 @@
 [2023-05-15 07:37:12] INFO root fetch - main [MainThread]: End processing [noaa-coops]: success
 [2023-05-15 07:37:12] INFO root fetch - main [MainThread]: End processing [cduv]: success
 [2023-05-15 07:37:12] INFO root fetch - main [MainThread]: Store serial: [18103349]
+[2023-05-15 07:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103349]
+[2023-05-15 07:42:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-15 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-enroll
+[2023-05-15 07:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dualopt
+[2023-05-15 07:42:21] INFO root fetch - processPackages [dualopt]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-15 07:42:21] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-15 07:42:21] INFO root fetch - processPackages [dualopt]: Downloading https://files.pythonhosted.org/packages/50/72/70ab90e19279bdf26bfb0d2e92f67f8502f4a64f523388f524b61515df4a/dualopt-0.1.6.tar.gz
+[2023-05-15 07:42:21] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-15 07:42:21] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230515/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-15 07:42:21] INFO root fetch - processPackages [dualopt]: Downloading https://files.pythonhosted.org/packages/13/06/5c7ecdfb734e01474fc0970f2814b4e98eb98e7d90a8e7f48c184190db07/dualopt-0.1.7.tar.gz
+[2023-05-15 07:42:21] INFO root fetch - processPackages [dualopt]: executing diffoscope
+[2023-05-15 07:42:21] INFO root fetch - processPackages [dualopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualopt-0.1.6.tar.gz tmp/dualopt-0.1.7.tar.gz --markdown 20230515/d/dualopt/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 07:42:22] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-15 07:42:22] INFO root fetch - main [MainThread]: End processing [dualopt]: success
+[2023-05-15 07:42:22] INFO root fetch - main [MainThread]: Store serial: [18103356]
