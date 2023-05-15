@@ -1835,3 +1835,75 @@
 [2023-05-15 03:20:27] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-05-15 03:21:03] INFO root fetch - main [MainThread]: End processing [python-jsonschema-objects]: success
 [2023-05-15 03:21:03] INFO root fetch - main [MainThread]: Store serial: [18101333]
+[2023-05-15 03:26:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101333]
+[2023-05-15 03:26:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osintbuddy
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osintbuddy
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dualopt
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cubetools
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: network-analysis
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lognflow
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amiyabot
+[2023-05-15 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GoogleBard
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.2rc32.post1] Old Version: [0.0.2rc31.post1]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [network-analysis]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [amiyabot]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cubetools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [GoogleBard]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.2rc32.post1] Old Version: [0.0.2rc31.post1]
+[2023-05-15 03:26:12] WARNING root fetch - processPackages [dualopt]: Skipping, unable to determine old version
+[2023-05-15 03:26:12] INFO root fetch - processPackages [dualopt]: Start processing: scotthsieh-projen-statemachine
+[2023-05-15 03:26:12] INFO root fetch - main [MainThread]: End processing [dualopt] error
+[2023-05-15 03:26:12] INFO root fetch - processPackages [lognflow]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 03:26:12] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/fc/b7/ae80a96b28dc042512860411eb2d10d87fa0d9bc4759c611937d8b437bce/osintbuddy-0.0.2rc31.post1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/fc/b7/ae80a96b28dc042512860411eb2d10d87fa0d9bc4759c611937d8b437bce/osintbuddy-0.0.2rc31.post1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/81/c5/6ed9163e5bba949f055f32527156226f4c35dab176c0ee558e4b510e0709/lognflow-0.6.8.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/84/8b/cd2b3fb38242bebf226e5ec82216feebc715517c80d0e2f9b8bdb8e15626/GoogleBard-1.0.0.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [network-analysis]: Downloading https://files.pythonhosted.org/packages/6d/7b/b2399225e04e812e785ed76afb3b9a2c885ec18e425c3ef5c210e6eb6f94/network-analysis-0.0.1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/e1/97/087821032dbceadc24051efc9ad6593ff2fa9e08b4051b662a41318430d4/amiyabot-1.4.5-py3-none-any.whl
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/4a/72/90e7fc708cc8db9f8e2c554ebebf792539a39af4a7ec25e8608e42b230dd/cubetools-0.3.0.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/6e/0a/449c95a63a3a44f8563f9d29a964f5eff1fd397ceae865c6800fa9192ec7/osintbuddy-0.0.2rc32.post1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/19/41/29fb6e4953a5e9ba8490a6772240981acaeccfe0d49495c614cb3e4679ad/GoogleBard-1.0.1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/6e/0a/449c95a63a3a44f8563f9d29a964f5eff1fd397ceae865c6800fa9192ec7/osintbuddy-0.0.2rc32.post1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [network-analysis]: Downloading https://files.pythonhosted.org/packages/e1/84/af4b6c6616c99bb729052f184a834d267a03c6cd0b1c05c8d05e3a34a2ce/network-analysis-0.0.1.1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-05-15 03:26:12] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.0.0.tar.gz tmp/GoogleBard-1.0.1.tar.gz --markdown 20230515/G/GoogleBard/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 03:26:12] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/3b/94/3d20d81903b5d7ca3b8666db389608098cbfd66554c4db3b662f12762ef7/lognflow-0.7.0.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230515/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/cd/9f/a68de426763b0df755452f0f51844fdab8d92bab24f77be59d0b1248be8c/cubetools-0.3.1.tar.gz
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.2rc31.post1.tar.gz tmp/osintbuddy-0.0.2rc32.post1.tar.gz --markdown 20230515/o/osintbuddy/0.0.2rc31.post1-0.0.2rc32.post1/diff.md --exclude *.pyd
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-05-15 03:26:12] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.2rc31.post1.tar.gz tmp/osintbuddy-0.0.2rc32.post1.tar.gz --markdown 20230515/o/osintbuddy/0.0.2rc31.post1-0.0.2rc32.post1/diff.md --exclude *.pyd
+[2023-05-15 03:26:12] INFO root fetch - processPackages [network-analysis]: executing diffoscope
+[2023-05-15 03:26:12] INFO root fetch - processPackages [network-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network-analysis-0.0.1.tar.gz tmp/network-analysis-0.0.1.1.tar.gz --markdown 20230515/n/network-analysis/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-05-15 03:26:12] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.3.0.tar.gz tmp/cubetools-0.3.1.tar.gz --markdown 20230515/c/cubetools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 03:26:12] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-05-15 03:26:12] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.6.8.tar.gz tmp/lognflow-0.7.0.tar.gz --markdown 20230515/l/lognflow/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 03:26:12] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11298869>=10485760
+[2023-05-15 03:26:12] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-05-15 03:26:13] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-05-15 03:26:13] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-05-15 03:26:13] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230515/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:26:13] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-05-15 03:26:14] INFO root fetch - main [MainThread]: End processing [network-analysis]: success
+[2023-05-15 03:26:14] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-05-15 03:26:14] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-05-15 03:26:14] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-05-15 03:26:14] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-05-15 03:26:14] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-05-15 03:26:14] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-15 03:26:14] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-05-15 03:26:16] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-15 03:26:16] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230515/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 03:28:15] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-15 03:28:15] INFO root fetch - main [MainThread]: Store serial: [18101387]
