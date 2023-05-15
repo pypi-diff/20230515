@@ -20333,3 +20333,76 @@ EOFError: EOF read where object expected
 [2023-05-15 20:53:04] INFO root fetch - main [MainThread]: End processing [gridworks-proactor]: success
 [2023-05-15 20:53:20] INFO root fetch - main [MainThread]: End processing [sarpy]: success
 [2023-05-15 20:53:20] INFO root fetch - main [MainThread]: Store serial: [18112142]
+[2023-05-15 20:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112142]
+[2023-05-15 20:58:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sarpy
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubegpt
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sayuDB
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ph
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dobrepraktyki
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubegpt
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tox-ansible
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: viggofiscal
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: publish-to-zhihu
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opendatacrawler
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sayuDB]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-15 20:58:32] WARNING root fetch - processPackages [dobrepraktyki]: Skipping, unable to determine old version
+[2023-05-15 20:58:32] INFO root fetch - processPackages [dobrepraktyki]: Start processing: abstra-cli
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 20:58:32] INFO root fetch - main [MainThread]: End processing [dobrepraktyki] error
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ph]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [viggofiscal]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [tox-ansible]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sarpy]: New version: [1.3.9] Old Version: [1.3.7]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [abstra-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [publish-to-zhihu]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: Downloading https://files.pythonhosted.org/packages/5d/17/3212ef9130d382ef061400965216f34ab9bb72bdbdd5160b0101a666ff56/kubegpt-0.0.5.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: Downloading https://files.pythonhosted.org/packages/5d/17/3212ef9130d382ef061400965216f34ab9bb72bdbdd5160b0101a666ff56/kubegpt-0.0.5.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [tox-ansible]: Downloading https://files.pythonhosted.org/packages/82/85/d90c9624100d9bbcb603b57f786f92c7632b5970df27f34bea22e0884a72/tox-ansible-2.0.2.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ph]: Downloading https://files.pythonhosted.org/packages/e5/fd/7225b421a304265c4bb9d0d99194084c9ececbdb09ef949e68efea74ece9/ph-1.1.4.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/98/3b/245ac5b7d9628d3432cdebd24afe0ff6f4f2548d905098237b423671ff94/sayuDB-0.0.9.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/dc/b3/fffeb9f62dd2f3d65188c7f826f1a37f970ac286414410380937635777d5/viggofiscal-1.3.8.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [abstra-cli]: Downloading https://files.pythonhosted.org/packages/fc/86/250f79ad7833d81a6a5fc663b8d76260f706443958c9be4657b3b5380832/abstra-cli-0.8.0.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [opendatacrawler]: Downloading https://files.pythonhosted.org/packages/ce/60/471a47e1241051ae76ba6ee71af602a7e120d62f00befa114953a3163136/opendatacrawler-1.0.8.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: Downloading https://files.pythonhosted.org/packages/9e/4e/21369e59c297ffd3dd464e0863fdbaefa61f01b646a8753cb7a97e153fb1/kubegpt-0.0.6.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: Downloading https://files.pythonhosted.org/packages/9e/4e/21369e59c297ffd3dd464e0863fdbaefa61f01b646a8753cb7a97e153fb1/kubegpt-0.0.6.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sarpy]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sarpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarpy-1.3.7.tar.gz tmp/sarpy-1.3.9.tar.gz --markdown 20230515/s/sarpy/1.3.7-1.3.9/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [tox-ansible]: Downloading https://files.pythonhosted.org/packages/80/80/d08f18587b020e4bca5e4e5911105edfec0910b9e98e78cb710d1dd08463/tox-ansible-2.0.3.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubegpt-0.0.5.tar.gz tmp/kubegpt-0.0.6.tar.gz --markdown 20230515/k/kubegpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [publish-to-zhihu]: Downloading https://files.pythonhosted.org/packages/5b/5d/00a5fb10b35f5f44e4d650e4b8c47023227205294cfd4ecdd08aa3563946/publish_to_zhihu-0.1.3.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ph]: Downloading https://files.pythonhosted.org/packages/e5/a4/323f30fbe76846de859abe24a50b453378f206e0faccae65e1df49817ccc/ph-1.1.5.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [kubegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubegpt-0.0.5.tar.gz tmp/kubegpt-0.0.6.tar.gz --markdown 20230515/k/kubegpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [abstra-cli]: Downloading https://files.pythonhosted.org/packages/42/9e/21b9aa7aa0c331fd248405fce86d65e0986979d35211c6190c0862aec745/abstra-cli-0.9.0.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/38/1c/0fc649c0654727f5a84099f24179586db5064e64489c8f7c5a478eaa0317/sayuDB-1.0.0.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [tox-ansible]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [tox-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-ansible-2.0.2.tar.gz tmp/tox-ansible-2.0.3.tar.gz --markdown 20230515/t/tox-ansible/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ph]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ph-1.1.4.tar.gz tmp/ph-1.1.5.tar.gz --markdown 20230515/p/ph/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [abstra-cli]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [abstra-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-cli-0.8.0.tar.gz tmp/abstra-cli-0.9.0.tar.gz --markdown 20230515/a/abstra-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sayuDB]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [sayuDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayuDB-0.0.9.tar.gz tmp/sayuDB-1.0.0.tar.gz --markdown 20230515/s/sayuDB/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/0d/20/1b088925a46a0a66035e1904018e65164f2aab9a67e236aa47e54ac0b077/viggofiscal-1.3.9.tar.gz
+[2023-05-15 20:58:32] INFO root fetch - processPackages [publish-to-zhihu]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [publish-to-zhihu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publish_to_zhihu-0.1.2.tar.gz tmp/publish_to_zhihu-0.1.3.tar.gz --markdown 20230515/p/publish-to-zhihu/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [viggofiscal]: executing diffoscope
+[2023-05-15 20:58:32] INFO root fetch - processPackages [viggofiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggofiscal-1.3.8.tar.gz tmp/viggofiscal-1.3.9.tar.gz --markdown 20230515/v/viggofiscal/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-15 20:58:32] INFO root fetch - processPackages [opendatacrawler]: Downloading https://files.pythonhosted.org/packages/7e/8e/eb680c3c3d799f4135f66dbc92e261caa9aaa29203e110d81adec4ade744/opendatacrawler-1.0.9.tar.gz
+[2023-05-15 20:58:33] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-05-15 20:58:33] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.8.tar.gz tmp/opendatacrawler-1.0.9.tar.gz --markdown 20230515/o/opendatacrawler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 20:58:34] INFO root fetch - main [MainThread]: End processing [kubegpt]: success
+[2023-05-15 20:58:34] INFO root fetch - main [MainThread]: End processing [abstra-cli]: success
+[2023-05-15 20:58:34] INFO root fetch - main [MainThread]: End processing [kubegpt]: success
+[2023-05-15 20:58:34] INFO root fetch - main [MainThread]: End processing [publish-to-zhihu]: success
+[2023-05-15 20:58:34] INFO root fetch - main [MainThread]: End processing [tox-ansible]: success
+[2023-05-15 20:58:34] INFO root fetch - main [MainThread]: End processing [sayuDB]: success
+[2023-05-15 20:58:34] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
+[2023-05-15 20:58:35] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-05-15 20:58:35] INFO root fetch - main [MainThread]: End processing [ph]: success
+[2023-05-15 20:58:49] INFO root fetch - main [MainThread]: End processing [sarpy]: success
+[2023-05-15 20:58:49] INFO root fetch - main [MainThread]: Store serial: [18112173]
