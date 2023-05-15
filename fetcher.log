@@ -1583,3 +1583,128 @@
 [2023-05-15 02:58:32] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
 [2023-05-15 02:58:51] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-15 02:58:51] INFO root fetch - main [MainThread]: Store serial: [18101186]
+[2023-05-15 03:03:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101186]
+[2023-05-15 03:04:00] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-roborock
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: x-transformers
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aemcmc-nightly
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.identity
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyunifiprotect
+[2023-05-15 03:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-15 03:04:00] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.18.8] Old Version: [0.18.7]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230514] Old Version: [0.0.8.dev20230513]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [pyunifiprotect]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 03:04:00] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-15 03:04:00] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230515/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230513.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230514.tar.gz --markdown 20230515/a/aemcmc-nightly/0.0.8.dev20230513-0.0.8.dev20230514/diff.md --exclude *.pyd
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/04/e1/13cf550ad97d997f8b7f4a424563029412d2e24c6bb5127f6d77c7aa0f60/aws_prototyping_sdk.aws_arch-0.18.7.tar.gz
+[2023-05-15 03:04:00] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/f1/da/1e9649928ae1c1e3bb0986402dbf1f1ffd7b81ecb533804699e2eeb647f4/pyunifiprotect-4.8.3.tar.gz
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-05-15 03:04:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-05-15 03:04:00] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-05-15 03:04:00] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-15 03:04:00] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230515/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-15 03:04:00] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19296874>=10485760
+[2023-05-15 03:04:00] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-15 03:04:00] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 03:04:01] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/9d/3d/b9d7a849d059f43232f5756c5a2090ab4540549731286ada3e0c304eaa22/pyunifiprotect-4.9.0.tar.gz
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-05-15 03:04:01] INFO root fetch - processPackages [pyunifiprotect]: executing diffoscope
+[2023-05-15 03:04:01] INFO root fetch - processPackages [pyunifiprotect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunifiprotect-4.8.3.tar.gz tmp/pyunifiprotect-4.9.0.tar.gz --markdown 20230515/p/pyunifiprotect/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-15 03:04:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 03:04:02] INFO root fetch - processPackages [x-transformers]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-15 03:04:02] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aemcmc-nightly]: Start processing: tap-totango
+[2023-05-15 03:04:02] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-15 03:04:02] INFO root fetch - processPackages [tap-totango]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [python-roborock]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-15 03:04:02] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-15 03:04:02] INFO root fetch - processPackages [tap-totango]: Downloading https://files.pythonhosted.org/packages/90/76/2cccc5900af599940323af1edb61a4c9e04254287723995bdf075b820cbb/tap_totango-0.3.0.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 03:04:02] INFO root fetch - processPackages [tap-totango]: executing diffoscope
+[2023-05-15 03:04:02] INFO root fetch - processPackages [tap-totango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_totango-0.2.0.tar.gz tmp/tap_totango-0.3.0.tar.gz --markdown 20230515/t/tap-totango/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-15 03:04:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 03:04:02] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-15 03:04:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.8] Old Version: [0.18.7]
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: cdk-lambda-layer-curl
+[2023-05-15 03:04:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 03:04:02] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: pylance
+[2023-05-15 03:04:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-05-15 03:04:02] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/78/28/870e7c3e177a5f5a5c9e7286b7b9560dd17b61b80cea4e19711caa3a43a0/aws_prototyping_sdk.type_safe_api-0.18.7.tar.gz
+[2023-05-15 03:04:03] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-15 03:04:03] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 03:04:03] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-15 03:04:03] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230515/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:04:03] INFO root fetch - processPackages [pylance]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-15 03:04:03] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/9b/8095398d6fc21a3c0c0a6bfc11bbe1900eb1768679a93592d7434b90b987/aws_prototyping_sdk.type_safe_api-0.18.8.tar.gz
+[2023-05-15 03:04:03] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/1d/3d/b7f8dbc01ee9f99333c1a157af27411304e05950acd0a0a594cacfeb1537/pylance-0.4.8-cp38-abi3-win_amd64.whl
+[2023-05-15 03:04:03] INFO root fetch - processPackages [pyunifiprotect]: Start processing: super-ec2
+[2023-05-15 03:04:03] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
+[2023-05-15 03:04:03] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-15 03:04:03] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.7.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.8.tar.gz --markdown 20230515/a/aws-prototyping-sdk.type-safe-api/0.18.7-0.18.8/diff.md --exclude *.pyd
+[2023-05-15 03:04:03] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 20868431>=10485760
+[2023-05-15 03:04:03] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-05-15 03:04:03] INFO root fetch - processPackages [super-ec2]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 03:04:03] INFO root fetch - main [MainThread]: End processing [tap-totango]: success
+[2023-05-15 03:04:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-05-15 03:04:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-15 03:04:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230515/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:04:03] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/6f/5b/1c4410f9cdec4b306292deb7eabba0c5195fdc9ed51343c6561f7b7ae28a/super-ec2-0.0.98.tar.gz
+[2023-05-15 03:04:04] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-15 03:04:04] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-15 03:04:04] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-15 03:04:04] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-15 03:04:04] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230515/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:04:04] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-15 03:04:04] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/0d/d0/5bf70ee0146094b68ecc7932c6443c5d3dbdfff94a43de975f62bdb1caca/super-ec2-0.0.99.tar.gz
+[2023-05-15 03:04:04] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-15 03:04:05] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-15 03:04:05] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-15 03:04:05] INFO root fetch - processPackages [super-ec2]: executing diffoscope
+[2023-05-15 03:04:05] INFO root fetch - processPackages [super-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ec2-0.0.98.tar.gz tmp/super-ec2-0.0.99.tar.gz --markdown 20230515/s/super-ec2/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:04:07] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
+[2023-05-15 03:04:07] INFO root fetch - main [MainThread]: Store serial: [18101243]
