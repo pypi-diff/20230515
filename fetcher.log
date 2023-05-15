@@ -5852,3 +5852,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 08:45:40] INFO root fetch - main [MainThread]: End processing [weather-provider-api]: success
 [2023-05-15 08:45:40] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
 [2023-05-15 08:45:40] INFO root fetch - main [MainThread]: Store serial: [18103604]
+[2023-05-15 08:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103604]
+[2023-05-15 08:50:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quasinet
+[2023-05-15 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: limes-x
+[2023-05-15 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irails
+[2023-05-15 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-redis-cache
+[2023-05-15 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django4-chunked-upload
+[2023-05-15 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-xmlrpc-wrapper
+[2023-05-15 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hatch-util
+[2023-05-15 08:50:49] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 08:50:49] INFO root fetch - processPackages [odoo-xmlrpc-wrapper]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-05-15 08:50:49] INFO root fetch - processPackages [django4-chunked-upload]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-15 08:50:49] WARNING root fetch - processPackages [hatch-util]: Skipping, unable to determine old version
+[2023-05-15 08:50:49] INFO root fetch - main [MainThread]: End processing [hatch-util] error
+[2023-05-15 08:50:49] INFO root fetch - processPackages [python-redis-cache]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-15 08:50:49] INFO root fetch - processPackages [limes-x]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-15 08:50:49] INFO root fetch - processPackages [irails]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-15 08:50:49] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-15 08:50:49] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.3.8.tar.gz tmp/irails-1.3.9.tar.gz --markdown 20230515/i/irails/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-15 08:50:49] INFO root fetch - processPackages [django4-chunked-upload]: Downloading https://files.pythonhosted.org/packages/69/e1/58778205d80cf3e5c0432d66dccf025e156e89e81b8ad58b099c961529ea/django4-chunked-upload-2.0.1.tar.gz
+[2023-05-15 08:50:49] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 08:50:49] INFO root fetch - processPackages [python-redis-cache]: Downloading https://files.pythonhosted.org/packages/ed/17/2755b5117dbfffb4b7c2a71fd421e0b0e1887ff0217842e4f49d8073b1db/python-redis-cache-2.1.2.tar.gz
+[2023-05-15 08:50:49] INFO root fetch - processPackages [odoo-xmlrpc-wrapper]: Downloading https://files.pythonhosted.org/packages/ba/c2/e6ad1fd4bbdf13a7e8a2f8538b05f9d39fce7410ce9e1e2ef1f87b3c84a3/odoo_xmlrpc_wrapper-1.0.1.tar.gz
+[2023-05-15 08:50:49] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 08:50:49] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 08:50:49] INFO root fetch - processPackages [python-redis-cache]: executing diffoscope
+[2023-05-15 08:50:49] INFO root fetch - processPackages [python-redis-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-redis-cache-2.1.1.tar.gz tmp/python-redis-cache-2.1.2.tar.gz --markdown 20230515/p/python-redis-cache/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-15 08:50:49] INFO root fetch - processPackages [limes-x]: Downloading https://files.pythonhosted.org/packages/dc/e8/1e75029e5dff0491c778b7a76ceb946235aa1e0325b47062a91d75ba8f20/limes_x-1.1.5-py3-none-any.whl
+[2023-05-15 08:50:49] INFO root fetch - processPackages [django4-chunked-upload]: Downloading https://files.pythonhosted.org/packages/43/d9/6aba33ebc98443ef714243273233fa4c586b740a82792d61b10e896d991e/django4-chunked-upload-2.0.2.tar.gz
+[2023-05-15 08:50:49] INFO root fetch - processPackages [odoo-xmlrpc-wrapper]: Downloading https://files.pythonhosted.org/packages/c5/00/f581e27b97eb9b47793e561009502f20872411429a9493a01f90832c39b8/odoo_xmlrpc_wrapper-1.1.1.tar.gz
+[2023-05-15 08:50:49] INFO root fetch - processPackages [limes-x]: executing diffoscope
+[2023-05-15 08:50:49] INFO root fetch - processPackages [limes-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limes_x-1.1.4-py3-none-any.whl.zip tmp/limes_x-1.1.5-py3-none-any.whl.zip --markdown 20230515/l/limes-x/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-15 08:50:50] INFO root fetch - processPackages [django4-chunked-upload]: executing diffoscope
+[2023-05-15 08:50:50] INFO root fetch - processPackages [django4-chunked-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django4-chunked-upload-2.0.1.tar.gz tmp/django4-chunked-upload-2.0.2.tar.gz --markdown 20230515/d/django4-chunked-upload/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-15 08:50:50] INFO root fetch - processPackages [odoo-xmlrpc-wrapper]: executing diffoscope
+[2023-05-15 08:50:50] INFO root fetch - processPackages [odoo-xmlrpc-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_xmlrpc_wrapper-1.0.1.tar.gz tmp/odoo_xmlrpc_wrapper-1.1.1.tar.gz --markdown 20230515/o/odoo-xmlrpc-wrapper/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 08:50:51] INFO root fetch - main [MainThread]: End processing [python-redis-cache]: success
+[2023-05-15 08:50:51] INFO root fetch - main [MainThread]: End processing [limes-x]: success
+[2023-05-15 08:50:51] INFO root fetch - main [MainThread]: End processing [django4-chunked-upload]: success
+[2023-05-15 08:50:51] INFO root fetch - main [MainThread]: End processing [odoo-xmlrpc-wrapper]: success
+[2023-05-15 08:50:53] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-15 08:50:53] INFO root fetch - main [MainThread]: Store serial: [18103633]
