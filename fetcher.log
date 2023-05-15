@@ -17862,3 +17862,96 @@ EOFError: EOF read where object expected
 [2023-05-15 18:28:56] INFO root fetch - main [MainThread]: End processing [bxsolana-trader]: success
 [2023-05-15 18:29:00] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-05-15 18:29:00] INFO root fetch - main [MainThread]: Store serial: [18110648]
+[2023-05-15 18:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110648]
+[2023-05-15 18:34:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vulnerablecode
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garden-ai
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tira
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-gtfs
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citation-docket
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: concertina_helper
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codemeta2html
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GPTerminal
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xgb2sql
+[2023-05-15 18:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TACTUS-model
+[2023-05-15 18:34:10] INFO root fetch - processPackages [citation-docket]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 18:34:10] INFO root fetch - processPackages [easy-gtfs]: New version: [0.1.0.2] Old Version: [0.1.0.1]
+[2023-05-15 18:34:10] INFO root fetch - processPackages [vulnerablecode]: New version: [32.0.1] Old Version: [32.0.0rc4]
+[2023-05-15 18:34:10] INFO root fetch - processPackages [garden-ai]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-15 18:34:10] INFO root fetch - processPackages [tira]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 18:34:10] WARNING root fetch - processPackages [GPTerminal]: Skipping, unable to determine old version
+[2023-05-15 18:34:10] INFO root fetch - processPackages [GPTerminal]: Start processing: qtdraw
+[2023-05-15 18:34:10] INFO root fetch - main [MainThread]: End processing [GPTerminal] error
+[2023-05-15 18:34:10] WARNING root fetch - processPackages [qtdraw]: Skipping, unable to determine old version
+[2023-05-15 18:34:10] INFO root fetch - processPackages [qtdraw]: Start processing: pulumi-signalfx
+[2023-05-15 18:34:10] INFO root fetch - main [MainThread]: End processing [qtdraw] error
+[2023-05-15 18:34:10] WARNING root fetch - processPackages [concertina_helper]: Skipping, unable to determine old version
+[2023-05-15 18:34:10] INFO root fetch - processPackages [concertina_helper]: Start processing: ou-tm351-jl-extensions
+[2023-05-15 18:34:10] INFO root fetch - main [MainThread]: End processing [concertina_helper] error
+[2023-05-15 18:34:10] INFO root fetch - processPackages [xgb2sql]: New version: [0.114] Old Version: [0.113]
+[2023-05-15 18:34:10] WARNING root fetch - processPackages [TACTUS-model]: Skipping, unable to determine old version
+[2023-05-15 18:34:10] INFO root fetch - processPackages [TACTUS-model]: Start processing: express-pascal-voc-tools
+[2023-05-15 18:34:10] INFO root fetch - main [MainThread]: End processing [TACTUS-model] error
+[2023-05-15 18:34:10] WARNING root fetch - processPackages [codemeta2html]: Skipping, unable to determine old version
+[2023-05-15 18:34:10] INFO root fetch - processPackages [codemeta2html]: Start processing: quasinet
+[2023-05-15 18:34:10] INFO root fetch - main [MainThread]: End processing [codemeta2html] error
+[2023-05-15 18:34:10] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 18:34:10] INFO root fetch - processPackages [easy-gtfs]: Downloading https://files.pythonhosted.org/packages/6f/02/445e987feab8ba440e2d8ae8ce8eaaae1e14e94c93750f32f1c615c3867a/easy_gtfs-0.1.0.1.tar.gz
+[2023-05-15 18:34:10] INFO root fetch - processPackages [vulnerablecode]: Downloading https://files.pythonhosted.org/packages/6f/72/887104ced99bee3c9c5a2ec4512e0883b3a0ef272441582c7dc952ed7cb2/vulnerablecode-32.0.0rc4.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-05-15 18:34:11] INFO root fetch - processPackages [ou-tm351-jl-extensions]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 18:34:11] INFO root fetch - processPackages [citation-docket]: Downloading https://files.pythonhosted.org/packages/b2/e7/c4a2789c29bf02324e64a469af189782f5fec7bd5a0d753ceb43afb22735/citation_docket-0.1.2.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [express-pascal-voc-tools]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-15 18:34:11] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/5f/04/061e146de9e46134452134f08558777548bc9a78c405453cd1564fcfadf6/garden_ai-0.4.0.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 18:34:11] WARNING root fetch - processPackages [vulnerablecode]: Skipping package: exceeds size limit 15844323>=10485760
+[2023-05-15 18:34:11] INFO root fetch - processPackages [vulnerablecode]: Start processing: climate-categories
+[2023-05-15 18:34:11] INFO root fetch - main [MainThread]: End processing [vulnerablecode] error
+[2023-05-15 18:34:11] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 18:34:11] INFO root fetch - processPackages [quasinet]: Start processing: opengpt4
+[2023-05-15 18:34:11] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 18:34:11] INFO root fetch - processPackages [opengpt4]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 18:34:11] INFO root fetch - processPackages [tira]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.8.tar.gz tmp/tira-0.0.9.tar.gz --markdown 20230515/t/tira/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [ou-tm351-jl-extensions]: Downloading https://files.pythonhosted.org/packages/66/91/4229a4363ed67441819d8ca4e377fc24ce8f7273d3e86e64b44906e24497/ou_tm351_jl_extensions-0.1.1.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [xgb2sql]: Downloading https://files.pythonhosted.org/packages/15/46/14031f429e2cbd552697321c1311aaaf76af5936f0c3cc5fcf9079552f18/xgb2sql-0.114.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [climate-categories]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-15 18:34:11] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/e8/d6/f12b9f8cf29c2780e99df542c234659a32720462c7af2c3cafc9184f6277/garden_ai-0.4.1.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [citation-docket]: Downloading https://files.pythonhosted.org/packages/5a/53/cf161927662c66a470a3da06452e5635419886e24b511a6307081afe0183/citation_docket-0.1.3.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [easy-gtfs]: Downloading https://files.pythonhosted.org/packages/6c/cc/c936000b57366f1cc06ab691f08f9ed0d126168ac593c6ddb2e6676db0f6/easy_gtfs-0.1.0.2.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [citation-docket]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [citation-docket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_docket-0.1.2.tar.gz tmp/citation_docket-0.1.3.tar.gz --markdown 20230515/c/citation-docket/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [opengpt4]: Downloading https://files.pythonhosted.org/packages/1d/45/676143f4c2502fb8b447d8959c08e0fc68a0d1d16dbf1074b4998cce793b/opengpt4-0.1.6.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/e3/6b/bc5ffeabd863bb5f0840256fe8c08a12d0afb083d3c243e2a6f09533db3a/express-pascal-voc-tools-0.7.1.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [easy-gtfs]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [easy-gtfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_gtfs-0.1.0.1.tar.gz tmp/easy_gtfs-0.1.0.2.tar.gz --markdown 20230515/e/easy-gtfs/0.1.0.1-0.1.0.2/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [garden-ai]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [garden-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garden_ai-0.4.0.tar.gz tmp/garden_ai-0.4.1.tar.gz --markdown 20230515/g/garden-ai/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [climate-categories]: Downloading https://files.pythonhosted.org/packages/b5/24/ef72c6f584254d92dae928cf7c781a4c0b27fcb0b9b8e940ec6f72ea5ff6/climate_categories-0.8.1.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [opengpt4]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [ou-tm351-jl-extensions]: Downloading https://files.pythonhosted.org/packages/83/d0/b72f83115da4d745b298d0f3f8fb690c991c2795866870a3b05e108504a6/ou_tm351_jl_extensions-0.1.2.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [opengpt4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengpt4-0.1.5.tar.gz tmp/opengpt4-0.1.6.tar.gz --markdown 20230515/o/opengpt4/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-05-15 18:34:11] INFO root fetch - processPackages [express-pascal-voc-tools]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [express-pascal-voc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-pascal-voc-tools-0.7.0.tar.gz tmp/express-pascal-voc-tools-0.7.1.tar.gz --markdown 20230515/e/express-pascal-voc-tools/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [xgb2sql]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [xgb2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgb2sql-0.113.tar.gz tmp/xgb2sql-0.114.tar.gz --markdown 20230515/x/xgb2sql/0.113-0.114/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [ou-tm351-jl-extensions]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [ou-tm351-jl-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_tm351_jl_extensions-0.1.1.tar.gz tmp/ou_tm351_jl_extensions-0.1.2.tar.gz --markdown 20230515/o/ou-tm351-jl-extensions/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 18:34:11] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-05-15 18:34:11] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230515/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-05-15 18:34:12] INFO root fetch - processPackages [climate-categories]: Downloading https://files.pythonhosted.org/packages/78/5f/4014600e9b51c547b828c276b1f4667c4b42ce815978cc8023647c0cd720/climate_categories-0.8.2.tar.gz
+[2023-05-15 18:34:12] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2023-05-15 18:34:12] INFO root fetch - main [MainThread]: End processing [citation-docket]: success
+[2023-05-15 18:34:12] INFO root fetch - main [MainThread]: End processing [easy-gtfs]: success
+[2023-05-15 18:34:13] INFO root fetch - main [MainThread]: End processing [express-pascal-voc-tools]: success
+[2023-05-15 18:34:13] INFO root fetch - processPackages [climate-categories]: executing diffoscope
+[2023-05-15 18:34:13] INFO root fetch - processPackages [climate-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climate_categories-0.8.1.tar.gz tmp/climate_categories-0.8.2.tar.gz --markdown 20230515/c/climate-categories/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-15 18:34:13] INFO root fetch - main [MainThread]: End processing [ou-tm351-jl-extensions]: success
+[2023-05-15 18:34:13] INFO root fetch - main [MainThread]: End processing [opengpt4]: success
+[2023-05-15 18:34:13] INFO root fetch - main [MainThread]: End processing [xgb2sql]: success
+[2023-05-15 18:34:13] INFO root fetch - main [MainThread]: End processing [garden-ai]: success
+[2023-05-15 18:34:13] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-05-15 18:34:15] INFO root fetch - main [MainThread]: End processing [climate-categories]: success
+[2023-05-15 18:34:15] INFO root fetch - main [MainThread]: Store serial: [18110700]
