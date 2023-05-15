@@ -8348,3 +8348,139 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 11:06:26] INFO root fetch - main [MainThread]: End processing [pg-activity]: success
 [2023-05-15 11:06:26] INFO root fetch - main [MainThread]: End processing [aioqui]: success
 [2023-05-15 11:06:26] INFO root fetch - main [MainThread]: Store serial: [18104855]
+[2023-05-15 11:11:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104855]
+[2023-05-15 11:11:35] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meshed
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdata
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cartagen4py
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wiretap
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krisi
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.projen-awscdk-construct
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: angeltools
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrsm
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-contract
+[2023-05-15 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yowasp-runtime
+[2023-05-15 11:11:36] INFO root fetch - processPackages [cartagen4py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [wiretap]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [krisi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pyrsm]: New version: [0.8.0] Old Version: [0.7.9.2]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.1.4.tar.gz tmp/cartagen4py-0.1.5.tar.gz --markdown 20230515/c/cartagen4py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [angeltools]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [yowasp-runtime]: New version: [1.7] Old Version: [1.6]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [wiretap]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [wiretap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiretap-4.2.0-py3-none-any.whl.zip tmp/wiretap-4.2.1-py3-none-any.whl.zip --markdown 20230515/w/wiretap/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [odoo14-addon-contract]: New version: [14.0.2.9.6.dev2] Old Version: [14.0.2.9.5.dev2]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.7.9.2.tar.gz tmp/pyrsm-0.8.0.tar.gz --markdown 20230515/p/pyrsm/0.7.9.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 11:11:36] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/10/16/67acea6efd82b8cee07170d033b5b719a157d86083f901f94a426179236b/krisi-0.1.3.tar.gz
+[2023-05-15 11:11:36] INFO root fetch - processPackages [angeltools]: Downloading https://files.pythonhosted.org/packages/28/12/2a01f8f4c5fd3bc79fe704d9117e1bffafa3af95903c2641750979b807d2/angeltools-0.2.6.tar.gz
+[2023-05-15 11:11:36] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/e7/a1/907e6e8a79a56a85a8042c852e6071070625366072275b2f016b73f070ad/yowasp_runtime-1.6-py3-none-any.whl
+[2023-05-15 11:11:36] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/85/80/fa2b3f96da4d6346224a003ef95545165051c2cc98d411b8865efbad54c8/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-05-15 11:11:36] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230515/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [angeltools]: Downloading https://files.pythonhosted.org/packages/e7/5a/52c62501f48f83ff3a17d7a495c591e72ce526f81f0a8fb302e89ed705e2/angeltools-0.2.7.tar.gz
+[2023-05-15 11:11:36] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/69/6f/c427acb71ee6363d588c9eeda93998d6937414fbbcd9553e2d8cb8790ade/krisi-0.1.4.tar.gz
+[2023-05-15 11:11:36] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/3f/e9/90cb3e0e2773737c930d8192b0232e03eee71f9ae918620a47be7815f379/yowasp_runtime-1.7-py3-none-any.whl
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-05-15 11:11:36] INFO root fetch - processPackages [krisi]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [krisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krisi-0.1.3.tar.gz tmp/krisi-0.1.4.tar.gz --markdown 20230515/k/krisi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [yowasp-runtime]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [yowasp-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_runtime-1.6-py3-none-any.whl.zip tmp/yowasp_runtime-1.7-py3-none-any.whl.zip --markdown 20230515/y/yowasp-runtime/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/4a/2f/b3078b338fe555715925883d6240b40dd6e3948466f24e9693b5bbf985c6/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230515/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [angeltools]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [angeltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angeltools-0.2.6.tar.gz tmp/angeltools-0.2.7.tar.gz --markdown 20230515/a/angeltools/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-15 11:11:36] INFO root fetch - processPackages [odoo14-addon-contract]: executing diffoscope
+[2023-05-15 11:11:36] INFO root fetch - processPackages [odoo14-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip --markdown 20230515/o/odoo14-addon-contract/14.0.2.9.5.dev2-14.0.2.9.6.dev2/diff.md --exclude *.pyd
+[2023-05-15 11:11:37] INFO root fetch - processPackages [wiretap]: Start processing: somnium
+[2023-05-15 11:11:37] INFO root fetch - main [MainThread]: End processing [wiretap]: success
+[2023-05-15 11:11:37] INFO root fetch - processPackages [somnium]: New version: [6.9.7] Old Version: [6.9.6]
+[2023-05-15 11:11:37] INFO root fetch - processPackages [somnium]: executing diffoscope
+[2023-05-15 11:11:37] INFO root fetch - processPackages [somnium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somnium-6.9.6.tar.gz tmp/somnium-6.9.7.tar.gz --markdown 20230515/s/somnium/6.9.6-6.9.7/diff.md --exclude *.pyd
+[2023-05-15 11:11:37] INFO root fetch - processPackages [cartagen4py]: Start processing: barbell2-castor
+[2023-05-15 11:11:37] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-05-15 11:11:38] INFO root fetch - processPackages [barbell2-castor]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-15 11:11:38] INFO root fetch - processPackages [barbell2-castor]: Downloading https://files.pythonhosted.org/packages/b0/5d/52390c6d5e9333d8b5732516a39af5e78ca63257b998bcadcbf33acbc4f8/barbell2_castor-0.6.0.tar.gz
+[2023-05-15 11:11:38] INFO root fetch - processPackages [yowasp-runtime]: Start processing: Python-piSPM
+[2023-05-15 11:11:38] INFO root fetch - main [MainThread]: End processing [yowasp-runtime]: success
+[2023-05-15 11:11:38] INFO root fetch - processPackages [meshed]: Start processing: data-pipelines-cli
+[2023-05-15 11:11:38] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-05-15 11:11:38] WARNING root fetch - processPackages [Python-piSPM]: Skipping, unable to determine old version
+[2023-05-15 11:11:38] INFO root fetch - processPackages [Python-piSPM]: Start processing: ichunqiutesthack
+[2023-05-15 11:11:38] INFO root fetch - main [MainThread]: End processing [Python-piSPM] error
+[2023-05-15 11:11:38] INFO root fetch - processPackages [data-pipelines-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 11:11:38] INFO root fetch - processPackages [barbell2-castor]: Downloading https://files.pythonhosted.org/packages/48/4a/dd3d0677913ef3f40ea3d815d5347a441203b36311533b09b145956fddd4/barbell2_castor-0.7.0.tar.gz
+[2023-05-15 11:11:38] WARNING root fetch - processPackages [ichunqiutesthack]: Skipping, unable to determine old version
+[2023-05-15 11:11:38] INFO root fetch - processPackages [ichunqiutesthack]: Start processing: weatheril
+[2023-05-15 11:11:38] INFO root fetch - main [MainThread]: End processing [ichunqiutesthack] error
+[2023-05-15 11:11:38] INFO root fetch - processPackages [weatheril]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 11:11:38] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: rebasin
+[2023-05-15 11:11:38] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-05-15 11:11:38] INFO root fetch - processPackages [weatheril]: executing diffoscope
+[2023-05-15 11:11:38] INFO root fetch - processPackages [weatheril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatheril-0.8.0.tar.gz tmp/weatheril-0.9.0.tar.gz --markdown 20230515/w/weatheril/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 11:11:38] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 11:11:38] INFO root fetch - processPackages [barbell2-castor]: executing diffoscope
+[2023-05-15 11:11:38] INFO root fetch - processPackages [barbell2-castor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_castor-0.6.0.tar.gz tmp/barbell2_castor-0.7.0.tar.gz --markdown 20230515/b/barbell2-castor/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 11:11:38] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/cd/6c/a0fb36a514ebe5af4488426d929bb2898873282a5fe6c968aea1647e1890/data_pipelines_cli-0.8.0.tar.gz
+[2023-05-15 11:11:38] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-15 11:11:38] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230515/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 11:11:39] INFO root fetch - processPackages [krisi]: Start processing: KMMTR
+[2023-05-15 11:11:39] INFO root fetch - main [MainThread]: End processing [krisi]: success
+[2023-05-15 11:11:39] INFO root fetch - processPackages [KMMTR]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 11:11:39] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/e4/75/9be2188d5177d2fa3fa4a50c9b1fbf660d93d8701c94ee6a8df6dcdf9a4b/data_pipelines_cli-0.9.0.tar.gz
+[2023-05-15 11:11:39] INFO root fetch - processPackages [KMMTR]: executing diffoscope
+[2023-05-15 11:11:39] INFO root fetch - processPackages [KMMTR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMMTR-0.0.3.tar.gz tmp/KMMTR-0.0.4.tar.gz --markdown 20230515/K/KMMTR/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 11:11:39] INFO root fetch - processPackages [data-pipelines-cli]: executing diffoscope
+[2023-05-15 11:11:39] INFO root fetch - processPackages [data-pipelines-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipelines_cli-0.8.0.tar.gz tmp/data_pipelines_cli-0.9.0.tar.gz --markdown 20230515/d/data-pipelines-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 11:11:39] INFO root fetch - processPackages [somnium]: Start processing: barbell2-castor
+[2023-05-15 11:11:39] INFO root fetch - main [MainThread]: End processing [somnium]: success
+[2023-05-15 11:11:39] INFO root fetch - processPackages [barbell2-castor]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-15 11:11:39] INFO root fetch - processPackages [barbell2-castor]: executing diffoscope
+[2023-05-15 11:11:39] INFO root fetch - processPackages [barbell2-castor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_castor-0.6.0.tar.gz tmp/barbell2_castor-0.7.0.tar.gz --markdown 20230515/b/barbell2-castor/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 11:11:39] INFO root fetch - processPackages [angeltools]: Start processing: mpyl
+[2023-05-15 11:11:39] INFO root fetch - main [MainThread]: End processing [angeltools]: success
+[2023-05-15 11:11:40] INFO root fetch - processPackages [mpyl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 11:11:40] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/9a/9c/43fb4ae7364d6e719cf12380c7dff6e3f4f67a536ca285da83060a0cdee4/mpyl-0.0.8-py3-none-any.whl
+[2023-05-15 11:11:40] INFO root fetch - processPackages [weatheril]: Start processing: emlib
+[2023-05-15 11:11:40] INFO root fetch - main [MainThread]: End processing [weatheril]: success
+[2023-05-15 11:11:40] INFO root fetch - processPackages [barbell2-castor]: Start processing: plaintext-analyzer
+[2023-05-15 11:11:40] INFO root fetch - main [MainThread]: End processing [barbell2-castor]: success
+[2023-05-15 11:11:40] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/16/26/53a1fc72322816c167d2ba9ac22d06f23d673681728cdb3b4f2a6231391b/mpyl-0.0.9-py3-none-any.whl
+[2023-05-15 11:11:40] INFO root fetch - processPackages [emlib]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-15 11:11:40] INFO root fetch - processPackages [plaintext-analyzer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 11:11:40] INFO root fetch - processPackages [rebasin]: Start processing: pybdsim
+[2023-05-15 11:11:40] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-15 11:11:40] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-05-15 11:11:40] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-0.0.8-py3-none-any.whl.zip tmp/mpyl-0.0.9-py3-none-any.whl.zip --markdown 20230515/m/mpyl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 11:11:40] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/ea/67/fcf1b6dc7769f14e2b9f7d88a82eceead943a9d14bd5e7491c508bda8545/emlib-1.9.1.tar.gz
+[2023-05-15 11:11:40] INFO root fetch - processPackages [plaintext-analyzer]: Downloading https://files.pythonhosted.org/packages/50/99/65b357eb6d601c2e6eaa449ecdc036546275337a127d743f177945c439e6/plaintext-analyzer-0.1.8.tar.gz
+[2023-05-15 11:11:40] INFO root fetch - processPackages [pybdsim]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-15 11:11:40] INFO root fetch - main [MainThread]: End processing [KMMTR]: success
+[2023-05-15 11:11:41] INFO root fetch - processPackages [pybdsim]: Downloading https://files.pythonhosted.org/packages/23/ce/13691a6973818e2b1472aca2b013d6d4ff2101b3a22252e1820895b713fd/pybdsim-3.3.0.tar.gz
+[2023-05-15 11:11:41] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/2a/c4/46ac55b0f07ecc3157df3355733a20fad3d385671267e699bd178aabd98b/emlib-1.9.2.tar.gz
+[2023-05-15 11:11:41] INFO root fetch - processPackages [emlib]: executing diffoscope
+[2023-05-15 11:11:41] INFO root fetch - processPackages [emlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlib-1.9.1.tar.gz tmp/emlib-1.9.2.tar.gz --markdown 20230515/e/emlib/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-15 11:11:41] INFO root fetch - processPackages [plaintext-analyzer]: Downloading https://files.pythonhosted.org/packages/6b/63/1bee02a437da521f60ef02f346ded7e1277c46ccec330f622e03c5c05741/plaintext-analyzer-0.1.9.tar.gz
+[2023-05-15 11:11:41] INFO root fetch - main [MainThread]: End processing [barbell2-castor]: success
+[2023-05-15 11:11:41] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-05-15 11:11:41] INFO root fetch - processPackages [plaintext-analyzer]: executing diffoscope
+[2023-05-15 11:11:41] INFO root fetch - processPackages [plaintext-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plaintext-analyzer-0.1.8.tar.gz tmp/plaintext-analyzer-0.1.9.tar.gz --markdown 20230515/p/plaintext-analyzer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 11:11:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
+[2023-05-15 11:11:41] INFO root fetch - main [MainThread]: End processing [data-pipelines-cli]: success
+[2023-05-15 11:11:41] INFO root fetch - processPackages [pybdsim]: Downloading https://files.pythonhosted.org/packages/de/3a/f57c763460c8f8c6c03a647cc11b0433a9eabd10a6af0c5b531eb249136b/pybdsim-3.3.1.tar.gz
+[2023-05-15 11:11:42] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 11:11:42] INFO root fetch - processPackages [pybdsim]: executing diffoscope
+[2023-05-15 11:11:42] INFO root fetch - processPackages [pybdsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybdsim-3.3.0.tar.gz tmp/pybdsim-3.3.1.tar.gz --markdown 20230515/p/pybdsim/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-15 11:11:42] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-05-15 11:11:43] INFO root fetch - main [MainThread]: End processing [emlib]: success
+[2023-05-15 11:11:43] INFO root fetch - main [MainThread]: End processing [plaintext-analyzer]: success
+[2023-05-15 11:11:45] INFO root fetch - main [MainThread]: End processing [pybdsim]: success
+[2023-05-15 11:11:45] INFO root fetch - main [MainThread]: Store serial: [18104920]
