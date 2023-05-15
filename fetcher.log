@@ -17073,3 +17073,139 @@ EOFError: EOF read where object expected
 [2023-05-15 17:51:15] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
 [2023-05-15 17:51:16] INFO root fetch - main [MainThread]: End processing [clinicadl]: success
 [2023-05-15 17:51:16] INFO root fetch - main [MainThread]: Store serial: [18110187]
+[2023-05-15 17:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110187]
+[2023-05-15 17:56:25] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal-client
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fragmenstein
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thrivve-core
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hordelib
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slap-cli
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-core-sdk
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AkvoDjangoFormGateway
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: morecantile
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230515.9.28.17955] Old Version: [20230515.8.30.284279]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.9.25.738539] Old Version: [20230515.8.30.947345]
+[2023-05-15 17:56:25] WARNING root fetch - processPackages [AkvoDjangoFormGateway]: Skipping, unable to determine old version
+[2023-05-15 17:56:25] INFO root fetch - processPackages [AkvoDjangoFormGateway]: Start processing: certora-cli-alpha-master
+[2023-05-15 17:56:25] INFO root fetch - main [MainThread]: End processing [AkvoDjangoFormGateway] error
+[2023-05-15 17:56:25] INFO root fetch - processPackages [hordelib]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [slap-cli]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.9.25.343999] Old Version: [20230515.8.28.196716]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/e3/28/a423fabd542019b0eedf821af75dd341cd321309f0ec965787e85b604b95/certora-cli-alpha-jtoman-try-catch-20230515.8.30.284279.tar.gz
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/bf/ef/01dbf730e79959b14a661e61d8251b68e10c12a2362b5ea487bf586f1e6b/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.8.30.947345.tar.gz
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/57/3c8e4f696ecc29a6da16dae52cb9b9d1391b25ce946105a3f96ced6e88c4/certora-cli-alpha-master-20230515.8.28.196716.tar.gz
+[2023-05-15 17:56:25] INFO root fetch - processPackages [Fragmenstein]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [thrivve-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [morecantile]: New version: [4.0.0a0] Old Version: [3.3.0]
+[2023-05-15 17:56:25] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39430910>=10485760
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: pythoncolourlibrary
+[2023-05-15 17:56:25] INFO root fetch - processPackages [ai-core-sdk]: New version: [1.9.0] Old Version: [1.7.1]
+[2023-05-15 17:56:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-15 17:56:25] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430959>=10485760
+[2023-05-15 17:56:25] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430676>=10485760
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: PyFlyt
+[2023-05-15 17:56:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 17:56:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: oaklib
+[2023-05-15 17:56:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 17:56:25] INFO root fetch - processPackages [modal-client]: New version: [0.49.2182] Old Version: [0.49.2177]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-15 17:56:25] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-1.0.1.tar.gz tmp/hordelib-1.0.2.tar.gz --markdown 20230515/h/hordelib/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 17:56:25] INFO root fetch - processPackages [pythoncolourlibrary]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/0b/a4/e04b08babef0f3451bb90c887398610b7d4708a622bbe7261a90ced49075/Fragmenstein-0.9.8.tar.gz
+[2023-05-15 17:56:25] INFO root fetch - processPackages [oaklib]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-15 17:56:25] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/b3/0a/d22bae273cbf05070ca20c1e37f577c09fc7e7f06e3c9f2b4374d04d2073/slap_cli-1.9.1.tar.gz
+[2023-05-15 17:56:25] INFO root fetch - processPackages [PyFlyt]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-15 17:56:26] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/d0/8d/1f449175deb45e43c0dd8038beed4fb88d04c190f1d20aee69c9135c2c3b/thrivve_core-0.2.3.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/b2/68/9fc1e1966c7885c424ed6a26736b54929aa53f21edad82ac41c12e026320/morecantile-3.3.0.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [ai-core-sdk]: Downloading https://files.pythonhosted.org/packages/a9/cb/060bfe9fbb2f81c911a9a8eace15f785945e65167802c85efd5c35b8df56/ai_core_sdk-1.7.1-py3-none-any.whl
+[2023-05-15 17:56:26] INFO root fetch - processPackages [pythoncolourlibrary]: Downloading https://files.pythonhosted.org/packages/c8/11/02162707b20354bb5d5b3da66697250a0b1c803ae4381e866942840082d0/pythoncolourlibrary-1.0.0.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [slap-cli]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [slap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slap_cli-1.9.0.tar.gz tmp/slap_cli-1.9.1.tar.gz --markdown 20230515/s/slap-cli/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-15 17:56:26] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/63/3e/b8bc1256e54f4d948cf813230f3198bbd1ef28c5f6ecf340407f669f1aeb/modal_client-0.49.2182-py3-none-any.whl
+[2023-05-15 17:56:26] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/eb/4a/1bc1f8e3df7a088849b55a64f206bf00d20c6fc502074bb55051db64fc6d/thrivve_core-0.2.4.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/ef/71/b2b61e5e0336e23331ddd8c6a41c352de4cda02cd7cf289fe397f1a291d3/PyFlyt-0.7.1.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/04/b8/5548e11602d5bd35a9ce3934214914671ffe19318ac019da97fc468445c2/oaklib-0.5.6.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/94/b6/aa9b783b5b8bd7d32df0721259ae0ffe059b7e5430a0821155e7022f2847/morecantile-4.0.0a0.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [pythoncolourlibrary]: Downloading https://files.pythonhosted.org/packages/31/d3/ee9a984cff1f8fc478a2f0de3cd6886db28480025548060b5f78cf401119/pythoncolourlibrary-1.1.0.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/a8/d1/92821094f67e3e54cb4100ad5d2af3885b2d5fe6173dbdffc5619b1790ff/Fragmenstein-0.9.9.tar.gz
+[2023-05-15 17:56:26] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.7.0.tar.gz tmp/PyFlyt-0.7.1.tar.gz --markdown 20230515/P/PyFlyt/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-15 17:56:26] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2177-py3-none-any.whl.zip tmp/modal_client-0.49.2182-py3-none-any.whl.zip --markdown 20230515/m/modal-client/0.49.2177-0.49.2182/diff.md --exclude *.pyd
+[2023-05-15 17:56:26] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.2.3.tar.gz tmp/thrivve_core-0.2.4.tar.gz --markdown 20230515/t/thrivve-core/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-15 17:56:26] INFO root fetch - processPackages [oaklib]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [oaklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaklib-0.5.5.tar.gz tmp/oaklib-0.5.6.tar.gz --markdown 20230515/o/oaklib/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-15 17:56:26] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-3.3.0.tar.gz tmp/morecantile-4.0.0a0.tar.gz --markdown 20230515/m/morecantile/3.3.0-4.0.0a0/diff.md --exclude *.pyd
+[2023-05-15 17:56:26] INFO root fetch - processPackages [pythoncolourlibrary]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [pythoncolourlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolourlibrary-1.0.0.tar.gz tmp/pythoncolourlibrary-1.1.0.tar.gz --markdown 20230515/p/pythoncolourlibrary/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 17:56:26] INFO root fetch - processPackages [ai-core-sdk]: Downloading https://files.pythonhosted.org/packages/6b/a8/7b8474d8104e70c126ccbbf8f70dd59da08ff2e9fc8ae474da03cebddba0/ai_core_sdk-1.9.0-py3-none-any.whl
+[2023-05-15 17:56:26] INFO root fetch - processPackages [Fragmenstein]: executing diffoscope
+[2023-05-15 17:56:26] INFO root fetch - processPackages [Fragmenstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fragmenstein-0.9.8.tar.gz tmp/Fragmenstein-0.9.9.tar.gz --markdown 20230515/F/Fragmenstein/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 17:56:27] INFO root fetch - processPackages [ai-core-sdk]: executing diffoscope
+[2023-05-15 17:56:27] INFO root fetch - processPackages [ai-core-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_core_sdk-1.7.1-py3-none-any.whl.zip tmp/ai_core_sdk-1.9.0-py3-none-any.whl.zip --markdown 20230515/a/ai-core-sdk/1.7.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:56:28] INFO root fetch - processPackages [thrivve-core]: Start processing: dreye
+[2023-05-15 17:56:28] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-05-15 17:56:28] INFO root fetch - processPackages [dreye]: New version: [1.1.0.dev1] Old Version: [1.1.0]
+[2023-05-15 17:56:28] INFO root fetch - processPackages [pythoncolourlibrary]: Start processing: satori-ci
+[2023-05-15 17:56:28] INFO root fetch - main [MainThread]: End processing [pythoncolourlibrary]: success
+[2023-05-15 17:56:28] INFO root fetch - processPackages [dreye]: Downloading https://files.pythonhosted.org/packages/9b/61/0e6c89287524878b6fdb87f1cd73e8c2f0cb2f27c99a77fc5c159ef26974/dreye-1.1.0-py3-none-any.whl
+[2023-05-15 17:56:28] INFO root fetch - processPackages [satori-ci]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-15 17:56:28] WARNING root fetch - processPackages [dreye]: Skipping package: exceeds size limit 94566056>=10485760
+[2023-05-15 17:56:28] INFO root fetch - processPackages [dreye]: Start processing: titan-iris
+[2023-05-15 17:56:28] INFO root fetch - main [MainThread]: End processing [dreye] error
+[2023-05-15 17:56:28] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/62/e3/e1fdbdfa65f7967ce9e6bdcdda15f15da0fc6909d91478cda1a3db351f62/satori_ci-1.2.6.tar.gz
+[2023-05-15 17:56:28] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-15 17:56:28] INFO root fetch - processPackages [modal-client]: Start processing: odoo14-addon-community-maps
+[2023-05-15 17:56:28] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-15 17:56:28] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-05-15 17:56:28] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.5.tar.gz tmp/satori_ci-1.2.6.tar.gz --markdown 20230515/s/satori-ci/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-15 17:56:28] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.1.2] Old Version: [14.0.0.1.1]
+[2023-05-15 17:56:28] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-05-15 17:56:28] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/de/eb/c3310adcb9f2ec3139a4a3d78dc9698612ba93e581571b8c142688a033a6/odoo14_addon_community_maps-14.0.0.1.1-py3-none-any.whl
+[2023-05-15 17:56:29] INFO root fetch - processPackages [ai-core-sdk]: Start processing: ntscli-client
+[2023-05-15 17:56:29] INFO root fetch - main [MainThread]: End processing [ai-core-sdk]: success
+[2023-05-15 17:56:29] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-05-15 17:56:29] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-15 17:56:29] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230515/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-15 17:56:29] INFO root fetch - processPackages [ntscli-client]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-05-15 17:56:29] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/64/4a/92321a36ee588c1e8c1cf94ffd6211a4500fbf6be28cd6ab6b6e1fd6737b/odoo14_addon_community_maps-14.0.0.1.2-py3-none-any.whl
+[2023-05-15 17:56:29] INFO root fetch - processPackages [morecantile]: Start processing: langflow
+[2023-05-15 17:56:29] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-05-15 17:56:29] INFO root fetch - processPackages [langflow]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-05-15 17:56:29] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2023-05-15 17:56:29] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_community_maps-14.0.0.1.1-py3-none-any.whl.zip tmp/odoo14_addon_community_maps-14.0.0.1.2-py3-none-any.whl.zip --markdown 20230515/o/odoo14-addon-community-maps/14.0.0.1.1-14.0.0.1.2/diff.md --exclude *.pyd
+[2023-05-15 17:56:29] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/8f/52/2cc3a39a87b5af396d734cecc15572fb3edec7c6cbc3e97fefc3906e1312/langflow-0.0.72.tar.gz
+[2023-05-15 17:56:29] INFO root fetch - processPackages [ntscli-client]: executing diffoscope
+[2023-05-15 17:56:29] INFO root fetch - processPackages [ntscli-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntscli_client-2.1.9.dev2-py3-none-any.whl.zip tmp/ntscli_client-2.1.9.dev3-py3-none-any.whl.zip --markdown 20230515/n/ntscli-client/2.1.9.dev2-2.1.9.dev3/diff.md --exclude *.pyd
+[2023-05-15 17:56:29] INFO root fetch - processPackages [slap-cli]: Start processing: panml
+[2023-05-15 17:56:29] INFO root fetch - main [MainThread]: End processing [slap-cli]: success
+[2023-05-15 17:56:29] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-15 17:56:29] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.71.tar.gz tmp/langflow-0.0.72.tar.gz --markdown 20230515/l/langflow/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-05-15 17:56:29] WARNING root fetch - processPackages [panml]: Skipping, unable to determine old version
+[2023-05-15 17:56:29] INFO root fetch - processPackages [panml]: Start processing: chatgpt-tool-hub
+[2023-05-15 17:56:29] INFO root fetch - main [MainThread]: End processing [panml] error
+[2023-05-15 17:56:29] INFO root fetch - processPackages [chatgpt-tool-hub]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-15 17:56:30] INFO root fetch - processPackages [chatgpt-tool-hub]: Downloading https://files.pythonhosted.org/packages/15/16/125e513aa744b229f6d094497e5f035709e2cd60ea74da09bf1a6e8406e2/chatgpt-tool-hub-0.4.3.tar.gz
+[2023-05-15 17:56:30] INFO root fetch - processPackages [PyFlyt]: Start processing: pythoncolourlibrary
+[2023-05-15 17:56:30] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-05-15 17:56:30] INFO root fetch - processPackages [pythoncolourlibrary]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 17:56:30] INFO root fetch - processPackages [chatgpt-tool-hub]: Downloading https://files.pythonhosted.org/packages/3e/d9/2223d2f95a97e9e27e753f9a5d3bf8c1d2c6af43f5154cf40db3e81a81c6/chatgpt-tool-hub-0.4.4.tar.gz
+[2023-05-15 17:56:30] INFO root fetch - processPackages [pythoncolourlibrary]: executing diffoscope
+[2023-05-15 17:56:30] INFO root fetch - processPackages [pythoncolourlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolourlibrary-1.0.0.tar.gz tmp/pythoncolourlibrary-1.1.0.tar.gz --markdown 20230515/p/pythoncolourlibrary/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 17:56:30] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-15 17:56:30] INFO root fetch - processPackages [chatgpt-tool-hub]: executing diffoscope
+[2023-05-15 17:56:30] INFO root fetch - processPackages [chatgpt-tool-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-tool-hub-0.4.3.tar.gz tmp/chatgpt-tool-hub-0.4.4.tar.gz --markdown 20230515/c/chatgpt-tool-hub/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-15 17:56:30] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-05-15 17:56:31] INFO root fetch - main [MainThread]: End processing [ntscli-client]: success
+[2023-05-15 17:56:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2023-05-15 17:56:31] INFO root fetch - main [MainThread]: End processing [pythoncolourlibrary]: success
+[2023-05-15 17:56:32] INFO root fetch - main [MainThread]: End processing [chatgpt-tool-hub]: success
+[2023-05-15 17:56:33] INFO root fetch - main [MainThread]: End processing [oaklib]: success
+[2023-05-15 17:56:34] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
+[2023-05-15 17:56:35] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-15 17:57:07] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-15 17:57:07] INFO root fetch - main [MainThread]: Store serial: [18110258]
