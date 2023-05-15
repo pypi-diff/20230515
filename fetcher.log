@@ -7848,3 +7848,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 10:39:14] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-15 10:39:16] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
 [2023-05-15 10:39:16] INFO root fetch - main [MainThread]: Store serial: [18104603]
+[2023-05-15 10:44:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104603]
+[2023-05-15 10:44:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-shays-CERT-1717-b
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-power-ops
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anicli-api
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tff-nightly
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: corsika-panama
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tala
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twixie
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazyearth
+[2023-05-15 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oslo.cache
+[2023-05-15 10:44:25] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: New version: [20230515.8.39.616713] Old Version: [20230515.7.31.464117]
+[2023-05-15 10:44:25] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Skipping, unable to determine old version
+[2023-05-15 10:44:25] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Start processing: imdlib
+[2023-05-15 10:44:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717-b] error
+[2023-05-15 10:44:25] INFO root fetch - processPackages [anicli-api]: New version: [0.4.0] Old Version: [0.3.8]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230514] Old Version: [0.0.1.dev20230513]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [imdlib]: New version: [0.1.9] Old Version: [0.1.8.1]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [corsika-panama]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-15 10:44:25] WARNING root fetch - processPackages [twixie]: Skipping, unable to determine old version
+[2023-05-15 10:44:25] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [twixie]: Start processing: rebasin
+[2023-05-15 10:44:25] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-15 10:44:25] INFO root fetch - main [MainThread]: End processing [twixie] error
+[2023-05-15 10:44:25] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-15 10:44:25] INFO root fetch - processPackages [anicli-api]: executing diffoscope
+[2023-05-15 10:44:25] INFO root fetch - processPackages [anicli-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anicli_api-0.3.8.tar.gz tmp/anicli_api-0.4.0.tar.gz --markdown 20230515/a/anicli-api/0.3.8-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 10:44:25] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230513-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230514-py2.py3-none-any.whl.zip --markdown 20230515/t/tff-nightly/0.0.1.dev20230513-0.0.1.dev20230514/diff.md --exclude *.pyd
+[2023-05-15 10:44:25] INFO root fetch - processPackages [oslo.cache]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Downloading https://files.pythonhosted.org/packages/96/48/4d0d54b9047fc42d893ff68178fba3fc0066902773b621e582677fb59898/certora-cli-alpha-naftali-CERT-1884_prevent_solidity_func_as_summary-20230515.7.31.464117.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [imdlib]: Downloading https://files.pythonhosted.org/packages/34/f3/1fa877f3f0ec3b082186bf09870ca24da0c4af46e0a03afe8cee65d4cfc5/imdlib-0.1.8.1.tar.gz
+[2023-05-15 10:44:25] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Skipping package: exceeds size limit 39433769>=10485760
+[2023-05-15 10:44:25] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Start processing: xpydf
+[2023-05-15 10:44:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary] error
+[2023-05-15 10:44:25] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [corsika-panama]: Downloading https://files.pythonhosted.org/packages/b3/4a/a59ff9070289185e0e4a032ffacdac253dc39a14ccb526ae69a9b686518d/corsika_panama-0.5.2.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/7e/f9/4b94d1b356b377e8e1011db136793b76e02d6511cab1d4f7e16d63b5f308/tala-8.0.0-py3-none-any.whl
+[2023-05-15 10:44:25] INFO root fetch - processPackages [xpydf]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2023-05-15 10:44:25] INFO root fetch - processPackages [oslo.cache]: Downloading https://files.pythonhosted.org/packages/0f/65/4571179ed7da1cb9572b9f843bf4b9ac8b6c64ef0b19fba2a94c8ffbdf83/oslo.cache-3.3.1.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-05-15 10:44:25] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230515/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 10:44:25] INFO root fetch - processPackages [imdlib]: Downloading https://files.pythonhosted.org/packages/fa/89/844c1d98badb49fbb67987b50626fd97cd1f6579bee1fd2488daa2fe79a0/imdlib-0.1.9.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/f4/ce/3d24e3d2bdefbfa343f2fe68eb3db06a35854fdbc57dbb7e9922756f743b/cognite_power_ops-0.4.1.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/6f/e4/508be0a74af08f9f970397a3e9b6f1c6f6be2d2b84fa60119f6313a27a24/xpydf-0.1.4.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [corsika-panama]: Downloading https://files.pythonhosted.org/packages/9e/c2/8bc325d542000c432fe5fad2a813d6dcd7ce7c45dcf284659cf5636a840c/corsika_panama-0.5.3.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [imdlib]: executing diffoscope
+[2023-05-15 10:44:25] INFO root fetch - processPackages [imdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imdlib-0.1.8.1.tar.gz tmp/imdlib-0.1.9.tar.gz --markdown 20230515/i/imdlib/0.1.8.1-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 10:44:25] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-15 10:44:25] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/8e/72/986c5075d29f6cff970b43955b8d4d42316a124d22c2e01c2877aab4480c/tala-9.0.0-py3-none-any.whl
+[2023-05-15 10:44:25] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230515/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 10:44:25] INFO root fetch - processPackages [oslo.cache]: Downloading https://files.pythonhosted.org/packages/19/63/6a1388a7ea15242e5de489231e93e19d03f86c6f1ed18a1cd46e57e76248/oslo.cache-3.4.0.tar.gz
+[2023-05-15 10:44:25] INFO root fetch - processPackages [corsika-panama]: executing diffoscope
+[2023-05-15 10:44:25] INFO root fetch - processPackages [corsika-panama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corsika_panama-0.5.2.tar.gz tmp/corsika_panama-0.5.3.tar.gz --markdown 20230515/c/corsika-panama/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-15 10:44:26] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-05-15 10:44:26] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.4.0.tar.gz tmp/cognite_power_ops-0.4.1.tar.gz --markdown 20230515/c/cognite-power-ops/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-15 10:44:26] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 10:44:26] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 10:44:26] INFO root fetch - processPackages [oslo.cache]: executing diffoscope
+[2023-05-15 10:44:26] INFO root fetch - processPackages [oslo.cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.cache-3.3.1.tar.gz tmp/oslo.cache-3.4.0.tar.gz --markdown 20230515/o/oslo.cache/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-05-15 10:44:26] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/81/1a/6881a44e8d064baf49156be9c93910f432df6670c7065b7a74cad413450d/xpydf-0.1.4.1.tar.gz
+[2023-05-15 10:44:26] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-05-15 10:44:26] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.4.tar.gz tmp/xpydf-0.1.4.1.tar.gz --markdown 20230515/x/xpydf/0.1.4-0.1.4.1/diff.md --exclude *.pyd
+[2023-05-15 10:44:27] INFO root fetch - main [MainThread]: End processing [anicli-api]: success
+[2023-05-15 10:44:27] INFO root fetch - main [MainThread]: End processing [imdlib]: success
+[2023-05-15 10:44:27] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-05-15 10:44:28] INFO root fetch - main [MainThread]: End processing [corsika-panama]: success
+[2023-05-15 10:44:28] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-15 10:44:28] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-05-15 10:44:29] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-15 10:44:29] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 10:44:29] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-05-15 10:45:03] INFO root fetch - main [MainThread]: End processing [oslo.cache]: success
+[2023-05-15 10:45:03] INFO root fetch - main [MainThread]: Store serial: [18104646]
