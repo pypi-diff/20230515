@@ -15304,3 +15304,76 @@ EOFError: EOF read where object expected
 [2023-05-15 16:28:20] INFO root fetch - main [MainThread]: End processing [searchkit]: success
 [2023-05-15 16:28:23] INFO root fetch - main [MainThread]: End processing [monailabel]: success
 [2023-05-15 16:28:23] INFO root fetch - main [MainThread]: Store serial: [18109163]
+[2023-05-15 16:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109163]
+[2023-05-15 16:33:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythoncryptographyextensionsV2
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: safraPyFunctions
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safraPyFunctions
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assignment-manager
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ToolBox4Test
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xontrib-prompt-bar
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: justbytes
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pseudo-labeller
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TACTUS-data
+[2023-05-15 16:33:32] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230515.9.38.936699] Old Version: [20230515.12.38.455221]
+[2023-05-15 16:33:32] WARNING root fetch - processPackages [TACTUS-data]: Skipping, unable to determine old version
+[2023-05-15 16:33:32] INFO root fetch - processPackages [TACTUS-data]: Start processing: iCCF
+[2023-05-15 16:33:32] INFO root fetch - main [MainThread]: End processing [TACTUS-data] error
+[2023-05-15 16:33:32] INFO root fetch - processPackages [justbytes]: New version: [0.9] Old Version: [0.8]
+[2023-05-15 16:33:32] INFO root fetch - processPackages [assignment-manager]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-15 16:33:32] INFO root fetch - processPackages [iCCF]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-15 16:33:32] INFO root fetch - processPackages [safraPyFunctions]: New version: [3.0.0] Old Version: [2.2.6]
+[2023-05-15 16:33:32] INFO root fetch - processPackages [safraPyFunctions]: New version: [3.0.0] Old Version: [2.2.6]
+[2023-05-15 16:33:32] INFO root fetch - processPackages [ToolBox4Test]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 16:33:32] INFO root fetch - processPackages [pseudo-labeller]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 16:33:32] INFO root fetch - processPackages [xontrib-prompt-bar]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-15 16:33:32] ERROR root fetch - processPackages [pythoncryptographyextensionsV2]: Unable to get metadata: No such project 'pythoncryptographyextensionsV2'
+[2023-05-15 16:33:32] INFO root fetch - processPackages [pythoncryptographyextensionsV2]: Start processing: deepset-cloud-sdk
+[2023-05-15 16:33:32] INFO root fetch - main [MainThread]: End processing [pythoncryptographyextensionsV2] error
+[2023-05-15 16:33:32] INFO root fetch - processPackages [assignment-manager]: executing diffoscope
+[2023-05-15 16:33:32] INFO root fetch - processPackages [assignment-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assignment-manager-0.1.6.tar.gz tmp/assignment-manager-0.1.7.tar.gz --markdown 20230515/a/assignment-manager/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/cf/6b/cf57af20c9af653b996033a2b16a4a5532ad979b52d549f939a6110329da/certora-cli-alpha-rahav-cert-1987_update_regTest-20230515.12.38.455221.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [iCCF]: Downloading https://files.pythonhosted.org/packages/de/2a/3ef26bf4508babb2ffff4e92b0488cb9808f65d21dd692451d0d293fb00d/iCCF-0.3.7.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [justbytes]: Downloading https://files.pythonhosted.org/packages/12/79/58b72c604d64b1a9c04dbbfd37b0bbea5faedec1ce01e1b53f29abd4a086/justbytes-0.8.tar.gz
+[2023-05-15 16:33:33] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 39432263>=10485760
+[2023-05-15 16:33:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: Downloading https://files.pythonhosted.org/packages/a5/88/ab7fd9e2ec4199d50f8b98e28884504469251129de818de349f2c1fb8cb6/safraPyFunctions-2.2.6.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: Downloading https://files.pythonhosted.org/packages/a5/88/ab7fd9e2ec4199d50f8b98e28884504469251129de818de349f2c1fb8cb6/safraPyFunctions-2.2.6.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-15 16:33:33] INFO root fetch - processPackages [xontrib-prompt-bar]: Downloading https://files.pythonhosted.org/packages/cd/79/349bf3b9b1009b47c758e0287c57d203ab733e18653ee3d8f5ac1f00765c/xontrib-prompt-bar-0.5.5.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [ToolBox4Test]: Downloading https://files.pythonhosted.org/packages/b9/83/c3ab36a96747edc0ab4ff72ad8f9990b7794b479715d69f40565562971be/ToolBox4Test-1.0.1-py3-none-any.whl
+[2023-05-15 16:33:33] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/44/86/75720eeaaf44f8a6dfdf1be0c074f3f30ad4472ac44716b25abe4ec9c6fe/deepset_cloud_sdk-0.0.1.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [justbytes]: Downloading https://files.pythonhosted.org/packages/1d/27/c55d97057e4dd1d4cf8b9f5dc5fb95aa2bbfdad993537b5f1f70452cd3e9/justbytes-0.9.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: Downloading https://files.pythonhosted.org/packages/39/a1/b5e6e17b60aecb1b06a7b5735cd7597e2440913478a714e8c2503ea51483/safraPyFunctions-3.0.0.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [iCCF]: Downloading https://files.pythonhosted.org/packages/49/b1/fc44607a4365d875bed2cd97221aaca733ec639432b3f4d2e52c9383713f/iCCF-0.3.8.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [pseudo-labeller]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [pseudo-labeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudo_labeller-0.0.8.tar.gz tmp/pseudo_labeller-0.0.9.tar.gz --markdown 20230515/p/pseudo-labeller/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: Downloading https://files.pythonhosted.org/packages/39/a1/b5e6e17b60aecb1b06a7b5735cd7597e2440913478a714e8c2503ea51483/safraPyFunctions-3.0.0.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [justbytes]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [justbytes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justbytes-0.8.tar.gz tmp/justbytes-0.9.tar.gz --markdown 20230515/j/justbytes/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [iCCF]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [iCCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iCCF-0.3.7.tar.gz tmp/iCCF-0.3.8.tar.gz --markdown 20230515/i/iCCF/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [ToolBox4Test]: Downloading https://files.pythonhosted.org/packages/7b/86/5beef1d12adfe924c4b9862bfff9a52b0d2f41a225aebe8cbeb22ffc9804/ToolBox4Test-1.0.2.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [xontrib-prompt-bar]: Downloading https://files.pythonhosted.org/packages/e1/84/495a7c871ae7f8a3c8266667f018ac635a06f7fb1c26ba9d161142054353/xontrib-prompt-bar-0.5.6.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safraPyFunctions-2.2.6.tar.gz tmp/safraPyFunctions-3.0.0.tar.gz --markdown 20230515/s/safraPyFunctions/2.2.6-3.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [safraPyFunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safraPyFunctions-2.2.6.tar.gz tmp/safraPyFunctions-3.0.0.tar.gz --markdown 20230515/s/safraPyFunctions/2.2.6-3.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/b2/cb/5b04ce302345cb7132c1c241a3e55356e3dcd92e507bd86f22678dabf0e2/deepset_cloud_sdk-0.0.3.tar.gz
+[2023-05-15 16:33:33] INFO root fetch - processPackages [xontrib-prompt-bar]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [xontrib-prompt-bar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xontrib-prompt-bar-0.5.5.tar.gz tmp/xontrib-prompt-bar-0.5.6.tar.gz --markdown 20230515/x/xontrib-prompt-bar/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [ToolBox4Test]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [ToolBox4Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ToolBox4Test-1.0.1-py3-none-any.whl.zip tmp/ToolBox4Test-1.0.2.tar.gz --markdown 20230515/T/ToolBox4Test/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 16:33:33] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-05-15 16:33:33] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.1.tar.gz tmp/deepset_cloud_sdk-0.0.3.tar.gz --markdown 20230515/d/deepset-cloud-sdk/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 16:33:34] INFO root fetch - main [MainThread]: End processing [assignment-manager]: success
+[2023-05-15 16:33:34] INFO root fetch - main [MainThread]: End processing [pseudo-labeller]: success
+[2023-05-15 16:33:34] INFO root fetch - main [MainThread]: End processing [safraPyFunctions]: success
+[2023-05-15 16:33:35] INFO root fetch - main [MainThread]: End processing [ToolBox4Test]: success
+[2023-05-15 16:33:35] INFO root fetch - main [MainThread]: End processing [xontrib-prompt-bar]: success
+[2023-05-15 16:33:35] INFO root fetch - main [MainThread]: End processing [safraPyFunctions]: success
+[2023-05-15 16:33:35] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-05-15 16:33:35] INFO root fetch - main [MainThread]: End processing [iCCF]: success
+[2023-05-15 16:33:37] INFO root fetch - main [MainThread]: End processing [justbytes]: success
+[2023-05-15 16:33:37] INFO root fetch - main [MainThread]: Store serial: [18109216]
