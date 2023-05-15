@@ -11698,3 +11698,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 13:45:46] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-15 13:46:09] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-15 13:46:09] INFO root fetch - main [MainThread]: Store serial: [18106931]
+[2023-05-15 13:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18106931]
+[2023-05-15 13:51:18] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark3
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dabbas
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca-spark3
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatLLM
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-friesian-spark3
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos-spark3
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-spark3
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sap-ai-core-llm
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-query-tools
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-query-tools
+[2023-05-15 13:51:18] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230515] Old Version: [2.4.0b20230514]
+[2023-05-15 13:51:18] WARNING root fetch - processPackages [sap-ai-core-llm]: Skipping, unable to determine old version
+[2023-05-15 13:51:18] INFO root fetch - processPackages [sap-ai-core-llm]: Start processing: qwert1234
+[2023-05-15 13:51:18] INFO root fetch - main [MainThread]: End processing [sap-ai-core-llm] error
+[2023-05-15 13:51:18] INFO root fetch - processPackages [django-query-tools]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [django-query-tools]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [qwert1234]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230515] Old Version: [2.4.0b20230514]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230515] Old Version: [2.4.0b20230514]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230515] Old Version: [2.4.0b20230514]
+[2023-05-15 13:51:18] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230515] Old Version: [2.4.0b20230514]
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/7e/88/e93868f06a1c2ea8fbd71fa4140b93f081820e88fb48ebe6968e03860062/django_query_tools-0.2.0.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/7e/88/e93868f06a1c2ea8fbd71fa4140b93f081820e88fb48ebe6968e03860062/django_query_tools-0.2.0.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [qwert1234]: Downloading https://files.pythonhosted.org/packages/03/e9/61a4c7b0824829d2ff632fa1acefa65c2b13e34368523f4c4158b75df76a/qwert1234-1.0.0.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/aa/c4/a8880617c784d21332cbdd68e23fdd0ed29edc10e4b11fb63d807cca7d86/bigdl-dllib-spark3-2.4.0b20230514.tar.gz
+[2023-05-15 13:51:19] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251843>=10485760
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-15 13:51:19] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-15 13:51:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230515.9.46.287339] Old Version: [20230514.15.14.417100]
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/70/0f/f3a73dfbb8ef9f19df4b13eb55abe89206daee435f78e0e864a04b2a7850/bigdl_orca_spark3-2.4.0b20230514-py3-none-manylinux1_x86_64.whl
+[2023-05-15 13:51:19] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/a7/3f/d83e71b8081f09f88ef7bdaa6b31170a992c92afcd44f03bb0a246cc35d0/bigdl_friesian_spark3-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-15 13:51:19] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207462>=10485760
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: langcorn
+[2023-05-15 13:51:19] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-15 13:51:19] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [langcorn]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/cc/9e/8104cb09488001c825a22d2c8510809090a439552dd450938a851173d092/bigdl_spark3-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/2d/ad/1172f6d932c86f884f293bf27890ea6548e7651e0ffde2d26e9b032b3590/bigdl_chronos_spark3-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/57/9d/ca8021a33b34af50f17ee9ac8bb782a7c60527f05e8b618782b5076bce18/django_query_tools-0.2.1.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/57/9d/ca8021a33b34af50f17ee9ac8bb782a7c60527f05e8b618782b5076bce18/django_query_tools-0.2.1.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [qwert1234]: Downloading https://files.pythonhosted.org/packages/78/49/08b1e3584048b14e854dd8eca765554c9e01801964b4c735216e7570cddf/qwert1234-1.0.1.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/ee/43/64127f613be4a11d47dd62b5a38e70fb16be98bb0905c02156c880df3633/certora-cli-alpha-roy-CERT-1955-assertHits-20230514.15.14.417100.tar.gz
+[2023-05-15 13:51:19] INFO root fetch - processPackages [langcorn]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [langcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcorn-0.0.7.tar.gz tmp/langcorn-0.0.8.tar.gz --markdown 20230515/l/langcorn/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_query_tools-0.2.0.tar.gz tmp/django_query_tools-0.2.1.tar.gz --markdown 20230515/d/django-query-tools/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [django-query-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_query_tools-0.2.0.tar.gz tmp/django_query_tools-0.2.1.tar.gz --markdown 20230515/d/django-query-tools/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230514-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip --markdown 20230515/b/bigdl-chronos-spark3/2.4.0b20230514-2.4.0b20230515/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39431260>=10485760
+[2023-05-15 13:51:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: svrkit
+[2023-05-15 13:51:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-15 13:51:19] INFO root fetch - processPackages [qwert1234]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [qwert1234]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwert1234-1.0.0.tar.gz tmp/qwert1234-1.0.1.tar.gz --markdown 20230515/q/qwert1234/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230515/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230514-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip --markdown 20230515/b/bigdl-spark3/2.4.0b20230514-2.4.0b20230515/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-15 13:51:19] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230514-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip --markdown 20230515/b/bigdl-friesian-spark3/2.4.0b20230514-2.4.0b20230515/diff.md --exclude *.pyd
+[2023-05-15 13:51:19] WARNING root fetch - processPackages [svrkit]: Skipping, unable to determine old version
+[2023-05-15 13:51:19] INFO root fetch - processPackages [svrkit]: Start processing: ffdice
+[2023-05-15 13:51:19] INFO root fetch - main [MainThread]: End processing [svrkit] error
+[2023-05-15 13:51:19] WARNING root fetch - processPackages [ffdice]: Skipping, unable to determine old version
+[2023-05-15 13:51:19] INFO root fetch - processPackages [ffdice]: Start processing: edwh-sshkey-plugin
+[2023-05-15 13:51:19] INFO root fetch - main [MainThread]: End processing [ffdice] error
+[2023-05-15 13:51:19] INFO root fetch - processPackages [edwh-sshkey-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 13:51:19] INFO root fetch - processPackages [edwh-sshkey-plugin]: Downloading https://files.pythonhosted.org/packages/e5/95/ea2796b47f09cc65f87c8d940aa076cb30ed9e15b0895c70f6a7213d50ef/edwh_sshkey_plugin-0.1.2.tar.gz
+[2023-05-15 13:51:20] INFO root fetch - processPackages [edwh-sshkey-plugin]: Downloading https://files.pythonhosted.org/packages/19/b3/c4be95ad5eeac988e2ecf04d82f2e06febc8882232c61b260d0b5e3982d0/edwh_sshkey_plugin-0.1.3.tar.gz
+[2023-05-15 13:51:20] INFO root fetch - processPackages [edwh-sshkey-plugin]: executing diffoscope
+[2023-05-15 13:51:20] INFO root fetch - processPackages [edwh-sshkey-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_sshkey_plugin-0.1.2.tar.gz tmp/edwh_sshkey_plugin-0.1.3.tar.gz --markdown 20230515/e/edwh-sshkey-plugin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 13:51:21] INFO root fetch - processPackages [langcorn]: Start processing: archytas
+[2023-05-15 13:51:21] INFO root fetch - main [MainThread]: End processing [langcorn]: success
+[2023-05-15 13:51:21] INFO root fetch - processPackages [archytas]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-15 13:51:21] INFO root fetch - processPackages [django-query-tools]: Start processing: gmtesttesttools
+[2023-05-15 13:51:21] INFO root fetch - main [MainThread]: End processing [django-query-tools]: success
+[2023-05-15 13:51:21] INFO root fetch - processPackages [django-query-tools]: Start processing: medsenger-api
+[2023-05-15 13:51:21] INFO root fetch - main [MainThread]: End processing [django-query-tools]: success
+[2023-05-15 13:51:21] INFO root fetch - processPackages [qwert1234]: Start processing: bridgecrew
+[2023-05-15 13:51:21] INFO root fetch - main [MainThread]: End processing [qwert1234]: success
+[2023-05-15 13:51:21] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 13:51:21] INFO root fetch - processPackages [bigdl-spark3]: Start processing: cone.app
+[2023-05-15 13:51:21] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-15 13:51:21] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-15 13:51:21] WARNING root fetch - processPackages [gmtesttesttools]: Skipping, unable to determine old version
+[2023-05-15 13:51:21] INFO root fetch - processPackages [gmtesttesttools]: Start processing: helios-opentelemetry-sdk
+[2023-05-15 13:51:21] INFO root fetch - main [MainThread]: End processing [gmtesttesttools] error
+[2023-05-15 13:51:21] INFO root fetch - processPackages [cone.app]: New version: [1.0rc3] Old Version: [1.0rc2]
+[2023-05-15 13:51:21] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/d7/99/e1e89c5744d4329a6b92580570a5359ede04616d7dc040576ea26c1d32b8/archytas-0.2.4.tar.gz
+[2023-05-15 13:51:21] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-15 13:51:21] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230515/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 13:51:21] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-15 13:51:21] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230515/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-15 13:51:21] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.9] Old Version: [1.0.80]
+[2023-05-15 13:51:21] INFO root fetch - processPackages [cone.app]: executing diffoscope
+[2023-05-15 13:51:21] INFO root fetch - processPackages [cone.app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cone.app-1.0rc2.tar.gz tmp/cone.app-1.0rc3.tar.gz --markdown 20230515/c/cone.app/1.0rc2-1.0rc3/diff.md --exclude *.pyd
+[2023-05-15 13:51:21] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/95/03/84f5205be3457f85fcdbd72ab5e4882c37e4400f4ccbd32856d34a7aed68/helios-opentelemetry-sdk-1.0.80.tar.gz
+[2023-05-15 13:51:21] INFO root fetch - processPackages [dabbas]: Start processing: latestinfoearthquakeindonesia
+[2023-05-15 13:51:21] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-05-15 13:51:21] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/34/da/b1df3541cff86e4094963003f438d9f7de618eea34abf3e2f52d4edc0345/archytas-0.3.0.tar.gz
+[2023-05-15 13:51:21] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-15 13:51:21] INFO root fetch - processPackages [archytas]: executing diffoscope
+[2023-05-15 13:51:21] INFO root fetch - processPackages [archytas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archytas-0.2.4.tar.gz tmp/archytas-0.3.0.tar.gz --markdown 20230515/a/archytas/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 13:51:22] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-05-15 13:51:22] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.80.tar.gz tmp/helios-opentelemetry-sdk-1.0.9.tar.gz --markdown 20230515/h/helios-opentelemetry-sdk/1.0.80-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 13:51:22] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: Downloading https://files.pythonhosted.org/packages/5e/05/bacf954f8757229e2f9b5bc9555c8e1277ea13381bdf79809cc1206c1b56/latestinfoearthquakeindonesia-0.0.1.tar.gz
+[2023-05-15 13:51:22] INFO root fetch - processPackages [edwh-sshkey-plugin]: Start processing: prediction-cloud-database-models
+[2023-05-15 13:51:22] INFO root fetch - main [MainThread]: End processing [edwh-sshkey-plugin]: success
+[2023-05-15 13:51:22] WARNING root fetch - processPackages [prediction-cloud-database-models]: Skipping, unable to determine old version
+[2023-05-15 13:51:22] INFO root fetch - processPackages [prediction-cloud-database-models]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-e
+[2023-05-15 13:51:22] INFO root fetch - main [MainThread]: End processing [prediction-cloud-database-models] error
+[2023-05-15 13:51:22] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-e]: New version: [20230515.11.1.973562] Old Version: [20230515.10.18.315403]
+[2023-05-15 13:51:22] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-e]: Downloading https://files.pythonhosted.org/packages/79/33/4e812beeb43c6e0f597d26e152b8fda5175cd26e7e81c8e98fe8a3198f05/certora-cli-alpha-roy-CERT-1891-allocId-e-20230515.10.18.315403.tar.gz
+[2023-05-15 13:51:22] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: Downloading https://files.pythonhosted.org/packages/3d/3c/a9915ab0620d8aa933ead1de75376bacf7650a57940c5ae83a58aa2deb42/latestinfoearthquakeindonesia-0.0.3.tar.gz
+[2023-05-15 13:51:22] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-e]: Skipping package: exceeds size limit 39445638>=10485760
+[2023-05-15 13:51:22] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-e]: Start processing: satori-ci
+[2023-05-15 13:51:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-e] error
+[2023-05-15 13:51:22] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: executing diffoscope
+[2023-05-15 13:51:22] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latestinfoearthquakeindonesia-0.0.1.tar.gz tmp/latestinfoearthquakeindonesia-0.0.3.tar.gz --markdown 20230515/l/latestinfoearthquakeindonesia/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 13:51:22] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-15 13:51:22] INFO root fetch - processPackages [satori-ci]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-15 13:51:22] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-15 13:51:22] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-15 13:51:23] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/36/7b/5b3160153d511137febe84cbb8fe83ec8c1315e88ec7ebecee5a1160ea68/satori_ci-1.2.5.tar.gz
+[2023-05-15 13:51:23] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-15 13:51:23] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-05-15 13:51:23] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.4.tar.gz tmp/satori_ci-1.2.5.tar.gz --markdown 20230515/s/satori-ci/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-15 13:51:23] INFO root fetch - main [MainThread]: End processing [archytas]: success
+[2023-05-15 13:51:23] INFO root fetch - main [MainThread]: End processing [latestinfoearthquakeindonesia]: success
+[2023-05-15 13:51:23] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-05-15 13:51:24] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-05-15 13:51:26] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 13:51:26] INFO root fetch - main [MainThread]: End processing [cone.app]: success
+[2023-05-15 13:51:26] INFO root fetch - main [MainThread]: Store serial: [18107009]
