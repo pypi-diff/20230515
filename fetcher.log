@@ -22345,3 +22345,121 @@ EOFError: EOF read where object expected
 [2023-05-15 22:55:03] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-05-15 22:55:54] INFO root fetch - main [MainThread]: End processing [askbot]: success
 [2023-05-15 22:55:54] INFO root fetch - main [MainThread]: Store serial: [18113297]
+[2023-05-15 23:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113297]
+[2023-05-15 23:01:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trinidi
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: translators
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-sqlserver
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simfire
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CriptoMetodos
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suap-scraper
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: basedosdados
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-dragonfly
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasets2
+[2023-05-15 23:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pqmusic
+[2023-05-15 23:01:05] WARNING root fetch - processPackages [trinidi]: Skipping, unable to determine old version
+[2023-05-15 23:01:05] INFO root fetch - processPackages [dbt-sqlserver]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [trinidi]: Start processing: vim-python-framework
+[2023-05-15 23:01:05] INFO root fetch - main [MainThread]: End processing [trinidi] error
+[2023-05-15 23:01:05] INFO root fetch - processPackages [translators]: New version: [5.7.4] Old Version: [5.7.1]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [simfire]: New version: [1.4.37] Old Version: [1.4.36]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [suap-scraper]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [datasets2]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-15 23:01:05] WARNING root fetch - processPackages [CriptoMetodos]: Skipping, unable to determine old version
+[2023-05-15 23:01:05] INFO root fetch - processPackages [CriptoMetodos]: Start processing: dojo-ds
+[2023-05-15 23:01:05] INFO root fetch - main [MainThread]: End processing [CriptoMetodos] error
+[2023-05-15 23:01:05] INFO root fetch - processPackages [pqmusic]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [basedosdados]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/e5/3c/c5f9d5532ba4b8dba8d30f96dd013e616ff998fa2c9929a7bda81550eab0/vim-python-framework-0.1.0.tar.gz
+[2023-05-15 23:01:05] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-15 23:01:05] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230515/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-15 23:01:05] INFO root fetch - processPackages [dojo-ds]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-15 23:01:05] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/92/ba/220542bb30abcadfe7d80ee29a1d5ae95db4f3dd8458224ffc9e8e7b2ff6/simfire-1.4.36.tar.gz
+[2023-05-15 23:01:05] INFO root fetch - processPackages [datasets2]: Downloading https://files.pythonhosted.org/packages/db/c5/fb91f82429d58b84b0ee06cbc53f06627d3b2fd0c925d08c0b4a6d3f1695/datasets2-0.1.tar.gz
+[2023-05-15 23:01:05] INFO root fetch - processPackages [pqmusic]: Downloading https://files.pythonhosted.org/packages/a4/4f/8213ec1144f39647fb1183e279cc4835911a78e2463484c63493dd6e06fb/pqmusic-1.2.1.tar.gz
+[2023-05-15 23:01:05] INFO root fetch - processPackages [dbt-sqlserver]: Downloading https://files.pythonhosted.org/packages/41/21/b0d41c442d0163bea5693bd2da0cb87000cb6bfdbadeb754b42a74e15b95/dbt-sqlserver-1.4.0.tar.gz
+[2023-05-15 23:01:05] INFO root fetch - processPackages [translators]: Downloading https://files.pythonhosted.org/packages/b0/2f/33f2d640514df20fa456a6d2296de2b2ce63d384348d1b65754b8ef15e8a/translators-5.7.4.tar.gz
+[2023-05-15 23:01:05] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/ef/5c/6f08f2e62fc7a0e0643731623ce945fb6eeb9eacacbbf63569c6e54c8fba/suap_scraper-0.0.6.3.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [dojo-ds]: Downloading https://files.pythonhosted.org/packages/f1/27/ad05ebcce5739484d3b5d8d38d6644579b6a452492db98de9f60d55b8ec9/dojo_ds-0.2.2.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/43/1e/28613aae10f97099599970d2954d3ed177e20cbd712aab0a7b3cef3de6f8/vim-python-framework-0.1.1.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [dbt-sqlserver]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [dbt-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-sqlserver-1.3.2.tar.gz tmp/dbt-sqlserver-1.4.0.tar.gz --markdown 20230515/d/dbt-sqlserver/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/d0/6f/61db31a57f35ba6808dced5752e9a8ec34e088be831c69937a573b0f1cfa/simfire-1.4.37.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [basedosdados]: Downloading https://files.pythonhosted.org/packages/6b/50/be66658c238961b2e69253d307af7e40e3bdc2d12ecd89ab805595a31b65/basedosdados-2.0.0b2.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.0.tar.gz tmp/vim-python-framework-0.1.1.tar.gz --markdown 20230515/v/vim-python-framework/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [suap-scraper]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [suap-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suap_scraper-0.0.6.2.tar.gz tmp/suap_scraper-0.0.6.3.tar.gz --markdown 20230515/s/suap-scraper/0.0.6.2-0.0.6.3/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [translators]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [translators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translators-5.7.1.tar.gz tmp/translators-5.7.4.tar.gz --markdown 20230515/t/translators/5.7.1-5.7.4/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [simfire]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [simfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfire-1.4.36.tar.gz tmp/simfire-1.4.37.tar.gz --markdown 20230515/s/simfire/1.4.36-1.4.37/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [dojo-ds]: Downloading https://files.pythonhosted.org/packages/04/63/619a708d5ba49b4f5a7a2211a157d47f3675888055aac5cfc013e1ca1e3e/dojo_ds-0.2.3.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [pqmusic]: Downloading https://files.pythonhosted.org/packages/a0/7f/d856294bb481afc091ccf0c73dbb8e92a0e4732ce2b40bfd43692ce7727a/pqmusic-1.3.0.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [datasets2]: Downloading https://files.pythonhosted.org/packages/e1/38/2afbb66a72c7ca53d2adc09503ea20a9f74c7f009ff9130313151dfd831d/datasets2-0.1.1.tar.gz
+[2023-05-15 23:01:06] INFO root fetch - processPackages [basedosdados]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [basedosdados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedosdados-2.0.0b1.tar.gz tmp/basedosdados-2.0.0b2.tar.gz --markdown 20230515/b/basedosdados/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [datasets2]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [datasets2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets2-0.1.tar.gz tmp/datasets2-0.1.1.tar.gz --markdown 20230515/d/datasets2/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [dojo-ds]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [dojo-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_ds-0.2.2.tar.gz tmp/dojo_ds-0.2.3.tar.gz --markdown 20230515/d/dojo-ds/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-15 23:01:06] INFO root fetch - processPackages [pqmusic]: executing diffoscope
+[2023-05-15 23:01:06] INFO root fetch - processPackages [pqmusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqmusic-1.2.1.tar.gz tmp/pqmusic-1.3.0.tar.gz --markdown 20230515/p/pqmusic/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-15 23:01:07] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: dag-generator
+[2023-05-15 23:01:07] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-15 23:01:07] ERROR root fetch - processPackages [dag-generator]: Unable to get metadata: No such project 'dag-generator'
+[2023-05-15 23:01:07] INFO root fetch - processPackages [dag-generator]: Start processing: devcycle-python-server-sdk
+[2023-05-15 23:01:07] INFO root fetch - main [MainThread]: End processing [dag-generator] error
+[2023-05-15 23:01:07] INFO root fetch - processPackages [suap-scraper]: Start processing: MotorDeCalidad
+[2023-05-15 23:01:07] INFO root fetch - main [MainThread]: End processing [suap-scraper]: success
+[2023-05-15 23:01:07] INFO root fetch - processPackages [vim-python-framework]: Start processing: xgboost-ray
+[2023-05-15 23:01:07] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-15 23:01:07] INFO root fetch - processPackages [devcycle-python-server-sdk]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-15 23:01:07] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 23:01:07] INFO root fetch - processPackages [xgboost-ray]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 23:01:07] INFO root fetch - processPackages [devcycle-python-server-sdk]: Downloading https://files.pythonhosted.org/packages/84/31/3549ad15fcdd56891cd3a03e468a78f2b2f2daf183cfb97a693e7d2c4e5c/devcycle-python-server-sdk-1.1.0.tar.gz
+[2023-05-15 23:01:07] INFO root fetch - processPackages [dbt-sqlserver]: Start processing: vision6D
+[2023-05-15 23:01:07] INFO root fetch - main [MainThread]: End processing [dbt-sqlserver]: success
+[2023-05-15 23:01:07] INFO root fetch - processPackages [vision6D]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 23:01:08] INFO root fetch - processPackages [xgboost-ray]: Downloading https://files.pythonhosted.org/packages/2e/f4/db3043b26392eaa37ad69945534f83dc8031882bb33298c7f0ac324ee337/xgboost_ray-0.1.8-py3-none-any.whl
+[2023-05-15 23:01:08] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-05-15 23:01:08] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.0.2.tar.gz tmp/vision6D-0.0.3.tar.gz --markdown 20230515/v/vision6D/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 23:01:08] INFO root fetch - processPackages [datasets2]: Start processing: autoinject
+[2023-05-15 23:01:08] INFO root fetch - main [MainThread]: End processing [datasets2]: success
+[2023-05-15 23:01:08] INFO root fetch - processPackages [dojo-ds]: Start processing: pret
+[2023-05-15 23:01:08] INFO root fetch - main [MainThread]: End processing [dojo-ds]: success
+[2023-05-15 23:01:08] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-05-15 23:01:08] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230515/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 23:01:08] INFO root fetch - processPackages [autoinject]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-15 23:01:08] WARNING root fetch - processPackages [pret]: Skipping, unable to determine old version
+[2023-05-15 23:01:08] INFO root fetch - processPackages [pret]: Start processing: dag-dq-generator
+[2023-05-15 23:01:08] INFO root fetch - main [MainThread]: End processing [pret] error
+[2023-05-15 23:01:08] WARNING root fetch - processPackages [dag-dq-generator]: Skipping, unable to determine old version
+[2023-05-15 23:01:08] INFO root fetch - processPackages [dag-dq-generator]: Start processing: certora-cli-alpha-andrew-satisfy
+[2023-05-15 23:01:08] INFO root fetch - main [MainThread]: End processing [dag-dq-generator] error
+[2023-05-15 23:01:08] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: New version: [20230515.17.39.398525] Old Version: [20230515.16.38.921195]
+[2023-05-15 23:01:08] INFO root fetch - processPackages [devcycle-python-server-sdk]: Downloading https://files.pythonhosted.org/packages/35/ac/7421098727a2aa9dd382cdcdce0573ba569a122bb7056ba260c3c005685d/devcycle-python-server-sdk-1.1.1.tar.gz
+[2023-05-15 23:01:08] INFO root fetch - main [MainThread]: End processing [pqmusic]: success
+[2023-05-15 23:01:08] INFO root fetch - processPackages [autoinject]: Downloading https://files.pythonhosted.org/packages/56/74/da6be956ce9057bb0ecff0727e7f2d0e5b4afdd436b32340cf67152c364e/autoinject-1.2.1.tar.gz
+[2023-05-15 23:01:08] INFO root fetch - processPackages [devcycle-python-server-sdk]: executing diffoscope
+[2023-05-15 23:01:08] INFO root fetch - processPackages [devcycle-python-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcycle-python-server-sdk-1.1.0.tar.gz tmp/devcycle-python-server-sdk-1.1.1.tar.gz --markdown 20230515/d/devcycle-python-server-sdk/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 23:01:08] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Downloading https://files.pythonhosted.org/packages/37/11/db2f2a8cf00caa30d0cccf583ef648c4803cf6cdb93528f644629c056d9e/certora-cli-alpha-andrew-satisfy-20230515.16.38.921195.tar.gz
+[2023-05-15 23:01:08] INFO root fetch - processPackages [xgboost-ray]: Downloading https://files.pythonhosted.org/packages/39/07/87f0c1d72fa39b674b3553eafce3eaac2c8b01e0127ab23a4f123400e1b8/xgboost_ray-0.1.9-py3-none-any.whl
+[2023-05-15 23:01:08] WARNING root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Skipping package: exceeds size limit 39505291>=10485760
+[2023-05-15 23:01:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-andrew-satisfy] error
+[2023-05-15 23:01:08] INFO root fetch - main [MainThread]: End processing [basedosdados]: success
+[2023-05-15 23:01:08] INFO root fetch - processPackages [xgboost-ray]: executing diffoscope
+[2023-05-15 23:01:08] INFO root fetch - processPackages [xgboost-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgboost_ray-0.1.8-py3-none-any.whl.zip tmp/xgboost_ray-0.1.9-py3-none-any.whl.zip --markdown 20230515/x/xgboost-ray/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 23:01:08] INFO root fetch - processPackages [autoinject]: Downloading https://files.pythonhosted.org/packages/6f/bc/de5fef1ae6ac6dc2561912f0338460b979be05cc08570d2aee1cba8555f5/autoinject-1.3.0.tar.gz
+[2023-05-15 23:01:08] INFO root fetch - processPackages [autoinject]: executing diffoscope
+[2023-05-15 23:01:08] INFO root fetch - processPackages [autoinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoinject-1.2.1.tar.gz tmp/autoinject-1.3.0.tar.gz --markdown 20230515/a/autoinject/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-15 23:01:09] INFO root fetch - main [MainThread]: End processing [translators]: success
+[2023-05-15 23:01:09] INFO root fetch - main [MainThread]: End processing [devcycle-python-server-sdk]: success
+[2023-05-15 23:01:09] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-05-15 23:01:10] INFO root fetch - main [MainThread]: End processing [autoinject]: success
+[2023-05-15 23:01:10] INFO root fetch - main [MainThread]: End processing [simfire]: success
+[2023-05-15 23:01:10] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-05-15 23:01:10] INFO root fetch - main [MainThread]: End processing [xgboost-ray]: success
+[2023-05-15 23:01:10] INFO root fetch - main [MainThread]: Store serial: [18113368]
