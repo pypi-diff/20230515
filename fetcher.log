@@ -11839,3 +11839,146 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 13:51:26] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-05-15 13:51:26] INFO root fetch - main [MainThread]: End processing [cone.app]: success
 [2023-05-15 13:51:26] INFO root fetch - main [MainThread]: Store serial: [18107009]
+[2023-05-15 13:56:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18107009]
+[2023-05-15 13:56:37] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satori-ci
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: storeify
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysigma-backend-qradar-aql
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: areixio
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ffdice
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: colmena
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sourcery
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wizata-dsapi
+[2023-05-15 13:56:37] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 13:56:37] WARNING root fetch - processPackages [pysigma-backend-qradar-aql]: Skipping, unable to determine old version
+[2023-05-15 13:56:37] INFO root fetch - processPackages [pysigma-backend-qradar-aql]: Start processing: sourcery-cli
+[2023-05-15 13:56:37] INFO root fetch - main [MainThread]: End processing [pysigma-backend-qradar-aql] error
+[2023-05-15 13:56:37] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [satori-ci]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [storeify]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-15 13:56:37] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230515/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ffdice]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-15 13:56:37] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230515/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 13:56:37] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230515.11.52.774068] Old Version: [20230504.9.58.528177]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [colmena]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery-cli]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/d2/91/1726c81cfc336ea4bd93682ea432c9b02c14a21da3e151ecf3068c9eab64/PatryksAutoAI-0.6.8.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ffdice]: Downloading https://files.pythonhosted.org/packages/b9/c8/b8cecd722cabd90da69ad81fc943a8561d28447b86a7143dace28266efc6/ffdice-1.0.0.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/63/85/ee44a44f88e418c6095c80f00779d0c6f359193814e53f88e0350b35d255/certora-cli-alpha-roy-CERT-1844-usage-20230504.9.58.528177.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery]: Downloading https://files.pythonhosted.org/packages/01/2a/40c2585920506c3972f26a0bf7c15c369c36e249351614894b44ece6e7eb/sourcery-1.2.0-py2.py3-none-win_amd64.whl
+[2023-05-15 13:56:37] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-05-15 13:56:37] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.4.tar.gz tmp/satori_ci-1.2.5.tar.gz --markdown 20230515/s/satori-ci/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-15 13:56:37] WARNING root fetch - processPackages [sourcery]: Skipping package: exceeds size limit 58555489>=10485760
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery]: Start processing: databricks-common
+[2023-05-15 13:56:37] INFO root fetch - main [MainThread]: End processing [sourcery] error
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery-cli]: Downloading https://files.pythonhosted.org/packages/64/e6/0897c829b00a77e23f360e9562525d1f7c8e16c0d7a178af69b3dccc3d52/sourcery_cli-1.2.0-py2.py3-none-win_amd64.whl
+[2023-05-15 13:56:37] INFO root fetch - processPackages [colmena]: Downloading https://files.pythonhosted.org/packages/5b/a5/db8397c4a3007029fa759a8176880abd9039539eb143b86fb900d7d4ed30/colmena-0.4.5.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [storeify]: Downloading https://files.pythonhosted.org/packages/4d/f9/b5a59963e6844d2d6b76c279819fd3a666d81d872a80f50c29ea04ac6309/storeify-0.0.1.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-15 13:56:37] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.6.7.tar.gz tmp/PatryksAutoAI-0.6.8.tar.gz --markdown 20230515/P/PatryksAutoAI/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-15 13:56:37] WARNING root fetch - processPackages [sourcery-cli]: Skipping package: exceeds size limit 58557357>=10485760
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery-cli]: Start processing: sourcery-nightly
+[2023-05-15 13:56:37] INFO root fetch - main [MainThread]: End processing [sourcery-cli] error
+[2023-05-15 13:56:37] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38423728>=10485760
+[2023-05-15 13:56:37] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: il-supermarket-scraper
+[2023-05-15 13:56:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-15 13:56:37] INFO root fetch - processPackages [il-supermarket-scraper]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [databricks-common]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ffdice]: Downloading https://files.pythonhosted.org/packages/d2/19/af481b2d28dc66d4e2ed1d9d039d9f296fc5a145f4a39ca72d2bf54ae5cf/ffdice-1.0.1.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.0] Old Version: [1.2.1b4]
+[2023-05-15 13:56:37] INFO root fetch - processPackages [storeify]: Downloading https://files.pythonhosted.org/packages/de/be/ead40fb5635b15dc4bb9bbd9680cabfa63ee6a86b6cbcb04844f65e20710/storeify-0.2.0.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [il-supermarket-scraper]: Downloading https://files.pythonhosted.org/packages/04/e1/2413d11f37d6d4aa827328f6d2ba5d16bb633ebfe66d548668ddb9e0cea8/il-supermarket-scraper-0.2.7.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [databricks-common]: Downloading https://files.pythonhosted.org/packages/e2/a9/8f5bd2416f7ea729e3197c623687ad02e6a64369242afc94eaee8985b806/databricks_common-0.1.2.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [colmena]: Downloading https://files.pythonhosted.org/packages/1f/0f/d301199051a38b50e9324eb45c0aaeb2b08e46da9ea34c38ebc0d7a269f9/colmena-0.5.0.tar.gz
+[2023-05-15 13:56:37] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/0d/40/b3bfb5902f97c5218b6e72319ebe4585e62a2fd289a073f3509c6ede1fa3/sourcery_nightly-1.2.1b4-py2.py3-none-win_amd64.whl
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ffdice]: executing diffoscope
+[2023-05-15 13:56:37] INFO root fetch - processPackages [ffdice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffdice-1.0.0.tar.gz tmp/ffdice-1.0.1.tar.gz --markdown 20230515/f/ffdice/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 13:56:38] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58559721>=10485760
+[2023-05-15 13:56:38] INFO root fetch - processPackages [sourcery-nightly]: Start processing: pyassorted
+[2023-05-15 13:56:38] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-05-15 13:56:38] INFO root fetch - processPackages [colmena]: executing diffoscope
+[2023-05-15 13:56:38] INFO root fetch - processPackages [colmena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colmena-0.4.5.tar.gz tmp/colmena-0.5.0.tar.gz --markdown 20230515/c/colmena/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 13:56:38] INFO root fetch - processPackages [storeify]: executing diffoscope
+[2023-05-15 13:56:38] INFO root fetch - processPackages [storeify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storeify-0.0.1.tar.gz tmp/storeify-0.2.0.tar.gz --markdown 20230515/s/storeify/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 13:56:38] INFO root fetch - processPackages [pyassorted]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-15 13:56:38] INFO root fetch - processPackages [databricks-common]: Downloading https://files.pythonhosted.org/packages/96/16/9d792539571d3235f213ccadfecb86db5a61317bd89c0327b95ceae8ecfb/databricks_common-0.1.3.tar.gz
+[2023-05-15 13:56:38] INFO root fetch - processPackages [il-supermarket-scraper]: Downloading https://files.pythonhosted.org/packages/93/bb/63fa807d1c784b9ca69537f70492185dfddbcf72b029b80035c17e815968/il-supermarket-scraper-0.2.8.tar.gz
+[2023-05-15 13:56:38] INFO root fetch - processPackages [databricks-common]: executing diffoscope
+[2023-05-15 13:56:38] INFO root fetch - processPackages [databricks-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_common-0.1.2.tar.gz tmp/databricks_common-0.1.3.tar.gz --markdown 20230515/d/databricks-common/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 13:56:38] INFO root fetch - processPackages [il-supermarket-scraper]: executing diffoscope
+[2023-05-15 13:56:38] INFO root fetch - processPackages [il-supermarket-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/il-supermarket-scraper-0.2.7.tar.gz tmp/il-supermarket-scraper-0.2.8.tar.gz --markdown 20230515/i/il-supermarket-scraper/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-15 13:56:38] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/8f/19/3b42e8656c397b31cf91e56f86744a1447c30494f0d76839d94c0b399c04/pyassorted-0.5.0.tar.gz
+[2023-05-15 13:56:38] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/b9/25/2199a783e34e7668b9c643c91b311674af3fcf6b5306b0bab8d443cc37da/pyassorted-0.6.0.tar.gz
+[2023-05-15 13:56:38] INFO root fetch - processPackages [pyassorted]: executing diffoscope
+[2023-05-15 13:56:38] INFO root fetch - processPackages [pyassorted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassorted-0.5.0.tar.gz tmp/pyassorted-0.6.0.tar.gz --markdown 20230515/p/pyassorted/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-15 13:56:38] INFO root fetch - processPackages [satori-ci]: Start processing: dev-gpt
+[2023-05-15 13:56:38] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-05-15 13:56:39] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev4] Old Version: [0.18.41.dev1]
+[2023-05-15 13:56:39] INFO root fetch - processPackages [wizata-dsapi]: Start processing: ChatLLM
+[2023-05-15 13:56:39] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-15 13:56:39] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 13:56:39] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/52/6c/21d1d0c2cc282725bceae5bc44d69d3c176e001fa88628c20748ed3a1baf/dev-gpt-0.18.41.dev4.tar.gz
+[2023-05-15 13:56:39] INFO root fetch - processPackages [ffdice]: Start processing: FileInfo-Video-Audio
+[2023-05-15 13:56:39] INFO root fetch - main [MainThread]: End processing [ffdice]: success
+[2023-05-15 13:56:39] INFO root fetch - processPackages [FileInfo-Video-Audio]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 13:56:39] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 13:56:39] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 13:56:39] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-15 13:56:39] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev1.tar.gz tmp/dev-gpt-0.18.41.dev4.tar.gz --markdown 20230515/d/dev-gpt/0.18.41.dev1-0.18.41.dev4/diff.md --exclude *.pyd
+[2023-05-15 13:56:39] INFO root fetch - processPackages [FileInfo-Video-Audio]: executing diffoscope
+[2023-05-15 13:56:39] INFO root fetch - processPackages [FileInfo-Video-Audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileInfo_Video_Audio-0.0.3.tar.gz tmp/FileInfo_Video_Audio-0.0.4.tar.gz --markdown 20230515/F/FileInfo-Video-Audio/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 13:56:39] INFO root fetch - processPackages [databricks-common]: Start processing: eaanalytics
+[2023-05-15 13:56:39] INFO root fetch - main [MainThread]: End processing [databricks-common]: success
+[2023-05-15 13:56:39] WARNING root fetch - processPackages [eaanalytics]: Skipping, unable to determine old version
+[2023-05-15 13:56:39] INFO root fetch - processPackages [eaanalytics]: Start processing: fenjing
+[2023-05-15 13:56:39] INFO root fetch - main [MainThread]: End processing [eaanalytics] error
+[2023-05-15 13:56:39] INFO root fetch - processPackages [fenjing]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-15 13:56:39] INFO root fetch - processPackages [storeify]: Start processing: pyikarus
+[2023-05-15 13:56:39] INFO root fetch - main [MainThread]: End processing [storeify]: success
+[2023-05-15 13:56:39] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000070] Old Version: [0.3.0.dev202310000069]
+[2023-05-15 13:56:39] INFO root fetch - processPackages [il-supermarket-scraper]: Start processing: obsidianhtml
+[2023-05-15 13:56:39] INFO root fetch - main [MainThread]: End processing [il-supermarket-scraper]: success
+[2023-05-15 13:56:40] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/0f/98/ce5377d452cebfee7c88827295e1544b496b9ffe9e9876e88abd36617cc2/fenjing-0.2.7.tar.gz
+[2023-05-15 13:56:40] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/b5/44/b6dba68357a12a4b88fd2129032e3d6c2c6b0786c001f0daf336a1d0e730/pyikarus-0.3.0.dev202310000070.tar.gz
+[2023-05-15 13:56:40] INFO root fetch - processPackages [obsidianhtml]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-05-15 13:56:40] INFO root fetch - processPackages [pyassorted]: Start processing: inspectds
+[2023-05-15 13:56:40] INFO root fetch - main [MainThread]: End processing [pyassorted]: success
+[2023-05-15 13:56:40] INFO root fetch - processPackages [inspectds]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 13:56:40] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-15 13:56:40] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000069.tar.gz tmp/pyikarus-0.3.0.dev202310000070.tar.gz --markdown 20230515/p/pyikarus/0.3.0.dev202310000069-0.3.0.dev202310000070/diff.md --exclude *.pyd
+[2023-05-15 13:56:40] INFO root fetch - processPackages [inspectds]: Downloading https://files.pythonhosted.org/packages/da/93/bd904cf0c6f29cb0e0aa5f5b362e9031cd4c9452dff2092030716d163fe6/inspectds-0.1.1.tar.gz
+[2023-05-15 13:56:40] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-15 13:56:40] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.2.6.tar.gz tmp/fenjing-0.2.7.tar.gz --markdown 20230515/f/fenjing/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-15 13:56:40] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: drb-topic-sentinel5p
+[2023-05-15 13:56:40] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-15 13:56:40] INFO root fetch - processPackages [obsidianhtml]: Downloading https://files.pythonhosted.org/packages/ce/41/cbaf04d7cf9d668471127c488ae5553e1ed213fa7d495704f69f173a5a2f/obsidianhtml-3.5.2.tar.gz
+[2023-05-15 13:56:40] INFO root fetch - processPackages [drb-topic-sentinel5p]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-15 13:56:40] INFO root fetch - processPackages [inspectds]: Downloading https://files.pythonhosted.org/packages/cd/cd/16d7af73b5f5c5d55aec14685a202a69cdf5fe9bfb35c28a3c33d1ea8570/inspectds-0.1.2.tar.gz
+[2023-05-15 13:56:40] INFO root fetch - processPackages [drb-topic-sentinel5p]: Downloading https://files.pythonhosted.org/packages/03/6a/60592233800856c4878fbf739fc8f71cf246aaf4c580ae4de61325e5ce83/drb-topic-sentinel5p-1.2.0.tar.gz
+[2023-05-15 13:56:40] INFO root fetch - processPackages [inspectds]: executing diffoscope
+[2023-05-15 13:56:40] INFO root fetch - processPackages [inspectds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspectds-0.1.1.tar.gz tmp/inspectds-0.1.2.tar.gz --markdown 20230515/i/inspectds/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 13:56:40] INFO root fetch - processPackages [FileInfo-Video-Audio]: Start processing: dtdf-pipeline-toolkit
+[2023-05-15 13:56:40] INFO root fetch - main [MainThread]: End processing [FileInfo-Video-Audio]: success
+[2023-05-15 13:56:41] INFO root fetch - processPackages [obsidianhtml]: executing diffoscope
+[2023-05-15 13:56:41] INFO root fetch - processPackages [obsidianhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsidianhtml-3.5.1.tar.gz tmp/obsidianhtml-3.5.2.tar.gz --markdown 20230515/o/obsidianhtml/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-05-15 13:56:41] INFO root fetch - processPackages [drb-topic-sentinel5p]: Downloading https://files.pythonhosted.org/packages/cd/0f/627e57674f7dce7cfd98f75b4ba85951e1434653056926a22e4d2666ca26/drb-topic-sentinel5p-1.2.1.tar.gz
+[2023-05-15 13:56:41] WARNING root fetch - processPackages [dtdf-pipeline-toolkit]: Skipping, unable to determine old version
+[2023-05-15 13:56:41] INFO root fetch - main [MainThread]: End processing [dtdf-pipeline-toolkit] error
+[2023-05-15 13:56:41] INFO root fetch - main [MainThread]: End processing [colmena]: success
+[2023-05-15 13:56:41] INFO root fetch - processPackages [drb-topic-sentinel5p]: executing diffoscope
+[2023-05-15 13:56:41] INFO root fetch - processPackages [drb-topic-sentinel5p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-topic-sentinel5p-1.2.0.tar.gz tmp/drb-topic-sentinel5p-1.2.1.tar.gz --markdown 20230515/d/drb-topic-sentinel5p/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-15 13:56:41] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-15 13:56:42] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-15 13:56:42] INFO root fetch - main [MainThread]: End processing [inspectds]: success
+[2023-05-15 13:56:43] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-15 13:56:43] INFO root fetch - main [MainThread]: End processing [drb-topic-sentinel5p]: success
+[2023-05-15 13:56:45] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 13:56:46] INFO root fetch - main [MainThread]: End processing [obsidianhtml]: success
+[2023-05-15 13:56:50] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-15 13:56:50] INFO root fetch - main [MainThread]: Store serial: [18107092]
