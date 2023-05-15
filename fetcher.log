@@ -2519,3 +2519,59 @@
 [2023-05-15 04:21:13] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
 [2023-05-15 04:21:14] INFO root fetch - main [MainThread]: End processing [bandplot]: success
 [2023-05-15 04:21:14] INFO root fetch - main [MainThread]: Store serial: [18101855]
+[2023-05-15 04:26:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101855]
+[2023-05-15 04:26:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-encode
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdx-python-scraper
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-asw
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cikuu
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Mopidy-YouTube
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-ak-50c620ebd72240219637191db5c3441d
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalyke-apns
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serviceboot
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.75] Old Version: [0.1.74]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [hdx-python-scraper]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [kalyke-apns]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [Mopidy-YouTube]: New version: [3.7] Old Version: [3.6.1]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [serviceboot]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [cikuu]: New version: [2022.8.3] Old Version: [2022.8.2]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/1c/b1/7a1eb1662df40035165b09353198bd92ecfdcdfc447f70ec3f1a8197d702/hdx-python-scraper-2.1.4.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/50/14/b91494f442149ddb216696fb95e1c45ea92f855089de999e63ca2392985d/ansar-encode-0.1.75.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [kalyke-apns]: Downloading https://files.pythonhosted.org/packages/2d/38/bf4ae2a08c13d70ccd5dd752044174351e2a8f58c3cf836b1a7923f3a630/kalyke_apns-0.2.0.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:26:23] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: Downloading https://files.pythonhosted.org/packages/9b/57/a0fb3f1a019b6135aa3d15f976688dfb7f67b2f5fe841868b72adc64f749/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.1.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-05-15 04:26:23] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.74.tar.gz tmp/ansar-encode-0.1.75.tar.gz --markdown 20230515/a/ansar-encode/0.1.74-0.1.75/diff.md --exclude *.pyd
+[2023-05-15 04:26:23] INFO root fetch - processPackages [Mopidy-YouTube]: Downloading https://files.pythonhosted.org/packages/4e/8a/fa9da495bf7dc105555d70609c1bffb261b9f9d4cfa733b24a321ee61547/Mopidy-YouTube-3.6.1.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/cd/6d/3687f0345a6d1a7e3ebe51b37c74f7f8973f58a3688264519e5c73d83e8a/cikuu-2022.8.2.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/18/9b/27bac45b7c0b525d5933afd64dcefb5ccde279415b79a6115cf2f50a1e1b/tencentcloud-sdk-python-asw-3.0.889.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [serviceboot]: Downloading https://files.pythonhosted.org/packages/0d/45/45de4add371a6d8f9256f1867385e3c1880bccfa9e439f128dbf45d9f18d/serviceboot-2.1.5.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [kalyke-apns]: Downloading https://files.pythonhosted.org/packages/cd/a6/5c0faa626a455d6a1f9947a19576c89cc6ebbf6c7e5f9d7417e64f30a928/kalyke_apns-0.2.1.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: Downloading https://files.pythonhosted.org/packages/0a/b3/d55b24e7413c6f19eac15826878e7e2044a85bd6f837cfa9929f8b375367/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.3.tar.gz
+[2023-05-15 04:26:23] INFO root fetch - processPackages [kalyke-apns]: executing diffoscope
+[2023-05-15 04:26:23] INFO root fetch - processPackages [kalyke-apns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalyke_apns-0.2.0.tar.gz tmp/kalyke_apns-0.2.1.tar.gz --markdown 20230515/k/kalyke-apns/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 04:26:23] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/4a/c2/4dba3339e0187f2cd5a34d1bcdc7801684684d4e03657b1d677ff064e8e9/hdx-python-scraper-2.1.5.tar.gz
+[2023-05-15 04:26:24] INFO root fetch - processPackages [serviceboot]: executing diffoscope
+[2023-05-15 04:26:24] INFO root fetch - processPackages [serviceboot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serviceboot-2.1.4.tar.gz tmp/serviceboot-2.1.5.tar.gz --markdown 20230515/s/serviceboot/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-15 04:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/a1/24/1e06819cc7bdff208cc0345ee68ecccd7609f3ad61de7eadc5beadea4b79/tencentcloud-sdk-python-asw-3.0.891.tar.gz
+[2023-05-15 04:26:24] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: executing diffoscope
+[2023-05-15 04:26:24] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.1.tar.gz tmp/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.3.tar.gz --markdown 20230515/a/antchain-ak-50c620ebd72240219637191db5c3441d/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 04:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: executing diffoscope
+[2023-05-15 04:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-asw-3.0.889.tar.gz tmp/tencentcloud-sdk-python-asw-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-asw/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:26:24] INFO root fetch - processPackages [hdx-python-scraper]: executing diffoscope
+[2023-05-15 04:26:24] INFO root fetch - processPackages [hdx-python-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-python-scraper-2.1.4.tar.gz tmp/hdx-python-scraper-2.1.5.tar.gz --markdown 20230515/h/hdx-python-scraper/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-15 04:26:24] INFO root fetch - processPackages [cikuu]: Downloading https://files.pythonhosted.org/packages/bd/91/d67dd36eb0c24a8734ceafc9ab431dc6c3be50dc78e9fb14e038104c68e1/cikuu-2022.8.3.tar.gz
+[2023-05-15 04:26:24] INFO root fetch - processPackages [cikuu]: executing diffoscope
+[2023-05-15 04:26:24] INFO root fetch - processPackages [cikuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cikuu-2022.8.2.tar.gz tmp/cikuu-2022.8.3.tar.gz --markdown 20230515/c/cikuu/2022.8.2-2022.8.3/diff.md --exclude *.pyd
+[2023-05-15 04:26:25] INFO root fetch - main [MainThread]: End processing [kalyke-apns]: success
+[2023-05-15 04:26:25] INFO root fetch - processPackages [Mopidy-YouTube]: Downloading https://files.pythonhosted.org/packages/d4/34/af6504a887028f56391859c660e855311e88036198a72c77fa9710ba8c34/Mopidy-YouTube-3.7.tar.gz
+[2023-05-15 04:26:25] INFO root fetch - main [MainThread]: End processing [antchain-ak-50c620ebd72240219637191db5c3441d]: success
+[2023-05-15 04:26:25] WARNING root fetch - processPackages [Mopidy-YouTube]: Skipping package: exceeds size limit 12687499>=10485760
+[2023-05-15 04:26:25] INFO root fetch - main [MainThread]: End processing [Mopidy-YouTube] error
+[2023-05-15 04:26:25] INFO root fetch - main [MainThread]: End processing [serviceboot]: success
+[2023-05-15 04:26:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-asw]: success
+[2023-05-15 04:26:25] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-05-15 04:26:27] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
+[2023-05-15 04:26:30] INFO root fetch - main [MainThread]: End processing [cikuu]: success
+[2023-05-15 04:26:30] INFO root fetch - main [MainThread]: Store serial: [18101888]
