@@ -10204,3 +10204,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:39:00] INFO root fetch - main [MainThread]: End processing [hatch-util]: success
 [2023-05-15 12:39:00] INFO root fetch - main [MainThread]: End processing [numbers-c2pa]: success
 [2023-05-15 12:39:00] INFO root fetch - main [MainThread]: Store serial: [18105964]
+[2023-05-15 12:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105964]
+[2023-05-15 12:44:09] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conniosdk
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prova-pypi
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hi-ml-cpath
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curies
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dymoval
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: riptide-engine-docker
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-webperformers-humans
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: medsenger-api
+[2023-05-15 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-05-15 12:44:09] INFO root fetch - processPackages [hi-ml-cpath]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 12:44:09] WARNING root fetch - processPackages [prova-pypi]: Skipping, unable to determine old version
+[2023-05-15 12:44:09] INFO root fetch - processPackages [prova-pypi]: Start processing: autosend
+[2023-05-15 12:44:09] INFO root fetch - main [MainThread]: End processing [prova-pypi] error
+[2023-05-15 12:44:09] INFO root fetch - processPackages [dymoval]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [curies]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [conniosdk]: New version: [0.32] Old Version: [0.31]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [riptide-engine-docker]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230515.9.28.17955] Old Version: [20230515.8.30.284279]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.9.25.343999] Old Version: [20230515.8.28.196716]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [django-webperformers-humans]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [autosend]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/e3/28/a423fabd542019b0eedf821af75dd341cd321309f0ec965787e85b604b95/certora-cli-alpha-jtoman-try-catch-20230515.8.30.284279.tar.gz
+[2023-05-15 12:44:09] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39430910>=10485760
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: lbt-honeybee
+[2023-05-15 12:44:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-15 12:44:09] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-15 12:44:09] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230515/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 12:44:09] INFO root fetch - processPackages [riptide-engine-docker]: Downloading https://files.pythonhosted.org/packages/02/ac/8ccdf4bb19087e5f097b8d3e773f90cfaf163c73e3e5bf3b1552bba863ae/riptide_engine_docker-0.7.6-py3-none-any.whl
+[2023-05-15 12:44:09] INFO root fetch - processPackages [hi-ml-cpath]: Downloading https://files.pythonhosted.org/packages/f3/85/868a7fa3faeca60823ece1e6273203b5a3711b3299bc7f65f3b9ee9e09cf/hi-ml-cpath-0.3.0.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/7f/4a/040891cf8e75d1e3f352f430733243b54e78bc565e73261477eb535a1da4/conniosdk-0.31-py3-none-any.whl
+[2023-05-15 12:44:09] INFO root fetch - processPackages [django-webperformers-humans]: Downloading https://files.pythonhosted.org/packages/98/80/8fa38724b095237a51ce3e62ca18c7889f1456fffe1009830700e8fec746/django-webperformers-humans-0.3.4.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/b2/13/6ad892e1040b3479cc2b6aaae4455760dbe06d21399c89902ce047a37894/curies-0.5.4.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [dymoval]: Downloading https://files.pythonhosted.org/packages/76/ba/f272de97d385e1528998b95d4b98eebaf395aa9e46b9504dd93167b463df/dymoval-0.8.6.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/57/3c8e4f696ecc29a6da16dae52cb9b9d1391b25ce946105a3f96ced6e88c4/certora-cli-alpha-master-20230515.8.28.196716.tar.gz
+[2023-05-15 12:44:09] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430676>=10485760
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: certbot-acme-dns
+[2023-05-15 12:44:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 12:44:09] INFO root fetch - processPackages [django-webperformers-humans]: executing diffoscope
+[2023-05-15 12:44:09] INFO root fetch - processPackages [django-webperformers-humans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webperformers-humans-0.3.3.tar.gz tmp/django-webperformers-humans-0.3.4.tar.gz --markdown 20230515/d/django-webperformers-humans/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-15 12:44:09] INFO root fetch - processPackages [autosend]: Downloading https://files.pythonhosted.org/packages/0f/6a/8615ee9b85f094dc3b630fb23b07aa9731adf0342b56d98ff534c3a8c200/autosend-0.0.3-py3-none-any.whl
+[2023-05-15 12:44:09] INFO root fetch - processPackages [riptide-engine-docker]: Downloading https://files.pythonhosted.org/packages/cf/2c/a3ef6f892685a5bbe18ed1372d17ad1cb1e6231504778ab5bdb0c34d06f3/riptide_engine_docker-0.7.7-py3-none-any.whl
+[2023-05-15 12:44:09] INFO root fetch - processPackages [hi-ml-cpath]: Downloading https://files.pythonhosted.org/packages/5d/90/79da1da70cd21af6004f98df37467c2de2963d2a2af9be2881b414dee1c1/hi-ml-cpath-0.3.1.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/21/a1/025ca54bd35bf324e68b41694e23cb35c500f467c8faa2fb3d878d6605d4/conniosdk-0.32-py3-none-any.whl
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certbot-acme-dns]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 12:44:09] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/7b/49/1efeb81ebf44ef6c045cd445f2a962b8ecfd92f5f987e07e191c9992c687/curies-0.5.5.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [autosend]: executing diffoscope
+[2023-05-15 12:44:09] INFO root fetch - processPackages [autosend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosend-0.0.2.win-amd64.zip tmp/autosend-0.0.3-py3-none-any.whl.zip --markdown 20230515/a/autosend/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 12:44:09] INFO root fetch - processPackages [riptide-engine-docker]: executing diffoscope
+[2023-05-15 12:44:09] INFO root fetch - processPackages [riptide-engine-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_engine_docker-0.7.6-py3-none-any.whl.zip tmp/riptide_engine_docker-0.7.7-py3-none-any.whl.zip --markdown 20230515/r/riptide-engine-docker/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-15 12:44:09] INFO root fetch - processPackages [hi-ml-cpath]: executing diffoscope
+[2023-05-15 12:44:09] INFO root fetch - processPackages [hi-ml-cpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hi-ml-cpath-0.3.0.tar.gz tmp/hi-ml-cpath-0.3.1.tar.gz --markdown 20230515/h/hi-ml-cpath/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 12:44:09] INFO root fetch - processPackages [conniosdk]: executing diffoscope
+[2023-05-15 12:44:09] INFO root fetch - processPackages [conniosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conniosdk-0.31-py3-none-any.whl.zip tmp/conniosdk-0.32-py3-none-any.whl.zip --markdown 20230515/c/conniosdk/0.31-0.32/diff.md --exclude *.pyd
+[2023-05-15 12:44:09] INFO root fetch - processPackages [curies]: executing diffoscope
+[2023-05-15 12:44:09] INFO root fetch - processPackages [curies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curies-0.5.4.tar.gz tmp/curies-0.5.5.tar.gz --markdown 20230515/c/curies/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-15 12:44:09] INFO root fetch - processPackages [certbot-acme-dns]: Downloading https://files.pythonhosted.org/packages/4b/69/1546f5824c1e0726e9f0db101cca41301e3a8f3dd0d9c73dad54fdcabfb7/certbot-acme-dns-0.3.0.tar.gz
+[2023-05-15 12:44:09] INFO root fetch - processPackages [dymoval]: Downloading https://files.pythonhosted.org/packages/db/dc/efece6ca2a3bdd30bf06bc4a27381a1b4283151c9f6e16da6954b749e73d/dymoval-0.8.7.tar.gz
+[2023-05-15 12:44:10] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-05-15 12:44:10] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-15 12:44:10] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230515/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-15 12:44:10] INFO root fetch - processPackages [certbot-acme-dns]: Downloading https://files.pythonhosted.org/packages/46/75/fa34ad6e15fcf88c67fca581f3f728fdc8516354ef62643ca87649f200a1/certbot-acme-dns-0.3.1.tar.gz
+[2023-05-15 12:44:10] INFO root fetch - processPackages [dymoval]: executing diffoscope
+[2023-05-15 12:44:10] INFO root fetch - processPackages [dymoval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dymoval-0.8.6.tar.gz tmp/dymoval-0.8.7.tar.gz --markdown 20230515/d/dymoval/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-15 12:44:10] INFO root fetch - processPackages [certbot-acme-dns]: executing diffoscope
+[2023-05-15 12:44:10] INFO root fetch - processPackages [certbot-acme-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-acme-dns-0.3.0.tar.gz tmp/certbot-acme-dns-0.3.1.tar.gz --markdown 20230515/c/certbot-acme-dns/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 12:44:10] INFO root fetch - processPackages [medsenger-api]: Start processing: PatryksAutoAI
+[2023-05-15 12:44:10] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-15 12:44:10] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-15 12:44:10] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-15 12:44:10] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.6.2.tar.gz tmp/PatryksAutoAI-0.6.3.tar.gz --markdown 20230515/P/PatryksAutoAI/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-15 12:44:11] INFO root fetch - processPackages [riptide-engine-docker]: Start processing: ispyb
+[2023-05-15 12:44:11] INFO root fetch - main [MainThread]: End processing [riptide-engine-docker]: success
+[2023-05-15 12:44:11] INFO root fetch - processPackages [ispyb]: New version: [7.2.0] Old Version: [7.1.2]
+[2023-05-15 12:44:11] INFO root fetch - main [MainThread]: End processing [django-webperformers-humans]: success
+[2023-05-15 12:44:11] INFO root fetch - main [MainThread]: End processing [autosend]: success
+[2023-05-15 12:44:11] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-15 12:44:11] INFO root fetch - main [MainThread]: End processing [conniosdk]: success
+[2023-05-15 12:44:11] INFO root fetch - processPackages [ispyb]: Downloading https://files.pythonhosted.org/packages/77/09/a2f4655aa3d6b50b2f4968826983cb50dd3e857f2588b6468926ddb0d8b5/ispyb-7.1.2.tar.gz
+[2023-05-15 12:44:12] INFO root fetch - main [MainThread]: End processing [hi-ml-cpath]: success
+[2023-05-15 12:44:12] INFO root fetch - processPackages [ispyb]: Downloading https://files.pythonhosted.org/packages/15/9c/b4b172ec92711627cfc705508faaf90aedc991f5d7a8c8bec4b5661bfce1/ispyb-7.2.0.tar.gz
+[2023-05-15 12:44:12] INFO root fetch - main [MainThread]: End processing [dymoval]: success
+[2023-05-15 12:44:12] INFO root fetch - processPackages [ispyb]: executing diffoscope
+[2023-05-15 12:44:12] INFO root fetch - processPackages [ispyb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ispyb-7.1.2.tar.gz tmp/ispyb-7.2.0.tar.gz --markdown 20230515/i/ispyb/7.1.2-7.2.0/diff.md --exclude *.pyd
+[2023-05-15 12:44:12] INFO root fetch - main [MainThread]: End processing [certbot-acme-dns]: success
+[2023-05-15 12:44:12] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-15 12:44:12] INFO root fetch - main [MainThread]: End processing [curies]: success
+[2023-05-15 12:44:13] INFO root fetch - main [MainThread]: End processing [ispyb]: success
+[2023-05-15 12:44:13] INFO root fetch - main [MainThread]: Store serial: [18106011]
