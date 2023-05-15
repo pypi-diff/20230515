@@ -1708,3 +1708,42 @@
 [2023-05-15 03:04:05] INFO root fetch - processPackages [super-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ec2-0.0.98.tar.gz tmp/super-ec2-0.0.99.tar.gz --markdown 20230515/s/super-ec2/0.0.98-0.0.99/diff.md --exclude *.pyd
 [2023-05-15 03:04:07] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
 [2023-05-15 03:04:07] INFO root fetch - main [MainThread]: Store serial: [18101243]
+[2023-05-15 03:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101243]
+[2023-05-15 03:09:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 03:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyproject-pre-commit
+[2023-05-15 03:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bfactory
+[2023-05-15 03:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: btconfig
+[2023-05-15 03:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: business-profile-yelp-local
+[2023-05-15 03:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartgpt
+[2023-05-15 03:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oglio
+[2023-05-15 03:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dnadb
+[2023-05-15 03:09:15] INFO root fetch - processPackages [bfactory]: New version: [0.4.4] Old Version: [0.4.2]
+[2023-05-15 03:09:15] INFO root fetch - processPackages [pyproject-pre-commit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 03:09:15] INFO root fetch - processPackages [oglio]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-15 03:09:15] INFO root fetch - processPackages [btconfig]: New version: [4.4.4] Old Version: [4.4.3]
+[2023-05-15 03:09:15] WARNING root fetch - processPackages [business-profile-yelp-local]: Skipping, unable to determine old version
+[2023-05-15 03:09:15] INFO root fetch - main [MainThread]: End processing [business-profile-yelp-local] error
+[2023-05-15 03:09:15] WARNING root fetch - processPackages [smartgpt]: Skipping, unable to determine old version
+[2023-05-15 03:09:15] INFO root fetch - processPackages [dnadb]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-15 03:09:15] INFO root fetch - main [MainThread]: End processing [smartgpt] error
+[2023-05-15 03:09:16] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/d6/37/7cefb7736c79bd5242b5d80c67ec2b5db58939b1af783cdd3f30f5054a0b/pyproject_pre_commit-0.0.8.tar.gz
+[2023-05-15 03:09:16] INFO root fetch - processPackages [dnadb]: executing diffoscope
+[2023-05-15 03:09:16] INFO root fetch - processPackages [dnadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnadb-0.3.0.tar.gz tmp/dnadb-0.4.0.tar.gz --markdown 20230515/d/dnadb/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 03:09:16] INFO root fetch - processPackages [bfactory]: Downloading https://files.pythonhosted.org/packages/db/2c/5c00e33caaca6ba13a6c134649595b9ce6dcc0051ae7fc304fb3a587f7c5/bfactory-0.4.4.tar.gz
+[2023-05-15 03:09:16] INFO root fetch - processPackages [bfactory]: executing diffoscope
+[2023-05-15 03:09:16] INFO root fetch - processPackages [bfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfactory-0.4.2.tar.gz tmp/bfactory-0.4.4.tar.gz --markdown 20230515/b/bfactory/0.4.2-0.4.4/diff.md --exclude *.pyd
+[2023-05-15 03:09:16] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/e7/ab/56bb5321f523dd92333314761b2fe5b230280163402bd9902c848d6d1ea6/oglio-0.7.5.tar.gz
+[2023-05-15 03:09:16] INFO root fetch - processPackages [btconfig]: Downloading https://files.pythonhosted.org/packages/25/4b/10bd5fd09c1dd238d5af7a8869598f4c50b5211b228903b6186118e035d5/btconfig-4.4.4.tar.gz
+[2023-05-15 03:09:16] INFO root fetch - processPackages [oglio]: executing diffoscope
+[2023-05-15 03:09:16] INFO root fetch - processPackages [oglio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oglio-0.7.4.tar.gz tmp/oglio-0.7.5.tar.gz --markdown 20230515/o/oglio/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-15 03:09:16] INFO root fetch - processPackages [btconfig]: executing diffoscope
+[2023-05-15 03:09:16] INFO root fetch - processPackages [btconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btconfig-4.4.3.tar.gz tmp/btconfig-4.4.4.tar.gz --markdown 20230515/b/btconfig/4.4.3-4.4.4/diff.md --exclude *.pyd
+[2023-05-15 03:09:16] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/b4/05/ef39c872bbf4bec813b234e1b5bd2d0e72f0e12de11497ac672a94846e55/pyproject_pre_commit-0.0.9.tar.gz
+[2023-05-15 03:09:16] INFO root fetch - processPackages [pyproject-pre-commit]: executing diffoscope
+[2023-05-15 03:09:16] INFO root fetch - processPackages [pyproject-pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_pre_commit-0.0.8.tar.gz tmp/pyproject_pre_commit-0.0.9.tar.gz --markdown 20230515/p/pyproject-pre-commit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 03:09:17] INFO root fetch - main [MainThread]: End processing [dnadb]: success
+[2023-05-15 03:09:17] INFO root fetch - main [MainThread]: End processing [btconfig]: success
+[2023-05-15 03:09:17] INFO root fetch - main [MainThread]: End processing [pyproject-pre-commit]: success
+[2023-05-15 03:09:17] INFO root fetch - main [MainThread]: End processing [bfactory]: success
+[2023-05-15 03:09:17] INFO root fetch - main [MainThread]: End processing [oglio]: success
+[2023-05-15 03:09:17] INFO root fetch - main [MainThread]: Store serial: [18101270]
