@@ -22879,3 +22879,93 @@ EOFError: EOF read where object expected
 [2023-05-15 23:33:11] INFO root fetch - main [MainThread]: End processing [neuroboros]: success
 [2023-05-15 23:33:11] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
 [2023-05-15 23:33:11] INFO root fetch - main [MainThread]: Store serial: [18113664]
+[2023-05-15 23:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113664]
+[2023-05-15 23:38:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-benkushigian-gambit-refactor
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-bot
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-schema
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiorobonect
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sops-secrets
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-eric-perf
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: circt
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmlt-analytics
+[2023-05-15 23:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: imodelsx
+[2023-05-15 23:38:20] INFO root fetch - processPackages [llm-bot]: New version: [0.0.2a3] Old Version: [0.0.2a2]
+[2023-05-15 23:38:20] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: New version: [20230515.20.45.145289] Old Version: [20230512.22.56.63764]
+[2023-05-15 23:38:20] INFO root fetch - processPackages [aiorobonect]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-15 23:38:20] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.96] Old Version: [1.2.95]
+[2023-05-15 23:38:20] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Downloading https://files.pythonhosted.org/packages/f0/cf/1ea8ff57da212a7a5d2fd3eddaeb40be4d98c4a1bae66d6da5b5217b5b21/certora-cli-alpha-benkushigian-gambit-refactor-20230512.22.56.63764.tar.gz
+[2023-05-15 23:38:20] INFO root fetch - processPackages [llm-bot]: executing diffoscope
+[2023-05-15 23:38:20] INFO root fetch - processPackages [llm-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_bot-0.0.2a2.tar.gz tmp/llm_bot-0.0.2a3.tar.gz --markdown 20230515/l/llm-bot/0.0.2a2-0.0.2a3/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.1.0.tar.gz tmp/aiorobonect-0.1.2.tar.gz --markdown 20230515/a/aiorobonect/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] INFO root fetch - processPackages [imodelsx]: New version: [0.9] Old Version: [0.8]
+[2023-05-15 23:38:21] INFO root fetch - processPackages [circt]: New version: [1.42.0] Old Version: [1.40.0]
+[2023-05-15 23:38:21] INFO root fetch - processPackages [certora-cli-alpha-eric-perf]: New version: [20230515.21.35.459045] Old Version: [20230512.22.50.579108]
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tmlt-analytics]: New version: [0.7.0rc1] Old Version: [0.7.0]
+[2023-05-15 23:38:21] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-15 23:38:21] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-15 23:38:21] WARNING root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Skipping package: exceeds size limit 39436795>=10485760
+[2023-05-15 23:38:21] INFO root fetch - processPackages [certora-cli-alpha-benkushigian-gambit-refactor]: Start processing: honeybee-grasshopper-energy
+[2023-05-15 23:38:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-benkushigian-gambit-refactor] error
+[2023-05-15 23:38:21] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230515/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/20/67/d89b397173d1b1d4cbd3e7e9cb2baed5162bb9f9ffd32843556491b4f13b/cdk-sops-secrets-1.2.96.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/c2/bb/854cf8abdbc560dcb4e456098e2691c96e4d4790c052cb2f80fdca0ecb77/tmlt_analytics-0.7.0.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [certora-cli-alpha-eric-perf]: Downloading https://files.pythonhosted.org/packages/c4/85/30b8b6225e656a2ec8de0c55e04a58c9e349381a9eb4d36d5d1498144a3d/certora-cli-alpha-eric-perf-20230512.22.50.579108.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-15 23:38:21] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/d5/f9/2d56764d32ee40aea23493b6fc2968b0791e761a96413e5a3d9bae38ba6f/imodelsx-0.8.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/bc/dd/28155c1149961777a0197e887f9dfeb63571ac5083b9fc7d49557e6e9ab4/circt-1.40.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 23:38:21] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.95.tar.gz tmp/cdk-sops-secrets-1.2.96.tar.gz --markdown 20230515/c/cdk-sops-secrets/1.2.95-1.2.96/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/8d/41/2b1f8fcb0e971555f5d09037fa11e4fabeb60e1537e6d7116ac16db47a14/honeybee-grasshopper-energy-1.9.1.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/9a/a6/ebfa9059ea8d305d2b71083145584142efa7669def05d5af8cc2db17c8ec/imodelsx-0.9.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/8c/e2/30c74165a4876dbbcd4a3dd8b640f0c419ef16fd289c3064801338e7a192/tmlt_analytics-0.7.0rc1.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-0.8.tar.gz tmp/imodelsx-0.9.tar.gz --markdown 20230515/i/imodelsx/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] WARNING root fetch - processPackages [certora-cli-alpha-eric-perf]: Skipping package: exceeds size limit 39446045>=10485760
+[2023-05-15 23:38:21] INFO root fetch - processPackages [certora-cli-alpha-eric-perf]: Start processing: criptoMetodos
+[2023-05-15 23:38:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-perf] error
+[2023-05-15 23:38:21] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tmlt-analytics]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tmlt-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlt_analytics-0.7.0.tar.gz tmp/tmlt_analytics-0.7.0rc1.tar.gz --markdown 20230515/t/tmlt-analytics/0.7.0-0.7.0rc1/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/c0/77/5ea4f5cbf977edd2c2511c83b34d974baf46a246f689d9228b3fb66f7a48/honeybee-grasshopper-energy-1.9.2.tar.gz
+[2023-05-15 23:38:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-energy-1.9.1.tar.gz tmp/honeybee-grasshopper-energy-1.9.2.tar.gz --markdown 20230515/h/honeybee-grasshopper-energy/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] WARNING root fetch - processPackages [criptoMetodos]: Skipping, unable to determine old version
+[2023-05-15 23:38:21] INFO root fetch - processPackages [criptoMetodos]: Start processing: tox-ansible
+[2023-05-15 23:38:21] INFO root fetch - main [MainThread]: End processing [criptoMetodos] error
+[2023-05-15 23:38:21] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230515/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tox-ansible]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tox-ansible]: executing diffoscope
+[2023-05-15 23:38:21] INFO root fetch - processPackages [tox-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-ansible-2.0.2.tar.gz tmp/tox-ansible-2.0.3.tar.gz --markdown 20230515/t/tox-ansible/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-15 23:38:22] INFO root fetch - processPackages [aiorobonect]: Start processing: Simba-UW-tf-dev
+[2023-05-15 23:38:22] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-05-15 23:38:22] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/af/2c/56d62b0521f19995f1f843612b53db44882e1cfeb312479f1fbce38498f5/circt-1.42.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 23:38:22] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.59.4] Old Version: [1.59.3]
+[2023-05-15 23:38:22] INFO root fetch - processPackages [llm-bot]: Start processing: ethraid
+[2023-05-15 23:38:22] INFO root fetch - main [MainThread]: End processing [llm-bot]: success
+[2023-05-15 23:38:22] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-15 23:38:22] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.59.3.tar.gz tmp/Simba-UW-tf-dev-1.59.4.tar.gz --markdown 20230515/S/Simba-UW-tf-dev/1.59.3-1.59.4/diff.md --exclude *.pyd
+[2023-05-15 23:38:22] INFO root fetch - processPackages [ethraid]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-15 23:38:22] INFO root fetch - processPackages [ethraid]: Downloading https://files.pythonhosted.org/packages/06/32/baf493c67bc4c3ea7a8c9b279de248713a04fa88aeb98c100c6949eef4d8/ethraid-2.1.0.tar.gz
+[2023-05-15 23:38:22] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2023-05-15 23:38:23] INFO root fetch - processPackages [ethraid]: Downloading https://files.pythonhosted.org/packages/df/c6/dc62b75d1febe1e6f2464a62a6ab810396f320b4a4777a235f47323ee6ce/ethraid-2.2.0.tar.gz
+[2023-05-15 23:38:23] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-05-15 23:38:23] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.40.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.42.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230515/c/circt/1.40.0-1.42.0/diff.md --exclude *.pyd
+[2023-05-15 23:38:23] INFO root fetch - main [MainThread]: End processing [tox-ansible]: success
+[2023-05-15 23:38:23] INFO root fetch - processPackages [ethraid]: executing diffoscope
+[2023-05-15 23:38:23] INFO root fetch - processPackages [ethraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethraid-2.1.0.tar.gz tmp/ethraid-2.2.0.tar.gz --markdown 20230515/e/ethraid/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-15 23:38:24] INFO root fetch - main [MainThread]: End processing [tmlt-analytics]: success
+[2023-05-15 23:38:24] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-15 23:38:24] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
+[2023-05-15 23:38:24] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-05-15 23:38:25] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-15 23:38:28] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-15 23:38:35] INFO root fetch - main [MainThread]: End processing [ethraid]: success
+[2023-05-15 23:41:23] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-05-15 23:41:23] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-05-15 23:41:23] INFO root fetch - main [MainThread]: Store serial: [18113708]
