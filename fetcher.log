@@ -21756,3 +21756,116 @@ EOFError: EOF read where object expected
 [2023-05-15 22:22:45] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
 [2023-05-15 22:22:45] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-15 22:22:45] INFO root fetch - main [MainThread]: Store serial: [18112941]
+[2023-05-15 22:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112941]
+[2023-05-15 22:27:55] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypy-boto3-kafka
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-rekognition
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-python-serializer
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-codecatalyst
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-transfer
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-athena
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypy-boto3-rolesanywhere
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3
+[2023-05-15 22:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boto3-stubs
+[2023-05-15 22:27:55] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.9.25.343999] Old Version: [20230515.8.28.196716]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-athena]: New version: [1.26.87] Old Version: [1.26.4]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/57/3c8e4f696ecc29a6da16dae52cb9b9d1391b25ce946105a3f96ced6e88c4/certora-cli-alpha-master-20230515.8.28.196716.tar.gz
+[2023-05-15 22:27:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430676>=10485760
+[2023-05-15 22:27:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: PySulfSat
+[2023-05-15 22:27:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: New version: [1.26.82] Old Version: [1.26.21]
+[2023-05-15 22:27:55] WARNING root fetch - processPackages [my-python-serializer]: Skipping, unable to determine old version
+[2023-05-15 22:27:55] INFO root fetch - processPackages [my-python-serializer]: Start processing: boto3-stubs-lite
+[2023-05-15 22:27:55] INFO root fetch - main [MainThread]: End processing [my-python-serializer] error
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-rolesanywhere]: New version: [1.26.134] Old Version: [1.26.0.post1]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-transfer]: New version: [1.26.66] Old Version: [1.26.38]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-kafka]: New version: [1.26.60] Old Version: [1.26.134]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-rekognition]: New version: [1.26.8] Old Version: [1.26.28]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [PySulfSat]: New version: [1.0.1] Old Version: [0.0.9]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-athena]: Downloading https://files.pythonhosted.org/packages/9a/39/68f1a35a1dfef261d4e36db5b2a7ba5eee110a761a1ac648f077a8b6db14/mypy-boto3-athena-1.26.4.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Downloading https://files.pythonhosted.org/packages/41/2a/cc6d43aec413e6173e29a35a770747df0fbcbecda1116d275cff76a1d141/mypy-boto3-codecatalyst-1.26.21.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-kafka]: Downloading https://files.pythonhosted.org/packages/2d/e6/70434e3ed6ba18f711e12a15d31b2ea6261a28799bf41d84c77a70153f73/mypy-boto3-kafka-1.26.134.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-rolesanywhere]: Downloading https://files.pythonhosted.org/packages/41/b7/b1d4b3b6cf028011a81fdecc23045ce8396e50f4430528d6afad5d97355a/mypy-boto3-rolesanywhere-1.26.0.post1.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-rekognition]: Downloading https://files.pythonhosted.org/packages/30/69/9cf0a41f18c3260ace475dd983059d92acf632dcb0ac11089106edf79c0c/mypy-boto3-rekognition-1.26.28.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-transfer]: Downloading https://files.pythonhosted.org/packages/0f/cf/d71282c0a03b3aa20ada5bdc6b63639a2a971ebe6d2555b589bdd2c36cf4/mypy-boto3-transfer-1.26.38.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [PySulfSat]: Downloading https://files.pythonhosted.org/packages/ae/aa/a8802f46dd9374b623d5da77b9b29bb59de2846d74f1f58a6219c5be4da0/PySulfSat-0.0.9.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/d5/b3/b7add8ef42166b4b6fe8070c7809196e841899fae0741fbab7f1135a68d0/mypy-boto3-1.26.98.tar.gz
+[2023-05-15 22:27:55] INFO root fetch - processPackages [mypy-boto3-athena]: Downloading https://files.pythonhosted.org/packages/e4/30/343367814938a22eb2037b40e1ad5780ce01a245c3a3499ce4698d688b9f/mypy-boto3-athena-1.26.87.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-rolesanywhere]: Downloading https://files.pythonhosted.org/packages/a6/4f/0c42490e05131622473cd6987b5310726abb127e0d767c09ce47b8d77e04/mypy-boto3-rolesanywhere-1.26.134.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/5b/57/dabc8ee7c1ea46b18a76ac91d2886b6637914ee5505abaea53f246e0834f/boto3-stubs-1.26.98.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Downloading https://files.pythonhosted.org/packages/63/84/c1bc323cfabe21aef536901450275ae7170f0759a61f63c4f247f33aaa28/mypy-boto3-codecatalyst-1.26.82.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-athena]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-athena-1.26.4.tar.gz tmp/mypy-boto3-athena-1.26.87.tar.gz --markdown 20230515/m/mypy-boto3-athena/1.26.4-1.26.87/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [PySulfSat]: Downloading https://files.pythonhosted.org/packages/2a/64/561d7e487c4f9fb7c9dfc801b74fc0d3e84b7ef6d71deb2c5e42baff0c23/PySulfSat-1.0.1.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-codecatalyst-1.26.21.tar.gz tmp/mypy-boto3-codecatalyst-1.26.82.tar.gz --markdown 20230515/m/mypy-boto3-codecatalyst/1.26.21-1.26.82/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-transfer]: Downloading https://files.pythonhosted.org/packages/a3/88/12d7bf5c67199012f778457040bc8fb1b6bfc78a16a642f791ec07388f5b/mypy-boto3-transfer-1.26.66.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-rekognition]: Downloading https://files.pythonhosted.org/packages/be/46/b12faf034bd1f64586116ebf441f68c4383719bd08d998ef061861bbb314/mypy-boto3-rekognition-1.26.8.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-rolesanywhere]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-rolesanywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-rolesanywhere-1.26.0.post1.tar.gz tmp/mypy-boto3-rolesanywhere-1.26.134.tar.gz --markdown 20230515/m/mypy-boto3-rolesanywhere/1.26.0.post1-1.26.134/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-transfer]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-transfer-1.26.38.tar.gz tmp/mypy-boto3-transfer-1.26.66.tar.gz --markdown 20230515/m/mypy-boto3-transfer/1.26.38-1.26.66/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-kafka]: Downloading https://files.pythonhosted.org/packages/65/b3/13a844ee277b77e97b234f03f81c93a83eab0c39efc2c381c7f6b23a0e5b/mypy-boto3-kafka-1.26.60.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-rekognition]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-rekognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-rekognition-1.26.28.tar.gz tmp/mypy-boto3-rekognition-1.26.8.tar.gz --markdown 20230515/m/mypy-boto3-rekognition/1.26.28-1.26.8/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/03/38/d650a2736258e070c5460a889b9b8ba1ced51d29cf6b09c17f1582eb6e40/boto3-stubs-lite-1.26.98.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-kafka]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-kafka-1.26.134.tar.gz tmp/mypy-boto3-kafka-1.26.60.tar.gz --markdown 20230515/m/mypy-boto3-kafka/1.26.134-1.26.60/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/47/b8/8410b925ba42498e88d5a4524e93639247a1d0fadb51ec4e7e0130cbc6d8/boto3-stubs-1.26.99.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/81/43/73d34fd042cd1ac9b681ac1fd409840a1e5f0082a2cc009605bd1dcf20f5/mypy-boto3-1.26.99.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230515/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230515/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [PySulfSat]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [PySulfSat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySulfSat-0.0.9.tar.gz tmp/PySulfSat-1.0.1.tar.gz --markdown 20230515/P/PySulfSat/0.0.9-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/40/77/05b803ffd38643d059c7254b8adbf5dba05fb83975f15d0b8696d5a2a98b/boto3-stubs-lite-1.26.99.tar.gz
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-05-15 22:27:56] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230515/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-15 22:27:57] INFO root fetch - processPackages [mypy-boto3-athena]: Start processing: timple
+[2023-05-15 22:27:57] INFO root fetch - main [MainThread]: End processing [mypy-boto3-athena]: success
+[2023-05-15 22:27:57] INFO root fetch - processPackages [timple]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 22:27:57] INFO root fetch - processPackages [mypy-boto3]: Start processing: morecantile
+[2023-05-15 22:27:57] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-05-15 22:27:57] INFO root fetch - processPackages [morecantile]: New version: [4.0.0a0] Old Version: [3.3.0]
+[2023-05-15 22:27:58] INFO root fetch - processPackages [timple]: Downloading https://files.pythonhosted.org/packages/f5/5d/048b6a0226a98ea7be2aa1ee3e2a907aa5c21db31adccb1692c6fc824b63/timple-0.1.4.tar.gz
+[2023-05-15 22:27:58] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-05-15 22:27:58] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-3.3.0.tar.gz tmp/morecantile-4.0.0a0.tar.gz --markdown 20230515/m/morecantile/3.3.0-4.0.0a0/diff.md --exclude *.pyd
+[2023-05-15 22:27:58] INFO root fetch - processPackages [PySulfSat]: Start processing: gpt-review
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [PySulfSat]: success
+[2023-05-15 22:27:58] INFO root fetch - processPackages [timple]: Downloading https://files.pythonhosted.org/packages/49/5e/42811ce9f49253f17c81ef374276d77f2bc757dab67eeead93e513397e0f/timple-0.1.5.tar.gz
+[2023-05-15 22:27:58] INFO root fetch - processPackages [gpt-review]: New version: [0.9.0rc707.post1] Old Version: [0.9.0rc680.post1]
+[2023-05-15 22:27:58] INFO root fetch - processPackages [mypy-boto3-transfer]: Start processing: gpt-review
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [mypy-boto3-transfer]: success
+[2023-05-15 22:27:58] INFO root fetch - processPackages [gpt-review]: New version: [0.9.0rc707.post1] Old Version: [0.9.0rc680.post1]
+[2023-05-15 22:27:58] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-15 22:27:58] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.9.0rc680.post1.tar.gz tmp/gpt_review-0.9.0rc707.post1.tar.gz --markdown 20230515/g/gpt-review/0.9.0rc680.post1-0.9.0rc707.post1/diff.md --exclude *.pyd
+[2023-05-15 22:27:58] INFO root fetch - processPackages [boto3-stubs]: Start processing: pulumi
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-05-15 22:27:58] INFO root fetch - processPackages [timple]: executing diffoscope
+[2023-05-15 22:27:58] INFO root fetch - processPackages [timple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timple-0.1.4.tar.gz tmp/timple-0.1.5.tar.gz --markdown 20230515/t/timple/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 22:27:58] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Start processing: translators
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [mypy-boto3-codecatalyst]: success
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [mypy-boto3-kafka]: success
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [mypy-boto3-rekognition]: success
+[2023-05-15 22:27:58] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-15 22:27:58] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.9.0rc680.post1.tar.gz tmp/gpt_review-0.9.0rc707.post1.tar.gz --markdown 20230515/g/gpt-review/0.9.0rc680.post1-0.9.0rc707.post1/diff.md --exclude *.pyd
+[2023-05-15 22:27:58] INFO root fetch - processPackages [translators]: New version: [5.7.2] Old Version: [5.7.1]
+[2023-05-15 22:27:58] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-05-15 22:27:58] INFO root fetch - processPackages [translators]: executing diffoscope
+[2023-05-15 22:27:58] INFO root fetch - processPackages [translators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translators-5.7.1.tar.gz tmp/translators-5.7.2.tar.gz --markdown 20230515/t/translators/5.7.1-5.7.2/diff.md --exclude *.pyd
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [mypy-boto3-rolesanywhere]: success
+[2023-05-15 22:27:58] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-05-15 22:27:59] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-05-15 22:27:59] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230515/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-05-15 22:27:59] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-05-15 22:28:00] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-15 22:28:00] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-15 22:28:00] INFO root fetch - main [MainThread]: End processing [timple]: success
+[2023-05-15 22:28:00] INFO root fetch - main [MainThread]: End processing [translators]: success
+[2023-05-15 22:28:00] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-05-15 22:28:00] INFO root fetch - main [MainThread]: Store serial: [18113001]
