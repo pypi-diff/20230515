@@ -15014,3 +15014,89 @@ EOFError: EOF read where object expected
 [2023-05-15 16:11:46] INFO root fetch - main [MainThread]: End processing [sunpy]: success
 [2023-05-15 16:11:46] INFO root fetch - main [MainThread]: End processing [clophfit]: success
 [2023-05-15 16:11:46] INFO root fetch - main [MainThread]: Store serial: [18108945]
+[2023-05-15 16:16:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108945]
+[2023-05-15 16:16:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unpast
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptcache
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MACS2
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-assaf-braveOrStupidExperiment
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eth-owned
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WX-Push-Services
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-power-ops
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ImoT-tools
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: khash
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-solc-x-ir
+[2023-05-15 16:16:57] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [unpast]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ImoT-tools]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-05-15 16:16:57] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.4.0.tar.gz tmp/cognite_power_ops-0.4.1.tar.gz --markdown 20230515/c/cognite-power-ops/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-15 16:16:57] WARNING root fetch - processPackages [py-solc-x-ir]: Skipping, unable to determine old version
+[2023-05-15 16:16:57] WARNING root fetch - processPackages [certora-cli-alpha-assaf-braveOrStupidExperiment]: Skipping, unable to determine old version
+[2023-05-15 16:16:57] INFO root fetch - processPackages [MACS2]: New version: [2.2.8] Old Version: [2.2.7.1]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [py-solc-x-ir]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-15 16:16:57] INFO root fetch - processPackages [eth-owned]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 16:16:57] INFO root fetch - main [MainThread]: End processing [py-solc-x-ir] error
+[2023-05-15 16:16:57] INFO root fetch - processPackages [certora-cli-alpha-assaf-braveOrStupidExperiment]: Start processing: bmi-arcgis-restapi
+[2023-05-15 16:16:57] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 16:16:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-braveOrStupidExperiment] error
+[2023-05-15 16:16:57] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 16:16:57] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.8.tar.gz tmp/WX_Push_Services-1.0.9.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:16:57] INFO root fetch - processPackages [khash]: New version: [0.5.0a3] Old Version: [0.5.0a1]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ImoT-tools]: Downloading https://files.pythonhosted.org/packages/b7/89/7401aa6a35a64155c035209dc84a23d3a0048d82479b7e512b5447c2b56c/ImoT_tools-1.1.0.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [bmi-arcgis-restapi]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-05-15 16:16:57] INFO root fetch - processPackages [unpast]: Downloading https://files.pythonhosted.org/packages/0c/7a/8dae5d8840280e27bd5b76cb5c3bac74d497024fbced1c713062b2c2e989/unpast-0.1.5.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/5e/aa/dd9849e339520df550c0cc98203695fa1dc0588cf6680a6c9fa45f2e2873/eth-owned-0.1.0.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/48/fa/7951cf776b9e50ff1089bfadde7258031a0a38d79998521a48a3c9a40db5/gptcache-0.1.8.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [MACS2]: Downloading https://files.pythonhosted.org/packages/e2/61/85d30ecdd34525113e28cb0c5a9f393f93578165f8d848be5925c0208dfb/MACS2-2.2.7.1.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [khash]: Downloading https://files.pythonhosted.org/packages/19/35/dfc53785d4484c7ec29c2de722f72dc5fb81cc4654479a7f87e46011b48a/khash-0.5.0a1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-15 16:16:57] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [bmi-arcgis-restapi]: Downloading https://files.pythonhosted.org/packages/9c/15/98f75c1c649d051fe6a00a3647c2925603375d12a379574fba9aed818682/bmi-arcgis-restapi-2.3.7.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [unpast]: Downloading https://files.pythonhosted.org/packages/d7/8e/c95d8b9b9ddb185b957d2e9c3de3f2ec77b23fbec95f59decce3cf48932e/unpast-0.1.6.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/db/13/eaa97f62ada2793df54def6e07224dcec50ca938d1fa44498a5f00b6199f/eth-owned-0.1.1.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ImoT-tools]: Downloading https://files.pythonhosted.org/packages/71/ec/e3b986ffcc8a3a1556624b0a6d73479dfc5e07b62d48de5e44abe3e1aa6b/ImoT_tools-1.2.0.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/0e/bb/72700c82969c8279118015284301ef2a13caa1a56f2533ba0476c955077f/gptcache-0.1.9.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [MACS2]: Downloading https://files.pythonhosted.org/packages/ef/4d/8158c671a5597b423189851e1004bd7065777ffd7d3258e161db8fdc1a69/MACS2-2.2.8.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [khash]: Downloading https://files.pythonhosted.org/packages/a8/c2/733ce61acad2870418927d4b495022dbaaaaf83f41c09451bc306e2eef17/khash-0.5.0a3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-15 16:16:57] INFO root fetch - processPackages [eth-owned]: executing diffoscope
+[2023-05-15 16:16:57] INFO root fetch - processPackages [eth-owned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-owned-0.1.0.tar.gz tmp/eth-owned-0.1.1.tar.gz --markdown 20230515/e/eth-owned/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ImoT-tools]: executing diffoscope
+[2023-05-15 16:16:57] INFO root fetch - processPackages [ImoT-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImoT_tools-1.1.0.tar.gz tmp/ImoT_tools-1.2.0.tar.gz --markdown 20230515/I/ImoT-tools/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-15 16:16:57] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-05-15 16:16:57] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230515/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 16:16:57] INFO root fetch - processPackages [unpast]: executing diffoscope
+[2023-05-15 16:16:57] INFO root fetch - processPackages [unpast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpast-0.1.5.tar.gz tmp/unpast-0.1.6.tar.gz --markdown 20230515/u/unpast/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 16:16:57] INFO root fetch - processPackages [bmi-arcgis-restapi]: Downloading https://files.pythonhosted.org/packages/43/c5/0e97a8bbb088492e883cc661a467af51ec59afeba58231e554e4c91a686e/bmi-arcgis-restapi-2.3.8.tar.gz
+[2023-05-15 16:16:57] INFO root fetch - processPackages [MACS2]: executing diffoscope
+[2023-05-15 16:16:57] INFO root fetch - processPackages [MACS2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MACS2-2.2.7.1.tar.gz tmp/MACS2-2.2.8.tar.gz --markdown 20230515/M/MACS2/2.2.7.1-2.2.8/diff.md --exclude *.pyd
+[2023-05-15 16:16:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-05-15 16:16:58] INFO root fetch - processPackages [khash]: executing diffoscope
+[2023-05-15 16:16:58] INFO root fetch - processPackages [khash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khash-0.5.0a1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip tmp/khash-0.5.0a3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20230515/k/khash/0.5.0a1-0.5.0a3/diff.md --exclude *.pyd
+[2023-05-15 16:16:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-15 16:16:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 16:16:58] INFO root fetch - processPackages [bmi-arcgis-restapi]: executing diffoscope
+[2023-05-15 16:16:58] INFO root fetch - processPackages [bmi-arcgis-restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmi-arcgis-restapi-2.3.7.tar.gz tmp/bmi-arcgis-restapi-2.3.8.tar.gz --markdown 20230515/b/bmi-arcgis-restapi/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-05-15 16:16:59] INFO root fetch - processPackages [WX-Push-Services]: Start processing: livesolid
+[2023-05-15 16:16:59] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 16:16:59] INFO root fetch - processPackages [livesolid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 16:16:59] INFO root fetch - processPackages [livesolid]: executing diffoscope
+[2023-05-15 16:16:59] INFO root fetch - processPackages [livesolid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livesolid-0.0.8.tar.gz tmp/livesolid-0.0.9.tar.gz --markdown 20230515/l/livesolid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:16:59] INFO root fetch - processPackages [cognite-power-ops]: Start processing: elefantolib-fastapi
+[2023-05-15 16:16:59] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-05-15 16:16:59] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-15 16:16:59] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/2f/a7/df4a59007ce214f62d0b64704be1196b00ed577675c01512a0dff81e22ca/elefantolib_fastapi-0.2.5.tar.gz
+[2023-05-15 16:16:59] INFO root fetch - main [MainThread]: End processing [unpast]: success
+[2023-05-15 16:17:00] INFO root fetch - main [MainThread]: End processing [eth-owned]: success
+[2023-05-15 16:17:00] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-05-15 16:17:00] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.2.4.tar.gz tmp/elefantolib_fastapi-0.2.5.tar.gz --markdown 20230515/e/elefantolib-fastapi/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-15 16:17:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-15 16:17:00] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-05-15 16:17:01] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-05-15 16:17:01] INFO root fetch - main [MainThread]: End processing [livesolid]: success
+[2023-05-15 16:17:01] INFO root fetch - main [MainThread]: End processing [MACS2]: success
+[2023-05-15 16:17:01] INFO root fetch - main [MainThread]: End processing [khash]: success
+[2023-05-15 16:17:01] INFO root fetch - main [MainThread]: End processing [ImoT-tools]: success
+[2023-05-15 16:17:02] INFO root fetch - main [MainThread]: End processing [bmi-arcgis-restapi]: success
+[2023-05-15 16:17:02] INFO root fetch - main [MainThread]: Store serial: [18109036]
