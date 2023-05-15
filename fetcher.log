@@ -14152,3 +14152,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 15:21:55] INFO root fetch - main [MainThread]: End processing [netdoc]: success
 [2023-05-15 15:23:57] INFO root fetch - main [MainThread]: End processing [slepc]: success
 [2023-05-15 15:23:57] INFO root fetch - main [MainThread]: Store serial: [18108434]
+[2023-05-15 15:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108434]
+[2023-05-15 15:29:26] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparclclient
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-notifications-sdk-preview
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assistant-fulfillment-helper
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-peeringdb
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twirl
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calculemus
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickzetta-connector
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clickzetta-sqlalchemy
+[2023-05-15 15:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pystatic-language
+[2023-05-15 15:29:27] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [calculemus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.6.3.tar.gz tmp/clickzetta-sqlalchemy-0.6.4.tar.gz --markdown 20230515/c/clickzetta-sqlalchemy/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [django-peeringdb]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [assistant-fulfillment-helper]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [pystatic-language]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [twirl]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230515.9.28.17955] Old Version: [20230515.8.30.284279]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [sparclclient]: New version: [1.2.0b4.dev0] Old Version: [1.2.0b3.dev9]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.6.3.tar.gz tmp/clickzetta-connector-0.6.4.tar.gz --markdown 20230515/c/clickzetta-connector/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.685] Old Version: [0.1.683]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [django-peeringdb]: Downloading https://files.pythonhosted.org/packages/8e/de/ad9ee38d97574e9b1e1b2f96523a3bb957313884bb836823fa133e35c6b6/django-peeringdb-3.0.0.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [calculemus]: Downloading https://files.pythonhosted.org/packages/8e/6c/9def8b98d8fee01a0dc5cbea7b056109aeae6fc748f0c35789b69930cce1/calculemus-0.0.1.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [assistant-fulfillment-helper]: Downloading https://files.pythonhosted.org/packages/07/e2/cd10c3e98066755b6f01e195df46aa10ac1e5aad02e2108f391009625b02/assistant-fulfillment-helper-1.0.5.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/e3/28/a423fabd542019b0eedf821af75dd341cd321309f0ec965787e85b604b95/certora-cli-alpha-jtoman-try-catch-20230515.8.30.284279.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [sparclclient]: Downloading https://files.pythonhosted.org/packages/fa/7a/cdccc78ba3569e1845ccc133af143b6ba27f35c68aa4f704ad573cb8fe5a/sparclclient-1.2.0b3.dev9-py3-none-any.whl
+[2023-05-15 15:29:27] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/09/59/9cd3b325ca49c24c395eb09a98f24ad856a5e88a3407024e2cefd2b04fb1/twirl-0.1.3.tar.gz
+[2023-05-15 15:29:27] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39430910>=10485760
+[2023-05-15 15:29:27] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: LHCbDIRAC
+[2023-05-15 15:29:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-15 15:29:27] INFO root fetch - processPackages [pystatic-language]: Downloading https://files.pythonhosted.org/packages/f4/13/00defb2c2bc0ffed13085f0389fd2ac8494ee5678ad8118a698a1b502c37/pystatic-language-1.0.3.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/46/d8/76cbb57da316d191f08b2ccb89570ece449baeb532d11fc7994fd9e452a9/lusid-notifications-sdk-preview-0.1.685.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [LHCbDIRAC]: New version: [11.1.0a1] Old Version: [11.0.9]
+[2023-05-15 15:29:27] INFO root fetch - processPackages [pystatic-language]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [pystatic-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystatic-language-1.0.2.tar.gz tmp/pystatic-language-1.0.3.tar.gz --markdown 20230515/p/pystatic-language/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [sparclclient]: Downloading https://files.pythonhosted.org/packages/2a/91/c0720b9e98d150ea5032e35eba2db3e7f59dbcba22ea3622f807edafbf4a/sparclclient-1.2.0b4.dev0-py3-none-any.whl
+[2023-05-15 15:29:27] INFO root fetch - processPackages [calculemus]: Downloading https://files.pythonhosted.org/packages/ff/70/8b78dff78dbcabedf0d2d490cd22992d2d7827c1b545c48b91fb30d7c353/calculemus-0.0.2.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [django-peeringdb]: Downloading https://files.pythonhosted.org/packages/8e/42/8f168fa4c4552c4fb35efd526ab621507c9ef7555e78a67303017dc5517d/django-peeringdb-3.0.1.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [assistant-fulfillment-helper]: Downloading https://files.pythonhosted.org/packages/c7/53/4847e4c5ee88e10354d7f8acb01b97519513b8bba4d6286fb0e8ea66daf6/assistant-fulfillment-helper-1.0.6.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/82/a1/05449c2079660bb9e11f5cc09e8208f48d85f3a966bb6bc6da6e39e06f0f/LHCbDIRAC-11.0.9.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/c1/a4/eeb772d37f8568df0d5c02087de89287dbf8030b306f18cd48ee535e23c5/twirl-0.2.0.tar.gz
+[2023-05-15 15:29:27] INFO root fetch - processPackages [sparclclient]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [sparclclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparclclient-1.2.0b3.dev9-py3-none-any.whl.zip tmp/sparclclient-1.2.0b4.dev0-py3-none-any.whl.zip --markdown 20230515/s/sparclclient/1.2.0b3.dev9-1.2.0b4.dev0/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [calculemus]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [calculemus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculemus-0.0.1.tar.gz tmp/calculemus-0.0.2.tar.gz --markdown 20230515/c/calculemus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.683.tar.gz tmp/lusid-notifications-sdk-preview-0.1.685.tar.gz --markdown 20230515/l/lusid-notifications-sdk-preview/0.1.683-0.1.685/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [django-peeringdb]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [django-peeringdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-peeringdb-3.0.0.tar.gz tmp/django-peeringdb-3.0.1.tar.gz --markdown 20230515/d/django-peeringdb/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [assistant-fulfillment-helper]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [assistant-fulfillment-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistant-fulfillment-helper-1.0.5.tar.gz tmp/assistant-fulfillment-helper-1.0.6.tar.gz --markdown 20230515/a/assistant-fulfillment-helper/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-15 15:29:27] INFO root fetch - processPackages [twirl]: executing diffoscope
+[2023-05-15 15:29:27] INFO root fetch - processPackages [twirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twirl-0.1.3.tar.gz tmp/twirl-0.2.0.tar.gz --markdown 20230515/t/twirl/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 15:29:28] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/2d/36/668ff5f5ebec9665852faf372694cb9a68fd05b6f3248d7104700635210e/LHCbDIRAC-11.1.0a1.tar.gz
+[2023-05-15 15:29:28] INFO root fetch - processPackages [LHCbDIRAC]: executing diffoscope
+[2023-05-15 15:29:28] INFO root fetch - processPackages [LHCbDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbDIRAC-11.0.9.tar.gz tmp/LHCbDIRAC-11.1.0a1.tar.gz --markdown 20230515/L/LHCbDIRAC/11.0.9-11.1.0a1/diff.md --exclude *.pyd
+[2023-05-15 15:29:28] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: ogc-na
+[2023-05-15 15:29:28] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-15 15:29:28] INFO root fetch - processPackages [ogc-na]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-15 15:29:28] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-05-15 15:29:28] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.5-py3-none-any.whl.zip tmp/ogc_na-0.2.6.tar.gz --markdown 20230515/o/ogc-na/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-15 15:29:29] INFO root fetch - processPackages [clickzetta-connector]: Start processing: deep-agent
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-15 15:29:29] INFO root fetch - processPackages [sparclclient]: Start processing: certora-cli-alpha-alex-mapdefinition-tacvalue
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [sparclclient]: success
+[2023-05-15 15:29:29] INFO root fetch - processPackages [deep-agent]: New version: [0.2.dev0] Old Version: [0.1.dev0]
+[2023-05-15 15:29:29] INFO root fetch - processPackages [calculemus]: Start processing: odoo-addon-account-analytic-required
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [calculemus]: success
+[2023-05-15 15:29:29] INFO root fetch - processPackages [certora-cli-alpha-alex-mapdefinition-tacvalue]: New version: [20230515.13.27.52547] Old Version: [20230511.19.12.322227]
+[2023-05-15 15:29:29] INFO root fetch - processPackages [twirl]: Start processing: kcli
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [twirl]: success
+[2023-05-15 15:29:29] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.2]
+[2023-05-15 15:29:29] INFO root fetch - processPackages [kcli]: New version: [99.0.202305150959] Old Version: [99.0.202305141900]
+[2023-05-15 15:29:29] INFO root fetch - processPackages [deep-agent]: Downloading https://files.pythonhosted.org/packages/80/c9/4445b1a23601ba797137915609dc1b2de39d08489b2c08b295fa25672fed/deep_agent-0.1.dev0.tar.gz
+[2023-05-15 15:29:29] INFO root fetch - processPackages [pystatic-language]: Start processing: odoo-addon-email-template-qweb
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [pystatic-language]: success
+[2023-05-15 15:29:29] INFO root fetch - processPackages [certora-cli-alpha-alex-mapdefinition-tacvalue]: Downloading https://files.pythonhosted.org/packages/7d/dd/67f71db99f5e504127c9bafc65feededa021ff1468e2b5d18951f58b8d72/certora-cli-alpha-alex-mapdefinition-tacvalue-20230511.19.12.322227.tar.gz
+[2023-05-15 15:29:29] INFO root fetch - processPackages [assistant-fulfillment-helper]: Start processing: finetune-eval
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [assistant-fulfillment-helper]: success
+[2023-05-15 15:29:29] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: Downloading https://files.pythonhosted.org/packages/af/19/d5a95dae61a2f4cc70530ae7f2a6a83e93224a3e0b593c692c2f0229af5b/odoo_addon_account_analytic_required-15.0.1.0.2-py3-none-any.whl
+[2023-05-15 15:29:29] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-05-15 15:29:29] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b3/f5/8d7be04c3d1063b6866575aae4ec334d68d854b9a1228600c803964ae919/kcli-99.0.202305150959-py3-none-any.whl
+[2023-05-15 15:29:29] WARNING root fetch - processPackages [finetune-eval]: Skipping, unable to determine old version
+[2023-05-15 15:29:29] INFO root fetch - processPackages [finetune-eval]: Start processing: render-engine-aggregators
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [finetune-eval] error
+[2023-05-15 15:29:29] WARNING root fetch - processPackages [render-engine-aggregators]: Skipping, unable to determine old version
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [render-engine-aggregators] error
+[2023-05-15 15:29:29] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-05-15 15:29:29] INFO root fetch - processPackages [deep-agent]: Downloading https://files.pythonhosted.org/packages/4e/6c/7d5fa2b6618cc123dc6e6616dd6655315da7e980a0f4d67e336915514270/deep_agent-0.2.dev0.tar.gz
+[2023-05-15 15:29:30] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 15:29:30] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305141900-py3-none-any.whl.zip tmp/kcli-99.0.202305150959-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305141900-99.0.202305150959/diff.md --exclude *.pyd
+[2023-05-15 15:29:30] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: Downloading https://files.pythonhosted.org/packages/57/9c/bf3171f81ba804e320bc671b73c67b6ab16329a84eaff677ae162c7417c0/odoo_addon_email_template_qweb-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 15:29:30] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: Downloading https://files.pythonhosted.org/packages/b3/21/81fce63a56ace2975a1ee543eab41f952b4fe49167fd3e5cffbc2fa85f5b/odoo_addon_account_analytic_required-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 15:29:30] INFO root fetch - processPackages [deep-agent]: executing diffoscope
+[2023-05-15 15:29:30] INFO root fetch - processPackages [deep-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_agent-0.1.dev0.tar.gz tmp/deep_agent-0.2.dev0.tar.gz --markdown 20230515/d/deep-agent/0.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-05-15 15:29:30] WARNING root fetch - processPackages [certora-cli-alpha-alex-mapdefinition-tacvalue]: Skipping package: exceeds size limit 39432207>=10485760
+[2023-05-15 15:29:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-mapdefinition-tacvalue] error
+[2023-05-15 15:29:30] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: executing diffoscope
+[2023-05-15 15:29:30] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_analytic_required-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_analytic_required-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-account-analytic-required/15.0.1.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 15:29:30] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: Downloading https://files.pythonhosted.org/packages/79/2b/ea73286e6bd405ccc612dd6591f687a66df8cc49ff091d69ce63627a4ee1/odoo_addon_email_template_qweb-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 15:29:30] INFO root fetch - main [MainThread]: End processing [django-peeringdb]: success
+[2023-05-15 15:29:30] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: executing diffoscope
+[2023-05-15 15:29:30] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_email_template_qweb-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_email_template_qweb-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-email-template-qweb/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 15:29:31] INFO root fetch - main [MainThread]: End processing [deep-agent]: success
+[2023-05-15 15:29:31] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-15 15:29:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-analytic-required]: success
+[2023-05-15 15:29:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-email-template-qweb]: success
+[2023-05-15 15:29:34] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
+[2023-05-15 15:29:38] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 15:29:38] INFO root fetch - main [MainThread]: Store serial: [18108484]
