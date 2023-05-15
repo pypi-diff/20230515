@@ -6302,3 +6302,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:17:40] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-05-15 09:17:44] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-15 09:17:44] INFO root fetch - main [MainThread]: Store serial: [18103853]
+[2023-05-15 09:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103853]
+[2023-05-15 09:22:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-mkdocs
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hbshare
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datascope
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e2enetworks
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-nightly
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WX-Push-Services
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-models-fourcastnet
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycallrail
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-15 09:22:53] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [nbdev-mkdocs]: New version: [1.0.0] Old Version: [0.5.0rc0]
+[2023-05-15 09:22:53] WARNING root fetch - processPackages [ai-models-fourcastnet]: Skipping, unable to determine old version
+[2023-05-15 09:22:53] INFO root fetch - processPackages [ai-models-fourcastnet]: Start processing: polymetric
+[2023-05-15 09:22:53] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 09:22:53] INFO root fetch - main [MainThread]: End processing [ai-models-fourcastnet] error
+[2023-05-15 09:22:53] INFO root fetch - processPackages [datascope]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [pycallrail]: New version: [0.9.0.1] Old Version: [0.9.0.0]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [polymetric]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-15 09:22:53] INFO root fetch - processPackages [nbdev-mkdocs]: Downloading https://files.pythonhosted.org/packages/ad/e0/5dcf4ad075da42b3ccc24a64f9cfdd5a62046c14347013f20d4ae8f09447/nbdev-mkdocs-0.5.0rc0.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/a1/62/48cc6179b46a03d34a83aaabe354c599cabb01680bbb87bd8e59d212497c/e2enetworks-0.0.1.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [pycallrail]: Downloading https://files.pythonhosted.org/packages/31/d6/40a4d03519ab6d3201b5b0f3e3a35048c1b9dc4c65c83877d9fbaa9a5dd2/pycallrail-0.9.0.0.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [WX-Push-Services]: Downloading https://files.pythonhosted.org/packages/5a/8e/76648a804f0f54f9fea00699568603cc07a24ee427a43721e79c94b6ef4e/WX_Push_Services-1.0.3.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [datascope]: Downloading https://files.pythonhosted.org/packages/d9/83/1114235865b67bc03772aa172d9ef95cb7512d6a39d6dd3a19f9dd4d1257/datascope-0.0.8.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [polymetric]: Downloading https://files.pythonhosted.org/packages/e7/e9/d256349d5bd40a0d4ce430065cac8e473a45a70e7b00986c9dc891e16f2c/polymetric-0.7.0.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/a5/a4/499d23d74887ffd4ef67553315658f683be836712d76c2899658261b95c7/hbshare-3.7.8.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-05-15 09:22:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [pycallrail]: Downloading https://files.pythonhosted.org/packages/10/f5/b8f335f1af92fe22cf4d28dbe97625eab489014bb82609c289e8d925cb15/pycallrail-0.9.0.1.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [nbdev-mkdocs]: Downloading https://files.pythonhosted.org/packages/b9/cb/f3c6487fec68b82e23c1d2293dc6c0b356e190bbc0effce27648916c2ef5/nbdev-mkdocs-1.0.0.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [WX-Push-Services]: Downloading https://files.pythonhosted.org/packages/29/f2/1fad7a6c9e9add7f93463ce0c0f7eae9aa7305fc4a457913321fc8785cf4/WX_Push_Services-1.0.5.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230515/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [datascope]: Downloading https://files.pythonhosted.org/packages/d7/a0/85745901d507429a18795ac1f45246626c5bad2fe69dd45782b50bcb6e14/datascope-0.0.9.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/dd/66/a8249ad5581b9ba0c22e4243e12c143865a2162fa5f811211ab7f43110f9/e2enetworks-0.0.2.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [polymetric]: Downloading https://files.pythonhosted.org/packages/9c/80/9c8769a8282cd8d8930c00d31f74856bcdbbc6a7f3663ddccca3cce505ca/polymetric-0.8.0.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.3.tar.gz tmp/WX_Push_Services-1.0.5.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [nbdev-mkdocs]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [nbdev-mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-mkdocs-0.5.0rc0.tar.gz tmp/nbdev-mkdocs-1.0.0.tar.gz --markdown 20230515/n/nbdev-mkdocs/0.5.0rc0-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [pycallrail]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [pycallrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycallrail-0.9.0.0.tar.gz tmp/pycallrail-0.9.0.1.tar.gz --markdown 20230515/p/pycallrail/0.9.0.0-0.9.0.1/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [datascope]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [datascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-0.0.8.tar.gz tmp/datascope-0.0.9.tar.gz --markdown 20230515/d/datascope/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/3b/cf/d495e4794562827ff7bdac1372ab526c4beca5fa1b11cbb802d837fd27de/hbshare-3.7.9.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.1.tar.gz tmp/e2enetworks-0.0.2.tar.gz --markdown 20230515/e/e2enetworks/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [polymetric]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [polymetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymetric-0.7.0.tar.gz tmp/polymetric-0.8.0.tar.gz --markdown 20230515/p/polymetric/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-05-15 09:22:54] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230515/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-15 09:22:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-05-15 09:22:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-05-15 09:22:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-15 09:22:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 09:22:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-15 09:22:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 09:22:56] INFO root fetch - processPackages [WX-Push-Services]: Start processing: k1lib
+[2023-05-15 09:22:56] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 09:22:56] INFO root fetch - processPackages [k1lib]: New version: [1.3.7.9] Old Version: [1.3.7.8]
+[2023-05-15 09:22:56] INFO root fetch - processPackages [e2enetworks]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-15 09:22:56] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-15 09:22:56] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230514.14.27.272626] Old Version: [20230514.12.11.847491]
+[2023-05-15 09:22:56] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/5e/ad/ab75608dbd8bc2fbec32e1dbd5d3b05a6bac3b67460b3784bad4b2932415/certora-cli-alpha-kit-annotation-20230514.12.11.847491.tar.gz
+[2023-05-15 09:22:56] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 39443734>=10485760
+[2023-05-15 09:22:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-15 09:22:56] INFO root fetch - main [MainThread]: End processing [pycallrail]: success
+[2023-05-15 09:22:56] INFO root fetch - main [MainThread]: End processing [polymetric]: success
+[2023-05-15 09:22:56] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/a0/23/9f209eaa9e3ccc4e3aeb11c29ce0b374262af657cb5f54ab09fc0779523f/k1lib-1.3.7.9-py3-none-any.whl
+[2023-05-15 09:22:56] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-15 09:22:56] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.7.8-py3-none-any.whl.zip tmp/k1lib-1.3.7.9-py3-none-any.whl.zip --markdown 20230515/k/k1lib/1.3.7.8-1.3.7.9/diff.md --exclude *.pyd
+[2023-05-15 09:22:56] INFO root fetch - main [MainThread]: End processing [datascope]: success
+[2023-05-15 09:22:57] INFO root fetch - main [MainThread]: End processing [nbdev-mkdocs]: success
+[2023-05-15 09:22:58] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-15 09:22:58] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-05-15 09:22:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-15 09:23:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-15 09:23:06] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-15 09:23:06] INFO root fetch - main [MainThread]: Store serial: [18103889]
