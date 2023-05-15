@@ -14659,3 +14659,77 @@ EOFError: EOF read where object expected
 [2023-05-15 15:45:24] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-05-15 15:45:25] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-05-15 15:45:25] INFO root fetch - main [MainThread]: Store serial: [18108702]
+[2023-05-15 15:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108702]
+[2023-05-15 15:50:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jutility
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rattail
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saazsdz
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xpydf
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irene-pro
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mainnet
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trino
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mqtt-thread
+[2023-05-15 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Tailbone
+[2023-05-15 15:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-shopinvader-price-per-qty
+[2023-05-15 15:50:35] INFO root fetch - processPackages [jutility]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mqtt-thread]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [irene-pro]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-15 15:50:35] WARNING root fetch - processPackages [saazsdz]: Skipping, unable to determine old version
+[2023-05-15 15:50:35] INFO root fetch - processPackages [saazsdz]: Start processing: odoo14-addon-shopinvader
+[2023-05-15 15:50:35] INFO root fetch - main [MainThread]: End processing [saazsdz] error
+[2023-05-15 15:50:35] WARNING root fetch - processPackages [odoo14-addon-shopinvader-price-per-qty]: Skipping, unable to determine old version
+[2023-05-15 15:50:35] INFO root fetch - processPackages [odoo14-addon-shopinvader-price-per-qty]: Start processing: quantconnect-stubs
+[2023-05-15 15:50:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-price-per-qty] error
+[2023-05-15 15:50:35] INFO root fetch - processPackages [trino]: New version: [0.324.0] Old Version: [0.323.0]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [xpydf]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230515/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [jutility]: Downloading https://files.pythonhosted.org/packages/64/27/f5ce8427c640d2950daf775f5226af23e5360ddd1e68c71d0a862b3a5bf4/jutility-0.0.8.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mqtt-thread]: Downloading https://files.pythonhosted.org/packages/0c/40/a64672f9037d071589351881701f77a6157c17b7c9307601400b958b2b01/mqtt_thread-1.6.2.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [odoo14-addon-shopinvader]: New version: [14.0.5.9.3] Old Version: [14.0.5.9.2]
+[2023-05-15 15:50:35] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/77/f7/6d51228d70939da8721e266632c519af2a440946fb266821f560e0f33bed/irene_pro-0.0.32.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [trino]: Downloading https://files.pythonhosted.org/packages/13/ab/a10a0e53282916304d0dd490cfded836f34c713c3b52a4facd208c73db50/trino-0.323.0.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [jutility]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [jutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutility-0.0.7.tar.gz tmp/jutility-0.0.8.tar.gz --markdown 20230515/j/jutility/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/00/6c/e3f66526f8ddfc0a1ee6c23a7380ae0ba47fb967c216fccfb53e2050454b/xpydf-0.1.4.2.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.31.tar.gz tmp/irene_pro-0.0.32.tar.gz --markdown 20230515/i/irene-pro/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/fc/88/cf6d2f2234b3394b5b33b91c62bb37e33767edf2a7b37fd6bf65b6e91155/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mqtt-thread]: Downloading https://files.pythonhosted.org/packages/e8/38/0a072f7d048c9b69b7e6202ca2ec19ce7fef6f82a329933dae44dbb833a3/mqtt_thread-1.6.3.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [trino]: Downloading https://files.pythonhosted.org/packages/c3/67/364f77af842cafdd7ffae8c01c23d0c55251a91951f0098d28d97573fdb3/trino-0.324.0.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mqtt-thread]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [mqtt-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt_thread-1.6.2.tar.gz tmp/mqtt_thread-1.6.3.tar.gz --markdown 20230515/m/mqtt-thread/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-05-15 15:50:35] INFO root fetch - processPackages [trino]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino-0.323.0.tar.gz tmp/trino-0.324.0.tar.gz --markdown 20230515/t/trino/0.323.0-0.324.0/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230515/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.4.1.tar.gz tmp/xpydf-0.1.4.2.tar.gz --markdown 20230515/x/xpydf/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-05-15 15:50:35] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230515/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 15:50:35] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/0a/65/c2cbe26eff67bfb3b4fc527b907178f89a6e2dd6f2cd1b88632e2d76e20f/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl
+[2023-05-15 15:50:36] INFO root fetch - processPackages [odoo14-addon-shopinvader]: executing diffoscope
+[2023-05-15 15:50:36] INFO root fetch - processPackages [odoo14-addon-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl.zip --markdown 20230515/o/odoo14-addon-shopinvader/14.0.5.9.2-14.0.5.9.3/diff.md --exclude *.pyd
+[2023-05-15 15:50:36] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-15 15:50:36] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-05-15 15:50:37] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-05-15 15:50:37] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-15 15:50:37] INFO root fetch - main [MainThread]: End processing [mqtt-thread]: success
+[2023-05-15 15:50:37] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-15 15:50:37] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230515/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-15 15:50:37] INFO root fetch - main [MainThread]: End processing [jutility]: success
+[2023-05-15 15:50:38] INFO root fetch - main [MainThread]: End processing [trino]: success
+[2023-05-15 15:50:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader]: success
+[2023-05-15 15:50:41] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-05-15 15:50:42] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-05-15 15:50:43] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-15 15:50:45] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-05-15 15:50:47] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-15 15:50:47] INFO root fetch - main [MainThread]: Store serial: [18108742]
