@@ -17755,3 +17755,110 @@ EOFError: EOF read where object expected
 [2023-05-15 18:23:38] INFO root fetch - main [MainThread]: End processing [robotcode]: success
 [2023-05-15 18:23:43] INFO root fetch - main [MainThread]: End processing [monai]: success
 [2023-05-15 18:23:43] INFO root fetch - main [MainThread]: Store serial: [18110572]
+[2023-05-15 18:28:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110572]
+[2023-05-15 18:28:52] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythoncolouringspackagesV1
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hackerforms
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IQM-Vis
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-roborock
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multipie
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-abakst-storage-analysis-infeasible-states-cvl
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liom-toolkit
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GPTerminal
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LegadoParser2
+[2023-05-15 18:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sllim
+[2023-05-15 18:28:52] INFO root fetch - processPackages [hackerforms]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 18:28:52] INFO root fetch - processPackages [pythoncolouringspackagesV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 18:28:52] WARNING root fetch - processPackages [multipie]: Skipping, unable to determine old version
+[2023-05-15 18:28:52] INFO root fetch - processPackages [multipie]: Start processing: pythoncolouringspackagesV1
+[2023-05-15 18:28:52] INFO root fetch - main [MainThread]: End processing [multipie] error
+[2023-05-15 18:28:52] WARNING root fetch - processPackages [sllim]: Skipping, unable to determine old version
+[2023-05-15 18:28:52] INFO root fetch - processPackages [sllim]: Start processing: NikeCA
+[2023-05-15 18:28:52] INFO root fetch - main [MainThread]: End processing [sllim] error
+[2023-05-15 18:28:52] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.71] Old Version: [0.2.5.66]
+[2023-05-15 18:28:52] WARNING root fetch - processPackages [LegadoParser2]: Skipping, unable to determine old version
+[2023-05-15 18:28:52] INFO root fetch - processPackages [certora-cli-alpha-abakst-storage-analysis-infeasible-states-cvl]: New version: [20230515.16.24.832693] Old Version: [20230502.17.55.693852]
+[2023-05-15 18:28:52] WARNING root fetch - processPackages [GPTerminal]: Skipping, unable to determine old version
+[2023-05-15 18:28:52] INFO root fetch - processPackages [LegadoParser2]: Start processing: validmind
+[2023-05-15 18:28:52] INFO root fetch - main [MainThread]: End processing [LegadoParser2] error
+[2023-05-15 18:28:52] INFO root fetch - processPackages [GPTerminal]: Start processing: citation-report
+[2023-05-15 18:28:52] INFO root fetch - main [MainThread]: End processing [GPTerminal] error
+[2023-05-15 18:28:52] INFO root fetch - processPackages [liom-toolkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 18:28:52] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-15 18:28:52] INFO root fetch - processPackages [pythoncolouringspackagesV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 18:28:52] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-05-15 18:28:52] INFO root fetch - processPackages [NikeCA]: New version: [0.2.8] Old Version: [0.2.7b0]
+[2023-05-15 18:28:53] INFO root fetch - processPackages [citation-report]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 18:28:53] INFO root fetch - processPackages [pythoncolouringspackagesV1]: Downloading https://files.pythonhosted.org/packages/f5/3c/2073d2ef9894c78e4eb011980c3833b2c2d595e0330a27173e853eabb707/pythoncolouringspackagesV1-1.0.0.tar.gz
+[2023-05-15 18:28:53] INFO root fetch - processPackages [certora-cli-alpha-abakst-storage-analysis-infeasible-states-cvl]: Downloading https://files.pythonhosted.org/packages/7c/86/daa9c1a3c5b6959a86df10cdf5bb700e4c454490cc682fb576846a9c2c2a/certora_cli_alpha_abakst_storage_analysis_infeasible_states_cvl-20230502.17.55.693852-py3-none-any.whl
+[2023-05-15 18:28:53] WARNING root fetch - processPackages [certora-cli-alpha-abakst-storage-analysis-infeasible-states-cvl]: Skipping package: exceeds size limit 38412611>=10485760
+[2023-05-15 18:28:53] INFO root fetch - processPackages [certora-cli-alpha-abakst-storage-analysis-infeasible-states-cvl]: Start processing: tira
+[2023-05-15 18:28:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-abakst-storage-analysis-infeasible-states-cvl] error
+[2023-05-15 18:28:53] INFO root fetch - processPackages [tira]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 18:28:53] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-15 18:28:53] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230515/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-05-15 18:28:53] INFO root fetch - processPackages [hackerforms]: executing diffoscope
+[2023-05-15 18:28:53] INFO root fetch - processPackages [hackerforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackerforms-0.8.0.tar.gz tmp/hackerforms-0.9.0.tar.gz --markdown 20230515/h/hackerforms/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 18:28:53] INFO root fetch - processPackages [citation-report]: Downloading https://files.pythonhosted.org/packages/b0/b2/c5566e09dc2ada6cd0144a43378d631de6ba0bae8df7b3e53d4b5aae09f2/citation_report-0.1.2.tar.gz
+[2023-05-15 18:28:53] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/24/67/358a230abc2e3d9d7894226c2982fdac975fa98cdeba6a51e8a04a8e2008/IQM-Vis-0.2.5.71.tar.gz
+[2023-05-15 18:28:53] INFO root fetch - processPackages [pythoncolouringspackagesV1]: Downloading https://files.pythonhosted.org/packages/1e/96/c5d852c22320d1d19d5361e1e452461d0f8d514a123e66e1f92a60078087/pythoncolouringspackagesV1-1.1.0.tar.gz
+[2023-05-15 18:28:53] INFO root fetch - processPackages [tira]: executing diffoscope
+[2023-05-15 18:28:53] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.8.tar.gz tmp/tira-0.0.9.tar.gz --markdown 20230515/t/tira/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 18:28:53] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/56/68/158e5e616f9e39ac409c7b8b365a151d63cb92e84eb26f79a88fb6fdd4af/NikeCA-0.2.8.tar.gz
+[2023-05-15 18:28:53] INFO root fetch - processPackages [pythoncolouringspackagesV1]: executing diffoscope
+[2023-05-15 18:28:53] INFO root fetch - processPackages [pythoncolouringspackagesV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolouringspackagesV1-1.0.0.tar.gz tmp/pythoncolouringspackagesV1-1.1.0.tar.gz --markdown 20230515/p/pythoncolouringspackagesV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 18:28:53] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-15 18:28:53] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230515/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-15 18:28:53] INFO root fetch - processPackages [citation-report]: Downloading https://files.pythonhosted.org/packages/05/f0/cdfe228c05ab7e8ab2f21ddb5f5ed9684fd74e3eb9b665c022f786c99fda/citation_report-0.1.3.tar.gz
+[2023-05-15 18:28:53] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-15 18:28:53] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.2.7b0.tar.gz tmp/NikeCA-0.2.8.tar.gz --markdown 20230515/N/NikeCA/0.2.7b0-0.2.8/diff.md --exclude *.pyd
+[2023-05-15 18:28:53] INFO root fetch - processPackages [citation-report]: executing diffoscope
+[2023-05-15 18:28:53] INFO root fetch - processPackages [citation-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_report-0.1.2.tar.gz tmp/citation_report-0.1.3.tar.gz --markdown 20230515/c/citation-report/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 18:28:54] INFO root fetch - processPackages [liom-toolkit]: executing diffoscope
+[2023-05-15 18:28:54] INFO root fetch - processPackages [liom-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liom-toolkit-0.3.8.tar.gz tmp/liom-toolkit-0.3.9.tar.gz --markdown 20230515/l/liom-toolkit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 18:28:54] INFO root fetch - processPackages [pythoncolouringspackagesV1]: executing diffoscope
+[2023-05-15 18:28:54] INFO root fetch - processPackages [pythoncolouringspackagesV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolouringspackagesV1-1.0.0.tar.gz tmp/pythoncolouringspackagesV1-1.1.0.tar.gz --markdown 20230515/p/pythoncolouringspackagesV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 18:28:54] WARNING root fetch - processPackages [IQM-Vis]: Skipping package: exceeds size limit 15495863>=10485760
+[2023-05-15 18:28:54] INFO root fetch - processPackages [IQM-Vis]: Start processing: regenmaschine
+[2023-05-15 18:28:54] INFO root fetch - main [MainThread]: End processing [IQM-Vis] error
+[2023-05-15 18:28:54] INFO root fetch - processPackages [regenmaschine]: New version: [3.2.0] Old Version: [3.1.5]
+[2023-05-15 18:28:54] INFO root fetch - processPackages [regenmaschine]: Downloading https://files.pythonhosted.org/packages/a5/be/16e6a925f1b152c49cf6e2e7b96a174c807dcee01da931b2a541a715087f/regenmaschine-3.1.5.tar.gz
+[2023-05-15 18:28:54] INFO root fetch - processPackages [tira]: Start processing: certora-cli-alpha-eytan-view-reentrency
+[2023-05-15 18:28:54] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2023-05-15 18:28:54] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: New version: [20230515.15.30.910599] Old Version: [20230515.12.55.595225]
+[2023-05-15 18:28:54] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Downloading https://files.pythonhosted.org/packages/61/45/ac7f6f451d1fcbf91d2d137ca3df027ce45f6f74a3a47ab4fbe8a3383f6e/certora-cli-alpha-eytan-view_reentrency-20230515.12.55.595225.tar.gz
+[2023-05-15 18:28:55] WARNING root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Skipping package: exceeds size limit 39470920>=10485760
+[2023-05-15 18:28:55] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Start processing: httpbinx
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-view-reentrency] error
+[2023-05-15 18:28:55] INFO root fetch - processPackages [citation-report]: Start processing: easy-gtfs
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [citation-report]: success
+[2023-05-15 18:28:55] WARNING root fetch - processPackages [easy-gtfs]: Skipping, unable to determine old version
+[2023-05-15 18:28:55] INFO root fetch - processPackages [easy-gtfs]: Start processing: pulumi-datadog
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [easy-gtfs] error
+[2023-05-15 18:28:55] INFO root fetch - processPackages [validmind]: Start processing: bxsolana-trader
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-15 18:28:55] WARNING root fetch - processPackages [httpbinx]: Skipping, unable to determine old version
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [httpbinx] error
+[2023-05-15 18:28:55] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-05-15 18:28:55] INFO root fetch - processPackages [regenmaschine]: Downloading https://files.pythonhosted.org/packages/f0/ad/5aad1044f338ade89a224e6db98577e9012b7f5214893fca8d53f8328f1d/regenmaschine-3.2.0.tar.gz
+[2023-05-15 18:28:55] INFO root fetch - processPackages [bxsolana-trader]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [hackerforms]: success
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [pythoncolouringspackagesV1]: success
+[2023-05-15 18:28:55] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [pythoncolouringspackagesV1]: success
+[2023-05-15 18:28:55] INFO root fetch - processPackages [bxsolana-trader]: Downloading https://files.pythonhosted.org/packages/0c/ab/3d11958234a82554d50f92c1c4a7d0c205bcccf2664a1cf8ead34d99a90b/bxsolana-trader-1.6.0.tar.gz
+[2023-05-15 18:28:55] INFO root fetch - processPackages [bxsolana-trader]: Downloading https://files.pythonhosted.org/packages/92/b3/0bd5d961a8613bcbd5052d1344e6ace36f96424c5d268a7252780be0f60b/bxsolana-trader-1.7.0.tar.gz
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [liom-toolkit]: success
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-15 18:28:55] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-05-15 18:28:55] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-15 18:28:55] INFO root fetch - processPackages [regenmaschine]: executing diffoscope
+[2023-05-15 18:28:55] INFO root fetch - processPackages [regenmaschine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regenmaschine-3.1.5.tar.gz tmp/regenmaschine-3.2.0.tar.gz --markdown 20230515/r/regenmaschine/3.1.5-3.2.0/diff.md --exclude *.pyd
+[2023-05-15 18:28:55] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-05-15 18:28:55] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230515/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-05-15 18:28:55] INFO root fetch - processPackages [bxsolana-trader]: executing diffoscope
+[2023-05-15 18:28:55] INFO root fetch - processPackages [bxsolana-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-1.6.0.tar.gz tmp/bxsolana-trader-1.7.0.tar.gz --markdown 20230515/b/bxsolana-trader/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-15 18:28:56] INFO root fetch - main [MainThread]: End processing [regenmaschine]: success
+[2023-05-15 18:28:56] INFO root fetch - main [MainThread]: End processing [bxsolana-trader]: success
+[2023-05-15 18:29:00] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-05-15 18:29:00] INFO root fetch - main [MainThread]: Store serial: [18110648]
