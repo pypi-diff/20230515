@@ -7923,3 +7923,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 10:44:29] INFO root fetch - main [MainThread]: End processing [xpydf]: success
 [2023-05-15 10:45:03] INFO root fetch - main [MainThread]: End processing [oslo.cache]: success
 [2023-05-15 10:45:03] INFO root fetch - main [MainThread]: Store serial: [18104646]
+[2023-05-15 10:50:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104646]
+[2023-05-15 10:50:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: collective.casestudy
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zadarapyV2
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: castellan
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wiretap
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Alpha-Rabbit
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcrepocleaner
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crepex-pyutil
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiara-plugin.tabular
+[2023-05-15 10:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arkdata
+[2023-05-15 10:50:12] INFO root fetch - processPackages [qcrepocleaner]: New version: [1.5] Old Version: [1.4]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [zadarapyV2]: New version: [23.8.4] Old Version: [23.8.3]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [collective.casestudy]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [wiretap]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [crepex-pyutil]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [kiara-plugin.tabular]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-15 10:50:12] INFO root fetch - processPackages [castellan]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-05-15 10:50:13] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230515/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [qcrepocleaner]: Downloading https://files.pythonhosted.org/packages/fd/a9/2aeee26d98e49c9f090932b98ffcffbb666912bd7870000cd3c927189b5d/qcrepocleaner-1.4.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [collective.casestudy]: Downloading https://files.pythonhosted.org/packages/ec/19/1c2025c7c9a326adf3cc7cc95692164be8bed0b6f17baf04a64d78f0bc11/collective.casestudy-1.0.0a1.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/f3/ef/f004ec728d4339d236b711c21dfc8b54a9fc3006247c2bdca46ac60ee2bd/crepex_pyutil-0.2.0.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/f8/08/7ae98f97577e629678ceb8b2f49845e1e30f6b6973801cb6dc567ffe659f/zadarapyV2-23.8.4.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [castellan]: Downloading https://files.pythonhosted.org/packages/a3/b6/9b9eb0bb0844da43bd1e9f8c3561c8dbe344997e9ee3d8c2f91a8a75e0a2/castellan-4.1.0.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/8e/e9/0b21e5742a9e2e4172b29f51badbd5646d0fd2f0448cec209a28211e4929/kiara_plugin.tabular-0.4.8.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-15 10:50:13] INFO root fetch - processPackages [zadarapyV2]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [zadarapyV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zadarapyV2-23.8.3.tar.gz tmp/zadarapyV2-23.8.4.tar.gz --markdown 20230515/z/zadarapyV2/23.8.3-23.8.4/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/c6/a4/a59a1db918449dcb498540fccb7741905b5d64aee85b9d89ada6c6d0190f/wiretap-4.2.1-py3-none-any.whl
+[2023-05-15 10:50:13] INFO root fetch - processPackages [qcrepocleaner]: Downloading https://files.pythonhosted.org/packages/29/af/019c7a0b5bac5749e14a7e6ae057679b4872a45adb2b0504d18c1f3ff693/qcrepocleaner-1.5.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [collective.casestudy]: Downloading https://files.pythonhosted.org/packages/56/85/3431a7491ce41c10a8f05769cc76379fe13a5629f44ea7ac32f5c23ba8fd/collective.casestudy-1.0.0a2.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [wiretap]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [wiretap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiretap-4.2.0-py3-none-any.whl.zip tmp/wiretap-4.2.1-py3-none-any.whl.zip --markdown 20230515/w/wiretap/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/fd/07/21df94061ce1fc3c65f6ae1bbb12a1c7abdfce2b10305dbd2c42f23895fd/crepex_pyutil-0.3.0.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [castellan]: Downloading https://files.pythonhosted.org/packages/fa/1a/02da19ad0e7a14df9e5053105aed4be75aad5d1ae6551a318bf5753a33a9/castellan-4.2.0.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [qcrepocleaner]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [qcrepocleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcrepocleaner-1.4.tar.gz tmp/qcrepocleaner-1.5.tar.gz --markdown 20230515/q/qcrepocleaner/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [collective.casestudy]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [collective.casestudy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.casestudy-1.0.0a1.tar.gz tmp/collective.casestudy-1.0.0a2.tar.gz --markdown 20230515/c/collective.casestudy/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/ea/e5/eb641d760e93d7cecc1d4c05801550ab0157d160fbd0c2f4c1d8d1026517/kiara_plugin.tabular-0.4.9.tar.gz
+[2023-05-15 10:50:13] INFO root fetch - processPackages [crepex-pyutil]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [crepex-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepex_pyutil-0.2.0.tar.gz tmp/crepex_pyutil-0.3.0.tar.gz --markdown 20230515/c/crepex-pyutil/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [castellan]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [castellan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castellan-4.1.0.tar.gz tmp/castellan-4.2.0.tar.gz --markdown 20230515/c/castellan/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [kiara-plugin.tabular]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [kiara-plugin.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.tabular-0.4.8.tar.gz tmp/kiara_plugin.tabular-0.4.9.tar.gz --markdown 20230515/k/kiara-plugin.tabular/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-15 10:50:13] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230515/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-15 10:50:13] ERROR root fetch - processPackages [crepex-pyutil]: Diffoscope failed: Error: error creating container storage: the container name "suspicious_torvalds" is already in use by "99ab2513414f67984ad192550ddb68a98160b951002bc7e533013a39fab60014". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-15 10:50:13] INFO root fetch - processPackages [crepex-pyutil]: Start processing: pyowletapi
+[2023-05-15 10:50:13] INFO root fetch - main [MainThread]: End processing [crepex-pyutil] error
+[2023-05-15 10:50:13] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.9] Old Version: [2023.5.7]
+[2023-05-15 10:50:13] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/93/a6/977ae0ddc9feb31d34adcb2ff9537f80ef29a6ad29a1ddc97e66f10f316a/pyowletapi-2023.5.7.tar.gz
+[2023-05-15 10:50:14] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/6e/2e/af455fa9c2a369e4db90d9e563028eecc7136380171d474521192dfd23ef/pyowletapi-2023.5.9.tar.gz
+[2023-05-15 10:50:14] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-15 10:50:14] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.7.tar.gz tmp/pyowletapi-2023.5.9.tar.gz --markdown 20230515/p/pyowletapi/2023.5.7-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 10:50:14] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: weatheril
+[2023-05-15 10:50:14] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-15 10:50:14] INFO root fetch - processPackages [weatheril]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 10:50:14] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 10:50:14] INFO root fetch - main [MainThread]: End processing [wiretap]: success
+[2023-05-15 10:50:15] INFO root fetch - processPackages [weatheril]: executing diffoscope
+[2023-05-15 10:50:15] INFO root fetch - processPackages [weatheril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatheril-0.8.0.tar.gz tmp/weatheril-0.9.0.tar.gz --markdown 20230515/w/weatheril/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 10:50:15] INFO root fetch - main [MainThread]: End processing [kiara-plugin.tabular]: success
+[2023-05-15 10:50:15] INFO root fetch - main [MainThread]: End processing [collective.casestudy]: success
+[2023-05-15 10:50:15] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-15 10:50:16] INFO root fetch - main [MainThread]: End processing [qcrepocleaner]: success
+[2023-05-15 10:50:16] INFO root fetch - main [MainThread]: End processing [castellan]: success
+[2023-05-15 10:50:16] INFO root fetch - main [MainThread]: End processing [weatheril]: success
+[2023-05-15 10:50:28] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-15 10:50:28] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
+[2023-05-15 10:50:28] INFO root fetch - main [MainThread]: Store serial: [18104682]
