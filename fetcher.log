@@ -8919,3 +8919,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 11:32:55] INFO root fetch - main [MainThread]: End processing [hello2]: success
 [2023-05-15 11:32:57] INFO root fetch - main [MainThread]: End processing [squander]: success
 [2023-05-15 11:32:57] INFO root fetch - main [MainThread]: Store serial: [18105220]
+[2023-05-15 11:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105220]
+[2023-05-15 11:38:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irails
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tala
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oneliner-utils
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starcatalogquery
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a1rn
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prefect-soda-core
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: in-dbt-spark
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taxi
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-05-15 11:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphastats
+[2023-05-15 11:38:07] INFO root fetch - processPackages [starcatalogquery]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [a1rn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [prefect-soda-core]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 11:38:07] WARNING root fetch - processPackages [irails]: Skipping, unable to determine old version
+[2023-05-15 11:38:07] INFO root fetch - main [MainThread]: End processing [irails] error
+[2023-05-15 11:38:07] INFO root fetch - processPackages [oneliner-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 11:38:07] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 11:38:07] INFO root fetch - processPackages [a1rn]: executing diffoscope
+[2023-05-15 11:38:07] INFO root fetch - processPackages [a1rn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a1rn-0.1.1.tar.gz tmp/a1rn-0.1.2.tar.gz --markdown 20230515/a/a1rn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 11:38:07] INFO root fetch - processPackages [taxi]: New version: [6.2.0] Old Version: [6.1.1]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [alphastats]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [starcatalogquery]: executing diffoscope
+[2023-05-15 11:38:07] INFO root fetch - processPackages [starcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatalogquery-0.1.3-py3-none-any.whl.zip tmp/starcatalogquery-0.1.4-py3-none-any.whl.zip --markdown 20230515/s/starcatalogquery/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 11:38:07] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [prefect-soda-core]: Downloading https://files.pythonhosted.org/packages/67/14/76001204779b906c2a57d05549862151c241701ce8a19f83c595f0f22c3e/prefect-soda-core-0.1.5.tar.gz
+[2023-05-15 11:38:07] INFO root fetch - processPackages [oneliner-utils]: Downloading https://files.pythonhosted.org/packages/67/d0/2e45ce2ab4dd9b8915d076c733b1d7b0188e2a5d21d5373009f0ce8233e5/oneliner-utils-0.1.1.tar.gz
+[2023-05-15 11:38:07] INFO root fetch - processPackages [in-dbt-spark]: New version: [1.2.514] Old Version: [1.2.513]
+[2023-05-15 11:38:07] INFO root fetch - processPackages [alphastats]: Downloading https://files.pythonhosted.org/packages/21/89/1f5eaac4d65bceb09d37381bda8c772db535a282c82524254423d9015913/alphastats-0.5.3.tar.gz
+[2023-05-15 11:38:07] INFO root fetch - processPackages [taxi]: Downloading https://files.pythonhosted.org/packages/8c/e3/2a56b21674039320411aa86b944c91f220005a7f6cec4dbb2ec9d5acb271/taxi-6.1.1.tar.gz
+[2023-05-15 11:38:07] INFO root fetch - processPackages [prefect-soda-core]: executing diffoscope
+[2023-05-15 11:38:07] INFO root fetch - processPackages [prefect-soda-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-soda-core-0.1.4.tar.gz tmp/prefect-soda-core-0.1.5.tar.gz --markdown 20230515/p/prefect-soda-core/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 11:38:07] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-05-15 11:38:07] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/d7/6a/a6fd31620b82802dc9b8d7886bd944f0159af1922c9086a8fc110d4b07f5/in-dbt-spark-1.2.513.tar.gz
+[2023-05-15 11:38:07] INFO root fetch - processPackages [taxi]: Downloading https://files.pythonhosted.org/packages/59/e1/f2a526ae38e762d00621899440f26bd7de64017665833859b9403d2a9f4c/taxi-6.2.0.tar.gz
+[2023-05-15 11:38:08] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-05-15 11:38:08] INFO root fetch - processPackages [taxi]: executing diffoscope
+[2023-05-15 11:38:08] INFO root fetch - processPackages [taxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxi-6.1.1.tar.gz tmp/taxi-6.2.0.tar.gz --markdown 20230515/t/taxi/6.1.1-6.2.0/diff.md --exclude *.pyd
+[2023-05-15 11:38:08] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/01/50/38db6a95f09c6ada3ee32b4235fb5ff804d674f213a25854184cc38631a8/in-dbt-spark-1.2.514.tar.gz
+[2023-05-15 11:38:08] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-15 11:38:08] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230515/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-15 11:38:08] INFO root fetch - processPackages [oneliner-utils]: Downloading https://files.pythonhosted.org/packages/a4/72/25d21a07e0844817c96b2a3e060a0bd05bf92c8fc90039f2156d2d2ba2de/oneliner-utils-0.1.2.tar.gz
+[2023-05-15 11:38:08] INFO root fetch - processPackages [oneliner-utils]: executing diffoscope
+[2023-05-15 11:38:08] INFO root fetch - processPackages [oneliner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneliner-utils-0.1.1.tar.gz tmp/oneliner-utils-0.1.2.tar.gz --markdown 20230515/o/oneliner-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 11:38:08] INFO root fetch - processPackages [in-dbt-spark]: executing diffoscope
+[2023-05-15 11:38:08] INFO root fetch - processPackages [in-dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/in-dbt-spark-1.2.513.tar.gz tmp/in-dbt-spark-1.2.514.tar.gz --markdown 20230515/i/in-dbt-spark/1.2.513-1.2.514/diff.md --exclude *.pyd
+[2023-05-15 11:38:08] INFO root fetch - processPackages [alphastats]: Downloading https://files.pythonhosted.org/packages/10/7c/0e7e954025d2d9354b70c110a11b6f52b94745d211bf24782a152b12c302/alphastats-0.5.4.tar.gz
+[2023-05-15 11:38:08] INFO root fetch - main [MainThread]: End processing [starcatalogquery]: success
+[2023-05-15 11:38:08] INFO root fetch - main [MainThread]: End processing [a1rn]: success
+[2023-05-15 11:38:09] INFO root fetch - processPackages [alphastats]: executing diffoscope
+[2023-05-15 11:38:09] INFO root fetch - processPackages [alphastats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphastats-0.5.3.tar.gz tmp/alphastats-0.5.4.tar.gz --markdown 20230515/a/alphastats/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-15 11:38:09] INFO root fetch - main [MainThread]: End processing [prefect-soda-core]: success
+[2023-05-15 11:38:09] INFO root fetch - main [MainThread]: End processing [taxi]: success
+[2023-05-15 11:38:09] INFO root fetch - main [MainThread]: End processing [oneliner-utils]: success
+[2023-05-15 11:38:09] INFO root fetch - main [MainThread]: End processing [in-dbt-spark]: success
+[2023-05-15 11:38:10] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 11:38:11] INFO root fetch - main [MainThread]: End processing [alphastats]: success
+[2023-05-15 11:38:15] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-15 11:38:15] INFO root fetch - main [MainThread]: Store serial: [18105252]
