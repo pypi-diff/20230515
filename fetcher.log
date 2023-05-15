@@ -15771,3 +15771,152 @@ EOFError: EOF read where object expected
 [2023-05-15 16:49:36] INFO root fetch - main [MainThread]: End processing [oc-ds-converter]: success
 [2023-05-15 16:49:40] INFO root fetch - main [MainThread]: End processing [girder]: success
 [2023-05-15 16:49:40] INFO root fetch - main [MainThread]: Store serial: [18109432]
+[2023-05-15 16:54:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109432]
+[2023-05-15 16:54:50] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtdraw
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: movia
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-googlesheet
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipfontingmod
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nso-oc
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blaster-server
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-eric-summ2
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rustack-esu
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-scatter
+[2023-05-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roman-datamodels
+[2023-05-15 16:54:50] WARNING root fetch - processPackages [micropython-googlesheet]: Skipping, unable to determine old version
+[2023-05-15 16:54:50] INFO root fetch - processPackages [micropython-googlesheet]: Start processing: fb-python-sdk
+[2023-05-15 16:54:50] INFO root fetch - main [MainThread]: End processing [micropython-googlesheet] error
+[2023-05-15 16:54:50] WARNING root fetch - processPackages [pipfontingmod]: Skipping, unable to determine old version
+[2023-05-15 16:54:50] INFO root fetch - processPackages [pipfontingmod]: Start processing: certora-cli-alpha-sitvanit-set-can-be-empty
+[2023-05-15 16:54:50] INFO root fetch - main [MainThread]: End processing [pipfontingmod] error
+[2023-05-15 16:54:50] INFO root fetch - processPackages [movia]: New version: [1.0a1] Old Version: [1.0.0b3]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [jupyter-scatter]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: New version: [20230515.9.59.985056] Old Version: [20230515.14.4.271035]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [rustack-esu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 16:54:50] WARNING root fetch - processPackages [qtdraw]: Skipping, unable to determine old version
+[2023-05-15 16:54:50] WARNING root fetch - processPackages [certora-cli-alpha-eric-summ2]: Skipping, unable to determine old version
+[2023-05-15 16:54:50] INFO root fetch - processPackages [qtdraw]: Start processing: Exegol
+[2023-05-15 16:54:50] INFO root fetch - processPackages [roman-datamodels]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 16:54:50] INFO root fetch - main [MainThread]: End processing [qtdraw] error
+[2023-05-15 16:54:50] INFO root fetch - processPackages [certora-cli-alpha-eric-summ2]: Start processing: genno
+[2023-05-15 16:54:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-summ2] error
+[2023-05-15 16:54:50] INFO root fetch - processPackages [blaster-server]: New version: [0.0.430] Old Version: [0.0.429b0]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [nso-oc]: New version: [2.50.0] Old Version: [2.49.0]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [fb-python-sdk]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/52/d5/fdc26b2c812cb9385e85072bac02324d0ca1640b477dc79843e799450fac/jupyter-scatter-0.8.0.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [movia]: Downloading https://files.pythonhosted.org/packages/c2/a0/f029923e82ff1079f7a3e6c63d74297c4e440eb7cdab63114d31f7ace40a/movia-1.0.0b3.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [Exegol]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Downloading https://files.pythonhosted.org/packages/28/a9/33ac6830227be395f79f26b4b583fb9aebc11995721d8cfd3df2f4e59f61/certora-cli-alpha-sitvanit-set-can-be-empty-20230515.14.4.271035.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [genno]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [roman-datamodels]: Downloading https://files.pythonhosted.org/packages/36/50/e99142b0ce9dde5b9da58f1d33439fafb59c5211d7364d206b608d18a3b4/roman_datamodels-0.8.0.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [rustack-esu]: Downloading https://files.pythonhosted.org/packages/7b/65/4fef2fcfe62f7249cd3f245549a6dfb7897bae5ab8a630444d44009f554b/rustack-esu-0.1.8.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/62/da/d21efc43bcf14233b833ba6751cbc57153c79ec2caadcd6a0ad549cb563e/nso-oc-2.49.0.tar.gz
+[2023-05-15 16:54:50] WARNING root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Skipping package: exceeds size limit 39449002>=10485760
+[2023-05-15 16:54:50] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Start processing: traveltimepy
+[2023-05-15 16:54:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-sitvanit-set-can-be-empty] error
+[2023-05-15 16:54:50] INFO root fetch - processPackages [fb-python-sdk]: Downloading https://files.pythonhosted.org/packages/eb/4d/5bb5be67df87e9a1b276c49766b07252ed8e130c5d00285f6e35c4f3fd8d/fb-python-sdk-1.1.1.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/cd/e0/1bf3d267603ec37bb44188d275e33802cf0b1196f1b0aeb9bd064e591f07/Exegol-4.2.1.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [traveltimepy]: New version: [3.3.0] Old Version: [3.2.2]
+[2023-05-15 16:54:50] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/50/76/f284f66c4e640a3b5095ee29304ffb5003173b9d4d61bc9e7346263c3bfc/blaster-server-0.0.430.tar.gz
+[2023-05-15 16:54:50] INFO root fetch - processPackages [movia]: Downloading https://files.pythonhosted.org/packages/db/0c/ef433f91f7821aec5a80f996969e1bfdbfd1be5eff126647e9cbeb053845/movia-1.0a1.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/cd/a3/bab2feeb3c3ea460132cda34d75a2f6aac2e8c38ab82342eeae49bea3540/jupyter-scatter-0.9.0.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/0a/11/fb53a03d88ca969bc3325efaa1288f53c42d52cd5d84097021e56301078c/nso-oc-2.50.0.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [rustack-esu]: Downloading https://files.pythonhosted.org/packages/c1/a6/a4c31adc30882b61636badd0e62ffe2109d3f30cd5cdcd364afa99a55e6b/rustack-esu-0.1.9.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [movia]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [movia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movia-1.0.0b3.tar.gz tmp/movia-1.0a1.tar.gz --markdown 20230515/m/movia/1.0.0b3-1.0a1/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [fb-python-sdk]: Downloading https://files.pythonhosted.org/packages/15/cc/4036f50ddc78c199687c818d3ff5452a5e2ba693944c8435d4e5358f308b/fb-python-sdk-1.1.2.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.429b0.tar.gz tmp/blaster-server-0.0.430.tar.gz --markdown 20230515/b/blaster-server/0.0.429b0-0.0.430/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [genno]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [genno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genno-1.9.1.tar.gz tmp/genno-1.9.2.tar.gz --markdown 20230515/g/genno/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [roman-datamodels]: Downloading https://files.pythonhosted.org/packages/58/6c/33eb307b4f5f630c60d4c7eec324f1c1e9ee30783a32da9e616c3cde8209/roman_datamodels-0.9.0.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [traveltimepy]: Downloading https://files.pythonhosted.org/packages/07/c9/2cb65abeaa218a8e6c7da684054aa88dc5878b39f0c624376bd50caf6bdd/traveltimepy-3.2.2.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/e6/f4/a4f2d9e6a7b2aa3410f54608f617033548993fb2a63f5d4532799dd3568f/Exegol-4.2.2.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [jupyter-scatter]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [jupyter-scatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-scatter-0.8.0.tar.gz tmp/jupyter-scatter-0.9.0.tar.gz --markdown 20230515/j/jupyter-scatter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [rustack-esu]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [rustack-esu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustack-esu-0.1.8.tar.gz tmp/rustack-esu-0.1.9.tar.gz --markdown 20230515/r/rustack-esu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.49.0.tar.gz tmp/nso-oc-2.50.0.tar.gz --markdown 20230515/n/nso-oc/2.49.0-2.50.0/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [fb-python-sdk]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [fb-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb-python-sdk-1.1.1.tar.gz tmp/fb-python-sdk-1.1.2.tar.gz --markdown 20230515/f/fb-python-sdk/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [Exegol]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [Exegol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Exegol-4.2.1.tar.gz tmp/Exegol-4.2.2.tar.gz --markdown 20230515/E/Exegol/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [traveltimepy]: Downloading https://files.pythonhosted.org/packages/93/a5/cf8d28ae7e1293929b0e889d5b8decf0af09c503d283b742551c414b934c/traveltimepy-3.3.0.tar.gz
+[2023-05-15 16:54:51] INFO root fetch - processPackages [roman-datamodels]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [roman-datamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roman_datamodels-0.8.0.tar.gz tmp/roman_datamodels-0.9.0.tar.gz --markdown 20230515/r/roman-datamodels/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 16:54:51] INFO root fetch - processPackages [traveltimepy]: executing diffoscope
+[2023-05-15 16:54:51] INFO root fetch - processPackages [traveltimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traveltimepy-3.2.2.tar.gz tmp/traveltimepy-3.3.0.tar.gz --markdown 20230515/t/traveltimepy/3.2.2-3.3.0/diff.md --exclude *.pyd
+[2023-05-15 16:54:54] INFO root fetch - processPackages [traveltimepy]: Start processing: com.castsoftware.uc.python.common
+[2023-05-15 16:54:54] INFO root fetch - main [MainThread]: End processing [traveltimepy]: success
+[2023-05-15 16:54:54] INFO root fetch - processPackages [roman-datamodels]: Start processing: elkpy
+[2023-05-15 16:54:54] INFO root fetch - main [MainThread]: End processing [roman-datamodels]: success
+[2023-05-15 16:54:54] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-05-15 16:54:54] INFO root fetch - processPackages [elkpy]: New version: [1.1.6] Old Version: [1.1.1]
+[2023-05-15 16:54:54] INFO root fetch - processPackages [rustack-esu]: Start processing: contrast-agent
+[2023-05-15 16:54:54] INFO root fetch - main [MainThread]: End processing [rustack-esu]: success
+[2023-05-15 16:54:54] INFO root fetch - processPackages [contrast-agent]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-05-15 16:54:55] INFO root fetch - processPackages [elkpy]: Downloading https://files.pythonhosted.org/packages/de/47/6415e64f79eb3ccd794784c87204d408c5bf84511d9f2a2de60a8d919d2b/elkpy-1.1.1.tar.gz
+[2023-05-15 16:54:55] INFO root fetch - processPackages [fb-python-sdk]: Start processing: tpfi
+[2023-05-15 16:54:55] INFO root fetch - main [MainThread]: End processing [fb-python-sdk]: success
+[2023-05-15 16:54:55] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Downloading https://files.pythonhosted.org/packages/0d/9a/368f1fb687469b8ba93d4be0871129ee630bdc2b73e7228534214b71d7be/com.castsoftware.uc.python.common-1.0.0.tar.gz
+[2023-05-15 16:54:55] INFO root fetch - processPackages [contrast-agent]: Downloading https://files.pythonhosted.org/packages/fa/4f/561dff848ab959988cacc16c02374f870dfce30cde6aa7b8bb1e9d9a7b11/contrast-agent-5.9.0.tar.gz
+[2023-05-15 16:54:55] INFO root fetch - processPackages [tpfi]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-15 16:54:55] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: executing diffoscope
+[2023-05-15 16:54:55] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.python.common-0.1.9.tar.gz tmp/com.castsoftware.uc.python.common-1.0.0.tar.gz --markdown 20230515/c/com.castsoftware.uc.python.common/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:54:55] WARNING root fetch - processPackages [contrast-agent]: Skipping package: exceeds size limit 10668876>=10485760
+[2023-05-15 16:54:55] INFO root fetch - processPackages [contrast-agent]: Start processing: async-websocket-pool
+[2023-05-15 16:54:55] INFO root fetch - main [MainThread]: End processing [contrast-agent] error
+[2023-05-15 16:54:55] INFO root fetch - processPackages [elkpy]: Downloading https://files.pythonhosted.org/packages/ad/ae/78021ea1eef5da3631e3c7ecde35b2e2abd8bdbfb6957a69b725ae2d2752/elkpy-1.1.6.tar.gz
+[2023-05-15 16:54:55] WARNING root fetch - processPackages [async-websocket-pool]: Skipping, unable to determine old version
+[2023-05-15 16:54:55] INFO root fetch - processPackages [async-websocket-pool]: Start processing: serverless-aws-lambda-sdk
+[2023-05-15 16:54:55] INFO root fetch - main [MainThread]: End processing [async-websocket-pool] error
+[2023-05-15 16:54:55] INFO root fetch - processPackages [tpfi]: Downloading https://files.pythonhosted.org/packages/70/97/cc6bad9f4be019d2947d9ed321e3ac5dab88cc167dcf514c5b01d757f605/tpfi-1.1.0.tar.gz
+[2023-05-15 16:54:55] INFO root fetch - processPackages [elkpy]: executing diffoscope
+[2023-05-15 16:54:55] INFO root fetch - processPackages [elkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elkpy-1.1.1.tar.gz tmp/elkpy-1.1.6.tar.gz --markdown 20230515/e/elkpy/1.1.1-1.1.6/diff.md --exclude *.pyd
+[2023-05-15 16:54:55] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 16:54:55] INFO root fetch - processPackages [genno]: Start processing: vvault
+[2023-05-15 16:54:55] INFO root fetch - main [MainThread]: End processing [genno]: success
+[2023-05-15 16:54:55] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Downloading https://files.pythonhosted.org/packages/1c/0e/dfe0b166d0f724defdd98cd61481c607ac71d3f549da315e62a2f33b004d/serverless-aws-lambda-sdk-0.1.8.tar.gz
+[2023-05-15 16:54:55] INFO root fetch - processPackages [tpfi]: Downloading https://files.pythonhosted.org/packages/04/64/a6a17e7c43729c9aff9ecbadb5ca50f2334fca76ad85c9ec174d7767015c/tpfi-1.1.1.tar.gz
+[2023-05-15 16:54:55] INFO root fetch - processPackages [vvault]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 16:54:55] INFO root fetch - processPackages [nso-oc]: Start processing: deepset-cloud-sdk
+[2023-05-15 16:54:55] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-05-15 16:54:55] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-15 16:54:55] INFO root fetch - processPackages [tpfi]: executing diffoscope
+[2023-05-15 16:54:55] INFO root fetch - processPackages [tpfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpfi-1.1.0.tar.gz tmp/tpfi-1.1.1.tar.gz --markdown 20230515/t/tpfi/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 16:54:56] INFO root fetch - processPackages [vvault]: Downloading https://files.pythonhosted.org/packages/00/1a/5a1d229697d8ca17796674c59c3130cd30d693563de5b6bcec6b45f5ec1c/vvault-0.0.3.tar.gz
+[2023-05-15 16:54:56] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Downloading https://files.pythonhosted.org/packages/b5/2a/f5c55c0452e5ab15284437193ec91cd126bcc89cf50096da00f21c05b321/serverless-aws-lambda-sdk-0.1.9.tar.gz
+[2023-05-15 16:54:56] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-05-15 16:54:56] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.1.tar.gz tmp/deepset_cloud_sdk-0.0.3.tar.gz --markdown 20230515/d/deepset-cloud-sdk/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 16:54:56] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: executing diffoscope
+[2023-05-15 16:54:56] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-aws-lambda-sdk-0.1.8.tar.gz tmp/serverless-aws-lambda-sdk-0.1.9.tar.gz --markdown 20230515/s/serverless-aws-lambda-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 16:54:56] INFO root fetch - processPackages [blaster-server]: Start processing: aws-lambda-stream
+[2023-05-15 16:54:56] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-15 16:54:56] INFO root fetch - processPackages [vvault]: Downloading https://files.pythonhosted.org/packages/bb/7f/5421accfa4fe0cf962a9167585ab8bd920b48d86e57ea475c48133d47ab2/vvault-0.0.4.tar.gz
+[2023-05-15 16:54:56] INFO root fetch - processPackages [aws-lambda-stream]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 16:54:56] INFO root fetch - processPackages [vvault]: executing diffoscope
+[2023-05-15 16:54:56] INFO root fetch - processPackages [vvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvault-0.0.3.tar.gz tmp/vvault-0.0.4.tar.gz --markdown 20230515/v/vvault/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 16:54:56] INFO root fetch - processPackages [aws-lambda-stream]: Downloading https://files.pythonhosted.org/packages/22/8f/dcb5ba98230515a1199f83cfdb868fe7f1045540643bddbfe4b5e66b92be/aws_lambda_stream-1.0.8.tar.gz
+[2023-05-15 16:54:57] INFO root fetch - processPackages [aws-lambda-stream]: Downloading https://files.pythonhosted.org/packages/da/15/c31ca0eb5f5909e28e4231087916245fa809168fa902c34c9df8c1c94268/aws_lambda_stream-1.0.9.tar.gz
+[2023-05-15 16:54:57] INFO root fetch - processPackages [aws-lambda-stream]: executing diffoscope
+[2023-05-15 16:54:57] INFO root fetch - processPackages [aws-lambda-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_stream-1.0.8.tar.gz tmp/aws_lambda_stream-1.0.9.tar.gz --markdown 20230515/a/aws-lambda-stream/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:54:57] INFO root fetch - processPackages [movia]: Start processing: zigpy-zboss
+[2023-05-15 16:54:57] INFO root fetch - main [MainThread]: End processing [movia]: success
+[2023-05-15 16:54:57] ERROR root fetch - processPackages [zigpy-zboss]: Unable to get metadata: No such project 'zigpy-zboss'
+[2023-05-15 16:54:57] INFO root fetch - processPackages [zigpy-zboss]: Start processing: ovos-skill-weather
+[2023-05-15 16:54:57] INFO root fetch - main [MainThread]: End processing [zigpy-zboss] error
+[2023-05-15 16:54:57] INFO root fetch - processPackages [ovos-skill-weather]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-05-15 16:54:57] INFO root fetch - processPackages [ovos-skill-weather]: executing diffoscope
+[2023-05-15 16:54:57] INFO root fetch - processPackages [ovos-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_weather-0.0.1a1-py3-none-any.whl.zip tmp/ovos_skill_weather-0.0.1a2-py3-none-any.whl.zip --markdown 20230515/o/ovos-skill-weather/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-05-15 16:54:58] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.python.common]: success
+[2023-05-15 16:54:59] INFO root fetch - main [MainThread]: End processing [tpfi]: success
+[2023-05-15 16:54:59] INFO root fetch - main [MainThread]: End processing [vvault]: success
+[2023-05-15 16:54:59] INFO root fetch - main [MainThread]: End processing [serverless-aws-lambda-sdk]: success
+[2023-05-15 16:54:59] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-05-15 16:55:00] INFO root fetch - main [MainThread]: End processing [elkpy]: success
+[2023-05-15 16:55:00] INFO root fetch - main [MainThread]: End processing [aws-lambda-stream]: success
+[2023-05-15 16:55:01] INFO root fetch - main [MainThread]: End processing [Exegol]: success
+[2023-05-15 16:55:15] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
+[2023-05-15 16:57:06] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
+[2023-05-15 16:57:06] INFO root fetch - main [MainThread]: Store serial: [18109516]
