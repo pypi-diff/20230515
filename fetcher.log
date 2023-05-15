@@ -22077,3 +22077,81 @@ EOFError: EOF read where object expected
 [2023-05-15 22:39:09] INFO root fetch - main [MainThread]: End processing [iricore]: success
 [2023-05-15 22:39:11] INFO root fetch - main [MainThread]: End processing [mundiapi]: success
 [2023-05-15 22:39:11] INFO root fetch - main [MainThread]: Store serial: [18113118]
+[2023-05-15 22:44:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113118]
+[2023-05-15 22:44:22] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mundiapi
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iricore
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-cli
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-bot
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tactus-deep-sort-realtime
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ssm-ps-template
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yolov5
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elasticityproject
+[2023-05-15 22:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TACTUS-live
+[2023-05-15 22:44:23] WARNING root fetch - processPackages [mb-cli]: Skipping, unable to determine old version
+[2023-05-15 22:44:23] INFO root fetch - processPackages [mb-cli]: Start processing: neon-skill-device-controls
+[2023-05-15 22:44:23] INFO root fetch - main [MainThread]: End processing [mb-cli] error
+[2023-05-15 22:44:23] INFO root fetch - processPackages [mundiapi]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [iricore]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [llm-bot]: New version: [0.0.2a3] Old Version: [0.0.2a2]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [yolov5]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-05-15 22:44:23] WARNING root fetch - processPackages [tactus-deep-sort-realtime]: Skipping, unable to determine old version
+[2023-05-15 22:44:23] INFO root fetch - processPackages [ssm-ps-template]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2023-05-15 22:44:23] WARNING root fetch - processPackages [TACTUS-live]: Skipping, unable to determine old version
+[2023-05-15 22:44:23] INFO root fetch - processPackages [elasticityproject]: New version: [0.1.1.4] Old Version: [0.1.1.3]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [tactus-deep-sort-realtime]: Start processing: MEGABYTE-pytorch
+[2023-05-15 22:44:23] INFO root fetch - main [MainThread]: End processing [tactus-deep-sort-realtime] error
+[2023-05-15 22:44:23] INFO root fetch - processPackages [web3]: New version: [6.4.0] Old Version: [6.3.0]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [TACTUS-live]: Start processing: justbytes
+[2023-05-15 22:44:23] INFO root fetch - main [MainThread]: End processing [TACTUS-live] error
+[2023-05-15 22:44:23] INFO root fetch - processPackages [neon-skill-device-controls]: New version: [0.2.2a2] Old Version: [0.2.2a1]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [MEGABYTE-pytorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/f2/c6/cd938850f244f469ae4b4b7c03300f407018f140f6f25dc015a10263ddf3/iricore-1.4.2.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [justbytes]: New version: [0.9] Old Version: [0.8]
+[2023-05-15 22:44:23] INFO root fetch - processPackages [mundiapi]: Downloading https://files.pythonhosted.org/packages/fd/10/7f11b6255600711894fb9752c6702bc47c5eb1d3a0d369a7e5a5de43a69b/mundiapi-2.4.3.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [yolov5]: Downloading https://files.pythonhosted.org/packages/d5/a2/394742ba53475af44d7f20717c2f7b38c7f72555dbbcc71fe1a4c96c3d73/yolov5-7.0.8.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [ssm-ps-template]: Downloading https://files.pythonhosted.org/packages/ef/62/e563544cbf91224c67ee22c00e81cf0869e54c0be8684c993b84ff2cc6ba/ssm-ps-template-1.0.0b6.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [web3]: Downloading https://files.pythonhosted.org/packages/b4/c0/401c7eed8ad1b815116b14fba8b3450c338b4333d3f1bd2bf06325de6762/web3-6.3.0.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [llm-bot]: Downloading https://files.pythonhosted.org/packages/e7/09/0df56a1cc152471032e09d394c937bcd0d976f4b79be6217433515a33efb/llm_bot-0.0.2a2.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [MEGABYTE-pytorch]: Downloading https://files.pythonhosted.org/packages/fd/19/ed01d0d183aec0c293a7877a9d1d091e1a31ce6b684bf6a001f7ab7d21a6/MEGABYTE-pytorch-0.0.4.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [justbytes]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [justbytes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justbytes-0.8.tar.gz tmp/justbytes-0.9.tar.gz --markdown 20230515/j/justbytes/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [ssm-ps-template]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [ssm-ps-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssm-ps-template-1.0.0b5.tar.gz tmp/ssm-ps-template-1.0.0b6.tar.gz --markdown 20230515/s/ssm-ps-template/1.0.0b5-1.0.0b6/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [MEGABYTE-pytorch]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [MEGABYTE-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MEGABYTE-pytorch-0.0.3.tar.gz tmp/MEGABYTE-pytorch-0.0.4.tar.gz --markdown 20230515/M/MEGABYTE-pytorch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [elasticityproject]: Downloading https://files.pythonhosted.org/packages/a5/4c/55e5c581f126eba93e04dbe127307e55c87ec291baf4ead85994d4424b7c/elasticityproject-0.1.1.4.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [neon-skill-device-controls]: Downloading https://files.pythonhosted.org/packages/7c/ad/5fdaacb88c4519fbec8bb03ac1001d6eeffb62dd054e553d3a3e119460cb/neon_skill_device_controls-0.2.2a2-py3-none-any.whl
+[2023-05-15 22:44:23] INFO root fetch - processPackages [mundiapi]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [mundiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mundiapi-2.4.2.tar.gz tmp/mundiapi-2.4.3.tar.gz --markdown 20230515/m/mundiapi/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [elasticityproject]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [elasticityproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticityproject-0.1.1.3.tar.gz tmp/elasticityproject-0.1.1.4.tar.gz --markdown 20230515/e/elasticityproject/0.1.1.3-0.1.1.4/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [neon-skill-device-controls]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [neon-skill-device-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_device_controls-0.2.2a1-py3-none-any.whl.zip tmp/neon_skill_device_controls-0.2.2a2-py3-none-any.whl.zip --markdown 20230515/n/neon-skill-device-controls/0.2.2a1-0.2.2a2/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [llm-bot]: Downloading https://files.pythonhosted.org/packages/cd/b2/45ce5f413b44db2cc93952837984a770d2597d587efb866888621d78ecf3/llm_bot-0.0.2a3.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [web3]: Downloading https://files.pythonhosted.org/packages/89/37/c5be0d1daec966c5526b3b21446817d5d85c9458c003882ccf2f08b91265/web3-6.4.0.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [yolov5]: Downloading https://files.pythonhosted.org/packages/34/70/47c521220512dcb55c59d512eea18202dd3c00de67a3724db271f999c3f9/yolov5-7.0.9.tar.gz
+[2023-05-15 22:44:23] INFO root fetch - processPackages [llm-bot]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [llm-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_bot-0.0.2a2.tar.gz tmp/llm_bot-0.0.2a3.tar.gz --markdown 20230515/l/llm-bot/0.0.2a2-0.0.2a3/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [yolov5]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [yolov5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov5-7.0.8.tar.gz tmp/yolov5-7.0.9.tar.gz --markdown 20230515/y/yolov5/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:44:23] INFO root fetch - processPackages [web3]: executing diffoscope
+[2023-05-15 22:44:23] INFO root fetch - processPackages [web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-6.3.0.tar.gz tmp/web3-6.4.0.tar.gz --markdown 20230515/w/web3/6.3.0-6.4.0/diff.md --exclude *.pyd
+[2023-05-15 22:44:24] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/68/2b/f66b7963bed2a83bf40f36f79413b4b09a240b67c54bb4b85503966ea56b/iricore-1.4.3.tar.gz
+[2023-05-15 22:44:24] INFO root fetch - processPackages [iricore]: executing diffoscope
+[2023-05-15 22:44:24] INFO root fetch - processPackages [iricore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iricore-1.4.2.tar.gz tmp/iricore-1.4.3.tar.gz --markdown 20230515/i/iricore/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-15 22:44:24] INFO root fetch - processPackages [MEGABYTE-pytorch]: Start processing: dag_dq_generator
+[2023-05-15 22:44:24] INFO root fetch - main [MainThread]: End processing [MEGABYTE-pytorch]: success
+[2023-05-15 22:44:24] WARNING root fetch - processPackages [dag_dq_generator]: Skipping, unable to determine old version
+[2023-05-15 22:44:24] INFO root fetch - main [MainThread]: End processing [dag_dq_generator] error
+[2023-05-15 22:44:25] INFO root fetch - main [MainThread]: End processing [ssm-ps-template]: success
+[2023-05-15 22:44:25] INFO root fetch - main [MainThread]: End processing [elasticityproject]: success
+[2023-05-15 22:44:25] INFO root fetch - main [MainThread]: End processing [neon-skill-device-controls]: success
+[2023-05-15 22:44:25] INFO root fetch - main [MainThread]: End processing [llm-bot]: success
+[2023-05-15 22:44:26] INFO root fetch - main [MainThread]: End processing [web3]: success
+[2023-05-15 22:44:26] INFO root fetch - main [MainThread]: End processing [justbytes]: success
+[2023-05-15 22:44:27] INFO root fetch - main [MainThread]: End processing [yolov5]: success
+[2023-05-15 22:44:27] INFO root fetch - main [MainThread]: End processing [mundiapi]: success
+[2023-05-15 22:44:29] INFO root fetch - main [MainThread]: End processing [iricore]: success
+[2023-05-15 22:44:29] INFO root fetch - main [MainThread]: Store serial: [18113166]
