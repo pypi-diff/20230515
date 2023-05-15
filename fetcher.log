@@ -5894,3 +5894,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 08:50:51] INFO root fetch - main [MainThread]: End processing [odoo-xmlrpc-wrapper]: success
 [2023-05-15 08:50:53] INFO root fetch - main [MainThread]: End processing [irails]: success
 [2023-05-15 08:50:53] INFO root fetch - main [MainThread]: Store serial: [18103633]
+[2023-05-15 08:55:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103633]
+[2023-05-15 08:56:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagworks-sdk
+[2023-05-15 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-eci
+[2023-05-15 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-excel-importer
+[2023-05-15 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plone.app.caching
+[2023-05-15 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-15 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-management
+[2023-05-15 08:56:02] INFO root fetch - processPackages [aliyun-python-sdk-eci]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-15 08:56:02] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230515.6.54.219876] Old Version: [20230514.5.51.278588]
+[2023-05-15 08:56:02] WARNING root fetch - processPackages [django-excel-importer]: Skipping, unable to determine old version
+[2023-05-15 08:56:02] INFO root fetch - main [MainThread]: End processing [django-excel-importer] error
+[2023-05-15 08:56:02] INFO root fetch - processPackages [dagworks-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 08:56:02] INFO root fetch - processPackages [plone.app.caching]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-15 08:56:02] INFO root fetch - processPackages [flask-management]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 08:56:02] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/45/b4/19720855518f145b2c2a32810542cf7fd4784e695575533d150889ad18fb/certora-cli-alpha-oz-docker-json5-20230514.5.51.278588.tar.gz
+[2023-05-15 08:56:02] INFO root fetch - processPackages [flask-management]: Downloading https://files.pythonhosted.org/packages/44/18/77ecf491bae94853e64fe879014178de3863d3276c9b529d291e017333e1/flask_management-0.1.0.tar.gz
+[2023-05-15 08:56:02] INFO root fetch - processPackages [aliyun-python-sdk-eci]: Downloading https://files.pythonhosted.org/packages/d4/93/1db3e26adad821f0cb2b6ad003b89dc2d46180396f506a73607b12662da9/aliyun-python-sdk-eci-1.2.3.tar.gz
+[2023-05-15 08:56:02] INFO root fetch - processPackages [plone.app.caching]: Downloading https://files.pythonhosted.org/packages/10/d7/a8ff8a19350385861bfcec1babc8594114750f8eb975f7df41f085e89b62/plone.app.caching-3.1.0.tar.gz
+[2023-05-15 08:56:02] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 39430818>=10485760
+[2023-05-15 08:56:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-15 08:56:02] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/37/13/f452b43749e748f2c4c70e289177c35d61c811f803beb63802f1461035ad/dagworks-sdk-0.0.3.tar.gz
+[2023-05-15 08:56:02] INFO root fetch - processPackages [aliyun-python-sdk-eci]: Downloading https://files.pythonhosted.org/packages/c4/eb/10d0cd16c560c215eddf9bb4fd87c8b854e96a5d75aa9e6f1691355465fb/aliyun-python-sdk-eci-1.2.4.tar.gz
+[2023-05-15 08:56:02] INFO root fetch - processPackages [flask-management]: Downloading https://files.pythonhosted.org/packages/4a/d0/1bd31fefd3d5dfa808087337141590f331d3401ba66b5d2f9407b157e392/flask_management-0.1.1.tar.gz
+[2023-05-15 08:56:02] INFO root fetch - processPackages [plone.app.caching]: Downloading https://files.pythonhosted.org/packages/a5/5e/1be4574267bfaedba6aa08f7dbc4e4ecf07a52319d4f004f5b7170c59221/plone.app.caching-3.1.1.tar.gz
+[2023-05-15 08:56:02] INFO root fetch - processPackages [dagworks-sdk]: executing diffoscope
+[2023-05-15 08:56:02] INFO root fetch - processPackages [dagworks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagworks-sdk-0.0.2.tar.gz tmp/dagworks-sdk-0.0.3.tar.gz --markdown 20230515/d/dagworks-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 08:56:02] INFO root fetch - processPackages [aliyun-python-sdk-eci]: executing diffoscope
+[2023-05-15 08:56:02] INFO root fetch - processPackages [aliyun-python-sdk-eci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eci-1.2.3.tar.gz tmp/aliyun-python-sdk-eci-1.2.4.tar.gz --markdown 20230515/a/aliyun-python-sdk-eci/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-15 08:56:02] INFO root fetch - processPackages [flask-management]: executing diffoscope
+[2023-05-15 08:56:02] INFO root fetch - processPackages [flask-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_management-0.1.0.tar.gz tmp/flask_management-0.1.1.tar.gz --markdown 20230515/f/flask-management/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 08:56:03] INFO root fetch - processPackages [plone.app.caching]: executing diffoscope
+[2023-05-15 08:56:03] INFO root fetch - processPackages [plone.app.caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.caching-3.1.0.tar.gz tmp/plone.app.caching-3.1.1.tar.gz --markdown 20230515/p/plone.app.caching/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-15 08:56:04] INFO root fetch - main [MainThread]: End processing [flask-management]: success
+[2023-05-15 08:56:04] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eci]: success
+[2023-05-15 08:56:04] INFO root fetch - main [MainThread]: End processing [plone.app.caching]: success
+[2023-05-15 08:56:05] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
+[2023-05-15 08:56:05] INFO root fetch - main [MainThread]: Store serial: [18103660]
