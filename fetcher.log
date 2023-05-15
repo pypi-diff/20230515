@@ -18591,3 +18591,93 @@ EOFError: EOF read where object expected
 [2023-05-15 19:06:21] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-15 19:06:22] INFO root fetch - main [MainThread]: End processing [chorde]: success
 [2023-05-15 19:06:22] INFO root fetch - main [MainThread]: Store serial: [18111047]
+[2023-05-15 19:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111047]
+[2023-05-15 19:11:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: element-calcium-imaging
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oqpy
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipfontingv2
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-choice
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyxui
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatcmd
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-rediscloud
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LegadoParser2
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: holidays
+[2023-05-15 19:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycallrail
+[2023-05-15 19:11:31] WARNING root fetch - processPackages [pipfontingv2]: Skipping, unable to determine old version
+[2023-05-15 19:11:31] INFO root fetch - processPackages [pipfontingv2]: Start processing: domolibrary
+[2023-05-15 19:11:31] INFO root fetch - main [MainThread]: End processing [pipfontingv2] error
+[2023-05-15 19:11:31] INFO root fetch - processPackages [element-calcium-imaging]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [oqpy]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [torch-choice]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [pyxui]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [chatcmd]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [pulumi-rediscloud]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [pycallrail]: New version: [0.9.0.2] Old Version: [0.9.0.1]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [LegadoParser2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 19:11:31] INFO root fetch - processPackages [holidays]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 19:11:32] INFO root fetch - processPackages [oqpy]: Downloading https://files.pythonhosted.org/packages/48/db/39c6006d1786172b053de64987eeedad4f5f95b6e319b45eccafcd6cbafd/oqpy-0.1.2.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [torch-choice]: Downloading https://files.pythonhosted.org/packages/0e/a8/c0f03c6ee9a3e925093c349b75e823f080b10932b97f4c743c56db4fc26e/torch_choice-1.0.1.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pyxui]: Downloading https://files.pythonhosted.org/packages/45/a2/80be9c1854a3673b237b545370b9abcb8069330d02e5fc7e7be0580e2206/pyxui-0.0.2.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [chatcmd]: Downloading https://files.pythonhosted.org/packages/90/5d/dc022e8fc2917e3794176290d1b466ff7ab444ebb3332f890b26468537d3/chatcmd-1.0.7.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pycallrail]: Downloading https://files.pythonhosted.org/packages/13/09/74da3dda783129f7048a87cc85284dda4e0a9fb142719595c167fb3f97d1/pycallrail-0.9.0.2.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pulumi-rediscloud]: Downloading https://files.pythonhosted.org/packages/dc/3f/8715894931b884d4436d456377993473c2f4f434d4053d13f29757a62304/pulumi_rediscloud-1.2.1.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [LegadoParser2]: Downloading https://files.pythonhosted.org/packages/a0/02/3d9be3117c9a1d65858547b4ff93f8a44b3e928b09df65635ef9557c519d/LegadoParser2-0.0.2.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/cc/da/7d0642a8b94ea413fc7005f4538c01475a45b420d705f57481752552ac55/holidays-0.9.8.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/e3/21/4720da5d616febdd12e875fe5900ec30fdebe3c7523e2db429341155ef60/domolibrary-0.1.8.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [element-calcium-imaging]: Downloading https://files.pythonhosted.org/packages/86/a1/2b42fd972789a175aa905618e558ee3a69b0868a29a1046dc47b3d875bea/element-calcium-imaging-0.6.1.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pycallrail]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pycallrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycallrail-0.9.0.1.tar.gz tmp/pycallrail-0.9.0.2.tar.gz --markdown 20230515/p/pycallrail/0.9.0.1-0.9.0.2/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pulumi-rediscloud]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pulumi-rediscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rediscloud-1.2.0.tar.gz tmp/pulumi_rediscloud-1.2.1.tar.gz --markdown 20230515/p/pulumi-rediscloud/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pyxui]: Downloading https://files.pythonhosted.org/packages/25/a7/98bdd7a056d45c82265850444ca184b9d2691ca021ff385e4f4c4b9f0ec2/pyxui-0.0.5.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [LegadoParser2]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [LegadoParser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LegadoParser2-0.0.1.tar.gz tmp/LegadoParser2-0.0.2.tar.gz --markdown 20230515/L/LegadoParser2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [torch-choice]: Downloading https://files.pythonhosted.org/packages/8b/ea/f7e2300a8c5b02d84a7e5b573fa215b5736d254154c1caa56d4a53fa2114/torch_choice-1.0.2.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [oqpy]: Downloading https://files.pythonhosted.org/packages/fc/55/ffa1e9171b49ef0c0446713711c9639e6820571457b699ab71d96c0f3ea1/oqpy-0.2.0.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [chatcmd]: Downloading https://files.pythonhosted.org/packages/8a/ba/794f3a3c440bd203ba5d059da27056bfc7ea5fd3e64fcfec9e646218de1a/chatcmd-1.0.8.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/40/b0/3dfe3d3ed79087848a22de46d379462e371517571ee64668791f3d49ea29/holidays-0.9.9.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [element-calcium-imaging]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [element-calcium-imaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-calcium-imaging-0.6.0.tar.gz tmp/element-calcium-imaging-0.6.1.tar.gz --markdown 20230515/e/element-calcium-imaging/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pyxui]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [pyxui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxui-0.0.2.tar.gz tmp/pyxui-0.0.5.tar.gz --markdown 20230515/p/pyxui/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-05-15 19:11:32] INFO root fetch - processPackages [holidays]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holidays-0.9.8.tar.gz tmp/holidays-0.9.9.tar.gz --markdown 20230515/h/holidays/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [torch-choice]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [torch-choice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_choice-1.0.1.tar.gz tmp/torch_choice-1.0.2.tar.gz --markdown 20230515/t/torch-choice/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [oqpy]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [oqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oqpy-0.1.2.tar.gz tmp/oqpy-0.2.0.tar.gz --markdown 20230515/o/oqpy/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [chatcmd]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [chatcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcmd-1.0.7.tar.gz tmp/chatcmd-1.0.8.tar.gz --markdown 20230515/c/chatcmd/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 19:11:32] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-15 19:11:32] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230515/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 19:11:33] INFO root fetch - processPackages [pyxui]: Start processing: pipHack-demo
+[2023-05-15 19:11:33] INFO root fetch - main [MainThread]: End processing [pyxui]: success
+[2023-05-15 19:11:33] INFO root fetch - processPackages [element-calcium-imaging]: Start processing: concertina_helper
+[2023-05-15 19:11:33] INFO root fetch - main [MainThread]: End processing [element-calcium-imaging]: success
+[2023-05-15 19:11:33] WARNING root fetch - processPackages [concertina_helper]: Skipping, unable to determine old version
+[2023-05-15 19:11:33] INFO root fetch - processPackages [concertina_helper]: Start processing: redis-simple-orm
+[2023-05-15 19:11:33] INFO root fetch - main [MainThread]: End processing [concertina_helper] error
+[2023-05-15 19:11:34] WARNING root fetch - processPackages [pipHack-demo]: Skipping, unable to determine old version
+[2023-05-15 19:11:34] INFO root fetch - processPackages [pipHack-demo]: Start processing: trill-proteins
+[2023-05-15 19:11:34] INFO root fetch - main [MainThread]: End processing [pipHack-demo] error
+[2023-05-15 19:11:34] INFO root fetch - processPackages [trill-proteins]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-15 19:11:34] INFO root fetch - processPackages [redis-simple-orm]: New version: [2.0.0] Old Version: [1.2.7]
+[2023-05-15 19:11:34] INFO root fetch - main [MainThread]: End processing [chatcmd]: success
+[2023-05-15 19:11:34] INFO root fetch - main [MainThread]: End processing [pycallrail]: success
+[2023-05-15 19:11:34] INFO root fetch - processPackages [trill-proteins]: Downloading https://files.pythonhosted.org/packages/9c/2a/5cfbaca89ee8b1adaf34fe9595286da7e38b98407b9cd645121486082256/trill_proteins-1.3.3.tar.gz
+[2023-05-15 19:11:34] INFO root fetch - processPackages [redis-simple-orm]: Downloading https://files.pythonhosted.org/packages/11/2b/99197e214d6e9d61be95945bcbab478e2e06c02b24f0f6d3910fd78be3c3/redis_simple_orm-1.2.7.tar.gz
+[2023-05-15 19:11:34] INFO root fetch - main [MainThread]: End processing [oqpy]: success
+[2023-05-15 19:11:34] INFO root fetch - main [MainThread]: End processing [holidays]: success
+[2023-05-15 19:11:34] INFO root fetch - processPackages [redis-simple-orm]: Downloading https://files.pythonhosted.org/packages/bd/b2/45b98fc6404f5235c0ee5cdfe21880488859da79a364d9caee9f1a8e66d9/redis_simple_orm-2.0.0.tar.gz
+[2023-05-15 19:11:34] INFO root fetch - processPackages [redis-simple-orm]: executing diffoscope
+[2023-05-15 19:11:34] INFO root fetch - processPackages [redis-simple-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_simple_orm-1.2.7.tar.gz tmp/redis_simple_orm-2.0.0.tar.gz --markdown 20230515/r/redis-simple-orm/1.2.7-2.0.0/diff.md --exclude *.pyd
+[2023-05-15 19:11:34] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-15 19:11:34] INFO root fetch - main [MainThread]: End processing [pulumi-rediscloud]: success
+[2023-05-15 19:11:35] INFO root fetch - main [MainThread]: End processing [torch-choice]: success
+[2023-05-15 19:11:35] WARNING root fetch - processPackages [trill-proteins]: Skipping package: exceeds size limit 11003920>=10485760
+[2023-05-15 19:11:35] INFO root fetch - main [MainThread]: End processing [trill-proteins] error
+[2023-05-15 19:11:35] INFO root fetch - main [MainThread]: End processing [redis-simple-orm]: success
+[2023-05-15 19:11:35] INFO root fetch - main [MainThread]: End processing [LegadoParser2]: success
+[2023-05-15 19:11:35] INFO root fetch - main [MainThread]: Store serial: [18111109]
