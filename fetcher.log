@@ -18681,3 +18681,104 @@ EOFError: EOF read where object expected
 [2023-05-15 19:11:35] INFO root fetch - main [MainThread]: End processing [redis-simple-orm]: success
 [2023-05-15 19:11:35] INFO root fetch - main [MainThread]: End processing [LegadoParser2]: success
 [2023-05-15 19:11:35] INFO root fetch - main [MainThread]: Store serial: [18111109]
+[2023-05-15 19:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111109]
+[2023-05-15 19:16:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xpublish-wms
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: powfacpy
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: t2c
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nativetypes
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naturalspeech2-pytorch
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caddo-file-parser
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-image-pipeline
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ndtransform
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-api
+[2023-05-15 19:16:45] INFO root fetch - processPackages [t2c]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [nativetypes]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [powfacpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [airbyte-api]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [naturalspeech2-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [xpublish-wms]: New version: [0.1.dev73] Old Version: [0.1.dev71]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [caddo-file-parser]: New version: [0.44.1] Old Version: [0.43.1]
+[2023-05-15 19:16:45] WARNING root fetch - processPackages [ndtransform]: Skipping, unable to determine old version
+[2023-05-15 19:16:45] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [ndtransform]: Start processing: qm-tools-aw
+[2023-05-15 19:16:45] INFO root fetch - main [MainThread]: End processing [ndtransform] error
+[2023-05-15 19:16:45] INFO root fetch - processPackages [qm-tools-aw]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 19:16:45] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/ce/ce/2021218cb4a0500ed4e3336c1ff74ad916391085e0802eda9fb4fa74ec87/cdk-image-pipeline-0.3.1.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [xpublish-wms]: Downloading https://files.pythonhosted.org/packages/18/d3/ed03da99fbfbcd6135bd0df7d1249b24b2d29fb892cc435067f5e62845b8/xpublish_wms-0.1.dev71.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [nativetypes]: Downloading https://files.pythonhosted.org/packages/c8/7a/101292e16be987e1d07244b9ddd67f76eb83488ab02d49d836cf009bdef6/nativetypes-1.0.4-py2.py3-none-any.whl
+[2023-05-15 19:16:45] INFO root fetch - processPackages [powfacpy]: Downloading https://files.pythonhosted.org/packages/d6/e1/d989907014c69c1b78df440e3beea07ae919cddd5eb99de294ea1219f704/powfacpy-0.1.0.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [t2c]: Downloading https://files.pythonhosted.org/packages/e6/f3/7abea0f6e816251687204c817ce91af022437226ea529b705c24670de8fa/t2c-0.0.6.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [naturalspeech2-pytorch]: Downloading https://files.pythonhosted.org/packages/54/6b/28bef816ddfaad5ba4db36c13c7cab1fb99af0e7bcb77a792ecc0cb9e652/naturalspeech2-pytorch-0.0.8.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/d4/50/1f51a43fdb628a0933afb705a3e77b5cbdfdf2370ccff66cfe024d50faa5/airbyte-api-0.3.0.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [qm-tools-aw]: Downloading https://files.pythonhosted.org/packages/9c/d3/5e4b821c858df942d21a1f83981592a39394904cf2aa4e11bece3ed50ddd/qm_tools_aw-1.0.1.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/4c/97/7e7ee48e76578e376852415f8f3506f459ac0999dde2c44ae8a214009250/pepperize.cdk-lambda-deno-0.0.98.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [caddo-file-parser]: Downloading https://files.pythonhosted.org/packages/86/2e/9c92bc69529fabe014e7e594caf78caf035c686f0fe73ffc56a7b9018cba/caddo-file-parser-0.43.1.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [xpublish-wms]: Downloading https://files.pythonhosted.org/packages/3e/70/5c6140571419c1f78efea29f8e47cbfb05ab280ac7a5489f58cf5310db2a/xpublish_wms-0.1.dev73.tar.gz
+[2023-05-15 19:16:45] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/3e/dd/0b5f8c01b6a0f1db2d7cc83484850770187335402236b5c26b3ba7c37bb7/cdk-image-pipeline-0.3.2.tar.gz
+[2023-05-15 19:16:46] INFO root fetch - processPackages [nativetypes]: Downloading https://files.pythonhosted.org/packages/24/f8/75e4b9c467f4091e6d6d8c17357d962ea01083a3df6ed265065e57b09433/nativetypes-1.0.5-py2.py3-none-any.whl
+[2023-05-15 19:16:46] INFO root fetch - processPackages [qm-tools-aw]: Downloading https://files.pythonhosted.org/packages/bc/dd/bab0dfba0e0b544dde286b640f21494397a31acdeb170a1d992e4bb77c6b/qm_tools_aw-1.0.2.tar.gz
+[2023-05-15 19:16:46] INFO root fetch - processPackages [naturalspeech2-pytorch]: Downloading https://files.pythonhosted.org/packages/25/77/db03ee7a507e4ce8e35645277508dfba8829e32cb2f6b4c8d7ef2d19de99/naturalspeech2-pytorch-0.0.9.tar.gz
+[2023-05-15 19:16:46] INFO root fetch - processPackages [t2c]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [t2c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2c-0.0.5.tar.gz tmp/t2c-0.0.6.tar.gz --markdown 20230515/t/t2c/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [xpublish-wms]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [xpublish-wms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpublish_wms-0.1.dev71.tar.gz tmp/xpublish_wms-0.1.dev73.tar.gz --markdown 20230515/x/xpublish-wms/0.1.dev71-0.1.dev73/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.3.1.tar.gz tmp/cdk-image-pipeline-0.3.2.tar.gz --markdown 20230515/c/cdk-image-pipeline/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/39/5e/d3c1dd19ebcb1f4852a612cf0adc57135a7ee8f58f64e49e1b1bd5d13926/airbyte-api-0.5.0.tar.gz
+[2023-05-15 19:16:46] INFO root fetch - processPackages [nativetypes]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [nativetypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nativetypes-1.0.4-py2.py3-none-any.whl.zip tmp/nativetypes-1.0.5-py2.py3-none-any.whl.zip --markdown 20230515/n/nativetypes/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [caddo-file-parser]: Downloading https://files.pythonhosted.org/packages/7d/83/ec78b4a1f39ea5eb01016df45bca5b4809986cd0f2a7f0b2300323d514e3/caddo-file-parser-0.44.1.tar.gz
+[2023-05-15 19:16:46] INFO root fetch - processPackages [naturalspeech2-pytorch]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [naturalspeech2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalspeech2-pytorch-0.0.8.tar.gz tmp/naturalspeech2-pytorch-0.0.9.tar.gz --markdown 20230515/n/naturalspeech2-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/85/5f/f687fbc9239934d25fca128989aec9e2827e117f5b840cc95329a9c1fd77/pepperize.cdk-lambda-deno-0.0.99.tar.gz
+[2023-05-15 19:16:46] INFO root fetch - processPackages [qm-tools-aw]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [qm-tools-aw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qm_tools_aw-1.0.1.tar.gz tmp/qm_tools_aw-1.0.2.tar.gz --markdown 20230515/q/qm-tools-aw/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [caddo-file-parser]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [caddo-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caddo-file-parser-0.43.1.tar.gz tmp/caddo-file-parser-0.44.1.tar.gz --markdown 20230515/c/caddo-file-parser/0.43.1-0.44.1/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [airbyte-api]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [airbyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-api-0.3.0.tar.gz tmp/airbyte-api-0.5.0.tar.gz --markdown 20230515/a/airbyte-api/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 19:16:46] INFO root fetch - processPackages [powfacpy]: Downloading https://files.pythonhosted.org/packages/ee/14/20938026b025f2451745a651dc24b16d4110381d2abf6b37c96147ce4290/powfacpy-0.1.1.tar.gz
+[2023-05-15 19:16:46] INFO root fetch - processPackages [powfacpy]: executing diffoscope
+[2023-05-15 19:16:46] INFO root fetch - processPackages [powfacpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powfacpy-0.1.0.tar.gz tmp/powfacpy-0.1.1.tar.gz --markdown 20230515/p/powfacpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 19:16:47] INFO root fetch - processPackages [cdk-image-pipeline]: Start processing: quasinet
+[2023-05-15 19:16:47] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2023-05-15 19:16:47] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 19:16:47] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 19:16:47] INFO root fetch - processPackages [nativetypes]: Start processing: data-repo-client
+[2023-05-15 19:16:47] INFO root fetch - main [MainThread]: End processing [nativetypes]: success
+[2023-05-15 19:16:47] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 19:16:47] INFO root fetch - processPackages [quasinet]: Start processing: pycolorkitV2
+[2023-05-15 19:16:47] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 19:16:47] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.481.0]
+[2023-05-15 19:16:47] INFO root fetch - processPackages [t2c]: Start processing: cliconfig
+[2023-05-15 19:16:47] INFO root fetch - main [MainThread]: End processing [t2c]: success
+[2023-05-15 19:16:47] INFO root fetch - processPackages [cliconfig]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-15 19:16:47] WARNING root fetch - processPackages [pycolorkitV2]: Skipping, unable to determine old version
+[2023-05-15 19:16:47] INFO root fetch - processPackages [pycolorkitV2]: Start processing: s2aff
+[2023-05-15 19:16:47] INFO root fetch - main [MainThread]: End processing [pycolorkitV2] error
+[2023-05-15 19:16:47] INFO root fetch - processPackages [s2aff]: New version: [0.25] Old Version: [0.24]
+[2023-05-15 19:16:47] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/1f/cb/2359e271ee14e111bb95ad8e1b5b42178921190f4993a563ffc213904ba5/data-repo-client-1.481.0.tar.gz
+[2023-05-15 19:16:47] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-15 19:16:47] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.6.0.tar.gz tmp/cliconfig-0.6.1.tar.gz --markdown 20230515/c/cliconfig/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-15 19:16:48] INFO root fetch - main [MainThread]: End processing [caddo-file-parser]: success
+[2023-05-15 19:16:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-15 19:16:48] INFO root fetch - main [MainThread]: End processing [xpublish-wms]: success
+[2023-05-15 19:16:48] INFO root fetch - main [MainThread]: End processing [qm-tools-aw]: success
+[2023-05-15 19:16:48] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/f1/3f/7627e021f3cb31b6db9f37d57b216c3336c77d4c9229e1573060fd28fe7a/s2aff-0.25.tar.gz
+[2023-05-15 19:16:48] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch]: success
+[2023-05-15 19:16:48] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-05-15 19:16:48] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-15 19:16:48] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.24.tar.gz tmp/s2aff-0.25.tar.gz --markdown 20230515/s/s2aff/0.24-0.25/diff.md --exclude *.pyd
+[2023-05-15 19:16:48] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-05-15 19:16:48] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.481.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230515/d/data-repo-client/1.481.0-1.64.0/diff.md --exclude *.pyd
+[2023-05-15 19:16:49] INFO root fetch - main [MainThread]: End processing [powfacpy]: success
+[2023-05-15 19:16:49] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-15 19:16:49] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-15 19:16:52] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-05-15 19:16:55] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
+[2023-05-15 19:16:55] INFO root fetch - main [MainThread]: Store serial: [18111163]
