@@ -3199,3 +3199,74 @@
 [2023-05-15 04:58:34] INFO root fetch - main [MainThread]: End processing [cikuu]: success
 [2023-05-15 04:58:35] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-05-15 04:58:35] INFO root fetch - main [MainThread]: Store serial: [18102199]
+[2023-05-15 05:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102199]
+[2023-05-15 05:03:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weiming-demo
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjava
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-dc
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-dcdb
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-dlc
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-dnspod
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-sas20181203-py2
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-sas20181203
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-source-postgres
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ChatLLM
+[2023-05-15 05:03:46] WARNING root fetch - processPackages [weiming-demo]: Skipping, unable to determine old version
+[2023-05-15 05:03:46] INFO root fetch - processPackages [weiming-demo]: Start processing: bk-iam
+[2023-05-15 05:03:46] INFO root fetch - main [MainThread]: End processing [weiming-demo] error
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [pyjava]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [bk-iam]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/f3/b6/c5a83131623368822e09834a99d6ba447a0b3d9c276e8aec6726b25cf490/alibabacloud_sas20181203-2.1.3.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/8f/68/8bac50829c208ebcb1889afeac74874c0c02e8690e8e4878c43444029ac3/pyjava-0.3.9.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/53/e2/537cffe255896665abc22ea7abc7c71514b4bf3ae6e1bccf83d7b26ab709/macrometa-source-postgres-0.0.46.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/0d/13/f6963c2a3eabbb8f3ad880909cb41f5bf350756db97b8e21d614e1d6bf79/tencentcloud-sdk-python-dcdb-3.0.889.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/04/6f/0d43eb99e10911316ac4922cbcb60f597288757815286370b199f1392b29/alibabacloud_sas20181203_py2-2.1.3.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/26/ec/ac464c4af1cd8b081d6811b8a10b92b472385418490a9559b70a87569bff/bk-iam-1.2.2.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Downloading https://files.pythonhosted.org/packages/48/b1/f15c6731b48db898a725543a95dd9258c0847cd872d61b709880f76b793b/tencentcloud-sdk-python-dlc-3.0.891.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/be/62/1f9389bb02b9dedfef514b5633185fd709dff3816136ee839e5d291a5736/alibabacloud_sas20181203-2.1.4.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Downloading https://files.pythonhosted.org/packages/72/2a/14599097c8f3e0fad5da81eb4c2e4fe096b7ab5f582af029e7961454f34e/tencentcloud-sdk-python-dnspod-3.0.891.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/30/8b/118ca7d751f5c75f6d3275d18746ef84e817615605a6a4bcb54ad457ff3b/tencentcloud-sdk-python-dcdb-3.0.891.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Downloading https://files.pythonhosted.org/packages/78/d8/efa500b8a9506bf53955f44b593e99e598eb8074aa5a08d11f44a8c47d6d/tencentcloud-sdk-python-dc-3.0.891.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/b1/d7/a8126fa8fd8e8d6f112931f016db82f6fbcd3bffbe37e50fdd6cc2aced3e/pyjava-0.4.0.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/55/04/05010bbaf5e16df8629fe93a9ad1314b26f746faecb0c25e8118edeeca00/alibabacloud_sas20181203_py2-2.1.4.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/5f/1f/41828f42f990837131ac895730296ad5b493df7c8db6406ad9e717dc93ef/bk-iam-1.3.1.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dlc-3.0.890.tar.gz tmp/tencentcloud-sdk-python-dlc-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-dlc/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/71/3a/8ad7d7f3de482056476ee0e1ac5c6f28915198bdc244104da5fc058a6aea/macrometa-source-postgres-0.0.47.tar.gz
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203-2.1.3.tar.gz tmp/alibabacloud_sas20181203-2.1.4.tar.gz --markdown 20230515/a/alibabacloud-sas20181203/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dnspod-3.0.890.tar.gz tmp/tencentcloud-sdk-python-dnspod-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-dnspod/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dcdb-3.0.889.tar.gz tmp/tencentcloud-sdk-python-dcdb-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-dcdb/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dc-3.0.890.tar.gz tmp/tencentcloud-sdk-python-dc-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-dc/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.3.9.tar.gz tmp/pyjava-0.4.0.tar.gz --markdown 20230515/p/pyjava/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [bk-iam]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [bk-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-iam-1.2.2.tar.gz tmp/bk-iam-1.3.1.tar.gz --markdown 20230515/b/bk-iam/1.2.2-1.3.1/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203_py2-2.1.3.tar.gz tmp/alibabacloud_sas20181203_py2-2.1.4.tar.gz --markdown 20230515/a/alibabacloud-sas20181203-py2/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-15 05:03:46] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-05-15 05:03:46] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.46.tar.gz tmp/macrometa-source-postgres-0.0.47.tar.gz --markdown 20230515/m/macrometa-source-postgres/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-05-15 05:03:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dnspod]: success
+[2023-05-15 05:03:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dlc]: success
+[2023-05-15 05:03:48] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 05:03:48] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2023-05-15 05:03:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dcdb]: success
+[2023-05-15 05:03:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dc]: success
+[2023-05-15 05:03:48] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-05-15 05:03:49] INFO root fetch - main [MainThread]: End processing [bk-iam]: success
+[2023-05-15 05:03:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
+[2023-05-15 05:03:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
+[2023-05-15 05:03:53] INFO root fetch - main [MainThread]: Store serial: [18102232]
