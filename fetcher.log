@@ -6699,3 +6699,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:49:20] INFO root fetch - main [MainThread]: End processing [pyadlml]: success
 [2023-05-15 09:49:24] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-05-15 09:49:24] INFO root fetch - main [MainThread]: Store serial: [18104061]
+[2023-05-15 09:54:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104061]
+[2023-05-15 09:54:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jfExt
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyclickhouse3
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapy-webdriver
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deale-shared-library
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyadlml
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transphone
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-slick-reporting
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slack-primitive-cli
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-cpu
+[2023-05-15 09:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-slick-reporting
+[2023-05-15 09:54:33] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [deale-shared-library]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [scrapy-webdriver]: New version: [0.71] Old Version: [0.70]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyclickhouse3]: New version: [0.9.32] Old Version: [0.9.31]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [transphone]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [slack-primitive-cli]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyadlml]: New version: [0.0.7.9a0] Old Version: [0.0.7.8a0]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230515] Old Version: [2.14.0.dev20230514]
+[2023-05-15 09:54:33] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyclickhouse3]: Downloading https://files.pythonhosted.org/packages/b3/fe/8eff67c1c5cd7218849012988fafa407a59e31234c6dff3ff7b6498ed028/pyclickhouse3-0.9.31.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [slack-primitive-cli]: Downloading https://files.pythonhosted.org/packages/2e/0a/3e567fa59562ebdd27dc4b3682d4158588a56d0f1aef17cdf67e6bd4e2f2/slack-primitive-cli-0.2.0.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [scrapy-webdriver]: Downloading https://files.pythonhosted.org/packages/43/a5/e9448d8c7b9aa70b31ff560731667a444c99be7f7ad76196c546559b08be/scrapy_webdriver-0.70.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/75/fe/392f29aeec908619307494f0e8eec66bd8bc0b110400f349fdcf0781dcfa/django-slick-reporting-0.6.8.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/75/fe/392f29aeec908619307494f0e8eec66bd8bc0b110400f349fdcf0781dcfa/django-slick-reporting-0.6.8.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [transphone]: Downloading https://files.pythonhosted.org/packages/89/6f/25c0a59deecf3e8401551b37caf291a8f6c8c251d9123f7a15bd8e19c061/transphone-1.4.0.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [deale-shared-library]: Downloading https://files.pythonhosted.org/packages/16/c9/5511d2fb3b830803f8625fa836478cae394ef3dc9da9dc8a1b74a328f80f/deale_shared_library-0.0.4.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyclickhouse3]: Downloading https://files.pythonhosted.org/packages/e0/a3/850acd576536bb8686b436f83cb6b5b23a3c23de60fd57bdc0f94615354b/pyclickhouse3-0.9.32.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyadlml]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/08/b6/a62fec9a0d5c186520ee927e60c081438e65f2bfe66d9ac1923f3a536309/tf_nightly_cpu-2.14.0.dev20230515-cp39-cp39-win_amd64.whl
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyadlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadlml-0.0.7.8a0.tar.gz tmp/pyadlml-0.0.7.9a0.tar.gz --markdown 20230515/p/pyadlml/0.0.7.8a0-0.0.7.9a0/diff.md --exclude *.pyd
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/4e/5e/5b4751576fca888ba8d40728d5d0febe8709921b9fec4bc32cda2476f547/django-slick-reporting-0.7.0.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [deale-shared-library]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/4e/5e/5b4751576fca888ba8d40728d5d0febe8709921b9fec4bc32cda2476f547/django-slick-reporting-0.7.0.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [deale-shared-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deale_shared_library-0.0.3.tar.gz tmp/deale_shared_library-0.0.4.tar.gz --markdown 20230515/d/deale-shared-library/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 09:54:33] INFO root fetch - processPackages [slack-primitive-cli]: Downloading https://files.pythonhosted.org/packages/06/c5/5528e891765c0489eeb0f4d0c4f533918a8833be7281542d3898b023700f/slack_primitive_cli-0.2.1.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [transphone]: Downloading https://files.pythonhosted.org/packages/4e/23/66e38baad0379c7366028607b4116acdc2672f41bbea904bd7d59316dea0/transphone-1.4.1.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [slack-primitive-cli]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [slack-primitive-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-primitive-cli-0.2.0.tar.gz tmp/slack_primitive_cli-0.2.1.tar.gz --markdown 20230515/s/slack-primitive-cli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 09:54:33] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20230515/j/jfExt/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-15 09:54:33] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230514-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230515-cp39-cp39-win_amd64.whl.zip --markdown 20230515/t/tf-nightly-cpu/2.14.0.dev20230514-2.14.0.dev20230515/diff.md --exclude *.pyd
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyclickhouse3]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [pyclickhouse3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclickhouse3-0.9.31.tar.gz tmp/pyclickhouse3-0.9.32.tar.gz --markdown 20230515/p/pyclickhouse3/0.9.31-0.9.32/diff.md --exclude *.pyd
+[2023-05-15 09:54:33] INFO root fetch - processPackages [scrapy-webdriver]: Downloading https://files.pythonhosted.org/packages/b0/b7/f225d6675ad97bc2a68750cc82f3bcc7cb2af0fce8eaa933ea1e701f4245/scrapy_webdriver-0.71.tar.gz
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: executing diffoscope
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-slick-reporting-0.6.8.tar.gz tmp/django-slick-reporting-0.7.0.tar.gz --markdown 20230515/d/django-slick-reporting/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 09:54:33] INFO root fetch - processPackages [django-slick-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-slick-reporting-0.6.8.tar.gz tmp/django-slick-reporting-0.7.0.tar.gz --markdown 20230515/d/django-slick-reporting/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 09:54:34] INFO root fetch - processPackages [transphone]: executing diffoscope
+[2023-05-15 09:54:34] INFO root fetch - processPackages [transphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transphone-1.4.0.tar.gz tmp/transphone-1.4.1.tar.gz --markdown 20230515/t/transphone/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-15 09:54:34] INFO root fetch - processPackages [scrapy-webdriver]: executing diffoscope
+[2023-05-15 09:54:34] INFO root fetch - processPackages [scrapy-webdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_webdriver-0.70.tar.gz tmp/scrapy_webdriver-0.71.tar.gz --markdown 20230515/s/scrapy-webdriver/0.70-0.71/diff.md --exclude *.pyd
+[2023-05-15 09:54:35] INFO root fetch - processPackages [deale-shared-library]: Start processing: locust
+[2023-05-15 09:54:35] INFO root fetch - main [MainThread]: End processing [deale-shared-library]: success
+[2023-05-15 09:54:35] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-05-15 09:54:35] INFO root fetch - processPackages [slack-primitive-cli]: Start processing: exodusutils
+[2023-05-15 09:54:35] INFO root fetch - main [MainThread]: End processing [slack-primitive-cli]: success
+[2023-05-15 09:54:35] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-05-15 09:54:35] INFO root fetch - processPackages [exodusutils]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-05-15 09:54:35] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: mttf
+[2023-05-15 09:54:35] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-15 09:54:35] INFO root fetch - processPackages [mttf]: New version: [0.9.202209080909] Old Version: [0.9.202209080905]
+[2023-05-15 09:54:35] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/6a/73/8528d31e8b44e95e1d1b25f2812403d52815e8a3f8519129fe20f8996f9d/exodusutils-0.3.7.tar.gz
+[2023-05-15 09:54:35] INFO root fetch - processPackages [mttf]: executing diffoscope
+[2023-05-15 09:54:35] INFO root fetch - processPackages [mttf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mttf-0.9.202209080905-py3-none-any.whl.zip tmp/mttf-0.9.202209080909-py3-none-any.whl.zip --markdown 20230515/m/mttf/0.9.202209080905-0.9.202209080909/diff.md --exclude *.pyd
+[2023-05-15 09:54:36] INFO root fetch - processPackages [pyclickhouse3]: Start processing: flow.record
+[2023-05-15 09:54:36] INFO root fetch - main [MainThread]: End processing [pyclickhouse3]: success
+[2023-05-15 09:54:36] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/e2/83/372173aabc6d446059c022a2637a661536088a9b6ea7ea3507ce56b46795/exodusutils-0.3.9.tar.gz
+[2023-05-15 09:54:36] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-05-15 09:54:36] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-15 09:54:36] INFO root fetch - processPackages [exodusutils]: executing diffoscope
+[2023-05-15 09:54:36] INFO root fetch - processPackages [exodusutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodusutils-0.3.7.tar.gz tmp/exodusutils-0.3.9.tar.gz --markdown 20230515/e/exodusutils/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 09:54:36] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2023-05-15 09:54:36] INFO root fetch - processPackages [jfExt]: Start processing: py-book-util
+[2023-05-15 09:54:36] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2023-05-15 09:54:36] INFO root fetch - processPackages [py-book-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 09:54:36] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-05-15 09:54:36] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230515/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-05-15 09:54:36] INFO root fetch - processPackages [py-book-util]: executing diffoscope
+[2023-05-15 09:54:36] INFO root fetch - processPackages [py-book-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_book_util-0.1.8.tar.gz tmp/py_book_util-0.1.9.tar.gz --markdown 20230515/p/py-book-util/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 09:54:36] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2023-05-15 09:54:36] INFO root fetch - processPackages [transphone]: Start processing: dearwatson
+[2023-05-15 09:54:36] INFO root fetch - main [MainThread]: End processing [transphone]: success
+[2023-05-15 09:54:36] INFO root fetch - processPackages [dearwatson]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-15 09:54:36] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2023-05-15 09:54:36] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20230515/f/flow.record/3.9.dev8-3.9.dev9/diff.md --exclude *.pyd
+[2023-05-15 09:54:36] INFO root fetch - main [MainThread]: End processing [scrapy-webdriver]: success
+[2023-05-15 09:54:37] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2023-05-15 09:54:37] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.7.0.tar.gz tmp/dearwatson-0.7.1.tar.gz --markdown 20230515/d/dearwatson/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-15 09:54:37] INFO root fetch - main [MainThread]: End processing [mttf]: success
+[2023-05-15 09:54:37] INFO root fetch - main [MainThread]: End processing [django-slick-reporting]: success
+[2023-05-15 09:54:37] INFO root fetch - main [MainThread]: End processing [django-slick-reporting]: success
+[2023-05-15 09:54:38] INFO root fetch - main [MainThread]: End processing [pyadlml]: success
+[2023-05-15 09:54:38] INFO root fetch - main [MainThread]: End processing [py-book-util]: success
+[2023-05-15 09:54:38] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2023-05-15 09:54:38] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
+[2023-05-15 09:54:38] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2023-05-15 09:54:41] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-05-15 09:54:41] INFO root fetch - main [MainThread]: Store serial: [18104109]
