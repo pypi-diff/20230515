@@ -21050,3 +21050,120 @@ EOFError: EOF read where object expected
 [2023-05-15 21:42:27] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
 [2023-05-15 21:42:28] INFO root fetch - main [MainThread]: End processing [kirui]: success
 [2023-05-15 21:42:28] INFO root fetch - main [MainThread]: Store serial: [18112564]
+[2023-05-15 21:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112564]
+[2023-05-15 21:47:38] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prova-pypi
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mesa-solutions-utils
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qqtest01
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emmet-core
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linode-cli
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchling-api-client
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bytez
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-printing-simple-configuration
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmet-builders
+[2023-05-15 21:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mozanalysis
+[2023-05-15 21:47:38] WARNING root fetch - processPackages [qqtest01]: Skipping, unable to determine old version
+[2023-05-15 21:47:38] INFO root fetch - processPackages [qqtest01]: Start processing: permafrost-tempcf
+[2023-05-15 21:47:38] INFO root fetch - processPackages [mesa-solutions-utils]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-15 21:47:38] INFO root fetch - main [MainThread]: End processing [qqtest01] error
+[2023-05-15 21:47:38] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 21:47:38] WARNING root fetch - processPackages [odoo-addon-printing-simple-configuration]: Skipping, unable to determine old version
+[2023-05-15 21:47:38] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Start processing: permafrost-tempcf
+[2023-05-15 21:47:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-printing-simple-configuration] error
+[2023-05-15 21:47:38] INFO root fetch - processPackages [permafrost-tempcf]: New version: [0.6.1] Old Version: [0.0.2]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [mozanalysis]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.84]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [linode-cli]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [permafrost-tempcf]: New version: [0.6.1] Old Version: [0.0.2]
+[2023-05-15 21:47:38] INFO root fetch - processPackages [permafrost-tempcf]: Downloading https://files.pythonhosted.org/packages/b2/d7/529f11a08e52a4db34ee81b794054bb37db1ea7a3a02adfa62035939f1dc/permafrost_tempcf-0.0.2-py3.8.egg
+[2023-05-15 21:47:38] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/06/0a/4f23414a76ee2f4fa91d1517a870ff3d0add8402f346a9289ae1943e7b79/bytez-0.1.84.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [permafrost-tempcf]: Downloading https://files.pythonhosted.org/packages/b2/d7/529f11a08e52a4db34ee81b794054bb37db1ea7a3a02adfa62035939f1dc/permafrost_tempcf-0.0.2-py3.8.egg
+[2023-05-15 21:47:38] INFO root fetch - processPackages [linode-cli]: Downloading https://files.pythonhosted.org/packages/44/f8/2ca8314eee932df8081f2b97fa6ca36798b2eb3f222b93cbb47bf9749c12/linode_cli-5.9.0-py2.py3-none-any.whl
+[2023-05-15 21:47:38] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [mesa-solutions-utils]: Downloading https://files.pythonhosted.org/packages/42/c6/cbaad720cea096285e654507db2d9940a598ec099ec970a03ce3493cf453/mesa-solutions-utils-1.1.8.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [mozanalysis]: Downloading https://files.pythonhosted.org/packages/8b/1c/2be99aa537b23b4b4b9d04431190b723330305b9c6c75e52ff75ef75c5dc/mozanalysis-2023.5.1.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-15 21:47:38] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.84.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230515/b/bytez/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 21:47:38] INFO root fetch - processPackages [permafrost-tempcf]: Downloading https://files.pythonhosted.org/packages/dd/be/e6ccd14442a12f7e87fa74eba52fc85943b1b4016fcde3059c4d13fad8e4/permafrost-tempcf-0.6.1.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [permafrost-tempcf]: Downloading https://files.pythonhosted.org/packages/dd/be/e6ccd14442a12f7e87fa74eba52fc85943b1b4016fcde3059c4d13fad8e4/permafrost-tempcf-0.6.1.tar.gz
+[2023-05-15 21:47:38] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 21:47:38] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.8.tar.gz tmp/prova_pypi-0.0.9.tar.gz --markdown 20230515/p/prova-pypi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [permafrost-tempcf]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [permafrost-tempcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permafrost_tempcf-0.0.2-py3.8.egg tmp/permafrost-tempcf-0.6.1.tar.gz --markdown 20230515/p/permafrost-tempcf/0.0.2-0.6.1/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [permafrost-tempcf]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [permafrost-tempcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permafrost_tempcf-0.0.2-py3.8.egg tmp/permafrost-tempcf-0.6.1.tar.gz --markdown 20230515/p/permafrost-tempcf/0.0.2-0.6.1/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [mesa-solutions-utils]: Downloading https://files.pythonhosted.org/packages/a2/8e/9123cba7f1e1ac81b9c70c5aed23445331f21c93c65d305e1f8e8619cb3d/mesa-solutions-utils-1.1.9.tar.gz
+[2023-05-15 21:47:39] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2023-05-15 21:47:39] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2023-05-15 21:47:39] INFO root fetch - processPackages [linode-cli]: Downloading https://files.pythonhosted.org/packages/40/b5/a0bf4e113c8105221b5eedc38c8c3ab189866517023014ef5c2e08072105/linode_cli-5.9.1-py2.py3-none-any.whl
+[2023-05-15 21:47:39] INFO root fetch - processPackages [mesa-solutions-utils]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [mesa-solutions-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesa-solutions-utils-1.1.8.tar.gz tmp/mesa-solutions-utils-1.1.9.tar.gz --markdown 20230515/m/mesa-solutions-utils/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230515/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [mozanalysis]: Downloading https://files.pythonhosted.org/packages/7f/65/c4b1644d7ab5c9ee00f40f467ad1081c9ddd3a0f296d43c03eb2ddc89fa6/mozanalysis-2023.5.2.tar.gz
+[2023-05-15 21:47:39] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230515/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [linode-cli]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [linode-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linode_cli-5.9.0-py2.py3-none-any.whl.zip tmp/linode_cli-5.9.1-py2.py3-none-any.whl.zip --markdown 20230515/l/linode-cli/5.9.0-5.9.1/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [mozanalysis]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [mozanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozanalysis-2023.5.1.tar.gz tmp/mozanalysis-2023.5.2.tar.gz --markdown 20230515/m/mozanalysis/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-15 21:47:39] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-05-15 21:47:39] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-15 21:47:39] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230515/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 21:47:40] INFO root fetch - processPackages [bytez]: Start processing: emmet-api
+[2023-05-15 21:47:40] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-15 21:47:40] INFO root fetch - processPackages [emmet-api]: New version: [0.55.1] Old Version: [0.55.0]
+[2023-05-15 21:47:40] INFO root fetch - processPackages [prova-pypi]: Start processing: prova-pypi
+[2023-05-15 21:47:40] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 21:47:40] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 21:47:40] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 21:47:40] INFO root fetch - processPackages [permafrost-tempcf]: Start processing: tap-github
+[2023-05-15 21:47:40] INFO root fetch - main [MainThread]: End processing [permafrost-tempcf]: success
+[2023-05-15 21:47:40] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.8.tar.gz tmp/prova_pypi-0.0.9.tar.gz --markdown 20230515/p/prova-pypi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:47:40] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/a5/c2/daa112c770a84f2a883e7111ee494c12db010d96c3a1ba0bbcdf9c343d4a/emmet-api-0.55.0.tar.gz
+[2023-05-15 21:47:40] INFO root fetch - processPackages [tap-github]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-15 21:47:40] INFO root fetch - processPackages [permafrost-tempcf]: Start processing: carefree-drawboard
+[2023-05-15 21:47:40] INFO root fetch - main [MainThread]: End processing [permafrost-tempcf]: success
+[2023-05-15 21:47:40] INFO root fetch - processPackages [carefree-drawboard]: New version: [0.0.1a3] Old Version: [0.0.1a1]
+[2023-05-15 21:47:40] INFO root fetch - processPackages [tap-github]: Downloading https://files.pythonhosted.org/packages/33/a7/8ff1f6e1ed97b70935fa77f398119014e2e7dea916e758a6ea22bf116639/tap-github-2.0.3.tar.gz
+[2023-05-15 21:47:40] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/12/fc/c41980e19de04ec126b30262a70ea585575050ae2a5aa97c87c9fddcd1b1/emmet-api-0.55.1.tar.gz
+[2023-05-15 21:47:40] INFO root fetch - processPackages [mesa-solutions-utils]: Start processing: alembic
+[2023-05-15 21:47:40] INFO root fetch - main [MainThread]: End processing [mesa-solutions-utils]: success
+[2023-05-15 21:47:40] INFO root fetch - processPackages [alembic]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-15 21:47:40] INFO root fetch - processPackages [tap-github]: executing diffoscope
+[2023-05-15 21:47:40] INFO root fetch - processPackages [tap-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-github-2.0.2.tar.gz tmp/tap-github-2.0.3.tar.gz --markdown 20230515/t/tap-github/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-15 21:47:41] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-05-15 21:47:41] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.55.0.tar.gz tmp/emmet-api-0.55.1.tar.gz --markdown 20230515/e/emmet-api/0.55.0-0.55.1/diff.md --exclude *.pyd
+[2023-05-15 21:47:41] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/c1/bf/501244a7355f8e2b736fdec3e2f969795f350cbba286dc3452a4a8f9b83b/carefree-drawboard-0.0.1a3.tar.gz
+[2023-05-15 21:47:41] INFO root fetch - processPackages [alembic]: Downloading https://files.pythonhosted.org/packages/5a/b1/858677f017609f474bb9a9b19cc76f778a81bee43ae181059f610d6c000e/alembic-1.9.3.tar.gz
+[2023-05-15 21:47:41] INFO root fetch - processPackages [emmet-builders]: Start processing: viggonuvemfiscal
+[2023-05-15 21:47:41] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-05-15 21:47:41] INFO root fetch - processPackages [viggonuvemfiscal]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-05-15 21:47:41] INFO root fetch - processPackages [carefree-drawboard]: executing diffoscope
+[2023-05-15 21:47:41] INFO root fetch - processPackages [carefree-drawboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-drawboard-0.0.1a1.tar.gz tmp/carefree-drawboard-0.0.1a3.tar.gz --markdown 20230515/c/carefree-drawboard/0.0.1a1-0.0.1a3/diff.md --exclude *.pyd
+[2023-05-15 21:47:41] INFO root fetch - processPackages [emmet-core]: Start processing: pers
+[2023-05-15 21:47:41] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-05-15 21:47:41] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/1d/a3/e0c448d0825aac60cbafb1c0ffe070c282fc1fd342c988212acecac5367d/viggonuvemfiscal-1.0.6.tar.gz
+[2023-05-15 21:47:41] INFO root fetch - processPackages [alembic]: Downloading https://files.pythonhosted.org/packages/00/19/628a08ff5dee597d94682bc3e0e7048462ef5330483173e84b755717e6b7/alembic-1.9.4.tar.gz
+[2023-05-15 21:47:41] WARNING root fetch - processPackages [pers]: Skipping, unable to determine old version
+[2023-05-15 21:47:41] INFO root fetch - main [MainThread]: End processing [pers] error
+[2023-05-15 21:47:41] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/e9/41/eb63601121278719a4d02b78e78cd6140ef0175d410b117448f66d0962ac/viggonuvemfiscal-1.1.0.tar.gz
+[2023-05-15 21:47:41] INFO root fetch - processPackages [alembic]: executing diffoscope
+[2023-05-15 21:47:41] INFO root fetch - processPackages [alembic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic-1.9.3.tar.gz tmp/alembic-1.9.4.tar.gz --markdown 20230515/a/alembic/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-15 21:47:41] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 21:47:41] INFO root fetch - processPackages [viggonuvemfiscal]: executing diffoscope
+[2023-05-15 21:47:41] INFO root fetch - processPackages [viggonuvemfiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggonuvemfiscal-1.0.6.tar.gz tmp/viggonuvemfiscal-1.1.0.tar.gz --markdown 20230515/v/viggonuvemfiscal/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 21:47:42] INFO root fetch - main [MainThread]: End processing [mozanalysis]: success
+[2023-05-15 21:47:42] INFO root fetch - main [MainThread]: End processing [tap-github]: success
+[2023-05-15 21:47:42] INFO root fetch - main [MainThread]: End processing [viggonuvemfiscal]: success
+[2023-05-15 21:47:43] INFO root fetch - main [MainThread]: End processing [linode-cli]: success
+[2023-05-15 21:47:43] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-05-15 21:47:45] INFO root fetch - main [MainThread]: End processing [carefree-drawboard]: success
+[2023-05-15 21:47:48] INFO root fetch - main [MainThread]: End processing [alembic]: success
+[2023-05-15 21:49:33] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-15 21:49:33] INFO root fetch - main [MainThread]: Store serial: [18112625]
