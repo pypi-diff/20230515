@@ -6447,3 +6447,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:28:18] INFO root fetch - main [MainThread]: End processing [genv]: success
 [2023-05-15 09:28:19] INFO root fetch - main [MainThread]: End processing [tikit]: success
 [2023-05-15 09:28:19] INFO root fetch - main [MainThread]: Store serial: [18103925]
+[2023-05-15 09:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103925]
+[2023-05-15 09:33:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-target-collection
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-bakery
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-collection
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hkbot
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickzetta-connector
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RepRepBuild
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: icalstatus
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickzetta-sqlalchemy
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plotly-resampler
+[2023-05-15 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-05-15 09:33:28] INFO root fetch - processPackages [RepRepBuild]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [wagtail-bakery]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [hkbot]: New version: [2.1.1] Old Version: [2.1]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.58] Old Version: [0.0.57]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.7.30.665696] Old Version: [20230514.9.47.23631]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [icalstatus]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [plotly-resampler]: New version: [0.9.0rc3] Old Version: [0.9.0rc2]
+[2023-05-15 09:33:28] INFO root fetch - processPackages [wagtail-bakery]: Downloading https://files.pythonhosted.org/packages/4a/23/851429d38e4d594e83c5dc43c7a51362047436278538cd10b6dc916744cc/wagtail-bakery-0.7.0.tar.gz
+[2023-05-15 09:33:28] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/6e/d5/6aeea8e35695efd396674a0a1992f345183cf4fe86e4c44cc288303d1a60/certora-cli-alpha-master-20230514.9.47.23631.tar.gz
+[2023-05-15 09:33:28] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/e5/42/92242e4a132ab29768c603c617a19786ded13d264980b537aa70edede722/macrometa-source-collection-0.0.28.tar.gz
+[2023-05-15 09:33:28] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/4a/28/864f4e5265ad54478df85ea6efb91a07759c5bd13e51500ce43910937b20/RepRepBuild-0.7.3.tar.gz
+[2023-05-15 09:33:28] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/8e/5f/ce23467b3089a40a60cec50c2c6c5a815ffcfa85444b9c33dfe3a8910718/clickzetta-connector-0.6.3.tar.gz
+[2023-05-15 09:33:28] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/43/63/465c823f6f7189bff12c0be8f1ab4b296d8174b5079ba375b1b39cb07812/macrometa-target-collection-0.0.57.tar.gz
+[2023-05-15 09:33:28] INFO root fetch - processPackages [hkbot]: Downloading https://files.pythonhosted.org/packages/30/0e/9c6e05db7711b04fede7e843114b999b74d98699f396e5936c8532ca20e6/hkbot-2.1.1.tar.gz
+[2023-05-15 09:33:28] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/ef/39/917fa250b7807b42eb78960b9c54fc233efa217f25a65a63ef744a5df7b6/clickzetta-sqlalchemy-0.6.3.tar.gz
+[2023-05-15 09:33:28] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430914>=10485760
+[2023-05-15 09:33:28] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 09:33:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 09:33:29] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.7.30.660655] Old Version: [20230514.9.42.756705]
+[2023-05-15 09:33:29] INFO root fetch - processPackages [icalstatus]: Downloading https://files.pythonhosted.org/packages/85/f7/a8de4aaeafe2f361dd9c7e88c343175db0bfe97b4f7265dc2071b08dc9dd/icalstatus-0.0.7-py3-none-any.whl
+[2023-05-15 09:33:29] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/bc/06/fdc52dd3324ea7defbae06739ab152b47109c2ded83de271f32114fdad63/plotly_resampler-0.9.0rc3.tar.gz
+[2023-05-15 09:33:29] INFO root fetch - processPackages [hkbot]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [hkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkbot-2.1.tar.gz tmp/hkbot-2.1.1.tar.gz --markdown 20230515/h/hkbot/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/22/80/b00c6245e5b7774a2ceb7420b3b6f669efe0d01cd504928f6d96c70247ac/macrometa-target-collection-0.0.58.tar.gz
+[2023-05-15 09:33:29] INFO root fetch - processPackages [icalstatus]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [icalstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icalstatus-0.0.6-py3-none-any.whl.zip tmp/icalstatus-0.0.7-py3-none-any.whl.zip --markdown 20230515/i/icalstatus/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [wagtail-bakery]: Downloading https://files.pythonhosted.org/packages/1c/46/11e5269099fd3a8d04f17dd99337e807863d639c984d59f9dfe957888c88/wagtail-bakery-0.8.0.tar.gz
+[2023-05-15 09:33:29] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/13/14/02be8a5776d902f7f9e5e5b132b743df4844e8cadef4193e4e84804031e1/macrometa-source-collection-0.0.29.tar.gz
+[2023-05-15 09:33:29] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/3e/b7/222b1651c52a53fbae605ea5206647df2e55fbf7e513f7c1250a652fa0a6/clickzetta-sqlalchemy-0.6.4.tar.gz
+[2023-05-15 09:33:29] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/55/3e/59ea6a4305f03197bb7745f222e9a2d3f5d4dd4ce5c39ea160354a2d3127/clickzetta-connector-0.6.4.tar.gz
+[2023-05-15 09:33:29] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/52/ff/3b5411be9ca080200776c03e2a899d96751c93eed6a82e52692e2d4a4728/RepRepBuild-0.7.4.tar.gz
+[2023-05-15 09:33:29] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/09/79/7db81d83bb0f3b028d7d339f6207d6270ab3a5d299a77a6dcaed73854dd0/certora-cli-alpha-jtoman-infinite-loop-fix-20230514.9.42.756705.tar.gz
+[2023-05-15 09:33:29] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39431772>=10485760
+[2023-05-15 09:33:29] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary
+[2023-05-15 09:33:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 09:33:29] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.57.tar.gz tmp/macrometa-target-collection-0.0.58.tar.gz --markdown 20230515/m/macrometa-target-collection/0.0.57-0.0.58/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.6.3.tar.gz tmp/clickzetta-sqlalchemy-0.6.4.tar.gz --markdown 20230515/c/clickzetta-sqlalchemy/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.28.tar.gz tmp/macrometa-source-collection-0.0.29.tar.gz --markdown 20230515/m/macrometa-source-collection/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [wagtail-bakery]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [wagtail-bakery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-bakery-0.7.0.tar.gz tmp/wagtail-bakery-0.8.0.tar.gz --markdown 20230515/w/wagtail-bakery/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.6.3.tar.gz tmp/clickzetta-connector-0.6.4.tar.gz --markdown 20230515/c/clickzetta-connector/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [plotly-resampler]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [plotly-resampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly_resampler-0.9.0rc2.tar.gz tmp/plotly_resampler-0.9.0rc3.tar.gz --markdown 20230515/p/plotly-resampler/0.9.0rc2-0.9.0rc3/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: New version: [20230515.7.31.464117] Old Version: [20230514.22.1.248797]
+[2023-05-15 09:33:29] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-05-15 09:33:29] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.7.3.tar.gz tmp/RepRepBuild-0.7.4.tar.gz --markdown 20230515/R/RepRepBuild/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-15 09:33:29] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Downloading https://files.pythonhosted.org/packages/de/74/8942d3f3f2aa186620139ffb454880e61c8935e061abe13be70b160136d3/certora-cli-alpha-naftali-CERT-1884_prevent_solidity_func_as_summary-20230514.22.1.248797.tar.gz
+[2023-05-15 09:33:29] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Skipping package: exceeds size limit 39433746>=10485760
+[2023-05-15 09:33:29] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary]: Start processing: mpservice
+[2023-05-15 09:33:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1884-prevent-solidity-func-as-summary] error
+[2023-05-15 09:33:29] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-15 09:33:30] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-15 09:33:30] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230515/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-15 09:33:30] INFO root fetch - main [MainThread]: End processing [icalstatus]: success
+[2023-05-15 09:33:30] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-05-15 09:33:30] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-05-15 09:33:31] INFO root fetch - main [MainThread]: End processing [wagtail-bakery]: success
+[2023-05-15 09:33:31] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-15 09:33:31] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-15 09:33:31] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
+[2023-05-15 09:33:31] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-05-15 09:33:32] INFO root fetch - main [MainThread]: End processing [hkbot]: success
+[2023-05-15 09:33:32] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-15 09:33:32] INFO root fetch - main [MainThread]: Store serial: [18103959]
