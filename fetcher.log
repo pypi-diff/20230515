@@ -12657,3 +12657,181 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 14:29:41] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-15 14:30:33] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-05-15 14:30:33] INFO root fetch - main [MainThread]: Store serial: [18107497]
+[2023-05-15 14:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18107497]
+[2023-05-15 14:35:43] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-bank-python
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-openpyxl
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms_toollib
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bm-utilities
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-github
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yafowil.widget.ace
+[2023-05-15 14:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FreeTVG-karjakak
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.0rc2] Old Version: [3.2.0rc1]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [tap-github]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [yafowil.widget.ace]: New version: [2.0a1] Old Version: [1.2]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [ms_toollib]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.8] Old Version: [3.1.0.7]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [bm-utilities]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.0rc1.tar.gz tmp/FreeTVG-karjakak-3.2.0rc2.tar.gz --markdown 20230515/F/FreeTVG-karjakak/3.2.0rc1-3.2.0rc2/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230515/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 14:35:44] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230515/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/0c/0e/13cae897fd90ec4a0cb478b683de3b28ac7f9551882816b367518f541ef5/types-openpyxl-3.1.0.7.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [ms_toollib]: Downloading https://files.pythonhosted.org/packages/b4/ef/3e63ad33ff813520832cc93c39dd07bc50e81664226fb6dbd6ae89677bcc/ms_toollib-1.4.5-cp37-abi3-win_amd64.whl
+[2023-05-15 14:35:44] INFO root fetch - processPackages [yafowil.widget.ace]: Downloading https://files.pythonhosted.org/packages/0d/61/062caf000c08cf63655263b7e25835eb657673a32d883b55618467f1f9b9/yafowil.widget.ace-1.2.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [tap-github]: Downloading https://files.pythonhosted.org/packages/f2/d9/7d62852083d5dff0d2668300b1b5b5c410738a05d18650e198fdd45e91ea/tap-github-2.0.1.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/52/a0/1a612a30936b747f6a0d5cf3e3d4948b11f5d5ff25258a2beb918accece0/bm_utilities-0.0.6.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [tap-github]: Downloading https://files.pythonhosted.org/packages/3b/b1/ece4d2402e0a0f01ec6a8c4647371f4f53e0f85d4bc01e671a09f5454b73/tap-github-2.0.2.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/59/3f/42fe7b8e572cbad9b97a1f69aa15fcf4fab8d91bafc24cdd2b226d2c8085/bm_utilities-0.0.7.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.7.tar.gz tmp/types-openpyxl-3.1.0.8.tar.gz --markdown 20230515/t/types-openpyxl/3.1.0.7-3.1.0.8/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [yafowil.widget.ace]: Downloading https://files.pythonhosted.org/packages/d5/0b/9c76a95093e2b73e0c553a3d6d5e240d885a94d051965158739112c74675/yafowil.widget.ace-2.0a1.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [ms_toollib]: Downloading https://files.pythonhosted.org/packages/51/e9/f7c55f9e66d34b734c1af0a302f2115cd4881e47f8aaaf10784fd139c9b3/ms_toollib-1.4.6.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.6.tar.gz tmp/bm_utilities-0.0.7.tar.gz --markdown 20230515/b/bm-utilities/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [tap-github]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [tap-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-github-2.0.1.tar.gz tmp/tap-github-2.0.2.tar.gz --markdown 20230515/t/tap-github/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230515/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [ms_toollib]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [ms_toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_toollib-1.4.5-cp37-abi3-win_amd64.whl.zip tmp/ms_toollib-1.4.6.tar.gz --markdown 20230515/m/ms_toollib/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-15 14:35:44] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230515/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 14:35:45] INFO root fetch - processPackages [yafowil.widget.ace]: executing diffoscope
+[2023-05-15 14:35:45] INFO root fetch - processPackages [yafowil.widget.ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafowil.widget.ace-1.2.tar.gz tmp/yafowil.widget.ace-2.0a1.tar.gz --markdown 20230515/y/yafowil.widget.ace/1.2-2.0a1/diff.md --exclude *.pyd
+[2023-05-15 14:35:46] INFO root fetch - processPackages [tap-github]: Start processing: edwh-sshkey-plugin
+[2023-05-15 14:35:46] INFO root fetch - main [MainThread]: End processing [tap-github]: success
+[2023-05-15 14:35:46] INFO root fetch - processPackages [edwh-sshkey-plugin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 14:35:46] INFO root fetch - processPackages [bm-utilities]: Start processing: PyFibreBundle
+[2023-05-15 14:35:46] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-05-15 14:35:46] INFO root fetch - processPackages [PyFibreBundle]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-15 14:35:46] INFO root fetch - processPackages [PyFibreBundle]: Downloading https://files.pythonhosted.org/packages/99/c8/163a6a4245354f14dba06005f1a90a3eaa753b1c0c3c86bac811bb337e48/PyFibreBundle-1.2.0.tar.gz
+[2023-05-15 14:35:46] WARNING root fetch - processPackages [PyFibreBundle]: Skipping package: exceeds size limit 47135309>=10485760
+[2023-05-15 14:35:46] INFO root fetch - processPackages [PyFibreBundle]: Start processing: openscm-runner
+[2023-05-15 14:35:46] INFO root fetch - main [MainThread]: End processing [PyFibreBundle] error
+[2023-05-15 14:35:46] INFO root fetch - processPackages [edwh-sshkey-plugin]: Downloading https://files.pythonhosted.org/packages/4e/87/723485dca9dde30be76c834c0555a4a7350c0dc64b41e5472ba5a335a2aa/edwh_sshkey_plugin-0.1.4.tar.gz
+[2023-05-15 14:35:46] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: azureml-ai-monitoring
+[2023-05-15 14:35:46] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-15 14:35:46] INFO root fetch - processPackages [openscm-runner]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-15 14:35:46] INFO root fetch - processPackages [edwh-sshkey-plugin]: executing diffoscope
+[2023-05-15 14:35:46] INFO root fetch - processPackages [edwh-sshkey-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_sshkey_plugin-0.1.3.tar.gz tmp/edwh_sshkey_plugin-0.1.4.tar.gz --markdown 20230515/e/edwh-sshkey-plugin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 14:35:46] INFO root fetch - processPackages [azureml-ai-monitoring]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2023-05-15 14:35:46] INFO root fetch - processPackages [openscm-runner]: Downloading https://files.pythonhosted.org/packages/5b/34/7f2a42e697c116cc3edba7f22cc912ff46e7bf19a06d9e05ded848e0e00b/openscm-runner-0.9.2.tar.gz
+[2023-05-15 14:35:46] INFO root fetch - processPackages [azureml-ai-monitoring]: Downloading https://files.pythonhosted.org/packages/63/da/148c0f30de535c7d6fac1303c14391ab3e8ae14a1b47a0e15fe03ac9093e/azureml_ai_monitoring-0.1.0b2-py3-none-any.whl
+[2023-05-15 14:35:47] INFO root fetch - processPackages [azureml-ai-monitoring]: Downloading https://files.pythonhosted.org/packages/d1/04/88a8d38d23e20a4abc30efb667e127229dba550091cb291f0ec2179cd712/azureml_ai_monitoring-0.1.0b3-py3-none-any.whl
+[2023-05-15 14:35:47] INFO root fetch - processPackages [azureml-ai-monitoring]: executing diffoscope
+[2023-05-15 14:35:47] INFO root fetch - processPackages [azureml-ai-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_ai_monitoring-0.1.0b2-py3-none-any.whl.zip tmp/azureml_ai_monitoring-0.1.0b3-py3-none-any.whl.zip --markdown 20230515/a/azureml-ai-monitoring/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2023-05-15 14:35:47] INFO root fetch - processPackages [openscm-runner]: Downloading https://files.pythonhosted.org/packages/e5/18/856573d4231a59a7129aba6d7dbdc963755bda00a42500ec8d91f51ae975/openscm-runner-0.9.3.tar.gz
+[2023-05-15 14:35:47] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: yafowil.widget.array
+[2023-05-15 14:35:47] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-15 14:35:47] INFO root fetch - processPackages [yafowil.widget.array]: New version: [2.0a1] Old Version: [1.7]
+[2023-05-15 14:35:47] INFO root fetch - processPackages [yafowil.widget.array]: Downloading https://files.pythonhosted.org/packages/cf/9c/0e371473a6a3f4184eee9741eaa8b7819556b430ba12ba225baba70c0469/yafowil.widget.array-1.7.tar.gz
+[2023-05-15 14:35:47] INFO root fetch - processPackages [openscm-runner]: executing diffoscope
+[2023-05-15 14:35:47] INFO root fetch - processPackages [openscm-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openscm-runner-0.9.2.tar.gz tmp/openscm-runner-0.9.3.tar.gz --markdown 20230515/o/openscm-runner/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-15 14:35:47] INFO root fetch - processPackages [yafowil.widget.array]: Downloading https://files.pythonhosted.org/packages/6d/54/e89a6e65c8f23c4a1f8315a948e0d1e27b8361a37311cbbd92a9aa4b7c01/yafowil.widget.array-2.0a1.tar.gz
+[2023-05-15 14:35:48] INFO root fetch - processPackages [yafowil.widget.array]: executing diffoscope
+[2023-05-15 14:35:48] INFO root fetch - processPackages [yafowil.widget.array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafowil.widget.array-1.7.tar.gz tmp/yafowil.widget.array-2.0a1.tar.gz --markdown 20230515/y/yafowil.widget.array/1.7-2.0a1/diff.md --exclude *.pyd
+[2023-05-15 14:35:48] INFO root fetch - processPackages [edwh-sshkey-plugin]: Start processing: pyqzone
+[2023-05-15 14:35:48] INFO root fetch - main [MainThread]: End processing [edwh-sshkey-plugin]: success
+[2023-05-15 14:35:48] INFO root fetch - processPackages [FreeTVG-karjakak]: Start processing: TACTUS-data
+[2023-05-15 14:35:48] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-15 14:35:48] WARNING root fetch - processPackages [pyqzone]: Skipping, unable to determine old version
+[2023-05-15 14:35:48] INFO root fetch - processPackages [pyqzone]: Start processing: identity-client
+[2023-05-15 14:35:48] INFO root fetch - main [MainThread]: End processing [pyqzone] error
+[2023-05-15 14:35:48] WARNING root fetch - processPackages [TACTUS-data]: Skipping, unable to determine old version
+[2023-05-15 14:35:48] INFO root fetch - processPackages [TACTUS-data]: Start processing: ost-photometry
+[2023-05-15 14:35:48] INFO root fetch - main [MainThread]: End processing [TACTUS-data] error
+[2023-05-15 14:35:48] INFO root fetch - processPackages [identity-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 14:35:48] INFO root fetch - processPackages [ost-photometry]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 14:35:48] INFO root fetch - processPackages [azureml-ai-monitoring]: Start processing: codepeers
+[2023-05-15 14:35:48] INFO root fetch - main [MainThread]: End processing [azureml-ai-monitoring]: success
+[2023-05-15 14:35:48] INFO root fetch - processPackages [identity-client]: Downloading https://files.pythonhosted.org/packages/be/81/8190774bbd8a23660b0be824021c6af49b8e0fb2864d0b64aafa3ef15f3e/identity_client-1.0.8.tar.gz
+[2023-05-15 14:35:48] INFO root fetch - processPackages [codepeers]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 14:35:48] INFO root fetch - processPackages [ost-photometry]: Downloading https://files.pythonhosted.org/packages/7d/a8/1239a3ab8571d807d5ae6ac8aebc50232f0befb6c919d364ca75d053655e/ost_photometry-0.0.3.tar.gz
+[2023-05-15 14:35:48] INFO root fetch - processPackages [codepeers]: Downloading https://files.pythonhosted.org/packages/3f/e9/c14254746db50f4af1b712a6717488887880aabb19435b97abfeaefcbd3b/codepeers-0.1.2-py3-none-any.whl
+[2023-05-15 14:35:48] INFO root fetch - processPackages [identity-client]: Downloading https://files.pythonhosted.org/packages/12/2a/c6563b37d08c67f2a2f62eded48a4fd4681066db2de7cf666046cd0ff214/identity_client-1.0.9.tar.gz
+[2023-05-15 14:35:48] INFO root fetch - processPackages [ms_toollib]: Start processing: large-image
+[2023-05-15 14:35:48] INFO root fetch - main [MainThread]: End processing [ms_toollib]: success
+[2023-05-15 14:35:48] INFO root fetch - processPackages [ost-photometry]: Downloading https://files.pythonhosted.org/packages/eb/16/6e4a6dd8d2845314154b7c0e73490adeb33f92c0c6a356f08b2ee025580d/ost_photometry-0.0.4.tar.gz
+[2023-05-15 14:35:49] INFO root fetch - processPackages [identity-client]: executing diffoscope
+[2023-05-15 14:35:49] INFO root fetch - processPackages [identity-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/identity_client-1.0.8.tar.gz tmp/identity_client-1.0.9.tar.gz --markdown 20230515/i/identity-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 14:35:49] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-15 14:35:49] INFO root fetch - processPackages [ost-photometry]: executing diffoscope
+[2023-05-15 14:35:49] INFO root fetch - processPackages [ost-photometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ost_photometry-0.0.3.tar.gz tmp/ost_photometry-0.0.4.tar.gz --markdown 20230515/o/ost-photometry/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 14:35:49] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-05-15 14:35:49] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230515/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-15 14:35:49] INFO root fetch - processPackages [types-openpyxl]: Start processing: colorsysx
+[2023-05-15 14:35:49] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-05-15 14:35:49] INFO root fetch - processPackages [colorsysx]: New version: [0.2a1] Old Version: [0.1]
+[2023-05-15 14:35:50] INFO root fetch - processPackages [yafowil.widget.array]: Start processing: girder-large-image
+[2023-05-15 14:35:50] INFO root fetch - main [MainThread]: End processing [yafowil.widget.array]: success
+[2023-05-15 14:35:50] INFO root fetch - processPackages [colorsysx]: executing diffoscope
+[2023-05-15 14:35:50] INFO root fetch - processPackages [colorsysx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorsysx-0.1.tar.gz tmp/colorsysx-0.2a1.tar.gz --markdown 20230515/c/colorsysx/0.1-0.2a1/diff.md --exclude *.pyd
+[2023-05-15 14:35:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Start processing: girder-large-image-annotation
+[2023-05-15 14:35:50] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-15 14:35:50] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-15 14:35:50] INFO root fetch - processPackages [identity-client]: Start processing: large-image-converter
+[2023-05-15 14:35:50] INFO root fetch - main [MainThread]: End processing [identity-client]: success
+[2023-05-15 14:35:50] INFO root fetch - processPackages [codepeers]: Downloading https://files.pythonhosted.org/packages/76/a6/9266cbf8f968b0da678785882b7d7a4b46d80e960a41625e2b9c85e08141/codepeers-0.1.3-py3-none-any.whl
+[2023-05-15 14:35:50] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-15 14:35:50] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-05-15 14:35:50] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230515/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-15 14:35:50] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-15 14:35:50] INFO root fetch - processPackages [codepeers]: executing diffoscope
+[2023-05-15 14:35:50] INFO root fetch - processPackages [codepeers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codepeers-0.1.2-py3-none-any.whl.zip tmp/codepeers-0.1.3-py3-none-any.whl.zip --markdown 20230515/c/codepeers/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 14:35:50] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-05-15 14:35:50] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230515/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-15 14:35:50] INFO root fetch - processPackages [large-image]: Start processing: gmsofttest
+[2023-05-15 14:35:50] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-05-15 14:35:51] WARNING root fetch - processPackages [gmsofttest]: Skipping, unable to determine old version
+[2023-05-15 14:35:51] INFO root fetch - processPackages [gmsofttest]: Start processing: maya-mock-completion
+[2023-05-15 14:35:51] INFO root fetch - main [MainThread]: End processing [gmsofttest] error
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230515/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-15 14:35:51] WARNING root fetch - processPackages [maya-mock-completion]: Skipping, unable to determine old version
+[2023-05-15 14:35:51] INFO root fetch - processPackages [maya-mock-completion]: Start processing: large-image-tasks
+[2023-05-15 14:35:51] INFO root fetch - main [MainThread]: End processing [maya-mock-completion] error
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-15 14:35:51] INFO root fetch - processPackages [colorsysx]: Start processing: large-image-source-bioformats
+[2023-05-15 14:35:51] INFO root fetch - main [MainThread]: End processing [colorsysx]: success
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230515/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2023-05-15 14:35:51] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20230515/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-15 14:35:52] INFO root fetch - processPackages [ost-photometry]: Start processing: large-image-source-deepzoom
+[2023-05-15 14:35:52] INFO root fetch - main [MainThread]: End processing [ost-photometry]: success
+[2023-05-15 14:35:52] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-15 14:35:52] INFO root fetch - processPackages [large-image-converter]: Start processing: large-image-source-dicom
+[2023-05-15 14:35:52] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-05-15 14:35:52] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.20.7.dev6] Old Version: [1.20.7.dev4]
+[2023-05-15 14:35:52] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2023-05-15 14:35:52] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20230515/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-15 14:35:52] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-05-15 14:35:52] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/2b/98/26c712decf02a46c158889036e16661d0cd2909a93cd96d9c5d354c5eff4/large-image-source-dicom-1.20.7.dev6.tar.gz
+[2023-05-15 14:35:52] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-05-15 14:35:53] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2023-05-15 14:35:53] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.20.7.dev4.tar.gz tmp/large-image-source-dicom-1.20.7.dev6.tar.gz --markdown 20230515/l/large-image-source-dicom/1.20.7.dev4-1.20.7.dev6/diff.md --exclude *.pyd
+[2023-05-15 14:35:53] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2023-05-15 14:35:53] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-05-15 14:35:53] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2023-05-15 14:35:54] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2023-05-15 14:35:58] INFO root fetch - main [MainThread]: End processing [codepeers]: success
+[2023-05-15 14:35:58] INFO root fetch - main [MainThread]: End processing [openscm-runner]: success
+[2023-05-15 14:36:19] INFO root fetch - main [MainThread]: End processing [yafowil.widget.ace]: success
+[2023-05-15 14:36:30] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-15 14:36:30] INFO root fetch - main [MainThread]: Store serial: [18107603]
