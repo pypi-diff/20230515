@@ -16936,3 +16936,140 @@ EOFError: EOF read where object expected
 [2023-05-15 17:45:53] INFO root fetch - main [MainThread]: End processing [open-clip-torch]: success
 [2023-05-15 17:45:58] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-05-15 17:45:58] INFO root fetch - main [MainThread]: Store serial: [18110112]
+[2023-05-15 17:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110112]
+[2023-05-15 17:51:08] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-api-client-sdk
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liom-toolkit
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: justpass-me-django
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotsos
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hotsos
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: projectrexa
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ngdataenginterface
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openlineage-airflow
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlineage-dagster
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openlineage-dbt
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ai-api-client-sdk]: New version: [1.27.0] Old Version: [1.26.2]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [liom-toolkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 17:51:08] WARNING root fetch - processPackages [projectrexa]: Skipping, unable to determine old version
+[2023-05-15 17:51:08] INFO root fetch - processPackages [projectrexa]: Start processing: openlineage-integration-common
+[2023-05-15 17:51:08] INFO root fetch - main [MainThread]: End processing [projectrexa] error
+[2023-05-15 17:51:08] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [justpass-me-django]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ngdataenginterface]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-dagster]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-airflow]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-integration-common]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-dbt]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ai-api-client-sdk]: Downloading https://files.pythonhosted.org/packages/64/1e/13e24006e27f65024fab39cdcc3c92c82659dff25759e2bb4015fe2122af/ai_api_client_sdk-1.26.2-py3-none-any.whl
+[2023-05-15 17:51:08] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-15 17:51:08] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230515/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-05-15 17:51:08] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-15 17:51:08] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230515/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-05-15 17:51:08] INFO root fetch - processPackages [justpass-me-django]: Downloading https://files.pythonhosted.org/packages/e2/6c/18dd99e24ad6b393b09b423e5c2a60db0eb31df472e4636cec66832864cd/justpass-me-django-0.0.1.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ngdataenginterface]: Downloading https://files.pythonhosted.org/packages/3a/5d/a28b54d846dd65b2d71e07b2084c832ca18dc93207e57e43472816750d40/ngdataenginterface-0.0.2.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/13/67/488fb7516c358e4b285740fb863a79d1279d25d7244a7fe90e6963233d2b/openlineage-dagster-0.8.2.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/58/51/5a84326e4010eb9ee60f5b640b6c588e174ea364fa3cfe42eea82118e396/openlineage-airflow-0.8.2.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/26/27/cc4b641d34d29e86ad58db25ce999c56af25bcb41fbd2fec3e2697af285c/openlineage-dbt-0.8.2.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/e0/42/f729f76f601645e57193d6994aa8db54a5279a5e789fcfa8585b09ea1b40/openlineage-integration-common-0.8.2.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [liom-toolkit]: Downloading https://files.pythonhosted.org/packages/4a/0e/4b7374050e09ce0a237ea7650ac26000031bbb1aa06e891f88ca515761b1/liom-toolkit-0.3.8.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [justpass-me-django]: Downloading https://files.pythonhosted.org/packages/ec/a3/4b982f3864c2077f416c74766895a371ec63dbc5e07a6e8c64a7f5c15a8f/justpass-me-django-0.1.0.tar.gz
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ai-api-client-sdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/5e27070429ccf25c7738dc1d827338964d8f76bf09a558149f4759ebe5f9/ai_api_client_sdk-1.27.0-py3-none-any.whl
+[2023-05-15 17:51:08] INFO root fetch - processPackages [ngdataenginterface]: Downloading https://files.pythonhosted.org/packages/37/c2/1c642f6a0c970003d0734cf707a58e9d0a0fc1dcadaff5045e709b84e76e/ngdataenginterface-0.0.3.tar.gz
+[2023-05-15 17:51:09] INFO root fetch - processPackages [ai-api-client-sdk]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/09/1d/f6da3bb3846b35fe97c0530ff4d933757b4c64053a3cc89537356ba447db/openlineage-dagster-0.9.0.tar.gz
+[2023-05-15 17:51:09] INFO root fetch - processPackages [ai-api-client-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_api_client_sdk-1.26.2-py3-none-any.whl.zip tmp/ai_api_client_sdk-1.27.0-py3-none-any.whl.zip --markdown 20230515/a/ai-api-client-sdk/1.26.2-1.27.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/b0/8f/d5e86853bcc3cdf42b220813ce6ff098d95f6257d611c19a151e17257688/openlineage-dbt-0.9.0.tar.gz
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/ca/7a/0647ff9e01ce6ecdd6ea6498013c9701a74381ad8fdff70e97159d75283a/openlineage-integration-common-0.9.0.tar.gz
+[2023-05-15 17:51:09] INFO root fetch - processPackages [justpass-me-django]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [justpass-me-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justpass-me-django-0.0.1.tar.gz tmp/justpass-me-django-0.1.0.tar.gz --markdown 20230515/j/justpass-me-django/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:09] INFO root fetch - processPackages [liom-toolkit]: Downloading https://files.pythonhosted.org/packages/01/2b/3eeb2521e5be3f842de1f71e21eba4fec6aa667ed09760277fe76f14ad50/liom-toolkit-0.3.9.tar.gz
+[2023-05-15 17:51:09] INFO root fetch - processPackages [ngdataenginterface]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [ngdataenginterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngdataenginterface-0.0.2.tar.gz tmp/ngdataenginterface-0.0.3.tar.gz --markdown 20230515/n/ngdataenginterface/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-dbt]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dbt-0.8.2.tar.gz tmp/openlineage-dbt-0.9.0.tar.gz --markdown 20230515/o/openlineage-dbt/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:09] INFO root fetch - processPackages [liom-toolkit]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [liom-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liom-toolkit-0.3.8.tar.gz tmp/liom-toolkit-0.3.9.tar.gz --markdown 20230515/l/liom-toolkit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-dagster]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dagster-0.8.2.tar.gz tmp/openlineage-dagster-0.9.0.tar.gz --markdown 20230515/o/openlineage-dagster/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/fb/61/19a68d46754130a3be40f2dea560fa5df992a6e95e8efd602f5e96f59fef/openlineage-airflow-0.9.0.tar.gz
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-integration-common]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-integration-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-integration-common-0.8.2.tar.gz tmp/openlineage-integration-common-0.9.0.tar.gz --markdown 20230515/o/openlineage-integration-common/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-airflow]: executing diffoscope
+[2023-05-15 17:51:09] INFO root fetch - processPackages [openlineage-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-airflow-0.8.2.tar.gz tmp/openlineage-airflow-0.9.0.tar.gz --markdown 20230515/o/openlineage-airflow/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:10] INFO root fetch - processPackages [openlineage-dagster]: Start processing: openlineage-python
+[2023-05-15 17:51:10] INFO root fetch - main [MainThread]: End processing [openlineage-dagster]: success
+[2023-05-15 17:51:10] INFO root fetch - processPackages [openlineage-dbt]: Start processing: openlineage-sql
+[2023-05-15 17:51:10] INFO root fetch - main [MainThread]: End processing [openlineage-dbt]: success
+[2023-05-15 17:51:10] INFO root fetch - processPackages [justpass-me-django]: Start processing: helixd
+[2023-05-15 17:51:10] INFO root fetch - main [MainThread]: End processing [justpass-me-django]: success
+[2023-05-15 17:51:10] INFO root fetch - processPackages [ngdataenginterface]: Start processing: aleph-client
+[2023-05-15 17:51:10] INFO root fetch - main [MainThread]: End processing [ngdataenginterface]: success
+[2023-05-15 17:51:10] WARNING root fetch - processPackages [helixd]: Skipping, unable to determine old version
+[2023-05-15 17:51:10] INFO root fetch - processPackages [helixd]: Start processing: justpass-me-django
+[2023-05-15 17:51:10] INFO root fetch - main [MainThread]: End processing [helixd] error
+[2023-05-15 17:51:10] INFO root fetch - processPackages [openlineage-python]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 17:51:10] INFO root fetch - processPackages [justpass-me-django]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-sql]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 17:51:11] INFO root fetch - processPackages [aleph-client]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-15 17:51:11] INFO root fetch - processPackages [justpass-me-django]: executing diffoscope
+[2023-05-15 17:51:11] INFO root fetch - processPackages [justpass-me-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justpass-me-django-0.0.1.tar.gz tmp/justpass-me-django-0.1.0.tar.gz --markdown 20230515/j/justpass-me-django/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:11] INFO root fetch - processPackages [liom-toolkit]: Start processing: visbeats
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [liom-toolkit]: success
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-airflow]: Start processing: miniworldmaker
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [openlineage-airflow]: success
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/08/53/fdaf56bed58ad60fb148f28a32df1da172c9439f400c0c4b7ac52e704b22/openlineage-python-0.8.2.tar.gz
+[2023-05-15 17:51:11] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/aa/a1/31b29e16decda21831cc5847fbfb18ad2ce154cd5480301286e7f8f24cfd/openlineage_sql-0.8.2.tar.gz
+[2023-05-15 17:51:11] WARNING root fetch - processPackages [visbeats]: Skipping, unable to determine old version
+[2023-05-15 17:51:11] INFO root fetch - processPackages [visbeats]: Start processing: IsaBelaMora
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [visbeats] error
+[2023-05-15 17:51:11] INFO root fetch - processPackages [aleph-client]: Downloading https://files.pythonhosted.org/packages/8d/20/08bc8d68bcfba3ff81691551dfe719205ec7e889a80b65e392f630880459/aleph-client-0.5.0.tar.gz
+[2023-05-15 17:51:11] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-05-15 17:51:11] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230515/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-integration-common]: Start processing: wildcard.hps
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [openlineage-integration-common]: success
+[2023-05-15 17:51:11] WARNING root fetch - processPackages [IsaBelaMora]: Skipping, unable to determine old version
+[2023-05-15 17:51:11] INFO root fetch - processPackages [IsaBelaMora]: Start processing: github-archive
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [IsaBelaMora] error
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/cd/7a/48f3382f357e7538a2586aa82728311e2406eacf4d0a93f8113e9eada999/openlineage-python-0.9.0.tar.gz
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/46/a5/42019f5764d165c482529b27de537970858fa948b02049ba31b37eea5d01/openlineage_sql-0.9.0.tar.gz
+[2023-05-15 17:51:11] INFO root fetch - processPackages [wildcard.hps]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-15 17:51:11] INFO root fetch - processPackages [github-archive]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-python]: executing diffoscope
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-python-0.8.2.tar.gz tmp/openlineage-python-0.9.0.tar.gz --markdown 20230515/o/openlineage-python/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-sql]: executing diffoscope
+[2023-05-15 17:51:11] INFO root fetch - processPackages [openlineage-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage_sql-0.8.2.tar.gz tmp/openlineage_sql-0.9.0.tar.gz --markdown 20230515/o/openlineage-sql/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:51:11] INFO root fetch - processPackages [aleph-client]: Downloading https://files.pythonhosted.org/packages/0f/1d/4d5f058c3051bb05442bbef300d9c910feefd67f6a0b3ed41c655be4e0b2/aleph-client-0.5.1.tar.gz
+[2023-05-15 17:51:11] INFO root fetch - processPackages [github-archive]: Downloading https://files.pythonhosted.org/packages/41/ad/9b42e0bb15d63848893aa8489c8b5cd191831fd65e802e22a89e158f5b88/github-archive-5.0.2.tar.gz
+[2023-05-15 17:51:11] INFO root fetch - processPackages [hotsos]: Start processing: reasoner-pydantic
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-15 17:51:11] INFO root fetch - processPackages [reasoner-pydantic]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-15 17:51:11] INFO root fetch - processPackages [ai-api-client-sdk]: Start processing: clinicadl
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [ai-api-client-sdk]: success
+[2023-05-15 17:51:11] INFO root fetch - processPackages [aleph-client]: executing diffoscope
+[2023-05-15 17:51:11] INFO root fetch - processPackages [aleph-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-client-0.5.0.tar.gz tmp/aleph-client-0.5.1.tar.gz --markdown 20230515/a/aleph-client/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-15 17:51:11] INFO root fetch - processPackages [reasoner-pydantic]: executing diffoscope
+[2023-05-15 17:51:11] INFO root fetch - processPackages [reasoner-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner-pydantic-4.0.3.tar.gz tmp/reasoner-pydantic-4.0.4.tar.gz --markdown 20230515/r/reasoner-pydantic/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-15 17:51:11] INFO root fetch - processPackages [wildcard.hps]: Downloading https://files.pythonhosted.org/packages/4d/2d/3efba7a03cb395834f892d5d3e14248096c70fc6a25b296b0a3e0ff13959/wildcard.hps-1.4.2.tar.gz
+[2023-05-15 17:51:11] INFO root fetch - processPackages [clinicadl]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-15 17:51:11] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-15 17:51:11] INFO root fetch - processPackages [github-archive]: Downloading https://files.pythonhosted.org/packages/64/86/8c41a4dd955bb25451206d65b9eeb1415867537855fdddb8ab7e9f46fc4b/github-archive-5.0.3.tar.gz
+[2023-05-15 17:51:12] INFO root fetch - processPackages [clinicadl]: Downloading https://files.pythonhosted.org/packages/0d/ac/6443b32c6f123433694c6df41358fa121abcb597e57630258412ed238ed7/clinicadl-1.3.0.tar.gz
+[2023-05-15 17:51:12] INFO root fetch - processPackages [wildcard.hps]: executing diffoscope
+[2023-05-15 17:51:12] INFO root fetch - processPackages [wildcard.hps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildcard.hps-1.4.1.tar.gz tmp/wildcard.hps-1.4.2.tar.gz --markdown 20230515/w/wildcard.hps/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-15 17:51:12] INFO root fetch - processPackages [github-archive]: executing diffoscope
+[2023-05-15 17:51:12] INFO root fetch - processPackages [github-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github-archive-5.0.2.tar.gz tmp/github-archive-5.0.3.tar.gz --markdown 20230515/g/github-archive/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-05-15 17:51:12] INFO root fetch - processPackages [clinicadl]: Downloading https://files.pythonhosted.org/packages/a7/ef/8892b3d2d1e0bacd04b4ba0e30db889d47cd497de23a949af8910c519e3c/clinicadl-1.3.1.tar.gz
+[2023-05-15 17:51:12] INFO root fetch - main [MainThread]: End processing [justpass-me-django]: success
+[2023-05-15 17:51:12] INFO root fetch - processPackages [clinicadl]: executing diffoscope
+[2023-05-15 17:51:12] INFO root fetch - processPackages [clinicadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinicadl-1.3.0.tar.gz tmp/clinicadl-1.3.1.tar.gz --markdown 20230515/c/clinicadl/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-15 17:51:12] INFO root fetch - main [MainThread]: End processing [openlineage-sql]: success
+[2023-05-15 17:51:13] INFO root fetch - main [MainThread]: End processing [reasoner-pydantic]: success
+[2023-05-15 17:51:13] INFO root fetch - main [MainThread]: End processing [openlineage-python]: success
+[2023-05-15 17:51:13] INFO root fetch - main [MainThread]: End processing [aleph-client]: success
+[2023-05-15 17:51:13] INFO root fetch - main [MainThread]: End processing [github-archive]: success
+[2023-05-15 17:51:14] INFO root fetch - main [MainThread]: End processing [wildcard.hps]: success
+[2023-05-15 17:51:15] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-05-15 17:51:16] INFO root fetch - main [MainThread]: End processing [clinicadl]: success
+[2023-05-15 17:51:16] INFO root fetch - main [MainThread]: Store serial: [18110187]
