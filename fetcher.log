@@ -10174,3 +10174,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:33:40] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
 [2023-05-15 12:33:49] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-15 12:33:49] INFO root fetch - main [MainThread]: Store serial: [18105944]
+[2023-05-15 12:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105944]
+[2023-05-15 12:38:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-15 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VPworldPDF
+[2023-05-15 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-radiance-postprocess
+[2023-05-15 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numbers-c2pa
+[2023-05-15 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-05-15 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-util
+[2023-05-15 12:38:58] WARNING root fetch - processPackages [VPworldPDF]: Skipping, unable to determine old version
+[2023-05-15 12:38:58] INFO root fetch - main [MainThread]: End processing [VPworldPDF] error
+[2023-05-15 12:38:58] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-15 12:38:58] INFO root fetch - processPackages [numbers-c2pa]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 12:38:58] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-15 12:38:58] INFO root fetch - processPackages [hatch-util]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 12:38:58] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-15 12:38:58] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230515/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-15 12:38:58] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-15 12:38:58] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230515/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-15 12:38:58] INFO root fetch - processPackages [numbers-c2pa]: Downloading https://files.pythonhosted.org/packages/e0/ea/35fea4e1103fdf8d11a1a3e711f848545a88af409178729a7df1dff1e1f2/numbers-c2pa-0.0.5.tar.gz
+[2023-05-15 12:38:58] INFO root fetch - processPackages [hatch-util]: Downloading https://files.pythonhosted.org/packages/e2/fd/cf440112e0313ff1ba8d51198cc32a588719f876ba4181d2e5e4bdfaeeba/hatch_util-0.0.1.tar.gz
+[2023-05-15 12:38:58] INFO root fetch - processPackages [numbers-c2pa]: Downloading https://files.pythonhosted.org/packages/c8/81/2aa239ae9c7ef8c509a2235c4868b9627ef20e8b388fba2efd4b79d3548d/numbers-c2pa-0.0.6.tar.gz
+[2023-05-15 12:38:59] INFO root fetch - processPackages [hatch-util]: Downloading https://files.pythonhosted.org/packages/64/ef/139d60de9d9acbca31386fa8c0036ffe494dc716e3d47726c51c1ce9adb9/hatch_util-0.0.2.tar.gz
+[2023-05-15 12:38:59] INFO root fetch - processPackages [numbers-c2pa]: executing diffoscope
+[2023-05-15 12:38:59] INFO root fetch - processPackages [numbers-c2pa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers-c2pa-0.0.5.tar.gz tmp/numbers-c2pa-0.0.6.tar.gz --markdown 20230515/n/numbers-c2pa/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 12:38:59] INFO root fetch - processPackages [hatch-util]: executing diffoscope
+[2023-05-15 12:38:59] INFO root fetch - processPackages [hatch-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_util-0.0.1.tar.gz tmp/hatch_util-0.0.2.tar.gz --markdown 20230515/h/hatch-util/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 12:38:59] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-15 12:38:59] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-15 12:39:00] INFO root fetch - main [MainThread]: End processing [hatch-util]: success
+[2023-05-15 12:39:00] INFO root fetch - main [MainThread]: End processing [numbers-c2pa]: success
+[2023-05-15 12:39:00] INFO root fetch - main [MainThread]: Store serial: [18105964]
