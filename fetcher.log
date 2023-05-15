@@ -17482,3 +17482,104 @@ EOFError: EOF read where object expected
 [2023-05-15 18:13:06] INFO root fetch - main [MainThread]: End processing [corpus-pax]: success
 [2023-05-15 18:13:06] INFO root fetch - main [MainThread]: End processing [structio]: success
 [2023-05-15 18:13:06] INFO root fetch - main [MainThread]: Store serial: [18110424]
+[2023-05-15 18:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110424]
+[2023-05-15 18:18:16] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lifx-cli
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipcryptaddonsV1
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-cdk.asset-awscli-v1
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-braket-default-simulator
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: httpbinx
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-intel
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-vpc
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xztrainer
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IQM-Vis
+[2023-05-15 18:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boto3-helpers
+[2023-05-15 18:18:16] INFO root fetch - processPackages [lifx-cli]: New version: [2.4.3] Old Version: [2.4.1]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [pipcryptaddonsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [xztrainer]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-15 18:18:16] WARNING root fetch - processPackages [httpbinx]: Skipping, unable to determine old version
+[2023-05-15 18:18:16] INFO root fetch - processPackages [httpbinx]: Start processing: visbeats
+[2023-05-15 18:18:16] INFO root fetch - main [MainThread]: End processing [httpbinx] error
+[2023-05-15 18:18:16] INFO root fetch - processPackages [amazon-braket-default-simulator]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [boto3-helpers]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230514] Old Version: [2.14.0.dev20230513]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [visbeats]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.66] Old Version: [0.2.5.65]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/95/e0/ca9b744946f1bcb67b1af23f1cc1115a7d3cc4952457e9713801a0374bd1/lifx_cli-2.4.1.tar.gz
+[2023-05-15 18:18:16] ERROR root fetch - processPackages [pipcryptaddonsV1]: Unable to fetch info: No such project/version 'pipcryptaddonsV1' 1.0.0
+[2023-05-15 18:18:16] INFO root fetch - processPackages [pipcryptaddonsV1]: Start processing: CodeMetaPy
+[2023-05-15 18:18:16] INFO root fetch - main [MainThread]: End processing [pipcryptaddonsV1] error
+[2023-05-15 18:18:16] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-05-15 18:18:16] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: atmoswing-vigicrues
+[2023-05-15 18:18:16] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-05-15 18:18:16] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [CodeMetaPy]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/7a/54/afd1e44249d5686858ad0d2bf2cae1c33a712e04c7a97a79ae6b17ec38c5/amazon-braket-default-simulator-1.9.0.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [xztrainer]: Downloading https://files.pythonhosted.org/packages/02/2d/2e99aaa2f4d065b350bef11b1f1da8fd1503faec00c1ecf45637e64b38bf/xztrainer-0.9.6.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/50/d2/ef977ce138932f9682485fa798c0d1a2729458ad59123c69a6f22737faa6/tf_nightly_intel-2.14.0.dev20230513-cp39-cp39-win_amd64.whl
+[2023-05-15 18:18:16] INFO root fetch - processPackages [visbeats]: Downloading https://files.pythonhosted.org/packages/d5/7b/08fe447056bbd40fb04fcef61cc5530bbaec7a29afb9ec48036fbe6d8210/visbeats-0.0.1.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [boto3-helpers]: Downloading https://files.pythonhosted.org/packages/54/90/18984d21a6f3462015c6a7c8f55a5d55fa8455cce6dfe9cf1bbf62f4f2ed/boto3-helpers-1.3.0.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [IQM-Vis]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [IQM-Vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IQM-Vis-0.2.5.65.tar.gz tmp/IQM-Vis-0.2.5.66.tar.gz --markdown 20230515/I/IQM-Vis/0.2.5.65-0.2.5.66/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] INFO root fetch - processPackages [CodeMetaPy]: Downloading https://files.pythonhosted.org/packages/51/92/2ae589e05aed2cf49388a41dead72570ce09e4cfc076cf5bd0cb50547bc8/CodeMetaPy-2.4.1.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/5a/11/61dbeceb4a5aabaf32c8fbcf5d50621755b92cea4549768f2e76ff467091/lifx_cli-2.4.3.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/19/51/99a137715b8e8e9cd12028bbbcfb41c842f5047587e62140eb7463a3014f/amazon-braket-default-simulator-1.9.1.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [visbeats]: Downloading https://files.pythonhosted.org/packages/cd/bd/81bd53a49c09597e40b5048eb70db8478a54cfca19451629ddbaca06f5e7/visbeats-0.0.2-py3.9.egg
+[2023-05-15 18:18:16] INFO root fetch - processPackages [boto3-helpers]: Downloading https://files.pythonhosted.org/packages/09/49/ad3a49e9878d2c2f56380ce7813ffd1d6724dc152b4682aba57f7fa0ede0/boto3-helpers-1.4.0.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [xztrainer]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [xztrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xztrainer-0.9.6.tar.gz tmp/xztrainer-0.9.7.tar.gz --markdown 20230515/x/xztrainer/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/61/16/25ddf352a0881ed63cf018c65d7a1962b67df00b1f66317da1471bce8916/atmoswing-vigicrues-1.1.1.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [boto3-helpers]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [boto3-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-helpers-1.3.0.tar.gz tmp/boto3-helpers-1.4.0.tar.gz --markdown 20230515/b/boto3-helpers/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] INFO root fetch - processPackages [amazon-braket-default-simulator]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [amazon-braket-default-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-default-simulator-1.9.0.tar.gz tmp/amazon-braket-default-simulator-1.9.1.tar.gz --markdown 20230515/a/amazon-braket-default-simulator/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] INFO root fetch - processPackages [lifx-cli]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [lifx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx_cli-2.4.1.tar.gz tmp/lifx_cli-2.4.3.tar.gz --markdown 20230515/l/lifx-cli/2.4.1-2.4.3/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] INFO root fetch - processPackages [CodeMetaPy]: Downloading https://files.pythonhosted.org/packages/90/45/42b2c602440b1198a41e1b99989fdf42e5e89d6bdf584e79f7baf74383b8/CodeMetaPy-2.5.0.tar.gz
+[2023-05-15 18:18:16] INFO root fetch - processPackages [visbeats]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [visbeats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visbeats-0.0.1.tar.gz tmp/visbeats-0.0.2-py3.9.egg --markdown 20230515/v/visbeats/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-1.1.0.tar.gz tmp/atmoswing-vigicrues-1.1.1.tar.gz --markdown 20230515/a/atmoswing-vigicrues/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 18:18:16] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 180681277>=10485760
+[2023-05-15 18:18:16] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: dearwatson
+[2023-05-15 18:18:16] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-15 18:18:16] INFO root fetch - processPackages [dearwatson]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-15 18:18:16] INFO root fetch - processPackages [CodeMetaPy]: executing diffoscope
+[2023-05-15 18:18:16] INFO root fetch - processPackages [CodeMetaPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeMetaPy-2.4.1.tar.gz tmp/CodeMetaPy-2.5.0.tar.gz --markdown 20230515/C/CodeMetaPy/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-05-15 18:18:17] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/2f/71/7075a399b368b7403e3f6898def2d0489e3537cb63b0b912d8274235ba48/dearwatson-0.7.2.tar.gz
+[2023-05-15 18:18:17] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/9f/75/bfeb2cf033e308695f386845f060f7beb262bafd9232924a6b2eaf576f36/dearwatson-0.7.3.tar.gz
+[2023-05-15 18:18:17] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2023-05-15 18:18:17] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.7.2.tar.gz tmp/dearwatson-0.7.3.tar.gz --markdown 20230515/d/dearwatson/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-15 18:18:17] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: instagrapi
+[2023-05-15 18:18:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-15 18:18:17] INFO root fetch - processPackages [instagrapi]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 18:18:17] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/76/d7/2e3379f2e2033e99f5743565c35eea3290a0d8c64d972b61d72a5f58d114/instagrapi-1.9.8.tar.gz
+[2023-05-15 18:18:18] INFO root fetch - processPackages [IQM-Vis]: Start processing: citation-date
+[2023-05-15 18:18:18] INFO root fetch - main [MainThread]: End processing [IQM-Vis]: success
+[2023-05-15 18:18:18] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/1a/d8/c991a85c48ec7f9c0e137bdaebffcfe17e3a14ceb51fbce4a4e3742df665/instagrapi-1.9.9.tar.gz
+[2023-05-15 18:18:18] INFO root fetch - processPackages [citation-date]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 18:18:18] INFO root fetch - processPackages [instagrapi]: executing diffoscope
+[2023-05-15 18:18:18] INFO root fetch - processPackages [instagrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagrapi-1.9.8.tar.gz tmp/instagrapi-1.9.9.tar.gz --markdown 20230515/i/instagrapi/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 18:18:18] INFO root fetch - processPackages [visbeats]: Start processing: trello-python
+[2023-05-15 18:18:18] INFO root fetch - main [MainThread]: End processing [visbeats]: success
+[2023-05-15 18:18:18] WARNING root fetch - processPackages [trello-python]: Skipping, unable to determine old version
+[2023-05-15 18:18:18] INFO root fetch - main [MainThread]: End processing [trello-python] error
+[2023-05-15 18:18:18] INFO root fetch - processPackages [citation-date]: Downloading https://files.pythonhosted.org/packages/c7/b8/ffcf687a9f4f0f0f58a6a52e52dfb43af4ce9f5e39253769ad53bd5f377f/citation_date-0.1.2.tar.gz
+[2023-05-15 18:18:18] INFO root fetch - main [MainThread]: End processing [xztrainer]: success
+[2023-05-15 18:18:18] INFO root fetch - processPackages [citation-date]: Downloading https://files.pythonhosted.org/packages/47/22/916c0b22169e81728fe2937efdaa144cbcb8313d581f331d68fec3aae6af/citation_date-0.1.3.tar.gz
+[2023-05-15 18:18:18] INFO root fetch - main [MainThread]: End processing [lifx-cli]: success
+[2023-05-15 18:18:18] INFO root fetch - processPackages [citation-date]: executing diffoscope
+[2023-05-15 18:18:18] INFO root fetch - processPackages [citation-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_date-0.1.2.tar.gz tmp/citation_date-0.1.3.tar.gz --markdown 20230515/c/citation-date/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 18:18:18] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-05-15 18:18:18] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2023-05-15 18:18:19] INFO root fetch - main [MainThread]: End processing [boto3-helpers]: success
+[2023-05-15 18:18:19] INFO root fetch - main [MainThread]: End processing [instagrapi]: success
+[2023-05-15 18:18:19] INFO root fetch - main [MainThread]: End processing [citation-date]: success
+[2023-05-15 18:18:20] INFO root fetch - main [MainThread]: End processing [CodeMetaPy]: success
+[2023-05-15 18:18:21] INFO root fetch - main [MainThread]: End processing [amazon-braket-default-simulator]: success
+[2023-05-15 18:18:21] INFO root fetch - main [MainThread]: Store serial: [18110484]
