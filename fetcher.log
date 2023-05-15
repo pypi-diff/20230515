@@ -5140,3 +5140,42 @@
 [2023-05-15 07:16:07] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-05-15 07:16:21] INFO root fetch - main [MainThread]: End processing [pylebai]: success
 [2023-05-15 07:16:21] INFO root fetch - main [MainThread]: Store serial: [18103253]
+[2023-05-15 07:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103253]
+[2023-05-15 07:21:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-05-15 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyreason
+[2023-05-15 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quasinet
+[2023-05-15 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: restoreio
+[2023-05-15 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmz
+[2023-05-15 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: midjourney-api
+[2023-05-15 07:21:32] INFO root fetch - processPackages [pyreason]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-05-15 07:21:32] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.3.dev20230515] Old Version: [0.2.3.dev20230514]
+[2023-05-15 07:21:32] INFO root fetch - processPackages [midjourney-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 07:21:32] INFO root fetch - processPackages [restoreio]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 07:21:32] INFO root fetch - processPackages [lmz]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-15 07:21:32] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 07:21:32] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 07:21:32] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/2c/d6/8894db2e6077933044fd69b29ea68e7c9b7201cc2a6f2ffdef806046b940/restoreio-0.3.1.tar.gz
+[2023-05-15 07:21:32] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 07:21:32] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 07:21:32] INFO root fetch - processPackages [lmz]: Downloading https://files.pythonhosted.org/packages/a5/48/d059b870df53a66e1d3f94d188c8787d7b9526239162c7bdef73b0026805/lmz-0.1.7.tar.gz
+[2023-05-15 07:21:32] INFO root fetch - processPackages [midjourney-api]: Downloading https://files.pythonhosted.org/packages/fc/46/1f6099bd8abc2df8165fdd7434968d1f762b731b1fef2709ff91e6049930/midjourney_api-1.0.6.tar.gz
+[2023-05-15 07:21:32] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/5d/27/c5c514c66f062b87426d2e2a4da72ec3fbea7d175fe47239035cfa8f2156/rapidpe_rift_pipe-0.2.3.dev20230515.tar.gz
+[2023-05-15 07:21:32] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/9f/01/d1121fcd38706336b7d09aeea96cdafca5e2233f0f220649969998bbe2ad/pyreason-1.5.0.tar.gz
+[2023-05-15 07:21:32] INFO root fetch - processPackages [midjourney-api]: executing diffoscope
+[2023-05-15 07:21:32] INFO root fetch - processPackages [midjourney-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midjourney_api-1.0.5.tar.gz tmp/midjourney_api-1.0.6.tar.gz --markdown 20230515/m/midjourney-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-15 07:21:32] INFO root fetch - processPackages [restoreio]: executing diffoscope
+[2023-05-15 07:21:32] INFO root fetch - processPackages [restoreio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restoreio-0.3.0.tar.gz tmp/restoreio-0.3.1.tar.gz --markdown 20230515/r/restoreio/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 07:21:32] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-05-15 07:21:32] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.4.2.tar.gz tmp/pyreason-1.5.0.tar.gz --markdown 20230515/p/pyreason/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-05-15 07:21:32] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-15 07:21:32] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.3.dev20230514.tar.gz tmp/rapidpe_rift_pipe-0.2.3.dev20230515.tar.gz --markdown 20230515/r/rapidpe-rift-pipe/0.2.3.dev20230514-0.2.3.dev20230515/diff.md --exclude *.pyd
+[2023-05-15 07:21:32] INFO root fetch - processPackages [lmz]: Downloading https://files.pythonhosted.org/packages/c9/71/9b95426affd7f0862a65d8a3dd11b7fb69e31a97426f2f65a9f55f748424/lmz-0.1.9.tar.gz
+[2023-05-15 07:21:32] INFO root fetch - processPackages [lmz]: executing diffoscope
+[2023-05-15 07:21:32] INFO root fetch - processPackages [lmz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmz-0.1.7.tar.gz tmp/lmz-0.1.9.tar.gz --markdown 20230515/l/lmz/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 07:21:33] INFO root fetch - main [MainThread]: End processing [midjourney-api]: success
+[2023-05-15 07:21:33] INFO root fetch - main [MainThread]: End processing [lmz]: success
+[2023-05-15 07:21:34] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-15 07:21:34] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-05-15 07:21:34] INFO root fetch - main [MainThread]: End processing [restoreio]: success
+[2023-05-15 07:21:34] INFO root fetch - main [MainThread]: Store serial: [18103269]
