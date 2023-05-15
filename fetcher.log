@@ -4290,3 +4290,49 @@
 [2023-05-15 06:19:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-smh]: success
 [2023-05-15 06:19:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-smpn]: success
 [2023-05-15 06:19:41] INFO root fetch - main [MainThread]: Store serial: [18102805]
+[2023-05-15 06:24:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102805]
+[2023-05-15 06:24:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-sms
+[2023-05-15 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-soe
+[2023-05-15 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-sqlserver
+[2023-05-15 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ssa
+[2023-05-15 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-15 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vessl
+[2023-05-15 06:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lifx-cli
+[2023-05-15 06:24:50] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 06:24:50] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-15 06:24:50] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230515/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 06:24:50] INFO root fetch - processPackages [lifx-cli]: New version: [2.4.0] Old Version: [2.1.0]
+[2023-05-15 06:24:50] INFO root fetch - processPackages [vessl]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-05-15 06:24:50] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 06:24:50] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 06:24:50] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 06:24:50] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 06:24:50] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/70/3c/50a333d2c3ffa044add28e87caf3991e7141256a9b1af22a34238c2bc1ad/lifx_cli-2.1.0.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/66/a5/5f38503451750bfe29357068475ba6f83387f5f55043f907a753fa38e390/tencentcloud-sdk-python-sms-3.0.889.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: Downloading https://files.pythonhosted.org/packages/63/5d/e788dd42c0cb72750e7c8ff912ea6fdab661072d5e48670b1c56be6c211c/tencentcloud-sdk-python-sqlserver-3.0.891.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: Downloading https://files.pythonhosted.org/packages/07/93/a81dfd6955bd77f909f4b58f23d014c69fdb1f767c9481472e66ad37319c/tencentcloud-sdk-python-ssa-3.0.891.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Downloading https://files.pythonhosted.org/packages/bc/9f/ae44a2638f23e9d7ac9456ed69ff3d43870cce71cc09b66a1d78d1970bd0/tencentcloud-sdk-python-soe-3.0.891.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/7c/ba/14d111c212a3a3ff5c2e144377066cc2e25d3df5e85de30056886f1cf1e8/vessl-0.1.96.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: executing diffoscope
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ssa-3.0.890.tar.gz tmp/tencentcloud-sdk-python-ssa-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-ssa/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: executing diffoscope
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sqlserver-3.0.890.tar.gz tmp/tencentcloud-sdk-python-sqlserver-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-sqlserver/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: executing diffoscope
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-soe-3.0.890.tar.gz tmp/tencentcloud-sdk-python-soe-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-soe/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 06:24:51] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/e1/3e/6b9f5e0979e27be35e6e365a31be472d90ec736eab7631fea02088f7bf0f/lifx_cli-2.4.0.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/45/06/facc7b7793269daa139c17fa63c162370f61224da8a73cd611b8d9926967/tencentcloud-sdk-python-sms-3.0.891.tar.gz
+[2023-05-15 06:24:51] INFO root fetch - processPackages [lifx-cli]: executing diffoscope
+[2023-05-15 06:24:51] INFO root fetch - processPackages [lifx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx_cli-2.1.0.tar.gz tmp/lifx_cli-2.4.0.tar.gz --markdown 20230515/l/lifx-cli/2.1.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: executing diffoscope
+[2023-05-15 06:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sms-3.0.889.tar.gz tmp/tencentcloud-sdk-python-sms-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-sms/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 06:24:51] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-05-15 06:24:51] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.95.tar.gz tmp/vessl-0.1.96.tar.gz --markdown 20230515/v/vessl/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-05-15 06:24:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssa]: success
+[2023-05-15 06:24:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-soe]: success
+[2023-05-15 06:24:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sqlserver]: success
+[2023-05-15 06:24:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sms]: success
+[2023-05-15 06:24:53] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-15 06:24:59] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-05-15 06:25:27] INFO root fetch - main [MainThread]: End processing [lifx-cli]: success
+[2023-05-15 06:25:27] INFO root fetch - main [MainThread]: Store serial: [18102829]
