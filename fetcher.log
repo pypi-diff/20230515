@@ -11211,3 +11211,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 13:23:43] INFO root fetch - main [MainThread]: End processing [wmagent]: success
 [2023-05-15 13:24:05] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-05-15 13:24:05] INFO root fetch - main [MainThread]: Store serial: [18106558]
+[2023-05-15 13:29:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18106558]
+[2023-05-15 13:29:15] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchtnt-nightly
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: issue-db-api
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recon-lw
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: byml
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trex2champ
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prophecy-build-tool
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-ant-statistic
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchrl-nightly
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: legend-testdata
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DLMS-SPODES
+[2023-05-15 13:29:15] INFO root fetch - processPackages [legend-testdata]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 13:29:15] INFO root fetch - processPackages [issue-db-api]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-15 13:29:15] WARNING root fetch - processPackages [st-ant-statistic]: Skipping, unable to determine old version
+[2023-05-15 13:29:15] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4979754584] Old Version: [2.0.0.dev4979175441]
+[2023-05-15 13:29:15] INFO root fetch - processPackages [st-ant-statistic]: Start processing: ant1Interface
+[2023-05-15 13:29:15] INFO root fetch - main [MainThread]: End processing [st-ant-statistic] error
+[2023-05-15 13:29:15] INFO root fetch - processPackages [trex2champ]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-15 13:29:15] INFO root fetch - processPackages [byml]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-15 13:29:15] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.1.0.0] Old Version: [1.0.5.0]
+[2023-05-15 13:29:15] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-15 13:29:15] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 13:29:15] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-15 13:29:16] INFO root fetch - processPackages [legend-testdata]: Downloading https://files.pythonhosted.org/packages/78/0f/ff2d6ba576263642144da7d7078ac25419899d5890510cd50c90bf8f283c/legend_testdata-0.4.1.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c9/9b/64ad65ec7e415f33192591dd2102e82854b22ef1cb9defd09d2ab46be388/recon_lw-2.0.0.dev4979175441.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230515/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/45/4c/e5443fdabc33aba4f5aa68c670cbd6d87fea67c2d313dd029c79edcaefc9/prophecy-build-tool-1.0.5.0.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [byml]: Downloading https://files.pythonhosted.org/packages/1c/aa/7633bb0b9339014692707d5222af34d710b03b44ff854c7a9bbd12a72c06/byml-2.4.2-py3-none-any.whl
+[2023-05-15 13:29:16] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 13:29:16] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230515/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [trex2champ]: Downloading https://files.pythonhosted.org/packages/8d/16/1751147adb37549279ef104a1c148c2d9adf0117f67df57377ffc524c82f/trex2champ-2.1.6.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/c7/24/debb6cddbda4964c519613335bdac090aa1f7c253fbfe5cf957154edc14e/issue_db_api-0.9.0.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [legend-testdata]: Downloading https://files.pythonhosted.org/packages/b0/55/3a6c70f08fd1c5a01740ae76d8283ee9fdf1c2a8466e5b6add84b6eaaf21/legend_testdata-0.4.2.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/9d/7a/71f040b8667a03aa1dc7c59c6f968a8c82d1b9f3ac3a3cff7e6945e526c3/recon_lw-2.0.0.dev4979754584.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/f7/5d/3ce114e3dc76bac1aa58ab0ea4590f3759359eda0ace31bb9e53b1a5d1a8/prophecy-build-tool-1.1.0.0.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [byml]: Downloading https://files.pythonhosted.org/packages/9f/f4/ff1f4712bdb1dd572c2b95f236a8085a358bfa3f83416119ef4aad8bbfdc/byml-2.4.3-py3-none-any.whl
+[2023-05-15 13:29:16] INFO root fetch - processPackages [legend-testdata]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [legend-testdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legend_testdata-0.4.1.tar.gz tmp/legend_testdata-0.4.2.tar.gz --markdown 20230515/l/legend-testdata/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-05-15 13:29:16] INFO root fetch - processPackages [trex2champ]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [trex2champ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex2champ-2.1.5.tar.gz tmp/trex2champ-2.1.6.tar.gz --markdown 20230515/t/trex2champ/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.0.5.0.tar.gz tmp/prophecy-build-tool-1.1.0.0.tar.gz --markdown 20230515/p/prophecy-build-tool/1.0.5.0-1.1.0.0/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.8.1.tar.gz tmp/issue_db_api-0.9.0.tar.gz --markdown 20230515/i/issue-db-api/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [byml]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4979175441.tar.gz tmp/recon_lw-2.0.0.dev4979754584.tar.gz --markdown 20230515/r/recon-lw/2.0.0.dev4979175441-2.0.0.dev4979754584/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [byml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byml-2.4.2-py3-none-any.whl.zip tmp/byml-2.4.3-py3-none-any.whl.zip --markdown 20230515/b/byml/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230515/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 13:29:16] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-15 13:29:16] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20230515/t/torchrl-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 13:29:18] INFO root fetch - processPackages [legend-testdata]: Start processing: x-and-y.fastforward-cpu
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [legend-testdata]: success
+[2023-05-15 13:29:18] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 13:29:18] INFO root fetch - processPackages [ant1Interface]: Start processing: torchx-nightly
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 13:29:18] INFO root fetch - processPackages [prophecy-build-tool]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2023-05-15 13:29:18] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230515.6.54.219876] Old Version: [20230515.10.31.651606]
+[2023-05-15 13:29:18] INFO root fetch - processPackages [byml]: Start processing: torchserve-nightly
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [byml]: success
+[2023-05-15 13:29:18] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: Downloading https://files.pythonhosted.org/packages/49/c5/5435439e7a5f964d76a945d010672cc67cc29a85628319cf27200b446a5f/x-and-y.fastforward-cpu-0.1.7.tar.gz
+[2023-05-15 13:29:18] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/2b/80/3eff425a278ef585e026f5c8b31289a4e43772c621151bd92581eca567b9/certora-cli-alpha-oz-docker-json5-20230515.10.31.651606.tar.gz
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230515/t/torchx-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 13:29:18] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 39437429>=10485760
+[2023-05-15 13:29:18] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: torch-model-archiver-nightly
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/84/1f/9485a72320b2c7f49d6a9304acfbc2bd5fe71c25e0e7a3844ce81a1ed180/torchserve_nightly-2023.5.8-py3-none-any.whl
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 13:29:18] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716791>=10485760
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-workflow-archiver-nightly
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 13:29:18] INFO root fetch - processPackages [recon-lw]: Start processing: lightweight-charts
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230515/t/torch-model-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 13:29:18] INFO root fetch - main [MainThread]: End processing [trex2champ]: success
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-15 13:29:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230515/t/torch-workflow-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 13:29:18] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: Downloading https://files.pythonhosted.org/packages/9b/c5/17713c924eb50fb83c7eb3dff27ea6866cf9745d11f5b39ca1d93bae077f/x-and-y.fastforward-cpu-0.1.8.tar.gz
+[2023-05-15 13:29:18] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 13:29:19] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: executing diffoscope
+[2023-05-15 13:29:19] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-and-y.fastforward-cpu-0.1.7.tar.gz tmp/x-and-y.fastforward-cpu-0.1.8.tar.gz --markdown 20230515/x/x-and-y.fastforward-cpu/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 13:29:19] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/a1/03/402d09b809cc68c48eb60892547a281f21bfbc6a6f9538157ce0eaac0d89/lightweight_charts-1.0.2.tar.gz
+[2023-05-15 13:29:19] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/76/bf/2d680f2d72978d70ac60990b2e1224a595e3b7c5319d97ccad72b8d0031a/lightweight_charts-1.0.3.tar.gz
+[2023-05-15 13:29:19] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-15 13:29:19] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-15 13:29:19] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2023-05-15 13:29:19] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.2.tar.gz tmp/lightweight_charts-1.0.3.tar.gz --markdown 20230515/l/lightweight-charts/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 13:29:20] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-15 13:29:20] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-15 13:29:20] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-15 13:29:20] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-15 13:29:20] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-15 13:29:22] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2023-05-15 13:29:22] INFO root fetch - main [MainThread]: End processing [x-and-y.fastforward-cpu]: success
+[2023-05-15 13:29:22] INFO root fetch - main [MainThread]: Store serial: [18106679]
