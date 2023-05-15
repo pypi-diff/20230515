@@ -11318,3 +11318,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 13:29:22] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
 [2023-05-15 13:29:22] INFO root fetch - main [MainThread]: End processing [x-and-y.fastforward-cpu]: success
 [2023-05-15 13:29:22] INFO root fetch - main [MainThread]: Store serial: [18106679]
+[2023-05-15 13:34:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18106679]
+[2023-05-15 13:34:31] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JBPhD
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuflow-rest
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuflow-robotframework
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-shays-CERT-1717
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuflow-temporal-common
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conniosdk
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dabbas
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-acm-reminder
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: siriuspy
+[2023-05-15 13:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cosmpy
+[2023-05-15 13:34:31] INFO root fetch - processPackages [kuflow-robotframework]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [JBPhD]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [kuflow-rest]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: New version: [20230515.7.54.75914] Old Version: [20230515.10.7.459364]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [conniosdk]: New version: [0.32] Old Version: [0.31]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Downloading https://files.pythonhosted.org/packages/4f/52/059999418c5ea5bda18b7e5ba3354a9a7fc9a6aaf734298e821e89cd7bfe/certora-cli-alpha-shays-CERT-1717-20230515.10.7.459364.tar.gz
+[2023-05-15 13:34:31] INFO root fetch - processPackages [nonebot-plugin-acm-reminder]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [siriuspy]: New version: [2.74.0] Old Version: [2.73.0]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [dabbas]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-15 13:34:31] INFO root fetch - processPackages [cosmpy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-15 13:34:32] INFO root fetch - processPackages [conniosdk]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [conniosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conniosdk-0.31-py3-none-any.whl.zip tmp/conniosdk-0.32-py3-none-any.whl.zip --markdown 20230515/c/conniosdk/0.31-0.32/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/2f/7a/986885798e00c2b887e19d80442804e84c91ddeecd345da89d3361c41751/JBPhD-2.1.4.tar.gz
+[2023-05-15 13:34:32] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Skipping package: exceeds size limit 39433654>=10485760
+[2023-05-15 13:34:32] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Start processing: pynamer
+[2023-05-15 13:34:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717] error
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/31/df/31d663073392258d23190a50e41f61cdb6ce67e1f491e4ff8218e82a4de8/kuflow_rest-0.4.3.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/a6/a8/9298ab51896e20e89b21f3c73c2febbe8efa8d1e5e812abbadcf37612609/kuflow_temporal_common-0.4.3.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [nonebot-plugin-acm-reminder]: Downloading https://files.pythonhosted.org/packages/dc/d0/14faed0105317ac42f5a3119c76a2205fdfa4d4c6e56b3b45f0f34ace381/nonebot-plugin-acm-reminder-0.1.7.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/f3/f7/321fc4c40b0132958f240ded2e16356b96e85be395a69a0482f066c8a01e/kuflow_robotframework-0.4.3.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.1.3.tar.gz tmp/JBPhD-2.1.4.tar.gz --markdown 20230515/J/JBPhD/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/bd/5b/3488de90c09d207cef7417911224ecb7f5986c933bc2288cd58e6c77f2f7/dabbas-0.1.6.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [siriuspy]: Downloading https://files.pythonhosted.org/packages/33/e6/529985bd9bc05d7587904142515d77b3ff403fc4b6f8fc0680971c29ad6c/siriuspy-2.73.0.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [cosmpy]: Downloading https://files.pythonhosted.org/packages/99/0c/035ab91fbbe7ccb1f01492377b1ac6fc5ca0b3069297eead61c8a42bd24a/cosmpy-0.7.0.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [pynamer]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.4.2.tar.gz tmp/kuflow_temporal_common-0.4.3.tar.gz --markdown 20230515/k/kuflow-temporal-common/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-0.4.2.tar.gz tmp/kuflow_robotframework-0.4.3.tar.gz --markdown 20230515/k/kuflow-robotframework/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-0.4.2.tar.gz tmp/kuflow_rest-0.4.3.tar.gz --markdown 20230515/k/kuflow-rest/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [cosmpy]: Downloading https://files.pythonhosted.org/packages/76/68/81d0e02fb55ebca4df2458d562d9e3287335ddac4b04f01d3c6f37631005/cosmpy-0.8.0.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [nonebot-plugin-acm-reminder]: Downloading https://files.pythonhosted.org/packages/fa/ff/54ddce2fbec612851fabc54d70a3dcd09fc9425f02dc347c60ccbbaab97c/nonebot-plugin-acm-reminder-0.1.8.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [siriuspy]: Downloading https://files.pythonhosted.org/packages/70/df/e7fb3c46ec33475225bf8cdfeb7c20a57275e36aac520c70ee73a39a9555/siriuspy-2.74.0.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.6.tar.gz tmp/dabbas-0.1.8.tar.gz --markdown 20230515/d/dabbas/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/b8/e1/2eadedf9b7044b04c1ca00d5812d92fa950b86aee1d6292d6c65ef05f172/pynamer-1.1.0.tar.gz
+[2023-05-15 13:34:32] INFO root fetch - processPackages [cosmpy]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [cosmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmpy-0.7.0.tar.gz tmp/cosmpy-0.8.0.tar.gz --markdown 20230515/c/cosmpy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [nonebot-plugin-acm-reminder]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [nonebot-plugin-acm-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-acm-reminder-0.1.7.tar.gz tmp/nonebot-plugin-acm-reminder-0.1.8.tar.gz --markdown 20230515/n/nonebot-plugin-acm-reminder/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [siriuspy]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [siriuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siriuspy-2.73.0.tar.gz tmp/siriuspy-2.74.0.tar.gz --markdown 20230515/s/siriuspy/2.73.0-2.74.0/diff.md --exclude *.pyd
+[2023-05-15 13:34:32] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-05-15 13:34:32] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-1.0.0.tar.gz tmp/pynamer-1.1.0.tar.gz --markdown 20230515/p/pynamer/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 13:34:33] INFO root fetch - processPackages [kuflow-robotframework]: Start processing: bigdl-nano
+[2023-05-15 13:34:33] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2023-05-15 13:34:33] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: areixio
+[2023-05-15 13:34:33] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-05-15 13:34:33] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230514] Old Version: [2.4.0b20230513]
+[2023-05-15 13:34:33] INFO root fetch - processPackages [conniosdk]: Start processing: bigdl-chronos
+[2023-05-15 13:34:33] INFO root fetch - main [MainThread]: End processing [conniosdk]: success
+[2023-05-15 13:34:33] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230514] Old Version: [2.4.0b20230513]
+[2023-05-15 13:34:33] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 13:34:34] INFO root fetch - processPackages [nonebot-plugin-acm-reminder]: Start processing: bigdl-serving
+[2023-05-15 13:34:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-acm-reminder]: success
+[2023-05-15 13:34:34] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230514] Old Version: [2.4.0b20230513]
+[2023-05-15 13:34:34] INFO root fetch - processPackages [dabbas]: Start processing: mtANN
+[2023-05-15 13:34:34] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-05-15 13:34:34] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-15 13:34:34] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230513-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230514-py2.py3-none-any.whl.zip --markdown 20230515/b/bigdl-serving/2.4.0b20230513-2.4.0b20230514/diff.md --exclude *.pyd
+[2023-05-15 13:34:34] INFO root fetch - processPackages [mtANN]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 13:34:34] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/c4/91/5a3b1feda3385e907a43cbf462c489d3515930893925430b210d5c7cf7ec/areixio-0.2.8.tar.gz
+[2023-05-15 13:34:34] INFO root fetch - processPackages [kuflow-rest]: Start processing: pylegendtestdata
+[2023-05-15 13:34:34] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2023-05-15 13:34:34] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-15 13:34:34] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230513-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230514-py3-none-win_amd64.whl.zip --markdown 20230515/b/bigdl-nano/2.4.0b20230513-2.4.0b20230514/diff.md --exclude *.pyd
+[2023-05-15 13:34:34] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-15 13:34:34] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230513-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230514-py3-none-win_amd64.whl.zip --markdown 20230515/b/bigdl-chronos/2.4.0b20230513-2.4.0b20230514/diff.md --exclude *.pyd
+[2023-05-15 13:34:34] WARNING root fetch - processPackages [pylegendtestdata]: Skipping, unable to determine old version
+[2023-05-15 13:34:34] INFO root fetch - processPackages [pylegendtestdata]: Start processing: cone.app
+[2023-05-15 13:34:34] INFO root fetch - main [MainThread]: End processing [pylegendtestdata] error
+[2023-05-15 13:34:34] INFO root fetch - processPackages [mtANN]: Downloading https://files.pythonhosted.org/packages/e8/32/f85dc903e52fb251bd4379d6b4309b8d8bc8efeb37cdc6217686f85e7320/mtANN-0.1.2.tar.gz
+[2023-05-15 13:34:34] INFO root fetch - processPackages [mtANN]: executing diffoscope
+[2023-05-15 13:34:34] INFO root fetch - processPackages [mtANN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtANN-0.1.1.tar.gz tmp/mtANN-0.1.2.tar.gz --markdown 20230515/m/mtANN/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 13:34:34] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-05-15 13:34:34] INFO root fetch - processPackages [cone.app]: New version: [1.0rc3] Old Version: [1.0rc2]
+[2023-05-15 13:34:34] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-15 13:34:34] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230515/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 13:34:34] INFO root fetch - processPackages [pynamer]: Start processing: prova-pypi
+[2023-05-15 13:34:34] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-05-15 13:34:34] INFO root fetch - processPackages [cone.app]: Downloading https://files.pythonhosted.org/packages/67/01/3d3bf6eada59cd5dffad116c50a1b1cdfa0235bd2f56898cce37d94664d7/cone.app-1.0rc2.tar.gz
+[2023-05-15 13:34:34] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 13:34:34] INFO root fetch - processPackages [prova-pypi]: Downloading https://files.pythonhosted.org/packages/07/49/878b17324bd04710820e1671c471443ed77dbd96fd2d878aa7ba4b9e6a10/prova_pypi-0.0.9.tar.gz
+[2023-05-15 13:34:35] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 13:34:35] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.8.tar.gz tmp/prova_pypi-0.0.9.tar.gz --markdown 20230515/p/prova-pypi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 13:34:35] INFO root fetch - processPackages [cone.app]: Downloading https://files.pythonhosted.org/packages/ec/a1/e5e10598aa51b1bb81588c1bf7bfcab7dcaf26d66418623094a08ebb48b8/cone.app-1.0rc3.tar.gz
+[2023-05-15 13:34:35] INFO root fetch - processPackages [cone.app]: executing diffoscope
+[2023-05-15 13:34:35] INFO root fetch - processPackages [cone.app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cone.app-1.0rc2.tar.gz tmp/cone.app-1.0rc3.tar.gz --markdown 20230515/c/cone.app/1.0rc2-1.0rc3/diff.md --exclude *.pyd
+[2023-05-15 13:34:35] INFO root fetch - processPackages [bigdl-serving]: Start processing: KMMTR
+[2023-05-15 13:34:35] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-15 13:34:35] INFO root fetch - processPackages [KMMTR]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-15 13:34:35] INFO root fetch - processPackages [mtANN]: Start processing: biocartograph
+[2023-05-15 13:34:35] INFO root fetch - main [MainThread]: End processing [mtANN]: success
+[2023-05-15 13:34:36] INFO root fetch - processPackages [biocartograph]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-15 13:34:36] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/6e/05/75308d90c9069a577f973121a5b39a5defff9b044ad54865f8278e8043ae/KMMTR-0.0.5.tar.gz
+[2023-05-15 13:34:36] INFO root fetch - processPackages [KMMTR]: executing diffoscope
+[2023-05-15 13:34:36] INFO root fetch - processPackages [KMMTR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMMTR-0.0.3.tar.gz tmp/KMMTR-0.0.5.tar.gz --markdown 20230515/K/KMMTR/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 13:34:36] INFO root fetch - processPackages [JBPhD]: Start processing: gordo
+[2023-05-15 13:34:36] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-15 13:34:36] INFO root fetch - processPackages [gordo]: New version: [5.0.0rc2] Old Version: [5.0.0rc1]
+[2023-05-15 13:34:36] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/70/3b/f886a2348232100fd4825cf569513a8c1831edf2e2f52cbbf9a879b2ed09/biocartograph-0.4.2.tar.gz
+[2023-05-15 13:34:36] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/b2/9b/68c9c1bfb3c2a513648de2c38cdbf2194ec547386b7133576b9a8fb8a951/gordo-5.0.0rc1.tar.gz
+[2023-05-15 13:34:36] INFO root fetch - processPackages [prova-pypi]: Start processing: bw-requests
+[2023-05-15 13:34:36] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 13:34:36] WARNING root fetch - processPackages [bw-requests]: Skipping, unable to determine old version
+[2023-05-15 13:34:36] INFO root fetch - main [MainThread]: End processing [bw-requests] error
+[2023-05-15 13:34:36] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/dd/6b/f38523c04ffe95a87f53b897d1edd2e0c6d5fceb4e76146774ac80b19888/biocartograph-0.5.0.tar.gz
+[2023-05-15 13:34:36] INFO root fetch - processPackages [biocartograph]: executing diffoscope
+[2023-05-15 13:34:36] INFO root fetch - processPackages [biocartograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocartograph-0.4.2.tar.gz tmp/biocartograph-0.5.0.tar.gz --markdown 20230515/b/biocartograph/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 13:34:36] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/46/e0/fdf76f26b6f6ee08d731ba404dd29841893694f18545002a92bbb2a717e5/gordo-5.0.0rc2.tar.gz
+[2023-05-15 13:34:36] INFO root fetch - processPackages [gordo]: executing diffoscope
+[2023-05-15 13:34:36] INFO root fetch - processPackages [gordo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gordo-5.0.0rc1.tar.gz tmp/gordo-5.0.0rc2.tar.gz --markdown 20230515/g/gordo/5.0.0rc1-5.0.0rc2/diff.md --exclude *.pyd
+[2023-05-15 13:34:36] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-15 13:34:37] INFO root fetch - main [MainThread]: End processing [KMMTR]: success
+[2023-05-15 13:34:37] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-15 13:34:37] INFO root fetch - main [MainThread]: End processing [biocartograph]: success
+[2023-05-15 13:34:38] INFO root fetch - main [MainThread]: End processing [siriuspy]: success
+[2023-05-15 13:34:38] INFO root fetch - main [MainThread]: End processing [cosmpy]: success
+[2023-05-15 13:34:39] INFO root fetch - main [MainThread]: End processing [gordo]: success
+[2023-05-15 13:34:40] INFO root fetch - main [MainThread]: End processing [cone.app]: success
+[2023-05-15 13:34:47] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-15 13:34:47] INFO root fetch - main [MainThread]: Store serial: [18106777]
