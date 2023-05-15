@@ -20406,3 +20406,52 @@ EOFError: EOF read where object expected
 [2023-05-15 20:58:35] INFO root fetch - main [MainThread]: End processing [ph]: success
 [2023-05-15 20:58:49] INFO root fetch - main [MainThread]: End processing [sarpy]: success
 [2023-05-15 20:58:49] INFO root fetch - main [MainThread]: Store serial: [18112173]
+[2023-05-15 21:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112173]
+[2023-05-15 21:03:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whackerhero
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fw-storage
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-video-stitcher
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ket-lang
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-multincm
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djaodjin-survey
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omg-dosimetry
+[2023-05-15 21:03:58] INFO root fetch - processPackages [fw-storage]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-15 21:03:58] INFO root fetch - processPackages [google-cloud-video-stitcher]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-15 21:03:58] INFO root fetch - processPackages [nonebot-plugin-multincm]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-15 21:03:58] INFO root fetch - processPackages [whackerhero]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 21:03:58] INFO root fetch - processPackages [ket-lang]: New version: [0.6rc2] Old Version: [0.6.0.dev1]
+[2023-05-15 21:03:58] INFO root fetch - processPackages [djaodjin-survey]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-15 21:03:58] INFO root fetch - processPackages [omg-dosimetry]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-15 21:03:58] INFO root fetch - processPackages [fw-storage]: Downloading https://files.pythonhosted.org/packages/3f/7b/8713eb367ec32bda148220c7a14f1c013651634d60bdb5eabdefa43e26ec/fw_storage-2.1.5-py3-none-any.whl
+[2023-05-15 21:03:58] INFO root fetch - processPackages [nonebot-plugin-multincm]: Downloading https://files.pythonhosted.org/packages/81/3b/43358ec304e2ecf6ae168fcfb734ee199b28361354ff2203cce47dfa6ba2/nonebot_plugin_multincm-0.2.2.tar.gz
+[2023-05-15 21:03:58] INFO root fetch - processPackages [whackerhero]: Downloading https://files.pythonhosted.org/packages/91/bf/290721dbf00a5baef4596a52800be78a15bf4de0d35a4757001d2a5079e9/whackerhero-0.1.0.tar.gz
+[2023-05-15 21:03:58] INFO root fetch - processPackages [google-cloud-video-stitcher]: Downloading https://files.pythonhosted.org/packages/97/b2/9ab96d75409f815a6ee23a2d99c1aba03ed9bb88914cfcdbb9acb332ddcf/google-cloud-video-stitcher-0.7.0.tar.gz
+[2023-05-15 21:03:58] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/4a/34/0d1b7534480cab9801be25626ace6011597282405f255420a9648f2a18c9/djaodjin-survey-0.9.7.tar.gz
+[2023-05-15 21:03:58] INFO root fetch - processPackages [nonebot-plugin-multincm]: executing diffoscope
+[2023-05-15 21:03:58] INFO root fetch - processPackages [nonebot-plugin-multincm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_multincm-0.2.1.tar.gz tmp/nonebot_plugin_multincm-0.2.2.tar.gz --markdown 20230515/n/nonebot-plugin-multincm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-15 21:03:59] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/55/42/4e7faa2f955938c11f2f15885c3fb6c23c2d987f6ef2a7449293d0847480/ket-lang-0.6rc2.tar.gz
+[2023-05-15 21:03:59] INFO root fetch - processPackages [omg-dosimetry]: Downloading https://files.pythonhosted.org/packages/25/7f/e6acd380abe75b9501b914f0329edc1b9e11a4235d182a8f7e9dc033155f/omg_dosimetry-1.4.1.tar.gz
+[2023-05-15 21:03:59] INFO root fetch - processPackages [fw-storage]: Downloading https://files.pythonhosted.org/packages/ff/96/e04b11c32f27569606791e3a2246fa6273d38bec1609cb7444023d3b3eb7/fw_storage-2.1.6-py3-none-any.whl
+[2023-05-15 21:03:59] INFO root fetch - processPackages [ket-lang]: executing diffoscope
+[2023-05-15 21:03:59] INFO root fetch - processPackages [ket-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ket-lang-0.6.0.dev1.tar.gz tmp/ket-lang-0.6rc2.tar.gz --markdown 20230515/k/ket-lang/0.6.0.dev1-0.6rc2/diff.md --exclude *.pyd
+[2023-05-15 21:03:59] INFO root fetch - processPackages [omg-dosimetry]: executing diffoscope
+[2023-05-15 21:03:59] INFO root fetch - processPackages [omg-dosimetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omg_dosimetry-1.4.0.tar.gz tmp/omg_dosimetry-1.4.1.tar.gz --markdown 20230515/o/omg-dosimetry/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-15 21:03:59] INFO root fetch - processPackages [whackerhero]: Downloading https://files.pythonhosted.org/packages/7a/aa/7eb4529ee6268d389c15cccb7fbfc1bf650988f17f11362f9659f1ae9e84/whackerhero-0.1.1.tar.gz
+[2023-05-15 21:03:59] INFO root fetch - processPackages [fw-storage]: executing diffoscope
+[2023-05-15 21:03:59] INFO root fetch - processPackages [fw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_storage-2.1.5-py3-none-any.whl.zip tmp/fw_storage-2.1.6-py3-none-any.whl.zip --markdown 20230515/f/fw-storage/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-15 21:03:59] INFO root fetch - processPackages [google-cloud-video-stitcher]: Downloading https://files.pythonhosted.org/packages/5c/96/6a99be5087dfbf124a94f8da5804775a138e14e19e09cbc53a5a3a443986/google-cloud-video-stitcher-0.7.1.tar.gz
+[2023-05-15 21:03:59] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/74/c0/6d7c304505d4d005e6e4c000ea7973514d2f0c7b9879def464aef29a4840/djaodjin-survey-0.9.8.tar.gz
+[2023-05-15 21:03:59] INFO root fetch - processPackages [whackerhero]: executing diffoscope
+[2023-05-15 21:03:59] INFO root fetch - processPackages [whackerhero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whackerhero-0.1.0.tar.gz tmp/whackerhero-0.1.1.tar.gz --markdown 20230515/w/whackerhero/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 21:03:59] INFO root fetch - processPackages [google-cloud-video-stitcher]: executing diffoscope
+[2023-05-15 21:03:59] INFO root fetch - processPackages [google-cloud-video-stitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-video-stitcher-0.7.0.tar.gz tmp/google-cloud-video-stitcher-0.7.1.tar.gz --markdown 20230515/g/google-cloud-video-stitcher/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-15 21:03:59] INFO root fetch - processPackages [djaodjin-survey]: executing diffoscope
+[2023-05-15 21:03:59] INFO root fetch - processPackages [djaodjin-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-survey-0.9.7.tar.gz tmp/djaodjin-survey-0.9.8.tar.gz --markdown 20230515/d/djaodjin-survey/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-15 21:04:00] INFO root fetch - main [MainThread]: End processing [omg-dosimetry]: success
+[2023-05-15 21:04:00] INFO root fetch - main [MainThread]: End processing [fw-storage]: success
+[2023-05-15 21:04:00] INFO root fetch - main [MainThread]: End processing [whackerhero]: success
+[2023-05-15 21:04:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-multincm]: success
+[2023-05-15 21:04:00] INFO root fetch - main [MainThread]: End processing [ket-lang]: success
+[2023-05-15 21:04:01] INFO root fetch - main [MainThread]: End processing [google-cloud-video-stitcher]: success
+[2023-05-15 21:04:01] INFO root fetch - main [MainThread]: End processing [djaodjin-survey]: success
+[2023-05-15 21:04:01] INFO root fetch - main [MainThread]: Store serial: [18112201]
