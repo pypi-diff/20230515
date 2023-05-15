@@ -8484,3 +8484,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 11:11:43] INFO root fetch - main [MainThread]: End processing [plaintext-analyzer]: success
 [2023-05-15 11:11:45] INFO root fetch - main [MainThread]: End processing [pybdsim]: success
 [2023-05-15 11:11:45] INFO root fetch - main [MainThread]: Store serial: [18104920]
+[2023-05-15 11:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104920]
+[2023-05-15 11:16:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybdsim
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resolwe-bio
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: count-unique-chars
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlopspython-extraction
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlopspython-inference
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arkdata
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandasflow
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tala
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ultipa
+[2023-05-15 11:16:53] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [mlopspython-extraction]: New version: [74126878396677081493445] Old Version: [70337926846377927701164]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [ultipa]: New version: [4.3.0] Old Version: [4.2.4]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [pandasflow]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [pybdsim]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: New version: [20230515.9.13.469102] Old Version: [20230511.12.43.213747]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [mlopspython-inference]: New version: [9685412409802298096004] Old Version: [93446164921611003430826400]
+[2023-05-15 11:16:53] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-15 11:16:54] WARNING root fetch - processPackages [count-unique-chars]: Skipping, unable to determine old version
+[2023-05-15 11:16:54] INFO root fetch - processPackages [count-unique-chars]: Start processing: harborapi
+[2023-05-15 11:16:54] INFO root fetch - main [MainThread]: End processing [count-unique-chars] error
+[2023-05-15 11:16:54] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] INFO root fetch - processPackages [harborapi]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-extraction]: Downloading https://files.pythonhosted.org/packages/60/bf/4480cf08e8cb0095f66fcdd63f6d724a08131cb1db257ef1f82b8f025cde/mlopspython-extraction-70337926846377927701164.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/09/34/ac88789dec8eb371b5e6c31805992f2db616101712c1f834beef083d555b/pandasflow-0.5.0.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [ultipa]: Downloading https://files.pythonhosted.org/packages/84/2e/077e2261288a52e29ce8f558beba2f8c9216606034072af99b39fee2dd87/ultipa-4.2.4.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Downloading https://files.pythonhosted.org/packages/94/e3/ddfb168684c7587bfff3f3f9ac54e3bc3c0d024b9b929eab5d71fab2a8be/certora-cli-alpha-naftali-CERT-1883_support_multiple_blocks_in_hook-20230511.12.43.213747.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-inference]: Downloading https://files.pythonhosted.org/packages/89/7e/f99bd64fdafcd44a95eec80b78eef1abce9af76f9be700172cd02479eeb1/mlopspython-inference-93446164921611003430826400.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [pybdsim]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [pybdsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybdsim-3.3.0.tar.gz tmp/pybdsim-3.3.1.tar.gz --markdown 20230515/p/pybdsim/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Skipping package: exceeds size limit 39214766>=10485760
+[2023-05-15 11:16:54] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Start processing: count-unique-chars
+[2023-05-15 11:16:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook] error
+[2023-05-15 11:16:54] WARNING root fetch - processPackages [count-unique-chars]: Skipping, unable to determine old version
+[2023-05-15 11:16:54] INFO root fetch - processPackages [count-unique-chars]: Start processing: types-tzlocal
+[2023-05-15 11:16:54] INFO root fetch - main [MainThread]: End processing [count-unique-chars] error
+[2023-05-15 11:16:54] INFO root fetch - processPackages [types-tzlocal]: New version: [5.0.0.0] Old Version: [4.3.0.0]
+[2023-05-15 11:16:54] INFO root fetch - processPackages [ultipa]: Downloading https://files.pythonhosted.org/packages/55/e4/f1b6dac8d8a15f06d2234ba75d51d5ec49558a74575f9b7b3528ff61ae19/ultipa-4.3.0.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/89/07/421bb8e20b36fda6d2dde4c86e3a02f2f45ef16b1d990a19bfb3c0dc3198/pandasflow-0.5.1.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-extraction]: Downloading https://files.pythonhosted.org/packages/9d/05/06b55161aa67ce2d389b6cd3d7392e37593f52a9a591b53ef6ecd6495405/mlopspython-extraction-74126878396677081493445.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [harborapi]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [harborapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harborapi-0.8.6.tar.gz tmp/harborapi-0.9.0.tar.gz --markdown 20230515/h/harborapi/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-inference]: Downloading https://files.pythonhosted.org/packages/fb/39/27c7d3df02d698ed5189fbc0df94d15606cadaa7b3ff9b8353c8e3eb1f42/mlopspython-inference-9685412409802298096004.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.5.0.tar.gz tmp/pandasflow-0.5.1.tar.gz --markdown 20230515/p/pandasflow/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-extraction]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlopspython-extraction-70337926846377927701164.tar.gz tmp/mlopspython-extraction-74126878396677081493445.tar.gz --markdown 20230515/m/mlopspython-extraction/70337926846377927701164-74126878396677081493445/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] INFO root fetch - processPackages [types-tzlocal]: Downloading https://files.pythonhosted.org/packages/c3/ce/f1ac9d4990b3e1791eff3d1f1cfba498c2eefa49812ee5f26aca3d6cb563/types-tzlocal-4.3.0.0.tar.gz
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-inference]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [mlopspython-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlopspython-inference-93446164921611003430826400.tar.gz tmp/mlopspython-inference-9685412409802298096004.tar.gz --markdown 20230515/m/mlopspython-inference/93446164921611003430826400-9685412409802298096004/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] INFO root fetch - processPackages [ultipa]: executing diffoscope
+[2023-05-15 11:16:54] INFO root fetch - processPackages [ultipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultipa-4.2.4.tar.gz tmp/ultipa-4.3.0.tar.gz --markdown 20230515/u/ultipa/4.2.4-4.3.0/diff.md --exclude *.pyd
+[2023-05-15 11:16:54] INFO root fetch - processPackages [types-tzlocal]: Downloading https://files.pythonhosted.org/packages/11/7f/664725e9276d445c7b2b46bb77c9f0a6694ee99940445c2b1eb902f96868/types-tzlocal-5.0.0.0.tar.gz
+[2023-05-15 11:16:55] INFO root fetch - processPackages [types-tzlocal]: executing diffoscope
+[2023-05-15 11:16:55] INFO root fetch - processPackages [types-tzlocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tzlocal-4.3.0.0.tar.gz tmp/types-tzlocal-5.0.0.0.tar.gz --markdown 20230515/t/types-tzlocal/4.3.0.0-5.0.0.0/diff.md --exclude *.pyd
+[2023-05-15 11:16:55] INFO root fetch - processPackages [arkdata]: Start processing: taskiq-redis
+[2023-05-15 11:16:55] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 11:16:55] INFO root fetch - processPackages [taskiq-redis]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 11:16:56] INFO root fetch - processPackages [taskiq-redis]: Downloading https://files.pythonhosted.org/packages/de/de/d718e3186022b135b92dc14707fc824c304f10ec96b45e3fe93136f99359/taskiq_redis-0.3.0.tar.gz
+[2023-05-15 11:16:56] INFO root fetch - processPackages [mlopspython-extraction]: Start processing: json-grep
+[2023-05-15 11:16:56] INFO root fetch - main [MainThread]: End processing [mlopspython-extraction]: success
+[2023-05-15 11:16:56] INFO root fetch - processPackages [json-grep]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-15 11:16:56] INFO root fetch - processPackages [mlopspython-inference]: Start processing: sino
+[2023-05-15 11:16:56] INFO root fetch - main [MainThread]: End processing [mlopspython-inference]: success
+[2023-05-15 11:16:56] WARNING root fetch - processPackages [sino]: Skipping, unable to determine old version
+[2023-05-15 11:16:56] INFO root fetch - processPackages [sino]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-15 11:16:56] INFO root fetch - main [MainThread]: End processing [sino] error
+[2023-05-15 11:16:56] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-05-15 11:16:56] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 11:16:56] INFO root fetch - processPackages [taskiq-redis]: Downloading https://files.pythonhosted.org/packages/50/15/d1035bd0cbfb8779b43ce66d4f49b263fd46790470fdc21709c7ad38b268/taskiq_redis-0.3.1.tar.gz
+[2023-05-15 11:16:56] INFO root fetch - processPackages [json-grep]: Downloading https://files.pythonhosted.org/packages/9f/5d/45016d14a16dd0334bf5967b1e8179297d3a0047dedcab70ca71c87cdf92/json-grep-1.1.2.tar.gz
+[2023-05-15 11:16:56] INFO root fetch - main [MainThread]: End processing [types-tzlocal]: success
+[2023-05-15 11:16:56] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-15 11:16:56] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230515/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 11:16:56] INFO root fetch - processPackages [taskiq-redis]: executing diffoscope
+[2023-05-15 11:16:56] INFO root fetch - processPackages [taskiq-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_redis-0.3.0.tar.gz tmp/taskiq_redis-0.3.1.tar.gz --markdown 20230515/t/taskiq-redis/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 11:16:56] INFO root fetch - processPackages [json-grep]: Downloading https://files.pythonhosted.org/packages/3d/b7/f9de37888daf260242bb918c708e59f71e4fd3037c979745d278aaf6ad7b/json-grep-1.2.0.tar.gz
+[2023-05-15 11:16:56] INFO root fetch - processPackages [json-grep]: executing diffoscope
+[2023-05-15 11:16:56] INFO root fetch - processPackages [json-grep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-grep-1.1.2.tar.gz tmp/json-grep-1.2.0.tar.gz --markdown 20230515/j/json-grep/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-15 11:16:56] INFO root fetch - main [MainThread]: End processing [ultipa]: success
+[2023-05-15 11:16:56] INFO root fetch - main [MainThread]: End processing [pybdsim]: success
+[2023-05-15 11:16:57] INFO root fetch - main [MainThread]: End processing [harborapi]: success
+[2023-05-15 11:16:57] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 11:16:57] INFO root fetch - main [MainThread]: End processing [taskiq-redis]: success
+[2023-05-15 11:16:57] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-15 11:16:57] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2023-05-15 11:16:58] INFO root fetch - main [MainThread]: End processing [json-grep]: success
+[2023-05-15 11:17:00] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2023-05-15 11:17:00] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230515/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-15 11:17:09] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2023-05-15 11:17:09] INFO root fetch - main [MainThread]: Store serial: [18104988]
