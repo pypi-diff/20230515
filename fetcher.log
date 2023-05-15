@@ -5496,3 +5496,137 @@
 [2023-05-15 08:13:48] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-empty-home]: success
 [2023-05-15 08:13:48] INFO root fetch - main [MainThread]: End processing [common-test]: success
 [2023-05-15 08:13:48] INFO root fetch - main [MainThread]: Store serial: [18103465]
+[2023-05-15 08:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103465]
+[2023-05-15 08:18:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fovus
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quasinet
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: touchprice
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bingbong
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-50c620ebd72240219637191db5c3441d
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cm-two
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trex-model
+[2023-05-15 08:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soakdb3
+[2023-05-15 08:18:57] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [fovus]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [touchprice]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [bingbong]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [trex-model]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 08:18:57] INFO root fetch - processPackages [soakdb3]: New version: [1.4.0] Old Version: [1.2.1]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: executing diffoscope
+[2023-05-15 08:18:57] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.1.tar.gz tmp/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.3.tar.gz --markdown 20230515/a/antchain-ak-50c620ebd72240219637191db5c3441d/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 08:18:57] INFO root fetch - processPackages [cm-two]: New version: [2.3.0] Old Version: [2.2.67]
+[2023-05-15 08:18:57] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-05-15 08:18:57] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.8-py3-none-any.whl.zip tmp/bingbong-0.1.9-py3-none-any.whl.zip --markdown 20230515/b/bingbong/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 08:18:57] INFO root fetch - processPackages [trex-model]: executing diffoscope
+[2023-05-15 08:18:57] INFO root fetch - processPackages [trex-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-model-1.0.2.tar.gz tmp/trex-model-1.0.3.tar.gz --markdown 20230515/t/trex-model/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 08:18:57] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 08:18:57] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 08:18:57] INFO root fetch - processPackages [touchprice]: executing diffoscope
+[2023-05-15 08:18:57] INFO root fetch - processPackages [touchprice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/touchprice-0.1.5.tar.gz tmp/touchprice-0.1.6.tar.gz --markdown 20230515/t/touchprice/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 08:18:57] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/06/7d/5f734ceefb696ea42f99178084b9fce0c651646f50b9c79d85957ec48501/fovus-1.0.2-py3-none-any.whl
+[2023-05-15 08:18:57] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/21/ca/9aef503cd6c42c4ad835740ba579f937af6eb7b48415fe6ec59fd25d7ace/cm_two-2.2.67-py3-none-any.whl
+[2023-05-15 08:18:57] INFO root fetch - processPackages [soakdb3]: Downloading https://files.pythonhosted.org/packages/02/26/0611fe88290762c4ec429c563eda60bdeb48d7a5ca8362203606f9c50cec/soakdb3-1.2.1.tar.gz
+[2023-05-15 08:18:57] INFO root fetch - processPackages [fovus]: executing diffoscope
+[2023-05-15 08:18:57] INFO root fetch - processPackages [fovus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fovus-1.0.1-py3-none-any.whl.zip tmp/fovus-1.0.2-py3-none-any.whl.zip --markdown 20230515/f/fovus/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 08:18:57] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/9b/41/142c1f94dd3f1972dc9cdfe98827556ab8559549970b90a9d55dcf04a27b/cm_two-2.3.0-py3-none-any.whl
+[2023-05-15 08:18:57] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-15 08:18:57] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.2.67-py3-none-any.whl.zip tmp/cm_two-2.3.0-py3-none-any.whl.zip --markdown 20230515/c/cm-two/2.2.67-2.3.0/diff.md --exclude *.pyd
+[2023-05-15 08:18:58] INFO root fetch - processPackages [soakdb3]: Downloading https://files.pythonhosted.org/packages/75/73/f2bc899e0faaac51fd0d1a35e5b7baf06a3d88b612cdb7bf59c7a2f728f4/soakdb3-1.4.0.tar.gz
+[2023-05-15 08:18:58] INFO root fetch - processPackages [soakdb3]: executing diffoscope
+[2023-05-15 08:18:58] INFO root fetch - processPackages [soakdb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soakdb3-1.2.1.tar.gz tmp/soakdb3-1.4.0.tar.gz --markdown 20230515/s/soakdb3/1.2.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-15 08:18:58] INFO root fetch - main [MainThread]: End processing [antchain-ak-50c620ebd72240219637191db5c3441d]: success
+[2023-05-15 08:18:58] INFO root fetch - main [MainThread]: End processing [touchprice]: success
+[2023-05-15 08:18:58] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-05-15 08:18:58] INFO root fetch - main [MainThread]: End processing [trex-model]: success
+[2023-05-15 08:18:59] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-15 08:18:59] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-15 08:18:59] INFO root fetch - main [MainThread]: End processing [fovus]: success
+[2023-05-15 08:19:04] INFO root fetch - main [MainThread]: End processing [soakdb3]: success
+[2023-05-15 08:19:04] INFO root fetch - main [MainThread]: Store serial: [18103486]
