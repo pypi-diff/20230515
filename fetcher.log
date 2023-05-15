@@ -21581,3 +21581,84 @@ EOFError: EOF read where object expected
 [2023-05-15 22:11:09] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-15 22:11:49] INFO root fetch - main [MainThread]: End processing [azure-ai-ml]: success
 [2023-05-15 22:11:49] INFO root fetch - main [MainThread]: Store serial: [18112836]
+[2023-05-15 22:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112836]
+[2023-05-15 22:16:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipforester
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssm-ps-template
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capitalpayments
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk-preview
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aim-ui
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aim
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pagarme-python
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yokkaichi
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecida
+[2023-05-15 22:16:59] INFO root fetch - processPackages [capitalpayments]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 22:16:59] WARNING root fetch - processPackages [pipforester]: Skipping, unable to determine old version
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ssm-ps-template]: New version: [1.0.0b5] Old Version: [1.0.0b4]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [pipforester]: Start processing: botocore
+[2023-05-15 22:16:59] INFO root fetch - main [MainThread]: End processing [pipforester] error
+[2023-05-15 22:16:59] INFO root fetch - processPackages [yokkaichi]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [pagarme-python]: New version: [5.7.3] Old Version: [5.7.2]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230515/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:16:59] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [yokkaichi]: executing diffoscope
+[2023-05-15 22:16:59] INFO root fetch - processPackages [yokkaichi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yokkaichi-1.4.2.tar.gz tmp/yokkaichi-1.4.3.tar.gz --markdown 20230515/y/yokkaichi/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-15 22:16:59] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 22:16:59] INFO root fetch - processPackages [pagarme-python]: Downloading https://files.pythonhosted.org/packages/48/8c/565c296e1bf781f4ff65ce62635c3ee82d340d7254024c09f7422aee6861/pagarme-python-5.7.2.tar.gz
+[2023-05-15 22:16:59] INFO root fetch - processPackages [ssm-ps-template]: Downloading https://files.pythonhosted.org/packages/b1/1c/ff695241cb24686897a5540776bf7f0150f2540688d4f65978c2c2416bc6/ssm-ps-template-1.0.0b5.tar.gz
+[2023-05-15 22:16:59] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-15 22:16:59] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230515/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-15 22:16:59] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-15 22:16:59] INFO root fetch - processPackages [aim-ui]: Start processing: awscli
+[2023-05-15 22:16:59] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-15 22:16:59] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-15 22:16:59] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230515/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-15 22:16:59] INFO root fetch - processPackages [capitalpayments]: Downloading https://files.pythonhosted.org/packages/2f/43/ae37468f2d421ab36dfeaec608bb2aa1f2a3fa81470ed428b439bcde2c16/capitalpayments-0.1.1.tar.gz
+[2023-05-15 22:17:00] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-15 22:17:00] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-05-15 22:17:00] INFO root fetch - processPackages [ssm-ps-template]: executing diffoscope
+[2023-05-15 22:17:00] INFO root fetch - processPackages [ssm-ps-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssm-ps-template-1.0.0b4.tar.gz tmp/ssm-ps-template-1.0.0b5.tar.gz --markdown 20230515/s/ssm-ps-template/1.0.0b4-1.0.0b5/diff.md --exclude *.pyd
+[2023-05-15 22:17:00] INFO root fetch - processPackages [pagarme-python]: Downloading https://files.pythonhosted.org/packages/5b/70/ef90c232295efd50d1d596202ea12b0a24e985b949aadd7398ed3efd4a0a/pagarme-python-5.7.3.tar.gz
+[2023-05-15 22:17:00] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-15 22:17:00] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230515/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-15 22:17:00] INFO root fetch - processPackages [capitalpayments]: executing diffoscope
+[2023-05-15 22:17:00] INFO root fetch - processPackages [capitalpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capitalpayments-0.1.0.tar.gz tmp/capitalpayments-0.1.1.tar.gz --markdown 20230515/c/capitalpayments/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 22:17:00] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-05-15 22:17:00] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-05-15 22:17:00] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-15 22:17:00] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230515/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 22:17:00] INFO root fetch - processPackages [ecida]: Start processing: boto3
+[2023-05-15 22:17:00] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-15 22:17:01] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-15 22:17:01] INFO root fetch - processPackages [yokkaichi]: Start processing: dsmltf
+[2023-05-15 22:17:01] INFO root fetch - main [MainThread]: End processing [yokkaichi]: success
+[2023-05-15 22:17:01] INFO root fetch - processPackages [dsmltf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 22:17:01] INFO root fetch - processPackages [dsmltf]: executing diffoscope
+[2023-05-15 22:17:01] INFO root fetch - processPackages [dsmltf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DSMLTF-0.0.1.tar.gz tmp/dsmltf-0.0.2.tar.gz --markdown 20230515/d/dsmltf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 22:17:01] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-05-15 22:17:01] INFO root fetch - processPackages [pagarme-python]: executing diffoscope
+[2023-05-15 22:17:01] INFO root fetch - processPackages [pagarme-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pagarme-python-5.7.2.tar.gz tmp/pagarme-python-5.7.3.tar.gz --markdown 20230515/p/pagarme-python/5.7.2-5.7.3/diff.md --exclude *.pyd
+[2023-05-15 22:17:01] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-05-15 22:17:01] INFO root fetch - main [MainThread]: End processing [capitalpayments]: success
+[2023-05-15 22:17:01] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-15 22:17:01] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230515/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-15 22:17:01] INFO root fetch - main [MainThread]: End processing [ssm-ps-template]: success
+[2023-05-15 22:17:01] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-05-15 22:17:02] INFO root fetch - main [MainThread]: End processing [dsmltf]: success
+[2023-05-15 22:17:03] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-15 22:17:03] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230515/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 22:17:03] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-15 22:17:04] INFO root fetch - main [MainThread]: End processing [pagarme-python]: success
+[2023-05-15 22:17:08] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-15 22:17:15] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-15 22:17:17] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-15 22:17:24] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-15 22:17:27] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-15 22:17:27] INFO root fetch - main [MainThread]: Store serial: [18112891]
