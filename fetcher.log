@@ -8115,3 +8115,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 10:55:43] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
 [2023-05-15 10:55:43] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
 [2023-05-15 10:55:43] INFO root fetch - main [MainThread]: Store serial: [18104740]
+[2023-05-15 11:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104740]
+[2023-05-15 11:00:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: somnium
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picozero
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pgschemas
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu117
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oslo.messaging
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recon-lw
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyikarus
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: IMDbTraktSyncer
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cartagen4py
+[2023-05-15 11:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-05-15 11:00:53] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000068] Old Version: [0.3.0.dev202310000067]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4978172035] Old Version: [2.0.0.dev4977997714]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cg]: New version: [30.2.2] Old Version: [30.2.0]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [somnium]: New version: [6.9.7] Old Version: [6.9.6]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000067.tar.gz tmp/pyikarus-0.3.0.dev202310000068.tar.gz --markdown 20230515/p/pyikarus/0.3.0.dev202310000067-0.3.0.dev202310000068/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [oslo.messaging]: New version: [9.8.0] Old Version: [9.7.2]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4977997714.tar.gz tmp/recon_lw-2.0.0.dev4978172035.tar.gz --markdown 20230515/r/recon-lw/2.0.0.dev4977997714-2.0.0.dev4978172035/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [picozero]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cartagen4py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [IMDbTraktSyncer]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [django-pgschemas]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.2.0.tar.gz tmp/cg-30.2.2.tar.gz --markdown 20230515/c/cg/30.2.0-30.2.2/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [somnium]: Downloading https://files.pythonhosted.org/packages/7d/3e/a03c4ff5486d8e1f1ed40b78d5e498a90d65f632ddee58c88d5d08e12c54/somnium-6.9.6.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/28/a4/eab12125ef0e6bb481958f203218f35ce6e19f030080a6567646469b6ba3/oslo.messaging-9.7.2.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/3a/47/a3068868173a183e0bb646a392b4ff5a5025aa83b48c9300e9d4b484cd54/cartagen4py-0.1.4.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [django-pgschemas]: Downloading https://files.pythonhosted.org/packages/8a/ad/4738292bd432347fc1381a3563c87a06b93e5993b94a6aeef2f18b335433/django-pgschemas-0.8.0.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [picozero]: Downloading https://files.pythonhosted.org/packages/a5/2b/1fcdd990aba5bdd2da85a1ee50f292c249a5260415a5bfdc7a0a32e34b48/picozero-0.4.1.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [IMDbTraktSyncer]: Downloading https://files.pythonhosted.org/packages/0f/3a/589a3b5d8a44dd78672d656fede7e1618861583e6d0f7c9f9517db53b297/IMDbTraktSyncer-1.1.3.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 11:00:53] INFO root fetch - processPackages [IMDbTraktSyncer]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [IMDbTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDbTraktSyncer-1.1.2.tar.gz tmp/IMDbTraktSyncer-1.1.3.tar.gz --markdown 20230515/I/IMDbTraktSyncer/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [somnium]: Downloading https://files.pythonhosted.org/packages/ef/14/6039c3c54319fa2034b993611055c13e907719f9514f7f28e4cb0ac52295/somnium-6.9.7.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/58/54/1c45665d3076219d2c6dcda8f438f5728277437bccab52e4c5b123c6d31f/cartagen4py-0.1.5.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [picozero]: Downloading https://files.pythonhosted.org/packages/f5/b5/8a241bbd029b5116d36070ebc0f13caa6efa3a77cfe174e889418e60b8f4/picozero-0.4.2.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230515/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/d9/c3/0126f2b275f9307f7a87f5edb3f46ef26d6693c9bae2b30add9009deeff8/oslo.messaging-9.8.0.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [django-pgschemas]: Downloading https://files.pythonhosted.org/packages/c5/ce/597e07bcc5ddd4be343f7c6c8c708d2f7437d975ce8c63830e7ef960a3e9/django-pgschemas-0.9.0.tar.gz
+[2023-05-15 11:00:53] INFO root fetch - processPackages [somnium]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [somnium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somnium-6.9.6.tar.gz tmp/somnium-6.9.7.tar.gz --markdown 20230515/s/somnium/6.9.6-6.9.7/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [django-pgschemas]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [django-pgschemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgschemas-0.8.0.tar.gz tmp/django-pgschemas-0.9.0.tar.gz --markdown 20230515/d/django-pgschemas/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [oslo.messaging]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [oslo.messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.messaging-9.7.2.tar.gz tmp/oslo.messaging-9.8.0.tar.gz --markdown 20230515/o/oslo.messaging/9.7.2-9.8.0/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.1.4.tar.gz tmp/cartagen4py-0.1.5.tar.gz --markdown 20230515/c/cartagen4py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 11:00:53] INFO root fetch - processPackages [picozero]: executing diffoscope
+[2023-05-15 11:00:53] INFO root fetch - processPackages [picozero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picozero-0.4.1.tar.gz tmp/picozero-0.4.2.tar.gz --markdown 20230515/p/picozero/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 11:00:54] INFO root fetch - processPackages [recon-lw]: Start processing: genomenotebook
+[2023-05-15 11:00:54] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-15 11:00:55] INFO root fetch - processPackages [IMDbTraktSyncer]: Start processing: odoo14-addon-product-supplierinfo-for-customer-picking
+[2023-05-15 11:00:55] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer]: success
+[2023-05-15 11:00:55] INFO root fetch - processPackages [genomenotebook]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-05-15 11:00:55] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.3.dev1]
+[2023-05-15 11:00:55] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/f5/10/31dc8b7d0cef6541ed29c8fe858296d51efd460a6151ebfa5474c06d2512/genomenotebook-0.5.4.tar.gz
+[2023-05-15 11:00:55] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: Downloading https://files.pythonhosted.org/packages/11/8b/4636da3fb4253ef027e7238c0c07647e33fc6caed812d1ceabbb943bebee/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-05-15 11:00:55] INFO root fetch - processPackages [somnium]: Start processing: th2-grpc-lw-data-provider
+[2023-05-15 11:00:55] INFO root fetch - main [MainThread]: End processing [somnium]: success
+[2023-05-15 11:00:55] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21354701>=10485760
+[2023-05-15 11:00:55] INFO root fetch - processPackages [genomenotebook]: Start processing: glaceon
+[2023-05-15 11:00:55] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-05-15 11:00:55] INFO root fetch - processPackages [glaceon]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-15 11:00:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4978448087]
+[2023-05-15 11:00:55] INFO root fetch - processPackages [picozero]: Start processing: remotemanager
+[2023-05-15 11:00:55] INFO root fetch - main [MainThread]: End processing [picozero]: success
+[2023-05-15 11:00:55] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: Downloading https://files.pythonhosted.org/packages/bc/2b/7fc6009215d2c37163c42e2f45e8ede8cb1afcbf6f31e1bd78655859f6e0/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.0-py3-none-any.whl
+[2023-05-15 11:00:55] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-05-15 11:00:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/ae/1d/68cc206687ca54dbdf0fc96943014d3bb3345e52639f97ffdf1c2b34ae97/th2_grpc_lw_data_provider-2.0.0.dev4978448087.tar.gz
+[2023-05-15 11:00:55] INFO root fetch - processPackages [remotemanager]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-15 11:00:55] INFO root fetch - processPackages [glaceon]: Downloading https://files.pythonhosted.org/packages/9b/8f/90cd078f986e18052b68b54140f1ef9b598143a8c41a16438df81b9bcf38/glaceon-1.1.0.tar.gz
+[2023-05-15 11:00:55] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: executing diffoscope
+[2023-05-15 11:00:55] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230515/o/odoo14-addon-product-supplierinfo-for-customer-picking/14.0.1.0.3.dev1-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-15 11:00:55] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/94/ef/026b6a3731bc7a41a4e23e467182a62ecff3d6476ce96659a979213d4c1f/remotemanager-0.5.8.tar.gz
+[2023-05-15 11:00:55] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-05-15 11:00:55] INFO root fetch - processPackages [glaceon]: Downloading https://files.pythonhosted.org/packages/16/df/11ee4dac6738aadf2412fd464757c98fa4c181fabc764cc37ff2634faf63/glaceon-1.2.0.tar.gz
+[2023-05-15 11:00:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-05-15 11:00:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4978448087.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230515/t/th2-grpc-lw-data-provider/2.0.0.dev4978448087-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-05-15 11:00:56] INFO root fetch - main [MainThread]: End processing [django-pgschemas]: success
+[2023-05-15 11:00:56] INFO root fetch - processPackages [glaceon]: executing diffoscope
+[2023-05-15 11:00:56] INFO root fetch - processPackages [glaceon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glaceon-1.1.0.tar.gz tmp/glaceon-1.2.0.tar.gz --markdown 20230515/g/glaceon/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-15 11:00:56] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/77/f2/16b8e51fa74fde2cac1e520b5abfa1c3c35043cf2c707a4d5aa2ca460f00/remotemanager-0.5.9.tar.gz
+[2023-05-15 11:00:56] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-05-15 11:00:56] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.5.8.tar.gz tmp/remotemanager-0.5.9.tar.gz --markdown 20230515/r/remotemanager/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-15 11:00:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-supplierinfo-for-customer-picking]: success
+[2023-05-15 11:00:57] INFO root fetch - main [MainThread]: End processing [glaceon]: success
+[2023-05-15 11:00:57] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-05-15 11:00:57] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-05-15 11:00:58] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-15 11:01:00] INFO root fetch - main [MainThread]: End processing [oslo.messaging]: success
+[2023-05-15 11:01:07] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-15 11:01:07] INFO root fetch - main [MainThread]: Store serial: [18104787]
