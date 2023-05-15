@@ -1971,3 +1971,59 @@
 [2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [QuantumIntelligence]: success
 [2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [alembic-autogenerate-enums]: success
 [2023-05-15 03:33:28] INFO root fetch - main [MainThread]: Store serial: [18101425]
+[2023-05-15 03:38:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101425]
+[2023-05-15 03:38:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ttaken
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-stdlib
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GoogleBard
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dualopt
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-gpsd2
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huhangkai
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyutplugins
+[2023-05-15 03:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typer-config
+[2023-05-15 03:38:37] INFO root fetch - processPackages [dualopt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 03:38:37] WARNING root fetch - processPackages [py-gpsd2]: Skipping, unable to determine old version
+[2023-05-15 03:38:37] INFO root fetch - main [MainThread]: End processing [py-gpsd2] error
+[2023-05-15 03:38:37] INFO root fetch - processPackages [pyutplugins]: New version: [0.8.85] Old Version: [0.8.80]
+[2023-05-15 03:38:37] INFO root fetch - processPackages [huhangkai]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-15 03:38:37] INFO root fetch - processPackages [GoogleBard]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 03:38:37] WARNING root fetch - processPackages [ttaken]: Skipping, unable to determine old version
+[2023-05-15 03:38:37] INFO root fetch - main [MainThread]: End processing [ttaken] error
+[2023-05-15 03:38:37] INFO root fetch - processPackages [typer-config]: New version: [0.1.3a3] Old Version: [0.1.2]
+[2023-05-15 03:38:37] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/8a/b8/9a146bdd453eda09f2048a0199a69e1ec51c9001087fcf8a7baeca01ed24/huhangkai-1.1.1.tar.gz
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230515/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:38:37] INFO root fetch - processPackages [dualopt]: Downloading https://files.pythonhosted.org/packages/5a/ae/4624e2ecf5e7ecbcfba4b3502b6d5b68fd76ac1a1fe6114019e72422549d/dualopt-0.1.2.tar.gz
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230515/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-15 03:38:37] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230515/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:38:37] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/0d/0c/51c91202eddef7aeaaa728482d984408a28b86cf2738fb9e6b920b6ce089/GoogleBard-1.0.2.tar.gz
+[2023-05-15 03:38:37] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/c1/03/911afa1e11154f58b0bf603dd27f1a1dd1d85179fe57f107b8cc30a1a070/pyutplugins-0.8.85.tar.gz
+[2023-05-15 03:38:37] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/8e/5e/2f6739f8a9f01ac1901565cd16f98020f813abe45a90c251ff398b7d512c/typer_config-0.1.2.tar.gz
+[2023-05-15 03:38:37] INFO root fetch - processPackages [pyutplugins]: executing diffoscope
+[2023-05-15 03:38:37] INFO root fetch - processPackages [pyutplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutplugins-0.8.80.tar.gz tmp/pyutplugins-0.8.85.tar.gz --markdown 20230515/p/pyutplugins/0.8.80-0.8.85/diff.md --exclude *.pyd
+[2023-05-15 03:38:37] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/a8/f1/984a1a70e9e5a417ef25d8c5b6b088ccc535425522eb7214e14008de1422/huhangkai-1.1.2.tar.gz
+[2023-05-15 03:38:38] INFO root fetch - processPackages [dualopt]: executing diffoscope
+[2023-05-15 03:38:38] INFO root fetch - processPackages [dualopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualopt-0.1.1.tar.gz tmp/dualopt-0.1.2.tar.gz --markdown 20230515/d/dualopt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 03:38:38] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-05-15 03:38:38] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.0.1.tar.gz tmp/GoogleBard-1.0.2.tar.gz --markdown 20230515/G/GoogleBard/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 03:38:38] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-05-15 03:38:38] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.1.1.tar.gz tmp/huhangkai-1.1.2.tar.gz --markdown 20230515/h/huhangkai/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-15 03:38:38] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/88/8d/d2289c975843a2dd1cdb852082f28b2ec0e47ceda144da8d8b4fd2bfbe97/typer_config-0.1.3a3.tar.gz
+[2023-05-15 03:38:38] INFO root fetch - processPackages [typer-config]: executing diffoscope
+[2023-05-15 03:38:38] INFO root fetch - processPackages [typer-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_config-0.1.2.tar.gz tmp/typer_config-0.1.3a3.tar.gz --markdown 20230515/t/typer-config/0.1.2-0.1.3a3/diff.md --exclude *.pyd
+[2023-05-15 03:38:39] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-15 03:38:39] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-15 03:38:39] INFO root fetch - main [MainThread]: End processing [typer-config]: success
+[2023-05-15 03:38:39] INFO root fetch - main [MainThread]: End processing [dualopt]: success
+[2023-05-15 03:38:39] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-05-15 03:38:39] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-05-15 03:38:39] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-15 03:38:41] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
+[2023-05-15 03:38:41] INFO root fetch - main [MainThread]: Store serial: [18101460]
