@@ -10795,3 +10795,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 13:05:55] INFO root fetch - main [MainThread]: End processing [supervisor-react]: success
 [2023-05-15 13:05:56] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-15 13:05:56] INFO root fetch - main [MainThread]: Store serial: [18106310]
+[2023-05-15 13:11:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18106310]
+[2023-05-15 13:11:09] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dramkit
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawler-commons
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytheia
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChatLLM
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wirepas-mqtt-library
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reliability
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arkdata
+[2023-05-15 13:11:09] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [pytheia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [dramkit]: New version: [0.5.41] Old Version: [0.4.4]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-15 13:11:09] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230515/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 13:11:09] INFO root fetch - processPackages [wirepas-mqtt-library]: New version: [1.2rc2] Old Version: [1.2rc1]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [reliability]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 13:11:09] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 13:11:09] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 13:11:09] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 13:11:09] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-15 13:11:10] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/63/95/67b2a4fbf9617cad293cb8ce4c9140ed44929baae37c36256a390642eb2b/PatryksAutoAI-0.6.5.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [dramkit]: Downloading https://files.pythonhosted.org/packages/ca/1d/e19fb927dccaa4b5cd1be7c3d853e67f39b5b03d83e028bd102c9f0ea4b0/dramkit-0.4.4.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [wirepas-mqtt-library]: Downloading https://files.pythonhosted.org/packages/e1/be/3adea6a2e4c27425b74839c78a426367e3f2066b2e9062f0106908f224fa/wirepas_mqtt_library-1.2rc1.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [reliability]: Downloading https://files.pythonhosted.org/packages/d2/79/221445e50d12bfd5d185c753c71357107d3323e99e9f0f22da8f1cda1e69/reliability-0.8.8.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2023-05-15 13:11:10] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230515/p/pytheia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 13:11:10] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/29/fc/2012642de249a6a097e97a3eac27e4210b58f2d88a8b17ae5310f896b09b/PatryksAutoAI-0.6.6.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [dramkit]: Downloading https://files.pythonhosted.org/packages/41/7f/431f1f4e0805defc824a2a542cf14e25ca2a9d16dbd75a1530a9b3ac1971/dramkit-0.5.41.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [wirepas-mqtt-library]: Downloading https://files.pythonhosted.org/packages/9c/a1/569efdcdb7809ba4f384901caa1b54930faa9657bddfa9d3a13dd1a4f5e9/wirepas_mqtt_library-1.2rc2.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-15 13:11:10] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230515/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-15 13:11:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-05-15 13:11:10] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-15 13:11:10] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.6.5.tar.gz tmp/PatryksAutoAI-0.6.6.tar.gz --markdown 20230515/P/PatryksAutoAI/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-15 13:11:10] INFO root fetch - processPackages [wirepas-mqtt-library]: executing diffoscope
+[2023-05-15 13:11:10] INFO root fetch - processPackages [wirepas-mqtt-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wirepas_mqtt_library-1.2rc1.tar.gz tmp/wirepas_mqtt_library-1.2rc2.tar.gz --markdown 20230515/w/wirepas-mqtt-library/1.2rc1-1.2rc2/diff.md --exclude *.pyd
+[2023-05-15 13:11:10] INFO root fetch - processPackages [dramkit]: executing diffoscope
+[2023-05-15 13:11:10] INFO root fetch - processPackages [dramkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramkit-0.4.4.tar.gz tmp/dramkit-0.5.41.tar.gz --markdown 20230515/d/dramkit/0.4.4-0.5.41/diff.md --exclude *.pyd
+[2023-05-15 13:11:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-15 13:11:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230515/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 13:11:11] INFO root fetch - processPackages [crawler-commons]: Start processing: dedscumulus
+[2023-05-15 13:11:11] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-15 13:11:11] INFO root fetch - processPackages [dedscumulus]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 13:11:11] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/42/4d/b75bdfb01e29913405161adbda9866fa4528697e974de9f464a2edbb13c3/dedscumulus-0.1.0-py3-none-any.whl
+[2023-05-15 13:11:11] INFO root fetch - processPackages [reliability]: Downloading https://files.pythonhosted.org/packages/3a/43/ffdf1e9baf80baaf58e0e91509d5096dc98aeabc6d7ed3fe4fcd167ea88b/reliability-0.8.9.tar.gz
+[2023-05-15 13:11:12] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/fd/f4/79207997fb0c39074839e74c0217c3f891b53bdb24f68e52ce2964cf6554/dedscumulus-0.1.1.tar.gz
+[2023-05-15 13:11:12] INFO root fetch - processPackages [reliability]: executing diffoscope
+[2023-05-15 13:11:12] INFO root fetch - processPackages [reliability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliability-0.8.8.tar.gz tmp/reliability-0.8.9.tar.gz --markdown 20230515/r/reliability/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-15 13:11:12] INFO root fetch - processPackages [arkdata]: Start processing: ersilia
+[2023-05-15 13:11:12] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 13:11:12] INFO root fetch - processPackages [bridgecrew]: Start processing: wizata-dsapi
+[2023-05-15 13:11:12] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-15 13:11:12] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 13:11:12] INFO root fetch - processPackages [dedscumulus]: executing diffoscope
+[2023-05-15 13:11:12] INFO root fetch - processPackages [dedscumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedscumulus-0.1.0-py3-none-any.whl.zip tmp/dedscumulus-0.1.1.tar.gz --markdown 20230515/d/dedscumulus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 13:11:12] INFO root fetch - processPackages [ersilia]: New version: [0.1.8] Old Version: [0.1.1]
+[2023-05-15 13:11:12] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-15 13:11:12] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230515/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 13:11:12] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: chncal
+[2023-05-15 13:11:12] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-15 13:11:12] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/92/9c/6dd2696cc0fe8eaca4263378c48e1f5eb0b2436bdb1c98159f5d723548ac/ersilia-0.1.1.tar.gz
+[2023-05-15 13:11:12] INFO root fetch - processPackages [chncal]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-15 13:11:12] INFO root fetch - processPackages [chncal]: Downloading https://files.pythonhosted.org/packages/88/40/c737afe9318d120140055043ccf50b7286c265d230b251ee8ad6c21b38e2/chncal-2.2.1.tar.gz
+[2023-05-15 13:11:12] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2023-05-15 13:11:12] INFO root fetch - processPackages [ChatLLM]: Start processing: pymaterial
+[2023-05-15 13:11:12] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 13:11:12] INFO root fetch - processPackages [wirepas-mqtt-library]: Start processing: pyatlan
+[2023-05-15 13:11:12] INFO root fetch - main [MainThread]: End processing [wirepas-mqtt-library]: success
+[2023-05-15 13:11:12] INFO root fetch - processPackages [pymaterial]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pyatlan]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-05-15 13:11:13] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-05-15 13:11:13] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.1.tar.gz tmp/ersilia-0.1.8.tar.gz --markdown 20230515/e/ersilia/0.1.1-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 13:11:13] INFO root fetch - processPackages [chncal]: Downloading https://files.pythonhosted.org/packages/a3/8f/6178cab9d32fa1805f357b4e61a792539f9baf9711e0b15a989244cb5393/chncal-2.2.2.tar.gz
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pymaterial]: Downloading https://files.pythonhosted.org/packages/55/f7/e984fba2522ec59aa2cda7edcad87189979d7dac459570b8024ab478254b/pymaterial-0.1.3.tar.gz
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/ef/e3/9321af32be42a8b3935f92450c8549ec8b3add897062ca8cb6065bc1a7fe/pyatlan-0.0.31.tar.gz
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pymaterial]: Downloading https://files.pythonhosted.org/packages/88/a6/7a47a6b61a0a95c1b6edc071dd2b34f31a15176788409814f55a948d08a8/pymaterial-0.1.4.tar.gz
+[2023-05-15 13:11:13] INFO root fetch - processPackages [chncal]: executing diffoscope
+[2023-05-15 13:11:13] INFO root fetch - processPackages [chncal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chncal-2.2.1.tar.gz tmp/chncal-2.2.2.tar.gz --markdown 20230515/c/chncal/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-15 13:11:13] INFO root fetch - processPackages [dedscumulus]: Start processing: prova-pypi
+[2023-05-15 13:11:13] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
+[2023-05-15 13:11:13] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.0.30.tar.gz tmp/pyatlan-0.0.31.tar.gz --markdown 20230515/p/pyatlan/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pymaterial]: executing diffoscope
+[2023-05-15 13:11:13] INFO root fetch - processPackages [pymaterial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymaterial-0.1.3.tar.gz tmp/pymaterial-0.1.4.tar.gz --markdown 20230515/p/pymaterial/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 13:11:13] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-15 13:11:13] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 13:11:13] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.7.tar.gz tmp/prova_pypi-0.0.8.tar.gz --markdown 20230515/p/prova-pypi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-15 13:11:13] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-15 13:11:14] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 13:11:14] INFO root fetch - main [MainThread]: End processing [pymaterial]: success
+[2023-05-15 13:11:15] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-05-15 13:11:15] INFO root fetch - main [MainThread]: End processing [dramkit]: success
+[2023-05-15 13:11:15] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-05-15 13:11:16] INFO root fetch - main [MainThread]: End processing [chncal]: success
+[2023-05-15 13:11:16] INFO root fetch - main [MainThread]: End processing [reliability]: success
+[2023-05-15 13:11:57] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2023-05-15 13:11:57] INFO root fetch - main [MainThread]: Store serial: [18106369]
