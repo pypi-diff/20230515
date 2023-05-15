@@ -16830,3 +16830,109 @@ EOFError: EOF read where object expected
 [2023-05-15 17:40:20] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2023-05-15 17:40:36] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
 [2023-05-15 17:40:36] INFO root fetch - main [MainThread]: Store serial: [18110058]
+[2023-05-15 17:45:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110058]
+[2023-05-15 17:45:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appian-locust
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeforlife-portal
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfl-common
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gurobi-machinelearning
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-clip-torch
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poppy
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chainlit
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: browserist
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anthropic
+[2023-05-15 17:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: minet
+[2023-05-15 17:45:46] INFO root fetch - processPackages [appian-locust]: New version: [2.0.0a0] Old Version: [1.9.0]
+[2023-05-15 17:45:46] INFO root fetch - processPackages [chainlit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 17:45:46] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [anthropic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-05-15 17:45:47] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230515/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-15 17:45:47] INFO root fetch - processPackages [gurobi-machinelearning]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [poppy]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [open-clip-torch]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [appian-locust]: executing diffoscope
+[2023-05-15 17:45:47] INFO root fetch - processPackages [appian-locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appian-locust-1.9.0.tar.gz tmp/appian-locust-2.0.0a0.tar.gz --markdown 20230515/a/appian-locust/1.9.0-2.0.0a0/diff.md --exclude *.pyd
+[2023-05-15 17:45:47] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-05-15 17:45:47] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.1.0.tar.gz tmp/chainlit-0.1.1.tar.gz --markdown 20230515/c/chainlit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 17:45:47] INFO root fetch - processPackages [browserist]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/bb/e6/8b2e3a56571f9fd7bbf763dfb77f9f67b77f2e942e46a058c2821592f8bb/anthropic-0.2.8.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [poppy]: Downloading https://files.pythonhosted.org/packages/b3/68/90edb4ff089579e3145eac7d7e8e0b3afa41a7bca639ca0fe0ce3da428f0/poppy-1.0.3.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [gurobi-machinelearning]: Downloading https://files.pythonhosted.org/packages/ba/64/6f58fa633ff7e0075380df4eb0950f1d1780c120e2570be2f9ba91e3d79e/gurobi-machinelearning-1.2.1.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [open-clip-torch]: Downloading https://files.pythonhosted.org/packages/94/d5/70315f8f54e2a2b723fb206893bc308a9585a314883c7d07d7b97611d5cd/open_clip_torch-2.9.2.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/7c/c9/b85da3d16be52135412e1b5de1ffbd4def5ce305c108376ec60e64901f2d/browserist-1.4.5.tar.gz
+[2023-05-15 17:45:47] WARNING root fetch - processPackages [poppy]: Skipping package: exceeds size limit 13324894>=10485760
+[2023-05-15 17:45:47] INFO root fetch - processPackages [poppy]: Start processing: kien
+[2023-05-15 17:45:47] INFO root fetch - main [MainThread]: End processing [poppy] error
+[2023-05-15 17:45:47] INFO root fetch - processPackages [kien]: New version: [0.9.1] Old Version: [0.7.0]
+[2023-05-15 17:45:47] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/b7/4d/c99d34d8ded48867cdda310f5c0eb84c77305bcc54d173d2d49a0c5ece9e/anthropic-0.2.9.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [gurobi-machinelearning]: Downloading https://files.pythonhosted.org/packages/c6/1b/ed20a20274b8c02f54fca96d6333a70d7153489fa56fb31e47f262fd307e/gurobi-machinelearning-1.2.2.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2023-05-15 17:45:47] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.2.8.tar.gz tmp/anthropic-0.2.9.tar.gz --markdown 20230515/a/anthropic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 17:45:47] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/4d/62/bdb960c4562890e15840c466a4492704f1ec5cdda78a2f4c75c6a80c905f/browserist-1.4.6.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [kien]: Downloading https://files.pythonhosted.org/packages/e5/74/b542666a8af1dad71e30733a9d1d2bbb8a6f6581ea248f46a8f9910f65d4/kien-0.7.0.tar.gz
+[2023-05-15 17:45:47] INFO root fetch - processPackages [gurobi-machinelearning]: executing diffoscope
+[2023-05-15 17:45:47] INFO root fetch - processPackages [gurobi-machinelearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurobi-machinelearning-1.2.1.tar.gz tmp/gurobi-machinelearning-1.2.2.tar.gz --markdown 20230515/g/gurobi-machinelearning/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-15 17:45:47] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-05-15 17:45:47] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230515/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:45:47] INFO root fetch - processPackages [browserist]: executing diffoscope
+[2023-05-15 17:45:47] INFO root fetch - processPackages [browserist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserist-1.4.5.tar.gz tmp/browserist-1.4.6.tar.gz --markdown 20230515/b/browserist/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-15 17:45:47] INFO root fetch - processPackages [kien]: Downloading https://files.pythonhosted.org/packages/1d/63/39e10ea7725f03795585baed845f1ab07d3cc7545d139b4c64bbbd8f4ea6/kien-0.9.1.tar.gz
+[2023-05-15 17:45:48] INFO root fetch - processPackages [kien]: executing diffoscope
+[2023-05-15 17:45:48] INFO root fetch - processPackages [kien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kien-0.7.0.tar.gz tmp/kien-0.9.1.tar.gz --markdown 20230515/k/kien/0.7.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 17:45:48] INFO root fetch - processPackages [chainlit]: Start processing: iranetf
+[2023-05-15 17:45:48] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-05-15 17:45:48] INFO root fetch - processPackages [iranetf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-15 17:45:48] INFO root fetch - processPackages [open-clip-torch]: Downloading https://files.pythonhosted.org/packages/5d/48/4d83e98f44a1d9fdb89ab45ab9ca8337f067e917dcffce449bc02732dedb/open_clip_torch-2.9.3.tar.gz
+[2023-05-15 17:45:48] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/13/fa/ca27cb7ea77c138ca4142cbb138910ddb5f3f57bb0ace643813d498c9d0d/iranetf-0.8.1.tar.gz
+[2023-05-15 17:45:48] INFO root fetch - processPackages [appian-locust]: Start processing: itkwidgets
+[2023-05-15 17:45:48] INFO root fetch - main [MainThread]: End processing [appian-locust]: success
+[2023-05-15 17:45:48] INFO root fetch - processPackages [open-clip-torch]: executing diffoscope
+[2023-05-15 17:45:48] INFO root fetch - processPackages [open-clip-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_clip_torch-2.9.2.tar.gz tmp/open_clip_torch-2.9.3.tar.gz --markdown 20230515/o/open-clip-torch/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-15 17:45:48] INFO root fetch - processPackages [itkwidgets]: New version: [1.0a9] Old Version: [1.0a8]
+[2023-05-15 17:45:48] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/de/32/2fd33eafec94b14d144edffe2e00b0d68221076651e8f8cd029b26311acd/iranetf-0.9.0.tar.gz
+[2023-05-15 17:45:48] INFO root fetch - processPackages [anthropic]: Start processing: hellomodule
+[2023-05-15 17:45:48] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2023-05-15 17:45:48] INFO root fetch - processPackages [iranetf]: executing diffoscope
+[2023-05-15 17:45:48] INFO root fetch - processPackages [iranetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iranetf-0.8.1.tar.gz tmp/iranetf-0.9.0.tar.gz --markdown 20230515/i/iranetf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:45:48] INFO root fetch - processPackages [itkwidgets]: Downloading https://files.pythonhosted.org/packages/41/8e/9980d2794f27358c534a93078db99144d0eb7853c43418db7de67eea462d/itkwidgets-1.0a8.tar.gz
+[2023-05-15 17:45:48] WARNING root fetch - processPackages [hellomodule]: Skipping, unable to determine old version
+[2023-05-15 17:45:48] INFO root fetch - processPackages [hellomodule]: Start processing: cyberdrop-dl
+[2023-05-15 17:45:48] INFO root fetch - main [MainThread]: End processing [hellomodule] error
+[2023-05-15 17:45:49] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.24] Old Version: [4.2.23]
+[2023-05-15 17:45:49] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-15 17:45:49] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.23.tar.gz tmp/cyberdrop-dl-4.2.24.tar.gz --markdown 20230515/c/cyberdrop-dl/4.2.23-4.2.24/diff.md --exclude *.pyd
+[2023-05-15 17:45:49] INFO root fetch - processPackages [cfl-common]: Start processing: np-gui
+[2023-05-15 17:45:49] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-05-15 17:45:49] INFO root fetch - processPackages [np-gui]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 17:45:49] INFO root fetch - processPackages [gurobi-machinelearning]: Start processing: pittgoogle-client
+[2023-05-15 17:45:49] INFO root fetch - main [MainThread]: End processing [gurobi-machinelearning]: success
+[2023-05-15 17:45:49] INFO root fetch - processPackages [itkwidgets]: Downloading https://files.pythonhosted.org/packages/65/bd/993b7fa27e50062787a5583ef5bc1440702b8eff92fe7f8f0448e74e2d68/itkwidgets-1.0a9.tar.gz
+[2023-05-15 17:45:49] INFO root fetch - processPackages [np-gui]: executing diffoscope
+[2023-05-15 17:45:49] INFO root fetch - processPackages [np-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_gui-0.0.5.tar.gz tmp/np_gui-0.0.6.tar.gz --markdown 20230515/n/np-gui/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 17:45:49] INFO root fetch - processPackages [pittgoogle-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 17:45:49] INFO root fetch - main [MainThread]: End processing [kien]: success
+[2023-05-15 17:45:49] INFO root fetch - processPackages [itkwidgets]: executing diffoscope
+[2023-05-15 17:45:49] INFO root fetch - processPackages [itkwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwidgets-1.0a8.tar.gz tmp/itkwidgets-1.0a9.tar.gz --markdown 20230515/i/itkwidgets/1.0a8-1.0a9/diff.md --exclude *.pyd
+[2023-05-15 17:45:49] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-05-15 17:45:49] INFO root fetch - processPackages [pittgoogle-client]: Downloading https://files.pythonhosted.org/packages/56/91/186c8017506dae177ec611c8130e129cc8fd808dda5c214af0c60becfb3d/pittgoogle-client-0.1.0.tar.gz
+[2023-05-15 17:45:49] INFO root fetch - main [MainThread]: End processing [iranetf]: success
+[2023-05-15 17:45:50] INFO root fetch - processPackages [pittgoogle-client]: Downloading https://files.pythonhosted.org/packages/b4/56/50dd1b5511fcf45601eedfba76d5ac93eddf5940e5660406636c3956be55/pittgoogle_client-0.1.1.tar.gz
+[2023-05-15 17:45:50] INFO root fetch - processPackages [pittgoogle-client]: executing diffoscope
+[2023-05-15 17:45:50] INFO root fetch - processPackages [pittgoogle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pittgoogle-client-0.1.0.tar.gz tmp/pittgoogle_client-0.1.1.tar.gz --markdown 20230515/p/pittgoogle-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 17:45:50] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-15 17:45:50] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-05-15 17:45:51] INFO root fetch - main [MainThread]: End processing [pittgoogle-client]: success
+[2023-05-15 17:45:51] INFO root fetch - main [MainThread]: End processing [itkwidgets]: success
+[2023-05-15 17:45:51] INFO root fetch - main [MainThread]: End processing [np-gui]: success
+[2023-05-15 17:45:52] INFO root fetch - main [MainThread]: End processing [browserist]: success
+[2023-05-15 17:45:53] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-05-15 17:45:53] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230515/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:45:53] INFO root fetch - main [MainThread]: End processing [open-clip-torch]: success
+[2023-05-15 17:45:58] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-05-15 17:45:58] INFO root fetch - main [MainThread]: Store serial: [18110112]
