@@ -6387,3 +6387,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:23:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-15 09:23:06] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-15 09:23:06] INFO root fetch - main [MainThread]: Store serial: [18103889]
+[2023-05-15 09:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103889]
+[2023-05-15 09:28:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genv
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mttf
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mttf
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-management
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e2enetworks
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pip-hgsec
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SantorinAI
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: a1rn
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-15 09:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tikit
+[2023-05-15 09:28:16] INFO root fetch - processPackages [mttf]: New version: [0.9.202209080909] Old Version: [0.9.202209080905]
+[2023-05-15 09:28:16] INFO root fetch - processPackages [genv]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-05-15 09:28:16] WARNING root fetch - processPackages [a1rn]: Skipping, unable to determine old version
+[2023-05-15 09:28:16] INFO root fetch - processPackages [tikit]: New version: [1.4.3.230512] Old Version: [1.4.2.230424]
+[2023-05-15 09:28:16] INFO root fetch - processPackages [a1rn]: Start processing: ctf-use-get-flag
+[2023-05-15 09:28:16] INFO root fetch - main [MainThread]: End processing [a1rn] error
+[2023-05-15 09:28:16] WARNING root fetch - processPackages [pip-hgsec]: Skipping, unable to determine old version
+[2023-05-15 09:28:16] INFO root fetch - processPackages [SantorinAI]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-15 09:28:16] INFO root fetch - processPackages [flask-management]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 09:28:16] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 09:28:16] INFO root fetch - processPackages [mttf]: New version: [0.9.202209080909] Old Version: [0.9.202209080905]
+[2023-05-15 09:28:16] INFO root fetch - main [MainThread]: End processing [pip-hgsec] error
+[2023-05-15 09:28:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-15 09:28:16] WARNING root fetch - processPackages [ctf-use-get-flag]: Skipping, unable to determine old version
+[2023-05-15 09:28:16] INFO root fetch - main [MainThread]: End processing [ctf-use-get-flag] error
+[2023-05-15 09:28:16] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/26/9e/ac16ad963a6ccefc63de6898eb2cde74e0ad5c65bd791f4e1e45eb2e917c/genv-0.6.0.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [flask-management]: Downloading https://files.pythonhosted.org/packages/e6/68/e0f71907966d8d712215194b06644821659d58dc05be4726791cb2ecb9fa/flask_management-0.1.2.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/53/23/081dc9590bc9949c65bee8f2a60b954f686cc8bf08bdaedefb4e87c50346/SantorinAI-1.2.5.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/19/c3/b884bd1f5ea37cc036f97b292738a211ec7d3266bde085b6876b08b0ea32/tikit-1.4.2.230424.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/54/45/d5a657916d56a9a5d374e897c4a0165fe35a98e15df0e13fcfed2f32929f/e2enetworks-0.0.3.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 09:28:16] INFO root fetch - processPackages [flask-management]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [flask-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_management-0.1.1.tar.gz tmp/flask_management-0.1.2.tar.gz --markdown 20230515/f/flask-management/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 09:28:16] INFO root fetch - processPackages [mttf]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [mttf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mttf-0.9.202209080905-py3-none-any.whl.zip tmp/mttf-0.9.202209080909-py3-none-any.whl.zip --markdown 20230515/m/mttf/0.9.202209080905-0.9.202209080909/diff.md --exclude *.pyd
+[2023-05-15 09:28:16] INFO root fetch - processPackages [mttf]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [mttf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mttf-0.9.202209080905-py3-none-any.whl.zip tmp/mttf-0.9.202209080909-py3-none-any.whl.zip --markdown 20230515/m/mttf/0.9.202209080905-0.9.202209080909/diff.md --exclude *.pyd
+[2023-05-15 09:28:16] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.2.tar.gz tmp/e2enetworks-0.0.3.tar.gz --markdown 20230515/e/e2enetworks/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 09:28:16] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/00/a2/27efc831e2156e3f7504af5f6853e0fdf7447749f8a4916b3e600c0113d0/tikit-1.4.3.230512.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [SantorinAI]: Downloading https://files.pythonhosted.org/packages/16/da/0b7eac5e448818f9ab2e7fc6d1b13bfcd803905e7fef04b5946cd47021cc/SantorinAI-1.2.6.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/5e/16/7cf20f4dd39f61fe40b7a6afcf9dae6bc6d477f284d62eb1835e95bbd8ba/genv-0.9.0.tar.gz
+[2023-05-15 09:28:16] INFO root fetch - processPackages [genv]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [genv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genv-0.6.0.tar.gz tmp/genv-0.9.0.tar.gz --markdown 20230515/g/genv/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 09:28:16] INFO root fetch - processPackages [SantorinAI]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [SantorinAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SantorinAI-1.2.5.tar.gz tmp/SantorinAI-1.2.6.tar.gz --markdown 20230515/S/SantorinAI/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-15 09:28:16] INFO root fetch - processPackages [tikit]: executing diffoscope
+[2023-05-15 09:28:16] INFO root fetch - processPackages [tikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tikit-1.4.2.230424.tar.gz tmp/tikit-1.4.3.230512.tar.gz --markdown 20230515/t/tikit/1.4.2.230424-1.4.3.230512/diff.md --exclude *.pyd
+[2023-05-15 09:28:17] INFO root fetch - main [MainThread]: End processing [mttf]: success
+[2023-05-15 09:28:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-15 09:28:18] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-15 09:28:18] INFO root fetch - main [MainThread]: End processing [flask-management]: success
+[2023-05-15 09:28:18] INFO root fetch - main [MainThread]: End processing [mttf]: success
+[2023-05-15 09:28:18] INFO root fetch - main [MainThread]: End processing [SantorinAI]: success
+[2023-05-15 09:28:18] INFO root fetch - main [MainThread]: End processing [genv]: success
+[2023-05-15 09:28:19] INFO root fetch - main [MainThread]: End processing [tikit]: success
+[2023-05-15 09:28:19] INFO root fetch - main [MainThread]: Store serial: [18103925]
