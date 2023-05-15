@@ -3270,3 +3270,40 @@
 [2023-05-15 05:03:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
 [2023-05-15 05:03:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
 [2023-05-15 05:03:53] INFO root fetch - main [MainThread]: Store serial: [18102232]
+[2023-05-15 05:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102232]
+[2023-05-15 05:09:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 05:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PhabulousPhage
+[2023-05-15 05:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batch-inference
+[2023-05-15 05:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2023-05-15 05:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-drm
+[2023-05-15 05:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-ds
+[2023-05-15 05:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartdns
+[2023-05-15 05:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sourcery-nightly
+[2023-05-15 05:09:13] INFO root fetch - processPackages [smartdns]: New version: [3.6.1] Old Version: [3.5.1]
+[2023-05-15 05:09:13] WARNING root fetch - processPackages [PhabulousPhage]: Skipping, unable to determine old version
+[2023-05-15 05:09:13] INFO root fetch - main [MainThread]: End processing [PhabulousPhage] error
+[2023-05-15 05:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:09:13] WARNING root fetch - processPackages [batch-inference]: Skipping, unable to determine old version
+[2023-05-15 05:09:13] INFO root fetch - main [MainThread]: End processing [batch-inference] error
+[2023-05-15 05:09:13] INFO root fetch - processPackages [smartdns]: executing diffoscope
+[2023-05-15 05:09:13] INFO root fetch - processPackages [smartdns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdns-3.5.1.tar.gz tmp/smartdns-3.6.1-py3-none-any.whl.zip --markdown 20230515/s/smartdns/3.5.1-3.6.1/diff.md --exclude *.pyd
+[2023-05-15 05:09:14] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.2.1b4] Old Version: [1.2.1b31]
+[2023-05-15 05:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:09:14] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev3666] Old Version: [0.7.2.dev3546]
+[2023-05-15 05:09:14] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/65/bf/4f376eb9c0d6d4028c3560be67fe2a2580822b77ab91fc2e6649c8f5d24e/sourcery_nightly-1.2.1b31-py2.py3-none-win_amd64.whl
+[2023-05-15 05:09:14] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58680208>=10485760
+[2023-05-15 05:09:14] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-05-15 05:09:14] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/ee/5e/cb3220799d81a1eaa924f6c998d547349cf9c202d3b2de478a1b4e416aa3/duckdb-0.7.2.dev3546.tar.gz
+[2023-05-15 05:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Downloading https://files.pythonhosted.org/packages/d7/cb/2d3038d84b61d576521eccaa943fcd69cc86644189afa949665496d6814a/tencentcloud_sdk_python_ds-3.0.891-py2.py3-none-any.whl
+[2023-05-15 05:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Downloading https://files.pythonhosted.org/packages/51/ca/0e11fc670ce893c1e27b93e211a4a7439975cced1b24d9884b331388511f/tencentcloud-sdk-python-drm-3.0.891.tar.gz
+[2023-05-15 05:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: executing diffoscope
+[2023-05-15 05:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-drm-3.0.890.tar.gz tmp/tencentcloud-sdk-python-drm-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-drm/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: executing diffoscope
+[2023-05-15 05:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ds-3.0.890.tar.gz tmp/tencentcloud_sdk_python_ds-3.0.891-py2.py3-none-any.whl.zip --markdown 20230515/t/tencentcloud-sdk-python-ds/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:09:14] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/55/98/685143c4aa6c78b5eb1ff80fbb3647f0b822b1092f3f3bf53b0d6b52501f/duckdb-0.7.2.dev3666-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-05-15 05:09:14] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14610307>=10485760
+[2023-05-15 05:09:14] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-05-15 05:09:15] INFO root fetch - main [MainThread]: End processing [smartdns]: success
+[2023-05-15 05:09:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ds]: success
+[2023-05-15 05:09:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-drm]: success
+[2023-05-15 05:09:15] INFO root fetch - main [MainThread]: Store serial: [18102255]
