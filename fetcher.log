@@ -17285,3 +17285,95 @@ EOFError: EOF read where object expected
 [2023-05-15 18:02:27] INFO root fetch - main [MainThread]: End processing [guify]: success
 [2023-05-15 18:02:30] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-05-15 18:02:30] INFO root fetch - main [MainThread]: Store serial: [18110303]
+[2023-05-15 18:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110303]
+[2023-05-15 18:07:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: droidlysis
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threedi-modelchecker
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weathergen
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatcmd
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MindsDB
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpverif
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smart-webdriver-manager
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nothingmalicious-test-for-ctf-3N9kppFH
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: normal-captcha
+[2023-05-15 18:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotpy-wpimath
+[2023-05-15 18:07:40] INFO root fetch - processPackages [droidlysis]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-05-15 18:07:40] INFO root fetch - processPackages [weathergen]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-15 18:07:40] INFO root fetch - processPackages [threedi-modelchecker]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-15 18:07:40] INFO root fetch - processPackages [smart-webdriver-manager]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-15 18:07:41] WARNING root fetch - processPackages [chatcmd]: Skipping, unable to determine old version
+[2023-05-15 18:07:41] INFO root fetch - processPackages [chatcmd]: Start processing: titan-iris
+[2023-05-15 18:07:41] INFO root fetch - processPackages [normal-captcha]: New version: [2023.5.15.1604] Old Version: [0.0.0]
+[2023-05-15 18:07:41] INFO root fetch - processPackages [hpverif]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-05-15 18:07:41] INFO root fetch - main [MainThread]: End processing [chatcmd] error
+[2023-05-15 18:07:41] WARNING root fetch - processPackages [nothingmalicious-test-for-ctf-3N9kppFH]: Skipping, unable to determine old version
+[2023-05-15 18:07:41] INFO root fetch - processPackages [MindsDB]: New version: [23.5.3.1] Old Version: [23.4.4.4]
+[2023-05-15 18:07:41] INFO root fetch - processPackages [nothingmalicious-test-for-ctf-3N9kppFH]: Start processing: s2aff
+[2023-05-15 18:07:41] INFO root fetch - main [MainThread]: End processing [nothingmalicious-test-for-ctf-3N9kppFH] error
+[2023-05-15 18:07:41] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-15 18:07:41] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230515/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] INFO root fetch - processPackages [weathergen]: Downloading https://files.pythonhosted.org/packages/8a/71/12773079d47de7461fe16c475a960269d0f56984fd967c221942303f2769/weathergen-2.3.1.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [s2aff]: New version: [0.24] Old Version: [0.23]
+[2023-05-15 18:07:41] INFO root fetch - processPackages [robotpy-wpimath]: New version: [2023.4.3.1] Old Version: [2023.4.3.0]
+[2023-05-15 18:07:41] INFO root fetch - processPackages [smart-webdriver-manager]: Downloading https://files.pythonhosted.org/packages/8c/9e/20085428fd47b3eb6e56b3ac20dc7c6e07e5f0509366453376d2f9a6c3e9/smart_webdriver_manager-0.3.0-py3-none-any.whl
+[2023-05-15 18:07:41] INFO root fetch - processPackages [hpverif]: Downloading https://files.pythonhosted.org/packages/56/0b/5da44bdab59a33a9685ebc422050c9035e11cc5b64c56123dcf6e293bd87/hpverif-2.6.3-py3-none-any.whl
+[2023-05-15 18:07:41] WARNING root fetch - processPackages [weathergen]: Skipping package: exceeds size limit 89022885>=10485760
+[2023-05-15 18:07:41] INFO root fetch - processPackages [weathergen]: Start processing: Log-Api
+[2023-05-15 18:07:41] INFO root fetch - main [MainThread]: End processing [weathergen] error
+[2023-05-15 18:07:41] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/29/14/4aa262280e07058a9ba72036fb4169dd15466adf80a121645fcf4ea5b41a/threedi-modelchecker-2.1.1.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [normal-captcha]: Downloading https://files.pythonhosted.org/packages/48/4e/de7444083e1c46205dc9b941163bd3d69ebf7c60add377aa7ad79f324997/normal_captcha-0.0.0.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/87/89/0342d2a020ae7f1c9e41628851d8e77342df635eac50e1362dd1e7afe572/MindsDB-23.4.4.4.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [hpverif]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [hpverif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpverif-2.6.2-py3-none-any.whl.zip tmp/hpverif-2.6.3-py3-none-any.whl.zip --markdown 20230515/h/hpverif/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] WARNING root fetch - processPackages [Log-Api]: Skipping, unable to determine old version
+[2023-05-15 18:07:41] INFO root fetch - processPackages [Log-Api]: Start processing: Apptimize
+[2023-05-15 18:07:41] INFO root fetch - main [MainThread]: End processing [Log-Api] error
+[2023-05-15 18:07:41] INFO root fetch - processPackages [droidlysis]: Downloading https://files.pythonhosted.org/packages/82/9f/cb502243be1ad7b92c6a2fbf1ac8625924ec6d61a0208a0984597f6fbe6f/droidlysis-3.4.5.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/5d/07/363279dbb0122dc570c43e85b06b940e4ad63a0d031901426092c318c851/s2aff-0.24.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [robotpy-wpimath]: Downloading https://files.pythonhosted.org/packages/83/06/4d66c4983de60dd1d91ea8114370da308baf5128c4db15c11795ca9e76ca/robotpy-wpimath-2023.4.3.0.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [smart-webdriver-manager]: Downloading https://files.pythonhosted.org/packages/da/7b/6e4e73369d43c439b6af3ec18e36a90c0485a220b69467d6c2fcfc609e65/smart_webdriver_manager-0.4.0.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [Apptimize]: New version: [1.2.39] Old Version: [1.2.38]
+[2023-05-15 18:07:41] INFO root fetch - processPackages [normal-captcha]: Downloading https://files.pythonhosted.org/packages/64/0b/b5393fe186f504ea451a9484f1a68fcf0a8869fb54793207b5f4c05ac934/normal_captcha-2023.5.15.1604.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.23.tar.gz tmp/s2aff-0.24.tar.gz --markdown 20230515/s/s2aff/0.23-0.24/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/56/94/e8d2782054819e194794c9d98d17531835d5948e5e6715e758f009d485e2/threedi-modelchecker-2.2.0.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [normal-captcha]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [normal-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normal_captcha-0.0.0.tar.gz tmp/normal_captcha-2023.5.15.1604.tar.gz --markdown 20230515/n/normal-captcha/0.0.0-2023.5.15.1604/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] INFO root fetch - processPackages [droidlysis]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [droidlysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/droidlysis-3.4.4.tar.gz tmp/droidlysis-3.4.5.tar.gz --markdown 20230515/d/droidlysis/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/91/87/b6524da4556221a0462b29219c89ad6d62d1628ff961521fab404ca763be/MindsDB-23.5.3.1.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [robotpy-wpimath]: Downloading https://files.pythonhosted.org/packages/92/50/4cf3cebf6ee81d36de2691fa584175a9ba7eeee56da6053d191c3aa63f5e/robotpy-wpimath-2023.4.3.1.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [Apptimize]: Downloading https://files.pythonhosted.org/packages/6a/1d/e84615903d755e57c304e1eed5579f9945f54f2598bf9fe70715e58c9b8c/Apptimize-1.2.38.tar.gz
+[2023-05-15 18:07:41] INFO root fetch - processPackages [threedi-modelchecker]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [threedi-modelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-modelchecker-2.1.1.tar.gz tmp/threedi-modelchecker-2.2.0.tar.gz --markdown 20230515/t/threedi-modelchecker/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] INFO root fetch - processPackages [smart-webdriver-manager]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [smart-webdriver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_webdriver_manager-0.3.0-py3-none-any.whl.zip tmp/smart_webdriver_manager-0.4.0.tar.gz --markdown 20230515/s/smart-webdriver-manager/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] INFO root fetch - processPackages [robotpy-wpimath]: executing diffoscope
+[2023-05-15 18:07:41] INFO root fetch - processPackages [robotpy-wpimath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotpy-wpimath-2023.4.3.0.tar.gz tmp/robotpy-wpimath-2023.4.3.1.tar.gz --markdown 20230515/r/robotpy-wpimath/2023.4.3.0-2023.4.3.1/diff.md --exclude *.pyd
+[2023-05-15 18:07:41] INFO root fetch - processPackages [Apptimize]: Downloading https://files.pythonhosted.org/packages/4e/0a/6164892800d7ed21419ef6a6665acc71e6e6ed0f60dc4aa8c22a45dcf983/Apptimize-1.2.39.tar.gz
+[2023-05-15 18:07:42] INFO root fetch - processPackages [Apptimize]: executing diffoscope
+[2023-05-15 18:07:42] INFO root fetch - processPackages [Apptimize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Apptimize-1.2.38.tar.gz tmp/Apptimize-1.2.39.tar.gz --markdown 20230515/A/Apptimize/1.2.38-1.2.39/diff.md --exclude *.pyd
+[2023-05-15 18:07:42] INFO root fetch - processPackages [titan-iris]: Start processing: notification-service-nightly
+[2023-05-15 18:07:42] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-15 18:07:42] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 18:07:42] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-05-15 18:07:42] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.4.4.4.tar.gz tmp/MindsDB-23.5.3.1.tar.gz --markdown 20230515/M/MindsDB/23.4.4.4-23.5.3.1/diff.md --exclude *.pyd
+[2023-05-15 18:07:42] INFO root fetch - processPackages [hpverif]: Start processing: ai-flow-nightly
+[2023-05-15 18:07:42] INFO root fetch - main [MainThread]: End processing [hpverif]: success
+[2023-05-15 18:07:42] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-15 18:07:42] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.8.tar.gz tmp/notification_service_nightly-2023.5.9.tar.gz --markdown 20230515/n/notification-service-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 18:07:42] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-15 18:07:42] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-15 18:07:42] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.8.tar.gz tmp/ai_flow_nightly-2023.5.9.tar.gz --markdown 20230515/a/ai-flow-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-15 18:07:43] INFO root fetch - main [MainThread]: End processing [normal-captcha]: success
+[2023-05-15 18:07:43] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-15 18:07:43] INFO root fetch - main [MainThread]: End processing [smart-webdriver-manager]: success
+[2023-05-15 18:07:43] INFO root fetch - main [MainThread]: End processing [threedi-modelchecker]: success
+[2023-05-15 18:07:43] INFO root fetch - main [MainThread]: End processing [Apptimize]: success
+[2023-05-15 18:07:44] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-15 18:07:44] INFO root fetch - main [MainThread]: End processing [droidlysis]: success
+[2023-05-15 18:07:45] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-15 18:07:46] INFO root fetch - main [MainThread]: End processing [robotpy-wpimath]: success
+[2023-05-15 18:07:52] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-05-15 18:07:52] INFO root fetch - main [MainThread]: Store serial: [18110371]
