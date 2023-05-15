@@ -5349,3 +5349,35 @@
 [2023-05-15 07:47:34] INFO root fetch - main [MainThread]: End processing [layrz-forms]: success
 [2023-05-15 07:47:37] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-15 07:47:37] INFO root fetch - main [MainThread]: Store serial: [18103366]
+[2023-05-15 07:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103366]
+[2023-05-15 07:52:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-15 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p3lib
+[2023-05-15 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdata
+[2023-05-15 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quasinet
+[2023-05-15 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quasinet
+[2023-05-15 07:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quorum-eth-py
+[2023-05-15 07:52:47] INFO root fetch - processPackages [p3lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-15 07:52:47] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quorum-eth-py]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-15 07:52:47] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 07:52:47] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 07:52:47] INFO root fetch - processPackages [p3lib]: Downloading https://files.pythonhosted.org/packages/55/b4/4268f55ec92e6edf58f002fc8dc370db4195e6139f3032d8c7b5863921cb/p3lib-1.1.8.tar.gz
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 07:52:47] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 07:52:47] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 07:52:47] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 07:52:47] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/36/a6/dbb7c9693dd2aacbb0e4196938a978d1dfc8d9ff08b9be5c9d272f635419/quorum_eth_py-0.1.1.tar.gz
+[2023-05-15 07:52:47] INFO root fetch - processPackages [p3lib]: Downloading https://files.pythonhosted.org/packages/a9/c3/0d9fa73590a7b32debaaf0a21580a8af5a4b1780adbc93e9ec56ed1a1faa/p3lib-1.1.9.tar.gz
+[2023-05-15 07:52:47] INFO root fetch - processPackages [p3lib]: executing diffoscope
+[2023-05-15 07:52:47] INFO root fetch - processPackages [p3lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3lib-1.1.8.tar.gz tmp/p3lib-1.1.9.tar.gz --markdown 20230515/p/p3lib/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/aa/e1/25e3e8ef8cc11b883f6be28a9a287871e21dcfbc502506646b3b38131450/quorum_eth_py-0.2.1.tar.gz
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quorum-eth-py]: executing diffoscope
+[2023-05-15 07:52:47] INFO root fetch - processPackages [quorum-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_eth_py-0.1.1.tar.gz tmp/quorum_eth_py-0.2.1.tar.gz --markdown 20230515/q/quorum-eth-py/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 07:52:48] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 07:52:48] INFO root fetch - main [MainThread]: End processing [p3lib]: success
+[2023-05-15 07:52:48] INFO root fetch - main [MainThread]: End processing [quorum-eth-py]: success
+[2023-05-15 07:52:48] INFO root fetch - main [MainThread]: Store serial: [18103383]
