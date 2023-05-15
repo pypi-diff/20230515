@@ -6096,3 +6096,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:06:54] INFO root fetch - main [MainThread]: End processing [openstef]: success
 [2023-05-15 09:06:55] INFO root fetch - main [MainThread]: End processing [networklab]: success
 [2023-05-15 09:06:55] INFO root fetch - main [MainThread]: Store serial: [18103737]
+[2023-05-15 09:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103737]
+[2023-05-15 09:12:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyautosrt
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-utils
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-dms-enterprise
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myws
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipsqlitepackageV2
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CactusSerializer
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelon-impact-client
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: konta-test
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: renku
+[2023-05-15 09:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-15 09:12:06] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-05-15 09:12:06] WARNING root fetch - processPackages [myws]: Skipping, unable to determine old version
+[2023-05-15 09:12:06] INFO root fetch - processPackages [myws]: Start processing: graphsignal
+[2023-05-15 09:12:06] INFO root fetch - main [MainThread]: End processing [myws] error
+[2023-05-15 09:12:06] WARNING root fetch - processPackages [CactusSerializer]: Skipping, unable to determine old version
+[2023-05-15 09:12:06] WARNING root fetch - processPackages [konta-test]: Skipping, unable to determine old version
+[2023-05-15 09:12:06] INFO root fetch - processPackages [CactusSerializer]: Start processing: renku-lock
+[2023-05-15 09:12:06] WARNING root fetch - processPackages [core-utils]: Skipping, unable to determine old version
+[2023-05-15 09:12:06] INFO root fetch - main [MainThread]: End processing [CactusSerializer] error
+[2023-05-15 09:12:06] INFO root fetch - processPackages [konta-test]: Start processing: pipsqlitepackageV2
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pipsqlitepackageV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pyautosrt]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [core-utils]: Start processing: tf-models-nightly
+[2023-05-15 09:12:06] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-15 09:12:06] INFO root fetch - main [MainThread]: End processing [konta-test] error
+[2023-05-15 09:12:06] INFO root fetch - main [MainThread]: End processing [core-utils] error
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pipsqlitepackageV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [renku-lock]: New version: [2.4.1rc1] Old Version: [2.4.0rc2]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [renku]: New version: [2.4.1rc1] Old Version: [2.4.0rc2]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-15 09:12:06] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-15 09:12:06] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230515/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-15 09:12:06] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/36/b4/452920b23dc5fce52f2d517cc942c5d5772022ddd6efdd2f337fe1b61977/modelon_impact_client-3.0.0.dev8.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pipsqlitepackageV2]: Downloading https://files.pythonhosted.org/packages/d6/2d/03e6fcb68a982606a6662c0325ffc9c4e50a0d7f1aca52ec257fc22b826f/pipsqlitepackageV2-1.0.0.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pipsqlitepackageV2]: Downloading https://files.pythonhosted.org/packages/d6/2d/03e6fcb68a982606a6662c0325ffc9c4e50a0d7f1aca52ec257fc22b826f/pipsqlitepackageV2-1.0.0.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-15 09:12:06] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230515/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/e9/cf/c3b79fe083a49b26049eaeccd94ad950b95703e71c3354d49c17ea55670b/pyautosrt-0.1.4.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/97/15/3d2f0991d86bdef7c6998cb3b006d85061f856f989322a42eef652ce5047/renku_lock-2.4.0rc2-py3-none-any.whl
+[2023-05-15 09:12:06] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/e9/0e/cc33345f33fd2060514b36001a119546260044795ae49fdf813af3054969/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/dc/f6/c3b22d50e9b701221dcceff4916981df728e7bf17844bcb9f0b1d4673837/renku-2.4.0rc2.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pipsqlitepackageV2]: Downloading https://files.pythonhosted.org/packages/2d/32/3a1c51ba202abefea3db64a7a995eb2f268451b2784a8b4922baf2930f24/pipsqlitepackageV2-1.1.0.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pipsqlitepackageV2]: Downloading https://files.pythonhosted.org/packages/2d/32/3a1c51ba202abefea3db64a7a995eb2f268451b2784a8b4922baf2930f24/pipsqlitepackageV2-1.1.0.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/c8/92/69c136282903fc0309554d335276dc109c35317870d7a85e4e7ad0799ae9/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz
+[2023-05-15 09:12:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-05-15 09:12:07] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/df/67/dc421e3b8a00f306c7c4707fed44b82752b6fece277dbaf4e6387d2f07d0/renku_lock-2.4.1rc1-py3-none-any.whl
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pipsqlitepackageV2]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pipsqlitepackageV2]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pipsqlitepackageV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipsqlitepackageV2-1.0.0.tar.gz tmp/pipsqlitepackageV2-1.1.0.tar.gz --markdown 20230515/p/pipsqlitepackageV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pipsqlitepackageV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipsqlitepackageV2-1.0.0.tar.gz tmp/pipsqlitepackageV2-1.1.0.tar.gz --markdown 20230515/p/pipsqlitepackageV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 09:12:07] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/4a/46/39f10d958eb7e1d3b6b332803f3e61b95fe2d424c01272f00a98cf4ec411/modelon_impact_client-3.0.0.dev9.tar.gz
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/42/1b/cc5bb85d680226626682e68bfbf964e7113b6c69d19e0ba025884a63687d/pyautosrt-0.1.7.tar.gz
+[2023-05-15 09:12:07] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz --markdown 20230515/a/aliyun-python-sdk-dms-enterprise/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230515/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-15 09:12:07] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.4.0rc2-py3-none-any.whl.zip tmp/renku_lock-2.4.1rc1-py3-none-any.whl.zip --markdown 20230515/r/renku-lock/2.4.0rc2-2.4.1rc1/diff.md --exclude *.pyd
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.1.4.tar.gz tmp/pyautosrt-0.1.7.tar.gz --markdown 20230515/p/pyautosrt/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 09:12:07] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230515/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-15 09:12:07] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/fc/07/d4b8c636d9bb5ce14dc3b8b9db41a6e2169ec5942f94881496e5985eb06a/renku-2.4.1rc1.tar.gz
+[2023-05-15 09:12:07] INFO root fetch - processPackages [renku]: executing diffoscope
+[2023-05-15 09:12:07] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.4.0rc2.tar.gz tmp/renku-2.4.1rc1.tar.gz --markdown 20230515/r/renku/2.4.0rc2-2.4.1rc1/diff.md --exclude *.pyd
+[2023-05-15 09:12:08] INFO root fetch - processPackages [pipsqlitepackageV2]: Start processing: pyplanpro
+[2023-05-15 09:12:08] INFO root fetch - main [MainThread]: End processing [pipsqlitepackageV2]: success
+[2023-05-15 09:12:08] INFO root fetch - processPackages [pyplanpro]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-05-15 09:12:08] INFO root fetch - processPackages [pyplanpro]: Downloading https://files.pythonhosted.org/packages/f3/b5/b43330a563fefaa7f4bd3a8e2af15477c345707c343f69a13f02495e96a7/pyplanpro-0.0.6.tar.gz
+[2023-05-15 09:12:08] INFO root fetch - processPackages [renku-lock]: Start processing: simba-ml
+[2023-05-15 09:12:08] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2023-05-15 09:12:08] INFO root fetch - processPackages [simba-ml]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-05-15 09:12:08] INFO root fetch - main [MainThread]: End processing [pipsqlitepackageV2]: success
+[2023-05-15 09:12:08] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-05-15 09:12:09] INFO root fetch - processPackages [pyplanpro]: Downloading https://files.pythonhosted.org/packages/3f/6e/70c65701c603815daf4608695e6ded1704c48604d593493410733c14e379/pyplanpro-0.0.9.tar.gz
+[2023-05-15 09:12:09] INFO root fetch - processPackages [pyplanpro]: executing diffoscope
+[2023-05-15 09:12:09] INFO root fetch - processPackages [pyplanpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplanpro-0.0.6.tar.gz tmp/pyplanpro-0.0.9.tar.gz --markdown 20230515/p/pyplanpro/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 09:12:09] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
+[2023-05-15 09:12:09] INFO root fetch - processPackages [simba-ml]: Downloading https://files.pythonhosted.org/packages/ac/ac/99ec696444a5bb1035a2401e4e58d586ccfede38dd76205eab0e73f0c680/simba_ml-1.0.0rc1.tar.gz
+[2023-05-15 09:12:09] INFO root fetch - processPackages [simba-ml]: Downloading https://files.pythonhosted.org/packages/6d/2f/287c8854ff0fb499e66c775c2b063e7d028672c455f652e2da2e51611221/simba_ml-1.0.0rc2.tar.gz
+[2023-05-15 09:12:09] INFO root fetch - processPackages [simba-ml]: executing diffoscope
+[2023-05-15 09:12:09] INFO root fetch - processPackages [simba-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simba_ml-1.0.0rc1.tar.gz tmp/simba_ml-1.0.0rc2.tar.gz --markdown 20230515/s/simba-ml/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-05-15 09:12:10] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-05-15 09:12:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-15 09:12:10] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-15 09:12:10] INFO root fetch - main [MainThread]: End processing [pyplanpro]: success
+[2023-05-15 09:12:11] INFO root fetch - main [MainThread]: End processing [simba-ml]: success
+[2023-05-15 09:12:17] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2023-05-15 09:12:20] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-15 09:12:20] INFO root fetch - main [MainThread]: Store serial: [18103793]
