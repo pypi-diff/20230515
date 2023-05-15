@@ -12262,3 +12262,142 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 14:07:56] INFO root fetch - main [MainThread]: End processing [ebmdatalab]: success
 [2023-05-15 14:07:59] INFO root fetch - main [MainThread]: End processing [cone.calendar]: success
 [2023-05-15 14:07:59] INFO root fetch - main [MainThread]: Store serial: [18107220]
+[2023-05-15 14:13:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18107220]
+[2023-05-15 14:13:08] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SeisMonitor
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vvv-rpc-server-update
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-airflow
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TradeCalCN
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyikarus
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TradeCalCN
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dvclive
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbsntransform
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usbid
+[2023-05-15 14:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-15 14:13:08] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000071] Old Version: [0.3.0.dev202310000070]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [apache-airflow]: New version: [2.6.1rc2] Old Version: [2.6.1rc1]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230515.9.28.17955] Old Version: [20230515.8.30.284279]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/e3/28/a423fabd542019b0eedf821af75dd341cd321309f0ec965787e85b604b95/certora-cli-alpha-jtoman-try-catch-20230515.8.30.284279.tar.gz
+[2023-05-15 14:13:08] INFO root fetch - processPackages [TradeCalCN]: New version: [0.1] Old Version: [0.0.1]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [TradeCalCN]: New version: [0.1] Old Version: [0.0.1]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [SeisMonitor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [usbid]: New version: [2.2] Old Version: [2.1]
+[2023-05-15 14:13:08] WARNING root fetch - processPackages [vvv-rpc-server-update]: Skipping, unable to determine old version
+[2023-05-15 14:13:08] INFO root fetch - processPackages [vvv-rpc-server-update]: Start processing: tf-agents-nightly
+[2023-05-15 14:13:08] INFO root fetch - main [MainThread]: End processing [vvv-rpc-server-update] error
+[2023-05-15 14:13:08] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39430910>=10485760
+[2023-05-15 14:13:08] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: tzlocal
+[2023-05-15 14:13:08] INFO root fetch - processPackages [lbsntransform]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-15 14:13:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-15 14:13:08] INFO root fetch - processPackages [dvclive]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [tzlocal]: New version: [5.0b2] Old Version: [5.0b1]
+[2023-05-15 14:13:08] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/71/d4/6217bf12444e033107cb6fff7e68bd4720723c80df96b7bbda8db667bca2/pyikarus-0.3.0.dev202310000071.tar.gz
+[2023-05-15 14:13:08] INFO root fetch - processPackages [TradeCalCN]: Downloading https://files.pythonhosted.org/packages/86/6d/16f10b43896fbd72c5d16ae6253edb60ab414993fce6b41b8a0772c02935/TradeCalCN-0.0.1.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [TradeCalCN]: Downloading https://files.pythonhosted.org/packages/86/6d/16f10b43896fbd72c5d16ae6253edb60ab414993fce6b41b8a0772c02935/TradeCalCN-0.0.1.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/66/d5/2fbdc2bc7f6f5dc0b8605db9b9fb47f2a5bb5a7656b106d88d7f3c3e9ca4/dvclive-2.8.1.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-15 14:13:09] INFO root fetch - processPackages [usbid]: Downloading https://files.pythonhosted.org/packages/99/40/081eb541532af8b9bbaa87b7d59ea5c8bae90fe86d0025e5e436d3a51d1e/usbid-2.1.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [lbsntransform]: Downloading https://files.pythonhosted.org/packages/11/e6/158ad34c9fa123cf627347902c237969a7590eac7412197bcf1f2594c525/lbsntransform-0.9.0.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000070.tar.gz tmp/pyikarus-0.3.0.dev202310000071.tar.gz --markdown 20230515/p/pyikarus/0.3.0.dev202310000070-0.3.0.dev202310000071/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [SeisMonitor]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [SeisMonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeisMonitor-0.0.8.tar.gz tmp/SeisMonitor-0.0.9.tar.gz --markdown 20230515/S/SeisMonitor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [TradeCalCN]: Downloading https://files.pythonhosted.org/packages/49/b8/209d43199e624d2940e2ed70b53cf324d7bad93c4bda1ef3454fc5694f9a/TradeCalCN-0.1.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [TradeCalCN]: Downloading https://files.pythonhosted.org/packages/49/b8/209d43199e624d2940e2ed70b53cf324d7bad93c4bda1ef3454fc5694f9a/TradeCalCN-0.1.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [tzlocal]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [tzlocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzlocal-5.0b1.tar.gz tmp/tzlocal-5.0b2.tar.gz --markdown 20230515/t/tzlocal/5.0b1-5.0b2/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [TradeCalCN]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [TradeCalCN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TradeCalCN-0.0.1.tar.gz tmp/TradeCalCN-0.1.tar.gz --markdown 20230515/T/TradeCalCN/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [TradeCalCN]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [TradeCalCN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TradeCalCN-0.0.1.tar.gz tmp/TradeCalCN-0.1.tar.gz --markdown 20230515/T/TradeCalCN/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/16/af/7547206a4f0151a9591ece3673b7ed5dafb16a50bdbe5fc338a4ca58374e/dvclive-2.9.0.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [usbid]: Downloading https://files.pythonhosted.org/packages/08/71/3a78bee9e0af7c69ca9913ff1a0bbd0d02a496fd0eeca18898233543f0bb/usbid-2.2.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230515/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [lbsntransform]: Downloading https://files.pythonhosted.org/packages/bf/88/a37ad3b3d1a74234be6dd80b539f325dc82045f46071808dd1cc12474ebe/lbsntransform-0.9.1.tar.gz
+[2023-05-15 14:13:09] INFO root fetch - processPackages [usbid]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [usbid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usbid-2.1.tar.gz tmp/usbid-2.2.tar.gz --markdown 20230515/u/usbid/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [lbsntransform]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [lbsntransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbsntransform-0.9.0.tar.gz tmp/lbsntransform-0.9.1.tar.gz --markdown 20230515/l/lbsntransform/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [dvclive]: executing diffoscope
+[2023-05-15 14:13:09] INFO root fetch - processPackages [dvclive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvclive-2.8.1.tar.gz tmp/dvclive-2.9.0.tar.gz --markdown 20230515/d/dvclive/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-15 14:13:09] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/a7/a9/a48a202f434a1a05126c43b0ef76c18759b22d291693357f5390f27d9f20/apache-airflow-2.6.1rc1.tar.gz
+[2023-05-15 14:13:09] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 11471889>=10485760
+[2023-05-15 14:13:09] INFO root fetch - processPackages [apache-airflow]: Start processing: spreadsheetbot
+[2023-05-15 14:13:09] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2023-05-15 14:13:10] INFO root fetch - processPackages [spreadsheetbot]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-15 14:13:10] INFO root fetch - processPackages [spreadsheetbot]: Downloading https://files.pythonhosted.org/packages/0c/f7/5c298df7146d87aeb552dec20bdbfaf7faa8d0ac72d59e59f637e05b0a5c/spreadsheetbot-2.1.1.tar.gz
+[2023-05-15 14:13:10] INFO root fetch - processPackages [spreadsheetbot]: executing diffoscope
+[2023-05-15 14:13:10] INFO root fetch - processPackages [spreadsheetbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spreadsheetbot-2.1.0.tar.gz tmp/spreadsheetbot-2.1.1.tar.gz --markdown 20230515/s/spreadsheetbot/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-15 14:13:10] INFO root fetch - processPackages [TradeCalCN]: Start processing: mainnet
+[2023-05-15 14:13:10] INFO root fetch - main [MainThread]: End processing [TradeCalCN]: success
+[2023-05-15 14:13:10] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-15 14:13:10] INFO root fetch - processPackages [TradeCalCN]: Start processing: djangocms-xliff
+[2023-05-15 14:13:10] INFO root fetch - main [MainThread]: End processing [TradeCalCN]: success
+[2023-05-15 14:13:10] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-15 14:13:10] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230515/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-15 14:13:10] INFO root fetch - processPackages [djangocms-xliff]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-15 14:13:11] INFO root fetch - processPackages [usbid]: Start processing: prediction-cloud-database-models
+[2023-05-15 14:13:11] INFO root fetch - main [MainThread]: End processing [usbid]: success
+[2023-05-15 14:13:11] WARNING root fetch - processPackages [prediction-cloud-database-models]: Skipping, unable to determine old version
+[2023-05-15 14:13:11] INFO root fetch - processPackages [prediction-cloud-database-models]: Start processing: secretflow
+[2023-05-15 14:13:11] INFO root fetch - main [MainThread]: End processing [prediction-cloud-database-models] error
+[2023-05-15 14:13:11] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/06/93/27a07f901089d93b8118efd61bf306a65e77e03eec32b63bc8af50db7cc3/djangocms_xliff-1.3.1.tar.gz
+[2023-05-15 14:13:11] INFO root fetch - processPackages [lbsntransform]: Start processing: ingescape
+[2023-05-15 14:13:11] INFO root fetch - main [MainThread]: End processing [lbsntransform]: success
+[2023-05-15 14:13:11] INFO root fetch - processPackages [ingescape]: New version: [3.4.0] Old Version: [3.3.2]
+[2023-05-15 14:13:11] INFO root fetch - processPackages [secretflow]: New version: [0.8.2b3] Old Version: [0.8.2b2]
+[2023-05-15 14:13:11] INFO root fetch - processPackages [ingescape]: Downloading https://files.pythonhosted.org/packages/56/ff/392fd75a25c5832d69129ca07a04bc24fff06a0a2b57f21fcddcc023770b/ingescape-3.3.2.tar.gz
+[2023-05-15 14:13:11] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/3a/f4/ae80b536865b79ac5624c5fcb2d482f6e502ca9889e152beb8e0eabaebe7/secretflow-0.8.2b2-cp38-cp38-manylinux2014_x86_64.whl
+[2023-05-15 14:13:11] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/bf/5e/34b19981fa224165f7e2f1ffca708b5d1d4a93b8bc837e68217177a9ebf0/djangocms_xliff-1.3.2.tar.gz
+[2023-05-15 14:13:11] WARNING root fetch - processPackages [ingescape]: Skipping package: exceeds size limit 15113563>=10485760
+[2023-05-15 14:13:11] INFO root fetch - processPackages [ingescape]: Start processing: chyp
+[2023-05-15 14:13:11] INFO root fetch - main [MainThread]: End processing [ingescape] error
+[2023-05-15 14:13:11] INFO root fetch - processPackages [tzlocal]: Start processing: pyseobnr
+[2023-05-15 14:13:11] INFO root fetch - main [MainThread]: End processing [tzlocal]: success
+[2023-05-15 14:13:11] INFO root fetch - processPackages [djangocms-xliff]: executing diffoscope
+[2023-05-15 14:13:11] INFO root fetch - processPackages [djangocms-xliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_xliff-1.3.1.tar.gz tmp/djangocms_xliff-1.3.2.tar.gz --markdown 20230515/d/djangocms-xliff/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-15 14:13:11] INFO root fetch - processPackages [chyp]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-15 14:13:11] INFO root fetch - processPackages [dvclive]: Start processing: d-geolib
+[2023-05-15 14:13:11] INFO root fetch - main [MainThread]: End processing [dvclive]: success
+[2023-05-15 14:13:11] INFO root fetch - processPackages [pyseobnr]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-15 14:13:11] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/3f/df/85d247c55dcad49c8ebbe1f0c5e80f739b2de45a2b3de482880bf99d41b4/secretflow-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl
+[2023-05-15 14:13:11] INFO root fetch - processPackages [d-geolib]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-05-15 14:13:11] INFO root fetch - processPackages [pyseobnr]: Downloading https://files.pythonhosted.org/packages/0b/ab/56d02cdcc85015992fcdb5f08ad7dff98591bed05d5d7064a0e1db494d47/pyseobnr-0.2.3.tar.gz
+[2023-05-15 14:13:11] INFO root fetch - processPackages [SeisMonitor]: Start processing: render-engine-aggregators
+[2023-05-15 14:13:11] INFO root fetch - main [MainThread]: End processing [SeisMonitor]: success
+[2023-05-15 14:13:11] INFO root fetch - processPackages [chyp]: Downloading https://files.pythonhosted.org/packages/25/1a/dbbe9d1d8276a71e1cb343dc943b482716db05855d0cb55e6eeeddf08902/chyp-0.3.3.tar.gz
+[2023-05-15 14:13:12] INFO root fetch - processPackages [d-geolib]: Downloading https://files.pythonhosted.org/packages/0a/15/ef9e7d189f7ef47cc6c2a67c671da59389a00d40d87b744b098865cd4db2/d_geolib-0.6.0.tar.gz
+[2023-05-15 14:13:12] INFO root fetch - processPackages [spreadsheetbot]: Start processing: x-and-y.fastforward-cpu
+[2023-05-15 14:13:12] INFO root fetch - main [MainThread]: End processing [spreadsheetbot]: success
+[2023-05-15 14:13:12] WARNING root fetch - processPackages [render-engine-aggregators]: Skipping, unable to determine old version
+[2023-05-15 14:13:12] INFO root fetch - processPackages [render-engine-aggregators]: Start processing: mtANN
+[2023-05-15 14:13:12] INFO root fetch - main [MainThread]: End processing [render-engine-aggregators] error
+[2023-05-15 14:13:12] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 14:13:12] INFO root fetch - processPackages [mtANN]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 14:13:12] INFO root fetch - processPackages [chyp]: executing diffoscope
+[2023-05-15 14:13:12] INFO root fetch - processPackages [chyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chyp-0.3.2.tar.gz tmp/chyp-0.3.3.tar.gz --markdown 20230515/c/chyp/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-15 14:13:12] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2023-05-15 14:13:12] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-0.8.2b2-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20230515/s/secretflow/0.8.2b2-0.8.2b3/diff.md --exclude *.pyd
+[2023-05-15 14:13:12] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: executing diffoscope
+[2023-05-15 14:13:12] INFO root fetch - processPackages [x-and-y.fastforward-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-and-y.fastforward-cpu-0.1.7.tar.gz tmp/x-and-y.fastforward-cpu-0.1.8.tar.gz --markdown 20230515/x/x-and-y.fastforward-cpu/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 14:13:12] INFO root fetch - processPackages [pyseobnr]: Downloading https://files.pythonhosted.org/packages/55/a3/b597460442edf0daef46ece274e63d54d4255db2da66f37a4e08edc83b29/pyseobnr-0.2.4.tar.gz
+[2023-05-15 14:13:12] INFO root fetch - processPackages [mtANN]: Downloading https://files.pythonhosted.org/packages/6d/92/a63bd8d93369de1361389ced55f286b8ec2977b2e30d63769ca5257709f9/mtANN-0.1.5.tar.gz
+[2023-05-15 14:13:12] INFO root fetch - processPackages [pyseobnr]: executing diffoscope
+[2023-05-15 14:13:12] INFO root fetch - processPackages [pyseobnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseobnr-0.2.3.tar.gz tmp/pyseobnr-0.2.4.tar.gz --markdown 20230515/p/pyseobnr/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-15 14:13:12] INFO root fetch - processPackages [mtANN]: executing diffoscope
+[2023-05-15 14:13:12] INFO root fetch - processPackages [mtANN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtANN-0.1.4.tar.gz tmp/mtANN-0.1.5.tar.gz --markdown 20230515/m/mtANN/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 14:13:12] INFO root fetch - processPackages [d-geolib]: Downloading https://files.pythonhosted.org/packages/82/e3/12549d19f928cbb689460aedf583835305d1d6044af38122a81b368a873b/d_geolib-1.0.0.tar.gz
+[2023-05-15 14:13:12] INFO root fetch - processPackages [d-geolib]: executing diffoscope
+[2023-05-15 14:13:12] INFO root fetch - processPackages [d-geolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_geolib-0.6.0.tar.gz tmp/d_geolib-1.0.0.tar.gz --markdown 20230515/d/d-geolib/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 14:13:13] INFO root fetch - main [MainThread]: End processing [djangocms-xliff]: success
+[2023-05-15 14:13:13] INFO root fetch - main [MainThread]: End processing [chyp]: success
+[2023-05-15 14:13:13] INFO root fetch - main [MainThread]: End processing [mtANN]: success
+[2023-05-15 14:13:14] INFO root fetch - main [MainThread]: End processing [x-and-y.fastforward-cpu]: success
+[2023-05-15 14:13:14] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-15 14:13:15] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2023-05-15 14:13:16] INFO root fetch - main [MainThread]: End processing [d-geolib]: success
+[2023-05-15 14:13:16] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-15 14:13:19] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-15 14:13:20] INFO root fetch - main [MainThread]: End processing [pyseobnr]: success
+[2023-05-15 14:13:20] INFO root fetch - main [MainThread]: Store serial: [18107301]
