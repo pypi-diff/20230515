@@ -12562,3 +12562,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 14:24:18] INFO root fetch - main [MainThread]: End processing [yafowil]: success
 [2023-05-15 14:24:22] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-15 14:24:22] INFO root fetch - main [MainThread]: Store serial: [18107429]
+[2023-05-15 14:29:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18107429]
+[2023-05-15 14:29:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedrivermanager
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyikarus
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydevd-pycharm
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: savant-rs
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-extractor-manager
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FreeTVG-karjakak
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oarepo-runtime
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: permhash
+[2023-05-15 14:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yafowil.bootstrap
+[2023-05-15 14:29:32] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000072] Old Version: [0.3.0.dev202310000071]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.0rc2] Old Version: [3.2.0rc1]
+[2023-05-15 14:29:32] WARNING root fetch - processPackages [chromedrivermanager]: Skipping, unable to determine old version
+[2023-05-15 14:29:32] INFO root fetch - processPackages [chromedrivermanager]: Start processing: edc-sites
+[2023-05-15 14:29:32] INFO root fetch - main [MainThread]: End processing [chromedrivermanager] error
+[2023-05-15 14:29:32] INFO root fetch - processPackages [savant-rs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [qwak-core]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-15 14:29:32] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.0rc1.tar.gz tmp/FreeTVG-karjakak-3.2.0rc2.tar.gz --markdown 20230515/F/FreeTVG-karjakak/3.2.0rc1-3.2.0rc2/diff.md --exclude *.pyd
+[2023-05-15 14:29:32] WARNING root fetch - processPackages [permhash]: Skipping, unable to determine old version
+[2023-05-15 14:29:32] INFO root fetch - processPackages [permhash]: Start processing: dipex
+[2023-05-15 14:29:32] INFO root fetch - main [MainThread]: End processing [permhash] error
+[2023-05-15 14:29:32] INFO root fetch - processPackages [cognite-extractor-manager]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [yafowil.bootstrap]: New version: [2.0.0a1] Old Version: [1.3.2]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [pydevd-pycharm]: New version: [232.5150.120] Old Version: [231.9011.9]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/eb/8f/ec9ce6f6bc593bff3a90c1577fdf7b23d24a6bea54d8bea3584b2c944f18/pyikarus-0.3.0.dev202310000072.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [edc-sites]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 14:29:32] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/3a/7d/27b688f9d4731cfa88eb9144976c056866e9e63ed860d509bb7419542aee/qwak_core-0.0.59.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-15 14:29:32] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230515/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-15 14:29:32] INFO root fetch - processPackages [cognite-extractor-manager]: Downloading https://files.pythonhosted.org/packages/c0/49/58428ef25cc2e6ed9b2c2b5e742316ccaff460d5c869b7e1c10d46e17064/cognite_extractor_manager-0.8.1.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [pydevd-pycharm]: Downloading https://files.pythonhosted.org/packages/65/92/5b1b16fa0f7ae8221ecce0babc2303fd9f9b2a32f5d5460359ce876d1c44/pydevd-pycharm-231.9011.9.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-15 14:29:32] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000071.tar.gz tmp/pyikarus-0.3.0.dev202310000072.tar.gz --markdown 20230515/p/pyikarus/0.3.0.dev202310000071-0.3.0.dev202310000072/diff.md --exclude *.pyd
+[2023-05-15 14:29:32] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/41/14/51493f50f9af6de7498f3f74b164213e2afbd9e3ec763cef6aef183e8691/oarepo-runtime-1.2.8.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [yafowil.bootstrap]: Downloading https://files.pythonhosted.org/packages/fb/a6/385a6eb80ea31cc951ea907511567f74cb228c727404042fa3c565bf1965/yafowil.bootstrap-1.3.2.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/6c/d2/0971f47310f1e86111203d2b71e42e2b45e7f8545d3e4b302c358963aaf6/edc-sites-0.3.8.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/ae/cd/76cdebd721343cfe52912b38ce8113b0fad16a03536d7b92beff2f3c810e/savant_rs-0.1.4.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [cognite-extractor-manager]: Downloading https://files.pythonhosted.org/packages/e4/a8/811df699db5915fc177b5ca2c0efeb272d731d8de8433523916836e8c8de/cognite_extractor_manager-0.8.2.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-15 14:29:32] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.3.tar.gz tmp/savant_rs-0.1.4.tar.gz --markdown 20230515/s/savant-rs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 14:29:32] INFO root fetch - processPackages [cognite-extractor-manager]: executing diffoscope
+[2023-05-15 14:29:32] INFO root fetch - processPackages [yafowil.bootstrap]: Downloading https://files.pythonhosted.org/packages/27/fc/2512d4289f452f614cda79b2bcfaa50bd661bfd09e8099913274de8887c1/yafowil.bootstrap-2.0.0a1.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [cognite-extractor-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_manager-0.8.1.tar.gz tmp/cognite_extractor_manager-0.8.2.tar.gz --markdown 20230515/c/cognite-extractor-manager/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-15 14:29:32] INFO root fetch - processPackages [pydevd-pycharm]: Downloading https://files.pythonhosted.org/packages/8c/bd/6bb8a37901f4e4c8e77d0fb11e231e472cec468b3a4e8bd0e17bf44baba8/pydevd-pycharm-232.5150.120.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/4f/62/3e8e2e0a8b93184437084b6d1e063f3f668c1d63b8cb6d50a4265d60b92e/oarepo-runtime-1.2.9.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/93/47/2d0fe4fb111586f78d184cca78fdb1a6d3b4edda0ca7b0d1b76cb2c2af13/edc-sites-0.3.9.tar.gz
+[2023-05-15 14:29:32] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-05-15 14:29:32] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230515/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-15 14:29:32] INFO root fetch - processPackages [edc-sites]: executing diffoscope
+[2023-05-15 14:29:32] INFO root fetch - processPackages [edc-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-sites-0.3.8.tar.gz tmp/edc-sites-0.3.9.tar.gz --markdown 20230515/e/edc-sites/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 14:29:33] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/41/9e/9a3d228c3dc73e40b586199794d0e2c1b2c0da7bb3826e95e3e01ab2de17/qwak_core-0.0.60.tar.gz
+[2023-05-15 14:29:33] INFO root fetch - processPackages [pydevd-pycharm]: executing diffoscope
+[2023-05-15 14:29:33] INFO root fetch - processPackages [pydevd-pycharm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydevd-pycharm-231.9011.9.tar.gz tmp/pydevd-pycharm-232.5150.120.tar.gz --markdown 20230515/p/pydevd-pycharm/231.9011.9-232.5150.120/diff.md --exclude *.pyd
+[2023-05-15 14:29:33] INFO root fetch - processPackages [yafowil.bootstrap]: executing diffoscope
+[2023-05-15 14:29:33] INFO root fetch - processPackages [yafowil.bootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafowil.bootstrap-1.3.2.tar.gz tmp/yafowil.bootstrap-2.0.0a1.tar.gz --markdown 20230515/y/yafowil.bootstrap/1.3.2-2.0.0a1/diff.md --exclude *.pyd
+[2023-05-15 14:29:33] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-15 14:29:33] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.59.tar.gz tmp/qwak_core-0.0.60.tar.gz --markdown 20230515/q/qwak-core/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-05-15 14:29:34] INFO root fetch - processPackages [cognite-extractor-manager]: Start processing: boogishell6
+[2023-05-15 14:29:34] INFO root fetch - main [MainThread]: End processing [cognite-extractor-manager]: success
+[2023-05-15 14:29:34] WARNING root fetch - processPackages [boogishell6]: Skipping, unable to determine old version
+[2023-05-15 14:29:34] INFO root fetch - processPackages [boogishell6]: Start processing: emi-calculator
+[2023-05-15 14:29:34] INFO root fetch - main [MainThread]: End processing [boogishell6] error
+[2023-05-15 14:29:34] INFO root fetch - processPackages [emi-calculator]: New version: [1.0] Old Version: [0.0.1]
+[2023-05-15 14:29:34] INFO root fetch - processPackages [emi-calculator]: executing diffoscope
+[2023-05-15 14:29:34] INFO root fetch - processPackages [emi-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emi_calculator-0.0.1-py3-none-any.whl.zip tmp/emi_calculator-1.0.tar.gz --markdown 20230515/e/emi-calculator/0.0.1-1.0/diff.md --exclude *.pyd
+[2023-05-15 14:29:34] INFO root fetch - processPackages [edc-sites]: Start processing: text-mods
+[2023-05-15 14:29:34] INFO root fetch - main [MainThread]: End processing [edc-sites]: success
+[2023-05-15 14:29:34] INFO root fetch - processPackages [oarepo-runtime]: Start processing: cybrid-api-organization-python
+[2023-05-15 14:29:34] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-05-15 14:29:34] INFO root fetch - processPackages [text-mods]: New version: [1.40] Old Version: [1.30]
+[2023-05-15 14:29:34] INFO root fetch - processPackages [text-mods]: Downloading https://files.pythonhosted.org/packages/89/50/65cf7803e471e4ab53edaa10189eb9b11695dff814b9ee7377a3e7f6ac5f/text_mods-1.30.tar.gz
+[2023-05-15 14:29:34] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-15 14:29:34] INFO root fetch - processPackages [text-mods]: Downloading https://files.pythonhosted.org/packages/63/bf/1da941843da192a20963bb5e30e85689b83f32e980e61c2dfdcd1b789637/text_mods-1.40.tar.gz
+[2023-05-15 14:29:35] INFO root fetch - processPackages [text-mods]: executing diffoscope
+[2023-05-15 14:29:35] INFO root fetch - processPackages [text-mods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_mods-1.30.tar.gz tmp/text_mods-1.40.tar.gz --markdown 20230515/t/text-mods/1.30-1.40/diff.md --exclude *.pyd
+[2023-05-15 14:29:35] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 14:29:35] INFO root fetch - main [MainThread]: End processing [emi-calculator]: success
+[2023-05-15 14:29:35] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-05-15 14:29:35] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-05-15 14:29:35] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-15 14:29:35] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230515/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 14:29:35] INFO root fetch - main [MainThread]: End processing [text-mods]: success
+[2023-05-15 14:29:36] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-15 14:29:36] INFO root fetch - main [MainThread]: End processing [yafowil.bootstrap]: success
+[2023-05-15 14:29:36] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-15 14:29:37] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-15 14:29:37] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-15 14:29:41] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-15 14:30:33] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
+[2023-05-15 14:30:33] INFO root fetch - main [MainThread]: Store serial: [18107497]
