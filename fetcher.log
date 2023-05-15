@@ -18285,3 +18285,95 @@ EOFError: EOF read where object expected
 [2023-05-15 18:50:37] INFO root fetch - main [MainThread]: End processing [geoh5py]: success
 [2023-05-15 18:50:37] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
 [2023-05-15 18:50:37] INFO root fetch - main [MainThread]: Store serial: [18110881]
+[2023-05-15 18:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110881]
+[2023-05-15 18:55:46] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rediscloud
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycryptv1
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feathub-nightly
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quasinet
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syssqlilib
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-henriq4
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-screening
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: suap-scraper
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: citation-utils
+[2023-05-15 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xgb2sql
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 18:55:47] WARNING root fetch - processPackages [example-package-henriq4]: Skipping, unable to determine old version
+[2023-05-15 18:55:47] INFO root fetch - processPackages [example-package-henriq4]: Start processing: cvxsimulator
+[2023-05-15 18:55:47] INFO root fetch - main [MainThread]: End processing [example-package-henriq4] error
+[2023-05-15 18:55:47] INFO root fetch - processPackages [xgb2sql]: New version: [0.115] Old Version: [0.114]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [pulumi-rediscloud]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [citation-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [suap-scraper]: New version: [0.0.6.2] Old Version: [0.0.6.1]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [edc-screening]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 18:55:47] WARNING root fetch - processPackages [pycryptv1]: Skipping, unable to determine old version
+[2023-05-15 18:55:47] INFO root fetch - processPackages [pycryptv1]: Start processing: multipie
+[2023-05-15 18:55:47] INFO root fetch - main [MainThread]: End processing [pycryptv1] error
+[2023-05-15 18:55:47] INFO root fetch - processPackages [cvxsimulator]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [multipie]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230515] Old Version: [0.1.dev20230514]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.2.8.tar.gz tmp/citation_utils-0.2.9.tar.gz --markdown 20230515/c/citation-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 18:55:47] INFO root fetch - processPackages [quasinet]: Start processing: syssqlilib
+[2023-05-15 18:55:47] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: Downloading https://files.pythonhosted.org/packages/a9/77/a0a10eb4dbbe00f1ab7f5b0d04d911862d8e6615fff38679ff19ca20a76d/syssqlilib-1.0.0.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [pulumi-rediscloud]: Downloading https://files.pythonhosted.org/packages/36/86/c09ea3c49453c42852f107949396ea7946ae3c9174a34c98faf13dc6f87f/pulumi_rediscloud-1.1.1.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: Downloading https://files.pythonhosted.org/packages/a9/77/a0a10eb4dbbe00f1ab7f5b0d04d911862d8e6615fff38679ff19ca20a76d/syssqlilib-1.0.0.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/45/b0/37c0670f668f6dcee794fe26a0a89a437d5f1e304fbad61ac93ae76aafcf/cvxsimulator-0.3.1.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/12/3c/afdc1159384d89496d7ac8b8438ef8820e11bfb21963709c033fe1c5692c/suap_scraper-0.0.6.2.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [xgb2sql]: Downloading https://files.pythonhosted.org/packages/64/3f/873c79d4fbf7a345e7cce6e6107357f06514dfd2d646574a07dcf205b524/xgb2sql-0.115.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/99/45/a40e2199d6c2f0be72e3bceb09f1750f4648ed573826670184ae3d7b774e/multipie-1.0.0.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/6c/1f/05b96203f617fa2df2f550adb2f6dd927c74d65324e879fe2259757fda1b/feathub_nightly-0.1.dev20230514-py3-none-any.whl
+[2023-05-15 18:55:47] INFO root fetch - processPackages [edc-screening]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [edc-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_screening-0.3.8-py3-none-any.whl.zip tmp/edc_screening-0.3.9-py3-none-any.whl.zip --markdown 20230515/e/edc-screening/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] INFO root fetch - processPackages [xgb2sql]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [xgb2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgb2sql-0.114.tar.gz tmp/xgb2sql-0.115.tar.gz --markdown 20230515/x/xgb2sql/0.114-0.115/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12039489>=10485760
+[2023-05-15 18:55:47] INFO root fetch - processPackages [feathub-nightly]: Start processing: ndtransform
+[2023-05-15 18:55:47] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: Downloading https://files.pythonhosted.org/packages/38/d5/0936e1342013bfc41db35b8127c15f4446897864eee758173775d607be40/syssqlilib-1.1.0.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: Downloading https://files.pythonhosted.org/packages/38/d5/0936e1342013bfc41db35b8127c15f4446897864eee758173775d607be40/syssqlilib-1.1.0.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [suap-scraper]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [suap-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suap_scraper-0.0.6.1.tar.gz tmp/suap_scraper-0.0.6.2.tar.gz --markdown 20230515/s/suap-scraper/0.0.6.1-0.0.6.2/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] INFO root fetch - processPackages [pulumi-rediscloud]: Downloading https://files.pythonhosted.org/packages/56/95/6e7be4977ea071419adf516a7c0af4785dc9cf30cb2a76b7c697b149c13d/pulumi_rediscloud-1.2.0.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/c1/85/04f32f37ee787ec4729be0e469e3e2eef317338c14d06e243a7bccd40817/cvxsimulator-0.3.2.tar.gz
+[2023-05-15 18:55:47] WARNING root fetch - processPackages [ndtransform]: Skipping, unable to determine old version
+[2023-05-15 18:55:47] INFO root fetch - processPackages [ndtransform]: Start processing: LegadoParser2
+[2023-05-15 18:55:47] INFO root fetch - main [MainThread]: End processing [ndtransform] error
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syssqlilib-1.0.0.tar.gz tmp/syssqlilib-1.1.0.tar.gz --markdown 20230515/s/syssqlilib/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [syssqlilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syssqlilib-1.0.0.tar.gz tmp/syssqlilib-1.1.0.tar.gz --markdown 20230515/s/syssqlilib/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.3.1.tar.gz tmp/cvxsimulator-0.3.2.tar.gz --markdown 20230515/c/cvxsimulator/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/3e/ce/b0c65a492ba2fd60ed753760c7732d7c956952110a1d5c7283389cc1beef/multipie-1.0.1.tar.gz
+[2023-05-15 18:55:47] INFO root fetch - processPackages [LegadoParser2]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-15 18:55:47] INFO root fetch - processPackages [pulumi-rediscloud]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [pulumi-rediscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rediscloud-1.1.1.tar.gz tmp/pulumi_rediscloud-1.2.0.tar.gz --markdown 20230515/p/pulumi-rediscloud/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-05-15 18:55:47] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.0.0.tar.gz tmp/multipie-1.0.1.tar.gz --markdown 20230515/m/multipie/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 18:55:47] INFO root fetch - processPackages [LegadoParser2]: Downloading https://files.pythonhosted.org/packages/ba/e5/d5daa66fb7dcf4877bc19a1058fd5101dae8db45986adcc0c3271f7bc51d/LegadoParser2-0.0.0.tar.gz
+[2023-05-15 18:55:48] INFO root fetch - processPackages [LegadoParser2]: Downloading https://files.pythonhosted.org/packages/5e/a8/4f4a3aeb0bfe5a2828e33bced4c230bb646ec70b7d8dbed1d4705204f0ca/LegadoParser2-0.0.1.tar.gz
+[2023-05-15 18:55:48] INFO root fetch - processPackages [citation-utils]: Start processing: statute-patterns
+[2023-05-15 18:55:48] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-05-15 18:55:48] INFO root fetch - processPackages [LegadoParser2]: executing diffoscope
+[2023-05-15 18:55:48] INFO root fetch - processPackages [LegadoParser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LegadoParser2-0.0.0.tar.gz tmp/LegadoParser2-0.0.1.tar.gz --markdown 20230515/L/LegadoParser2/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-15 18:55:48] INFO root fetch - processPackages [statute-patterns]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-15 18:55:48] INFO root fetch - processPackages [statute-patterns]: Downloading https://files.pythonhosted.org/packages/56/3d/12952f802ee7f4cfccbc3be50e93d54bb167b80767f263726fae765933b6/statute_patterns-0.2.4.tar.gz
+[2023-05-15 18:55:48] INFO root fetch - processPackages [statute-patterns]: executing diffoscope
+[2023-05-15 18:55:48] INFO root fetch - processPackages [statute-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_patterns-0.2.3.tar.gz tmp/statute_patterns-0.2.4.tar.gz --markdown 20230515/s/statute-patterns/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-15 18:55:49] INFO root fetch - main [MainThread]: End processing [syssqlilib]: success
+[2023-05-15 18:55:49] INFO root fetch - main [MainThread]: End processing [xgb2sql]: success
+[2023-05-15 18:55:49] INFO root fetch - main [MainThread]: End processing [edc-screening]: success
+[2023-05-15 18:55:49] INFO root fetch - main [MainThread]: End processing [syssqlilib]: success
+[2023-05-15 18:55:49] INFO root fetch - main [MainThread]: End processing [suap-scraper]: success
+[2023-05-15 18:55:49] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-15 18:55:49] INFO root fetch - main [MainThread]: End processing [LegadoParser2]: success
+[2023-05-15 18:55:50] INFO root fetch - main [MainThread]: End processing [statute-patterns]: success
+[2023-05-15 18:55:50] INFO root fetch - main [MainThread]: End processing [pulumi-rediscloud]: success
+[2023-05-15 18:55:54] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-05-15 18:55:54] INFO root fetch - main [MainThread]: Store serial: [18110938]
