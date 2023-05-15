@@ -7260,3 +7260,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 10:11:13] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
 [2023-05-15 10:11:13] INFO root fetch - main [MainThread]: End processing [phonepiece]: success
 [2023-05-15 10:11:13] INFO root fetch - main [MainThread]: Store serial: [18104294]
+[2023-05-15 10:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104294]
+[2023-05-15 10:16:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pai-easycv
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deale-shared-library
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-report-payment-info
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qodex-recognition
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: layerx-sdk-beta
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amps-py
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remoulade
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reytool
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: utx
+[2023-05-15 10:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HubbardMeanField
+[2023-05-15 10:16:22] INFO root fetch - processPackages [deale-shared-library]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [qodex-recognition]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.1]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [amps-py]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [pai-easycv]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 10:16:22] WARNING root fetch - processPackages [HubbardMeanField]: Skipping, unable to determine old version
+[2023-05-15 10:16:22] INFO root fetch - processPackages [HubbardMeanField]: Start processing: gravity-auto-exit
+[2023-05-15 10:16:22] INFO root fetch - main [MainThread]: End processing [HubbardMeanField] error
+[2023-05-15 10:16:22] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [utx]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [remoulade]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-15 10:16:22] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-15 10:16:22] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230515/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-15 10:16:22] INFO root fetch - processPackages [deale-shared-library]: Downloading https://files.pythonhosted.org/packages/ba/d2/13b4d6d20b02766eecc6844553a5eb4007dac3665304af5b35a697bfd69a/deale_shared_library-0.0.5.tar.gz
+[2023-05-15 10:16:22] INFO root fetch - processPackages [amps-py]: Downloading https://files.pythonhosted.org/packages/10/0e/2415f4d3d81bcd47add595823e8feb4cf3ed81ae16364f9a1fc4dbeb696d/amps-py-0.1.5.tar.gz
+[2023-05-15 10:16:22] INFO root fetch - processPackages [qodex-recognition]: Downloading https://files.pythonhosted.org/packages/f2/90/4efb66d7b0a6e78b822d45e21949dbc832528434472dab7183eb28763567/qodex_recognition-0.0.3-py3-none-any.whl
+[2023-05-15 10:16:22] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/8e/4b/fc62cef7412bc36dd4eba1c91872989d6b8bff530ca19e86f882cbd1339d/remoulade-1.0.0-py3-none-any.whl
+[2023-05-15 10:16:22] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: Downloading https://files.pythonhosted.org/packages/0d/15/bfd2a041980eafa602a53744ee8189a9bdf6181385ccf87a0322d9c9bb26/odoo_addon_account_invoice_report_payment_info-15.0.1.0.0.1-py3-none-any.whl
+[2023-05-15 10:16:22] INFO root fetch - processPackages [pai-easycv]: Downloading https://files.pythonhosted.org/packages/c5/4f/3836cdd58824b51011c0d589e27275245a05c594ddfaa7d0663f5d6ba013/pai-easycv-0.8.0.tar.gz
+[2023-05-15 10:16:22] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/16/92/c2ef7bb712631b10e6b2b00de7aefae8af532750ebfe3bd3a2985311e4e0/gravity_auto_exit-1.8.0-py3-none-any.whl
+[2023-05-15 10:16:22] INFO root fetch - processPackages [utx]: Downloading https://files.pythonhosted.org/packages/4d/7c/f7e0ff965eca3c978d9bb4d950355df669a30589d3d1e76d2045159811e8/utx-1.3.3.tar.gz
+[2023-05-15 10:16:23] INFO root fetch - processPackages [deale-shared-library]: Downloading https://files.pythonhosted.org/packages/82/dd/f0589b1ca43c05bdb3a5493a5db668b3dfcc3649498afe6e75c80e900b3b/deale_shared_library-0.0.6.tar.gz
+[2023-05-15 10:16:23] INFO root fetch - processPackages [amps-py]: Downloading https://files.pythonhosted.org/packages/dc/96/3f4be9e7261820679cee02ca0a1338acf715317947b9d727668d5d008f85/amps-py-0.1.6.tar.gz
+[2023-05-15 10:16:23] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-05-15 10:16:23] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230515/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-05-15 10:16:23] INFO root fetch - processPackages [qodex-recognition]: Downloading https://files.pythonhosted.org/packages/63/ed/78d038b1d92ba10836cd9a15776ca0fed0521324c1149dbf262cec626b8c/qodex_recognition-0.0.31-py3-none-any.whl
+[2023-05-15 10:16:23] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: Downloading https://files.pythonhosted.org/packages/32/ea/4bab3443dbef8b8f75014792c286b17723d8f239518305b9a3199a47b351/odoo_addon_account_invoice_report_payment_info-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 10:16:23] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/25/09/b4a4122144f22326b1ee0101679058f7e7128ff8fa4db62037a39b957350/remoulade-1.0.1.tar.gz
+[2023-05-15 10:16:23] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/b4/69/115b200e1440dab8e3b39a9e9d4b4c97b6e6801f0f39fcb919b07621f85f/gravity_auto_exit-1.8.1-py3-none-any.whl
+[2023-05-15 10:16:23] INFO root fetch - processPackages [amps-py]: executing diffoscope
+[2023-05-15 10:16:23] INFO root fetch - processPackages [amps-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amps-py-0.1.5.tar.gz tmp/amps-py-0.1.6.tar.gz --markdown 20230515/a/amps-py/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 10:16:23] INFO root fetch - processPackages [qodex-recognition]: executing diffoscope
+[2023-05-15 10:16:23] INFO root fetch - processPackages [qodex-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_recognition-0.0.3-py3-none-any.whl.zip tmp/qodex_recognition-0.0.31-py3-none-any.whl.zip --markdown 20230515/q/qodex-recognition/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-05-15 10:16:23] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-05-15 10:16:23] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.0-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.1-py3-none-any.whl.zip --markdown 20230515/g/gravity-auto-exit/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-15 10:16:23] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: executing diffoscope
+[2023-05-15 10:16:23] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-05-15 10:16:23] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_payment_info-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_payment_info-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-account-invoice-report-payment-info/15.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 10:16:23] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-1.0.0-py3-none-any.whl.zip tmp/remoulade-1.0.1.tar.gz --markdown 20230515/r/remoulade/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 10:16:23] INFO root fetch - processPackages [deale-shared-library]: executing diffoscope
+[2023-05-15 10:16:23] INFO root fetch - processPackages [deale-shared-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deale_shared_library-0.0.5.tar.gz tmp/deale_shared_library-0.0.6.tar.gz --markdown 20230515/d/deale-shared-library/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 10:16:23] INFO root fetch - processPackages [utx]: Downloading https://files.pythonhosted.org/packages/bf/7f/d86173d490c4fea15a9e8a0b0a059ed3d54929788f120dfd147c18df7ccf/utx-1.3.4.tar.gz
+[2023-05-15 10:16:24] INFO root fetch - processPackages [utx]: executing diffoscope
+[2023-05-15 10:16:24] INFO root fetch - processPackages [utx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utx-1.3.3.tar.gz tmp/utx-1.3.4.tar.gz --markdown 20230515/u/utx/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-15 10:16:24] INFO root fetch - processPackages [reytool]: Start processing: pyikarus
+[2023-05-15 10:16:24] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-15 10:16:24] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000064] Old Version: [0.3.0.dev202310000063]
+[2023-05-15 10:16:24] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/c1/0a/e6a5a07e2db72355c314a360078637880fb570a103618189fcee19ff6f78/pyikarus-0.3.0.dev202310000063.tar.gz
+[2023-05-15 10:16:24] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/e5/6c/ef57eb7f06bde865bc3f0b53c36b7fd6d4f30037c420cafc51e36fb16de0/pyikarus-0.3.0.dev202310000064.tar.gz
+[2023-05-15 10:16:24] INFO root fetch - processPackages [pai-easycv]: Downloading https://files.pythonhosted.org/packages/06/16/9ee9b8e4098d020df3be42f2cf3fb0bacdb0d75a68ff72cc608c3ae36124/pai-easycv-0.9.0.tar.gz
+[2023-05-15 10:16:24] INFO root fetch - processPackages [qodex-recognition]: Start processing: spaceone-file-manager
+[2023-05-15 10:16:24] INFO root fetch - main [MainThread]: End processing [qodex-recognition]: success
+[2023-05-15 10:16:24] INFO root fetch - processPackages [spaceone-file-manager]: New version: [1.8.11rc1] Old Version: [1.8.11]
+[2023-05-15 10:16:24] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-15 10:16:24] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000063.tar.gz tmp/pyikarus-0.3.0.dev202310000064.tar.gz --markdown 20230515/p/pyikarus/0.3.0.dev202310000063-0.3.0.dev202310000064/diff.md --exclude *.pyd
+[2023-05-15 10:16:24] INFO root fetch - processPackages [remoulade]: Start processing: odoo-addon-account-operating-unit
+[2023-05-15 10:16:24] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-05-15 10:16:24] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0.2]
+[2023-05-15 10:16:24] INFO root fetch - processPackages [gravity-auto-exit]: Start processing: spaceone-monitoring
+[2023-05-15 10:16:24] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-05-15 10:16:24] INFO root fetch - processPackages [spaceone-file-manager]: Downloading https://files.pythonhosted.org/packages/39/83/53e3265ff092fe178def112f8d649eaf4f4a6c624252d955923c5c2404d3/spaceone_file_manager-1.8.11-py3-none-any.whl
+[2023-05-15 10:16:24] INFO root fetch - processPackages [spaceone-monitoring]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/54/b0/2c18d110c39cab781991033b3aff194e2d5bd27d17ffc3cf24db74930a36/odoo_addon_account_operating_unit-15.0.1.1.0.2-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: Start processing: odoo-addon-purchase-order-supplierinfo-update
+[2023-05-15 10:16:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-payment-info]: success
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-purchase-order-supplierinfo-update]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/31/50/1785bbc97bdfb08a3303bb03b26d953cde9e97d4e2e70c591a6acd91bd55/spaceone_monitoring-1.9.7.1-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [deale-shared-library]: Start processing: spaceone-notification
+[2023-05-15 10:16:25] INFO root fetch - main [MainThread]: End processing [deale-shared-library]: success
+[2023-05-15 10:16:25] INFO root fetch - processPackages [layerx-sdk-beta]: Start processing: lumigo-opentelemetry
+[2023-05-15 10:16:25] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-notification]: New version: [1.12.dev4] Old Version: [1.12.dev3]
+[2023-05-15 10:16:25] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 10:16:25] INFO root fetch - processPackages [amps-py]: Start processing: ctfusegetflag
+[2023-05-15 10:16:25] INFO root fetch - main [MainThread]: End processing [amps-py]: success
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-file-manager]: Downloading https://files.pythonhosted.org/packages/cb/7c/347b7347009395177c4a6bf9d242a111b632144ff1d3c7aca938749477a7/spaceone_file_manager-1.8.11rc1-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/01/85/a783abc4fd9882ae16f1087e05cdc6fca77f0840023351ed7f9dc3e60272/odoo_addon_account_operating_unit-15.0.1.1.1-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-purchase-order-supplierinfo-update]: Downloading https://files.pythonhosted.org/packages/dd/9b/4a5327acc2044f4bd24fae64a52827a52518fc2a9fcfccac90bab5084895/odoo_addon_purchase_order_supplierinfo_update-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-15 10:16:25] WARNING root fetch - processPackages [ctfusegetflag]: Skipping, unable to determine old version
+[2023-05-15 10:16:25] INFO root fetch - main [MainThread]: End processing [ctfusegetflag] error
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-file-manager]: executing diffoscope
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-file-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_file_manager-1.8.11-py3-none-any.whl.zip tmp/spaceone_file_manager-1.8.11rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-file-manager/1.8.11-1.8.11rc1/diff.md --exclude *.pyd
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/c2/9e/727dc8ad6563212964adbeddbac2ca760c69182900563898895662b3bf2c/spaceone-notification-1.12.dev3.tar.gz
+[2023-05-15 10:16:25] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/9c/64/2e350612673dcde2f1bd79c8b6fea2e0ef8b6239bdff92276be501c2c300/lumigo_opentelemetry-1.0.8-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/5c/43/1bcb4990406f113187354a4bc48e34799ab22b38cce64bbf832545718082/spaceone_monitoring-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: executing diffoscope
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_operating_unit-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_operating_unit-15.0.1.1.1-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-account-operating-unit/15.0.1.1.0.2-15.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-monitoring/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-purchase-order-supplierinfo-update]: Downloading https://files.pythonhosted.org/packages/81/8e/b596103a3aca188e2e3432b3bcb17fc45ea7f96b3d2c0296d2e2c8c2d294/odoo_addon_purchase_order_supplierinfo_update-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/ae/d6/87dfdd5d79ace82f2de6df8dde28f688194839a03979c685e351530b62a8/spaceone-notification-1.12.dev4.tar.gz
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-purchase-order-supplierinfo-update]: executing diffoscope
+[2023-05-15 10:16:25] INFO root fetch - processPackages [odoo-addon-purchase-order-supplierinfo-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_supplierinfo_update-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_supplierinfo_update-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-purchase-order-supplierinfo-update/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-notification]: executing diffoscope
+[2023-05-15 10:16:25] INFO root fetch - processPackages [spaceone-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-notification-1.12.dev3.tar.gz tmp/spaceone-notification-1.12.dev4.tar.gz --markdown 20230515/s/spaceone-notification/1.12.dev3-1.12.dev4/diff.md --exclude *.pyd
+[2023-05-15 10:16:25] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-05-15 10:16:25] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-05-15 10:16:25] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230515/l/lumigo-opentelemetry/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 10:16:26] INFO root fetch - processPackages [pai-easycv]: executing diffoscope
+[2023-05-15 10:16:26] INFO root fetch - processPackages [pai-easycv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pai-easycv-0.8.0.tar.gz tmp/pai-easycv-0.9.0.tar.gz --markdown 20230515/p/pai-easycv/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 10:16:26] INFO root fetch - main [MainThread]: End processing [spaceone-file-manager]: success
+[2023-05-15 10:16:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-operating-unit]: success
+[2023-05-15 10:16:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-supplierinfo-update]: success
+[2023-05-15 10:16:27] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2023-05-15 10:16:27] INFO root fetch - main [MainThread]: End processing [utx]: success
+[2023-05-15 10:16:27] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-05-15 10:16:27] INFO root fetch - main [MainThread]: End processing [spaceone-notification]: success
+[2023-05-15 10:16:29] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-15 10:16:36] INFO root fetch - main [MainThread]: End processing [pai-easycv]: success
+[2023-05-15 10:16:36] INFO root fetch - main [MainThread]: Store serial: [18104345]
