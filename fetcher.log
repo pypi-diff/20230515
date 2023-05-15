@@ -18166,3 +18166,122 @@ EOFError: EOF read where object expected
 [2023-05-15 18:45:14] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-15 18:45:22] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-05-15 18:45:22] INFO root fetch - main [MainThread]: Store serial: [18110809]
+[2023-05-15 18:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18110809]
+[2023-05-15 18:50:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aniwrap
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythoncolormodsV2
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansible-compat
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xm-ai
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datarobot-early-access
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mira-omf
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-common
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kraken-core
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kraken-std
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kraken-wrapper
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [mira-omf]: New version: [3.0.0rc4] Old Version: [3.0.0rc3]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.20.0] Old Version: [0.2.4]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230515/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-15 18:50:31] INFO root fetch - processPackages [xm-ai]: New version: [0.4] Old Version: [0.3]
+[2023-05-15 18:50:31] WARNING root fetch - processPackages [aniwrap]: Skipping, unable to determine old version
+[2023-05-15 18:50:31] ERROR root fetch - processPackages [pythoncolormodsV2]: Unable to get metadata: No such project 'pythoncolormodsV2'
+[2023-05-15 18:50:31] INFO root fetch - processPackages [aniwrap]: Start processing: statute-patterns
+[2023-05-15 18:50:31] INFO root fetch - main [MainThread]: End processing [aniwrap] error
+[2023-05-15 18:50:31] INFO root fetch - processPackages [pythoncolormodsV2]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-15 18:50:31] INFO root fetch - processPackages [ansible-compat]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-15 18:50:31] INFO root fetch - main [MainThread]: End processing [pythoncolormodsV2] error
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [statute-patterns]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [datarobot-early-access]: New version: [3.2.0.2023.5.8] Old Version: [3.2.0.2023.5.15]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230515.9.28.17955] Old Version: [20230515.8.30.284279]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230515/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-15 18:50:31] INFO root fetch - processPackages [mira-omf]: Downloading https://files.pythonhosted.org/packages/82/3f/c1a761d65e0d57ec2b2a2d7060c8b0d8b1d80c755d9368adcce95c21af34/mira-omf-3.0.0rc3.tar.gz
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.2.4.tar.gz tmp/kraken_wrapper-0.20.0.tar.gz --markdown 20230515/k/kraken-wrapper/0.2.4-0.20.0/diff.md --exclude *.pyd
+[2023-05-15 18:50:31] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/e3/28/a423fabd542019b0eedf821af75dd341cd321309f0ec965787e85b604b95/certora-cli-alpha-jtoman-try-catch-20230515.8.30.284279.tar.gz
+[2023-05-15 18:50:31] INFO root fetch - processPackages [statute-patterns]: executing diffoscope
+[2023-05-15 18:50:31] INFO root fetch - processPackages [statute-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_patterns-0.2.2.tar.gz tmp/statute_patterns-0.2.3.tar.gz --markdown 20230515/s/statute-patterns/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-05-15 18:50:31] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230515/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-15 18:50:31] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39430910>=10485760
+[2023-05-15 18:50:31] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: quasinet
+[2023-05-15 18:50:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-15 18:50:31] INFO root fetch - processPackages [xm-ai]: Downloading https://files.pythonhosted.org/packages/40/67/a41706e79740e3f6dd79b39f627f439058cc008618e7dae795e6d27cf219/xm_ai-0.3-py3-none-any.whl
+[2023-05-15 18:50:31] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/58/38/ab2f498112ad5fda3d0a27ee1f8209492332356f0013cef6d2f1fa85b4b2/datarobot_early_access-3.2.0.2023.5.15.tar.gz
+[2023-05-15 18:50:31] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 18:50:31] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 18:50:32] INFO root fetch - processPackages [ansible-compat]: Downloading https://files.pythonhosted.org/packages/d6/a4/7ee3a2e4dc271f7c9540b27c29d8b89d0255f8b4bb7f7eee3b9f303e9b12/ansible-compat-4.0.4.tar.gz
+[2023-05-15 18:50:32] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 18:50:32] INFO root fetch - processPackages [quasinet]: Start processing: virgoSuite
+[2023-05-15 18:50:32] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 18:50:32] INFO root fetch - processPackages [mira-omf]: Downloading https://files.pythonhosted.org/packages/57/45/51da3acff92d5f754c2743426b27bbc4bc2fafaa75f28bd61369670d99ba/mira_omf-3.0.0rc4.tar.gz
+[2023-05-15 18:50:32] INFO root fetch - processPackages [xm-ai]: Downloading https://files.pythonhosted.org/packages/3a/f6/23b3141c429bfc50a33669f2093507b34ce8bb1a2540edea97f911bfdb7f/xm_ai-0.4-py3-none-any.whl
+[2023-05-15 18:50:32] INFO root fetch - processPackages [virgoSuite]: New version: [1.0.0] Old Version: [0.9]
+[2023-05-15 18:50:32] INFO root fetch - processPackages [ansible-compat]: executing diffoscope
+[2023-05-15 18:50:32] INFO root fetch - processPackages [mira-omf]: executing diffoscope
+[2023-05-15 18:50:32] INFO root fetch - processPackages [ansible-compat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-compat-4.0.3.tar.gz tmp/ansible-compat-4.0.4.tar.gz --markdown 20230515/a/ansible-compat/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-15 18:50:32] INFO root fetch - processPackages [mira-omf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mira-omf-3.0.0rc3.tar.gz tmp/mira_omf-3.0.0rc4.tar.gz --markdown 20230515/m/mira-omf/3.0.0rc3-3.0.0rc4/diff.md --exclude *.pyd
+[2023-05-15 18:50:32] INFO root fetch - processPackages [xm-ai]: executing diffoscope
+[2023-05-15 18:50:32] INFO root fetch - processPackages [xm-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xm_ai-0.3-py3-none-any.whl.zip tmp/xm_ai-0.4-py3-none-any.whl.zip --markdown 20230515/x/xm-ai/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-15 18:50:32] INFO root fetch - processPackages [virgoSuite]: Downloading https://files.pythonhosted.org/packages/b3/e0/a8f91bb2fe0925093fb28fd35b552eec27324ce86d23af7a97ebe0b2563f/virgoSuite-0.9.tar.gz
+[2023-05-15 18:50:32] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/f4/46/6e407af79ec0a78fe892c5b58fa9bcd15e85fd7937dbdb22872422d30151/datarobot_early_access-3.2.0.2023.5.8.tar.gz
+[2023-05-15 18:50:32] INFO root fetch - processPackages [virgoSuite]: Downloading https://files.pythonhosted.org/packages/47/33/fe243bc92a82b63d8ca8ecc93b0a7561dcdb35b71a94d2700a324d4f349a/virgoSuite-1.0.0.tar.gz
+[2023-05-15 18:50:32] INFO root fetch - processPackages [datarobot-early-access]: executing diffoscope
+[2023-05-15 18:50:32] INFO root fetch - processPackages [datarobot-early-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_early_access-3.2.0.2023.5.15.tar.gz tmp/datarobot_early_access-3.2.0.2023.5.8.tar.gz --markdown 20230515/d/datarobot-early-access/3.2.0.2023.5.15-3.2.0.2023.5.8/diff.md --exclude *.pyd
+[2023-05-15 18:50:32] INFO root fetch - processPackages [virgoSuite]: executing diffoscope
+[2023-05-15 18:50:32] INFO root fetch - processPackages [virgoSuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgoSuite-0.9.tar.gz tmp/virgoSuite-1.0.0.tar.gz --markdown 20230515/v/virgoSuite/0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 18:50:33] INFO root fetch - processPackages [statute-patterns]: Start processing: jiggybase
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [statute-patterns]: success
+[2023-05-15 18:50:33] INFO root fetch - processPackages [jiggybase]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-15 18:50:33] INFO root fetch - processPackages [kraken-wrapper]: Start processing: geoh5py
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-05-15 18:50:33] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/47/fe/06fb4ecc652cc96fa86f7f8f41b30eab1b24f1492f1daa9ba4ce0b0bac3f/jiggybase-0.0.32.tar.gz
+[2023-05-15 18:50:33] INFO root fetch - processPackages [kraken-common]: Start processing: cellmaps-ppi-embedding
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-05-15 18:50:33] INFO root fetch - processPackages [geoh5py]: New version: [0.8.0a1] Old Version: [0.7.0rc6]
+[2023-05-15 18:50:33] WARNING root fetch - processPackages [cellmaps-ppi-embedding]: Skipping, unable to determine old version
+[2023-05-15 18:50:33] INFO root fetch - processPackages [cellmaps-ppi-embedding]: Start processing: bilby.cython
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [cellmaps-ppi-embedding] error
+[2023-05-15 18:50:33] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-15 18:50:33] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.31.tar.gz tmp/jiggybase-0.0.32.tar.gz --markdown 20230515/j/jiggybase/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-15 18:50:33] INFO root fetch - processPackages [xm-ai]: Start processing: file-validator
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [xm-ai]: success
+[2023-05-15 18:50:33] INFO root fetch - processPackages [file-validator]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 18:50:33] INFO root fetch - processPackages [bilby.cython]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-15 18:50:33] INFO root fetch - processPackages [kraken-core]: Start processing: opengpt4
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-05-15 18:50:33] INFO root fetch - processPackages [geoh5py]: Downloading https://files.pythonhosted.org/packages/09/3e/92aac74f3c4b5ad01bdc9ff32db8ba51e5cdee9a1a6cab66d6ec34ff2a94/geoh5py-0.7.0rc6.tar.gz
+[2023-05-15 18:50:33] INFO root fetch - processPackages [opengpt4]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-15 18:50:33] INFO root fetch - processPackages [mira-omf]: Start processing: dataknobs
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [mira-omf]: success
+[2023-05-15 18:50:33] INFO root fetch - processPackages [opengpt4]: executing diffoscope
+[2023-05-15 18:50:33] INFO root fetch - processPackages [opengpt4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengpt4-0.1.6.tar.gz tmp/opengpt4-0.1.7.tar.gz --markdown 20230515/o/opengpt4/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 18:50:33] INFO root fetch - processPackages [file-validator]: Downloading https://files.pythonhosted.org/packages/e1/e9/1f9434b1c7fa76c7ed0ea90a4e59ea5d4b03053041f4598c1c43caa1eaf0/file_validator-1.0.6.tar.gz
+[2023-05-15 18:50:33] INFO root fetch - main [MainThread]: End processing [virgoSuite]: success
+[2023-05-15 18:50:33] INFO root fetch - processPackages [bilby.cython]: Downloading https://files.pythonhosted.org/packages/c0/1a/3ad13c6dac468186ae03440306d0261cc7a74170ec1369a3827be4240fb0/bilby.cython-0.4.0.tar.gz
+[2023-05-15 18:50:33] INFO root fetch - processPackages [dataknobs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 18:50:34] INFO root fetch - processPackages [file-validator]: executing diffoscope
+[2023-05-15 18:50:34] INFO root fetch - processPackages [file-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_validator-1.0.5.tar.gz tmp/file_validator-1.0.6.tar.gz --markdown 20230515/f/file-validator/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-15 18:50:34] INFO root fetch - processPackages [geoh5py]: Downloading https://files.pythonhosted.org/packages/40/17/7a4ddbf9fbb2694cacbfd7a1f62707f4369714b6d2b16461ff31b1106343/geoh5py-0.8.0a1.tar.gz
+[2023-05-15 18:50:34] INFO root fetch - processPackages [geoh5py]: executing diffoscope
+[2023-05-15 18:50:34] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/dd/c2/9b054768760fadf455b7ebfddfb5bb86121b19eec49ffde035aa7a320d0f/dataknobs-0.0.5.tar.gz
+[2023-05-15 18:50:34] INFO root fetch - processPackages [geoh5py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoh5py-0.7.0rc6.tar.gz tmp/geoh5py-0.8.0a1.tar.gz --markdown 20230515/g/geoh5py/0.7.0rc6-0.8.0a1/diff.md --exclude *.pyd
+[2023-05-15 18:50:34] INFO root fetch - processPackages [bilby.cython]: Downloading https://files.pythonhosted.org/packages/d1/20/85e7de5b777ad1a40e795a7d7c8505a56e4b8eb3b8d9fa73b515e2f402bb/bilby.cython-0.4.1.tar.gz
+[2023-05-15 18:50:34] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-05-15 18:50:34] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/b6/41/9c5bc1ede1cde75e676286cba502b48268c4e96ba5b0e5540c930d7f2a4a/dataknobs-0.0.6.tar.gz
+[2023-05-15 18:50:34] INFO root fetch - processPackages [bilby.cython]: executing diffoscope
+[2023-05-15 18:50:34] INFO root fetch - processPackages [bilby.cython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilby.cython-0.4.0.tar.gz tmp/bilby.cython-0.4.1.tar.gz --markdown 20230515/b/bilby.cython/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-15 18:50:34] INFO root fetch - main [MainThread]: End processing [ansible-compat]: success
+[2023-05-15 18:50:34] INFO root fetch - processPackages [dataknobs]: executing diffoscope
+[2023-05-15 18:50:34] INFO root fetch - processPackages [dataknobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataknobs-0.0.5.tar.gz tmp/dataknobs-0.0.6.tar.gz --markdown 20230515/d/dataknobs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 18:50:35] INFO root fetch - main [MainThread]: End processing [file-validator]: success
+[2023-05-15 18:50:35] INFO root fetch - main [MainThread]: End processing [opengpt4]: success
+[2023-05-15 18:50:35] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-15 18:50:35] INFO root fetch - main [MainThread]: End processing [dataknobs]: success
+[2023-05-15 18:50:36] INFO root fetch - main [MainThread]: End processing [bilby.cython]: success
+[2023-05-15 18:50:37] INFO root fetch - main [MainThread]: End processing [geoh5py]: success
+[2023-05-15 18:50:37] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
+[2023-05-15 18:50:37] INFO root fetch - main [MainThread]: Store serial: [18110881]
