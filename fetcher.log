@@ -19358,3 +19358,101 @@ EOFError: EOF read where object expected
 [2023-05-15 19:58:58] INFO root fetch - main [MainThread]: End processing [wes-palette]: success
 [2023-05-15 20:00:07] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-05-15 20:00:07] INFO root fetch - main [MainThread]: Store serial: [18111556]
+[2023-05-15 20:05:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111556]
+[2023-05-15 20:05:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mujoco-dev
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-automl-common-tools
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiphy
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airlift
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coveo-functools
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caikit
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doppkit-esri-toolbox
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypi-search
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dwave-networkx
+[2023-05-15 20:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymdpages
+[2023-05-15 20:05:16] INFO root fetch - processPackages [azureml-automl-common-tools]: New version: [1.50.1] Old Version: [1.50.0]
+[2023-05-15 20:05:16] INFO root fetch - processPackages [hiphy]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-15 20:05:16] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev532158366] Old Version: [2.3.6.dev532049715]
+[2023-05-15 20:05:16] WARNING root fetch - processPackages [doppkit-esri-toolbox]: Skipping, unable to determine old version
+[2023-05-15 20:05:16] INFO root fetch - processPackages [airlift]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 20:05:16] INFO root fetch - processPackages [caikit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 20:05:16] INFO root fetch - processPackages [doppkit-esri-toolbox]: Start processing: pysparse-array
+[2023-05-15 20:05:16] INFO root fetch - main [MainThread]: End processing [doppkit-esri-toolbox] error
+[2023-05-15 20:05:16] INFO root fetch - processPackages [pypi-search]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-15 20:05:16] INFO root fetch - processPackages [coveo-functools]: New version: [2.0.9] Old Version: [2.0.8a1]
+[2023-05-15 20:05:16] WARNING root fetch - processPackages [pysparse-array]: Skipping, unable to determine old version
+[2023-05-15 20:05:16] INFO root fetch - processPackages [pysparse-array]: Start processing: seaplane
+[2023-05-15 20:05:16] INFO root fetch - main [MainThread]: End processing [pysparse-array] error
+[2023-05-15 20:05:16] INFO root fetch - processPackages [seaplane]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-15 20:05:16] WARNING root fetch - processPackages [pymdpages]: Skipping, unable to determine old version
+[2023-05-15 20:05:16] INFO root fetch - processPackages [pymdpages]: Start processing: lpdensity
+[2023-05-15 20:05:16] INFO root fetch - main [MainThread]: End processing [pymdpages] error
+[2023-05-15 20:05:16] INFO root fetch - processPackages [dwave-networkx]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-15 20:05:16] INFO root fetch - processPackages [azureml-automl-common-tools]: Downloading https://files.pythonhosted.org/packages/6b/8d/b0d66a4dfb0400e866ac2cfd4cbb83ed8ee0fea7b5c4da07611e22e6c502/azureml_automl_common_tools-1.50.0-py3-none-any.whl
+[2023-05-15 20:05:16] INFO root fetch - processPackages [lpdensity]: New version: [2.4] Old Version: [2.3.1]
+[2023-05-15 20:05:16] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-05-15 20:05:16] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.2.9.tar.gz tmp/seaplane-0.3.0.tar.gz --markdown 20230515/s/seaplane/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 20:05:16] INFO root fetch - processPackages [hiphy]: Downloading https://files.pythonhosted.org/packages/32/13/ea56e58b997d66ab142e0bb3e57e891f089f195ab2e9de6ecf2d71341eaf/hiphy-0.0.1-py3.9.egg
+[2023-05-15 20:05:16] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/8f/46/2ad87668a64bb8c95c0b3caba78bd31ea4fb26e3a1f75c31be6ad93df6e7/caikit-0.4.1.tar.gz
+[2023-05-15 20:05:16] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/2f/ad/45410c8f983d70f309fbc12b2363fd93968a8d98187b405d3d36a3610a55/mujoco_dev-2.3.6.dev532049715-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 20:05:16] INFO root fetch - processPackages [coveo-functools]: Downloading https://files.pythonhosted.org/packages/21/a3/1d27a36dc681c8dd70d6e07b39b1a8610b66d857ab5cc31fc44cdb5f75c7/coveo-functools-2.0.8a1.tar.gz
+[2023-05-15 20:05:16] INFO root fetch - processPackages [pypi-search]: Downloading https://files.pythonhosted.org/packages/bd/3b/7ecb5ba0ea4f2cfbd87d700e2880b3b21103eaf1d9448358f5ec94e3cf1f/pypi-search-1.2.1.tar.gz
+[2023-05-15 20:05:16] INFO root fetch - processPackages [dwave-networkx]: Downloading https://files.pythonhosted.org/packages/d8/a1/a69f7a3e4f7e851b5fb356b82d30ddd1e7485051b10584e07a8366977d47/dwave_networkx-0.8.8.tar.gz
+[2023-05-15 20:05:16] INFO root fetch - processPackages [lpdensity]: Downloading https://files.pythonhosted.org/packages/7c/9c/17695573f6e7a7c6abf21ec143b3a66565f13dac97e55c76cf0266e432f5/lpdensity-2.3.1.tar.gz
+[2023-05-15 20:05:16] INFO root fetch - processPackages [azureml-automl-common-tools]: Downloading https://files.pythonhosted.org/packages/5e/6a/4e3bebee7c00c264c559e2f24f06188606f126542e63e9de14a63bc62086/azureml_automl_common_tools-1.50.1-py3-none-any.whl
+[2023-05-15 20:05:16] INFO root fetch - processPackages [airlift]: Downloading https://files.pythonhosted.org/packages/93/9e/32b785a2481cc16b8397d6cdac02c45f217e5050df2767e25273b32871f7/airlift-0.1.2.tar.gz
+[2023-05-15 20:05:16] INFO root fetch - processPackages [hiphy]: Downloading https://files.pythonhosted.org/packages/a0/ab/746e267ae08e76ab11694db0a946c9e289aede73b85010367ef81894f1f3/hiphy-1.0.0-py3.9.egg
+[2023-05-15 20:05:17] INFO root fetch - processPackages [pypi-search]: Downloading https://files.pythonhosted.org/packages/3c/66/cfe29bb52a00a185a1ab06d3789d069018dd201ef557ffd1387e0542c5a9/pypi-search-1.2.2.tar.gz
+[2023-05-15 20:05:17] INFO root fetch - processPackages [airlift]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [airlift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airlift-0.1.1.tar.gz tmp/airlift-0.1.2.tar.gz --markdown 20230515/a/airlift/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/8a/17/5507223283995acb5b7393838d94c0fa2800d0b85d64b47e628af5c3ee14/caikit-0.4.2.tar.gz
+[2023-05-15 20:05:17] INFO root fetch - processPackages [azureml-automl-common-tools]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [azureml-automl-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_common_tools-1.50.0-py3-none-any.whl.zip tmp/azureml_automl_common_tools-1.50.1-py3-none-any.whl.zip --markdown 20230515/a/azureml-automl-common-tools/1.50.0-1.50.1/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [pypi-search]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [pypi-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi-search-1.2.1.tar.gz tmp/pypi-search-1.2.2.tar.gz --markdown 20230515/p/pypi-search/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [dwave-networkx]: Downloading https://files.pythonhosted.org/packages/4e/8a/815be4977da5753855aed3bb8dde5894302b75696f527e8bf98556415249/dwave_networkx-0.8.9.tar.gz
+[2023-05-15 20:05:17] INFO root fetch - processPackages [hiphy]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [hiphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiphy-0.0.1-py3.9.egg tmp/hiphy-1.0.0-py3.9.egg --markdown 20230515/h/hiphy/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [coveo-functools]: Downloading https://files.pythonhosted.org/packages/f9/18/47c16ffcd68fd9adc2e7597ff9b927464c929a7dbb8142fda542e55d8c29/coveo-functools-2.0.9.tar.gz
+[2023-05-15 20:05:17] INFO root fetch - processPackages [lpdensity]: Downloading https://files.pythonhosted.org/packages/7e/93/0f2b01993ce2cf9c4f8dbd2569710f82502c7b876cde14e00e6d759d8f98/lpdensity-2.4.tar.gz
+[2023-05-15 20:05:17] INFO root fetch - processPackages [dwave-networkx]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [dwave-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_networkx-0.8.8.tar.gz tmp/dwave_networkx-0.8.9.tar.gz --markdown 20230515/d/dwave-networkx/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.4.1.tar.gz tmp/caikit-0.4.2.tar.gz --markdown 20230515/c/caikit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [lpdensity]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [lpdensity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpdensity-2.3.1.tar.gz tmp/lpdensity-2.4.tar.gz --markdown 20230515/l/lpdensity/2.3.1-2.4/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [coveo-functools]: executing diffoscope
+[2023-05-15 20:05:17] INFO root fetch - processPackages [coveo-functools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveo-functools-2.0.8a1.tar.gz tmp/coveo-functools-2.0.9.tar.gz --markdown 20230515/c/coveo-functools/2.0.8a1-2.0.9/diff.md --exclude *.pyd
+[2023-05-15 20:05:17] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/42/ea/767aa86a1d344b73ff336542b1ad52a60e0f2d61ba23133927b8606bdf0a/mujoco_dev-2.3.6.dev532158366-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 20:05:18] INFO root fetch - processPackages [airlift]: Start processing: picframe
+[2023-05-15 20:05:18] INFO root fetch - main [MainThread]: End processing [airlift]: success
+[2023-05-15 20:05:18] INFO root fetch - processPackages [picframe]: New version: [2022.6.3] Old Version: [2022.4.19]
+[2023-05-15 20:05:18] INFO root fetch - processPackages [azureml-automl-common-tools]: Start processing: nustarpipeline
+[2023-05-15 20:05:18] INFO root fetch - main [MainThread]: End processing [azureml-automl-common-tools]: success
+[2023-05-15 20:05:18] INFO root fetch - processPackages [pypi-search]: Start processing: gpterminator
+[2023-05-15 20:05:18] INFO root fetch - main [MainThread]: End processing [pypi-search]: success
+[2023-05-15 20:05:18] INFO root fetch - processPackages [picframe]: executing diffoscope
+[2023-05-15 20:05:18] INFO root fetch - processPackages [picframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picframe-2022.4.19.tar.gz tmp/picframe-2022.6.3.tar.gz --markdown 20230515/p/picframe/2022.4.19-2022.6.3/diff.md --exclude *.pyd
+[2023-05-15 20:05:18] INFO root fetch - processPackages [nustarpipeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 20:05:18] INFO root fetch - processPackages [gpterminator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 20:05:18] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-05-15 20:05:18] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-05-15 20:05:18] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev532049715-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev532158366-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230515/m/mujoco-dev/2.3.6.dev532049715-2.3.6.dev532158366/diff.md --exclude *.pyd
+[2023-05-15 20:05:18] INFO root fetch - main [MainThread]: End processing [hiphy]: success
+[2023-05-15 20:05:18] INFO root fetch - processPackages [nustarpipeline]: Downloading https://files.pythonhosted.org/packages/88/72/d71f6cbe7cee1805c16ad63c5a5516d3d8055d802f72b60066b366c21ff3/nustarpipeline-0.2.8.tar.gz
+[2023-05-15 20:05:18] INFO root fetch - processPackages [gpterminator]: Downloading https://files.pythonhosted.org/packages/9c/1f/3f61261bc214d5df5beac0449beb366dcc15bcf3ea38692bb7e2ad0d36cf/gpterminator-0.1.8.tar.gz
+[2023-05-15 20:05:18] INFO root fetch - main [MainThread]: End processing [coveo-functools]: success
+[2023-05-15 20:05:19] INFO root fetch - processPackages [nustarpipeline]: Downloading https://files.pythonhosted.org/packages/96/90/ad51a0833526024142d5e4bf840a026203493a486164538c7efbd1ca010b/nustarpipeline-0.2.9.tar.gz
+[2023-05-15 20:05:19] INFO root fetch - processPackages [gpterminator]: Downloading https://files.pythonhosted.org/packages/bd/99/2080b8a4de06d9f11b4e301003693d614d29c7980950c775db8d9e47bb1f/gpterminator-0.1.9.tar.gz
+[2023-05-15 20:05:19] INFO root fetch - main [MainThread]: End processing [lpdensity]: success
+[2023-05-15 20:05:19] INFO root fetch - main [MainThread]: End processing [dwave-networkx]: success
+[2023-05-15 20:05:19] INFO root fetch - processPackages [gpterminator]: executing diffoscope
+[2023-05-15 20:05:19] INFO root fetch - processPackages [gpterminator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpterminator-0.1.8.tar.gz tmp/gpterminator-0.1.9.tar.gz --markdown 20230515/g/gpterminator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 20:05:19] INFO root fetch - processPackages [nustarpipeline]: executing diffoscope
+[2023-05-15 20:05:19] INFO root fetch - processPackages [nustarpipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nustarpipeline-0.2.8.tar.gz tmp/nustarpipeline-0.2.9.tar.gz --markdown 20230515/n/nustarpipeline/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 20:05:20] INFO root fetch - main [MainThread]: End processing [picframe]: success
+[2023-05-15 20:05:20] INFO root fetch - main [MainThread]: End processing [gpterminator]: success
+[2023-05-15 20:05:20] INFO root fetch - main [MainThread]: End processing [nustarpipeline]: success
+[2023-05-15 20:05:20] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-05-15 20:05:34] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-05-15 20:05:34] INFO root fetch - main [MainThread]: Store serial: [18111637]
