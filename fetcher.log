@@ -16697,3 +16697,136 @@ EOFError: EOF read where object expected
 [2023-05-15 17:34:38] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-05-15 17:34:50] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
 [2023-05-15 17:34:50] INFO root fetch - main [MainThread]: Store serial: [18109983]
+[2023-05-15 17:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109983]
+[2023-05-15 17:39:59] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YorkUphysLab
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rucio
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rucio-clients
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rucio-webui
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acids-rave
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: i18ntools
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mef-tools
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eynollah
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipHack
+[2023-05-15 17:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EOxServer
+[2023-05-15 17:39:59] INFO root fetch - processPackages [mef-tools]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-15 17:39:59] WARNING root fetch - processPackages [YorkUphysLab]: Skipping, unable to determine old version
+[2023-05-15 17:39:59] INFO root fetch - processPackages [YorkUphysLab]: Start processing: django-dnoticias-auth
+[2023-05-15 17:39:59] INFO root fetch - main [MainThread]: End processing [YorkUphysLab] error
+[2023-05-15 17:39:59] INFO root fetch - processPackages [rucio]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-15 17:39:59] WARNING root fetch - processPackages [pipHack]: Skipping, unable to determine old version
+[2023-05-15 17:39:59] INFO root fetch - processPackages [pipHack]: Start processing: WebGrid
+[2023-05-15 17:39:59] INFO root fetch - main [MainThread]: End processing [pipHack] error
+[2023-05-15 17:39:59] WARNING root fetch - processPackages [i18ntools]: Skipping, unable to determine old version
+[2023-05-15 17:39:59] INFO root fetch - processPackages [acids-rave]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-15 17:39:59] INFO root fetch - processPackages [i18ntools]: Start processing: certora-cli-alpha-andrew-satisfy
+[2023-05-15 17:39:59] INFO root fetch - main [MainThread]: End processing [i18ntools] error
+[2023-05-15 17:39:59] INFO root fetch - processPackages [mef-tools]: executing diffoscope
+[2023-05-15 17:39:59] INFO root fetch - processPackages [eynollah]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 17:39:59] INFO root fetch - processPackages [mef-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mef_tools-1.1.0.tar.gz tmp/mef_tools-1.2.0.tar.gz --markdown 20230515/m/mef-tools/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-15 17:39:59] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-15 17:39:59] WARNING root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Skipping, unable to determine old version
+[2023-05-15 17:39:59] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Start processing: ovos-skill-weather
+[2023-05-15 17:39:59] INFO root fetch - processPackages [EOxServer]: New version: [1.2.8] Old Version: [1.2.6]
+[2023-05-15 17:39:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-andrew-satisfy] error
+[2023-05-15 17:39:59] INFO root fetch - processPackages [rucio-clients]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-15 17:40:00] INFO root fetch - processPackages [ovos-skill-weather]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-05-15 17:40:00] INFO root fetch - processPackages [rucio-webui]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-15 17:40:00] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-15 17:40:00] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230515/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-15 17:40:00] INFO root fetch - processPackages [WebGrid]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-15 17:40:00] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/91/8f/9393746d35a84d9c642188a5fb30dbc886497642a6075bc2d6507a1a8bc0/rucio-1.9.5.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [EOxServer]: Downloading https://files.pythonhosted.org/packages/6f/2e/27b3d717f47c8b7eba8c0605e8d5a5ddc425af71140149cf122739ac8491/EOxServer-1.2.6.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [acids-rave]: Downloading https://files.pythonhosted.org/packages/f7/43/47a4fb2df713a70f7a53dbf4dfeab812a4796810c69e137bdecf93a1e4d0/acids_rave-2.1.8-py3-none-any.whl
+[2023-05-15 17:40:00] INFO root fetch - processPackages [eynollah]: Downloading https://files.pythonhosted.org/packages/94/36/a44be75783655e823fcd9be066f27e4660c011a13e065e97e591b00de792/eynollah-0.2.0.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/f4/6b/3726a7681cd770c42ac968f151b94735a11d1d8eceba70dd0c329d7a140a/rucio-webui-1.9.5.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [ovos-skill-weather]: Downloading https://files.pythonhosted.org/packages/95/06/cdd6ba1992658ea29a52cf70101abd100d7dcb1d31b2fb33c8b535ce7455/ovos_skill_weather-0.0.1a3-py3-none-any.whl
+[2023-05-15 17:40:00] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/c2/b5/337a96cd4693af223ec5c66ba8d0479888dfc40b0507fae48e01f5a302d5/rucio-clients-1.9.5.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [eynollah]: Downloading https://files.pythonhosted.org/packages/b1/af/27d014795624f644127d94a8d3fe6a1dd676cbf8120898badee963e88bb6/eynollah-0.3.0.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [EOxServer]: Downloading https://files.pythonhosted.org/packages/19/dd/52c95ebc7b72e4223dff3312259d5668b6e8f6f2084c6e24e5c3193fef79/EOxServer-1.2.8.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [WebGrid]: Downloading https://files.pythonhosted.org/packages/98/17/c060a7ef8f6d7fe3e6026e49ada7e7211a58172b04fc709ad1ff0012c29e/WebGrid-0.5.7.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [acids-rave]: Downloading https://files.pythonhosted.org/packages/92/fe/1d96d2ef02387e4f2e68e1685eae0114bb5042174b9633cff668d53a0d68/acids_rave-2.1.9-py3-none-any.whl
+[2023-05-15 17:40:00] INFO root fetch - processPackages [ovos-skill-weather]: executing diffoscope
+[2023-05-15 17:40:00] INFO root fetch - processPackages [ovos-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_weather-0.0.1a2-py3-none-any.whl.zip tmp/ovos_skill_weather-0.0.1a3-py3-none-any.whl.zip --markdown 20230515/o/ovos-skill-weather/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-05-15 17:40:00] INFO root fetch - processPackages [acids-rave]: executing diffoscope
+[2023-05-15 17:40:00] INFO root fetch - processPackages [acids-rave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids_rave-2.1.8-py3-none-any.whl.zip tmp/acids_rave-2.1.9-py3-none-any.whl.zip --markdown 20230515/a/acids-rave/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-15 17:40:00] INFO root fetch - processPackages [WebGrid]: executing diffoscope
+[2023-05-15 17:40:00] INFO root fetch - processPackages [WebGrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebGrid-0.5.6.tar.gz tmp/WebGrid-0.5.7.tar.gz --markdown 20230515/W/WebGrid/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-15 17:40:00] INFO root fetch - processPackages [EOxServer]: executing diffoscope
+[2023-05-15 17:40:00] INFO root fetch - processPackages [EOxServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EOxServer-1.2.6.tar.gz tmp/EOxServer-1.2.8.tar.gz --markdown 20230515/E/EOxServer/1.2.6-1.2.8/diff.md --exclude *.pyd
+[2023-05-15 17:40:00] INFO root fetch - processPackages [eynollah]: executing diffoscope
+[2023-05-15 17:40:00] INFO root fetch - processPackages [eynollah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eynollah-0.2.0.tar.gz tmp/eynollah-0.3.0.tar.gz --markdown 20230515/e/eynollah/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 17:40:00] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/7e/d3/df65f86894f8b3f09c88db4456cff382dafe6909f679f62cbcfaebf3e316/rucio-webui-1.9.6.tar.gz
+[2023-05-15 17:40:00] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2023-05-15 17:40:00] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-1.9.5.tar.gz tmp/rucio-webui-1.9.6.tar.gz --markdown 20230515/r/rucio-webui/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-15 17:40:01] INFO root fetch - processPackages [mef-tools]: Start processing: t4flib
+[2023-05-15 17:40:01] INFO root fetch - main [MainThread]: End processing [mef-tools]: success
+[2023-05-15 17:40:01] INFO root fetch - processPackages [t4flib]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 17:40:01] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-05-15 17:40:01] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.1.5-py2.py3-none-any.whl.zip tmp/t4flib-0.1.6-py2.py3-none-any.whl.zip --markdown 20230515/t/t4flib/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 17:40:01] INFO root fetch - processPackages [django-dnoticias-auth]: Start processing: aiida-sssp-workflow
+[2023-05-15 17:40:01] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-15 17:40:01] INFO root fetch - processPackages [aiida-sssp-workflow]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-15 17:40:01] INFO root fetch - processPackages [aiida-sssp-workflow]: Downloading https://files.pythonhosted.org/packages/99/bb/4d55f8944d3333648f6e5ba751356f14d2842e5db4f7a779a277c4b254f3/aiida_sssp_workflow-3.0.2.tar.gz
+[2023-05-15 17:40:01] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/82/02/5361243e1dd8c362dcce384dcb6c75eda1ba21c1a13e6adfc8fdd213ec83/rucio-clients-1.9.6.tar.gz
+[2023-05-15 17:40:01] INFO root fetch - processPackages [aiida-sssp-workflow]: Downloading https://files.pythonhosted.org/packages/79/1c/78d14895b87f57cc2ec64020e4115c09cef42ed3133c131554a17967e5f4/aiida_sssp_workflow-3.0.3.tar.gz
+[2023-05-15 17:40:01] INFO root fetch - processPackages [acids-rave]: Start processing: vsc-mympirun
+[2023-05-15 17:40:01] INFO root fetch - main [MainThread]: End processing [acids-rave]: success
+[2023-05-15 17:40:02] INFO root fetch - processPackages [vsc-mympirun]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-05-15 17:40:02] INFO root fetch - processPackages [aiida-sssp-workflow]: executing diffoscope
+[2023-05-15 17:40:02] INFO root fetch - processPackages [aiida-sssp-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_sssp_workflow-3.0.2.tar.gz tmp/aiida_sssp_workflow-3.0.3.tar.gz --markdown 20230515/a/aiida-sssp-workflow/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-15 17:40:02] INFO root fetch - processPackages [vsc-mympirun]: Downloading https://files.pythonhosted.org/packages/a1/46/d1a477aa3b79c5c6bb07fc29aaa73f97747bd70ee9ccf795399b4308ac27/vsc-mympirun-5.3.0.tar.gz
+[2023-05-15 17:40:02] INFO root fetch - processPackages [WebGrid]: Start processing: aniwrap-py
+[2023-05-15 17:40:02] INFO root fetch - main [MainThread]: End processing [WebGrid]: success
+[2023-05-15 17:40:02] WARNING root fetch - processPackages [aniwrap-py]: Skipping, unable to determine old version
+[2023-05-15 17:40:02] INFO root fetch - processPackages [aniwrap-py]: Start processing: ProjectMorilla
+[2023-05-15 17:40:02] INFO root fetch - main [MainThread]: End processing [aniwrap-py] error
+[2023-05-15 17:40:02] INFO root fetch - processPackages [t4flib]: Start processing: shinywidgets
+[2023-05-15 17:40:02] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-05-15 17:40:02] WARNING root fetch - processPackages [ProjectMorilla]: Skipping, unable to determine old version
+[2023-05-15 17:40:02] INFO root fetch - processPackages [ProjectMorilla]: Start processing: procurement-bytetheory
+[2023-05-15 17:40:02] INFO root fetch - main [MainThread]: End processing [ProjectMorilla] error
+[2023-05-15 17:40:02] INFO root fetch - processPackages [shinywidgets]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 17:40:02] INFO root fetch - processPackages [procurement-bytetheory]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 17:40:02] INFO root fetch - processPackages [procurement-bytetheory]: executing diffoscope
+[2023-05-15 17:40:02] INFO root fetch - processPackages [procurement-bytetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procurement_bytetheory-1.0.8.tar.gz tmp/procurement_bytetheory-1.0.9.tar.gz --markdown 20230515/p/procurement-bytetheory/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:40:02] INFO root fetch - processPackages [rucio-webui]: Start processing: ecida
+[2023-05-15 17:40:02] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2023-05-15 17:40:02] INFO root fetch - processPackages [ecida]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 17:40:02] INFO root fetch - processPackages [vsc-mympirun]: Downloading https://files.pythonhosted.org/packages/d0/4a/ea105725be4b82f70bca684f08e4520f0a63937204310dfc5d6565b729df/vsc-mympirun-5.3.1.tar.gz
+[2023-05-15 17:40:02] INFO root fetch - processPackages [shinywidgets]: Downloading https://files.pythonhosted.org/packages/29/24/ef864573692fb964ec7c5214e5b60b79ca0d7c1b6fd2d576cccf567836b3/shinywidgets-0.2.0.tar.gz
+[2023-05-15 17:40:02] INFO root fetch - processPackages [vsc-mympirun]: executing diffoscope
+[2023-05-15 17:40:02] INFO root fetch - processPackages [vsc-mympirun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsc-mympirun-5.3.0.tar.gz tmp/vsc-mympirun-5.3.1.tar.gz --markdown 20230515/v/vsc-mympirun/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-05-15 17:40:02] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/50/e5/38c4e358ef0b17667b4864513a93200202ababf0add4a4211bd4748ae022/ecida-0.0.7.tar.gz
+[2023-05-15 17:40:03] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-15 17:40:03] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.6.tar.gz tmp/ecida-0.0.7.tar.gz --markdown 20230515/e/ecida/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 17:40:03] INFO root fetch - processPackages [eynollah]: Start processing: picframe
+[2023-05-15 17:40:03] INFO root fetch - main [MainThread]: End processing [eynollah]: success
+[2023-05-15 17:40:03] INFO root fetch - processPackages [picframe]: New version: [2022.6.3] Old Version: [2022.4.19]
+[2023-05-15 17:40:03] INFO root fetch - processPackages [shinywidgets]: Downloading https://files.pythonhosted.org/packages/7c/b9/0c4f0ac578d4fc1b55035bccdfb0f30220003e53329c724c628fdb430950/shinywidgets-0.2.1.tar.gz
+[2023-05-15 17:40:03] INFO root fetch - processPackages [shinywidgets]: executing diffoscope
+[2023-05-15 17:40:03] INFO root fetch - processPackages [shinywidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinywidgets-0.2.0.tar.gz tmp/shinywidgets-0.2.1.tar.gz --markdown 20230515/s/shinywidgets/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 17:40:03] INFO root fetch - processPackages [picframe]: executing diffoscope
+[2023-05-15 17:40:03] INFO root fetch - processPackages [picframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picframe-2022.4.19.tar.gz tmp/picframe-2022.6.3.tar.gz --markdown 20230515/p/picframe/2022.4.19-2022.6.3/diff.md --exclude *.pyd
+[2023-05-15 17:40:03] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2023-05-15 17:40:03] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-1.9.5.tar.gz tmp/rucio-clients-1.9.6.tar.gz --markdown 20230515/r/rucio-clients/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-15 17:40:04] INFO root fetch - processPackages [procurement-bytetheory]: Start processing: appian-locust
+[2023-05-15 17:40:04] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
+[2023-05-15 17:40:04] INFO root fetch - processPackages [appian-locust]: New version: [2.0.0a0] Old Version: [1.9.0]
+[2023-05-15 17:40:04] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-15 17:40:04] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/ce/ee/fea8546fec5e6d0d84526dfe28b29f16809196b3001054c3a8e1ab77da45/rucio-1.9.6.tar.gz
+[2023-05-15 17:40:04] INFO root fetch - processPackages [appian-locust]: Downloading https://files.pythonhosted.org/packages/59/c2/9c5db34ff90e282faf642366ebe6bbaa026023b445135a05f4e9818055e6/appian-locust-2.0.0a0.tar.gz
+[2023-05-15 17:40:04] INFO root fetch - processPackages [appian-locust]: executing diffoscope
+[2023-05-15 17:40:04] INFO root fetch - processPackages [appian-locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appian-locust-1.9.0.tar.gz tmp/appian-locust-2.0.0a0.tar.gz --markdown 20230515/a/appian-locust/1.9.0-2.0.0a0/diff.md --exclude *.pyd
+[2023-05-15 17:40:05] INFO root fetch - main [MainThread]: End processing [shinywidgets]: success
+[2023-05-15 17:40:05] INFO root fetch - main [MainThread]: End processing [picframe]: success
+[2023-05-15 17:40:06] INFO root fetch - main [MainThread]: End processing [vsc-mympirun]: success
+[2023-05-15 17:40:06] INFO root fetch - main [MainThread]: End processing [appian-locust]: success
+[2023-05-15 17:40:06] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2023-05-15 17:40:06] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-1.9.5.tar.gz tmp/rucio-1.9.6.tar.gz --markdown 20230515/r/rucio/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-15 17:40:07] INFO root fetch - main [MainThread]: End processing [aiida-sssp-workflow]: success
+[2023-05-15 17:40:08] INFO root fetch - main [MainThread]: End processing [EOxServer]: success
+[2023-05-15 17:40:11] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2023-05-15 17:40:20] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2023-05-15 17:40:36] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
+[2023-05-15 17:40:36] INFO root fetch - main [MainThread]: Store serial: [18110058]
