@@ -19158,3 +19158,64 @@ EOFError: EOF read where object expected
 [2023-05-15 19:43:12] INFO root fetch - main [MainThread]: End processing [tvdcn]: success
 [2023-05-15 19:43:14] INFO root fetch - main [MainThread]: End processing [awswrangler]: success
 [2023-05-15 19:43:14] INFO root fetch - main [MainThread]: Store serial: [18111400]
+[2023-05-15 19:48:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111400]
+[2023-05-15 19:48:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uenp
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuri
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: navigator-api
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sar-handler
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipv64
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecopipeline
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mocodo
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mirtos
+[2023-05-15 19:48:23] WARNING root fetch - processPackages [neuri]: Skipping, unable to determine old version
+[2023-05-15 19:48:23] INFO root fetch - processPackages [neuri]: Start processing: ostorlab
+[2023-05-15 19:48:23] INFO root fetch - main [MainThread]: End processing [neuri] error
+[2023-05-15 19:48:23] WARNING root fetch - processPackages [uenp]: Skipping, unable to determine old version
+[2023-05-15 19:48:23] INFO root fetch - main [MainThread]: End processing [uenp] error
+[2023-05-15 19:48:23] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-05-15 19:48:23] WARNING root fetch - processPackages [mirtos]: Skipping, unable to determine old version
+[2023-05-15 19:48:23] INFO root fetch - main [MainThread]: End processing [mirtos] error
+[2023-05-15 19:48:23] INFO root fetch - processPackages [mocodo]: New version: [3.2.0] Old Version: [3.1.2]
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ipv64]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 19:48:23] INFO root fetch - processPackages [sar-handler]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 19:48:23] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev9] Old Version: [0.6.4.dev8]
+[2023-05-15 19:48:23] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-15 19:48:23] INFO root fetch - processPackages [ostorlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-15 19:48:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-15 19:48:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev8.tar.gz tmp/coiled-0.6.4.dev9.tar.gz --markdown 20230515/c/coiled/0.6.4.dev8-0.6.4.dev9/diff.md --exclude *.pyd
+[2023-05-15 19:48:23] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-15 19:48:23] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230515/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-15 19:48:23] INFO root fetch - processPackages [sar-handler]: Downloading https://files.pythonhosted.org/packages/ea/bf/83decfb46bde9b6e863932fe832d1272916b5a7e9ff5f30239987043ebe6/sar_handler-0.1.7.tar.gz
+[2023-05-15 19:48:23] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/43/b3/6dda4f55e1d3faa57d98d8c8339b3a8c2e280e12edcb071cf369a6eab3b8/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ipv64]: Downloading https://files.pythonhosted.org/packages/d5/3f/f7815a07feb742efb049be4a73047b45abd38433e1102bff1eef85b1aead/ipv64-0.4.2.tar.gz
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/be/8b/00f0981f534c7ee290cb00bed955398830648a91a2d6e5855b14de4b3006/ostorlab-0.9.8.tar.gz
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230515/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 19:48:24] INFO root fetch - processPackages [mocodo]: Downloading https://files.pythonhosted.org/packages/fe/88/a165ba335a127f8b2ca68d874d14de7ce1b21146c7e3693def49209b54fe/mocodo-3.2.0.tar.gz
+[2023-05-15 19:48:24] INFO root fetch - processPackages [sar-handler]: Downloading https://files.pythonhosted.org/packages/29/ed/6fd6fd7f4ae734ec0d42094c7db364fca416c4107ec156fa99d235ce4fbc/sar_handler-0.1.8.tar.gz
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ipv64]: Downloading https://files.pythonhosted.org/packages/9e/cf/fd11c04b35f315a6fbe323cf23f28734b876d70967c526eb502a34c05cfc/ipv64-0.5.0.tar.gz
+[2023-05-15 19:48:24] INFO root fetch - processPackages [sar-handler]: executing diffoscope
+[2023-05-15 19:48:24] INFO root fetch - processPackages [sar-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sar_handler-0.1.7.tar.gz tmp/sar_handler-0.1.8.tar.gz --markdown 20230515/s/sar-handler/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 19:48:24] INFO root fetch - processPackages [mocodo]: executing diffoscope
+[2023-05-15 19:48:24] INFO root fetch - processPackages [mocodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocodo-3.1.2.tar.gz tmp/mocodo-3.2.0.tar.gz --markdown 20230515/m/mocodo/3.1.2-3.2.0/diff.md --exclude *.pyd
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ipv64]: executing diffoscope
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ipv64]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipv64-0.4.2.tar.gz tmp/ipv64-0.5.0.tar.gz --markdown 20230515/i/ipv64/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 19:48:24] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/e1/98/0334482971a969cfa2dfd38298d37844a48ae8a8052b69f9cfb99fc44292/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/50/91/27ce633738c25d70533945694425cc25183ef5789757782274369dbc31b0/ostorlab-0.9.9.tar.gz
+[2023-05-15 19:48:24] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-05-15 19:48:24] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230515/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2023-05-15 19:48:24] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-0.9.8.tar.gz tmp/ostorlab-0.9.9.tar.gz --markdown 20230515/o/ostorlab/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-15 19:48:25] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-15 19:48:25] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-15 19:48:25] INFO root fetch - main [MainThread]: End processing [ipv64]: success
+[2023-05-15 19:48:25] INFO root fetch - main [MainThread]: End processing [sar-handler]: success
+[2023-05-15 19:48:26] INFO root fetch - main [MainThread]: End processing [mocodo]: success
+[2023-05-15 19:48:26] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-05-15 19:48:26] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-15 19:48:30] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2023-05-15 19:48:30] INFO root fetch - main [MainThread]: Store serial: [18111438]
