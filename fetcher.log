@@ -10066,3 +10066,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:28:14] INFO root fetch - main [MainThread]: End processing [fast-oad-cs25]: success
 [2023-05-15 12:28:26] INFO root fetch - main [MainThread]: End processing [skytemple-files]: success
 [2023-05-15 12:28:26] INFO root fetch - main [MainThread]: Store serial: [18105887]
+[2023-05-15 12:33:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105887]
+[2023-05-15 12:33:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mobio-dedupe-sdk-test
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: priceloop-api
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TestingBm-123
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genofunc
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-role
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangoldp-branding
+[2023-05-15 12:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: daspython
+[2023-05-15 12:33:35] INFO root fetch - processPackages [TestingBm-123]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-15 12:33:35] WARNING root fetch - processPackages [mobio-dedupe-sdk-test]: Skipping, unable to determine old version
+[2023-05-15 12:33:35] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Start processing: tsaugmentation
+[2023-05-15 12:33:35] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test] error
+[2023-05-15 12:33:35] INFO root fetch - processPackages [genofunc]: New version: [1.1.1] Old Version: [1.1]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [djangoldp-branding]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [daspython]: New version: [2.0.1] Old Version: [2.0]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230515.6.54.219876] Old Version: [20230515.10.31.651606]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230515103020] Old Version: [2.0.3.dev20230515063600]
+[2023-05-15 12:33:35] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-15 12:33:36] INFO root fetch - processPackages [djangoldp-branding]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [djangoldp-branding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_branding-1.0.7.tar.gz tmp/djangoldp_branding-1.0.8.tar.gz --markdown 20230515/d/djangoldp-branding/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/87/a6/10c347a89bce0ef70180b0c3bd252cf25480a1120aa770ce2fec812ccba2/PatryksAutoAI-0.6.2.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230515/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/2b/80/3eff425a278ef585e026f5c8b31289a4e43772c621151bd92581eca567b9/certora-cli-alpha-oz-docker-json5-20230515.10.31.651606.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [genofunc]: Downloading https://files.pythonhosted.org/packages/d7/1f/a358e4f115a9d92a48a597515831be3c4726a0fa5bd50871189fab51ad45/genofunc-1.1-py3-none-any.whl
+[2023-05-15 12:33:36] INFO root fetch - processPackages [TestingBm-123]: Downloading https://files.pythonhosted.org/packages/57/3a/7b99c68a1077e4dd38ab613934530f7d6b9b8d322fdcaa0827548981a853/TestingBm_123-0.0.3.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/50/29/ebef8d62f7f0f9e2149b28e8679c8d7659f2d327998041bbcc2b60d0b57f/localstack-core-2.0.3.dev20230515103020.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [tsaugmentation]: Downloading https://files.pythonhosted.org/packages/37/8d/e6129f4cbbf71cf29c11ea63c65fb7662101350771a0b4617ab1b8b12ef9/tsaugmentation-0.5.8.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [TestingBm-123]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [TestingBm-123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TestingBm_123-0.0.2.tar.gz tmp/TestingBm_123-0.0.3.tar.gz --markdown 20230515/T/TestingBm-123/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 39437429>=10485760
+[2023-05-15 12:33:36] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: eventregistry
+[2023-05-15 12:33:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-15 12:33:36] INFO root fetch - processPackages [daspython]: Downloading https://files.pythonhosted.org/packages/e7/23/3c51d0dc73c6c33a790a527426dc1248a6bff0a5a27ec313c79c063715c9/daspython-2.0.1.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [eventregistry]: New version: [9.0] Old Version: [8.9]
+[2023-05-15 12:33:36] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/9a/6b/7e6ff13ac868147689d1c78cc89c41b75971d2fea25a524b6de8d755ba11/PatryksAutoAI-0.6.3.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [genofunc]: Downloading https://files.pythonhosted.org/packages/d4/81/a199f2159dbbeb86462d4245bc3eae1672d888e638ac71215d7c0bf438b1/genofunc-1.1.1-py3-none-any.whl
+[2023-05-15 12:33:36] INFO root fetch - processPackages [daspython]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [daspython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daspython-2.0.tar.gz tmp/daspython-2.0.1.tar.gz --markdown 20230515/d/daspython/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.6.2.tar.gz tmp/PatryksAutoAI-0.6.3.tar.gz --markdown 20230515/P/PatryksAutoAI/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [genofunc]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [genofunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genofunc-1.1-py3-none-any.whl.zip tmp/genofunc-1.1.1-py3-none-any.whl.zip --markdown 20230515/g/genofunc/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [tsaugmentation]: Downloading https://files.pythonhosted.org/packages/ac/61/b453fc41c7b840b361d3eac528d5ddafd5714fcfba6c253aed1064ba76a0/tsaugmentation-0.5.9.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [eventregistry]: Downloading https://files.pythonhosted.org/packages/dd/3e/f60e0aa720bd8a2ce0da8830b798102bc0de4bccbdd847bec54301bdd4ac/eventregistry-8.9.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230515063600.tar.gz tmp/localstack-core-2.0.3.dev20230515103020.tar.gz --markdown 20230515/l/localstack-core/2.0.3.dev20230515063600-2.0.3.dev20230515103020/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230515/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230515/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-15 12:33:36] INFO root fetch - processPackages [eventregistry]: Downloading https://files.pythonhosted.org/packages/06/b8/bb45ccf3f34db423c3f30ac676794ce41581f0e8bd0192c45002eb0675a8/eventregistry-9.0.tar.gz
+[2023-05-15 12:33:36] INFO root fetch - processPackages [eventregistry]: executing diffoscope
+[2023-05-15 12:33:36] INFO root fetch - processPackages [eventregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventregistry-8.9.tar.gz tmp/eventregistry-9.0.tar.gz --markdown 20230515/e/eventregistry/8.9-9.0/diff.md --exclude *.pyd
+[2023-05-15 12:33:38] INFO root fetch - processPackages [xj-role]: Start processing: gscdk
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-05-15 12:33:38] INFO root fetch - processPackages [gscdk]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-15 12:33:38] INFO root fetch - processPackages [TestingBm-123]: Start processing: shaikh
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [TestingBm-123]: success
+[2023-05-15 12:33:38] WARNING root fetch - processPackages [shaikh]: Skipping, unable to determine old version
+[2023-05-15 12:33:38] INFO root fetch - processPackages [shaikh]: Start processing: kraken-common
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [shaikh] error
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-15 12:33:38] INFO root fetch - processPackages [gscdk]: Downloading https://files.pythonhosted.org/packages/c4/05/07f376d615aac7a9e6a052b8b913886d2d6cf57ac6177b2a10074d40911c/gscdk-0.7.7.tar.gz
+[2023-05-15 12:33:38] WARNING root fetch - processPackages [gscdk]: Skipping package: exceeds size limit 77767441>=10485760
+[2023-05-15 12:33:38] INFO root fetch - processPackages [gscdk]: Start processing: kraken-core
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [gscdk] error
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-15 12:33:38] INFO root fetch - processPackages [daspython]: Start processing: kraken-std
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [daspython]: success
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-15 12:33:38] INFO root fetch - processPackages [djangoldp-branding]: Start processing: kraken-wrapper
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [djangoldp-branding]: success
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.20.0] Old Version: [0.2.4]
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [genofunc]: success
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230515/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/2a/12/b9b090d03cbcf5e4276696e81270168e05cf041f85178c302eac798b18c0/kraken_wrapper-0.2.4.tar.gz
+[2023-05-15 12:33:38] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-05-15 12:33:38] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230515/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-15 12:33:39] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-05-15 12:33:39] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/a1/59/c223232d9299713bed633d2add03bd9f198e1b33ac0eb3fec9fae4d8976b/kraken_wrapper-0.20.0.tar.gz
+[2023-05-15 12:33:39] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-05-15 12:33:39] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-05-15 12:33:39] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230515/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-15 12:33:39] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-15 12:33:39] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-05-15 12:33:39] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.2.4.tar.gz tmp/kraken_wrapper-0.20.0.tar.gz --markdown 20230515/k/kraken-wrapper/0.2.4-0.20.0/diff.md --exclude *.pyd
+[2023-05-15 12:33:40] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-05-15 12:33:40] INFO root fetch - main [MainThread]: End processing [eventregistry]: success
+[2023-05-15 12:33:40] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-05-15 12:33:40] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-05-15 12:33:40] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-05-15 12:33:49] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-15 12:33:49] INFO root fetch - main [MainThread]: Store serial: [18105944]
