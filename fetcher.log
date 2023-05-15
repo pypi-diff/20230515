@@ -23077,3 +23077,49 @@ EOFError: EOF read where object expected
 [2023-05-15 23:46:39] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2023-05-15 23:46:40] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2023-05-15 23:46:40] INFO root fetch - main [MainThread]: Store serial: [18113763]
+[2023-05-15 23:51:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113763]
+[2023-05-15 23:51:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capitalpayments
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kynaylibs
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecopipeline
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-eric-perf
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yarrow-diagrams
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dclab
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: claudia
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrgo
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RobustifyToolkit
+[2023-05-15 23:51:49] WARNING root fetch - processPackages [yarrow-diagrams]: Skipping, unable to determine old version
+[2023-05-15 23:51:49] INFO root fetch - main [MainThread]: End processing [yarrow-diagrams] error
+[2023-05-15 23:51:49] INFO root fetch - processPackages [certora-cli-alpha-eric-perf]: New version: [20230515.21.49.711620] Old Version: [20230515.21.35.459045]
+[2023-05-15 23:51:49] INFO root fetch - processPackages [kynaylibs]: New version: [7.1.4] Old Version: [7.1.3]
+[2023-05-15 23:51:49] INFO root fetch - processPackages [capitalpayments]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 23:51:49] WARNING root fetch - processPackages [claudia]: Skipping, unable to determine old version
+[2023-05-15 23:51:49] INFO root fetch - main [MainThread]: End processing [claudia] error
+[2023-05-15 23:51:49] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-15 23:51:49] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-15 23:51:49] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-7.1.3.tar.gz tmp/kynaylibs-7.1.4.tar.gz --markdown 20230515/k/kynaylibs/7.1.3-7.1.4/diff.md --exclude *.pyd
+[2023-05-15 23:51:49] WARNING root fetch - processPackages [RobustifyToolkit]: Skipping, unable to determine old version
+[2023-05-15 23:51:49] INFO root fetch - main [MainThread]: End processing [RobustifyToolkit] error
+[2023-05-15 23:51:49] INFO root fetch - processPackages [pyrgo]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-15 23:51:49] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230515/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 23:51:49] INFO root fetch - processPackages [certora-cli-alpha-eric-perf]: Downloading https://files.pythonhosted.org/packages/7c/6d/bbaaf331daeb0fc848e833007d805939af3307ab3ff410167dcbe10b3a94/certora-cli-alpha-eric-perf-20230515.21.35.459045.tar.gz
+[2023-05-15 23:51:49] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2023-05-15 23:51:49] WARNING root fetch - processPackages [certora-cli-alpha-eric-perf]: Skipping package: exceeds size limit 38980502>=10485760
+[2023-05-15 23:51:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-perf] error
+[2023-05-15 23:51:50] INFO root fetch - processPackages [capitalpayments]: Downloading https://files.pythonhosted.org/packages/9f/25/824bffda8c39286807ec386cdf16eb9e0dae2191899d2f9209b53acceab5/capitalpayments-0.1.2.tar.gz
+[2023-05-15 23:51:50] INFO root fetch - processPackages [capitalpayments]: executing diffoscope
+[2023-05-15 23:51:50] INFO root fetch - processPackages [capitalpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capitalpayments-0.1.1.tar.gz tmp/capitalpayments-0.1.2.tar.gz --markdown 20230515/c/capitalpayments/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 23:51:50] INFO root fetch - processPackages [pyrgo]: Downloading https://files.pythonhosted.org/packages/1c/26/6bbc8b636942e6b5f765257aa7760dd77fb6458ab2dbba76cf15ec1160c6/pyrgo-0.2.2.tar.gz
+[2023-05-15 23:51:50] INFO root fetch - processPackages [pyrgo]: executing diffoscope
+[2023-05-15 23:51:50] INFO root fetch - processPackages [pyrgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrgo-0.2.1.tar.gz tmp/pyrgo-0.2.2.tar.gz --markdown 20230515/p/pyrgo/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-15 23:51:50] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2023-05-15 23:51:50] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2023-05-15 23:51:50] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20230515/d/dclab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 23:51:51] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-15 23:51:51] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-15 23:51:51] INFO root fetch - main [MainThread]: End processing [capitalpayments]: success
+[2023-05-15 23:51:51] INFO root fetch - main [MainThread]: End processing [pyrgo]: success
+[2023-05-15 23:51:52] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2023-05-15 23:51:52] INFO root fetch - main [MainThread]: Store serial: [18113816]
