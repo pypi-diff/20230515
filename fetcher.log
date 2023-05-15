@@ -18842,3 +18842,81 @@ EOFError: EOF read where object expected
 [2023-05-15 19:22:07] INFO root fetch - main [MainThread]: End processing [pycolorkitV2]: success
 [2023-05-15 19:22:07] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-05-15 19:22:07] INFO root fetch - main [MainThread]: Store serial: [18111195]
+[2023-05-15 19:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111195]
+[2023-05-15 19:27:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ndtransform
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatcmd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mainnet
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-omnilogic-local
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ntscli-client
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-analytics-reference-architecture
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anyscale
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-quantity-history-location
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecida
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quartodoc
+[2023-05-15 19:27:17] WARNING root fetch - processPackages [ndtransform]: Skipping, unable to determine old version
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ndtransform]: Start processing: fonsim
+[2023-05-15 19:27:17] INFO root fetch - main [MainThread]: End processing [ndtransform] error
+[2023-05-15 19:27:17] INFO root fetch - processPackages [chatcmd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ntscli-client]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ecida]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [odoo-addon-stock-quantity-history-location]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [fonsim]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [quartodoc]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ntscli-client]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ntscli-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntscli_client-2.1.9.dev2-py3-none-any.whl.zip tmp/ntscli_client-2.1.9.dev3-py3-none-any.whl.zip --markdown 20230515/n/ntscli-client/2.1.9.dev2-2.1.9.dev3/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230515/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/c0/30/700140f2925e4ad025acfdc1f62f9fd1ae8041272e623e4fa9a60c391858/python_omnilogic_local-0.0.4.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [chatcmd]: Downloading https://files.pythonhosted.org/packages/2a/13/9520d294e43da29405bb010b86d9d9b3a7386f70c92513f0bea1d23a48ea/chatcmd-1.0.9.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [odoo-addon-stock-quantity-history-location]: Downloading https://files.pythonhosted.org/packages/02/cf/dfdb4045ae27b6843c7d7de4757b55e2496587486e38a0b33d674ea3745b/odoo_addon_stock_quantity_history_location-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-15 19:27:17] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/24/c2/6236f2f1bf94e1dea12b55fac2c9275170da186b141e8cc8ffede60b7a03/ecida-0.0.8.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [fonsim]: Downloading https://files.pythonhosted.org/packages/61/e6/ec84bc7286d8494196214cf93ef2cbac9f99992bfd1ee9ffd3a2f9b75a10/fonsim-0.3.0.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.0.3.tar.gz tmp/python_omnilogic_local-0.0.4.tar.gz --markdown 20230515/p/python-omnilogic-local/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/a7/cd/b7fdcfc6cbfb218af6498af8bb2cd76dd81d0b3bf5e8aeedba2b3f747fea/quartodoc-0.3.0.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [chatcmd]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [chatcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcmd-1.0.8.tar.gz tmp/chatcmd-1.0.9.tar.gz --markdown 20230515/c/chatcmd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.7.tar.gz tmp/ecida-0.0.8.tar.gz --markdown 20230515/e/ecida/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-05-15 19:27:17] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: s2aff
+[2023-05-15 19:27:17] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-05-15 19:27:17] INFO root fetch - processPackages [s2aff]: New version: [0.26] Old Version: [0.25]
+[2023-05-15 19:27:17] INFO root fetch - processPackages [odoo-addon-stock-quantity-history-location]: Downloading https://files.pythonhosted.org/packages/90/8d/4ca8a9021f6e4a16cdc1e62d50ecdb85edaf9987a273e9ab8d6ab2df8839/odoo_addon_stock_quantity_history_location-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 19:27:17] INFO root fetch - processPackages [fonsim]: Downloading https://files.pythonhosted.org/packages/4b/67/854590fe690949676c15173109e8726c4b971e431aa52d93c3d3bdaba33a/fonsim-0.4.0.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/06/6c/7ffd55a900022e2619eeeba1d9e9b28bd544d383c417b77cf0f4a07857fe/quartodoc-0.3.1.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/83/05/b30ffc98eb01ee234d60b468873630cc05e8be0d17fe1db1e8cd194f922f/s2aff-0.26.tar.gz
+[2023-05-15 19:27:17] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230515/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [quartodoc]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [quartodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartodoc-0.3.0.tar.gz tmp/quartodoc-0.3.1.tar.gz --markdown 20230515/q/quartodoc/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.25.tar.gz tmp/s2aff-0.26.tar.gz --markdown 20230515/s/s2aff/0.25-0.26/diff.md --exclude *.pyd
+[2023-05-15 19:27:17] INFO root fetch - processPackages [odoo-addon-stock-quantity-history-location]: executing diffoscope
+[2023-05-15 19:27:17] INFO root fetch - processPackages [odoo-addon-stock-quantity-history-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_quantity_history_location-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_quantity_history_location-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-stock-quantity-history-location/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 19:27:18] INFO root fetch - processPackages [fonsim]: executing diffoscope
+[2023-05-15 19:27:18] INFO root fetch - processPackages [fonsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fonsim-0.3.0.tar.gz tmp/fonsim-0.4.0.tar.gz --markdown 20230515/f/fonsim/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 19:27:18] INFO root fetch - processPackages [python-omnilogic-local]: Start processing: appian-locust
+[2023-05-15 19:27:18] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-15 19:27:18] INFO root fetch - processPackages [appian-locust]: New version: [2.0.0a1] Old Version: [2.0.0a0]
+[2023-05-15 19:27:18] INFO root fetch - main [MainThread]: End processing [ntscli-client]: success
+[2023-05-15 19:27:18] INFO root fetch - processPackages [appian-locust]: executing diffoscope
+[2023-05-15 19:27:18] INFO root fetch - processPackages [appian-locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appian-locust-2.0.0a0.tar.gz tmp/appian-locust-2.0.0a1.tar.gz --markdown 20230515/a/appian-locust/2.0.0a0-2.0.0a1/diff.md --exclude *.pyd
+[2023-05-15 19:27:18] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-15 19:27:19] INFO root fetch - main [MainThread]: End processing [chatcmd]: success
+[2023-05-15 19:27:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-quantity-history-location]: success
+[2023-05-15 19:27:19] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-15 19:27:20] INFO root fetch - main [MainThread]: End processing [appian-locust]: success
+[2023-05-15 19:27:20] INFO root fetch - main [MainThread]: End processing [quartodoc]: success
+[2023-05-15 19:27:21] INFO root fetch - main [MainThread]: End processing [fonsim]: success
+[2023-05-15 19:27:23] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-15 19:27:31] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-05-15 19:27:31] INFO root fetch - main [MainThread]: Store serial: [18111232]
