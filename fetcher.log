@@ -10589,3 +10589,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:54:40] INFO root fetch - main [MainThread]: End processing [gocardless-pro]: success
 [2023-05-15 12:54:40] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
 [2023-05-15 12:54:40] INFO root fetch - main [MainThread]: Store serial: [18106165]
+[2023-05-15 12:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18106165]
+[2023-05-15 12:59:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-kubeflow
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prova-pypi
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hikari-core
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hoppysearch
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artesian-sdk
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: returnn
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ensemble-model
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkov
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes
+[2023-05-15 12:59:51] INFO root fetch - processPackages [easy-kubeflow]: New version: [0.0.7] Old Version: [0.0.6rc2]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [artesian-sdk]: New version: [3.0.9.dev7] Old Version: [3.0.9.dev5]
+[2023-05-15 12:59:51] WARNING root fetch - processPackages [hoppysearch]: Skipping, unable to determine old version
+[2023-05-15 12:59:51] INFO root fetch - processPackages [hoppysearch]: Start processing: aiida-nanotech-empa
+[2023-05-15 12:59:51] INFO root fetch - main [MainThread]: End processing [hoppysearch] error
+[2023-05-15 12:59:51] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: New version: [20230515.10.57.254778] Old Version: [20230514.15.28.926758]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [hikari-core]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 12:59:51] WARNING root fetch - processPackages [ensemble-model]: Skipping, unable to determine old version
+[2023-05-15 12:59:51] INFO root fetch - processPackages [ensemble-model]: Start processing: scintillometry
+[2023-05-15 12:59:51] INFO root fetch - main [MainThread]: End processing [ensemble-model] error
+[2023-05-15 12:59:51] INFO root fetch - processPackages [returnn]: New version: [1.20230515.93528] Old Version: [1.20230515.124116]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [scintillometry]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [aiida-nanotech-empa]: New version: [1.0.0b0] Old Version: [1.0.0a0]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/7b/e1/76df0b86fe12b05fdb164b30ec2a92fcd5c4eaf4004dfc7a54a037ff84ae/easy-kubeflow-0.0.6rc2.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [artesian-sdk]: Downloading https://files.pythonhosted.org/packages/cf/6f/95b3252ae933fc13a40a9acc2e8566d25f9333ac3a1f277eceb29d015321/artesian-sdk-3.0.9.dev5.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Downloading https://files.pythonhosted.org/packages/05/11/6e6000224788edd62d74f6f450d5d987fe044c9c23cf7290f74b3f27e98a/certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes-20230514.15.28.926758.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/6e/26/5fec768b39f80ccb948bf9a1f6702c9028d4cf552f7e4b5d4c344bb09fd1/returnn-1.20230515.124116.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [prova-pypi]: Downloading https://files.pythonhosted.org/packages/3c/6c/5de32a335b297c03f14ae38973ba4fdfaf75c1364ee2acf8487e48d30c14/prova_pypi-0.0.7.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [scintillometry]: Downloading https://files.pythonhosted.org/packages/7b/67/51bd2b97f10ce5601f27e0b0843503f6fe7b82e182fe44743dcd8277a7ce/scintillometry-1.0.0.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [hikari-core]: Downloading https://files.pythonhosted.org/packages/69/bf/8a3c4a6e85648ab6611f9e69bde0a1ba9d67bf79168a6309337b20acaa78/hikari_core-0.1.5.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [aiida-nanotech-empa]: Downloading https://files.pythonhosted.org/packages/c8/a7/598e1b2fdd0e3c0bcfb60c4c58c8a30903a411f03a5ff7fe3eaf0dc24be7/aiida-nanotech-empa-1.0.0a0.tar.gz
+[2023-05-15 12:59:51] WARNING root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Skipping package: exceeds size limit 39431202>=10485760
+[2023-05-15 12:59:51] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Start processing: security-util-py
+[2023-05-15 12:59:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes] error
+[2023-05-15 12:59:51] INFO root fetch - processPackages [security-util-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 12:59:51] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 12:59:51] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.6.tar.gz tmp/prova_pypi-0.0.7.tar.gz --markdown 20230515/p/prova-pypi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 12:59:51] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [artesian-sdk]: Downloading https://files.pythonhosted.org/packages/b6/b8/ec730f0c3bcecc6f4e99d511bf4fc60aced2bd2167cbb795553d42da053b/artesian-sdk-3.0.9.dev7.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [artesian-sdk]: executing diffoscope
+[2023-05-15 12:59:51] INFO root fetch - processPackages [artesian-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artesian-sdk-3.0.9.dev5.tar.gz tmp/artesian-sdk-3.0.9.dev7.tar.gz --markdown 20230515/a/artesian-sdk/3.0.9.dev5-3.0.9.dev7/diff.md --exclude *.pyd
+[2023-05-15 12:59:51] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/39/5c/dbfb18b37e6544efa7a664a20791b4b6a541aede3e15b7a5d88bd9d14fe1/easy-kubeflow-0.0.7.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [security-util-py]: Downloading https://files.pythonhosted.org/packages/f6/25/a10eea261da0a8b3f520fb7c6db9272631f019da364b46939a16cbe0834d/security-util-py-0.0.3.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [scintillometry]: Downloading https://files.pythonhosted.org/packages/a9/ca/36943dec94661e6cb1cd1fe14f3b8ae5053545b91fdb1c9231a3c5f05fe3/scintillometry-1.0.1.tar.gz
+[2023-05-15 12:59:51] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-15 12:59:51] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230515.124116.tar.gz tmp/returnn-1.20230515.93528.tar.gz --markdown 20230515/r/returnn/1.20230515.124116-1.20230515.93528/diff.md --exclude *.pyd
+[2023-05-15 12:59:52] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-05-15 12:59:52] INFO root fetch - processPackages [easy-kubeflow]: executing diffoscope
+[2023-05-15 12:59:52] INFO root fetch - processPackages [easy-kubeflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-kubeflow-0.0.6rc2.tar.gz tmp/easy-kubeflow-0.0.7.tar.gz --markdown 20230515/e/easy-kubeflow/0.0.6rc2-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 12:59:52] INFO root fetch - processPackages [aiida-nanotech-empa]: Downloading https://files.pythonhosted.org/packages/7f/5f/5a1a5a1bd0603f62724d2998fdd6c1554272b39503d20a308956fd0236d3/aiida_nanotech_empa-1.0.0b0.tar.gz
+[2023-05-15 12:59:52] INFO root fetch - processPackages [scintillometry]: executing diffoscope
+[2023-05-15 12:59:52] INFO root fetch - processPackages [scintillometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scintillometry-1.0.0.tar.gz tmp/scintillometry-1.0.1.tar.gz --markdown 20230515/s/scintillometry/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 12:59:52] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-15 12:59:52] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230515/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-15 12:59:52] INFO root fetch - processPackages [security-util-py]: Downloading https://files.pythonhosted.org/packages/fc/45/803e753f220a00a8f61e82d2c4735bcaa41e064e9db9f06c49680090b44a/security-util-py-0.0.4.tar.gz
+[2023-05-15 12:59:52] INFO root fetch - processPackages [hikari-core]: executing diffoscope
+[2023-05-15 12:59:52] INFO root fetch - processPackages [hikari-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_core-0.1.4.tar.gz tmp/hikari_core-0.1.5.tar.gz --markdown 20230515/h/hikari-core/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 12:59:52] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-05-15 12:59:52] INFO root fetch - processPackages [security-util-py]: executing diffoscope
+[2023-05-15 12:59:52] INFO root fetch - processPackages [security-util-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/security-util-py-0.0.3.tar.gz tmp/security-util-py-0.0.4.tar.gz --markdown 20230515/s/security-util-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 12:59:52] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-15 12:59:52] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230515/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 12:59:52] INFO root fetch - processPackages [aiida-nanotech-empa]: executing diffoscope
+[2023-05-15 12:59:52] INFO root fetch - processPackages [aiida-nanotech-empa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-nanotech-empa-1.0.0a0.tar.gz tmp/aiida_nanotech_empa-1.0.0b0.tar.gz --markdown 20230515/a/aiida-nanotech-empa/1.0.0a0-1.0.0b0/diff.md --exclude *.pyd
+[2023-05-15 12:59:53] INFO root fetch - processPackages [prova-pypi]: Start processing: dao-analyzer
+[2023-05-15 12:59:53] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 12:59:53] INFO root fetch - processPackages [dao-analyzer]: New version: [1.2.7.dev4] Old Version: [1.2.6.dev9]
+[2023-05-15 12:59:53] INFO root fetch - processPackages [security-util-py]: Start processing: langchain-serve
+[2023-05-15 12:59:53] INFO root fetch - main [MainThread]: End processing [security-util-py]: success
+[2023-05-15 12:59:53] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/f2/a9/2d0574551a8075265703fd8ad3799e7825ebeb3765019411778cba73afe2/dao-analyzer-1.2.7.dev4.tar.gz
+[2023-05-15 12:59:53] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-15 12:59:53] INFO root fetch - processPackages [easy-kubeflow]: Start processing: wtfutil
+[2023-05-15 12:59:53] INFO root fetch - main [MainThread]: End processing [easy-kubeflow]: success
+[2023-05-15 12:59:53] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-05-15 12:59:53] INFO root fetch - processPackages [wizata-dsapi]: Start processing: neuromllite
+[2023-05-15 12:59:53] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-15 12:59:53] INFO root fetch - processPackages [wtfutil]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 12:59:54] INFO root fetch - processPackages [neuromllite]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-15 12:59:54] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2023-05-15 12:59:54] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao-analyzer-1.2.6.dev9.tar.gz tmp/dao-analyzer-1.2.7.dev4.tar.gz --markdown 20230515/d/dao-analyzer/1.2.6.dev9-1.2.7.dev4/diff.md --exclude *.pyd
+[2023-05-15 12:59:54] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-05-15 12:59:54] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/12/bc/897c6ecb3e3b1ce776dc39c9957a139a5cc8b7aee44e6d94feb5f1470bf2/wtfutil-1.0.8.tar.gz
+[2023-05-15 12:59:54] INFO root fetch - processPackages [neuromllite]: Downloading https://files.pythonhosted.org/packages/b0/cb/2488dfc79f69993c59fd792d854e46c6548707a5497df9fe4fe9fced48cc/neuromllite-0.5.3.tar.gz
+[2023-05-15 12:59:54] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-15 12:59:54] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230515/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-15 12:59:54] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/dd/35/e253fdefd8394eb5f3d912857750dca0fc2a5261f82926c2b1c3e107500e/wtfutil-1.0.9.tar.gz
+[2023-05-15 12:59:54] INFO root fetch - processPackages [neuromllite]: Downloading https://files.pythonhosted.org/packages/22/d5/2788223ef55373dc4dfc9801f4b90df22730a88194f51873d3cb5d21fda2/neuromllite-0.5.4.tar.gz
+[2023-05-15 12:59:54] INFO root fetch - processPackages [wtfutil]: executing diffoscope
+[2023-05-15 12:59:54] INFO root fetch - processPackages [wtfutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfutil-1.0.8.tar.gz tmp/wtfutil-1.0.9.tar.gz --markdown 20230515/w/wtfutil/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 12:59:54] INFO root fetch - processPackages [neuromllite]: executing diffoscope
+[2023-05-15 12:59:54] INFO root fetch - processPackages [neuromllite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromllite-0.5.3.tar.gz tmp/neuromllite-0.5.4.tar.gz --markdown 20230515/n/neuromllite/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-15 12:59:54] INFO root fetch - processPackages [artesian-sdk]: Start processing: tradernet-sdk
+[2023-05-15 12:59:54] INFO root fetch - main [MainThread]: End processing [artesian-sdk]: success
+[2023-05-15 12:59:54] INFO root fetch - processPackages [tradernet-sdk]: New version: [0.3.7] Old Version: [0.3.4]
+[2023-05-15 12:59:55] INFO root fetch - main [MainThread]: End processing [aiida-nanotech-empa]: success
+[2023-05-15 12:59:55] INFO root fetch - processPackages [tradernet-sdk]: Downloading https://files.pythonhosted.org/packages/af/4d/c8cf1bf2a04c2ed8b07842d2d8d6f28ce390a4decec1319691e6c1a2a3b3/tradernet_sdk-0.3.4.tar.gz
+[2023-05-15 12:59:55] INFO root fetch - main [MainThread]: End processing [scintillometry]: success
+[2023-05-15 12:59:55] INFO root fetch - processPackages [tradernet-sdk]: Downloading https://files.pythonhosted.org/packages/53/6a/599488acdb4d95d568d7064cdfc067c488dfe2ac6035fd30d3d99b1cc2a1/tradernet_sdk-0.3.7.tar.gz
+[2023-05-15 12:59:55] INFO root fetch - processPackages [tradernet-sdk]: executing diffoscope
+[2023-05-15 12:59:55] INFO root fetch - processPackages [tradernet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradernet_sdk-0.3.4.tar.gz tmp/tradernet_sdk-0.3.7.tar.gz --markdown 20230515/t/tradernet-sdk/0.3.4-0.3.7/diff.md --exclude *.pyd
+[2023-05-15 12:59:55] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-15 12:59:55] INFO root fetch - main [MainThread]: End processing [wtfutil]: success
+[2023-05-15 12:59:55] INFO root fetch - main [MainThread]: End processing [neuromllite]: success
+[2023-05-15 12:59:56] INFO root fetch - main [MainThread]: End processing [tradernet-sdk]: success
+[2023-05-15 12:59:59] INFO root fetch - main [MainThread]: End processing [hikari-core]: success
+[2023-05-15 12:59:59] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2023-05-15 13:00:00] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-15 13:00:38] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-15 13:00:38] INFO root fetch - main [MainThread]: Store serial: [18106251]
