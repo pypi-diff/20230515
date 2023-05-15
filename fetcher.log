@@ -13947,3 +13947,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 15:10:46] INFO root fetch - main [MainThread]: End processing [ksconf]: success
 [2023-05-15 15:11:16] INFO root fetch - main [MainThread]: End processing [wop]: success
 [2023-05-15 15:11:16] INFO root fetch - main [MainThread]: Store serial: [18108316]
+[2023-05-15 15:16:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108316]
+[2023-05-15 15:16:25] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-alex-configscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codecov-cli
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serverless-sdk
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: circuitbreaker
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shellapp1
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pandas
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omicscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dlplan
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pytorch
+[2023-05-15 15:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bcvContext
+[2023-05-15 15:16:25] INFO root fetch - processPackages [bcvContext]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [circuitbreaker]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-05-15 15:16:25] WARNING root fetch - processPackages [shellapp1]: Skipping, unable to determine old version
+[2023-05-15 15:16:25] INFO root fetch - processPackages [shellapp1]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-15 15:16:25] INFO root fetch - main [MainThread]: End processing [shellapp1] error
+[2023-05-15 15:16:25] INFO root fetch - processPackages [certora-cli-alpha-alex-configscope]: New version: [20230515.13.10.603022] Old Version: [20230515.12.41.386387]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [serverless-sdk]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [codecov-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [omicscope]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [dlplan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230515/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/35/9f/fa5fd01aaaa746f893ccd73ec77481e887171c3e7171867766545c6477df/bcvcontext-0.1.2.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [circuitbreaker]: Downloading https://files.pythonhosted.org/packages/92/ec/7f1dd19e3878f5391afb508e6a2fd8d9e5b176ca2992b90b55926c7341d8/circuitbreaker-1.4.0.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [certora-cli-alpha-alex-configscope]: Downloading https://files.pythonhosted.org/packages/88/d8/04aeab04f74c593f8d5689516314e43354a199c46c59fc6e8c5cf7dd76dd/certora-cli-alpha-alex-configscope-20230515.12.41.386387.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [omicscope]: Downloading https://files.pythonhosted.org/packages/67/df/1771b1d2839fa21ded09e21d4c7b6e7479bb740086c4b90ceae93a0ae34a/omicscope-1.2.1.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/44/32/2a9d8abdec5b83aac32515703405c4cea98833378391a714bda3de2b5be0/serverless-sdk-0.4.7.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [dlplan]: Downloading https://files.pythonhosted.org/packages/46/e6/e9ebad99149aad66fec79f4dcdd42f03336dfb754300761454f302e1d45b/dlplan-0.2.8.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [codecov-cli]: Downloading https://files.pythonhosted.org/packages/29/d2/34ea421302ac578c18b3ed19cde1397aa3e6fc7a0c89e3ae8732033ccf3c/codecov-cli-0.1.8.tar.gz
+[2023-05-15 15:16:25] WARNING root fetch - processPackages [certora-cli-alpha-alex-configscope]: Skipping package: exceeds size limit 39463503>=10485760
+[2023-05-15 15:16:25] INFO root fetch - processPackages [certora-cli-alpha-alex-configscope]: Start processing: archimedes-python-client
+[2023-05-15 15:16:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-configscope] error
+[2023-05-15 15:16:25] INFO root fetch - processPackages [bcvContext]: executing diffoscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [bcvContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcvcontext-0.1.1.tar.gz tmp/bcvcontext-0.1.2.tar.gz --markdown 20230515/b/bcvContext/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 15:16:25] WARNING root fetch - processPackages [omicscope]: Skipping package: exceeds size limit 28795183>=10485760
+[2023-05-15 15:16:25] INFO root fetch - processPackages [omicscope]: Start processing: nbdev-scipy
+[2023-05-15 15:16:25] INFO root fetch - main [MainThread]: End processing [omicscope] error
+[2023-05-15 15:16:25] INFO root fetch - processPackages [circuitbreaker]: Downloading https://files.pythonhosted.org/packages/23/57/3bc8f0885c6914336d0b2fe36bf740476f0c827b3fb991993d67c1a9d3f3/circuitbreaker-2.0.0.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [archimedes-python-client]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-05-15 15:16:25] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/a7/19/f93827d0a76b7d8be82dea57518cbc31562532e06653eb7ff4f2f6c5a423/serverless-sdk-0.4.8.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230515/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 15:16:25] INFO root fetch - processPackages [dlplan]: Downloading https://files.pythonhosted.org/packages/25/12/007293cb28b43b25c3f4cb484bfebe2fe85df8e8a3cad7fa9e21c18702e3/dlplan-0.2.9.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230515/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 15:16:25] INFO root fetch - processPackages [codecov-cli]: Downloading https://files.pythonhosted.org/packages/0c/e4/568353f208ad000e0597c937944dbb2c2f9b4e1864dbaad15c9c43ac3c91/codecov-cli-0.1.9.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [circuitbreaker]: executing diffoscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [circuitbreaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitbreaker-1.4.0.tar.gz tmp/circuitbreaker-2.0.0.tar.gz --markdown 20230515/c/circuitbreaker/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-15 15:16:25] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/31/fb/2086e9e3fb37986436ca47dca9879d3d503780a91e0d2c045c319f825059/archimedes_python_client-4.8.3.tar.gz
+[2023-05-15 15:16:25] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.7.tar.gz tmp/serverless-sdk-0.4.8.tar.gz --markdown 20230515/s/serverless-sdk/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-15 15:16:25] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-05-15 15:16:25] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.2.8.tar.gz tmp/dlplan-0.2.9.tar.gz --markdown 20230515/d/dlplan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 15:16:26] INFO root fetch - processPackages [codecov-cli]: executing diffoscope
+[2023-05-15 15:16:26] INFO root fetch - processPackages [codecov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecov-cli-0.1.8.tar.gz tmp/codecov-cli-0.1.9.tar.gz --markdown 20230515/c/codecov-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 15:16:26] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-05-15 15:16:26] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-15 15:16:26] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230515/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 15:16:26] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/d2/f1/7c35edeab7f2c8c504b9e00e68f6b64247857ede6f4f85b9f4953a55c15e/archimedes_python_client-4.9.0.tar.gz
+[2023-05-15 15:16:26] INFO root fetch - processPackages [archimedes-python-client]: executing diffoscope
+[2023-05-15 15:16:26] INFO root fetch - processPackages [archimedes-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archimedes_python_client-4.8.3.tar.gz tmp/archimedes_python_client-4.9.0.tar.gz --markdown 20230515/a/archimedes-python-client/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-05-15 15:16:27] INFO root fetch - processPackages [bcvContext]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 15:16:27] INFO root fetch - main [MainThread]: End processing [bcvContext]: success
+[2023-05-15 15:16:27] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.9.25.738539] Old Version: [20230515.8.30.947345]
+[2023-05-15 15:16:27] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/bf/ef/01dbf730e79959b14a661e61d8251b68e10c12a2362b5ea487bf586f1e6b/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.8.30.947345.tar.gz
+[2023-05-15 15:16:27] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430959>=10485760
+[2023-05-15 15:16:27] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: seunggabi-core-python
+[2023-05-15 15:16:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 15:16:27] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-15 15:16:27] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: Simba-UW-tf-dev
+[2023-05-15 15:16:27] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-15 15:16:27] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/70/87/42529cc3741f13a5936efc78aba49fe50464eb4cbca94723686fb8a4ef4c/seunggabi_core_python-0.0.2.tar.gz
+[2023-05-15 15:16:27] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.59.4] Old Version: [1.59.3]
+[2023-05-15 15:16:27] INFO root fetch - processPackages [nbdev-scipy]: Start processing: oc-ds-converter
+[2023-05-15 15:16:27] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-15 15:16:28] WARNING root fetch - processPackages [oc-ds-converter]: Skipping, unable to determine old version
+[2023-05-15 15:16:28] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/17/7a/3e741d6ec3c3897940c63d89bd01e5f29ab84784ab9fce1205d78c581e66/seunggabi_core_python-0.1.0.tar.gz
+[2023-05-15 15:16:28] INFO root fetch - processPackages [oc-ds-converter]: Start processing: nbdev-sphinx
+[2023-05-15 15:16:28] INFO root fetch - main [MainThread]: End processing [oc-ds-converter] error
+[2023-05-15 15:16:28] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 15:16:28] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-05-15 15:16:28] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-15 15:16:28] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/83/36/0663c467c1f29badd7f991f36ad64e43a04bdb4bc5db1a1a54431900a1dc/Simba-UW-tf-dev-1.59.4.tar.gz
+[2023-05-15 15:16:28] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.0.2.tar.gz tmp/seunggabi_core_python-0.1.0.tar.gz --markdown 20230515/s/seunggabi-core-python/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 15:16:28] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230515/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 15:16:28] INFO root fetch - main [MainThread]: End processing [circuitbreaker]: success
+[2023-05-15 15:16:28] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-15 15:16:28] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-05-15 15:16:28] INFO root fetch - main [MainThread]: End processing [archimedes-python-client]: success
+[2023-05-15 15:16:28] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-15 15:16:28] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.59.3.tar.gz tmp/Simba-UW-tf-dev-1.59.4.tar.gz --markdown 20230515/S/Simba-UW-tf-dev/1.59.3-1.59.4/diff.md --exclude *.pyd
+[2023-05-15 15:16:29] INFO root fetch - main [MainThread]: End processing [codecov-cli]: success
+[2023-05-15 15:16:29] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-05-15 15:16:30] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-15 15:16:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-15 15:16:32] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-05-15 15:16:36] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-15 15:16:36] INFO root fetch - main [MainThread]: Store serial: [18108374]
