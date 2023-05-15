@@ -19584,3 +19584,95 @@ EOFError: EOF read where object expected
 [2023-05-15 20:10:54] INFO root fetch - main [MainThread]: End processing [pyatv]: success
 [2023-05-15 20:10:54] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics]: success
 [2023-05-15 20:10:54] INFO root fetch - main [MainThread]: Store serial: [18111705]
+[2023-05-15 20:16:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111705]
+[2023-05-15 20:16:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volttron-platform-driver
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crate-sim
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qget
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seaplane
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pineappl
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mapped-pb
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orquestra-sdk
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ox_ui
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bxsolana-trader-proto
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: baseflow
+[2023-05-15 20:16:05] INFO root fetch - processPackages [qget]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [seaplane]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [mapped-pb]: New version: [0.35.34] Old Version: [0.33.4]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [qget]: executing diffoscope
+[2023-05-15 20:16:05] INFO root fetch - processPackages [qget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qget-0.1.5.tar.gz tmp/qget-0.1.6.tar.gz --markdown 20230515/q/qget/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 20:16:05] INFO root fetch - processPackages [baseflow]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 20:16:05] WARNING root fetch - processPackages [crate-sim]: Skipping, unable to determine old version
+[2023-05-15 20:16:05] INFO root fetch - processPackages [volttron-platform-driver]: New version: [0.2.1rc1] Old Version: [0.2.1rc0]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [crate-sim]: Start processing: astro-eddy
+[2023-05-15 20:16:05] INFO root fetch - main [MainThread]: End processing [crate-sim] error
+[2023-05-15 20:16:05] INFO root fetch - processPackages [orquestra-sdk]: New version: [0.48.0] Old Version: [0.47.0]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [ox_ui]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-05-15 20:16:05] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230515/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 20:16:05] INFO root fetch - processPackages [pineappl]: New version: [0.6.0a9] Old Version: [0.6.0a8]
+[2023-05-15 20:16:05] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/a7/21/e314707826ac540683267a48d3bc8631697caaddfb6620e2a0570c3f72fa/seaplane-0.3.1.tar.gz
+[2023-05-15 20:16:05] INFO root fetch - processPackages [mapped-pb]: Downloading https://files.pythonhosted.org/packages/a5/59/735eb543c41c7d4a6dece81246de90c909a1aa00beae7edb5462d729965a/mapped.pb-0.33.4.tar.gz
+[2023-05-15 20:16:05] INFO root fetch - processPackages [astro-eddy]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-05-15 20:16:06] INFO root fetch - processPackages [baseflow]: Downloading https://files.pythonhosted.org/packages/c6/b7/b3aff0232e35d2fc9c930448343e80a365d00a77b5e41c41ac3abb2f7bb8/baseflow-0.0.6.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/43/2a/5c4f0dd1c061ff69270d519dfd1da086227be8a6985a778da8915f18435b/orquestra-sdk-0.47.0.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [ox_ui]: Downloading https://files.pythonhosted.org/packages/24/44/7b0b88ddf355c0240087fc0579b8f46466fb72b883d27db025be4cb05904/ox_ui-0.3.3.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [pineappl]: Downloading https://files.pythonhosted.org/packages/ad/77/76244c770fa3c162e17ac95e7f297f4b8b53d83ec548338c8000b38b269d/pineappl-0.6.0a8.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.0.tar.gz tmp/seaplane-0.3.1.tar.gz --markdown 20230515/s/seaplane/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 20:16:06] INFO root fetch - processPackages [volttron-platform-driver]: Downloading https://files.pythonhosted.org/packages/a2/90/738b8201227090454f85c3812a4157ee5acc40ce5afb2259e8477ee13a5e/volttron_platform_driver-0.2.1rc1.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [astro-eddy]: Downloading https://files.pythonhosted.org/packages/67/60/7df0ac872a9f712bfae3fae604bcb2ce262f9c6b7c0ec0cad4cba4bfbcd9/astro-eddy-2.3.7.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [volttron-platform-driver]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [volttron-platform-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_platform_driver-0.2.1rc0.tar.gz tmp/volttron_platform_driver-0.2.1rc1.tar.gz --markdown 20230515/v/volttron-platform-driver/0.2.1rc0-0.2.1rc1/diff.md --exclude *.pyd
+[2023-05-15 20:16:06] INFO root fetch - processPackages [mapped-pb]: Downloading https://files.pythonhosted.org/packages/c2/57/29e11fd3f613e8ba5e592ee9cfecf72c372f85902e0733b204f7b8c9ea62/mapped.pb-0.35.34.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [ox_ui]: Downloading https://files.pythonhosted.org/packages/64/5d/a4805dff25705e23e4526d8cd019abb9544bd43f2d05dae1b2f67eec5992/ox_ui-0.3.4.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/45/3b/179546593d4c88bc3eab01ac6e8f36b6fa370054e17f73ec44f32be846ee/orquestra_sdk-0.48.0-py3-none-any.whl
+[2023-05-15 20:16:06] INFO root fetch - processPackages [mapped-pb]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [mapped-pb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapped.pb-0.33.4.tar.gz tmp/mapped.pb-0.35.34.tar.gz --markdown 20230515/m/mapped-pb/0.33.4-0.35.34/diff.md --exclude *.pyd
+[2023-05-15 20:16:06] INFO root fetch - processPackages [pineappl]: Downloading https://files.pythonhosted.org/packages/2f/c0/e06b725a07b108caa3d55ac61cf961893119ba0c8a7f0ab59ed04cc78e47/pineappl-0.6.0a9.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [baseflow]: Downloading https://files.pythonhosted.org/packages/92/9b/57eb8d005a0a1952332ea15c8ee0460f8adbeb4405f55bbc4236080aab9a/baseflow-0.0.7.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [ox_ui]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [ox_ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ox_ui-0.3.3.tar.gz tmp/ox_ui-0.3.4.tar.gz --markdown 20230515/o/ox_ui/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-15 20:16:06] INFO root fetch - processPackages [astro-eddy]: Downloading https://files.pythonhosted.org/packages/46/c5/c68d8699002f80b558caf6e15ec0fae5b9145238bc61d97a983c2fb1c041/astro-eddy-2.3.9.tar.gz
+[2023-05-15 20:16:06] INFO root fetch - processPackages [pineappl]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [pineappl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineappl-0.6.0a8.tar.gz tmp/pineappl-0.6.0a9.tar.gz --markdown 20230515/p/pineappl/0.6.0a8-0.6.0a9/diff.md --exclude *.pyd
+[2023-05-15 20:16:06] INFO root fetch - processPackages [orquestra-sdk]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [orquestra-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra-sdk-0.47.0.tar.gz tmp/orquestra_sdk-0.48.0-py3-none-any.whl.zip --markdown 20230515/o/orquestra-sdk/0.47.0-0.48.0/diff.md --exclude *.pyd
+[2023-05-15 20:16:06] INFO root fetch - processPackages [baseflow]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [baseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseflow-0.0.6.tar.gz tmp/baseflow-0.0.7.tar.gz --markdown 20230515/b/baseflow/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 20:16:06] INFO root fetch - processPackages [astro-eddy]: executing diffoscope
+[2023-05-15 20:16:06] INFO root fetch - processPackages [astro-eddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-eddy-2.3.7.tar.gz tmp/astro-eddy-2.3.9.tar.gz --markdown 20230515/a/astro-eddy/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-05-15 20:16:07] INFO root fetch - processPackages [bxsolana-trader-proto]: Start processing: st-ant-statistic
+[2023-05-15 20:16:07] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-05-15 20:16:07] WARNING root fetch - processPackages [st-ant-statistic]: Skipping, unable to determine old version
+[2023-05-15 20:16:07] INFO root fetch - processPackages [st-ant-statistic]: Start processing: cdk8s
+[2023-05-15 20:16:07] INFO root fetch - main [MainThread]: End processing [st-ant-statistic] error
+[2023-05-15 20:16:07] INFO root fetch - processPackages [qget]: Start processing: biocypher
+[2023-05-15 20:16:07] INFO root fetch - main [MainThread]: End processing [qget]: success
+[2023-05-15 20:16:07] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-15 20:16:07] INFO root fetch - processPackages [biocypher]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-15 20:16:07] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-15 20:16:07] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230515/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-15 20:16:07] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/05/44/6a698ee7a3f25cac7ac85f9065432566d172eb7d6e302338dbee1acb6708/biocypher-0.5.8.tar.gz
+[2023-05-15 20:16:07] INFO root fetch - processPackages [volttron-platform-driver]: Start processing: ritc
+[2023-05-15 20:16:07] INFO root fetch - main [MainThread]: End processing [volttron-platform-driver]: success
+[2023-05-15 20:16:07] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-05-15 20:16:07] INFO root fetch - processPackages [ritc]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-05-15 20:16:07] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/80/4a/28f3088067da67049a9b777015a3aa4326f5782b2be3e17c661232fe6b8d/biocypher-0.5.9.tar.gz
+[2023-05-15 20:16:08] INFO root fetch - processPackages [ritc]: Downloading https://files.pythonhosted.org/packages/43/7c/42adbf816372866a7c62938afc4bbfb92343d6706202cbf768be7e461d33/ritc-0.0.4.tar.gz
+[2023-05-15 20:16:08] INFO root fetch - main [MainThread]: End processing [mapped-pb]: success
+[2023-05-15 20:16:08] INFO root fetch - processPackages [biocypher]: executing diffoscope
+[2023-05-15 20:16:08] INFO root fetch - processPackages [biocypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocypher-0.5.8.tar.gz tmp/biocypher-0.5.9.tar.gz --markdown 20230515/b/biocypher/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-15 20:16:08] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
+[2023-05-15 20:16:08] INFO root fetch - main [MainThread]: End processing [ox_ui]: success
+[2023-05-15 20:16:08] INFO root fetch - processPackages [ritc]: Downloading https://files.pythonhosted.org/packages/43/68/b0c701da2df5c7981f701dc1874ada2a7e92b94369f0ec39187bb5b7aef9/ritc-1.0.0.tar.gz
+[2023-05-15 20:16:08] INFO root fetch - main [MainThread]: End processing [astro-eddy]: success
+[2023-05-15 20:16:08] INFO root fetch - processPackages [ritc]: executing diffoscope
+[2023-05-15 20:16:08] INFO root fetch - processPackages [ritc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ritc-0.0.4.tar.gz tmp/ritc-1.0.0.tar.gz --markdown 20230515/r/ritc/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-15 20:16:09] INFO root fetch - main [MainThread]: End processing [pineappl]: success
+[2023-05-15 20:16:09] INFO root fetch - main [MainThread]: End processing [ritc]: success
+[2023-05-15 20:16:09] INFO root fetch - main [MainThread]: End processing [baseflow]: success
+[2023-05-15 20:16:10] INFO root fetch - main [MainThread]: End processing [biocypher]: success
+[2023-05-15 20:16:10] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-15 20:16:10] INFO root fetch - main [MainThread]: Store serial: [18111761]
