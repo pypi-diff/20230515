@@ -20663,3 +20663,77 @@ EOFError: EOF read where object expected
 [2023-05-15 21:20:19] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2023-05-15 21:20:53] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
 [2023-05-15 21:20:53] INFO root fetch - main [MainThread]: Store serial: [18112369]
+[2023-05-15 21:25:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112369]
+[2023-05-15 21:26:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyphy-python
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioext
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opendatacrawler
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-callapi
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geotribu
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wiremock
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hivclustering
+[2023-05-15 21:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acids-msprior
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hyphy-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [acids-msprior]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [kfish]: New version: [99.0.202305151916] Old Version: [99.0.202305151910]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [wiremock]: New version: [2.4.0a0] Old Version: [2.3.1]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-05-15 21:26:03] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230515/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 21:26:03] INFO root fetch - processPackages [nonebot-plugin-callapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hivclustering]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [bioext]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [acids-msprior]: executing diffoscope
+[2023-05-15 21:26:03] INFO root fetch - processPackages [acids-msprior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids-msprior-1.0.5.tar.gz tmp/acids-msprior-1.0.6.tar.gz --markdown 20230515/a/acids-msprior/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-15 21:26:03] INFO root fetch - processPackages [kcli]: New version: [99.0.202305151920] Old Version: [99.0.202305151914]
+[2023-05-15 21:26:03] INFO root fetch - processPackages [wiremock]: executing diffoscope
+[2023-05-15 21:26:03] INFO root fetch - processPackages [wiremock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiremock-2.3.1.tar.gz tmp/wiremock-2.4.0a0.tar.gz --markdown 20230515/w/wiremock/2.3.1-2.4.0a0/diff.md --exclude *.pyd
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hyphy-python]: Downloading https://files.pythonhosted.org/packages/81/b8/b608f19e0ecd9eabc9c67e8a25905ae25e1ab748db0979e3fef5e42944be/hyphy-python-0.1.8.tar.gz
+[2023-05-15 21:26:03] INFO root fetch - processPackages [nonebot-plugin-callapi]: Downloading https://files.pythonhosted.org/packages/dd/6a/593f1f3cc5f97bfee86362be4c677bdd139a78e14b9476431504b7c91c7f/nonebot_plugin_callapi-0.1.0.tar.gz
+[2023-05-15 21:26:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c8/b9/0e43e3a6a1e53ce1750f2e812c7b4acd73d483840fb8bf49b96d6a1ebf34/kfish-99.0.202305151916-py3-none-any.whl
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hivclustering]: Downloading https://files.pythonhosted.org/packages/8c/27/1c8b29923936dda2893e2c060062bd99c11c01806a769fce6213d12d6587/hivclustering-1.6.3.tar.gz
+[2023-05-15 21:26:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e1/04/627634dfb86bc01306ecfd3c282873db1c4d12efc1589fc0ce22fa710c0a/kcli-99.0.202305151914-py3-none-any.whl
+[2023-05-15 21:26:03] INFO root fetch - processPackages [bioext]: Downloading https://files.pythonhosted.org/packages/1f/8f/4a2146c95d17d58912245bef8118024ec7041435bc711e22b742e511bea5/bioext-0.9.4.tar.gz
+[2023-05-15 21:26:03] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-15 21:26:03] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305151910-py3-none-any.whl.zip tmp/kfish-99.0.202305151916-py3-none-any.whl.zip --markdown 20230515/k/kfish/99.0.202305151910-99.0.202305151916/diff.md --exclude *.pyd
+[2023-05-15 21:26:03] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-05-15 21:26:03] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.8.tar.gz tmp/opendatacrawler-1.0.9.tar.gz --markdown 20230515/o/opendatacrawler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:26:03] INFO root fetch - processPackages [nonebot-plugin-callapi]: Downloading https://files.pythonhosted.org/packages/8b/3d/38d7241a2cfd79a052b55c613925c67badd35b04ce46fd268c0d30fe0158/nonebot_plugin_callapi-0.1.1.tar.gz
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hivclustering]: Downloading https://files.pythonhosted.org/packages/f4/87/b69a4f8b1b5495cdd411fbf6b26719c614bf9df2769dc879d8ebc629c9b4/hivclustering-1.6.4.tar.gz
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hyphy-python]: Downloading https://files.pythonhosted.org/packages/c1/6f/ad136621dab08d9a12b3a92a71634b5b04315a15ed3cb6787e23f2d39064/hyphy-python-0.1.9.tar.gz
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hivclustering]: executing diffoscope
+[2023-05-15 21:26:03] INFO root fetch - processPackages [hivclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivclustering-1.6.3.tar.gz tmp/hivclustering-1.6.4.tar.gz --markdown 20230515/h/hivclustering/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-05-15 21:26:03] INFO root fetch - processPackages [nonebot-plugin-callapi]: executing diffoscope
+[2023-05-15 21:26:03] INFO root fetch - processPackages [nonebot-plugin-callapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_callapi-0.1.0.tar.gz tmp/nonebot_plugin_callapi-0.1.1.tar.gz --markdown 20230515/n/nonebot-plugin-callapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 21:26:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/98/21/a44b2c60729ca1a71595df73ed20fed7fab73709fbf2064318bd4436721d/kcli-99.0.202305151920-py3-none-any.whl
+[2023-05-15 21:26:04] INFO root fetch - processPackages [hyphy-python]: executing diffoscope
+[2023-05-15 21:26:04] INFO root fetch - processPackages [hyphy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyphy-python-0.1.8.tar.gz tmp/hyphy-python-0.1.9.tar.gz --markdown 20230515/h/hyphy-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 21:26:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 21:26:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305151914-py3-none-any.whl.zip tmp/kcli-99.0.202305151920-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305151914-99.0.202305151920/diff.md --exclude *.pyd
+[2023-05-15 21:26:04] INFO root fetch - processPackages [bioext]: Downloading https://files.pythonhosted.org/packages/af/1a/8479f8f6be58624275e6e3f26e6d6c225da8f3b87199fe310c5474ad087a/bioext-0.9.5.tar.gz
+[2023-05-15 21:26:04] INFO root fetch - processPackages [geotribu]: Start processing: pycoloringsaddition
+[2023-05-15 21:26:04] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-05-15 21:26:04] INFO root fetch - processPackages [bioext]: executing diffoscope
+[2023-05-15 21:26:04] INFO root fetch - processPackages [bioext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioext-0.9.4.tar.gz tmp/bioext-0.9.5.tar.gz --markdown 20230515/b/bioext/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-15 21:26:04] WARNING root fetch - processPackages [pycoloringsaddition]: Skipping, unable to determine old version
+[2023-05-15 21:26:04] INFO root fetch - processPackages [pycoloringsaddition]: Start processing: shillelagh
+[2023-05-15 21:26:04] INFO root fetch - main [MainThread]: End processing [pycoloringsaddition] error
+[2023-05-15 21:26:04] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-15 21:26:04] INFO root fetch - main [MainThread]: End processing [acids-msprior]: success
+[2023-05-15 21:26:04] INFO root fetch - processPackages [shillelagh]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-15 21:26:04] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/03/bc/698030e0d9c20ecd5047b5a90a27cbe0fc292ba56424828f638a05c3d77c/shillelagh-1.2.2.tar.gz
+[2023-05-15 21:26:04] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-05-15 21:26:05] INFO root fetch - main [MainThread]: End processing [hivclustering]: success
+[2023-05-15 21:26:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-callapi]: success
+[2023-05-15 21:26:05] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/fe/5e/163d13515017ee0d423adb93132c6c0335d3751bf02e1c17fa1de5eabe11/shillelagh-1.2.3.tar.gz
+[2023-05-15 21:26:05] INFO root fetch - main [MainThread]: End processing [bioext]: success
+[2023-05-15 21:26:05] INFO root fetch - processPackages [shillelagh]: executing diffoscope
+[2023-05-15 21:26:05] INFO root fetch - processPackages [shillelagh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shillelagh-1.2.2.tar.gz tmp/shillelagh-1.2.3.tar.gz --markdown 20230515/s/shillelagh/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-15 21:26:08] INFO root fetch - main [MainThread]: End processing [shillelagh]: success
+[2023-05-15 21:26:08] INFO root fetch - main [MainThread]: End processing [wiremock]: success
+[2023-05-15 21:26:13] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 21:26:29] INFO root fetch - main [MainThread]: End processing [hyphy-python]: success
+[2023-05-15 21:26:29] INFO root fetch - main [MainThread]: Store serial: [18112406]
