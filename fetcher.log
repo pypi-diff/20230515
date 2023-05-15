@@ -20503,3 +20503,91 @@ EOFError: EOF read where object expected
 [2023-05-15 21:09:14] INFO root fetch - main [MainThread]: End processing [nester-struct]: success
 [2023-05-15 21:09:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-15 21:09:19] INFO root fetch - main [MainThread]: Store serial: [18112227]
+[2023-05-15 21:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112227]
+[2023-05-15 21:14:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoapps
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gridworks-proactor
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: publish-to-zhihu
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astronomer-e2e-test
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ox_ui
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-logikal
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catchexception
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yroom
+[2023-05-15 21:14:29] INFO root fetch - processPackages [gridworks-proactor]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ox_ui]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [catchexception]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [kfish]: New version: [99.0.202305151910] Old Version: [99.0.202305141903]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [publish-to-zhihu]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [astronomer-e2e-test]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [pytest-logikal]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [yroom]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230515191021] Old Version: [2.0.3.dev20230515103020]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [geoapps]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-15 21:14:29] INFO root fetch - processPackages [publish-to-zhihu]: Downloading https://files.pythonhosted.org/packages/f5/f8/22b8a882b468bc051468522bcf9def8ca011b886f5417f0f03839dfcec1c/publish_to_zhihu-0.1.4.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [catchexception]: Downloading https://files.pythonhosted.org/packages/c6/a5/da3d66a96b4c34b96c64d15b069cfb866819b2a52005e0013880a726da0f/catchexception-0.1.0.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [geoapps]: Downloading https://files.pythonhosted.org/packages/48/3b/b982fc9a3d10998ad7bf9417eea649ad6f353b6d38234dd7731b1425b73f/geoapps-0.9.1.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/91/06/08c89b4b91f764964595eb73e0ed512ab60af5bd4fc4bd0224332379294f/pytest-logikal-1.8.3.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/41/3b/6583e28e0428fc3d9eb9df01ddf94f3a1804297dc3a8819595e4fe0a2957/gridworks_proactor-0.2.1.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/88/7b/08ab5610bb826e8c0eca2b49c964aa61ce80eacecd7ab1d9a0d56f34d7d5/localstack-core-2.0.3.dev20230515191021.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [astronomer-e2e-test]: Downloading https://files.pythonhosted.org/packages/a6/90/75d3d092140ff106f94ff8d7f3977732d1eca7aeec753a8130476504fd31/astronomer_e2e_test-0.3.4-py3-none-any.whl
+[2023-05-15 21:14:29] INFO root fetch - processPackages [ox_ui]: Downloading https://files.pythonhosted.org/packages/d1/b3/a3ba639bb7f8468f620118a196b0555604b0c6eca22b9768891c66e501dc/ox_ui-0.3.5.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [yroom]: Downloading https://files.pythonhosted.org/packages/f3/f3/801e7763e2167ec403e199f237eabba99f8bac3ac2835e9e233ec569f7b9/yroom-0.0.6.tar.gz
+[2023-05-15 21:14:29] INFO root fetch - processPackages [publish-to-zhihu]: executing diffoscope
+[2023-05-15 21:14:29] INFO root fetch - processPackages [publish-to-zhihu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publish_to_zhihu-0.1.3.tar.gz tmp/publish_to_zhihu-0.1.4.tar.gz --markdown 20230515/p/publish-to-zhihu/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] INFO root fetch - processPackages [gridworks-proactor]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [gridworks-proactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_proactor-0.2.0.tar.gz tmp/gridworks_proactor-0.2.1.tar.gz --markdown 20230515/g/gridworks-proactor/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] INFO root fetch - processPackages [ox_ui]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [ox_ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ox_ui-0.3.4.tar.gz tmp/ox_ui-0.3.5.tar.gz --markdown 20230515/o/ox_ui/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/8f/42/33de1cee57a938969738981d29dba438d449a1f280dcf79d9441d81582ed/kfish-99.0.202305151910-py3-none-any.whl
+[2023-05-15 21:14:30] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230515103020.tar.gz tmp/localstack-core-2.0.3.dev20230515191021.tar.gz --markdown 20230515/l/localstack-core/2.0.3.dev20230515103020-2.0.3.dev20230515191021/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-logikal-1.8.2.tar.gz tmp/pytest-logikal-1.8.3.tar.gz --markdown 20230515/p/pytest-logikal/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] INFO root fetch - processPackages [catchexception]: Downloading https://files.pythonhosted.org/packages/80/2f/e2e90e8f0e55b2938b19f96b9d8bb801121b5b49b4e20cd59f1400c8f970/catchexception-0.1.1.tar.gz
+[2023-05-15 21:14:30] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305141903-py3-none-any.whl.zip tmp/kfish-99.0.202305151910-py3-none-any.whl.zip --markdown 20230515/k/kfish/99.0.202305141903-99.0.202305151910/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] INFO root fetch - processPackages [yroom]: Downloading https://files.pythonhosted.org/packages/7b/ff/bed23ff55c3834320bb6311f90243a73647da6d8eaf5f05bc84e9a67530b/yroom-0.0.7-cp37-none-win_amd64.whl
+[2023-05-15 21:14:30] INFO root fetch - processPackages [catchexception]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [catchexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchexception-0.1.0.tar.gz tmp/catchexception-0.1.1.tar.gz --markdown 20230515/c/catchexception/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] WARNING root fetch - processPackages [geoapps]: Skipping package: exceeds size limit 14173092>=10485760
+[2023-05-15 21:14:30] INFO root fetch - processPackages [geoapps]: Start processing: dvc-studio-client
+[2023-05-15 21:14:30] INFO root fetch - main [MainThread]: End processing [geoapps] error
+[2023-05-15 21:14:30] INFO root fetch - processPackages [dvc-studio-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-15 21:14:30] INFO root fetch - processPackages [dvc-studio-client]: Downloading https://files.pythonhosted.org/packages/c9/5c/f250a26c5d07de2c9b1988705df9e09a801f056c49aa82175a029a656f0e/dvc-studio-client-0.9.0.tar.gz
+[2023-05-15 21:14:30] INFO root fetch - processPackages [astronomer-e2e-test]: Downloading https://files.pythonhosted.org/packages/b8/97/bda297bd7c9711814e83a8b8703b848be05e8ae578efe89a2ba78e5dfb58/astronomer_e2e_test-0.3.5-py3-none-any.whl
+[2023-05-15 21:14:30] INFO root fetch - processPackages [dvc-studio-client]: Downloading https://files.pythonhosted.org/packages/0b/4a/c4c8ccb0315c946b1c11739cda5cf4eb59e473038ea21c9575458e472ca1/dvc-studio-client-0.9.1.tar.gz
+[2023-05-15 21:14:30] INFO root fetch - processPackages [astronomer-e2e-test]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [astronomer-e2e-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_e2e_test-0.3.4-py3-none-any.whl.zip tmp/astronomer_e2e_test-0.3.5-py3-none-any.whl.zip --markdown 20230515/a/astronomer-e2e-test/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-15 21:14:30] INFO root fetch - processPackages [dvc-studio-client]: executing diffoscope
+[2023-05-15 21:14:30] INFO root fetch - processPackages [dvc-studio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-studio-client-0.9.0.tar.gz tmp/dvc-studio-client-0.9.1.tar.gz --markdown 20230515/d/dvc-studio-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 21:14:31] INFO root fetch - processPackages [yroom]: executing diffoscope
+[2023-05-15 21:14:31] INFO root fetch - processPackages [yroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yroom-0.0.6.tar.gz tmp/yroom-0.0.7-cp37-none-win_amd64.whl.zip --markdown 20230515/y/yroom/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-15 21:14:31] INFO root fetch - processPackages [publish-to-zhihu]: Start processing: pulumi-cloudflare
+[2023-05-15 21:14:31] INFO root fetch - main [MainThread]: End processing [publish-to-zhihu]: success
+[2023-05-15 21:14:31] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.2.0a1684176873] Old Version: [5.1.0a1683926391]
+[2023-05-15 21:14:31] INFO root fetch - processPackages [kfish]: Start processing: kcli
+[2023-05-15 21:14:31] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-15 21:14:31] INFO root fetch - processPackages [kcli]: New version: [99.0.202305151907] Old Version: [99.0.202305151328]
+[2023-05-15 21:14:31] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/d9/ce/094cc9618c6b045ff0d37eadf7e2496d5ad6cf4a3b7186dee4a768d91cc6/pulumi_cloudflare-5.2.0a1684176873.tar.gz
+[2023-05-15 21:14:31] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 21:14:31] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305151328-py3-none-any.whl.zip tmp/kcli-99.0.202305151907-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305151328-99.0.202305151907/diff.md --exclude *.pyd
+[2023-05-15 21:14:31] INFO root fetch - processPackages [ox_ui]: Start processing: cdk-extensions
+[2023-05-15 21:14:31] INFO root fetch - main [MainThread]: End processing [ox_ui]: success
+[2023-05-15 21:14:31] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-05-15 21:14:31] INFO root fetch - main [MainThread]: End processing [catchexception]: success
+[2023-05-15 21:14:31] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2023-05-15 21:14:31] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-15 21:14:31] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.1.0a1683926391.tar.gz tmp/pulumi_cloudflare-5.2.0a1684176873.tar.gz --markdown 20230515/p/pulumi-cloudflare/5.1.0a1683926391-5.2.0a1684176873/diff.md --exclude *.pyd
+[2023-05-15 21:14:31] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-05-15 21:14:31] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.62.tar.gz tmp/cdk-extensions-0.0.63.tar.gz --markdown 20230515/c/cdk-extensions/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-05-15 21:14:32] INFO root fetch - main [MainThread]: End processing [dvc-studio-client]: success
+[2023-05-15 21:14:32] INFO root fetch - main [MainThread]: End processing [astronomer-e2e-test]: success
+[2023-05-15 21:14:32] INFO root fetch - main [MainThread]: End processing [gridworks-proactor]: success
+[2023-05-15 21:14:34] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-15 21:14:35] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-05-15 21:14:37] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-15 21:14:39] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 21:15:05] INFO root fetch - main [MainThread]: End processing [yroom]: success
+[2023-05-15 21:15:05] INFO root fetch - main [MainThread]: Store serial: [18112291]
