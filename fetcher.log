@@ -15179,3 +15179,128 @@ EOFError: EOF read where object expected
 [2023-05-15 16:22:20] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
 [2023-05-15 16:23:05] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-05-15 16:23:05] INFO root fetch - main [MainThread]: Store serial: [18109081]
+[2023-05-15 16:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109081]
+[2023-05-15 16:28:15] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ikabot
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sherlockpipe
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfir-iris-client
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monailabel
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-aug
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iambic-core
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twirl
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nPYc
+[2023-05-15 16:28:15] INFO root fetch - processPackages [monailabel]: New version: [0.7.0rc6] Old Version: [0.7.0rc5]
+[2023-05-15 16:28:15] WARNING root fetch - processPackages [keras-aug]: Skipping, unable to determine old version
+[2023-05-15 16:28:15] INFO root fetch - processPackages [keras-aug]: Start processing: xxxsss
+[2023-05-15 16:28:15] INFO root fetch - main [MainThread]: End processing [keras-aug] error
+[2023-05-15 16:28:15] INFO root fetch - processPackages [nPYc]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [twirl]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [twirl]: executing diffoscope
+[2023-05-15 16:28:15] INFO root fetch - processPackages [twirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twirl-0.1.3.tar.gz tmp/twirl-0.2.0.tar.gz --markdown 20230515/t/twirl/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 16:28:15] INFO root fetch - processPackages [dfir-iris-client]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [iambic-core]: New version: [0.7.6] Old Version: [0.7.3]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ikabot]: New version: [6.6.1] Old Version: [6.5.9]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-15 16:28:15] WARNING root fetch - processPackages [xxxsss]: Skipping, unable to determine old version
+[2023-05-15 16:28:15] INFO root fetch - processPackages [xxxsss]: Start processing: tala
+[2023-05-15 16:28:15] INFO root fetch - main [MainThread]: End processing [xxxsss] error
+[2023-05-15 16:28:15] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/da/47/e9b2b1d1515d9ca6bac8a04dc205dfd501319ae2da27fc1d9fd582589008/monailabel-0.7.0rc5-202304171453-py3-none-any.whl
+[2023-05-15 16:28:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-15 16:28:15] INFO root fetch - processPackages [nPYc]: Downloading https://files.pythonhosted.org/packages/9b/3b/e1bb60fdbc83aad22701484d0f1e76aed83080f6f1f9af9e80980de922ca/nPYc-1.2.6.tar.gz
+[2023-05-15 16:28:15] INFO root fetch - processPackages [dfir-iris-client]: Downloading https://files.pythonhosted.org/packages/90/96/ecea8885bcd8689a0e8ff87496f86d19017e30a9764601e9bc81c92fde9d/dfir_iris_client-2.0.0.tar.gz
+[2023-05-15 16:28:15] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 16:28:15] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2023-05-15 16:28:15] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:28:15] INFO root fetch - processPackages [ikabot]: Downloading https://files.pythonhosted.org/packages/26/5b/e9d957f9404d9ecdc7a7225bddfbcacccec8b2ec638c762b3dd882664415/ikabot-6.5.9.tar.gz
+[2023-05-15 16:28:15] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/30/72/618384031f2d4eed2e4a45abfea6d09856627dfa7ac149b9647dabea785e/iambic_core-0.7.3.tar.gz
+[2023-05-15 16:28:16] INFO root fetch - processPackages [dfir-iris-client]: Downloading https://files.pythonhosted.org/packages/50/f8/430f88348283458dd02d179391cb12beb1fc928850b6573de744c21ea6e2/dfir-iris-client-2.0.1.tar.gz
+[2023-05-15 16:28:16] INFO root fetch - processPackages [ikabot]: Downloading https://files.pythonhosted.org/packages/ee/bd/afed2eee3e1909c043df9d183e841ac82df473df4b872b6ab12d9224b96c/ikabot-6.6.1.tar.gz
+[2023-05-15 16:28:16] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/41/49/d64860f6b28dc83990a43bd6aee21061aa1debdc918722e4a0017e9e9a24/iambic_core-0.7.6.tar.gz
+[2023-05-15 16:28:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230515/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230515/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/41/1d/31cb4a3f6245ba519249d3c54003b0c1d36f36fe93ef82607c37b32d9e09/monailabel-0.7.0rc6-202304270423-py3-none-any.whl
+[2023-05-15 16:28:16] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2023-05-15 16:28:16] INFO root fetch - processPackages [nPYc]: Downloading https://files.pythonhosted.org/packages/3e/30/56b9c50e6793aabf2bb7190562fbe1f03013d551223a772e8ee97173d14e/nPYc-1.2.7.tar.gz
+[2023-05-15 16:28:16] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.7.3.tar.gz tmp/iambic_core-0.7.6.tar.gz --markdown 20230515/i/iambic-core/0.7.3-0.7.6/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [dfir-iris-client]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [dfir-iris-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfir_iris_client-2.0.0.tar.gz tmp/dfir-iris-client-2.0.1.tar.gz --markdown 20230515/d/dfir-iris-client/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [ikabot]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [ikabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ikabot-6.5.9.tar.gz tmp/ikabot-6.6.1.tar.gz --markdown 20230515/i/ikabot/6.5.9-6.6.1/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [nPYc]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [nPYc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nPYc-1.2.6.tar.gz tmp/nPYc-1.2.7.tar.gz --markdown 20230515/n/nPYc/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [monailabel]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [monailabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel-0.7.0rc5-202304171453-py3-none-any.whl.zip tmp/monailabel-0.7.0rc6-202304270423-py3-none-any.whl.zip --markdown 20230515/m/monailabel/0.7.0rc5-0.7.0rc6/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-05-15 16:28:16] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230515/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-15 16:28:16] INFO root fetch - processPackages [twirl]: Start processing: biom3d
+[2023-05-15 16:28:16] INFO root fetch - main [MainThread]: End processing [twirl]: success
+[2023-05-15 16:28:16] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-15 16:28:17] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/4f/53/c25cedaf854e7754675041bd48cb20b71dfd8e97dd3d0b8c79f7e87b6a51/biom3d-0.0.7.tar.gz
+[2023-05-15 16:28:17] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/b4/8d/1ccb9010d14d8a5e01159e7875fcc6fcdd100db65de19cfb377504cb21be/biom3d-0.0.9.tar.gz
+[2023-05-15 16:28:17] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-05-15 16:28:17] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230515/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:28:18] INFO root fetch - processPackages [sherlockpipe]: Start processing: zigpy-zboss
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-05-15 16:28:18] INFO root fetch - processPackages [spanishconjugator]: Start processing: gauravqr
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-15 16:28:18] INFO root fetch - processPackages [dfir-iris-client]: Start processing: rxnmapper
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [dfir-iris-client]: success
+[2023-05-15 16:28:18] WARNING root fetch - processPackages [zigpy-zboss]: Skipping, unable to determine old version
+[2023-05-15 16:28:18] INFO root fetch - processPackages [zigpy-zboss]: Start processing: pyecl
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [zigpy-zboss] error
+[2023-05-15 16:28:18] INFO root fetch - processPackages [spanishconjugator]: Start processing: odoo12-addon-sm-partago-user
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-15 16:28:18] WARNING root fetch - processPackages [gauravqr]: Skipping, unable to determine old version
+[2023-05-15 16:28:18] INFO root fetch - processPackages [gauravqr]: Start processing: pythoncryptographyextensionsV2
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [gauravqr] error
+[2023-05-15 16:28:18] INFO root fetch - processPackages [rxnmapper]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 16:28:18] INFO root fetch - processPackages [ikabot]: Start processing: peopledatalabs
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [ikabot]: success
+[2023-05-15 16:28:18] INFO root fetch - processPackages [pyecl]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-15 16:28:18] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: New version: [12.0.0.1.8] Old Version: [12.0.0.1.7]
+[2023-05-15 16:28:18] INFO root fetch - processPackages [peopledatalabs]: New version: [1.1.5] Old Version: [1.1.3]
+[2023-05-15 16:28:18] WARNING root fetch - processPackages [pythoncryptographyextensionsV2]: Skipping, unable to determine old version
+[2023-05-15 16:28:18] INFO root fetch - processPackages [pythoncryptographyextensionsV2]: Start processing: cellacdc
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [pythoncryptographyextensionsV2] error
+[2023-05-15 16:28:18] INFO root fetch - processPackages [rxnmapper]: Downloading https://files.pythonhosted.org/packages/04/45/5dcc9a70fe8efe8e11cdf3546600c78348f156f3bd658e75b956f07a56cd/rxnmapper-0.2.8.tar.gz
+[2023-05-15 16:28:18] INFO root fetch - processPackages [pyecl]: Downloading https://files.pythonhosted.org/packages/e0/1c/94165581145d2220aecc1a16f3ad54db45abb7a8f5eaf959dfe2cd551ff9/pyecl-0.0.1.tar.gz
+[2023-05-15 16:28:18] INFO root fetch - processPackages [cellacdc]: New version: [1.3.0] Old Version: [1.2.8]
+[2023-05-15 16:28:18] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: Downloading https://files.pythonhosted.org/packages/75/52/e43fc59d248265330fd9c61b5bcfd7f3d5329e1ee416a93e5c9cbecb7398/odoo12_addon_sm_partago_user-12.0.0.1.7-py2.py3-none-any.whl
+[2023-05-15 16:28:18] INFO root fetch - processPackages [peopledatalabs]: executing diffoscope
+[2023-05-15 16:28:18] INFO root fetch - processPackages [peopledatalabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peopledatalabs-1.1.3.tar.gz tmp/peopledatalabs-1.1.5.tar.gz --markdown 20230515/p/peopledatalabs/1.1.3-1.1.5/diff.md --exclude *.pyd
+[2023-05-15 16:28:18] INFO root fetch - processPackages [cellacdc]: Downloading https://files.pythonhosted.org/packages/42/c6/a8fc48451b240a44a309acbd6a6925003f2be7b3d5840f1e41932e38c7a9/cellacdc-1.2.8.tar.gz
+[2023-05-15 16:28:18] INFO root fetch - processPackages [pyecl]: Downloading https://files.pythonhosted.org/packages/d4/c5/9817fc66fd8a093078bb1c5fd785f96157318ac040eb4d369745c352412f/pyecl-0.1.0.tar.gz
+[2023-05-15 16:28:18] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: Downloading https://files.pythonhosted.org/packages/a7/92/ad49880a7f2a8d2e97026c4bdcfa4eaecf40fc0169ce4acd9b57cc963a12/odoo12_addon_sm_partago_user-12.0.0.1.8-py2.py3-none-any.whl
+[2023-05-15 16:28:18] INFO root fetch - processPackages [rxnmapper]: Downloading https://files.pythonhosted.org/packages/f3/74/3dfe36e793250c7604656e359d6e4bb9fd03c32505371ec34efcc68b794d/rxnmapper-0.2.9.tar.gz
+[2023-05-15 16:28:18] INFO root fetch - processPackages [iambic-core]: Start processing: searchkit
+[2023-05-15 16:28:18] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-05-15 16:28:19] INFO root fetch - processPackages [pyecl]: executing diffoscope
+[2023-05-15 16:28:19] INFO root fetch - processPackages [pyecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecl-0.0.1.tar.gz tmp/pyecl-0.1.0.tar.gz --markdown 20230515/p/pyecl/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 16:28:19] WARNING root fetch - processPackages [cellacdc]: Skipping package: exceeds size limit 54351371>=10485760
+[2023-05-15 16:28:19] INFO root fetch - main [MainThread]: End processing [cellacdc] error
+[2023-05-15 16:28:19] INFO root fetch - processPackages [searchkit]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-15 16:28:19] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: executing diffoscope
+[2023-05-15 16:28:19] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_user-12.0.0.1.7-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_user-12.0.0.1.8-py2.py3-none-any.whl.zip --markdown 20230515/o/odoo12-addon-sm-partago-user/12.0.0.1.7-12.0.0.1.8/diff.md --exclude *.pyd
+[2023-05-15 16:28:19] INFO root fetch - main [MainThread]: End processing [nPYc]: success
+[2023-05-15 16:28:19] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/4d/4e/2da468b08ed00785865151e402424f9df377d526c706d6f3f501aa9e3e27/searchkit-0.2.4.tar.gz
+[2023-05-15 16:28:19] INFO root fetch - processPackages [rxnmapper]: executing diffoscope
+[2023-05-15 16:28:19] INFO root fetch - processPackages [rxnmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxnmapper-0.2.8.tar.gz tmp/rxnmapper-0.2.9.tar.gz --markdown 20230515/r/rxnmapper/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 16:28:19] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-05-15 16:28:19] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/21/44/8fbca96e35edac1d1ca7d379eb06606d7cac3601985424d4e0eef04f4586/searchkit-0.2.5.tar.gz
+[2023-05-15 16:28:19] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 16:28:19] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2023-05-15 16:28:19] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.2.4.tar.gz tmp/searchkit-0.2.5.tar.gz --markdown 20230515/s/searchkit/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-15 16:28:20] INFO root fetch - main [MainThread]: End processing [peopledatalabs]: success
+[2023-05-15 16:28:20] INFO root fetch - main [MainThread]: End processing [pyecl]: success
+[2023-05-15 16:28:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-user]: success
+[2023-05-15 16:28:20] INFO root fetch - main [MainThread]: End processing [rxnmapper]: success
+[2023-05-15 16:28:20] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2023-05-15 16:28:23] INFO root fetch - main [MainThread]: End processing [monailabel]: success
+[2023-05-15 16:28:23] INFO root fetch - main [MainThread]: Store serial: [18109163]
