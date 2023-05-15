@@ -5630,3 +5630,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 08:18:59] INFO root fetch - main [MainThread]: End processing [fovus]: success
 [2023-05-15 08:19:04] INFO root fetch - main [MainThread]: End processing [soakdb3]: success
 [2023-05-15 08:19:04] INFO root fetch - main [MainThread]: Store serial: [18103486]
+[2023-05-15 08:24:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103486]
+[2023-05-15 08:24:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ukitai
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalai-release-sdk
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretext
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usdm
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starextractor
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptcompletion
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neftron
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cipherLV
+[2023-05-15 08:24:21] INFO root fetch - processPackages [cipherLV]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 08:24:21] WARNING root fetch - processPackages [neftron]: Skipping, unable to determine old version
+[2023-05-15 08:24:21] INFO root fetch - main [MainThread]: End processing [neftron] error
+[2023-05-15 08:24:21] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230515] Old Version: [1.5.3.dev20230514]
+[2023-05-15 08:24:21] INFO root fetch - processPackages [starextractor]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 08:24:21] INFO root fetch - processPackages [digitalai-release-sdk]: New version: [23.1.0rc1] Old Version: [23.1.0]
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ptcompletion]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ukitai]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-15 08:24:21] INFO root fetch - processPackages [usdm]: New version: [0.26.0] Old Version: [0.25.0]
+[2023-05-15 08:24:21] INFO root fetch - processPackages [starextractor]: executing diffoscope
+[2023-05-15 08:24:21] INFO root fetch - processPackages [starextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starextractor-0.1.3-py3-none-any.whl.zip tmp/starextractor-0.1.4-py3-none-any.whl.zip --markdown 20230515/s/starextractor/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 08:24:21] INFO root fetch - processPackages [digitalai-release-sdk]: Downloading https://files.pythonhosted.org/packages/e4/f5/6a1736c4a4500dc898781378eebf62e8abca4a4474e028abbfff06fcc10f/digitalai_release_sdk-23.1.0.tar.gz
+[2023-05-15 08:24:21] INFO root fetch - processPackages [cipherLV]: Downloading https://files.pythonhosted.org/packages/ed/5c/226082ef659dd9c4ea998bb22360bee00b075f8125889dd461e2f7f53aef/cipherLV-0.1.4.tar.gz
+[2023-05-15 08:24:21] INFO root fetch - processPackages [ptcompletion]: Downloading https://files.pythonhosted.org/packages/80/bf/767ba0a289a58f43b1e95cad734ee0707a46dd48ec32650a8f414b4107d1/ptcompletion-0.1.2.tar.gz
+[2023-05-15 08:24:21] INFO root fetch - processPackages [usdm]: Downloading https://files.pythonhosted.org/packages/e5/06/b5cdca0368c5149461c0a22a8ca8cb27346b439f59c4941aa668b5ab50f7/usdm-0.25.0.tar.gz
+[2023-05-15 08:24:21] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/04/98/338cf1c783f8c0218d5bf20fbe8a9afa714d223d587073f6f611d58bdcc1/pretext-1.5.3.dev20230515.tar.gz
+[2023-05-15 08:24:21] INFO root fetch - processPackages [cipherLV]: executing diffoscope
+[2023-05-15 08:24:21] INFO root fetch - processPackages [cipherLV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cipherLV-0.1.3.tar.gz tmp/cipherLV-0.1.4.tar.gz --markdown 20230515/c/cipherLV/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 08:24:21] WARNING root fetch - processPackages [ukitai]: fallback to get urls: [0.1.4]
+[2023-05-15 08:24:21] WARNING root fetch - processPackages [ukitai]: None
+[2023-05-15 08:24:22] WARNING root fetch - processPackages [ukitai]: None
+[2023-05-15 08:24:22] WARNING root fetch - processPackages [ukitai]: unable to get url for both version [0.1.4]
+[2023-05-15 08:24:22] INFO root fetch - processPackages [ptcompletion]: Downloading https://files.pythonhosted.org/packages/84/da/95d614136ee93cbc1ffd3dbe55c1b4cc2d19a05fc67735a2d676c5349a21/ptcompletion-0.2.0.tar.gz
+[2023-05-15 08:24:22] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-15 08:24:22] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230514.tar.gz tmp/pretext-1.5.3.dev20230515.tar.gz --markdown 20230515/p/pretext/1.5.3.dev20230514-1.5.3.dev20230515/diff.md --exclude *.pyd
+[2023-05-15 08:24:22] WARNING root fetch - processPackages [ukitai]: None
+[2023-05-15 08:24:22] INFO root fetch - main [MainThread]: End processing [ukitai] error
+[2023-05-15 08:24:22] INFO root fetch - processPackages [digitalai-release-sdk]: Downloading https://files.pythonhosted.org/packages/55/4e/02d449ea6c7ada2b6872905ccb384a648b5d1293349d773cc79afd3e8f0f/digitalai_release_sdk-23.1.0rc1.tar.gz
+[2023-05-15 08:24:22] INFO root fetch - processPackages [usdm]: Downloading https://files.pythonhosted.org/packages/57/f9/341b7ca40dfb480b56069f0c858cb6d1f6ec92a4d14441182c9c8bb2c004/usdm-0.26.0.tar.gz
+[2023-05-15 08:24:22] INFO root fetch - processPackages [usdm]: executing diffoscope
+[2023-05-15 08:24:22] INFO root fetch - processPackages [usdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usdm-0.25.0.tar.gz tmp/usdm-0.26.0.tar.gz --markdown 20230515/u/usdm/0.25.0-0.26.0/diff.md --exclude *.pyd
+[2023-05-15 08:24:22] INFO root fetch - processPackages [ptcompletion]: executing diffoscope
+[2023-05-15 08:24:22] INFO root fetch - processPackages [ptcompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcompletion-0.1.2.tar.gz tmp/ptcompletion-0.2.0.tar.gz --markdown 20230515/p/ptcompletion/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 08:24:22] INFO root fetch - processPackages [digitalai-release-sdk]: executing diffoscope
+[2023-05-15 08:24:22] INFO root fetch - processPackages [digitalai-release-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalai_release_sdk-23.1.0.tar.gz tmp/digitalai_release_sdk-23.1.0rc1.tar.gz --markdown 20230515/d/digitalai-release-sdk/23.1.0-23.1.0rc1/diff.md --exclude *.pyd
+[2023-05-15 08:24:22] INFO root fetch - main [MainThread]: End processing [starextractor]: success
+[2023-05-15 08:24:23] INFO root fetch - main [MainThread]: End processing [cipherLV]: success
+[2023-05-15 08:24:23] INFO root fetch - main [MainThread]: End processing [ptcompletion]: success
+[2023-05-15 08:24:24] INFO root fetch - main [MainThread]: End processing [digitalai-release-sdk]: success
+[2023-05-15 08:24:25] INFO root fetch - main [MainThread]: End processing [usdm]: success
+[2023-05-15 08:24:26] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-15 08:24:26] INFO root fetch - main [MainThread]: Store serial: [18103510]
