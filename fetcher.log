@@ -5326,3 +5326,26 @@
 [2023-05-15 07:42:22] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
 [2023-05-15 07:42:22] INFO root fetch - main [MainThread]: End processing [dualopt]: success
 [2023-05-15 07:42:22] INFO root fetch - main [MainThread]: Store serial: [18103356]
+[2023-05-15 07:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103356]
+[2023-05-15 07:47:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-15 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: layrz-forms
+[2023-05-15 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layrz-sdk
+[2023-05-15 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-05-15 07:47:32] INFO root fetch - processPackages [layrz-forms]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-15 07:47:32] INFO root fetch - processPackages [layrz-sdk]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-15 07:47:32] INFO root fetch - processPackages [bagbag]: New version: [0.59.3] Old Version: [0.59.2]
+[2023-05-15 07:47:32] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/39/37/b160af948e7a86ff6957ef53405b043bbe17fe9714a5b2b36f08217435e9/bagbag-0.59.2.tar.gz
+[2023-05-15 07:47:32] INFO root fetch - processPackages [layrz-forms]: Downloading https://files.pythonhosted.org/packages/2e/99/7d5674e17da1292a46a5a60048ce5e66cad67f7b6f103f9af46e4f273b1b/layrz-forms-1.0.7.tar.gz
+[2023-05-15 07:47:32] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/4a/f2/c4c42e5841f95eba37b0ee2f73b82e16a51e889a5f0269702f7f8ccf37e1/layrz-sdk-2.0.1.tar.gz
+[2023-05-15 07:47:33] INFO root fetch - processPackages [layrz-sdk]: executing diffoscope
+[2023-05-15 07:47:33] INFO root fetch - processPackages [layrz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz-sdk-2.0.0.tar.gz tmp/layrz-sdk-2.0.1.tar.gz --markdown 20230515/l/layrz-sdk/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-15 07:47:33] INFO root fetch - processPackages [layrz-forms]: Downloading https://files.pythonhosted.org/packages/64/36/a0321fc3d57b4eb4a464dc646ee67bdd0a9a927451500e6ca5a81fd30d12/layrz-forms-1.0.8.tar.gz
+[2023-05-15 07:47:33] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/19/d5/5064213a7474d225fcd0a7c733e682b3553501fe351d8b6ffa035221db7c/bagbag-0.59.3.tar.gz
+[2023-05-15 07:47:33] INFO root fetch - processPackages [layrz-forms]: executing diffoscope
+[2023-05-15 07:47:33] INFO root fetch - processPackages [layrz-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz-forms-1.0.7.tar.gz tmp/layrz-forms-1.0.8.tar.gz --markdown 20230515/l/layrz-forms/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 07:47:33] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-15 07:47:33] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.2.tar.gz tmp/bagbag-0.59.3.tar.gz --markdown 20230515/b/bagbag/0.59.2-0.59.3/diff.md --exclude *.pyd
+[2023-05-15 07:47:34] INFO root fetch - main [MainThread]: End processing [layrz-sdk]: success
+[2023-05-15 07:47:34] INFO root fetch - main [MainThread]: End processing [layrz-forms]: success
+[2023-05-15 07:47:37] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-15 07:47:37] INFO root fetch - main [MainThread]: Store serial: [18103366]
