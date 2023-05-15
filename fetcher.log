@@ -9441,3 +9441,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 11:54:15] INFO root fetch - main [MainThread]: End processing [spacy]: success
 [2023-05-15 11:54:51] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2023-05-15 11:54:51] INFO root fetch - main [MainThread]: Store serial: [18105500]
+[2023-05-15 12:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105500]
+[2023-05-15 12:00:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chino
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netcheck
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safelang
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WX-Push-Services
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accim
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-auth-cli-certic
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartsheet-python-sdk
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqliteplus
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-api-sdk
+[2023-05-15 12:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-05-15 12:00:06] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-15 12:00:06] INFO root fetch - processPackages [kcli]: New version: [99.0.202305141900] Old Version: [99.0.202305131727]
+[2023-05-15 12:00:06] INFO root fetch - processPackages [chino]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-15 12:00:06] INFO root fetch - processPackages [seven-api-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 12:00:06] WARNING root fetch - processPackages [safelang]: Skipping, unable to determine old version
+[2023-05-15 12:00:06] WARNING root fetch - processPackages [sqliteplus]: Skipping, unable to determine old version
+[2023-05-15 12:00:06] INFO root fetch - processPackages [safelang]: Start processing: unified-planning
+[2023-05-15 12:00:06] ERROR root fetch - processPackages [django-auth-cli-certic]: Unable to get metadata: No such project 'django-auth-cli-certic'
+[2023-05-15 12:00:06] INFO root fetch - main [MainThread]: End processing [safelang] error
+[2023-05-15 12:00:06] INFO root fetch - processPackages [sqliteplus]: Start processing: that-nlp-library
+[2023-05-15 12:00:06] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 12:00:06] INFO root fetch - processPackages [django-auth-cli-certic]: Start processing: certora-cli-alpha-sitvanit-set-can-be-empty
+[2023-05-15 12:00:06] INFO root fetch - main [MainThread]: End processing [sqliteplus] error
+[2023-05-15 12:00:06] INFO root fetch - processPackages [netcheck]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-15 12:00:06] INFO root fetch - processPackages [accim]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-15 12:00:06] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.7.tar.gz tmp/WX_Push_Services-1.0.8.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 12:00:06] INFO root fetch - main [MainThread]: End processing [django-auth-cli-certic] error
+[2023-05-15 12:00:06] INFO root fetch - processPackages [smartsheet-python-sdk]: New version: [3.0.2] Old Version: [3.0.0]
+[2023-05-15 12:00:06] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 12:00:06] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305131727-py3-none-any.whl.zip tmp/kcli-99.0.202305141900-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305131727-99.0.202305141900/diff.md --exclude *.pyd
+[2023-05-15 12:00:07] WARNING root fetch - processPackages [that-nlp-library]: Skipping, unable to determine old version
+[2023-05-15 12:00:07] INFO root fetch - processPackages [that-nlp-library]: Start processing: django-ows-lib
+[2023-05-15 12:00:07] INFO root fetch - main [MainThread]: End processing [that-nlp-library] error
+[2023-05-15 12:00:07] WARNING root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Skipping, unable to determine old version
+[2023-05-15 12:00:07] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Start processing: mumuziyyds
+[2023-05-15 12:00:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-sitvanit-set-can-be-empty] error
+[2023-05-15 12:00:07] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.33.dev1]
+[2023-05-15 12:00:07] WARNING root fetch - processPackages [mumuziyyds]: Skipping, unable to determine old version
+[2023-05-15 12:00:07] INFO root fetch - main [MainThread]: End processing [mumuziyyds] error
+[2023-05-15 12:00:07] INFO root fetch - processPackages [chino]: Downloading https://files.pythonhosted.org/packages/ef/e2/e60676063b1d99faea51fb912ac5af74c8edfa260bd1dcf507a077c09012/chino-2.8.0.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [netcheck]: Downloading https://files.pythonhosted.org/packages/0d/cc/3288052927b0744d235e18d66bbbd8bf74a0a4f38cc88d6cc99a6f29c769/netcheck-0.3.3.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [accim]: Downloading https://files.pythonhosted.org/packages/90/d4/db3cffee392bba7f53c93bc2df802f34f90dddf00f900368788954bdffee/accim-0.6.7.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [smartsheet-python-sdk]: Downloading https://files.pythonhosted.org/packages/84/5b/7e1aea447f96733cdbd2625ca4492b9e4d6fd41d8349d0b9e4de9356155b/smartsheet-python-sdk-3.0.0.tar.gz
+[2023-05-15 12:00:07] WARNING root fetch - processPackages [django-ows-lib]: Skipping, unable to determine old version
+[2023-05-15 12:00:07] INFO root fetch - main [MainThread]: End processing [django-ows-lib] error
+[2023-05-15 12:00:07] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/90/8e/dfd5ad3a42dba6bb4ad220aa63176f3715b5abbb06e84dca1f778d5d5053/unified_planning-0.6.0.33.dev1.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [seven-api-sdk]: Downloading https://files.pythonhosted.org/packages/25/b4/b65fbaf7947d8844cd0610485d287ad98db9eb6a7226c67f09bd24300b0c/seven_api_sdk-0.1.8.tar.gz
+[2023-05-15 12:00:07] WARNING root fetch - processPackages [accim]: Skipping package: exceeds size limit 23863369>=10485760
+[2023-05-15 12:00:07] INFO root fetch - main [MainThread]: End processing [accim] error
+[2023-05-15 12:00:07] INFO root fetch - processPackages [seven-api-sdk]: executing diffoscope
+[2023-05-15 12:00:07] INFO root fetch - processPackages [seven-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_api_sdk-0.1.7.tar.gz tmp/seven_api_sdk-0.1.8.tar.gz --markdown 20230515/s/seven-api-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 12:00:07] INFO root fetch - processPackages [netcheck]: Downloading https://files.pythonhosted.org/packages/a3/ab/b0b5aa1e89f3f863ee97e7434c339f67d18f7c5fc0c993a04a578ea3a5fe/netcheck-0.4.0.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [chino]: Downloading https://files.pythonhosted.org/packages/17/c8/9e0abeb4ba6a711a87cb5e8715b82de39e17453fd09a8f08a97a0033977f/chino-2.9.0.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [smartsheet-python-sdk]: Downloading https://files.pythonhosted.org/packages/7f/f3/fc709e818572947dba5e5e51b3d66c3a666c863b9ebd6212d392167d9c19/smartsheet-python-sdk-3.0.2.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [netcheck]: executing diffoscope
+[2023-05-15 12:00:07] INFO root fetch - processPackages [netcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcheck-0.3.3.tar.gz tmp/netcheck-0.4.0.tar.gz --markdown 20230515/n/netcheck/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 12:00:07] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-05-15 12:00:07] INFO root fetch - processPackages [smartsheet-python-sdk]: executing diffoscope
+[2023-05-15 12:00:07] INFO root fetch - processPackages [smartsheet-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsheet-python-sdk-3.0.0.tar.gz tmp/smartsheet-python-sdk-3.0.2.tar.gz --markdown 20230515/s/smartsheet-python-sdk/3.0.0-3.0.2/diff.md --exclude *.pyd
+[2023-05-15 12:00:07] INFO root fetch - processPackages [chino]: executing diffoscope
+[2023-05-15 12:00:07] INFO root fetch - processPackages [chino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chino-2.8.0.tar.gz tmp/chino-2.9.0.tar.gz --markdown 20230515/c/chino/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-15 12:00:07] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-15 12:00:07] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.33.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230515/u/unified-planning/0.6.0.33.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-15 12:00:08] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 12:00:09] INFO root fetch - main [MainThread]: End processing [seven-api-sdk]: success
+[2023-05-15 12:00:09] INFO root fetch - main [MainThread]: End processing [netcheck]: success
+[2023-05-15 12:00:10] INFO root fetch - main [MainThread]: End processing [chino]: success
+[2023-05-15 12:00:10] INFO root fetch - main [MainThread]: End processing [smartsheet-python-sdk]: success
+[2023-05-15 12:00:14] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-15 12:00:16] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 12:00:16] INFO root fetch - main [MainThread]: Store serial: [18105567]
