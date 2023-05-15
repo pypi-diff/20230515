@@ -5399,3 +5399,41 @@
 [2023-05-15 07:57:58] INFO root fetch - processPackages [pynamodb-mate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamodb_mate-5.3.4.8.tar.gz tmp/pynamodb_mate-5.3.4.9.tar.gz --markdown 20230515/p/pynamodb-mate/5.3.4.8-5.3.4.9/diff.md --exclude *.pyd
 [2023-05-15 07:57:59] INFO root fetch - main [MainThread]: End processing [pynamodb-mate]: success
 [2023-05-15 07:57:59] INFO root fetch - main [MainThread]: Store serial: [18103399]
+[2023-05-15 08:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103399]
+[2023-05-15 08:03:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 08:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatglm-llm
+[2023-05-15 08:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usearch
+[2023-05-15 08:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: confik
+[2023-05-15 08:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datascope-experiments
+[2023-05-15 08:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-implemetation
+[2023-05-15 08:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stitchtoon
+[2023-05-15 08:03:09] INFO root fetch - processPackages [confik]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 08:03:09] INFO root fetch - processPackages [chatglm-llm]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-15 08:03:09] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 08:03:09] INFO root fetch - processPackages [stitchtoon]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-15 08:03:09] WARNING root fetch - processPackages [azure-implemetation]: Skipping, unable to determine old version
+[2023-05-15 08:03:09] INFO root fetch - main [MainThread]: End processing [azure-implemetation] error
+[2023-05-15 08:03:09] INFO root fetch - processPackages [usearch]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-05-15 08:03:09] INFO root fetch - processPackages [confik]: Downloading https://files.pythonhosted.org/packages/79/53/5ac117e5db119b9d4188d28570f8550e0838d912b1d141f0fb43b907f6b8/confik-1.0.5.tar.gz
+[2023-05-15 08:03:09] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/45/04/38d90a22277d9e206a1f680f99cbfda58ca9cb856a5fdfdcee40e032f0e8/datascope-experiments-0.0.8.tar.gz
+[2023-05-15 08:03:09] INFO root fetch - processPackages [stitchtoon]: Downloading https://files.pythonhosted.org/packages/91/c8/1c50c4d5dd43ac5145ba8a027bd7b9a5363ad019343f2cbf99092ed7d4c2/stitchtoon-1.1.2.tar.gz
+[2023-05-15 08:03:10] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/1a/f1/ecbee02741e87fa0e3f0808f4a76e62a81c213ef29af50f8ea2bd9ad0360/chatglm-llm-1.3.4.tar.gz
+[2023-05-15 08:03:10] INFO root fetch - processPackages [stitchtoon]: executing diffoscope
+[2023-05-15 08:03:10] INFO root fetch - processPackages [stitchtoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stitchtoon-1.1.1.tar.gz tmp/stitchtoon-1.1.2.tar.gz --markdown 20230515/s/stitchtoon/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-15 08:03:10] INFO root fetch - processPackages [confik]: Downloading https://files.pythonhosted.org/packages/8d/d0/d8401029eeb4d47063d20564dd0cfdd317bce179b0f15bd2dd9ed40ee111/confik-1.0.6.tar.gz
+[2023-05-15 08:03:10] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/4b/3f/fa61fe1f9eb3ef542b26fcb3b18f71834abf6d16f55e14ca8ded9f7999b2/usearch-0.2.3-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-05-15 08:03:10] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-05-15 08:03:10] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.3.3.tar.gz tmp/chatglm-llm-1.3.4.tar.gz --markdown 20230515/c/chatglm-llm/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-15 08:03:10] INFO root fetch - processPackages [confik]: executing diffoscope
+[2023-05-15 08:03:10] INFO root fetch - processPackages [confik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confik-1.0.5.tar.gz tmp/confik-1.0.6.tar.gz --markdown 20230515/c/confik/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-15 08:03:10] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2023-05-15 08:03:10] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-05-15 08:03:10] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.2.1-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.zip tmp/usearch-0.2.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230515/u/usearch/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-05-15 08:03:10] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2023-05-15 08:03:10] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.8.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20230515/d/datascope-experiments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 08:03:11] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-05-15 08:03:11] INFO root fetch - main [MainThread]: End processing [confik]: success
+[2023-05-15 08:03:11] INFO root fetch - main [MainThread]: End processing [stitchtoon]: success
+[2023-05-15 08:03:11] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2023-05-15 08:03:13] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-05-15 08:03:13] INFO root fetch - main [MainThread]: Store serial: [18103439]
