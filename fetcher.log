@@ -5682,3 +5682,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 08:24:25] INFO root fetch - main [MainThread]: End processing [usdm]: success
 [2023-05-15 08:24:26] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-15 08:24:26] INFO root fetch - main [MainThread]: Store serial: [18103510]
+[2023-05-15 08:29:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103510]
+[2023-05-15 08:29:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-15 08:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-05-15 08:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myPreProcess
+[2023-05-15 08:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: confik
+[2023-05-15 08:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pibrary
+[2023-05-15 08:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipinfo-db
+[2023-05-15 08:29:36] INFO root fetch - processPackages [pibrary]: New version: [0.2.0a1] Old Version: [0.1.0a1]
+[2023-05-15 08:29:36] INFO root fetch - processPackages [confik]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-15 08:29:36] WARNING root fetch - processPackages [myPreProcess]: Skipping, unable to determine old version
+[2023-05-15 08:29:36] INFO root fetch - main [MainThread]: End processing [myPreProcess] error
+[2023-05-15 08:29:36] WARNING root fetch - processPackages [ipinfo-db]: Skipping, unable to determine old version
+[2023-05-15 08:29:36] INFO root fetch - main [MainThread]: End processing [ipinfo-db] error
+[2023-05-15 08:29:36] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230515] Old Version: [20230514]
+[2023-05-15 08:29:37] INFO root fetch - processPackages [pibrary]: Downloading https://files.pythonhosted.org/packages/54/5d/44e3f58ed36d0e0262496af1f8fb4242dc5b1bda075e4ba47c6a0a16a7bf/pibrary-0.1.0a1.tar.gz
+[2023-05-15 08:29:37] INFO root fetch - processPackages [confik]: Downloading https://files.pythonhosted.org/packages/69/82/224e15c6c46810cb5713f0ce53c1309ef3e4d6be1757278dbfbc73239455/confik-1.0.7.tar.gz
+[2023-05-15 08:29:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/56/78/4805e33be130e7f34ba51f03b10e3cfad56b3f8e9a8eaa015b3d50341432/fake-bpy-module-latest-20230515.tar.gz
+[2023-05-15 08:29:37] INFO root fetch - processPackages [confik]: executing diffoscope
+[2023-05-15 08:29:37] INFO root fetch - processPackages [confik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confik-1.0.6.tar.gz tmp/confik-1.0.7.tar.gz --markdown 20230515/c/confik/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-15 08:29:37] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-15 08:29:37] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230514.tar.gz tmp/fake-bpy-module-latest-20230515.tar.gz --markdown 20230515/f/fake-bpy-module-latest/20230514-20230515/diff.md --exclude *.pyd
+[2023-05-15 08:29:37] INFO root fetch - processPackages [pibrary]: Downloading https://files.pythonhosted.org/packages/b2/5b/1809f5c4cb8de5566de5e8d5bcb7375f857c28f2fcb1766c6a0b151e125b/pibrary-0.2.0a1.tar.gz
+[2023-05-15 08:29:37] INFO root fetch - processPackages [pibrary]: executing diffoscope
+[2023-05-15 08:29:37] INFO root fetch - processPackages [pibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibrary-0.1.0a1.tar.gz tmp/pibrary-0.2.0a1.tar.gz --markdown 20230515/p/pibrary/0.1.0a1-0.2.0a1/diff.md --exclude *.pyd
+[2023-05-15 08:29:38] INFO root fetch - main [MainThread]: End processing [confik]: success
+[2023-05-15 08:29:38] INFO root fetch - main [MainThread]: End processing [pibrary]: success
+[2023-05-15 08:29:45] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-15 08:29:45] INFO root fetch - main [MainThread]: Store serial: [18103530]
