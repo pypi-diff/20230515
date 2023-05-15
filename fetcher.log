@@ -9611,3 +9611,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:05:29] INFO root fetch - main [MainThread]: End processing [bcvContext]: success
 [2023-05-15 12:05:30] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
 [2023-05-15 12:05:30] INFO root fetch - main [MainThread]: Store serial: [18105613]
+[2023-05-15 12:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105613]
+[2023-05-15 12:10:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamindb
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polynomiograpy
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medsenger-api
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ruminate
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: desktop-entry-lib
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyNeuroML
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-shays-CERT-1717
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: luno-python
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-shays-CERT-1717-b
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: np-gui
+[2023-05-15 12:10:39] INFO root fetch - processPackages [luno-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ruminate]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: New version: [20230515.8.39.685357] Old Version: [20230515.10.8.581349]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [polynomiograpy]: New version: [0.4.0a1] Old Version: [0.3.0a1]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [pyNeuroML]: New version: [1.0.4] Old Version: [0.7.5]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: New version: [20230515.7.54.75914] Old Version: [20230515.10.7.459364]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [np-gui]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [desktop-entry-lib]: New version: [3.1] Old Version: [3.0]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Downloading https://files.pythonhosted.org/packages/4f/7c/94ab6dbfc905458640c42779a415e7341aecf8db900799a785455caaa1ad/certora-cli-alpha-shays-CERT-1717-b-20230515.10.8.581349.tar.gz
+[2023-05-15 12:10:39] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Downloading https://files.pythonhosted.org/packages/4f/52/059999418c5ea5bda18b7e5ba3354a9a7fc9a6aaf734298e821e89cd7bfe/certora-cli-alpha-shays-CERT-1717-20230515.10.7.459364.tar.gz
+[2023-05-15 12:10:39] INFO root fetch - processPackages [luno-python]: Downloading https://files.pythonhosted.org/packages/69/6f/82491f677c4e90b471315c2d4cc38ca685931af27b9325bfced4ca0d63eb/luno-python-0.0.8.tar.gz
+[2023-05-15 12:10:39] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Skipping package: exceeds size limit 39435634>=10485760
+[2023-05-15 12:10:39] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Start processing: always-updates
+[2023-05-15 12:10:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717-b] error
+[2023-05-15 12:10:39] INFO root fetch - processPackages [ruminate]: Downloading https://files.pythonhosted.org/packages/fe/80/f3121454bf20b1e017b62aa88a292795e6edf73085f1d05f468fb56776d4/ruminate-4.1.0.tar.gz
+[2023-05-15 12:10:39] INFO root fetch - processPackages [pyNeuroML]: Downloading https://files.pythonhosted.org/packages/6b/af/a1a1e41ea03fdd49446cda224960740ac407bcf3362791f815d0537da300/pyNeuroML-0.7.5.tar.gz
+[2023-05-15 12:10:39] INFO root fetch - processPackages [polynomiograpy]: Downloading https://files.pythonhosted.org/packages/e7/6f/a7052b0e78cb8926659bbed7c67e3ca0fb1aac9e38f03b6b587306e22561/polynomiograpy-0.3.0a1.tar.gz
+[2023-05-15 12:10:39] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-05-15 12:10:39] INFO root fetch - processPackages [desktop-entry-lib]: Downloading https://files.pythonhosted.org/packages/c8/11/aef183e06ffcccc9fe57b05a8348bf3867073557d166a393fde813f09059/desktop-entry-lib-3.0.tar.gz
+[2023-05-15 12:10:39] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Skipping package: exceeds size limit 39433654>=10485760
+[2023-05-15 12:10:39] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717]: Start processing: leadguru-jobs
+[2023-05-15 12:10:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717] error
+[2023-05-15 12:10:39] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-15 12:10:39] WARNING root fetch - processPackages [pyNeuroML]: Skipping package: exceeds size limit 27013276>=10485760
+[2023-05-15 12:10:39] INFO root fetch - main [MainThread]: End processing [pyNeuroML] error
+[2023-05-15 12:10:39] INFO root fetch - processPackages [np-gui]: Downloading https://files.pythonhosted.org/packages/c1/07/21f733c76b5601b1ebea8420c2c6535fd30af19caed6fc7ab7316b970582/np_gui-0.0.6.tar.gz
+[2023-05-15 12:10:39] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-15 12:10:39] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-15 12:10:39] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230515/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230515/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [luno-python]: Downloading https://files.pythonhosted.org/packages/a2/5f/ca6a3638c0f654ae63f7ec3f75272c0994faa53a1c507aa29b3c16fafa67/luno-python-0.0.9.tar.gz
+[2023-05-15 12:10:40] INFO root fetch - processPackages [ruminate]: Downloading https://files.pythonhosted.org/packages/8b/50/8e11ed5602fcd1af7de78dc0557b93dfee642d0269d61c2433a9ad716431/ruminate-4.1.1.tar.gz
+[2023-05-15 12:10:40] INFO root fetch - processPackages [polynomiograpy]: Downloading https://files.pythonhosted.org/packages/ce/0a/c76d995757ba4aa444e94b471d7eba7393bbbfe38fab4335a4fad2c8006f/polynomiograpy-0.4.0a1.tar.gz
+[2023-05-15 12:10:40] INFO root fetch - processPackages [desktop-entry-lib]: Downloading https://files.pythonhosted.org/packages/c5/a2/68c772c0dddda4f23f2b972a839b5b5cd99fa0b615df070b5920536872c0/desktop-entry-lib-3.1.tar.gz
+[2023-05-15 12:10:40] INFO root fetch - processPackages [np-gui]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [np-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_gui-0.0.5.tar.gz tmp/np_gui-0.0.6.tar.gz --markdown 20230515/n/np-gui/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [luno-python]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [luno-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luno-python-0.0.8.tar.gz tmp/luno-python-0.0.9.tar.gz --markdown 20230515/l/luno-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-05-15 12:10:40] INFO root fetch - processPackages [ruminate]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [ruminate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruminate-4.1.0.tar.gz tmp/ruminate-4.1.1.tar.gz --markdown 20230515/r/ruminate/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-05-15 12:10:40] INFO root fetch - processPackages [desktop-entry-lib]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [desktop-entry-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desktop-entry-lib-3.0.tar.gz tmp/desktop-entry-lib-3.1.tar.gz --markdown 20230515/d/desktop-entry-lib/3.0-3.1/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230515/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [polynomiograpy]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [polynomiograpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polynomiograpy-0.3.0a1.tar.gz tmp/polynomiograpy-0.4.0a1.tar.gz --markdown 20230515/p/polynomiograpy/0.3.0a1-0.4.0a1/diff.md --exclude *.pyd
+[2023-05-15 12:10:40] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-05-15 12:10:40] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-15 12:10:40] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230515/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-15 12:10:41] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-15 12:10:41] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-15 12:10:41] INFO root fetch - main [MainThread]: End processing [luno-python]: success
+[2023-05-15 12:10:41] INFO root fetch - main [MainThread]: End processing [desktop-entry-lib]: success
+[2023-05-15 12:10:42] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-15 12:10:42] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-05-15 12:10:42] INFO root fetch - main [MainThread]: End processing [ruminate]: success
+[2023-05-15 12:10:45] INFO root fetch - main [MainThread]: End processing [np-gui]: success
+[2023-05-15 12:11:18] INFO root fetch - main [MainThread]: End processing [polynomiograpy]: success
+[2023-05-15 12:11:18] INFO root fetch - main [MainThread]: Store serial: [18105653]
