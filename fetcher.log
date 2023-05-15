@@ -16460,3 +16460,129 @@ EOFError: EOF read where object expected
 [2023-05-15 17:23:34] INFO root fetch - main [MainThread]: End processing [scikit-build]: success
 [2023-05-15 17:23:37] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
 [2023-05-15 17:23:37] INFO root fetch - main [MainThread]: Store serial: [18109854]
+[2023-05-15 17:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109854]
+[2023-05-15 17:28:46] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oloren
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WX-Push-Services
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-to-pdf
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-smith
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thoughtspot-rest-api-v1
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fink-utils
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: splight-lib
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splight-cli
+[2023-05-15 17:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sh
+[2023-05-15 17:28:46] WARNING root fetch - processPackages [selenium-to-pdf]: Skipping, unable to determine old version
+[2023-05-15 17:28:46] INFO root fetch - processPackages [selenium-to-pdf]: Start processing: JsonAndXmlSerializer
+[2023-05-15 17:28:46] INFO root fetch - main [MainThread]: End processing [selenium-to-pdf] error
+[2023-05-15 17:28:46] INFO root fetch - processPackages [sh]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-15 17:28:46] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.22] Old Version: [4.2.21]
+[2023-05-15 17:28:46] INFO root fetch - processPackages [JsonAndXmlSerializer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [fink-utils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sql-smith]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.21.tar.gz tmp/cyberdrop-dl-4.2.22.tar.gz --markdown 20230515/c/cyberdrop-dl/4.2.21-4.2.22/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sh]: Downloading https://files.pythonhosted.org/packages/b7/96/18aa20a143e2eaf1f0b4ae41a5ec57fd45b76b4a76cc4a07ffb476161ae3/sh-2.0.3.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [JsonAndXmlSerializer]: Downloading https://files.pythonhosted.org/packages/66/e1/53a3441eb2dcf486b27b26009ff79297b69161ee5e3362e3609b894da34f/JsonAndXmlSerializer-0.1.0.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/b1/4f/39434599634c5c8ebdbc1673e9f23d9af8dccfe107ccf922a907fd1af998/fink-utils-0.8.2.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/e2/18/2fecbd3353d20cfbcd568fd4477ae48db2ce8f345e7628d12352c36a074b/splight-cli-2.3.8.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sql-smith]: Downloading https://files.pythonhosted.org/packages/93/7d/3569fb2e6d7b235b81fc304efb5a1f070edc63356a14ce46b8f8c2db04e5/sql_smith-1.1.0.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/3c/8d/cdb0642bccd52b342f94530f9ee73f36732e7df963d3d04722ec04ef24f2/splight-lib-2.3.8.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Downloading https://files.pythonhosted.org/packages/58/61/ec29c24ceb0bbda6f134e3d73b7140d8f52cf2262f97ed267b0013f0e82b/thoughtspot_rest_api_v1-1.4.1.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sh]: Downloading https://files.pythonhosted.org/packages/f3/54/ea1fe5ab317a4d942c71d80df534343cf148739f716ca6224ebcec83cb10/sh-2.0.4.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [JsonAndXmlSerializer]: Downloading https://files.pythonhosted.org/packages/ce/2f/8ebbcf791af6eb8af63cae2061cc5d31b2362eb33ccfbc40b32af7ea63ea/JsonAndXmlSerializer-0.1.1.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.8.tar.gz tmp/WX_Push_Services-1.0.9.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sql-smith]: Downloading https://files.pythonhosted.org/packages/e6/23/19691141bd471092760f72bfc5546ad60acdcdf754b8c8d345e17a51ffbf/sql_smith-1.1.1.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/19/3d/6d51571734a20389d75327fd1fdf9382d5434496cdf8305167424eb6ea5f/fink-utils-0.9.0.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sh]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-2.0.3.tar.gz tmp/sh-2.0.4.tar.gz --markdown 20230515/s/sh/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [JsonAndXmlSerializer]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [JsonAndXmlSerializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsonAndXmlSerializer-0.1.0.tar.gz tmp/JsonAndXmlSerializer-0.1.1.tar.gz --markdown 20230515/J/JsonAndXmlSerializer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Downloading https://files.pythonhosted.org/packages/2e/ef/e736ced19c8d11e6bfd72abbe733f6f387424f40417941efeadd7302d862/thoughtspot_rest_api_v1-1.5.0.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/00/cc/31c3fe41cd2bd1be86c2e70ea2ff58d854bdc6e3ae16d0a20b4d618c9db1/splight-cli-2.3.9.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [fink-utils]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [fink-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fink-utils-0.8.2.tar.gz tmp/fink-utils-0.9.0.tar.gz --markdown 20230515/f/fink-utils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/bb/ff/ed0cd2310d1197aa003ad5453f2fa69d373176927915bc77e824d64dcfe8/splight-lib-2.3.9.tar.gz
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230515/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sql-smith]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [sql-smith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_smith-1.1.0.tar.gz tmp/sql_smith-1.1.1.tar.gz --markdown 20230515/s/sql-smith/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230515/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-15 17:28:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: executing diffoscope
+[2023-05-15 17:28:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtspot_rest_api_v1-1.4.1.tar.gz tmp/thoughtspot_rest_api_v1-1.5.0.tar.gz --markdown 20230515/t/thoughtspot-rest-api-v1/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-15 17:28:48] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-05-15 17:28:48] INFO root fetch - processPackages [cyberdrop-dl]: Start processing: looqbox
+[2023-05-15 17:28:48] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-15 17:28:48] INFO root fetch - processPackages [looqbox]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-05-15 17:28:48] INFO root fetch - processPackages [WX-Push-Services]: Start processing: cyberdrop-dl
+[2023-05-15 17:28:48] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 17:28:48] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.24] Old Version: [4.2.23]
+[2023-05-15 17:28:49] INFO root fetch - processPackages [sh]: Start processing: cr.cube
+[2023-05-15 17:28:49] INFO root fetch - main [MainThread]: End processing [sh]: success
+[2023-05-15 17:28:49] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/6d/51/61b9557c9beee90d1a3f6fbd979f09fa2c9def0578e989876d20929af045/looqbox-4.1.1-py3-none-any.whl
+[2023-05-15 17:28:49] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/59/85/7b67a9bd05860e2d3d6709b939b79f3e96ec37c9726e46d3cbfbf6ef6ebb/cyberdrop-dl-4.2.23.tar.gz
+[2023-05-15 17:28:49] INFO root fetch - processPackages [JsonAndXmlSerializer]: Start processing: finbourne-access-sdk
+[2023-05-15 17:28:49] INFO root fetch - main [MainThread]: End processing [JsonAndXmlSerializer]: success
+[2023-05-15 17:28:49] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-15 17:28:49] INFO root fetch - processPackages [cr.cube]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-15 17:28:49] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-15 17:28:49] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230515/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-15 17:28:49] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ce/cb/698ffa0515441e44a6ca3ff0c2a35b5b62ac8cbe0bd04bac7dc5e2af1f97/cyberdrop-dl-4.2.24.tar.gz
+[2023-05-15 17:28:49] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Start processing: MedSimilarity
+[2023-05-15 17:28:49] INFO root fetch - main [MainThread]: End processing [thoughtspot-rest-api-v1]: success
+[2023-05-15 17:28:49] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-15 17:28:49] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230515/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:28:49] INFO root fetch - processPackages [cr.cube]: Downloading https://files.pythonhosted.org/packages/03/69/6f9dcb353f674612a8ff2b300ca58927741a268fc464b903c0fc94ae49e6/cr.cube-3.0.8.tar.gz
+[2023-05-15 17:28:49] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/e3/55/c73315ed09ee19e15fd36f30adbd66b8a4734e601d305e644c2c2f61b4e1/looqbox-4.1.2-py3-none-any.whl
+[2023-05-15 17:28:49] WARNING root fetch - processPackages [MedSimilarity]: Skipping, unable to determine old version
+[2023-05-15 17:28:49] INFO root fetch - processPackages [MedSimilarity]: Start processing: acconeer-exptool
+[2023-05-15 17:28:49] INFO root fetch - main [MainThread]: End processing [MedSimilarity] error
+[2023-05-15 17:28:49] INFO root fetch - processPackages [acconeer-exptool]: New version: [7.0.0] Old Version: [6.0.5]
+[2023-05-15 17:28:49] INFO root fetch - processPackages [looqbox]: executing diffoscope
+[2023-05-15 17:28:49] INFO root fetch - processPackages [looqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox-4.1.1-py3-none-any.whl.zip tmp/looqbox-4.1.2-py3-none-any.whl.zip --markdown 20230515/l/looqbox/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-05-15 17:28:49] INFO root fetch - processPackages [splight-lib]: Start processing: openedx-events
+[2023-05-15 17:28:49] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-15 17:28:49] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-15 17:28:49] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.23.tar.gz tmp/cyberdrop-dl-4.2.24.tar.gz --markdown 20230515/c/cyberdrop-dl/4.2.23-4.2.24/diff.md --exclude *.pyd
+[2023-05-15 17:28:49] INFO root fetch - processPackages [sql-smith]: Start processing: pyxll-jupyter
+[2023-05-15 17:28:49] INFO root fetch - main [MainThread]: End processing [sql-smith]: success
+[2023-05-15 17:28:49] INFO root fetch - processPackages [acconeer-exptool]: executing diffoscope
+[2023-05-15 17:28:49] INFO root fetch - processPackages [acconeer-exptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acconeer-exptool-6.0.5.tar.gz tmp/acconeer-exptool-7.0.0.tar.gz --markdown 20230515/a/acconeer-exptool/6.0.5-7.0.0/diff.md --exclude *.pyd
+[2023-05-15 17:28:49] INFO root fetch - processPackages [openedx-events]: New version: [7.3.0] Old Version: [7.2.0]
+[2023-05-15 17:28:49] INFO root fetch - processPackages [pyxll-jupyter]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-05-15 17:28:49] INFO root fetch - processPackages [cr.cube]: Downloading https://files.pythonhosted.org/packages/11/48/9e55fcf69aae7c802454e70f47c297db9f730f0609ef34d4fd96488bae71/cr.cube-3.0.9.tar.gz
+[2023-05-15 17:28:50] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/27/83/39c0c44471b4aef6b52e8ae31e8c40a10cb01f66e7347bf6c8a161acba9d/openedx-events-7.2.0.tar.gz
+[2023-05-15 17:28:50] INFO root fetch - processPackages [pyxll-jupyter]: Downloading https://files.pythonhosted.org/packages/1f/ff/dfdcffa6249fd528d3c92ce962ab33deb082b50404507745f9800eb9ac32/pyxll_jupyter-0.3.6-py3-none-any.whl
+[2023-05-15 17:28:50] INFO root fetch - processPackages [cr.cube]: executing diffoscope
+[2023-05-15 17:28:50] INFO root fetch - processPackages [cr.cube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cr.cube-3.0.8.tar.gz tmp/cr.cube-3.0.9.tar.gz --markdown 20230515/c/cr.cube/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:28:50] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/05/8b/73a982d8d7b57c976d195db574563b49415edb82444124571687bb60b379/openedx-events-7.3.0.tar.gz
+[2023-05-15 17:28:50] INFO root fetch - processPackages [pyxll-jupyter]: Downloading https://files.pythonhosted.org/packages/c9/a4/81becb5b998e74a1b700bc89b9e43d9c5e45b6e305646c5552540855f1b6/pyxll_jupyter-0.4.0-py3-none-any.whl
+[2023-05-15 17:28:50] INFO root fetch - processPackages [openedx-events]: executing diffoscope
+[2023-05-15 17:28:50] INFO root fetch - processPackages [openedx-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-events-7.2.0.tar.gz tmp/openedx-events-7.3.0.tar.gz --markdown 20230515/o/openedx-events/7.2.0-7.3.0/diff.md --exclude *.pyd
+[2023-05-15 17:28:50] INFO root fetch - processPackages [pyxll-jupyter]: executing diffoscope
+[2023-05-15 17:28:50] INFO root fetch - processPackages [pyxll-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxll_jupyter-0.3.6-py3-none-any.whl.zip tmp/pyxll_jupyter-0.4.0-py3-none-any.whl.zip --markdown 20230515/p/pyxll-jupyter/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 17:28:50] INFO root fetch - processPackages [splight-cli]: Start processing: dev-gpt
+[2023-05-15 17:28:50] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-05-15 17:28:50] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev8] Old Version: [0.18.41.dev6]
+[2023-05-15 17:28:51] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/81/81/8e6c3a8f9ac510bc3e6d3e939f0cfa50eb642503207b5b6186df39f8e6f6/dev-gpt-0.18.41.dev8.tar.gz
+[2023-05-15 17:28:51] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-15 17:28:51] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev6.tar.gz tmp/dev-gpt-0.18.41.dev8.tar.gz --markdown 20230515/d/dev-gpt/0.18.41.dev6-0.18.41.dev8/diff.md --exclude *.pyd
+[2023-05-15 17:28:51] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-15 17:28:51] INFO root fetch - main [MainThread]: End processing [pyxll-jupyter]: success
+[2023-05-15 17:28:52] INFO root fetch - main [MainThread]: End processing [looqbox]: success
+[2023-05-15 17:28:52] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-15 17:28:52] INFO root fetch - main [MainThread]: End processing [openedx-events]: success
+[2023-05-15 17:28:53] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-15 17:28:55] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-15 17:28:57] INFO root fetch - main [MainThread]: End processing [acconeer-exptool]: success
+[2023-05-15 17:28:58] INFO root fetch - main [MainThread]: End processing [cr.cube]: success
+[2023-05-15 17:29:22] INFO root fetch - main [MainThread]: End processing [fink-utils]: success
+[2023-05-15 17:29:22] INFO root fetch - main [MainThread]: Store serial: [18109920]
