@@ -22571,3 +22571,78 @@ EOFError: EOF read where object expected
 [2023-05-15 23:06:24] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
 [2023-05-15 23:06:28] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-15 23:06:28] INFO root fetch - main [MainThread]: Store serial: [18113465]
+[2023-05-15 23:11:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113465]
+[2023-05-15 23:11:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyinfra
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RlEvaluation
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainedci
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoinject
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-python-serializer
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyt-gpt
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pgx
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aind-data-schema
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazi
+[2023-05-15 23:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbomdiff
+[2023-05-15 23:11:38] INFO root fetch - processPackages [lazi]: New version: [1.5.59] Old Version: [1.5.52.dev3]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [autoinject]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-15 23:11:38] WARNING root fetch - processPackages [my-python-serializer]: Skipping, unable to determine old version
+[2023-05-15 23:11:38] INFO root fetch - processPackages [my-python-serializer]: Start processing: eulertools
+[2023-05-15 23:11:38] INFO root fetch - main [MainThread]: End processing [my-python-serializer] error
+[2023-05-15 23:11:38] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [pgx]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [eulertools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [RlEvaluation]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [chainedci]: New version: [1.5.28] Old Version: [1.5.27]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-15 23:11:38] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.5.52.dev3.tar.gz tmp/lazi-1.5.59.tar.gz --markdown 20230515/l/lazi/1.5.52.dev3-1.5.59/diff.md --exclude *.pyd
+[2023-05-15 23:11:38] INFO root fetch - processPackages [pyinfra]: New version: [2.7] Old Version: [2.6.2]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [autoinject]: executing diffoscope
+[2023-05-15 23:11:38] INFO root fetch - processPackages [sbomdiff]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-15 23:11:38] INFO root fetch - processPackages [autoinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoinject-1.2.1.tar.gz tmp/autoinject-1.3.0.tar.gz --markdown 20230515/a/autoinject/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-15 23:11:38] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-05-15 23:11:38] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.7.2.tar.gz tmp/pgx-0.7.3.tar.gz --markdown 20230515/p/pgx/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-15 23:11:38] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-15 23:11:38] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230515/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 23:11:38] INFO root fetch - processPackages [eulertools]: executing diffoscope
+[2023-05-15 23:11:38] INFO root fetch - processPackages [eulertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulertools-0.4.0.tar.gz tmp/eulertools-0.5.0.tar.gz --markdown 20230515/e/eulertools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 23:11:38] INFO root fetch - processPackages [RlEvaluation]: Downloading https://files.pythonhosted.org/packages/96/06/649e0c920f360a838b4164c4f709ba1f2dbaf259bbdda3bc1f96993dae01/RlEvaluation-0.0.3.tar.gz
+[2023-05-15 23:11:38] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-05-15 23:11:38] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/cc/5b/74341a4f7de6199004b52920bc6f86441cfc0a5fcb3ef552fc9222b16ca4/chainedci-1.5.27.tar.gz
+[2023-05-15 23:11:38] INFO root fetch - processPackages [sbomdiff]: Downloading https://files.pythonhosted.org/packages/b5/79/3c1060b124921de1b77ddce1a7df678b7bf4437f0487e341d4e17a00c113/sbomdiff-0.4.2-py2.py3-none-any.whl
+[2023-05-15 23:11:38] INFO root fetch - processPackages [pyinfra]: Downloading https://files.pythonhosted.org/packages/04/1c/5678b93ff9cc605c6bc1ca346e849cbda69e3541ea22bf3a296742bb0c8d/pyinfra-2.6.2.tar.gz
+[2023-05-15 23:11:38] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/b6/f9/a9d5a85a4b37d6dc9fc364f10040bff1fb8c9d95e7f50eea3c1fa11878c8/chainedci-1.5.28.tar.gz
+[2023-05-15 23:11:38] INFO root fetch - processPackages [sbomdiff]: Downloading https://files.pythonhosted.org/packages/02/f8/e58eb1bc478d4c5d9a2d07325df9e7066b0e3d5a07292ff07b5282bff142/sbomdiff-0.5.0-py2.py3-none-any.whl
+[2023-05-15 23:11:39] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-05-15 23:11:39] INFO root fetch - processPackages [RlEvaluation]: Downloading https://files.pythonhosted.org/packages/3f/74/d0d302f2b53c08daeb4fcf7ad4a3ffb5cee54154bade57178958ea5bafbf/RlEvaluation-0.1.0.tar.gz
+[2023-05-15 23:11:39] INFO root fetch - processPackages [pyinfra]: Downloading https://files.pythonhosted.org/packages/71/e8/cba7ac19e463420a57ea5c77f008f3071ff4bad0ddbc9c5305550f0ad05f/pyinfra-2.7.tar.gz
+[2023-05-15 23:11:39] INFO root fetch - processPackages [sbomdiff]: executing diffoscope
+[2023-05-15 23:11:39] INFO root fetch - processPackages [sbomdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbomdiff-0.4.2-py2.py3-none-any.whl.zip tmp/sbomdiff-0.5.0-py2.py3-none-any.whl.zip --markdown 20230515/s/sbomdiff/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-15 23:11:39] INFO root fetch - processPackages [chainedci]: executing diffoscope
+[2023-05-15 23:11:39] INFO root fetch - processPackages [chainedci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainedci-1.5.27.tar.gz tmp/chainedci-1.5.28.tar.gz --markdown 20230515/c/chainedci/1.5.27-1.5.28/diff.md --exclude *.pyd
+[2023-05-15 23:11:39] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-15 23:11:39] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230515/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-15 23:11:39] INFO root fetch - processPackages [RlEvaluation]: executing diffoscope
+[2023-05-15 23:11:39] INFO root fetch - processPackages [RlEvaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RlEvaluation-0.0.3.tar.gz tmp/RlEvaluation-0.1.0.tar.gz --markdown 20230515/R/RlEvaluation/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 23:11:39] INFO root fetch - processPackages [pyinfra]: executing diffoscope
+[2023-05-15 23:11:39] INFO root fetch - processPackages [pyinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinfra-2.6.2.tar.gz tmp/pyinfra-2.7.tar.gz --markdown 20230515/p/pyinfra/2.6.2-2.7/diff.md --exclude *.pyd
+[2023-05-15 23:11:39] INFO root fetch - processPackages [lazi]: Start processing: iaas-jwt
+[2023-05-15 23:11:39] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-15 23:11:40] WARNING root fetch - processPackages [iaas-jwt]: Skipping, unable to determine old version
+[2023-05-15 23:11:40] INFO root fetch - processPackages [iaas-jwt]: Start processing: lmppl
+[2023-05-15 23:11:40] INFO root fetch - main [MainThread]: End processing [iaas-jwt] error
+[2023-05-15 23:11:40] INFO root fetch - main [MainThread]: End processing [eulertools]: success
+[2023-05-15 23:11:40] INFO root fetch - processPackages [lmppl]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-15 23:11:40] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-15 23:11:40] INFO root fetch - main [MainThread]: End processing [autoinject]: success
+[2023-05-15 23:11:40] INFO root fetch - processPackages [lmppl]: Downloading https://files.pythonhosted.org/packages/5a/92/58db5ba6679bb378326a69763feed3611e4cd764cebba1767150d5eae21d/lmppl-0.2.8.tar.gz
+[2023-05-15 23:11:40] INFO root fetch - main [MainThread]: End processing [sbomdiff]: success
+[2023-05-15 23:11:40] INFO root fetch - processPackages [lmppl]: executing diffoscope
+[2023-05-15 23:11:40] INFO root fetch - processPackages [lmppl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmppl-0.2.7.tar.gz tmp/lmppl-0.2.8.tar.gz --markdown 20230515/l/lmppl/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-15 23:11:40] INFO root fetch - main [MainThread]: End processing [RlEvaluation]: success
+[2023-05-15 23:11:40] INFO root fetch - main [MainThread]: End processing [chainedci]: success
+[2023-05-15 23:11:41] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-15 23:11:41] INFO root fetch - main [MainThread]: End processing [lmppl]: success
+[2023-05-15 23:11:41] INFO root fetch - main [MainThread]: End processing [pyinfra]: success
+[2023-05-15 23:11:43] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-05-15 23:11:43] INFO root fetch - main [MainThread]: Store serial: [18113540]
