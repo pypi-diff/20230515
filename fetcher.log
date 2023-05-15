@@ -16275,3 +16275,90 @@ EOFError: EOF read where object expected
 [2023-05-15 17:12:53] INFO root fetch - main [MainThread]: End processing [cardano-clusterlib]: success
 [2023-05-15 17:12:54] INFO root fetch - main [MainThread]: End processing [django-cookie-monster]: success
 [2023-05-15 17:12:54] INFO root fetch - main [MainThread]: Store serial: [18109705]
+[2023-05-15 17:17:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109705]
+[2023-05-15 17:18:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinja-markdown2
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterhub-backendspawner
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-notifications-sdk-preview
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssm-ps-template
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iphack
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tycho-api
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supy
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hurdat2parser
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: descope
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: translate-toolkit
+[2023-05-15 17:18:03] INFO root fetch - processPackages [iphack]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [hurdat2parser]: New version: [2.2.2] Old Version: [2.2]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.685] Old Version: [0.1.683]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.2.6.2] Old Version: [0.2.6.1]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [tycho-api]: New version: [1.9a1.dev3] Old Version: [1.9a1.dev2]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ssm-ps-template]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-05-15 17:18:03] WARNING root fetch - processPackages [jinja-markdown2]: Skipping, unable to determine old version
+[2023-05-15 17:18:03] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-15 17:18:03] INFO root fetch - processPackages [jinja-markdown2]: Start processing: geoserver-restconfig
+[2023-05-15 17:18:03] INFO root fetch - main [MainThread]: End processing [jinja-markdown2] error
+[2023-05-15 17:18:03] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.683.tar.gz tmp/lusid-notifications-sdk-preview-0.1.685.tar.gz --markdown 20230515/l/lusid-notifications-sdk-preview/0.1.683-0.1.685/diff.md --exclude *.pyd
+[2023-05-15 17:18:03] INFO root fetch - processPackages [tycho-api]: executing diffoscope
+[2023-05-15 17:18:03] INFO root fetch - processPackages [tycho-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tycho-api-1.9a1.dev2.tar.gz tmp/tycho-api-1.9a1.dev3.tar.gz --markdown 20230515/t/tycho-api/1.9a1.dev2-1.9a1.dev3/diff.md --exclude *.pyd
+[2023-05-15 17:18:03] INFO root fetch - processPackages [supy]: New version: [2023.5.15.dev0] Old Version: [2023.5.12.dev0]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [descope]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [translate-toolkit]: New version: [3.9.0] Old Version: [3.8.6]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [iphack]: Downloading https://files.pythonhosted.org/packages/44/46/0f3c36bced5aaa9fb9a813a5c2153914823b5d7f538d21fa94cff95aa14a/iphack-1.2.9.tar.gz
+[2023-05-15 17:18:03] INFO root fetch - processPackages [hurdat2parser]: Downloading https://files.pythonhosted.org/packages/a9/ce/df62e80f2c9c20b21fc06758eb6a68378af0a3aa8d0f7fc5473c3fac0657/hurdat2parser-2.2.tar.gz
+[2023-05-15 17:18:03] INFO root fetch - processPackages [geoserver-restconfig]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ssm-ps-template]: Downloading https://files.pythonhosted.org/packages/5c/03/841294e1f3ea7d0255144605750d348cefcf4586c13f44040fe54dabf9c1/ssm-ps-template-1.0.0b3.tar.gz
+[2023-05-15 17:18:03] ERROR root fetch - processPackages [jupyterhub-backendspawner]: Unable to fetch info: No such project/version 'jupyterhub-backendspawner' 0.2.6.2
+[2023-05-15 17:18:03] INFO root fetch - processPackages [jupyterhub-backendspawner]: Start processing: fathom-global-client-sdk
+[2023-05-15 17:18:03] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner] error
+[2023-05-15 17:18:03] INFO root fetch - processPackages [translate-toolkit]: Downloading https://files.pythonhosted.org/packages/85/82/3a438db453da5daf3c1401d1f678f075f6810b5fc54340700ce5fb9b8fdf/translate-toolkit-3.8.6.tar.gz
+[2023-05-15 17:18:03] WARNING root fetch - processPackages [fathom-global-client-sdk]: Skipping, unable to determine old version
+[2023-05-15 17:18:03] INFO root fetch - processPackages [fathom-global-client-sdk]: Start processing: losant-rest
+[2023-05-15 17:18:03] INFO root fetch - main [MainThread]: End processing [fathom-global-client-sdk] error
+[2023-05-15 17:18:03] INFO root fetch - processPackages [descope]: Downloading https://files.pythonhosted.org/packages/12/60/037f5bfd6ef41a2b6f8bb1f4453b1dda941feb1170be8ade4fd498557669/descope-1.5.0.tar.gz
+[2023-05-15 17:18:03] INFO root fetch - processPackages [losant-rest]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ssm-ps-template]: Downloading https://files.pythonhosted.org/packages/10/b8/69a46bca005b3036359ae12a96b3cd7573e6c1323209b491689b04a422a2/ssm-ps-template-1.0.0b4.tar.gz
+[2023-05-15 17:18:03] INFO root fetch - processPackages [geoserver-restconfig]: Downloading https://files.pythonhosted.org/packages/6a/2c/51dce161db22fcd5778ae8b832fa7e5afbf4500665443871a91841ae3ab7/geoserver_restconfig-2.0.8-py3-none-any.whl
+[2023-05-15 17:18:03] INFO root fetch - processPackages [iphack]: Downloading https://files.pythonhosted.org/packages/47/ba/84f77217bfb63ce7bbd7927bf57b945d4311e412280a47e980ece031870b/iphack-1.3.0.tar.gz
+[2023-05-15 17:18:03] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/eb/67/eb9e56db1791c50c2663d4e0433cc60188653af8ca07ba07b72901580fb5/supy-2023.5.15.dev0-cp39-cp39-win_amd64.whl
+[2023-05-15 17:18:03] INFO root fetch - processPackages [hurdat2parser]: Downloading https://files.pythonhosted.org/packages/97/57/08ec6c4ff4e0de6bd29bbe5f403132cdea1e7db01cce2c578903014d0aa9/hurdat2parser-2.2.2.tar.gz
+[2023-05-15 17:18:03] INFO root fetch - processPackages [losant-rest]: Downloading https://files.pythonhosted.org/packages/e6/b6/bc0b3df2b558668ba17b7fa36bbfd3c967df996d8d3ec58127afd4563dda/losant-rest-1.9.2.tar.gz
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ssm-ps-template]: executing diffoscope
+[2023-05-15 17:18:03] INFO root fetch - processPackages [ssm-ps-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssm-ps-template-1.0.0b3.tar.gz tmp/ssm-ps-template-1.0.0b4.tar.gz --markdown 20230515/s/ssm-ps-template/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-05-15 17:18:03] INFO root fetch - processPackages [iphack]: executing diffoscope
+[2023-05-15 17:18:03] INFO root fetch - processPackages [iphack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iphack-1.2.9.tar.gz tmp/iphack-1.3.0.tar.gz --markdown 20230515/i/iphack/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-05-15 17:18:03] INFO root fetch - processPackages [descope]: Downloading https://files.pythonhosted.org/packages/5a/ec/76b7d5ded1124b0914e3c7331df14f2b7acf715271323a57cdbb5f4f6f3a/descope-1.5.1.tar.gz
+[2023-05-15 17:18:04] INFO root fetch - processPackages [hurdat2parser]: executing diffoscope
+[2023-05-15 17:18:04] INFO root fetch - processPackages [hurdat2parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurdat2parser-2.2.tar.gz tmp/hurdat2parser-2.2.2.tar.gz --markdown 20230515/h/hurdat2parser/2.2-2.2.2/diff.md --exclude *.pyd
+[2023-05-15 17:18:04] INFO root fetch - processPackages [descope]: executing diffoscope
+[2023-05-15 17:18:04] INFO root fetch - processPackages [descope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/descope-1.5.0.tar.gz tmp/descope-1.5.1.tar.gz --markdown 20230515/d/descope/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-15 17:18:04] INFO root fetch - processPackages [translate-toolkit]: Downloading https://files.pythonhosted.org/packages/f1/5e/a061c609543bda6a154d8466f38c08d57c3aa042dee0dd8c24647736f90b/translate-toolkit-3.9.0.tar.gz
+[2023-05-15 17:18:04] INFO root fetch - processPackages [geoserver-restconfig]: Downloading https://files.pythonhosted.org/packages/e8/1e/073ea55347ee701498e11c8f2a2ed65aa2e663ff8992c3afbbefae289c48/geoserver_restconfig-2.0.9-py3-none-any.whl
+[2023-05-15 17:18:04] INFO root fetch - processPackages [geoserver-restconfig]: executing diffoscope
+[2023-05-15 17:18:04] INFO root fetch - processPackages [geoserver-restconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoserver_restconfig-2.0.8-py3-none-any.whl.zip tmp/geoserver_restconfig-2.0.9-py3-none-any.whl.zip --markdown 20230515/g/geoserver-restconfig/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:18:04] INFO root fetch - processPackages [losant-rest]: Downloading https://files.pythonhosted.org/packages/ec/6c/2d769d822d51a6693278762553b8cd46c326e817dc888a2ef72dd14ae007/losant-rest-1.9.3.tar.gz
+[2023-05-15 17:18:04] INFO root fetch - processPackages [translate-toolkit]: executing diffoscope
+[2023-05-15 17:18:04] INFO root fetch - processPackages [translate-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-toolkit-3.8.6.tar.gz tmp/translate-toolkit-3.9.0.tar.gz --markdown 20230515/t/translate-toolkit/3.8.6-3.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:18:04] INFO root fetch - processPackages [supy]: executing diffoscope
+[2023-05-15 17:18:04] INFO root fetch - processPackages [supy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supy-2023.5.12.dev0-cp39-cp39-win_amd64.whl.zip tmp/supy-2023.5.15.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20230515/s/supy/2023.5.12.dev0-2023.5.15.dev0/diff.md --exclude *.pyd
+[2023-05-15 17:18:04] INFO root fetch - processPackages [losant-rest]: executing diffoscope
+[2023-05-15 17:18:04] INFO root fetch - processPackages [losant-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losant-rest-1.9.2.tar.gz tmp/losant-rest-1.9.3.tar.gz --markdown 20230515/l/losant-rest/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-15 17:18:05] INFO root fetch - processPackages [tycho-api]: Start processing: coiled
+[2023-05-15 17:18:05] INFO root fetch - main [MainThread]: End processing [tycho-api]: success
+[2023-05-15 17:18:05] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev9] Old Version: [0.6.4.dev8]
+[2023-05-15 17:18:05] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b4/0f/a2576a6846316727d9e7601057f829e375dadecd6644ea31ca46e5afae42/coiled-0.6.4.dev9.tar.gz
+[2023-05-15 17:18:05] INFO root fetch - processPackages [ssm-ps-template]: Start processing: selenium-to-pdf
+[2023-05-15 17:18:05] INFO root fetch - main [MainThread]: End processing [ssm-ps-template]: success
+[2023-05-15 17:18:05] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-15 17:18:05] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev8.tar.gz tmp/coiled-0.6.4.dev9.tar.gz --markdown 20230515/c/coiled/0.6.4.dev8-0.6.4.dev9/diff.md --exclude *.pyd
+[2023-05-15 17:18:05] WARNING root fetch - processPackages [selenium-to-pdf]: Skipping, unable to determine old version
+[2023-05-15 17:18:05] INFO root fetch - main [MainThread]: End processing [selenium-to-pdf] error
+[2023-05-15 17:18:06] INFO root fetch - main [MainThread]: End processing [geoserver-restconfig]: success
+[2023-05-15 17:18:06] INFO root fetch - main [MainThread]: End processing [hurdat2parser]: success
+[2023-05-15 17:18:06] INFO root fetch - main [MainThread]: End processing [iphack]: success
+[2023-05-15 17:18:06] INFO root fetch - main [MainThread]: End processing [descope]: success
+[2023-05-15 17:18:06] INFO root fetch - main [MainThread]: End processing [losant-rest]: success
+[2023-05-15 17:18:06] INFO root fetch - main [MainThread]: End processing [supy]: success
+[2023-05-15 17:18:07] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-15 17:18:07] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-15 17:18:21] INFO root fetch - main [MainThread]: End processing [translate-toolkit]: success
+[2023-05-15 17:18:21] INFO root fetch - main [MainThread]: Store serial: [18109774]
