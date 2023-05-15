@@ -20203,3 +20203,56 @@ EOFError: EOF read where object expected
 [2023-05-15 20:42:38] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2023-05-15 20:42:39] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-15 20:42:39] INFO root fetch - main [MainThread]: Store serial: [18112056]
+[2023-05-15 20:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112056]
+[2023-05-15 20:47:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tapdance
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gtirb
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cli
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-jtoman-direct-storage-comparison
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crate-sim
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aalink
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s
+[2023-05-15 20:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stdl
+[2023-05-15 20:47:48] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev9] Old Version: [0.6.4.dev8]
+[2023-05-15 20:47:48] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: New version: [20230515.18.45.683584] Old Version: [20230509.21.52.845814]
+[2023-05-15 20:47:48] INFO root fetch - processPackages [gtirb]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-15 20:47:48] WARNING root fetch - processPackages [crate-sim]: Skipping, unable to determine old version
+[2023-05-15 20:47:48] INFO root fetch - main [MainThread]: End processing [crate-sim] error
+[2023-05-15 20:47:48] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-15 20:47:48] INFO root fetch - processPackages [tapdance]: New version: [0.9.9.dev301] Old Version: [0.9.9.dev299]
+[2023-05-15 20:47:48] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-15 20:47:48] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-15 20:47:48] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-15 20:47:48] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev8.tar.gz tmp/coiled-0.6.4.dev9.tar.gz --markdown 20230515/c/coiled/0.6.4.dev8-0.6.4.dev9/diff.md --exclude *.pyd
+[2023-05-15 20:47:48] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-15 20:47:48] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230515/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-15 20:47:48] WARNING root fetch - processPackages [aalink]: Skipping, unable to determine old version
+[2023-05-15 20:47:48] INFO root fetch - main [MainThread]: End processing [aalink] error
+[2023-05-15 20:47:48] INFO root fetch - processPackages [stdl]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-15 20:47:48] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-15 20:47:48] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230515/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-15 20:47:48] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-15 20:47:48] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230515/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-15 20:47:48] INFO root fetch - processPackages [gtirb]: Downloading https://files.pythonhosted.org/packages/16/4d/5afb7eacf9eedd73f0d9250b3434ba6c5c4c2c267dbea126e90b27b133c2/gtirb-1.9.0.tar.gz
+[2023-05-15 20:47:48] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Downloading https://files.pythonhosted.org/packages/65/f0/c8009733a12ab007b0ab872232f4114cf8e8e676a27eb9eca96d5f4d4798/certora-cli-alpha-jtoman-direct-storage-comparison-20230509.21.52.845814.tar.gz
+[2023-05-15 20:47:49] INFO root fetch - processPackages [stdl]: Downloading https://files.pythonhosted.org/packages/35/5b/0526112b7493e966a711d6ebc636b889842e9484b07cca96142eb718884d/stdl-0.4.3.tar.gz
+[2023-05-15 20:47:49] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Skipping package: exceeds size limit 38609673>=10485760
+[2023-05-15 20:47:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-direct-storage-comparison] error
+[2023-05-15 20:47:49] INFO root fetch - processPackages [tapdance]: executing diffoscope
+[2023-05-15 20:47:49] INFO root fetch - processPackages [tapdance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapdance-0.9.9.dev299.tar.gz tmp/tapdance-0.9.9.dev301.tar.gz --markdown 20230515/t/tapdance/0.9.9.dev299-0.9.9.dev301/diff.md --exclude *.pyd
+[2023-05-15 20:47:49] INFO root fetch - processPackages [gtirb]: Downloading https://files.pythonhosted.org/packages/85/16/f86bb1fa681da06926a9e2d527dd089c70177b5b611263292bc38c5ccaa6/gtirb-1.9.1.tar.gz
+[2023-05-15 20:47:49] INFO root fetch - processPackages [gtirb]: executing diffoscope
+[2023-05-15 20:47:49] INFO root fetch - processPackages [gtirb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtirb-1.9.0.tar.gz tmp/gtirb-1.9.1.tar.gz --markdown 20230515/g/gtirb/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-15 20:47:49] INFO root fetch - processPackages [stdl]: Downloading https://files.pythonhosted.org/packages/c9/20/0ced3ee48e4fcfbf006ae23f57fb5f8072d97f9624c836d04887af59f608/stdl-0.4.4.tar.gz
+[2023-05-15 20:47:49] INFO root fetch - processPackages [stdl]: executing diffoscope
+[2023-05-15 20:47:49] INFO root fetch - processPackages [stdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdl-0.4.3.tar.gz tmp/stdl-0.4.4.tar.gz --markdown 20230515/s/stdl/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-15 20:47:50] INFO root fetch - main [MainThread]: End processing [tapdance]: success
+[2023-05-15 20:47:50] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-15 20:47:50] INFO root fetch - main [MainThread]: End processing [stdl]: success
+[2023-05-15 20:47:50] INFO root fetch - main [MainThread]: End processing [gtirb]: success
+[2023-05-15 20:47:51] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-15 20:47:51] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-15 20:47:51] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-15 20:47:51] INFO root fetch - main [MainThread]: Store serial: [18112100]
