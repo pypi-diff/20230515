@@ -5710,3 +5710,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 08:29:38] INFO root fetch - main [MainThread]: End processing [pibrary]: success
 [2023-05-15 08:29:45] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-15 08:29:45] INFO root fetch - main [MainThread]: Store serial: [18103530]
+[2023-05-15 08:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103530]
+[2023-05-15 08:34:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-15 08:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-sitvanit-no-payable-bug
+[2023-05-15 08:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feenton
+[2023-05-15 08:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demisto-sdk
+[2023-05-15 08:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-prompt
+[2023-05-15 08:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gravity-auto-exit
+[2023-05-15 08:34:56] WARNING root fetch - processPackages [feenton]: Skipping, unable to determine old version
+[2023-05-15 08:34:56] INFO root fetch - main [MainThread]: End processing [feenton] error
+[2023-05-15 08:34:56] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-15 08:34:56] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-no-payable-bug]: New version: [20230515.6.32.846311] Old Version: [20230515.5.11.975786]
+[2023-05-15 08:34:56] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.71.3] Old Version: [1.71.2]
+[2023-05-15 08:34:56] INFO root fetch - processPackages [sphinx-prompt]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-15 08:34:56] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-05-15 08:34:56] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230515/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 08:34:56] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-no-payable-bug]: Downloading https://files.pythonhosted.org/packages/8a/69/acd3e0c3a92e907cc7739cf2fbccca3538195131edc463e4397c6bf84203/certora-cli-alpha-sitvanit-no-payable-bug-20230515.5.11.975786.tar.gz
+[2023-05-15 08:34:56] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/7a/ed/5322d4f71c2e7848401633cd5ec83b53ef17a05e896a7412733d17912128/gravity_auto_exit-1.71.2-py3-none-any.whl
+[2023-05-15 08:34:56] WARNING root fetch - processPackages [certora-cli-alpha-sitvanit-no-payable-bug]: Skipping package: exceeds size limit 39431559>=10485760
+[2023-05-15 08:34:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-sitvanit-no-payable-bug] error
+[2023-05-15 08:34:56] INFO root fetch - processPackages [sphinx-prompt]: Downloading https://files.pythonhosted.org/packages/d0/fb/a252124876be4e2eb2a25536c76e817e10d96ecd47b971016b960cb8d726/sphinx_prompt-1.6.0.tar.gz
+[2023-05-15 08:34:56] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/84/0e/47b9bced0cea5485f7b706842d8570f47e1534e6d32011246e7af2afa038/gravity_auto_exit-1.71.3-py3-none-any.whl
+[2023-05-15 08:34:56] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-05-15 08:34:56] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.71.2-py3-none-any.whl.zip tmp/gravity_auto_exit-1.71.3-py3-none-any.whl.zip --markdown 20230515/g/gravity-auto-exit/1.71.2-1.71.3/diff.md --exclude *.pyd
+[2023-05-15 08:34:56] INFO root fetch - processPackages [sphinx-prompt]: Downloading https://files.pythonhosted.org/packages/40/00/c601097bfa180c0622bef4b3a8cbb91c10281b4fec2fa1cac835fa74001c/sphinx_prompt-1.7.0.tar.gz
+[2023-05-15 08:34:57] INFO root fetch - processPackages [sphinx-prompt]: executing diffoscope
+[2023-05-15 08:34:57] INFO root fetch - processPackages [sphinx-prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_prompt-1.6.0.tar.gz tmp/sphinx_prompt-1.7.0.tar.gz --markdown 20230515/s/sphinx-prompt/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-15 08:34:57] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-05-15 08:34:58] INFO root fetch - main [MainThread]: End processing [sphinx-prompt]: success
+[2023-05-15 08:35:08] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-05-15 08:35:08] INFO root fetch - main [MainThread]: Store serial: [18103549]
