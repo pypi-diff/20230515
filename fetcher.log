@@ -18920,3 +18920,65 @@ EOFError: EOF read where object expected
 [2023-05-15 19:27:23] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-15 19:27:31] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-05-15 19:27:31] INFO root fetch - main [MainThread]: Store serial: [18111232]
+[2023-05-15 19:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111232]
+[2023-05-15 19:32:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bizlogic
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flyingfish
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magpurify2
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-rediscloud
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: s2aff
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autotraders
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sling
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatcmd
+[2023-05-15 19:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zenroom
+[2023-05-15 19:32:40] INFO root fetch - processPackages [pulumi-rediscloud]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-15 19:32:40] INFO root fetch - processPackages [autotraders]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 19:32:40] WARNING root fetch - processPackages [magpurify2]: Skipping, unable to determine old version
+[2023-05-15 19:32:40] INFO root fetch - processPackages [sling]: New version: [0.87.89] Old Version: [0.87.88]
+[2023-05-15 19:32:40] INFO root fetch - processPackages [magpurify2]: Start processing: sphinxext-altair
+[2023-05-15 19:32:40] INFO root fetch - main [MainThread]: End processing [magpurify2] error
+[2023-05-15 19:32:40] INFO root fetch - processPackages [chatcmd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 19:32:40] INFO root fetch - processPackages [s2aff]: New version: [0.27] Old Version: [0.26]
+[2023-05-15 19:32:40] INFO root fetch - processPackages [sphinxext-altair]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 19:32:41] INFO root fetch - processPackages [flyingfish]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 19:32:41] INFO root fetch - processPackages [bizlogic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 19:32:41] INFO root fetch - processPackages [pulumi-rediscloud]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [chatcmd]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [pulumi-rediscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rediscloud-1.2.0.tar.gz tmp/pulumi_rediscloud-1.2.1.tar.gz --markdown 20230515/p/pulumi-rediscloud/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] INFO root fetch - processPackages [chatcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcmd-1.0.8.tar.gz tmp/chatcmd-1.0.9.tar.gz --markdown 20230515/c/chatcmd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-15 19:32:41] INFO root fetch - processPackages [sphinxext-altair]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [sphinxext-altair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxext_altair-0.1.0.tar.gz tmp/sphinxext_altair-0.1.1.tar.gz --markdown 20230515/s/sphinxext-altair/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/8d/c6/7accfa01f9a950ff81cd3406ab6916bf81f256cc6e98dc398f2ed1aff0bd/autotraders-1.0.3.tar.gz
+[2023-05-15 19:32:41] INFO root fetch - processPackages [sling]: Downloading https://files.pythonhosted.org/packages/84/50/397400a1551964426590d77a9580ea2859b693fe5e1401c5fdec27d8b39e/sling-0.87.88.tar.gz
+[2023-05-15 19:32:41] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/e6/45/58ad189bf139998e9298384de55d99e0bbb98f036493a64d017c5ed66913/s2aff-0.27.tar.gz
+[2023-05-15 19:32:41] WARNING root fetch - processPackages [sling]: Skipping package: exceeds size limit 100361494>=10485760
+[2023-05-15 19:32:41] INFO root fetch - main [MainThread]: End processing [sling] error
+[2023-05-15 19:32:41] INFO root fetch - processPackages [zenroom]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-15 19:32:41] INFO root fetch - processPackages [flyingfish]: Downloading https://files.pythonhosted.org/packages/81/2a/32d37e90321d9a3b3dfbf853f4bb6a097d7d63ed0c412af8b41d77981b77/flyingfish-0.0.2.tar.gz
+[2023-05-15 19:32:41] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/f4/6e/9b89b3363c5e45d1a2822e7570cd7263bf94296e972b2a00f361db04036f/bizlogic-0.0.8.tar.gz
+[2023-05-15 19:32:41] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.0.2.tar.gz tmp/autotraders-1.0.3.tar.gz --markdown 20230515/a/autotraders/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.26.tar.gz tmp/s2aff-0.27.tar.gz --markdown 20230515/s/s2aff/0.26-0.27/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/0a/10/5076ec78a2443fc00ad1db5200d41e301e3d13f87e9e363fe5363a219906/zenroom-2.8.1.tar.gz
+[2023-05-15 19:32:41] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230515/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] INFO root fetch - processPackages [flyingfish]: Downloading https://files.pythonhosted.org/packages/e7/9c/c831aeecbdd1b332735b3440b7e4e2e8241131f02a5c70c8e8211df560f8/flyingfish-0.0.3.tar.gz
+[2023-05-15 19:32:41] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/1e/06/121f2d57737088949b3f8291c442f93cc8c45a2740bebfe9d3dffcc4eba8/bizlogic-0.0.9.tar.gz
+[2023-05-15 19:32:41] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.0.8.tar.gz tmp/bizlogic-0.0.9.tar.gz --markdown 20230515/b/bizlogic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] INFO root fetch - processPackages [flyingfish]: executing diffoscope
+[2023-05-15 19:32:41] INFO root fetch - processPackages [flyingfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyingfish-0.0.2.tar.gz tmp/flyingfish-0.0.3.tar.gz --markdown 20230515/f/flyingfish/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 19:32:41] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 82598050>=10485760
+[2023-05-15 19:32:41] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-05-15 19:32:42] INFO root fetch - main [MainThread]: End processing [sphinxext-altair]: success
+[2023-05-15 19:32:42] INFO root fetch - main [MainThread]: End processing [chatcmd]: success
+[2023-05-15 19:32:42] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-15 19:32:42] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-15 19:32:42] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-05-15 19:32:42] INFO root fetch - main [MainThread]: End processing [flyingfish]: success
+[2023-05-15 19:32:43] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-15 19:32:43] INFO root fetch - main [MainThread]: End processing [pulumi-rediscloud]: success
+[2023-05-15 19:32:43] INFO root fetch - main [MainThread]: Store serial: [18111272]
