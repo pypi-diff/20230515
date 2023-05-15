@@ -5477,3 +5477,22 @@
 [2023-05-15 08:08:28] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-15 08:08:33] INFO root fetch - main [MainThread]: End processing [kudio]: success
 [2023-05-15 08:08:33] INFO root fetch - main [MainThread]: Store serial: [18103454]
+[2023-05-15 08:13:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103454]
+[2023-05-15 08:13:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-15 08:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-pos-empty-home
+[2023-05-15 08:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webt00n
+[2023-05-15 08:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: common-test
+[2023-05-15 08:13:46] WARNING root fetch - processPackages [webt00n]: Skipping, unable to determine old version
+[2023-05-15 08:13:46] INFO root fetch - main [MainThread]: End processing [webt00n] error
+[2023-05-15 08:13:46] INFO root fetch - processPackages [odoo12-addon-pos-empty-home]: New version: [12.0.1.0.1.99.dev1] Old Version: [12.0.1.0.1]
+[2023-05-15 08:13:46] INFO root fetch - processPackages [common-test]: New version: [29.9.41] Old Version: [29.9.40]
+[2023-05-15 08:13:46] INFO root fetch - processPackages [odoo12-addon-pos-empty-home]: Downloading https://files.pythonhosted.org/packages/5f/b2/0a12690324f9e8d722c95ae2f3d459af6351f827d3832ad56a421c5fd42a/odoo12_addon_pos_empty_home-12.0.1.0.1.99.dev1-py3-none-any.whl
+[2023-05-15 08:13:46] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/3b/78/5bfe2e4639753cba9bf3c373714c78b98ff07f5fd09374462eccf811a1ec/common-test-29.9.40.tar.gz
+[2023-05-15 08:13:46] INFO root fetch - processPackages [odoo12-addon-pos-empty-home]: executing diffoscope
+[2023-05-15 08:13:46] INFO root fetch - processPackages [odoo12-addon-pos-empty-home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_empty_home-12.0.1.0.1-py3-none-any.whl.zip tmp/odoo12_addon_pos_empty_home-12.0.1.0.1.99.dev1-py3-none-any.whl.zip --markdown 20230515/o/odoo12-addon-pos-empty-home/12.0.1.0.1-12.0.1.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-05-15 08:13:47] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/b6/6c/f98b8654b2c16c9dfb5b1f43cbe839dd6e3e483623f2647ee3f5c2e69c43/common-test-29.9.41.tar.gz
+[2023-05-15 08:13:47] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-15 08:13:47] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.40.tar.gz tmp/common-test-29.9.41.tar.gz --markdown 20230515/c/common-test/29.9.40-29.9.41/diff.md --exclude *.pyd
+[2023-05-15 08:13:48] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-empty-home]: success
+[2023-05-15 08:13:48] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-15 08:13:48] INFO root fetch - main [MainThread]: Store serial: [18103465]
