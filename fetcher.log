@@ -1515,3 +1515,41 @@
 [2023-05-15 02:47:25] INFO root fetch - main [MainThread]: End processing [leeger]: success
 [2023-05-15 02:47:34] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-15 02:47:34] INFO root fetch - main [MainThread]: Store serial: [18101157]
+[2023-05-15 02:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101157]
+[2023-05-15 02:52:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-15 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2023-05-15 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: x-transformers
+[2023-05-15 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2023-05-15 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dhapi
+[2023-05-15 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: untanglepyut
+[2023-05-15 02:52:43] INFO root fetch - processPackages [dhapi]: New version: [1.4.0] Old Version: [1.3.5]
+[2023-05-15 02:52:44] INFO root fetch - processPackages [untanglepyut]: New version: [0.6.61] Old Version: [0.6.60]
+[2023-05-15 02:52:44] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-15 02:52:44] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 02:52:44] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-15 02:52:44] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/26/59/63ce11bc3ec9196d12d06b9f0352824c8598610a8c3385135edc11661b5f/projen-0.71.8.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/ce/f1/a0b39b9b8a3e617b839f36299d3fa5bfc06b93282de44b97bde91ac39621/untanglepyut-0.6.60.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/55/b6/0a6a7a76de5b645b9a0bafe6b60dd6e22176d61e4a66c77ff2b68fbd9e25/dhapi-1.3.5.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/22/c6/4c01f17ce5147605191f86504f44996dfcd5019ec6eb62d4f3c6b667fff4/untanglepyut-0.6.61.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/88/af/74b0af793aab7bfb9428442651a39e4280e439dbed3520741c999033026a/dhapi-1.4.0.tar.gz
+[2023-05-15 02:52:44] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-15 02:52:44] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230515/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-15 02:52:44] INFO root fetch - processPackages [untanglepyut]: executing diffoscope
+[2023-05-15 02:52:44] INFO root fetch - processPackages [untanglepyut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untanglepyut-0.6.60.tar.gz tmp/untanglepyut-0.6.61.tar.gz --markdown 20230515/u/untanglepyut/0.6.60-0.6.61/diff.md --exclude *.pyd
+[2023-05-15 02:52:44] INFO root fetch - processPackages [dhapi]: executing diffoscope
+[2023-05-15 02:52:44] INFO root fetch - processPackages [dhapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhapi-1.3.5.tar.gz tmp/dhapi-1.4.0.tar.gz --markdown 20230515/d/dhapi/1.3.5-1.4.0/diff.md --exclude *.pyd
+[2023-05-15 02:52:44] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-05-15 02:52:45] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-15 02:52:45] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230515/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 02:52:45] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-15 02:52:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/ce/49/8d0875fd46d32b42ce93e5014d26cffc8a31bf69b96a163c695d1d9c84d7/projen-0.71.9.tar.gz
+[2023-05-15 02:52:46] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-15 02:52:46] INFO root fetch - main [MainThread]: End processing [untanglepyut]: success
+[2023-05-15 02:52:47] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-15 02:52:47] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230515/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-15 02:52:49] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-15 02:53:21] INFO root fetch - main [MainThread]: End processing [dhapi]: success
+[2023-05-15 02:53:21] INFO root fetch - main [MainThread]: Store serial: [18101172]
