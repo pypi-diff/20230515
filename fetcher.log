@@ -14911,3 +14911,106 @@ EOFError: EOF read where object expected
 [2023-05-15 16:06:29] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
 [2023-05-15 16:06:29] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
 [2023-05-15 16:06:29] INFO root fetch - main [MainThread]: Store serial: [18108882]
+[2023-05-15 16:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108882]
+[2023-05-15 16:11:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-address-index
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tala
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clophfit
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localcider
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ttrace
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-gtfs
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: livesolid
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sf2-loader
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tvdcn
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ttrace]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230515.9.28.17955] Old Version: [20230515.8.30.284279]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [livesolid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/e3/28/a423fabd542019b0eedf821af75dd341cd321309f0ec965787e85b604b95/certora-cli-alpha-jtoman-try-catch-20230515.8.30.284279.tar.gz
+[2023-05-15 16:11:39] INFO root fetch - processPackages [eth-address-index]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [localcider]: New version: [0.1.9.post4] Old Version: [0.1.9.post3]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [clophfit]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-15 16:11:39] WARNING root fetch - processPackages [sf2-loader]: Skipping, unable to determine old version
+[2023-05-15 16:11:39] INFO root fetch - processPackages [sf2-loader]: Start processing: gnssrefl
+[2023-05-15 16:11:39] INFO root fetch - main [MainThread]: End processing [sf2-loader] error
+[2023-05-15 16:11:39] WARNING root fetch - processPackages [easy-gtfs]: Skipping, unable to determine old version
+[2023-05-15 16:11:39] INFO root fetch - processPackages [tvdcn]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [easy-gtfs]: Start processing: MEGABYTE-pytorch
+[2023-05-15 16:11:39] INFO root fetch - main [MainThread]: End processing [easy-gtfs] error
+[2023-05-15 16:11:39] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39430910>=10485760
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ttrace]: executing diffoscope
+[2023-05-15 16:11:39] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: peopledatalabs
+[2023-05-15 16:11:39] INFO root fetch - processPackages [ttrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttrace-0.1.6.tar.gz tmp/ttrace-0.1.7.tar.gz --markdown 20230515/t/ttrace/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 16:11:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-15 16:11:39] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 16:11:39] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:11:39] INFO root fetch - processPackages [livesolid]: executing diffoscope
+[2023-05-15 16:11:39] INFO root fetch - processPackages [livesolid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livesolid-0.0.8.tar.gz tmp/livesolid-0.0.9.tar.gz --markdown 20230515/l/livesolid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:11:39] INFO root fetch - processPackages [MEGABYTE-pytorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [gnssrefl]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [peopledatalabs]: New version: [1.1.5] Old Version: [1.1.3]
+[2023-05-15 16:11:39] INFO root fetch - processPackages [eth-address-index]: Downloading https://files.pythonhosted.org/packages/7f/b9/7ce1e5107afa5d47c56e11f0433d983ea90983d350398f736e2c1b2f1fa7/eth-address-index-0.7.2.tar.gz
+[2023-05-15 16:11:39] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/20/e8/2abf51e53df9f58ae57ab52a9d39385a637882b308b87986cb53bbd87219/tvdcn-0.2.0.tar.gz
+[2023-05-15 16:11:39] INFO root fetch - processPackages [MEGABYTE-pytorch]: Downloading https://files.pythonhosted.org/packages/22/e9/3c2a4ed11d0bfc74c6c9da7f1123556e0af38afe60bad4355c2e330a98b1/MEGABYTE-pytorch-0.0.3.tar.gz
+[2023-05-15 16:11:39] INFO root fetch - processPackages [peopledatalabs]: Downloading https://files.pythonhosted.org/packages/c6/85/1885bf7a94d7d27c29f74d9a3aa3053310c464a29d2bd1b9a723de0ffb76/peopledatalabs-1.1.3.tar.gz
+[2023-05-15 16:11:40] INFO root fetch - processPackages [localcider]: executing diffoscope
+[2023-05-15 16:11:40] INFO root fetch - processPackages [localcider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcider-0.1.9.post3.tar.gz tmp/localcider-0.1.9.post4.tar.gz --markdown 20230515/l/localcider/0.1.9.post3-0.1.9.post4/diff.md --exclude *.pyd
+[2023-05-15 16:11:40] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/bd/e8/951ab6c7ef991a4016dfab9e8fe23ea3505efd89f90085df93e0a4bd54b6/clophfit-0.7.0.tar.gz
+[2023-05-15 16:11:40] INFO root fetch - processPackages [eth-address-index]: Downloading https://files.pythonhosted.org/packages/c0/85/84ed9bfb5f0cecd6ffed6abbdceb6df548c0461aec32cc56155334ab746a/eth-address-index-0.7.3.tar.gz
+[2023-05-15 16:11:40] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/88/82/2d5245e61a86f1a43500e7ca2211c060c09349f75b32ccc151aaac4c9fb2/tvdcn-0.2.1.tar.gz
+[2023-05-15 16:11:40] INFO root fetch - processPackages [MEGABYTE-pytorch]: executing diffoscope
+[2023-05-15 16:11:40] INFO root fetch - processPackages [MEGABYTE-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MEGABYTE-pytorch-0.0.2.tar.gz tmp/MEGABYTE-pytorch-0.0.3.tar.gz --markdown 20230515/M/MEGABYTE-pytorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 16:11:40] INFO root fetch - processPackages [eth-address-index]: executing diffoscope
+[2023-05-15 16:11:40] INFO root fetch - processPackages [eth-address-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-address-index-0.7.2.tar.gz tmp/eth-address-index-0.7.3.tar.gz --markdown 20230515/e/eth-address-index/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-15 16:11:40] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-05-15 16:11:40] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.7.tar.gz tmp/gnssrefl-1.3.8.tar.gz --markdown 20230515/g/gnssrefl/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-15 16:11:40] INFO root fetch - processPackages [peopledatalabs]: Downloading https://files.pythonhosted.org/packages/3c/10/43372134f38054a91271566549deec6892fb3fa3777c62dfd46016a35892/peopledatalabs-1.1.5.tar.gz
+[2023-05-15 16:11:40] INFO root fetch - processPackages [tvdcn]: executing diffoscope
+[2023-05-15 16:11:40] INFO root fetch - processPackages [tvdcn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvdcn-0.2.0.tar.gz tmp/tvdcn-0.2.1.tar.gz --markdown 20230515/t/tvdcn/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-15 16:11:40] INFO root fetch - processPackages [peopledatalabs]: executing diffoscope
+[2023-05-15 16:11:40] INFO root fetch - processPackages [peopledatalabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peopledatalabs-1.1.3.tar.gz tmp/peopledatalabs-1.1.5.tar.gz --markdown 20230515/p/peopledatalabs/1.1.3-1.1.5/diff.md --exclude *.pyd
+[2023-05-15 16:11:40] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-05-15 16:11:40] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.6.0.tar.gz tmp/clophfit-0.7.0.tar.gz --markdown 20230515/c/clophfit/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 16:11:41] INFO root fetch - processPackages [ttrace]: Start processing: py3d
+[2023-05-15 16:11:41] INFO root fetch - main [MainThread]: End processing [ttrace]: success
+[2023-05-15 16:11:41] INFO root fetch - processPackages [livesolid]: Start processing: tonconnect
+[2023-05-15 16:11:41] INFO root fetch - main [MainThread]: End processing [livesolid]: success
+[2023-05-15 16:11:41] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-05-15 16:11:41] INFO root fetch - processPackages [tonconnect]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 16:11:41] INFO root fetch - processPackages [MEGABYTE-pytorch]: Start processing: sunpy
+[2023-05-15 16:11:41] INFO root fetch - main [MainThread]: End processing [MEGABYTE-pytorch]: success
+[2023-05-15 16:11:41] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/2d/04/31bfd4a21dad16b22d9b2efcd4003c537c52bcef57ab7b379d3b09e2686f/py3d-0.0.87.tar.gz
+[2023-05-15 16:11:41] INFO root fetch - processPackages [tonconnect]: Downloading https://files.pythonhosted.org/packages/c6/7d/cdce0fcfaf0eb4af1fc9c08c72a3a80c200ad1d0ef5e05394140dc6264e1/tonconnect-0.1.0.tar.gz
+[2023-05-15 16:11:42] INFO root fetch - processPackages [sunpy]: New version: [5.0.0rc1] Old Version: [4.1rc1]
+[2023-05-15 16:11:42] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/42/7f/b468d9b3eb4a15d524dfa2757a79decc39cdb1d48240d423407d8440bb99/py3d-0.0.9.tar.gz
+[2023-05-15 16:11:42] INFO root fetch - processPackages [sunpy]: Downloading https://files.pythonhosted.org/packages/3e/b4/d36617114021249239037433a53f36ae743b0db538c88193285421ae6a8a/sunpy-4.1rc1.tar.gz
+[2023-05-15 16:11:42] INFO root fetch - processPackages [tonconnect]: Downloading https://files.pythonhosted.org/packages/49/d7/292f72e597a666696974941e3ede68f8f61395e2d4f9f71e36e32923eed4/tonconnect-0.1.1.tar.gz
+[2023-05-15 16:11:42] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-05-15 16:11:42] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.87.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230515/p/py3d/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:11:42] INFO root fetch - processPackages [tonconnect]: executing diffoscope
+[2023-05-15 16:11:42] INFO root fetch - processPackages [tonconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonconnect-0.1.0.tar.gz tmp/tonconnect-0.1.1.tar.gz --markdown 20230515/t/tonconnect/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 16:11:42] INFO root fetch - processPackages [eth-address-index]: Start processing: com.castsoftware.uc.python.common
+[2023-05-15 16:11:42] INFO root fetch - main [MainThread]: End processing [eth-address-index]: success
+[2023-05-15 16:11:42] INFO root fetch - processPackages [peopledatalabs]: Start processing: ebbe
+[2023-05-15 16:11:42] INFO root fetch - main [MainThread]: End processing [peopledatalabs]: success
+[2023-05-15 16:11:42] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 16:11:42] INFO root fetch - main [MainThread]: End processing [localcider]: success
+[2023-05-15 16:11:42] INFO root fetch - processPackages [ebbe]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-15 16:11:43] INFO root fetch - main [MainThread]: End processing [tvdcn]: success
+[2023-05-15 16:11:43] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: executing diffoscope
+[2023-05-15 16:11:43] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.python.common-0.1.8.tar.gz tmp/com.castsoftware.uc.python.common-0.1.9.tar.gz --markdown 20230515/c/com.castsoftware.uc.python.common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 16:11:43] INFO root fetch - processPackages [ebbe]: executing diffoscope
+[2023-05-15 16:11:43] INFO root fetch - processPackages [ebbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbe-1.8.0.tar.gz tmp/ebbe-1.9.0.tar.gz --markdown 20230515/e/ebbe/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 16:11:43] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-05-15 16:11:43] INFO root fetch - processPackages [sunpy]: Downloading https://files.pythonhosted.org/packages/8d/f8/02b961c5ec9b674d38f635f56ecd665ae6357ff3c30dae66f98712429594/sunpy-5.0.0rc1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-15 16:11:44] INFO root fetch - processPackages [sunpy]: executing diffoscope
+[2023-05-15 16:11:44] INFO root fetch - processPackages [sunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpy-4.1rc1.tar.gz tmp/sunpy-5.0.0rc1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230515/s/sunpy/4.1rc1-5.0.0rc1/diff.md --exclude *.pyd
+[2023-05-15 16:11:44] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 16:11:44] INFO root fetch - main [MainThread]: End processing [tonconnect]: success
+[2023-05-15 16:11:44] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.python.common]: success
+[2023-05-15 16:11:44] INFO root fetch - main [MainThread]: End processing [ebbe]: success
+[2023-05-15 16:11:45] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-05-15 16:11:46] INFO root fetch - main [MainThread]: End processing [sunpy]: success
+[2023-05-15 16:11:46] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-05-15 16:11:46] INFO root fetch - main [MainThread]: Store serial: [18108945]
