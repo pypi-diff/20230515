@@ -5238,3 +5238,37 @@
 [2023-05-15 07:26:47] INFO root fetch - main [MainThread]: End processing [edman]: success
 [2023-05-15 07:26:47] INFO root fetch - main [MainThread]: End processing [hkbot]: success
 [2023-05-15 07:26:47] INFO root fetch - main [MainThread]: Store serial: [18103295]
+[2023-05-15 07:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103295]
+[2023-05-15 07:31:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trojanzoo
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ChatLLM
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipsqlipkg
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hex-utility-pkg
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quasinet
+[2023-05-15 07:31:58] INFO root fetch - processPackages [hex-utility-pkg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 07:31:58] INFO root fetch - processPackages [trojanzoo]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-15 07:31:58] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 07:31:58] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-15 07:31:58] WARNING root fetch - processPackages [pipsqlipkg]: Skipping, unable to determine old version
+[2023-05-15 07:31:58] INFO root fetch - main [MainThread]: End processing [pipsqlipkg] error
+[2023-05-15 07:31:58] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 07:31:58] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 07:31:58] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 07:31:58] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 07:31:58] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-15 07:31:58] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230515/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-15 07:31:58] INFO root fetch - processPackages [hex-utility-pkg]: Downloading https://files.pythonhosted.org/packages/0e/7c/2e3ac6ad6c0cfeacab59eb01d13f216e91d665e6360bc8d8e061b9a2d7ae/hex_utility_pkg-0.0.1.tar.gz
+[2023-05-15 07:31:58] INFO root fetch - processPackages [trojanzoo]: Downloading https://files.pythonhosted.org/packages/7a/62/f0faf12e12882cace3ee213640ad58c6b3f4b9cd00b8576ccd492e55bb9e/trojanzoo-2.0.2.tar.gz
+[2023-05-15 07:31:58] INFO root fetch - processPackages [hex-utility-pkg]: Downloading https://files.pythonhosted.org/packages/7b/83/a91689726e7fa3575b9c18048d1b7ac44db4b7e0c9ff7bd66d8bcc70800d/hex_utility_pkg-0.0.2.tar.gz
+[2023-05-15 07:31:58] INFO root fetch - processPackages [hex-utility-pkg]: executing diffoscope
+[2023-05-15 07:31:58] INFO root fetch - processPackages [hex-utility-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hex_utility_pkg-0.0.1.tar.gz tmp/hex_utility_pkg-0.0.2.tar.gz --markdown 20230515/h/hex-utility-pkg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 07:31:58] INFO root fetch - processPackages [trojanzoo]: executing diffoscope
+[2023-05-15 07:31:58] INFO root fetch - processPackages [trojanzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trojanzoo-2.0.1.tar.gz tmp/trojanzoo-2.0.2.tar.gz --markdown 20230515/t/trojanzoo/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-15 07:31:59] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-15 07:31:59] INFO root fetch - main [MainThread]: End processing [hex-utility-pkg]: success
+[2023-05-15 07:32:00] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 07:32:01] INFO root fetch - main [MainThread]: End processing [trojanzoo]: success
+[2023-05-15 07:32:01] INFO root fetch - main [MainThread]: Store serial: [18103329]
