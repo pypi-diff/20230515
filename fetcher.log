@@ -14838,3 +14838,76 @@ EOFError: EOF read where object expected
 [2023-05-15 16:01:14] INFO root fetch - main [MainThread]: End processing [salt-analytics-framework]: success
 [2023-05-15 16:01:17] INFO root fetch - main [MainThread]: End processing [metal-python]: success
 [2023-05-15 16:01:17] INFO root fetch - main [MainThread]: Store serial: [18108834]
+[2023-05-15 16:06:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108834]
+[2023-05-15 16:06:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-gpt
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elefantolib
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enos
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cookie-composer
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autumn8
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myinfogetter
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-sitvanit-set-can-be-empty
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: musicpy
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lophat
+[2023-05-15 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyclarity
+[2023-05-15 16:06:26] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc3] Old Version: [1.0.5rc2]
+[2023-05-15 16:06:26] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: New version: [20230515.9.59.985056] Old Version: [20230515.13.5.657977]
+[2023-05-15 16:06:26] INFO root fetch - processPackages [lophat]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-15 16:06:26] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev6] Old Version: [0.18.41.dev5]
+[2023-05-15 16:06:26] INFO root fetch - processPackages [enos]: New version: [8.0.0a4] Old Version: [8.0.0a3]
+[2023-05-15 16:06:26] INFO root fetch - processPackages [elefantolib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-15 16:06:26] WARNING root fetch - processPackages [myinfogetter]: Skipping, unable to determine old version
+[2023-05-15 16:06:26] INFO root fetch - processPackages [myinfogetter]: Start processing: geti-sdk
+[2023-05-15 16:06:26] INFO root fetch - main [MainThread]: End processing [myinfogetter] error
+[2023-05-15 16:06:26] INFO root fetch - processPackages [cookie-composer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-15 16:06:26] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-05-15 16:06:26] INFO root fetch - processPackages [musicpy]: Start processing: control-lab-ly
+[2023-05-15 16:06:26] INFO root fetch - processPackages [pyclarity]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-15 16:06:26] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-05-15 16:06:26] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Downloading https://files.pythonhosted.org/packages/cf/86/6cd1f31a74d5656d33efb3c32effdc62813fbdb3c2118acff1435dadb21e/certora-cli-alpha-sitvanit-set-can-be-empty-20230515.13.5.657977.tar.gz
+[2023-05-15 16:06:26] INFO root fetch - processPackages [lophat]: Downloading https://files.pythonhosted.org/packages/09/ec/bd16c557f2ac7bc70203a85b5e8bef15519f438cc82b82a97ba905761302/lophat-0.8.3.tar.gz
+[2023-05-15 16:06:26] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-05-15 16:06:26] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.0a0] Old Version: [1.0.1a3]
+[2023-05-15 16:06:26] WARNING root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Skipping package: exceeds size limit 39449229>=10485760
+[2023-05-15 16:06:26] INFO root fetch - processPackages [certora-cli-alpha-sitvanit-set-can-be-empty]: Start processing: py-random-useragent
+[2023-05-15 16:06:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-sitvanit-set-can-be-empty] error
+[2023-05-15 16:06:26] INFO root fetch - processPackages [enos]: Downloading https://files.pythonhosted.org/packages/a6/53/c482947a0667155b88e15517e191ea93c561bd963a05e6c822df52d4051d/enos-8.0.0a3.tar.gz
+[2023-05-15 16:06:26] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/f7/f8/8f3be0aa69f3ca8f1ac7d219b55887e3642e9f8719fbb4768b75c8e7a482/dev-gpt-0.18.41.dev5.tar.gz
+[2023-05-15 16:06:26] INFO root fetch - processPackages [cookie-composer]: Downloading https://files.pythonhosted.org/packages/ae/8c/3a9acebac14b9dc604ccd2445fe24935ec151c30933f30eaa2494504c259/cookie_composer-0.9.1.tar.gz
+[2023-05-15 16:06:26] WARNING root fetch - processPackages [py-random-useragent]: Skipping, unable to determine old version
+[2023-05-15 16:06:26] INFO root fetch - main [MainThread]: End processing [py-random-useragent] error
+[2023-05-15 16:06:26] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-15 16:06:26] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc2.tar.gz tmp/autumn8-1.0.5rc3.tar.gz --markdown 20230515/a/autumn8/1.0.5rc2-1.0.5rc3/diff.md --exclude *.pyd
+[2023-05-15 16:06:26] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/1f/4d/f136ef1ce6a35352322cbd750cf597ac4d25c839d7e26756279f9e8c95e6/control-lab-ly-1.0.1a3.tar.gz
+[2023-05-15 16:06:26] INFO root fetch - processPackages [pyclarity]: Downloading https://files.pythonhosted.org/packages/05/30/5db4e5ca13dcfce62a3575296b3922950c1c9aae98cb563b7512242d918e/pyclarity-0.3.1.tar.gz
+[2023-05-15 16:06:26] INFO root fetch - processPackages [elefantolib]: executing diffoscope
+[2023-05-15 16:06:26] INFO root fetch - processPackages [elefantolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib-0.9.1.tar.gz tmp/elefantolib-0.9.2.tar.gz --markdown 20230515/e/elefantolib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-15 16:06:26] INFO root fetch - processPackages [lophat]: Downloading https://files.pythonhosted.org/packages/be/4d/b39904cd49008ad8107bd74b86d403e6b937e125c821c86dc1d175dcb090/lophat-0.9.0.tar.gz
+[2023-05-15 16:06:27] INFO root fetch - processPackages [cookie-composer]: Downloading https://files.pythonhosted.org/packages/ab/47/5deac376f887786c47ac97a871db685e5bbc26ccaab2a1caadb3ee5d0eeb/cookie_composer-0.9.2.tar.gz
+[2023-05-15 16:06:27] INFO root fetch - processPackages [lophat]: executing diffoscope
+[2023-05-15 16:06:27] INFO root fetch - processPackages [lophat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lophat-0.8.3.tar.gz tmp/lophat-0.9.0.tar.gz --markdown 20230515/l/lophat/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 16:06:27] INFO root fetch - processPackages [cookie-composer]: executing diffoscope
+[2023-05-15 16:06:27] INFO root fetch - processPackages [cookie-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookie_composer-0.9.1.tar.gz tmp/cookie_composer-0.9.2.tar.gz --markdown 20230515/c/cookie-composer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-15 16:06:27] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/0b/a2/41e59919c1a6886a4ec0efff060288bd62aeb4e02451dcba673487ee7b9b/dev-gpt-0.18.41.dev6.tar.gz
+[2023-05-15 16:06:27] INFO root fetch - processPackages [enos]: Downloading https://files.pythonhosted.org/packages/48/78/a24ec3f56545fcdd50a147e23f020a4ed4a3c2082e63701c4ae593c0fe51/enos-8.0.0a4.tar.gz
+[2023-05-15 16:06:27] WARNING root fetch - processPackages [pyclarity]: Skipping package: exceeds size limit 36893438>=10485760
+[2023-05-15 16:06:27] INFO root fetch - main [MainThread]: End processing [pyclarity] error
+[2023-05-15 16:06:27] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/cc/bc/49c560bd8cae8135c918c6b5e1bbc03a7e1ca0568faddc91d6d91fd10cc7/geti-sdk-1.5.5.tar.gz
+[2023-05-15 16:06:27] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-15 16:06:27] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev5.tar.gz tmp/dev-gpt-0.18.41.dev6.tar.gz --markdown 20230515/d/dev-gpt/0.18.41.dev5-0.18.41.dev6/diff.md --exclude *.pyd
+[2023-05-15 16:06:27] INFO root fetch - processPackages [enos]: executing diffoscope
+[2023-05-15 16:06:27] INFO root fetch - processPackages [enos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enos-8.0.0a3.tar.gz tmp/enos-8.0.0a4.tar.gz --markdown 20230515/e/enos/8.0.0a3-8.0.0a4/diff.md --exclude *.pyd
+[2023-05-15 16:06:27] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/3f/b1/08d4041f7ba754b499228aafbb457cafd2563735773794641ce258ec2a65/control-lab-ly-1.1.0a0.tar.gz
+[2023-05-15 16:06:27] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-05-15 16:06:27] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.5.4.tar.gz tmp/geti-sdk-1.5.5.tar.gz --markdown 20230515/g/geti-sdk/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-05-15 16:06:27] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-05-15 16:06:27] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.0.1a3.tar.gz tmp/control-lab-ly-1.1.0a0.tar.gz --markdown 20230515/c/control-lab-ly/1.0.1a3-1.1.0a0/diff.md --exclude *.pyd
+[2023-05-15 16:06:28] INFO root fetch - main [MainThread]: End processing [elefantolib]: success
+[2023-05-15 16:06:28] INFO root fetch - main [MainThread]: End processing [lophat]: success
+[2023-05-15 16:06:28] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-15 16:06:29] INFO root fetch - main [MainThread]: End processing [cookie-composer]: success
+[2023-05-15 16:06:29] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-15 16:06:29] INFO root fetch - main [MainThread]: End processing [enos]: success
+[2023-05-15 16:06:29] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-05-15 16:06:29] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-05-15 16:06:29] INFO root fetch - main [MainThread]: Store serial: [18108882]
