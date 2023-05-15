@@ -3949,3 +3949,62 @@
 [2023-05-15 05:51:28] INFO root fetch - main [MainThread]: End processing [anki]: success
 [2023-05-15 05:51:28] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-15 05:51:28] INFO root fetch - main [MainThread]: Store serial: [18102619]
+[2023-05-15 05:56:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102619]
+[2023-05-15 05:56:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aqt
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibm-aigov-facts-client
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evnex
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ms
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-msp
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-mvj
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-nlp
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hoyo-daily-logins-helper
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cwsearch-utils
+[2023-05-15 05:56:38] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [evnex]: New version: [0.3.3] Old Version: [0.3.2a2]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230515/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 05:56:38] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ibm-aigov-facts-client]: New version: [1.0.57] Old Version: [1.0.56]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [aqt]: New version: [2.1.63] Old Version: [2.1.62rc1]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 05:56:38] INFO root fetch - processPackages [evnex]: Downloading https://files.pythonhosted.org/packages/0d/15/a7c2935b749d5d488b5904c887d4d7f2103a1b079a3c3d643971f7b151c6/evnex-0.3.2a2.tar.gz
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/4f/96/2434319dc9616e589d0184a1d2bfbf9aafd389b3c63ef9285692919ebf91/ibm_aigov_facts_client-1.0.56-py3-none-any.whl
+[2023-05-15 05:56:38] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/c6/e9/6d1bf39cb6e1c1bac453a7c64edcb083a6a6a14e9608cb73d9dd5e7ef78b/aqt-2.1.62rc1-py3-none-any.whl
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/ee/99/d77d4a192f8f1887266743b651374e076db8f6111960674e40109f35fd8e/tencentcloud-sdk-python-msp-3.0.891.tar.gz
+[2023-05-15 05:56:38] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/ff/55/9f956240fa5857084082ada6610b8812846512ec35b49809555658ccbe44/hoyo-daily-logins-helper-2.3.0.tar.gz
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/fa/5b/af57bc7d56be545b363bda04a8fe87371cb20b71ad8d077d68b43071b1b0/tencentcloud-sdk-python-mvj-3.0.891.tar.gz
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/7d/25/a5b032d3b2e0f77e179157395eb187c0e197036be01c26f0d3fa84a9b1a5/tencentcloud-sdk-python-nlp-3.0.891.tar.gz
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/e9/b9/b2abb0bfdb265920d5aabffa621681adc115790a57aa28a4c9a214596261/ibm_aigov_facts_client-1.0.57-py3-none-any.whl
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Downloading https://files.pythonhosted.org/packages/eb/63/d515f7fc6664a4719cef151383f5a7c19d0d795ba3410c398b51de8699c4/tencentcloud-sdk-python-ms-3.0.891.tar.gz
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-msp-3.0.890.tar.gz tmp/tencentcloud-sdk-python-msp-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-msp/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:56:38] INFO root fetch - processPackages [evnex]: Downloading https://files.pythonhosted.org/packages/64/0d/a9e440ea0b3ecc11e89d808acbd018acee2326d209d4fbdbb6814a9e5f0e/evnex-0.3.3.tar.gz
+[2023-05-15 05:56:38] INFO root fetch - processPackages [evnex]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [evnex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evnex-0.3.2a2.tar.gz tmp/evnex-0.3.3.tar.gz --markdown 20230515/e/evnex/0.3.2a2-0.3.3/diff.md --exclude *.pyd
+[2023-05-15 05:56:38] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.2.1.tar.gz tmp/hoyo-daily-logins-helper-2.3.0.tar.gz --markdown 20230515/h/hoyo-daily-logins-helper/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mvj-3.0.890.tar.gz tmp/tencentcloud-sdk-python-mvj-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-mvj/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-nlp-3.0.890.tar.gz tmp/tencentcloud-sdk-python-nlp-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-nlp/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ibm-aigov-facts-client]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [ibm-aigov-facts-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_aigov_facts_client-1.0.56-py3-none-any.whl.zip tmp/ibm_aigov_facts_client-1.0.57-py3-none-any.whl.zip --markdown 20230515/i/ibm-aigov-facts-client/1.0.56-1.0.57/diff.md --exclude *.pyd
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: executing diffoscope
+[2023-05-15 05:56:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ms-3.0.890.tar.gz tmp/tencentcloud-sdk-python-ms-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-ms/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 05:56:39] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-15 05:56:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-msp]: success
+[2023-05-15 05:56:40] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/44/86/2defe3f187356d16c0bdd4c93b1d968770894fbc22d551c01a6e928effa2/aqt-2.1.63-py3-none-any.whl
+[2023-05-15 05:56:40] INFO root fetch - main [MainThread]: End processing [evnex]: success
+[2023-05-15 05:56:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ms]: success
+[2023-05-15 05:56:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mvj]: success
+[2023-05-15 05:56:40] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-15 05:56:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-nlp]: success
+[2023-05-15 05:56:40] INFO root fetch - main [MainThread]: End processing [ibm-aigov-facts-client]: success
+[2023-05-15 05:56:41] INFO root fetch - processPackages [aqt]: executing diffoscope
+[2023-05-15 05:56:41] INFO root fetch - processPackages [aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqt-2.1.62rc1-py3-none-any.whl.zip tmp/aqt-2.1.63-py3-none-any.whl.zip --markdown 20230515/a/aqt/2.1.62rc1-2.1.63/diff.md --exclude *.pyd
+[2023-05-15 05:58:06] INFO root fetch - main [MainThread]: End processing [aqt]: success
+[2023-05-15 05:58:06] INFO root fetch - main [MainThread]: Store serial: [18102645]
