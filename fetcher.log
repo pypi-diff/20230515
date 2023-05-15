@@ -6638,3 +6638,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 09:43:56] INFO root fetch - main [MainThread]: End processing [ydb]: success
 [2023-05-15 09:44:06] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-15 09:44:06] INFO root fetch - main [MainThread]: Store serial: [18104026]
+[2023-05-15 09:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104026]
+[2023-05-15 09:49:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-gereon-cert-2107-consolidate-logging
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fenics-smart
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wadi
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drb-driver-java
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ant1Interface
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nightly
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyadlml
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: isqlab
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mathtranslate
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: magyar
+[2023-05-15 09:49:16] INFO root fetch - processPackages [magyar]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [pyadlml]: New version: [0.0.7.9a0] Old Version: [0.0.7.8a0]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [mathtranslate]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [wadi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2107-consolidate-logging]: New version: [20230515.7.43.549676] Old Version: [20230510.9.18.461280]
+[2023-05-15 09:49:16] WARNING root fetch - processPackages [isqlab]: Skipping, unable to determine old version
+[2023-05-15 09:49:16] INFO root fetch - processPackages [isqlab]: Start processing: pyadlml
+[2023-05-15 09:49:16] INFO root fetch - main [MainThread]: End processing [isqlab] error
+[2023-05-15 09:49:16] INFO root fetch - processPackages [drb-driver-java]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [fenics-smart]: New version: [2.0.1] Old Version: [0.1.10]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [magyar]: executing diffoscope
+[2023-05-15 09:49:16] INFO root fetch - processPackages [magyar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magyar-3.0.6.tar.gz tmp/magyar-3.0.7.tar.gz --markdown 20230515/m/magyar/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-05-15 09:49:16] INFO root fetch - processPackages [pyadlml]: executing diffoscope
+[2023-05-15 09:49:16] INFO root fetch - processPackages [pyadlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadlml-0.0.7.8a0.tar.gz tmp/pyadlml-0.0.7.9a0.tar.gz --markdown 20230515/p/pyadlml/0.0.7.8a0-0.0.7.9a0/diff.md --exclude *.pyd
+[2023-05-15 09:49:16] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-15 09:49:16] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230515/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-15 09:49:16] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-05-15 09:49:16] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.1.9.tar.gz tmp/mathtranslate-2.2.0.tar.gz --markdown 20230515/m/mathtranslate/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-05-15 09:49:16] INFO root fetch - processPackages [pyadlml]: New version: [0.0.7.9a0] Old Version: [0.0.7.8a0]
+[2023-05-15 09:49:16] INFO root fetch - processPackages [pyadlml]: executing diffoscope
+[2023-05-15 09:49:16] INFO root fetch - processPackages [pyadlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadlml-0.0.7.8a0.tar.gz tmp/pyadlml-0.0.7.9a0.tar.gz --markdown 20230515/p/pyadlml/0.0.7.8a0-0.0.7.9a0/diff.md --exclude *.pyd
+[2023-05-15 09:49:16] INFO root fetch - processPackages [drb-driver-java]: Downloading https://files.pythonhosted.org/packages/92/1b/8dd3a4b29f2ba56a62502bde8ef6ce4ce239b8c7e8c0b645bdd2d669d234/drb-driver-java-1.2.0.tar.gz
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-05-15 09:49:16] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/24/65/fc2e25328c36449b291cba9e4bbbf7f8803bdcd1ce28dc8b84c2117e7fd5/fenics-smart-0.1.10.tar.gz
+[2023-05-15 09:49:16] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2107-consolidate-logging]: Downloading https://files.pythonhosted.org/packages/25/b0/aefd69f1a95f2fcc2b6b48fe6465a8d6fa0c0b8d8ee73723fa027ed4eca4/certora-cli-alpha-gereon-cert-2107-consolidate-logging-20230510.9.18.461280.tar.gz
+[2023-05-15 09:49:16] INFO root fetch - processPackages [wadi]: Downloading https://files.pythonhosted.org/packages/26/95/7ca09123e002f001f50bbaf4bb827cb0b7a3fff7fbdeef02ab73d1b6ff86/wadi-0.1.5.tar.gz
+[2023-05-15 09:49:16] WARNING root fetch - processPackages [drb-driver-java]: Skipping package: exceeds size limit 27279671>=10485760
+[2023-05-15 09:49:16] INFO root fetch - main [MainThread]: End processing [drb-driver-java] error
+[2023-05-15 09:49:16] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2107-consolidate-logging]: Skipping package: exceeds size limit 39231414>=10485760
+[2023-05-15 09:49:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2107-consolidate-logging] error
+[2023-05-15 09:49:16] INFO root fetch - processPackages [wadi]: executing diffoscope
+[2023-05-15 09:49:16] INFO root fetch - processPackages [wadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wadi-0.1.4.tar.gz tmp/wadi-0.1.5.tar.gz --markdown 20230515/w/wadi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 09:49:16] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/7c/6d/35f83236001cba58d8c51246972412e1f78cf2a24fe33ea450e932e5aa99/fenics-smart-2.0.1.tar.gz
+[2023-05-15 09:49:16] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-05-15 09:49:16] INFO root fetch - processPackages [fenics-smart]: executing diffoscope
+[2023-05-15 09:49:16] INFO root fetch - processPackages [fenics-smart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-smart-0.1.10.tar.gz tmp/fenics-smart-2.0.1.tar.gz --markdown 20230515/f/fenics-smart/0.1.10-2.0.1/diff.md --exclude *.pyd
+[2023-05-15 09:49:17] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-05-15 09:49:17] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230515/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 09:49:17] INFO root fetch - main [MainThread]: End processing [magyar]: success
+[2023-05-15 09:49:18] INFO root fetch - main [MainThread]: End processing [wadi]: success
+[2023-05-15 09:49:18] INFO root fetch - main [MainThread]: End processing [pyadlml]: success
+[2023-05-15 09:49:18] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-05-15 09:49:18] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-05-15 09:49:19] INFO root fetch - main [MainThread]: End processing [fenics-smart]: success
+[2023-05-15 09:49:20] INFO root fetch - main [MainThread]: End processing [pyadlml]: success
+[2023-05-15 09:49:24] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-15 09:49:24] INFO root fetch - main [MainThread]: Store serial: [18104061]
