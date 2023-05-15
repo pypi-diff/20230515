@@ -2958,3 +2958,63 @@
 [2023-05-15 04:42:16] INFO root fetch - main [MainThread]: End processing [s5]: success
 [2023-05-15 04:42:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ckafka]: success
 [2023-05-15 04:42:17] INFO root fetch - main [MainThread]: Store serial: [18102078]
+[2023-05-15 04:47:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102078]
+[2023-05-15 04:47:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ttaken
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-clb
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-cloudaudit
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-cloudhsm
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-cloudstudio
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-smallapi
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hapdoc
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: einsum-pipe
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qrftp
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ttaken]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [hapdoc]: New version: [1.9.9] Old Version: [1.9.6]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [qrftp]: New version: [1.2] Old Version: [1.1]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ttaken]: executing diffoscope
+[2023-05-15 04:47:27] INFO root fetch - processPackages [ttaken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttaken-0.1.0-py3-none-any.whl.zip tmp/ttaken-0.2.0-py3-none-any.whl.zip --markdown 20230515/t/ttaken/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [einsum-pipe]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [nonebot-plugin-smallapi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [qrftp]: executing diffoscope
+[2023-05-15 04:47:27] INFO root fetch - processPackages [qrftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrftp-1.1.tar.gz tmp/qrftp-1.2.tar.gz --markdown 20230515/q/qrftp/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-15 04:47:27] INFO root fetch - processPackages [hapdoc]: executing diffoscope
+[2023-05-15 04:47:27] INFO root fetch - processPackages [hapdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapdoc-1.9.6.tar.gz tmp/hapdoc-1.9.9.tar.gz --markdown 20230515/h/hapdoc/1.9.6-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Downloading https://files.pythonhosted.org/packages/e3/3b/c8c572c7522926be339f5ee4491c4b18e84d6cf46e3536ec67f5f150e26b/tencentcloud-sdk-python-cloudstudio-3.0.889.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [einsum-pipe]: Downloading https://files.pythonhosted.org/packages/e8/a0/46adcfd37c56a5749e0036ed06fb5bda80b4f64130f7d1c42596136fbf60/einsum_pipe-0.0.1.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Downloading https://files.pythonhosted.org/packages/01/21/3c0736d115ba918a51e606c8e41065ba06b377f1fa34ea0243761fda7a66/tencentcloud-sdk-python-cloudhsm-3.0.889.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Downloading https://files.pythonhosted.org/packages/b1/ba/ad0b0cd5b1d5591aa28682eac7cc6a4734f8bb847157b51eeb84b016a066/tencentcloud-sdk-python-clb-3.0.889.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: Downloading https://files.pythonhosted.org/packages/48/ba/ba2ea9b143705d7deb4eedab763ddf7c41bfb00188e24817b72de90c93b1/tencentcloud-sdk-python-cloudaudit-3.0.889.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/e4/fc/f90aab3790b42a876386ec5f36a405bc0e8b0d11a1ce3d7da117d43f72f4/nonebot_plugin_smallapi-1.0.1.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Downloading https://files.pythonhosted.org/packages/ab/c9/03204601a8928b8528148dec58dae0cc8e7f81920c13b1448a779f5fdffb/tencentcloud-sdk-python-cloudstudio-3.0.891.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [einsum-pipe]: Downloading https://files.pythonhosted.org/packages/f0/42/ae1c39373f296137a299f76879d7ced6e93b2da877212a220ce7c8725ba3/einsum_pipe-0.1.0.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Downloading https://files.pythonhosted.org/packages/27/0b/edf228b620cf9ef2ac5d1a9209281caabfd79b9f936aa42421e6c5876a2d/tencentcloud-sdk-python-cloudhsm-3.0.891.tar.gz
+[2023-05-15 04:47:27] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Downloading https://files.pythonhosted.org/packages/63/6e/19af88d92fe50d68e6a05f9fd6c8f81829840d31cf4b1b0d5572eb144b9e/tencentcloud-sdk-python-clb-3.0.891.tar.gz
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: Downloading https://files.pythonhosted.org/packages/1e/ab/c24d8c87a5dae3ccdc27614edc690e1737ccf624c0a1045e6c3f1f27d794/tencentcloud-sdk-python-cloudaudit-3.0.891.tar.gz
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: executing diffoscope
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cloudstudio-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cloudstudio-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-cloudstudio/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: executing diffoscope
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cloudhsm-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cloudhsm-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-cloudhsm/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: executing diffoscope
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-clb-3.0.889.tar.gz tmp/tencentcloud-sdk-python-clb-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-clb/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:47:28] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/83/46/21a6d820812fcd99d6d34921329b81c5cb25d561e8a48127d64746de3974/nonebot_plugin_smallapi-1.0.2.tar.gz
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: executing diffoscope
+[2023-05-15 04:47:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cloudaudit-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cloudaudit-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-cloudaudit/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:47:28] INFO root fetch - processPackages [einsum-pipe]: executing diffoscope
+[2023-05-15 04:47:28] INFO root fetch - processPackages [einsum-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einsum_pipe-0.0.1.tar.gz tmp/einsum_pipe-0.1.0.tar.gz --markdown 20230515/e/einsum-pipe/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 04:47:28] INFO root fetch - processPackages [nonebot-plugin-smallapi]: executing diffoscope
+[2023-05-15 04:47:28] INFO root fetch - processPackages [nonebot-plugin-smallapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smallapi-1.0.1.tar.gz tmp/nonebot_plugin_smallapi-1.0.2.tar.gz --markdown 20230515/n/nonebot-plugin-smallapi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-15 04:47:28] INFO root fetch - main [MainThread]: End processing [qrftp]: success
+[2023-05-15 04:47:28] INFO root fetch - main [MainThread]: End processing [ttaken]: success
+[2023-05-15 04:47:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cloudaudit]: success
+[2023-05-15 04:47:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-clb]: success
+[2023-05-15 04:47:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cloudstudio]: success
+[2023-05-15 04:47:29] INFO root fetch - main [MainThread]: End processing [einsum-pipe]: success
+[2023-05-15 04:47:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smallapi]: success
+[2023-05-15 04:47:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cloudhsm]: success
+[2023-05-15 04:48:04] INFO root fetch - main [MainThread]: End processing [hapdoc]: success
+[2023-05-15 04:48:04] INFO root fetch - main [MainThread]: Store serial: [18102118]
