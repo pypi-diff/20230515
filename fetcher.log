@@ -7384,3 +7384,167 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 10:16:29] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
 [2023-05-15 10:16:36] INFO root fetch - main [MainThread]: End processing [pai-easycv]: success
 [2023-05-15 10:16:36] INFO root fetch - main [MainThread]: Store serial: [18104345]
+[2023-05-15 10:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18104345]
+[2023-05-15 10:21:46] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-stock-picking-return-invoicing
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stevedore
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-smorest
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drb-extractor
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opendrive2tessng
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-plugin
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-order-type
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ChatLLM
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaceone-statistics
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mttf
+[2023-05-15 10:21:46] INFO root fetch - processPackages [opendrive2tessng]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [drb-extractor]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [odoo-addon-sale-order-type]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.5]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [mttf]: New version: [0.9.202209080909] Old Version: [0.9.202209080905]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [spaceone-plugin]: New version: [1.9.7rc1] Old Version: [1.9.7.2]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [stevedore]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [spaceone-statistics]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [flask-smorest]: New version: [0.42.0] Old Version: [0.41.0]
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-15 10:21:46] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230515/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-15 10:21:46] INFO root fetch - processPackages [mttf]: executing diffoscope
+[2023-05-15 10:21:46] INFO root fetch - processPackages [mttf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mttf-0.9.202209080905-py3-none-any.whl.zip tmp/mttf-0.9.202209080909-py3-none-any.whl.zip --markdown 20230515/m/mttf/0.9.202209080905-0.9.202209080909/diff.md --exclude *.pyd
+[2023-05-15 10:21:46] INFO root fetch - processPackages [stevedore]: Downloading https://files.pythonhosted.org/packages/f1/25/993d09dc7be3e7927228853c75324104d734bb784bd766b025ebf9f47b16/stevedore-5.0.0.tar.gz
+[2023-05-15 10:21:46] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: Downloading https://files.pythonhosted.org/packages/f7/fb/30ba5c55d8f2e2a96a36796ae12b979359e619542ffc37a34083a86f11ec/odoo_addon_purchase_stock_picking_return_invoicing-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-15 10:21:46] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/c4/cd/89cbaa5162f9dcaf485930e348ccbab424a9547c14941e7949b917ba2397/spaceone_statistics-1.9.7.1-py3-none-any.whl
+[2023-05-15 10:21:46] INFO root fetch - processPackages [spaceone-plugin]: Downloading https://files.pythonhosted.org/packages/fc/e2/7181fc4fb594e9563106bb073b7d0a2163965fb92346319bfb2767f674f6/spaceone_plugin-1.9.7.2-py3-none-any.whl
+[2023-05-15 10:21:46] INFO root fetch - processPackages [opendrive2tessng]: Downloading https://files.pythonhosted.org/packages/dc/69/2b1bc55fc05092699a9cd7bbe68106c5d3ecf56ed6ad378bef58d3fb13d9/opendrive2tessng-0.1.3.tar.gz
+[2023-05-15 10:21:47] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/e4/66/e22cfa5af87b6fb7fc10cf1ce2dcf8cd4e0328098cfd0debd368301aea50/odoo_addon_sale_order_type-16.0.1.0.1.5-py3-none-any.whl
+[2023-05-15 10:21:47] INFO root fetch - processPackages [flask-smorest]: Downloading https://files.pythonhosted.org/packages/d2/7b/ee279477c7e046269b6dea982981ef7fa659ed9568af434eda40eb213888/flask-smorest-0.41.0.tar.gz
+[2023-05-15 10:21:47] INFO root fetch - processPackages [drb-extractor]: Downloading https://files.pythonhosted.org/packages/57/f7/2f0b15c3f672edbaaa1de5ba02154683c0b8bddfa125e5cb111a9088617d/drb-extractor-1.1.0.tar.gz
+[2023-05-15 10:21:47] INFO root fetch - processPackages [opendrive2tessng]: Downloading https://files.pythonhosted.org/packages/42/2c/52de6b7478f346855d690e105dd668764f8f7b8e635198746fa07e324aac/opendrive2tessng-0.1.4.tar.gz
+[2023-05-15 10:21:47] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: Downloading https://files.pythonhosted.org/packages/ad/b2/93ea03cff43a6f2ea824dd8e573213e881d9fedd1420270a029e0b1a40f0/odoo_addon_purchase_stock_picking_return_invoicing-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-15 10:21:47] INFO root fetch - processPackages [stevedore]: Downloading https://files.pythonhosted.org/packages/ac/d6/77387d3fc81f07bc8877e6f29507bd7943569093583b0a07b28cfa286780/stevedore-5.1.0.tar.gz
+[2023-05-15 10:21:47] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/d8/90/c82400b8d58297dc11095bbdb405ef1da35645a64f284e3f7024b4234ff6/spaceone_statistics-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:21:47] INFO root fetch - processPackages [flask-smorest]: Downloading https://files.pythonhosted.org/packages/45/ec/9ceb51a4b8a20ae66bfc7e83ad6781f03a9f37cde6a4111a65aa6cb669a2/flask-smorest-0.42.0.tar.gz
+[2023-05-15 10:21:47] INFO root fetch - processPackages [spaceone-plugin]: Downloading https://files.pythonhosted.org/packages/49/24/2f5d11b22569fcca24e6ced49a4d3ca780ebadcff4047b6229deb760e6ee/spaceone_plugin-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:21:47] INFO root fetch - processPackages [drb-extractor]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [drb-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb_extractor-1.0.3-py3-none-any.whl.zip tmp/drb-extractor-1.1.0.tar.gz --markdown 20230515/d/drb-extractor/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 10:21:47] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/c1/d8/47b94f035f9089d562ada9a62d005cec9a605fbaf63795725781a3034f4f/odoo_addon_sale_order_type-16.0.1.0.1.6-py3-none-any.whl
+[2023-05-15 10:21:47] INFO root fetch - processPackages [flask-smorest]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [flask-smorest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-smorest-0.41.0.tar.gz tmp/flask-smorest-0.42.0.tar.gz --markdown 20230515/f/flask-smorest/0.41.0-0.42.0/diff.md --exclude *.pyd
+[2023-05-15 10:21:47] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_picking_return_invoicing-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_picking_return_invoicing-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-purchase-stock-picking-return-invoicing/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-15 10:21:47] INFO root fetch - processPackages [spaceone-statistics]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [spaceone-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_statistics-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_statistics-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-statistics/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:21:47] INFO root fetch - processPackages [stevedore]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [stevedore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stevedore-5.0.0.tar.gz tmp/stevedore-5.1.0.tar.gz --markdown 20230515/s/stevedore/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-05-15 10:21:47] INFO root fetch - processPackages [spaceone-plugin]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [spaceone-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_plugin-1.9.7.2-py3-none-any.whl.zip tmp/spaceone_plugin-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-plugin/1.9.7.2-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:21:47] INFO root fetch - processPackages [odoo-addon-sale-order-type]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [odoo-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_type-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_sale_order_type-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230515/o/odoo-addon-sale-order-type/16.0.1.0.1.5-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-05-15 10:21:47] INFO root fetch - processPackages [opendrive2tessng]: executing diffoscope
+[2023-05-15 10:21:47] INFO root fetch - processPackages [opendrive2tessng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendrive2tessng-0.1.3.tar.gz tmp/opendrive2tessng-0.1.4.tar.gz --markdown 20230515/o/opendrive2tessng/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-15 10:21:48] INFO root fetch - processPackages [mttf]: Start processing: parquet2lance
+[2023-05-15 10:21:48] INFO root fetch - main [MainThread]: End processing [mttf]: success
+[2023-05-15 10:21:48] INFO root fetch - processPackages [parquet2lance]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 10:21:48] INFO root fetch - processPackages [parquet2lance]: Downloading https://files.pythonhosted.org/packages/2c/91/c6e2937bc058f6107a7647b62a30e7089f962208c25791aa263e8c238942/parquet2lance-0.1.0.tar.gz
+[2023-05-15 10:21:48] INFO root fetch - processPackages [drb-extractor]: Start processing: miniwdl
+[2023-05-15 10:21:48] INFO root fetch - main [MainThread]: End processing [drb-extractor]: success
+[2023-05-15 10:21:48] INFO root fetch - processPackages [parquet2lance]: Downloading https://files.pythonhosted.org/packages/f6/44/0672a8e8d01e34fa069ccf0430e259ed24e80f88a7bb79a509208931e5a9/parquet2lance-0.1.1.tar.gz
+[2023-05-15 10:21:48] INFO root fetch - processPackages [miniwdl]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-15 10:21:49] INFO root fetch - processPackages [parquet2lance]: executing diffoscope
+[2023-05-15 10:21:49] INFO root fetch - processPackages [parquet2lance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parquet2lance-0.1.0.tar.gz tmp/parquet2lance-0.1.1.tar.gz --markdown 20230515/p/parquet2lance/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 10:21:49] INFO root fetch - processPackages [miniwdl]: Downloading https://files.pythonhosted.org/packages/83/5b/38472ff0df066978df95996fb57b6eae6b6a132603b47fe215ca256c54c1/miniwdl-1.9.0.tar.gz
+[2023-05-15 10:21:49] INFO root fetch - processPackages [spaceone-statistics]: Start processing: pytessng
+[2023-05-15 10:21:49] INFO root fetch - main [MainThread]: End processing [spaceone-statistics]: success
+[2023-05-15 10:21:49] INFO root fetch - processPackages [pytessng]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 10:21:49] INFO root fetch - processPackages [miniwdl]: Downloading https://files.pythonhosted.org/packages/da/aa/9efe6a5a7cd9316c8c8c901daaa4c017ed34958a7a3d62a555340916743c/miniwdl-1.9.1.tar.gz
+[2023-05-15 10:21:49] INFO root fetch - processPackages [miniwdl]: executing diffoscope
+[2023-05-15 10:21:49] INFO root fetch - processPackages [miniwdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniwdl-1.9.0.tar.gz tmp/miniwdl-1.9.1.tar.gz --markdown 20230515/m/miniwdl/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-15 10:21:49] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: Start processing: gitlint-core
+[2023-05-15 10:21:49] INFO root fetch - processPackages [pytessng]: Downloading https://files.pythonhosted.org/packages/1c/85/4dfa800ee09777d453022057433efff6a2777334a536401d9c8a1e5e441d/pytessng-0.1.2.tar.gz
+[2023-05-15 10:21:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-picking-return-invoicing]: success
+[2023-05-15 10:21:49] INFO root fetch - processPackages [opendrive2tessng]: Start processing: gitlint
+[2023-05-15 10:21:49] INFO root fetch - main [MainThread]: End processing [opendrive2tessng]: success
+[2023-05-15 10:21:49] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-05-15 10:21:49] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-15 10:21:49] INFO root fetch - processPackages [spaceone-plugin]: Start processing: macrometa-target-collection
+[2023-05-15 10:21:49] INFO root fetch - main [MainThread]: End processing [spaceone-plugin]: success
+[2023-05-15 10:21:49] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-05-15 10:21:49] INFO root fetch - processPackages [ChatLLM]: Start processing: apidevtools
+[2023-05-15 10:21:49] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-15 10:21:49] INFO root fetch - processPackages [apidevtools]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-15 10:21:49] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-05-15 10:21:49] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-05-15 10:21:49] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/c9/04/c7b1090197f98a2cf7f133de9d7305faf1594e193bfa9fca95e0e231c656/macrometa-target-collection-0.0.59.tar.gz
+[2023-05-15 10:21:49] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Start processing: tethysts
+[2023-05-15 10:21:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-type]: success
+[2023-05-15 10:21:49] INFO root fetch - processPackages [tethysts]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-05-15 10:21:50] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/67/97/140e86b5480e3e3dfed3391e6faaa49ddf8a219d31961164d215a841a758/apidevtools-3.3.1.tar.gz
+[2023-05-15 10:21:50] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-05-15 10:21:50] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.58.tar.gz tmp/macrometa-target-collection-0.0.59.tar.gz --markdown 20230515/m/macrometa-target-collection/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-05-15 10:21:50] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-05-15 10:21:50] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-05-15 10:21:50] INFO root fetch - processPackages [apidevtools]: executing diffoscope
+[2023-05-15 10:21:50] INFO root fetch - processPackages [apidevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidevtools-3.3.0.tar.gz tmp/apidevtools-3.3.1.tar.gz --markdown 20230515/a/apidevtools/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-15 10:21:50] INFO root fetch - processPackages [tethysts]: Downloading https://files.pythonhosted.org/packages/99/d2/6cc8618eec151fc0adf9435b9f2208f2f464de77d10a1b336851631404a2/tethysts-4.5.8.tar.gz
+[2023-05-15 10:21:50] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-05-15 10:21:50] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230515/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 10:21:50] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-05-15 10:21:50] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230515/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-05-15 10:21:50] INFO root fetch - processPackages [flask-smorest]: Start processing: FastSession
+[2023-05-15 10:21:50] INFO root fetch - main [MainThread]: End processing [flask-smorest]: success
+[2023-05-15 10:21:50] INFO root fetch - processPackages [FastSession]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 10:21:50] INFO root fetch - processPackages [parquet2lance]: Start processing: spaceone-supervisor
+[2023-05-15 10:21:50] INFO root fetch - main [MainThread]: End processing [parquet2lance]: success
+[2023-05-15 10:21:50] INFO root fetch - processPackages [spaceone-supervisor]: New version: [1.9.7rc1] Old Version: [1.9.7]
+[2023-05-15 10:21:50] INFO root fetch - processPackages [tethysts]: Downloading https://files.pythonhosted.org/packages/e5/14/0ca852dd7b9a71e0f7041c1809fa5b6ff459c9d159d39265a4ee26d52d3d/tethysts-4.5.9.tar.gz
+[2023-05-15 10:21:50] INFO root fetch - processPackages [FastSession]: Downloading https://files.pythonhosted.org/packages/71/08/4fc77b7914bc32130f9f46a3d374d7b6bf00555a595a406dfaf25f83209e/FastSession-0.1.0.tar.gz
+[2023-05-15 10:21:50] INFO root fetch - processPackages [pytessng]: Downloading https://files.pythonhosted.org/packages/17/14/7d91b683d0ecd36021328deb1698515bbf071f4dde9282efe27a8250d26f/pytessng-0.1.3.tar.gz
+[2023-05-15 10:21:50] INFO root fetch - processPackages [spaceone-supervisor]: Downloading https://files.pythonhosted.org/packages/bc/4e/e44f5c097613b695cd86c690f9a2f2adb2e6611936c7e20945b00850af51/spaceone_supervisor-1.9.7-py3-none-any.whl
+[2023-05-15 10:21:50] INFO root fetch - processPackages [tethysts]: executing diffoscope
+[2023-05-15 10:21:50] INFO root fetch - processPackages [tethysts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tethysts-4.5.8.tar.gz tmp/tethysts-4.5.9.tar.gz --markdown 20230515/t/tethysts/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-05-15 10:21:50] INFO root fetch - processPackages [FastSession]: Downloading https://files.pythonhosted.org/packages/9e/89/aeeadd6415ff304231ee8fe32af806f839f6683aad10f4e99f3e440b46be/FastSession-0.1.1.tar.gz
+[2023-05-15 10:21:51] INFO root fetch - processPackages [spaceone-supervisor]: Downloading https://files.pythonhosted.org/packages/c5/4a/438439fb9504f6e4326e0800484696c26133a7d54090b11f66d719f4e7d4/spaceone_supervisor-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:21:51] INFO root fetch - processPackages [FastSession]: executing diffoscope
+[2023-05-15 10:21:51] INFO root fetch - processPackages [FastSession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastSession-0.1.0.tar.gz tmp/FastSession-0.1.1.tar.gz --markdown 20230515/F/FastSession/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 10:21:51] INFO root fetch - processPackages [spaceone-supervisor]: executing diffoscope
+[2023-05-15 10:21:51] INFO root fetch - processPackages [spaceone-supervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_supervisor-1.9.7-py3-none-any.whl.zip tmp/spaceone_supervisor-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-supervisor/1.9.7-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:21:51] INFO root fetch - processPackages [pytessng]: executing diffoscope
+[2023-05-15 10:21:51] INFO root fetch - processPackages [pytessng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytessng-0.1.2.tar.gz tmp/pytessng-0.1.3.tar.gz --markdown 20230515/p/pytessng/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 10:21:51] INFO root fetch - processPackages [macrometa-target-collection]: Start processing: arkdata
+[2023-05-15 10:21:51] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-05-15 10:21:51] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 10:21:51] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-15 10:21:51] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230515/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 10:21:51] INFO root fetch - processPackages [apidevtools]: Start processing: spaceone-inventory
+[2023-05-15 10:21:51] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
+[2023-05-15 10:21:51] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-05-15 10:21:51] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-05-15 10:21:51] INFO root fetch - processPackages [gitlint]: Start processing: django-webperformers-humans
+[2023-05-15 10:21:51] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-05-15 10:21:52] INFO root fetch - processPackages [django-webperformers-humans]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-15 10:21:52] INFO root fetch - processPackages [stevedore]: Start processing: lunar-ar-date
+[2023-05-15 10:21:52] INFO root fetch - main [MainThread]: End processing [stevedore]: success
+[2023-05-15 10:21:52] WARNING root fetch - processPackages [lunar-ar-date]: Skipping, unable to determine old version
+[2023-05-15 10:21:52] INFO root fetch - processPackages [lunar-ar-date]: Start processing: betwatch
+[2023-05-15 10:21:52] INFO root fetch - main [MainThread]: End processing [lunar-ar-date] error
+[2023-05-15 10:21:52] INFO root fetch - processPackages [betwatch]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 10:21:52] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-05-15 10:21:52] INFO root fetch - processPackages [django-webperformers-humans]: Downloading https://files.pythonhosted.org/packages/ae/8e/a521fa3594ab6343a9c8680fb97f5b804d7598db17786ac5246017a4235d/django-webperformers-humans-0.3.3.tar.gz
+[2023-05-15 10:21:52] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/b0/81/75ab9694a95f22413d38a06106f693700deccee4b2b8cb6e6024fa8484f1/betwatch-1.0.2.tar.gz
+[2023-05-15 10:21:52] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-05-15 10:21:52] INFO root fetch - processPackages [django-webperformers-humans]: executing diffoscope
+[2023-05-15 10:21:52] INFO root fetch - processPackages [django-webperformers-humans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webperformers-humans-0.3.2.tar.gz tmp/django-webperformers-humans-0.3.3.tar.gz --markdown 20230515/d/django-webperformers-humans/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-15 10:21:52] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-05-15 10:21:52] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230515/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-15 10:21:52] INFO root fetch - main [MainThread]: End processing [spaceone-supervisor]: success
+[2023-05-15 10:21:52] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/3e/82/b359855b845a90de2a432b59e59a64eb800247e46ecfbc1fcce1ada51a95/betwatch-1.0.3.tar.gz
+[2023-05-15 10:21:52] INFO root fetch - main [MainThread]: End processing [FastSession]: success
+[2023-05-15 10:21:52] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-05-15 10:21:52] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.0.2.tar.gz tmp/betwatch-1.0.3.tar.gz --markdown 20230515/b/betwatch/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 10:21:52] INFO root fetch - main [MainThread]: End processing [tethysts]: success
+[2023-05-15 10:21:53] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-15 10:21:53] INFO root fetch - main [MainThread]: End processing [pytessng]: success
+[2023-05-15 10:21:53] INFO root fetch - main [MainThread]: End processing [django-webperformers-humans]: success
+[2023-05-15 10:21:54] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-05-15 10:21:54] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-05-15 10:21:54] INFO root fetch - main [MainThread]: End processing [miniwdl]: success
+[2023-05-15 10:21:54] INFO root fetch - main [MainThread]: Store serial: [18104416]
