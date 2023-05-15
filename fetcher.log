@@ -14783,3 +14783,58 @@ EOFError: EOF read where object expected
 [2023-05-15 15:56:01] INFO root fetch - main [MainThread]: End processing [forust]: success
 [2023-05-15 15:56:01] INFO root fetch - main [MainThread]: End processing [zensvi]: success
 [2023-05-15 15:56:01] INFO root fetch - main [MainThread]: Store serial: [18108791]
+[2023-05-15 16:01:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18108791]
+[2023-05-15 16:01:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saazszxcdz
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gauravqt
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-rich-logging
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salt-analytics-framework
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-chatcompletion
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metal-python
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ttrace
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: transphone
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hydrogibs
+[2023-05-15 16:01:10] INFO root fetch - processPackages [hydrogibs]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-15 16:01:10] INFO root fetch - processPackages [transphone]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-15 16:01:10] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-15 16:01:10] WARNING root fetch - processPackages [saazszxcdz]: Skipping, unable to determine old version
+[2023-05-15 16:01:10] INFO root fetch - main [MainThread]: End processing [saazszxcdz] error
+[2023-05-15 16:01:10] WARNING root fetch - processPackages [gauravqt]: Skipping, unable to determine old version
+[2023-05-15 16:01:10] INFO root fetch - main [MainThread]: End processing [gauravqt] error
+[2023-05-15 16:01:10] INFO root fetch - processPackages [django-rich-logging]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ttrace]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-15 16:01:10] INFO root fetch - processPackages [pydantic-chatcompletion]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 16:01:10] INFO root fetch - processPackages [salt-analytics-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 16:01:10] INFO root fetch - processPackages [transphone]: executing diffoscope
+[2023-05-15 16:01:10] INFO root fetch - processPackages [transphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transphone-1.4.0.tar.gz tmp/transphone-1.4.1.tar.gz --markdown 20230515/t/transphone/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-15 16:01:10] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2023-05-15 16:01:10] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/d0/96/3e271a4d4ef3b10c184192eec6cb7484ee15a75944ec3efd5491a5529743/hydrogibs-0.3.2.tar.gz
+[2023-05-15 16:01:10] INFO root fetch - processPackages [salt-analytics-framework]: Downloading https://files.pythonhosted.org/packages/b5/76/f5c7e880421bf1435f5523f6bd257af6052d31ef7a18fa8960a54215a17b/salt-analytics-framework-0.1.0.tar.gz
+[2023-05-15 16:01:10] INFO root fetch - processPackages [django-rich-logging]: Downloading https://files.pythonhosted.org/packages/f8/cc/5e8686e89ccd9c1e5fa7aec4c4c147477d09be1b5e0fb2b45928b7b23e79/django-rich-logging-0.2.0.tar.gz
+[2023-05-15 16:01:10] INFO root fetch - processPackages [ttrace]: Downloading https://files.pythonhosted.org/packages/ba/f2/e65666b6a776e19bdcb7c5ec6f6e028e308830a4db5528bb4dec5a1b9b2e/ttrace-0.1.6.tar.gz
+[2023-05-15 16:01:10] INFO root fetch - processPackages [pydantic-chatcompletion]: Downloading https://files.pythonhosted.org/packages/ad/a7/e35f90e542ff4071382ec664fb05b93e8adb9a0dba0a1b43d123110671a9/pydantic_chatcompletion-0.0.2.tar.gz
+[2023-05-15 16:01:11] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-05-15 16:01:11] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.3.1.tar.gz tmp/hydrogibs-0.3.2.tar.gz --markdown 20230515/h/hydrogibs/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-15 16:01:11] INFO root fetch - processPackages [pydantic-chatcompletion]: Downloading https://files.pythonhosted.org/packages/2d/a3/ef704c6c20342f0d553967ea66b468f69c214f3af797540835ff1e4498ce/pydantic_chatcompletion-0.0.3.tar.gz
+[2023-05-15 16:01:11] INFO root fetch - processPackages [ttrace]: Downloading https://files.pythonhosted.org/packages/46/5c/18afa9f8d06f91ca88a7831a0a74e1c436f41be5fb34c28aabe3e13dfec9/ttrace-0.1.7.tar.gz
+[2023-05-15 16:01:11] INFO root fetch - processPackages [salt-analytics-framework]: Downloading https://files.pythonhosted.org/packages/70/86/2d4a90b0d67655b2363fa0c2aae2846e30453d1cb478e6996f962aefecd3/salt-analytics-framework-0.1.1.tar.gz
+[2023-05-15 16:01:11] INFO root fetch - processPackages [django-rich-logging]: Downloading https://files.pythonhosted.org/packages/ad/c5/04bbc2e814e9c43959501d13dc74240b0b7ab75e973b48ee9967e524b633/django_rich_logging-0.3.0.tar.gz
+[2023-05-15 16:01:11] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2023-05-15 16:01:11] INFO root fetch - processPackages [ttrace]: executing diffoscope
+[2023-05-15 16:01:11] INFO root fetch - processPackages [ttrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttrace-0.1.6.tar.gz tmp/ttrace-0.1.7.tar.gz --markdown 20230515/t/ttrace/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 16:01:11] INFO root fetch - processPackages [django-rich-logging]: executing diffoscope
+[2023-05-15 16:01:11] INFO root fetch - processPackages [django-rich-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-rich-logging-0.2.0.tar.gz tmp/django_rich_logging-0.3.0.tar.gz --markdown 20230515/d/django-rich-logging/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 16:01:11] INFO root fetch - processPackages [pydantic-chatcompletion]: executing diffoscope
+[2023-05-15 16:01:11] INFO root fetch - processPackages [pydantic-chatcompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_chatcompletion-0.0.2.tar.gz tmp/pydantic_chatcompletion-0.0.3.tar.gz --markdown 20230515/p/pydantic-chatcompletion/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 16:01:11] INFO root fetch - processPackages [salt-analytics-framework]: executing diffoscope
+[2023-05-15 16:01:11] INFO root fetch - processPackages [salt-analytics-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt-analytics-framework-0.1.0.tar.gz tmp/salt-analytics-framework-0.1.1.tar.gz --markdown 20230515/s/salt-analytics-framework/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 16:01:11] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2023-05-15 16:01:11] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20230515/m/metal-python/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-15 16:01:12] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-05-15 16:01:12] INFO root fetch - main [MainThread]: End processing [django-rich-logging]: success
+[2023-05-15 16:01:12] INFO root fetch - main [MainThread]: End processing [ttrace]: success
+[2023-05-15 16:01:12] INFO root fetch - main [MainThread]: End processing [pydantic-chatcompletion]: success
+[2023-05-15 16:01:13] INFO root fetch - main [MainThread]: End processing [transphone]: success
+[2023-05-15 16:01:14] INFO root fetch - main [MainThread]: End processing [salt-analytics-framework]: success
+[2023-05-15 16:01:17] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2023-05-15 16:01:17] INFO root fetch - main [MainThread]: Store serial: [18108834]
