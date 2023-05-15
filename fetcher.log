@@ -5026,3 +5026,51 @@
 [2023-05-15 07:02:54] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-05-15 07:02:54] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-05-15 07:02:54] INFO root fetch - main [MainThread]: Store serial: [18103188]
+[2023-05-15 07:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103188]
+[2023-05-15 07:08:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 07:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hsuanwu
+[2023-05-15 07:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simmon
+[2023-05-15 07:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-model-server
+[2023-05-15 07:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrgrain.cdk-esbuild
+[2023-05-15 07:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wes-palette
+[2023-05-15 07:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-selenium-ctrl-package
+[2023-05-15 07:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlink-serverless
+[2023-05-15 07:08:05] INFO root fetch - processPackages [wes-palette]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 07:08:05] INFO root fetch - processPackages [hsuanwu]: New version: [0.0.1b7] Old Version: [0.0.1b6]
+[2023-05-15 07:08:05] INFO root fetch - processPackages [simmon]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 07:08:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: New version: [4.1.8] Old Version: [4.1.7]
+[2023-05-15 07:08:05] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 07:08:05] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230515] Old Version: [1.1.8b20230514]
+[2023-05-15 07:08:05] INFO root fetch - processPackages [streamlink-serverless]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 07:08:05] INFO root fetch - processPackages [wes-palette]: Downloading https://files.pythonhosted.org/packages/67/fe/6cf6d377e7ee9e1119583747dd26d61cb7fd57fb486d5b547bb2c0e0d3e5/wes_palette-0.1.0.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [hsuanwu]: Downloading https://files.pythonhosted.org/packages/21/9e/9f33d1d6b7609ef878dd5f16633196d0ce35c1e37ef542b52292177c53e3/hsuanwu-0.0.1b6.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/90/94/0529f91b7cea9383eac1c51b125e64fa1c81b8d426d0f59a11b514d8002c/python_selenium_ctrl_package-0.0.98.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/fc/c2/8ee834c016b88a015db537555de7f0d6cfa99d6d232258e1184b223ce026/mrgrain.cdk-esbuild-4.1.7.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/f4/69/e3e142be5d3593c1d6a272ce94c57e2901afd267b86a3f2a39962f38dbea/streamlink-serverless-0.0.8.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/c2/de/d1b4f710ea2490d3d2d08c9d35619e1a350cf7f5b4a6451b84f00a024932/multi_model_server-1.1.8b20230515-py2.py3-none-any.whl
+[2023-05-15 07:08:05] INFO root fetch - processPackages [simmon]: Downloading https://files.pythonhosted.org/packages/a2/1f/fd561c3a53fcef88f4cc94e15ab9c06d9011f7946794f47e9671442f256a/simmon-0.0.3.tar.gz
+[2023-05-15 07:08:05] WARNING root fetch - processPackages [hsuanwu]: Skipping package: exceeds size limit 12465689>=10485760
+[2023-05-15 07:08:05] INFO root fetch - main [MainThread]: End processing [hsuanwu] error
+[2023-05-15 07:08:05] INFO root fetch - processPackages [wes-palette]: Downloading https://files.pythonhosted.org/packages/66/33/92c9f75d6108061be4106ca893dad0783b412707416bf8b8ada1a25f9bf0/wes_palette-0.1.1.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [simmon]: executing diffoscope
+[2023-05-15 07:08:05] INFO root fetch - processPackages [simmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simmon-0.0.2.tar.gz tmp/simmon-0.0.3.tar.gz --markdown 20230515/s/simmon/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 07:08:05] INFO root fetch - processPackages [wes-palette]: executing diffoscope
+[2023-05-15 07:08:05] INFO root fetch - processPackages [wes-palette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wes_palette-0.1.0.tar.gz tmp/wes_palette-0.1.1.tar.gz --markdown 20230515/w/wes-palette/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 07:08:05] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/17/bd/a72156bf8bda13c88a0737151e6ac45509dc454537576bdcc97c761ce4de/python_selenium_ctrl_package-0.0.99.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/56/75/54c0e12842e49983934d84f31548b619fd175ad19b8c19b5f97f794eb94e/mrgrain.cdk-esbuild-4.1.8.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/38/68/27939e4527aa4f820fff11a0801161189ae3d676ebeb80bf700ba94779ee/streamlink-serverless-0.0.9.tar.gz
+[2023-05-15 07:08:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: executing diffoscope
+[2023-05-15 07:08:05] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrgrain.cdk-esbuild-4.1.7.tar.gz tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz --markdown 20230515/m/mrgrain.cdk-esbuild/4.1.7-4.1.8/diff.md --exclude *.pyd
+[2023-05-15 07:08:05] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-05-15 07:08:05] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.98.tar.gz tmp/python_selenium_ctrl_package-0.0.99.tar.gz --markdown 20230515/p/python-selenium-ctrl-package/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 07:08:05] INFO root fetch - processPackages [streamlink-serverless]: executing diffoscope
+[2023-05-15 07:08:05] INFO root fetch - processPackages [streamlink-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-serverless-0.0.8.tar.gz tmp/streamlink-serverless-0.0.9.tar.gz --markdown 20230515/s/streamlink-serverless/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 07:08:06] INFO root fetch - main [MainThread]: End processing [simmon]: success
+[2023-05-15 07:08:06] INFO root fetch - main [MainThread]: End processing [wes-palette]: success
+[2023-05-15 07:08:06] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-15 07:08:06] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230514-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230515-py2.py3-none-any.whl.zip --markdown 20230515/m/multi-model-server/1.1.8b20230514-1.1.8b20230515/diff.md --exclude *.pyd
+[2023-05-15 07:08:06] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
+[2023-05-15 07:08:07] INFO root fetch - main [MainThread]: End processing [streamlink-serverless]: success
+[2023-05-15 07:08:07] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-05-15 07:10:54] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-15 07:10:54] INFO root fetch - main [MainThread]: Store serial: [18103207]
