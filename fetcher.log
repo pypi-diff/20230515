@@ -20962,3 +20962,91 @@ EOFError: EOF read where object expected
 [2023-05-15 21:37:05] INFO root fetch - main [MainThread]: End processing [renku]: success
 [2023-05-15 21:37:11] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-05-15 21:37:11] INFO root fetch - main [MainThread]: Store serial: [18112517]
+[2023-05-15 21:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112517]
+[2023-05-15 21:42:21] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-fortuna
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: physrisk-lib
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-jtoman-direct-storage-comparison
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-roborock
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-honeybee
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wireprobe
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsmltf
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sharingiscaring
+[2023-05-15 21:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pettingzoo
+[2023-05-15 21:42:21] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: New version: [20230515.19.37.464460] Old Version: [20230515.18.45.683584]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [physrisk-lib]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [aws-fortuna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [wireprobe]: New version: [0.2] Old Version: [0.1.9]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.9.25.343999] Old Version: [20230515.8.28.196716]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/57/3c8e4f696ecc29a6da16dae52cb9b9d1391b25ce946105a3f96ced6e88c4/certora-cli-alpha-master-20230515.8.28.196716.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-15 21:42:21] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230515/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 21:42:21] INFO root fetch - processPackages [dsmltf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [pettingzoo]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-15 21:42:21] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430676>=10485760
+[2023-05-15 21:42:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pythonfontingv2
+[2023-05-15 21:42:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 21:42:21] INFO root fetch - processPackages [aws-fortuna]: executing diffoscope
+[2023-05-15 21:42:21] INFO root fetch - processPackages [aws-fortuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_fortuna-0.1.8.tar.gz tmp/aws_fortuna-0.1.9.tar.gz --markdown 20230515/a/aws-fortuna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 21:42:21] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-15 21:42:21] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230515/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-15 21:42:21] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-15 21:42:21] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230515/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-15 21:42:21] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Downloading https://files.pythonhosted.org/packages/1f/07/420fb7578a71ff8a7106ceb2b8aa7a490574c5090df4be649b7ecba7f54e/certora-cli-alpha-jtoman-direct-storage-comparison-20230515.18.45.683584.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [physrisk-lib]: Downloading https://files.pythonhosted.org/packages/e7/18/a48b32c8fe74f120fb33081e822eb73dc9cdd3dafba5a834d7b40203858e/physrisk-lib-0.7.0.tar.gz
+[2023-05-15 21:42:21] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Skipping package: exceeds size limit 39649393>=10485760
+[2023-05-15 21:42:21] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Start processing: kirui
+[2023-05-15 21:42:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-direct-storage-comparison] error
+[2023-05-15 21:42:21] INFO root fetch - processPackages [wireprobe]: Downloading https://files.pythonhosted.org/packages/b8/ab/57a5297dd28f7e9fbfd5cff97ecf15df1a8ef41dd2abd2e6b6db6af73ecb/wireprobe-0.2.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [kirui]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [wireprobe]: executing diffoscope
+[2023-05-15 21:42:21] WARNING root fetch - processPackages [pythonfontingv2]: Skipping, unable to determine old version
+[2023-05-15 21:42:21] INFO root fetch - processPackages [wireprobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wireprobe-0.1.9.tar.gz tmp/wireprobe-0.2.tar.gz --markdown 20230515/w/wireprobe/0.1.9-0.2/diff.md --exclude *.pyd
+[2023-05-15 21:42:21] INFO root fetch - processPackages [pythonfontingv2]: Start processing: bubltools
+[2023-05-15 21:42:21] INFO root fetch - main [MainThread]: End processing [pythonfontingv2] error
+[2023-05-15 21:42:21] INFO root fetch - processPackages [pettingzoo]: Downloading https://files.pythonhosted.org/packages/86/46/25fe8d9973be0eaa139b229ff0a8bf8889c38de7d52506cdb5d143e42137/PettingZoo-1.8.2.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [kirui]: Downloading https://files.pythonhosted.org/packages/76/25/554b338f5aaf4a9347c99a6774351e4fd04a985c2fc98c04f2e34ee92564/kirui-0.5.8.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [bubltools]: New version: [2.2] Old Version: [2.1]
+[2023-05-15 21:42:21] INFO root fetch - processPackages [dsmltf]: Downloading https://files.pythonhosted.org/packages/c3/b5/c82a0b46077d717c137ff6e957d17ca6f9ef548f7760709bb88c4e6478e1/dsmltf-0.0.2.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [physrisk-lib]: Downloading https://files.pythonhosted.org/packages/14/41/f8b7a9df045bdb3592e2b1b0d95e7a1257326968002863a7d89dd69193dc/physrisk-lib-0.9.0.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [bubltools]: Downloading https://files.pythonhosted.org/packages/4d/16/9fccc7f073de2caf6b2a4bbe90c523963ac7eb1e9bfa10783bc5f93c0293/bubltools-2.1.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [dsmltf]: executing diffoscope
+[2023-05-15 21:42:21] INFO root fetch - processPackages [dsmltf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DSMLTF-0.0.1.tar.gz tmp/dsmltf-0.0.2.tar.gz --markdown 20230515/d/dsmltf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 21:42:21] INFO root fetch - processPackages [kirui]: Downloading https://files.pythonhosted.org/packages/9a/df/1561aea9ee1e30545436a6b57d4a11cd4400a64cf6c8ef3d4b8751bed164/kirui-0.5.9.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [pettingzoo]: Downloading https://files.pythonhosted.org/packages/2f/35/37c4d362b3666cb0c507a9be7fe791d7f06ec8892e0f4bb5d7e54649a884/PettingZoo-1.9.0.tar.gz
+[2023-05-15 21:42:21] INFO root fetch - processPackages [physrisk-lib]: executing diffoscope
+[2023-05-15 21:42:21] INFO root fetch - processPackages [physrisk-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physrisk-lib-0.7.0.tar.gz tmp/physrisk-lib-0.9.0.tar.gz --markdown 20230515/p/physrisk-lib/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 21:42:21] INFO root fetch - processPackages [kirui]: executing diffoscope
+[2023-05-15 21:42:21] INFO root fetch - processPackages [kirui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirui-0.5.8.tar.gz tmp/kirui-0.5.9.tar.gz --markdown 20230515/k/kirui/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-15 21:42:22] INFO root fetch - processPackages [bubltools]: Downloading https://files.pythonhosted.org/packages/9c/b9/fc35010207e37dcf7556d451cbd85e7a643c959a47975b1570dcc8854f63/bubltools-2.2.tar.gz
+[2023-05-15 21:42:22] INFO root fetch - processPackages [bubltools]: executing diffoscope
+[2023-05-15 21:42:22] INFO root fetch - processPackages [bubltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubltools-2.1.tar.gz tmp/bubltools-2.2.tar.gz --markdown 20230515/b/bubltools/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-15 21:42:22] INFO root fetch - processPackages [pettingzoo]: executing diffoscope
+[2023-05-15 21:42:22] INFO root fetch - processPackages [pettingzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PettingZoo-1.8.2.tar.gz tmp/PettingZoo-1.9.0.tar.gz --markdown 20230515/p/pettingzoo/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 21:42:22] INFO root fetch - processPackages [lbt-honeybee]: Start processing: lbt-dragonfly
+[2023-05-15 21:42:22] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-15 21:42:22] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-15 21:42:23] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-15 21:42:23] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230515/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-15 21:42:23] INFO root fetch - processPackages [dsmltf]: Start processing: mp-api
+[2023-05-15 21:42:23] INFO root fetch - main [MainThread]: End processing [dsmltf]: success
+[2023-05-15 21:42:23] INFO root fetch - processPackages [mp-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-15 21:42:23] INFO root fetch - main [MainThread]: End processing [wireprobe]: success
+[2023-05-15 21:42:23] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/d0/3b/c0f76330b2f702efab6d6b22672c31c3a367b6d2af4b70db241a553c0097/mp-api-0.9.0.tar.gz
+[2023-05-15 21:42:23] INFO root fetch - main [MainThread]: End processing [bubltools]: success
+[2023-05-15 21:42:23] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-15 21:42:23] INFO root fetch - main [MainThread]: End processing [physrisk-lib]: success
+[2023-05-15 21:42:23] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/6c/0e/759b93c4da8606f9bb1b3db9c592fb1b8eeaddcd0f0b6a2d901b6889bc2f/mp-api-0.9.1.tar.gz
+[2023-05-15 21:42:23] INFO root fetch - processPackages [mp-api]: executing diffoscope
+[2023-05-15 21:42:23] INFO root fetch - processPackages [mp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp-api-0.9.0.tar.gz tmp/mp-api-0.9.1.tar.gz --markdown 20230515/m/mp-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 21:42:24] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-15 21:42:26] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-15 21:42:27] INFO root fetch - main [MainThread]: End processing [mp-api]: success
+[2023-05-15 21:42:27] INFO root fetch - main [MainThread]: End processing [pettingzoo]: success
+[2023-05-15 21:42:27] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
+[2023-05-15 21:42:28] INFO root fetch - main [MainThread]: End processing [kirui]: success
+[2023-05-15 21:42:28] INFO root fetch - main [MainThread]: Store serial: [18112564]
