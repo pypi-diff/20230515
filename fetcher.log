@@ -4937,3 +4937,92 @@
 [2023-05-15 06:57:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
 [2023-05-15 06:57:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vpc]: success
 [2023-05-15 06:57:39] INFO root fetch - main [MainThread]: Store serial: [18103131]
+[2023-05-15 07:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103131]
+[2023-05-15 07:02:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fenjing
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quasinet
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-zj
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.identity
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-runtime-nightly
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-15 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OmniEvent
+[2023-05-15 07:02:50] INFO root fetch - processPackages [fenjing]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [OmniEvent]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230513] Old Version: [2.14.0.dev20230512]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 07:02:50] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/7f/dd/14f5c3548331ddd69b4e89c72e8f57a1d02ec7e9e6cba8ad39b0fafdbdb0/fenjing-0.2.5.tar.gz
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 07:02:50] INFO root fetch - processPackages [OmniEvent]: Downloading https://files.pythonhosted.org/packages/d1/3a/da90046c9ab826d7efd1782097cc04243f352864e4f89f43f44633178049/OmniEvent-0.1.5.tar.gz
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/6e/3e/00190acb2a2029c9a93ca2fefe06324e42c68a0580dc4b76af4648d0e7fd/aws_prototyping_sdk.aws_arch-0.18.8.tar.gz
+[2023-05-15 07:02:50] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 07:02:50] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19296794>=10485760
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-15 07:02:50] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-15 07:02:50] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/8d/43/2683e4dc55f9e49d0ada777d2dd9a5f62e0bb4fce2b04060ee0eb5e15a33/tencentcloud-sdk-python-zj-3.0.889.tar.gz
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 07:02:50] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/60/c6/6481bbbdecf7c25603e05ae98d3f564fc2d41c03982b9aff6e7aa3e6deac/fenjing-0.2.6.tar.gz
+[2023-05-15 07:02:50] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.2.5.tar.gz tmp/fenjing-0.2.6.tar.gz --markdown 20230515/f/fenjing/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-15 07:02:50] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/4c/d2/548313b0a37376dbb744488303a1c12ec5f1ed696e1a49eae4b238d3eae1/tflite_runtime_nightly-2.14.0.dev20230513-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-15 07:02:50] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/15/92/1e00827bc388f89876980020d3f7447feee67c0c53bb352ff5a3368694e2/tencentcloud-sdk-python-zj-3.0.891.tar.gz
+[2023-05-15 07:02:50] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-zj-3.0.889.tar.gz tmp/tencentcloud-sdk-python-zj-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-zj/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 07:02:50] INFO root fetch - processPackages [OmniEvent]: Downloading https://files.pythonhosted.org/packages/21/00/7da4a2852af295a8a8dfd211987645f43a7c9efc180645350c7effff1725/OmniEvent-0.1.6.tar.gz
+[2023-05-15 07:02:50] INFO root fetch - processPackages [OmniEvent]: executing diffoscope
+[2023-05-15 07:02:50] INFO root fetch - processPackages [OmniEvent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmniEvent-0.1.5.tar.gz tmp/OmniEvent-0.1.6.tar.gz --markdown 20230515/O/OmniEvent/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-15 07:02:51] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 07:02:51] INFO root fetch - processPackages [quasinet]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-15 07:02:51] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 07:02:51] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 07:02:51] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-15 07:02:51] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 07:02:51] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-15 07:02:51] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230512-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230513-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230515/t/tflite-runtime-nightly/2.14.0.dev20230512-2.14.0.dev20230513/diff.md --exclude *.pyd
+[2023-05-15 07:02:51] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-15 07:02:51] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230515/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.9.tar.gz --markdown 20230515/a/aws-prototyping-sdk.type-safe-api/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-15 07:02:52] INFO root fetch - processPackages [fenjing]: Start processing: dask-cuda
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-15 07:02:52] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: test-SW
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-15 07:02:52] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230515] Old Version: [23.6.0a230514]
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-15 07:02:52] WARNING root fetch - processPackages [test-SW]: Skipping, unable to determine old version
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [test-SW] error
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-15 07:02:52] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/31/0e/bfb656def87e6089dee3c8011c96596b5fc663a24347419f72760090f588/dask-cuda-23.6.0a230515.tar.gz
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-15 07:02:52] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-15 07:02:52] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230514.tar.gz tmp/dask-cuda-23.6.0a230515.tar.gz --markdown 20230515/d/dask-cuda/23.6.0a230514-23.6.0a230515/diff.md --exclude *.pyd
+[2023-05-15 07:02:52] INFO root fetch - main [MainThread]: End processing [OmniEvent]: success
+[2023-05-15 07:02:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-zj]: success
+[2023-05-15 07:02:53] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-15 07:02:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-15 07:02:54] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-15 07:02:54] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-15 07:02:54] INFO root fetch - main [MainThread]: Store serial: [18103188]
