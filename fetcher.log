@@ -4136,3 +4136,36 @@
 [2023-05-15 06:03:22] INFO root fetch - main [MainThread]: End processing [autosrt]: success
 [2023-05-15 06:03:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-postgres]: success
 [2023-05-15 06:03:23] INFO root fetch - main [MainThread]: Store serial: [18102706]
+[2023-05-15 06:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102706]
+[2023-05-15 06:08:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krx-rigger
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zebedee
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdup
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttaken
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vstutils
+[2023-05-15 06:08:32] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 06:08:32] INFO root fetch - processPackages [zebedee]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ttaken]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 06:08:32] INFO root fetch - processPackages [fastdup]: New version: [0.930] Old Version: [0.929]
+[2023-05-15 06:08:32] INFO root fetch - processPackages [vstutils]: New version: [5.4.5] Old Version: [5.4.4]
+[2023-05-15 06:08:32] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/f5/db/3e1e60a78dac55ea1c8f6e91278d097da33c504123772800e605a8ad0d16/krx_rigger-0.0.8.tar.gz
+[2023-05-15 06:08:32] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/89/21/80920fe2e47ef46a234bd6995f263f060c63781841e34c7c14740c718460/fastdup-0.929-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ttaken]: Downloading https://files.pythonhosted.org/packages/ab/c3/05d607b22bed81711c02f58f734087300963d52313898a053b4b26d178b2/ttaken-0.3.0-py3-none-any.whl
+[2023-05-15 06:08:32] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75111991>=10485760
+[2023-05-15 06:08:32] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-05-15 06:08:32] INFO root fetch - processPackages [zebedee]: Downloading https://files.pythonhosted.org/packages/a1/52/e6011f0821ae3e20bc8d667f2a09810710278311f238e24f2dc829603bae/zebedee-0.0.5.tar.gz
+[2023-05-15 06:08:32] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/59/05/8106984d0c358e894bf27eb839baf0d02ad718ef80496d507d7e3149ab83/krx_rigger-0.0.9.tar.gz
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ttaken]: executing diffoscope
+[2023-05-15 06:08:32] INFO root fetch - processPackages [ttaken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttaken-0.2.0-py3-none-any.whl.zip tmp/ttaken-0.3.0-py3-none-any.whl.zip --markdown 20230515/t/ttaken/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 06:08:32] INFO root fetch - processPackages [zebedee]: executing diffoscope
+[2023-05-15 06:08:32] INFO root fetch - processPackages [zebedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebedee-0.0.4.tar.gz tmp/zebedee-0.0.5.tar.gz --markdown 20230515/z/zebedee/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 06:08:32] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-15 06:08:32] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230515/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 06:08:32] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/1e/77/fd3b802e7cd6dbe324c9c922987b357d883d3edf17035bba1a1a911c8d8f/vstutils-5.4.5.tar.gz
+[2023-05-15 06:08:33] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-05-15 06:08:33] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.4.tar.gz tmp/vstutils-5.4.5.tar.gz --markdown 20230515/v/vstutils/5.4.4-5.4.5/diff.md --exclude *.pyd
+[2023-05-15 06:08:33] INFO root fetch - main [MainThread]: End processing [zebedee]: success
+[2023-05-15 06:08:33] INFO root fetch - main [MainThread]: End processing [ttaken]: success
+[2023-05-15 06:08:33] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-15 06:08:35] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-05-15 06:08:35] INFO root fetch - main [MainThread]: Store serial: [18102739]
