@@ -1786,3 +1786,52 @@
 [2023-05-15 03:14:28] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-05-15 03:15:14] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-05-15 03:15:14] INFO root fetch - main [MainThread]: Store serial: [18101300]
+[2023-05-15 03:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101300]
+[2023-05-15 03:20:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-jsonschema-objects
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FreeTVG-karjakak
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zrb
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osintbuddy
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osintbuddy
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyagrum-nightly
+[2023-05-15 03:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osintbuddy
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.2rc27.post1] Old Version: [0.0.2rc26.post1]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [python-jsonschema-objects]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.0rc2] Old Version: [3.2.0rc1]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.2rc27.post1] Old Version: [0.0.2rc26.post1]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.2rc27.post1] Old Version: [0.0.2rc26.post1]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.2rc26.post1.tar.gz tmp/osintbuddy-0.0.2rc27.post1.tar.gz --markdown 20230515/o/osintbuddy/0.0.2rc26.post1-0.0.2rc27.post1/diff.md --exclude *.pyd
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.2rc26.post1.tar.gz tmp/osintbuddy-0.0.2rc27.post1.tar.gz --markdown 20230515/o/osintbuddy/0.0.2rc26.post1-0.0.2rc27.post1/diff.md --exclude *.pyd
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-05-15 03:20:24] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.2rc26.post1.tar.gz tmp/osintbuddy-0.0.2rc27.post1.tar.gz --markdown 20230515/o/osintbuddy/0.0.2rc26.post1-0.0.2rc27.post1/diff.md --exclude *.pyd
+[2023-05-15 03:20:24] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.0.9.dev202305141683703926] Old Version: [1.8.0.9.dev202305131683703926]
+[2023-05-15 03:20:24] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/c7/be/ce0ae43e55e30f6b335ab12614d061e12b8c730bd5bb8d2efd3c1e432f49/FreeTVG-karjakak-3.2.0rc2.tar.gz
+[2023-05-15 03:20:24] INFO root fetch - processPackages [python-jsonschema-objects]: Downloading https://files.pythonhosted.org/packages/5a/97/29acbbe5edb3b6985d3e6218f9299cb4b23af06254f85595f65ae6a97bf3/python_jsonschema_objects-0.4.1.tar.gz
+[2023-05-15 03:20:24] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-05-15 03:20:24] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-15 03:20:24] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230515/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:20:24] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-15 03:20:24] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.0rc1.tar.gz tmp/FreeTVG-karjakak-3.2.0rc2.tar.gz --markdown 20230515/F/FreeTVG-karjakak/3.2.0rc1-3.2.0rc2/diff.md --exclude *.pyd
+[2023-05-15 03:20:24] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-05-15 03:20:24] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230515/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 03:20:24] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/ae/cf/e8afaf9e9a7efd962a3d6df6c9bcc2fc56c1bfc25480e7d89db502a61c9c/pyAgrum_nightly-1.8.0.9.dev202305141683703926-cp39-cp39-win_amd64.whl
+[2023-05-15 03:20:24] INFO root fetch - processPackages [python-jsonschema-objects]: Downloading https://files.pythonhosted.org/packages/93/52/2d661bb6da98d90ecd844aae1f87b69f669b8f04c0fdf21d7a84674f32db/python_jsonschema_objects-0.4.2.tar.gz
+[2023-05-15 03:20:24] INFO root fetch - processPackages [python-jsonschema-objects]: executing diffoscope
+[2023-05-15 03:20:24] INFO root fetch - processPackages [python-jsonschema-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jsonschema_objects-0.4.1.tar.gz tmp/python_jsonschema_objects-0.4.2.tar.gz --markdown 20230515/p/python-jsonschema-objects/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 03:20:25] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-15 03:20:25] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.0.9.dev202305131683703926-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.0.9.dev202305141683703926-cp39-cp39-win_amd64.whl.zip --markdown 20230515/p/pyagrum-nightly/1.8.0.9.dev202305131683703926-1.8.0.9.dev202305141683703926/diff.md --exclude *.pyd
+[2023-05-15 03:20:25] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-05-15 03:20:25] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-05-15 03:20:26] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-15 03:20:26] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-05-15 03:20:26] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-05-15 03:20:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-15 03:20:27] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-15 03:21:03] INFO root fetch - main [MainThread]: End processing [python-jsonschema-objects]: success
+[2023-05-15 03:21:03] INFO root fetch - main [MainThread]: Store serial: [18101333]
