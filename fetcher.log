@@ -15920,3 +15920,128 @@ EOFError: EOF read where object expected
 [2023-05-15 16:55:15] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
 [2023-05-15 16:57:06] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
 [2023-05-15 16:57:06] INFO root fetch - main [MainThread]: Store serial: [18109516]
+[2023-05-15 17:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109516]
+[2023-05-15 17:02:17] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cartography
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterhub-backendspawner
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gauravrq
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chope
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autonity
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ToolBox4Test
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: voxelfarm
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-nepali
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-omnilogic-local
+[2023-05-15 17:02:17] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.2.6.1] Old Version: [0.2.5]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [cartography]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [chope]: New version: [0.2.2] Old Version: [0.1.2]
+[2023-05-15 17:02:17] WARNING root fetch - processPackages [gauravrq]: Skipping, unable to determine old version
+[2023-05-15 17:02:17] INFO root fetch - processPackages [autonity]: New version: [0.2.dev2] Old Version: [0.2.dev1]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [gauravrq]: Start processing: evacuator
+[2023-05-15 17:02:17] INFO root fetch - main [MainThread]: End processing [gauravrq] error
+[2023-05-15 17:02:17] WARNING root fetch - processPackages [django-nepali]: Skipping, unable to determine old version
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ToolBox4Test]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: New version: [20230515.14.55.856942] Old Version: [20230515.10.57.254778]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [django-nepali]: Start processing: substrafl
+[2023-05-15 17:02:17] INFO root fetch - main [MainThread]: End processing [django-nepali] error
+[2023-05-15 17:02:17] INFO root fetch - processPackages [voxelfarm]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [evacuator]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [substrafl]: New version: [0.36.0rc2] Old Version: [0.36.0rc1]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [cartography]: Downloading https://files.pythonhosted.org/packages/0c/1f/16b6664d81d1abdd57e0f6a133c955f70ed0486c06739a38a0f6f868af68/cartography-0.8.0.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Downloading https://files.pythonhosted.org/packages/0e/31/617791f67c9ffac831e3249eb5f363f372b2fb30b0a707deab5d2134da1b/certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes-20230515.10.57.254778.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [chope]: Downloading https://files.pythonhosted.org/packages/c3/ed/6b488038f0b08156f191dce91c8269186b5fae6dcd015c87a944edf9f7fb/chope-0.1.2.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/34/4d/a19f0c3cf903d4c650e36f73ee1ab2016cd785b89f81392b0e197fa07a4e/python_omnilogic_local-0.0.2.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [autonity]: Downloading https://files.pythonhosted.org/packages/f5/fc/5babc1c2c6b84ab8fbdcc78c04f0ee4b69d16480a9249e0600657a7e9811/autonity-0.2.dev1.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [voxelfarm]: Downloading https://files.pythonhosted.org/packages/20/85/9611d3c2a2121654fde0a31930b66953ce55c84d1d65f5067e28d13afd84/voxelfarm-0.0.98.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [evacuator]: Downloading https://files.pythonhosted.org/packages/f3/cd/28707bbc6785a2cf3e48b9b888a67c046c0c6d6d36169b385cadb3a7475d/evacuator-1.0.2.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ToolBox4Test]: Downloading https://files.pythonhosted.org/packages/73/92/45b2d9296d449c72e182afa92c8240a0600cb75be84916492774dc540750/ToolBox4Test-1.0.3.tar.gz
+[2023-05-15 17:02:17] WARNING root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Skipping package: exceeds size limit 39437992>=10485760
+[2023-05-15 17:02:17] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Start processing: xklb
+[2023-05-15 17:02:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes] error
+[2023-05-15 17:02:17] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/22/81/c984076ee8815865d45895714b4c833aaec101ea705e5909173a22dead4f/jupyterhub-backendspawner-0.2.6.1.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [xklb]: New version: [1.27.5] Old Version: [1.27.4]
+[2023-05-15 17:02:17] INFO root fetch - processPackages [chope]: Downloading https://files.pythonhosted.org/packages/ef/4f/84e4530300809ec4186b4e2fb9dcc6ed07accb192f320aea8d3987169a98/chope-0.2.2.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/a4/4a/3fabf5d264ecad0b9106f9e83e93825d0c6b8e992ec6dfcfce4866d81d07/python_omnilogic_local-0.0.3.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [evacuator]: Downloading https://files.pythonhosted.org/packages/54/ff/f7ea01c2e019b1fc8dc7833c36fd7b29bb7f9ed526cd967f6329bb9374a0/evacuator-1.0.3.tar.gz
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ToolBox4Test]: executing diffoscope
+[2023-05-15 17:02:17] INFO root fetch - processPackages [ToolBox4Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ToolBox4Test-1.0.2.tar.gz tmp/ToolBox4Test-1.0.3.tar.gz --markdown 20230515/T/ToolBox4Test/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.2.5.tar.gz tmp/jupyterhub-backendspawner-0.2.6.1.tar.gz --markdown 20230515/j/jupyterhub-backendspawner/0.2.5-0.2.6.1/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/8c/0d/ea5dd29d2a7f14453a7e9393d36485f66cea153f00cef46754feb1e2a8f6/substrafl-0.36.0rc2.tar.gz
+[2023-05-15 17:02:18] INFO root fetch - processPackages [autonity]: Downloading https://files.pythonhosted.org/packages/96/b4/1671ba60ab268f0709facc2cc6a238dbaa768757116ed8c6d5016857ad72/autonity-0.2.dev2-py3-none-any.whl
+[2023-05-15 17:02:18] INFO root fetch - processPackages [cartography]: Downloading https://files.pythonhosted.org/packages/7f/d5/3c2223cf97c91e40b061ea40ddbfe85ed8faf4b3126699c78f4aa6b6b07d/cartography-0.9.0.tar.gz
+[2023-05-15 17:02:18] INFO root fetch - processPackages [chope]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [chope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chope-0.1.2.tar.gz tmp/chope-0.2.2.tar.gz --markdown 20230515/c/chope/0.1.2-0.2.2/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.0.2.tar.gz tmp/python_omnilogic_local-0.0.3.tar.gz --markdown 20230515/p/python-omnilogic-local/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [evacuator]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [evacuator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evacuator-1.0.2.tar.gz tmp/evacuator-1.0.3.tar.gz --markdown 20230515/e/evacuator/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [cartography]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [cartography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartography-0.8.0.tar.gz tmp/cartography-0.9.0.tar.gz --markdown 20230515/c/cartography/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [substrafl]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [substrafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrafl-0.36.0rc1.tar.gz tmp/substrafl-0.36.0rc2.tar.gz --markdown 20230515/s/substrafl/0.36.0rc1-0.36.0rc2/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [autonity]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [autonity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonity-0.2.dev1.tar.gz tmp/autonity-0.2.dev2-py3-none-any.whl.zip --markdown 20230515/a/autonity/0.2.dev1-0.2.dev2/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/cb/9088b1e21fc499fccee450194fab1d5e3ac69914306881fb45adaf0c3ff4/xklb-1.27.5.tar.gz
+[2023-05-15 17:02:18] INFO root fetch - processPackages [voxelfarm]: Downloading https://files.pythonhosted.org/packages/e0/53/b3cc1d3af35da7434a2086b0ce3422a7fa824b2780185a6fa1a2487bbc1d/voxelfarm-0.0.99.tar.gz
+[2023-05-15 17:02:18] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.27.4.tar.gz tmp/xklb-1.27.5.tar.gz --markdown 20230515/x/xklb/1.27.4-1.27.5/diff.md --exclude *.pyd
+[2023-05-15 17:02:18] INFO root fetch - processPackages [voxelfarm]: executing diffoscope
+[2023-05-15 17:02:18] INFO root fetch - processPackages [voxelfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelfarm-0.0.98.tar.gz tmp/voxelfarm-0.0.99.tar.gz --markdown 20230515/v/voxelfarm/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 17:02:20] INFO root fetch - processPackages [ToolBox4Test]: Start processing: schematic-db
+[2023-05-15 17:02:20] INFO root fetch - main [MainThread]: End processing [ToolBox4Test]: success
+[2023-05-15 17:02:20] INFO root fetch - processPackages [schematic-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 17:02:20] INFO root fetch - processPackages [jupyterhub-backendspawner]: Start processing: etl-entities
+[2023-05-15 17:02:20] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-05-15 17:02:21] INFO root fetch - processPackages [etl-entities]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-15 17:02:21] INFO root fetch - processPackages [schematic-db]: Downloading https://files.pythonhosted.org/packages/f0/ff/8c96ae409d8249cf82ec27f0866e344d5dd53e94e9f6eea3a15db94822c7/schematic_db-0.0.8.tar.gz
+[2023-05-15 17:02:21] INFO root fetch - processPackages [python-omnilogic-local]: Start processing: section-to-course
+[2023-05-15 17:02:21] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-15 17:02:21] INFO root fetch - processPackages [etl-entities]: Downloading https://files.pythonhosted.org/packages/9a/cf/98b4ae6839daac9a718728157246ee2349ec6d040ea493618c14f1f6d2b4/etl-entities-1.3.1.tar.gz
+[2023-05-15 17:02:21] INFO root fetch - processPackages [section-to-course]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-15 17:02:21] INFO root fetch - processPackages [chope]: Start processing: dxsp
+[2023-05-15 17:02:21] INFO root fetch - main [MainThread]: End processing [chope]: success
+[2023-05-15 17:02:21] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-15 17:02:21] INFO root fetch - processPackages [autonity]: Start processing: pycolorpackagesV2
+[2023-05-15 17:02:21] INFO root fetch - processPackages [schematic-db]: Downloading https://files.pythonhosted.org/packages/e5/f8/2b64f4934b62c6569a72b84ad8bf1d1b30c957480b47700ddff4a29aeb7c/schematic_db-0.0.9.tar.gz
+[2023-05-15 17:02:21] INFO root fetch - main [MainThread]: End processing [autonity]: success
+[2023-05-15 17:02:21] INFO root fetch - processPackages [evacuator]: Start processing: auxiliary-package
+[2023-05-15 17:02:21] INFO root fetch - main [MainThread]: End processing [evacuator]: success
+[2023-05-15 17:02:21] INFO root fetch - processPackages [etl-entities]: Downloading https://files.pythonhosted.org/packages/a6/82/57ec1f7dc183ecd77ac3051b0eb7df5a949084b5edb250b3672ebfe7b3e3/etl-entities-1.3.2.tar.gz
+[2023-05-15 17:02:21] INFO root fetch - processPackages [schematic-db]: executing diffoscope
+[2023-05-15 17:02:21] INFO root fetch - processPackages [schematic-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schematic_db-0.0.8.tar.gz tmp/schematic_db-0.0.9.tar.gz --markdown 20230515/s/schematic-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 17:02:21] INFO root fetch - processPackages [section-to-course]: Downloading https://files.pythonhosted.org/packages/1e/9e/bc553e1f6d820f048c393f4d6f3b0d4e7990f62ad63d3a483886be55a058/section-to-course-0.2.0.tar.gz
+[2023-05-15 17:02:21] WARNING root fetch - processPackages [auxiliary-package]: Skipping, unable to determine old version
+[2023-05-15 17:02:21] INFO root fetch - processPackages [auxiliary-package]: Start processing: pynterface
+[2023-05-15 17:02:21] INFO root fetch - main [MainThread]: End processing [auxiliary-package] error
+[2023-05-15 17:02:21] WARNING root fetch - processPackages [pycolorpackagesV2]: Skipping, unable to determine old version
+[2023-05-15 17:02:21] INFO root fetch - processPackages [pycolorpackagesV2]: Start processing: edwh-migrate
+[2023-05-15 17:02:21] INFO root fetch - main [MainThread]: End processing [pycolorpackagesV2] error
+[2023-05-15 17:02:21] INFO root fetch - processPackages [pynterface]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-15 17:02:21] INFO root fetch - processPackages [etl-entities]: executing diffoscope
+[2023-05-15 17:02:21] INFO root fetch - processPackages [etl-entities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl-entities-1.3.1.tar.gz tmp/etl-entities-1.3.2.tar.gz --markdown 20230515/e/etl-entities/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-15 17:02:21] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a0/56/f546a97608f10fc68386ae3ad008c10334e015e6ac67a9d8b49aff6cd27d/dxsp-2.2.9.tar.gz
+[2023-05-15 17:02:21] INFO root fetch - processPackages [edwh-migrate]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-15 17:02:21] INFO root fetch - processPackages [section-to-course]: Downloading https://files.pythonhosted.org/packages/d1/66/313fa0399e6cc3d1e1e87466223c147769732f16407b032e0a7eff733383/section-to-course-0.3.0.tar.gz
+[2023-05-15 17:02:21] INFO root fetch - processPackages [pynterface]: executing diffoscope
+[2023-05-15 17:02:21] INFO root fetch - processPackages [pynterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynterface-0.0.0.tar.gz tmp/pynterface-0.0.1.tar.gz --markdown 20230515/p/pynterface/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-15 17:02:21] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-15 17:02:21] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230515/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-15 17:02:21] INFO root fetch - processPackages [section-to-course]: executing diffoscope
+[2023-05-15 17:02:21] INFO root fetch - processPackages [section-to-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/section-to-course-0.2.0.tar.gz tmp/section-to-course-0.3.0.tar.gz --markdown 20230515/s/section-to-course/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 17:02:21] INFO root fetch - main [MainThread]: End processing [voxelfarm]: success
+[2023-05-15 17:02:21] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/1d/dd/ac48767e40b49f17d5cbede3e704e03c6cf281359383bcd4741e797edf5e/edwh_migrate-0.4.2.tar.gz
+[2023-05-15 17:02:22] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/d4/ea/4a930d61e22608e38b48d916e328c0e58d45032fbeaf172fcb1f833f17a9/edwh_migrate-0.4.3.tar.gz
+[2023-05-15 17:02:22] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2023-05-15 17:02:22] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.4.2.tar.gz tmp/edwh_migrate-0.4.3.tar.gz --markdown 20230515/e/edwh-migrate/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-15 17:02:22] INFO root fetch - main [MainThread]: End processing [cartography]: success
+[2023-05-15 17:02:22] INFO root fetch - main [MainThread]: End processing [substrafl]: success
+[2023-05-15 17:02:23] INFO root fetch - main [MainThread]: End processing [schematic-db]: success
+[2023-05-15 17:02:23] INFO root fetch - main [MainThread]: End processing [pynterface]: success
+[2023-05-15 17:02:24] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-15 17:02:24] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-15 17:02:24] INFO root fetch - main [MainThread]: End processing [section-to-course]: success
+[2023-05-15 17:02:24] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2023-05-15 17:02:24] INFO root fetch - main [MainThread]: End processing [etl-entities]: success
+[2023-05-15 17:02:24] INFO root fetch - main [MainThread]: Store serial: [18109585]
