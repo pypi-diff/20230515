@@ -19219,3 +19219,92 @@ EOFError: EOF read where object expected
 [2023-05-15 19:48:26] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-15 19:48:30] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2023-05-15 19:48:30] INFO root fetch - main [MainThread]: Store serial: [18111438]
+[2023-05-15 19:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18111438]
+[2023-05-15 19:53:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nativetypes
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-multincm
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LegadoParser2
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualtrics-utils
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylint-per-file-ignores
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seaplane
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sklearndf
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qualtrics-utils
+[2023-05-15 19:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bxsolana-trader-proto
+[2023-05-15 19:53:40] INFO root fetch - processPackages [LegadoParser2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [bagbag]: New version: [0.59.5] Old Version: [0.59.4]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [nativetypes]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [nonebot-plugin-multincm]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [qualtrics-utils]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [pylint-per-file-ignores]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [qualtrics-utils]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-05-15 19:53:40] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230515/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 19:53:40] INFO root fetch - processPackages [seaplane]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [LegadoParser2]: executing diffoscope
+[2023-05-15 19:53:40] INFO root fetch - processPackages [LegadoParser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LegadoParser2-0.0.1.tar.gz tmp/LegadoParser2-0.0.2.tar.gz --markdown 20230515/L/LegadoParser2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 19:53:40] INFO root fetch - processPackages [sklearndf]: New version: [2.2rc1] Old Version: [2.2rc0]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/51/0f/4f692baa4618580f321277864b0eace38d3582e0b51c1c28f9da3f3fee47/bagbag-0.59.5.tar.gz
+[2023-05-15 19:53:40] WARNING root fetch - processPackages [nativetypes]: fallback to get urls: [1.0.5]
+[2023-05-15 19:53:40] WARNING root fetch - processPackages [nativetypes]: None
+[2023-05-15 19:53:40] WARNING root fetch - processPackages [nativetypes]: None
+[2023-05-15 19:53:40] INFO root fetch - processPackages [qualtrics-utils]: Downloading https://files.pythonhosted.org/packages/38/28/abdfe439eb4b1529376148afd69172bc68920a39f5229d1bf474d3736720/qualtrics_utils-0.5.0.tar.gz
+[2023-05-15 19:53:40] WARNING root fetch - processPackages [nativetypes]: unable to get url for both version [1.0.5]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [qualtrics-utils]: Downloading https://files.pythonhosted.org/packages/38/28/abdfe439eb4b1529376148afd69172bc68920a39f5229d1bf474d3736720/qualtrics_utils-0.5.0.tar.gz
+[2023-05-15 19:53:40] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/ab/82/8db7f75aa0f9ff960bc6975b7a0033a402145b2a590bc58daf098607815e/seaplane-0.2.9.tar.gz
+[2023-05-15 19:53:40] WARNING root fetch - processPackages [nativetypes]: None
+[2023-05-15 19:53:40] INFO root fetch - processPackages [nativetypes]: Start processing: AutoCarver
+[2023-05-15 19:53:40] INFO root fetch - main [MainThread]: End processing [nativetypes] error
+[2023-05-15 19:53:40] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-15 19:53:40] INFO root fetch - processPackages [nonebot-plugin-multincm]: Downloading https://files.pythonhosted.org/packages/7a/6f/c3db66bc851dd63b5a7a309058aee36dd3a3e26eb79335f61f6099e00d5f/nonebot_plugin_multincm-0.1.0.tar.gz
+[2023-05-15 19:53:40] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.4.tar.gz tmp/bagbag-0.59.5.tar.gz --markdown 20230515/b/bagbag/0.59.4-0.59.5/diff.md --exclude *.pyd
+[2023-05-15 19:53:40] INFO root fetch - processPackages [pylint-per-file-ignores]: Downloading https://files.pythonhosted.org/packages/ed/df/3813d36a37c6d0765ec6083486ec6176dd3ba6cfcda9376c11fe8340f44a/pylint_per_file_ignores-1.2.0.tar.gz
+[2023-05-15 19:53:40] INFO root fetch - processPackages [sklearndf]: Downloading https://files.pythonhosted.org/packages/8e/f9/91df596c25bbf2307b5428be5d3fdab29a4ec34ab786742fbdbbc1c13264/sklearndf-2.2rc0.tar.gz
+[2023-05-15 19:53:40] INFO root fetch - processPackages [AutoCarver]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-05-15 19:53:40] INFO root fetch - processPackages [qualtrics-utils]: Downloading https://files.pythonhosted.org/packages/00/2a/acb88711cec4d1544bbb8a156a30ba7e192bb9a9f062607d440b900a3e6f/qualtrics_utils-0.5.1.tar.gz
+[2023-05-15 19:53:40] INFO root fetch - processPackages [qualtrics-utils]: Downloading https://files.pythonhosted.org/packages/00/2a/acb88711cec4d1544bbb8a156a30ba7e192bb9a9f062607d440b900a3e6f/qualtrics_utils-0.5.1.tar.gz
+[2023-05-15 19:53:40] INFO root fetch - processPackages [nonebot-plugin-multincm]: Downloading https://files.pythonhosted.org/packages/ce/80/561f6aeecb2b791c70a34febfcb27318248430621d7c6260629673d71ea1/nonebot_plugin_multincm-0.2.0.tar.gz
+[2023-05-15 19:53:40] INFO root fetch - processPackages [pylint-per-file-ignores]: Downloading https://files.pythonhosted.org/packages/41/ae/789debdd5bc1c22e2895ebe88b98ec401e0690613b7c39167794a00b84a0/pylint_per_file_ignores-1.2.1.tar.gz
+[2023-05-15 19:53:41] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/07/12/edad007e789696b466bccdae1d679ddeb9e79d2bf30c71228eaa659d1641/seaplane-0.3.0.tar.gz
+[2023-05-15 19:53:41] INFO root fetch - processPackages [qualtrics-utils]: executing diffoscope
+[2023-05-15 19:53:41] INFO root fetch - processPackages [qualtrics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualtrics_utils-0.5.0.tar.gz tmp/qualtrics_utils-0.5.1.tar.gz --markdown 20230515/q/qualtrics-utils/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-15 19:53:41] INFO root fetch - processPackages [qualtrics-utils]: executing diffoscope
+[2023-05-15 19:53:41] INFO root fetch - processPackages [qualtrics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualtrics_utils-0.5.0.tar.gz tmp/qualtrics_utils-0.5.1.tar.gz --markdown 20230515/q/qualtrics-utils/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-15 19:53:41] INFO root fetch - processPackages [sklearndf]: Downloading https://files.pythonhosted.org/packages/c9/87/2a61895fe40abc7eebfb5db7558cde9e253144d157bfa4dfac73622f229e/sklearndf-2.2rc1.tar.gz
+[2023-05-15 19:53:41] INFO root fetch - processPackages [pylint-per-file-ignores]: executing diffoscope
+[2023-05-15 19:53:41] INFO root fetch - processPackages [pylint-per-file-ignores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_per_file_ignores-1.2.0.tar.gz tmp/pylint_per_file_ignores-1.2.1.tar.gz --markdown 20230515/p/pylint-per-file-ignores/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-15 19:53:41] INFO root fetch - processPackages [nonebot-plugin-multincm]: executing diffoscope
+[2023-05-15 19:53:41] INFO root fetch - processPackages [nonebot-plugin-multincm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_multincm-0.1.0.tar.gz tmp/nonebot_plugin_multincm-0.2.0.tar.gz --markdown 20230515/n/nonebot-plugin-multincm/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 19:53:41] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/47/33/407bfd91df240194c7352c76a755f721ee8bfe4d85e346f66d94c3b5a22b/AutoCarver-4.1.0.tar.gz
+[2023-05-15 19:53:41] INFO root fetch - processPackages [sklearndf]: executing diffoscope
+[2023-05-15 19:53:41] INFO root fetch - processPackages [sklearndf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearndf-2.2rc0.tar.gz tmp/sklearndf-2.2rc1.tar.gz --markdown 20230515/s/sklearndf/2.2rc0-2.2rc1/diff.md --exclude *.pyd
+[2023-05-15 19:53:41] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-05-15 19:53:41] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.0.1.tar.gz tmp/AutoCarver-4.1.0.tar.gz --markdown 20230515/A/AutoCarver/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-05-15 19:53:41] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-05-15 19:53:41] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.2.9.tar.gz tmp/seaplane-0.3.0.tar.gz --markdown 20230515/s/seaplane/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-15 19:53:41] INFO root fetch - processPackages [bxsolana-trader-proto]: Start processing: geotribu
+[2023-05-15 19:53:41] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-05-15 19:53:41] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-15 19:53:42] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/0c/88/9ed63e5b1ed623ecc1bbe33f1abbe27529df60c105218f58ec8e861e50c3/geotribu-0.9.0.tar.gz
+[2023-05-15 19:53:42] INFO root fetch - processPackages [qualtrics-utils]: Start processing: uptrain
+[2023-05-15 19:53:42] INFO root fetch - main [MainThread]: End processing [qualtrics-utils]: success
+[2023-05-15 19:53:42] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/62/b3/c0a91ca5efa5c4c0338fbdec554fce09bf08ac357fd3020e1830d1194bc2/geotribu-0.9.1.tar.gz
+[2023-05-15 19:53:42] INFO root fetch - main [MainThread]: End processing [pylint-per-file-ignores]: success
+[2023-05-15 19:53:42] INFO root fetch - processPackages [uptrain]: New version: [0.2.0] Old Version: [0.1.dev0]
+[2023-05-15 19:53:42] INFO root fetch - main [MainThread]: End processing [qualtrics-utils]: success
+[2023-05-15 19:53:42] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-05-15 19:53:42] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230515/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 19:53:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-multincm]: success
+[2023-05-15 19:53:42] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/56/c2/a55899b259e613c052fa033b325bbae8dfdfa511c356023cad30cc0bfa44/uptrain-0.1.dev0.tar.gz
+[2023-05-15 19:53:42] INFO root fetch - main [MainThread]: End processing [LegadoParser2]: success
+[2023-05-15 19:53:42] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-05-15 19:53:42] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/f0/ab/18f2aaf0cce9541ee9ee2d3d809db86c73d8b658f0a51634c743e45c8d4b/uptrain-0.2.0.tar.gz
+[2023-05-15 19:53:43] INFO root fetch - processPackages [uptrain]: executing diffoscope
+[2023-05-15 19:53:43] INFO root fetch - processPackages [uptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrain-0.1.dev0.tar.gz tmp/uptrain-0.2.0.tar.gz --markdown 20230515/u/uptrain/0.1.dev0-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 19:53:43] INFO root fetch - main [MainThread]: End processing [sklearndf]: success
+[2023-05-15 19:53:43] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-05-15 19:53:44] INFO root fetch - main [MainThread]: End processing [uptrain]: success
+[2023-05-15 19:53:44] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-05-15 19:53:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-15 19:53:45] INFO root fetch - main [MainThread]: Store serial: [18111477]
