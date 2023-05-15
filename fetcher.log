@@ -20455,3 +20455,51 @@ EOFError: EOF read where object expected
 [2023-05-15 21:04:01] INFO root fetch - main [MainThread]: End processing [google-cloud-video-stitcher]: success
 [2023-05-15 21:04:01] INFO root fetch - main [MainThread]: End processing [djaodjin-survey]: success
 [2023-05-15 21:04:01] INFO root fetch - main [MainThread]: Store serial: [18112201]
+[2023-05-15 21:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112201]
+[2023-05-15 21:09:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nester-struct
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuroboros
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HC128-Cipher
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-fastly
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vision6D
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opendatacrawler
+[2023-05-15 21:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d2c-mp-sales-forecaster
+[2023-05-15 21:09:09] INFO root fetch - processPackages [nester-struct]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-15 21:09:09] INFO root fetch - processPackages [vision6D]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 21:09:09] INFO root fetch - processPackages [pulumi-fastly]: New version: [7.4.0a1684173919] Old Version: [7.4.0a1683784083]
+[2023-05-15 21:09:09] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 21:09:09] WARNING root fetch - processPackages [HC128-Cipher]: Skipping, unable to determine old version
+[2023-05-15 21:09:09] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-15 21:09:09] INFO root fetch - main [MainThread]: End processing [HC128-Cipher] error
+[2023-05-15 21:09:10] INFO root fetch - processPackages [neuroboros]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2023-05-15 21:09:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202305151907] Old Version: [99.0.202305151328]
+[2023-05-15 21:09:10] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-05-15 21:09:10] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-7.4.0a1683784083.tar.gz tmp/pulumi_fastly-7.4.0a1684173919.tar.gz --markdown 20230515/p/pulumi-fastly/7.4.0a1683784083-7.4.0a1684173919/diff.md --exclude *.pyd
+[2023-05-15 21:09:10] INFO root fetch - processPackages [neuroboros]: Downloading https://files.pythonhosted.org/packages/fd/fc/5e8c8c7549ad5c999559e21ad1f4927b8aeebb26f06b974d147409ce5d41/neuroboros-0.1.1-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-15 21:09:10] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-05-15 21:09:10] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.8.tar.gz tmp/opendatacrawler-1.0.9.tar.gz --markdown 20230515/o/opendatacrawler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:09:10] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: Downloading https://files.pythonhosted.org/packages/fa/dd/76a64ea74d1ad2e69b5041dddc50ac206dbfd6de93aa642f65240befbba0/d2c_mp_sales_forecaster-0.0.2.tar.gz
+[2023-05-15 21:09:10] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/6e/76/1967572b8dff942e4b2b6970c739f7bf2566afaa923413274f1aaf4b3cc5/vision6D-0.0.3.tar.gz
+[2023-05-15 21:09:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/eb/4d/5bbc92ad4153e2bc117f7c3a85b53767343931d8c63ec75624c96c040c75/kcli-99.0.202305151328-py3-none-any.whl
+[2023-05-15 21:09:10] INFO root fetch - processPackages [nester-struct]: Downloading https://files.pythonhosted.org/packages/c5/f1/0aa62095e8fb624c45b060c5273431b1c3abfdb7c262a13de48c8489defa/nester-struct-0.2.0.tar.gz
+[2023-05-15 21:09:10] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-05-15 21:09:10] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.0.2.tar.gz tmp/vision6D-0.0.3.tar.gz --markdown 20230515/v/vision6D/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 21:09:10] INFO root fetch - processPackages [nester-struct]: executing diffoscope
+[2023-05-15 21:09:10] INFO root fetch - processPackages [nester-struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nester-struct-0.1.2.tar.gz tmp/nester-struct-0.2.0.tar.gz --markdown 20230515/n/nester-struct/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 21:09:10] INFO root fetch - processPackages [neuroboros]: executing diffoscope
+[2023-05-15 21:09:10] INFO root fetch - processPackages [neuroboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroboros-0.1.1-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/neuroboros-0.1.1a0.tar.gz --markdown 20230515/n/neuroboros/0.1.1-0.1.1a0/diff.md --exclude *.pyd
+[2023-05-15 21:09:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/84/29/19524d71ed615aa2c833f1685115b28c7cde47b09add97230cd4b6fbab8e/kcli-99.0.202305151907-py3-none-any.whl
+[2023-05-15 21:09:10] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: Downloading https://files.pythonhosted.org/packages/b9/ea/40d7ac4769264a0f957a064d3d9176ba90c45118247f277a32e9743ac3f4/d2c_mp_sales_forecaster-0.0.3.tar.gz
+[2023-05-15 21:09:10] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: executing diffoscope
+[2023-05-15 21:09:10] INFO root fetch - processPackages [d2c-mp-sales-forecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2c_mp_sales_forecaster-0.0.2.tar.gz tmp/d2c_mp_sales_forecaster-0.0.3.tar.gz --markdown 20230515/d/d2c-mp-sales-forecaster/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-15 21:09:10] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 21:09:10] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305151328-py3-none-any.whl.zip tmp/kcli-99.0.202305151907-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305151328-99.0.202305151907/diff.md --exclude *.pyd
+[2023-05-15 21:09:11] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-05-15 21:09:11] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-05-15 21:09:11] INFO root fetch - main [MainThread]: End processing [neuroboros]: success
+[2023-05-15 21:09:12] INFO root fetch - main [MainThread]: End processing [d2c-mp-sales-forecaster]: success
+[2023-05-15 21:09:14] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-05-15 21:09:14] INFO root fetch - main [MainThread]: End processing [nester-struct]: success
+[2023-05-15 21:09:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 21:09:19] INFO root fetch - main [MainThread]: Store serial: [18112227]
