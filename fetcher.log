@@ -1907,3 +1907,67 @@
 [2023-05-15 03:26:16] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230515/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
 [2023-05-15 03:28:15] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-15 03:28:15] INFO root fetch - main [MainThread]: Store serial: [18101387]
+[2023-05-15 03:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101387]
+[2023-05-15 03:33:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suap-scraper
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alembic-autogenerate-enums
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alembic-autogenerate-enums
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuantumIntelligence
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mathtranslate
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mapdata
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-wordpress
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dualopt
+[2023-05-15 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-smallapi
+[2023-05-15 03:33:26] INFO root fetch - processPackages [alembic-autogenerate-enums]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [suap-scraper]: New version: [0.0.6.1] Old Version: [0.0.6]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [QuantumIntelligence]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [dualopt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [alembic-autogenerate-enums]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [mathtranslate]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [mapdata]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-15 03:33:26] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-05-15 03:33:26] WARNING root fetch - processPackages [nonebot-plugin-smallapi]: Skipping, unable to determine old version
+[2023-05-15 03:33:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smallapi] error
+[2023-05-15 03:33:26] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/f9/e6/dfb95005c113cb7d04d23d48e253efe7b6400e6eda2322c0cbe1615ad8d6/suap_scraper-0.0.6.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [alembic-autogenerate-enums]: Downloading https://files.pythonhosted.org/packages/f3/bd/60a62eb9f93c7a6673675c59cdd0ee5a5f2fe85ee3837d8ab1916eb718f4/alembic-autogenerate-enums-0.1.0.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [alembic-autogenerate-enums]: Downloading https://files.pythonhosted.org/packages/f3/bd/60a62eb9f93c7a6673675c59cdd0ee5a5f2fe85ee3837d8ab1916eb718f4/alembic-autogenerate-enums-0.1.0.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [dualopt]: Downloading https://files.pythonhosted.org/packages/7d/3c/2c6f920810276c178c2ba8441e10c70060f301c7d8271c08bbd2f6caad46/dualopt-0.1.0.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/ef/a2/10e82f1f288ce96f1846ba08af164c2f623d49d1fffde7c0fd5612f6007a/mathtranslate-2.1.9.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/ed/d9/dffab83204674baba76a33a8ca0c1a815efbeb55efd1206899f76e7f65ba/mapdata-1.7.0.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [QuantumIntelligence]: Downloading https://files.pythonhosted.org/packages/7b/13/387a5e5e5708cf126bfed3e7f3ab012c3d5650c3a18fb60623010fe01efb/QuantumIntelligence-0.0.7.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/a3/04/2e99844337326f0243909f4753cbbb7c3842d283443ccca7d301a3368ba4/suap_scraper-0.0.6.1.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-15 03:33:26] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230515/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-15 03:33:26] INFO root fetch - processPackages [dualopt]: Downloading https://files.pythonhosted.org/packages/be/57/7dcd3c1aa4185166e155ed8d199609b9b08f946bd3b1b18eafd5161ee59e/dualopt-0.1.1.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/98/fe/379e0bd5f84fd08203dc967d6ee5ed2763250acc55667d31cc26e90f1cff/mathtranslate-2.2.0.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/be/b7/c93f434acd65494f5c6acd5e7bbe8cd5698414b558fcec5197524d533082/mapdata-1.8.0.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [alembic-autogenerate-enums]: Downloading https://files.pythonhosted.org/packages/6d/2f/502bb869c4d59b4338ed0cee1e3ce5e9aa6999df0af3e00db02f600c3552/alembic-autogenerate-enums-0.1.1.tar.gz
+[2023-05-15 03:33:26] INFO root fetch - processPackages [alembic-autogenerate-enums]: Downloading https://files.pythonhosted.org/packages/6d/2f/502bb869c4d59b4338ed0cee1e3ce5e9aa6999df0af3e00db02f600c3552/alembic-autogenerate-enums-0.1.1.tar.gz
+[2023-05-15 03:33:27] INFO root fetch - processPackages [dualopt]: executing diffoscope
+[2023-05-15 03:33:27] INFO root fetch - processPackages [dualopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualopt-0.1.0.tar.gz tmp/dualopt-0.1.1.tar.gz --markdown 20230515/d/dualopt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 03:33:27] INFO root fetch - processPackages [suap-scraper]: executing diffoscope
+[2023-05-15 03:33:27] INFO root fetch - processPackages [suap-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suap_scraper-0.0.6.tar.gz tmp/suap_scraper-0.0.6.1.tar.gz --markdown 20230515/s/suap-scraper/0.0.6-0.0.6.1/diff.md --exclude *.pyd
+[2023-05-15 03:33:27] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-05-15 03:33:27] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.1.9.tar.gz tmp/mathtranslate-2.2.0.tar.gz --markdown 20230515/m/mathtranslate/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-05-15 03:33:27] INFO root fetch - processPackages [QuantumIntelligence]: Downloading https://files.pythonhosted.org/packages/84/4d/9aad81144fdf1417a02a65627e19f48f0fccbd54c9e397a3b2c307e112c6/QuantumIntelligence-0.0.8.tar.gz
+[2023-05-15 03:33:27] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-05-15 03:33:27] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-1.7.0.tar.gz tmp/mapdata-1.8.0.tar.gz --markdown 20230515/m/mapdata/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-15 03:33:27] INFO root fetch - processPackages [QuantumIntelligence]: executing diffoscope
+[2023-05-15 03:33:27] INFO root fetch - processPackages [QuantumIntelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumIntelligence-0.0.7.tar.gz tmp/QuantumIntelligence-0.0.8.tar.gz --markdown 20230515/Q/QuantumIntelligence/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-15 03:33:27] INFO root fetch - processPackages [alembic-autogenerate-enums]: executing diffoscope
+[2023-05-15 03:33:27] INFO root fetch - processPackages [alembic-autogenerate-enums]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic-autogenerate-enums-0.1.0.tar.gz tmp/alembic-autogenerate-enums-0.1.1.tar.gz --markdown 20230515/a/alembic-autogenerate-enums/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 03:33:27] INFO root fetch - processPackages [alembic-autogenerate-enums]: executing diffoscope
+[2023-05-15 03:33:27] INFO root fetch - processPackages [alembic-autogenerate-enums]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic-autogenerate-enums-0.1.0.tar.gz tmp/alembic-autogenerate-enums-0.1.1.tar.gz --markdown 20230515/a/alembic-autogenerate-enums/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 03:33:27] ERROR root fetch - processPackages [mathtranslate]: Diffoscope failed: Error: error creating container storage: the container name "amazing_bell" is already in use by "6d653b16ed652b4ae48ac41f803c0c31f6fc0a101208cb5d831bb89935c98873". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-15 03:33:27] INFO root fetch - main [MainThread]: End processing [mathtranslate] error
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [dualopt]: success
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [suap-scraper]: success
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [alembic-autogenerate-enums]: success
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [QuantumIntelligence]: success
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: End processing [alembic-autogenerate-enums]: success
+[2023-05-15 03:33:28] INFO root fetch - main [MainThread]: Store serial: [18101425]
