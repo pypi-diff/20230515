@@ -20851,3 +20851,114 @@ EOFError: EOF read where object expected
 [2023-05-15 21:31:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oss]: success
 [2023-05-15 21:31:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
 [2023-05-15 21:31:44] INFO root fetch - main [MainThread]: Store serial: [18112456]
+[2023-05-15 21:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112456]
+[2023-05-15 21:36:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renku
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-core
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renku-lock
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opendatacrawler
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywry
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NikeCA
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-05-15 21:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcicsnovault
+[2023-05-15 21:36:53] INFO root fetch - processPackages [renku-lock]: New version: [2.4.1rc2] Old Version: [2.4.1rc1]
+[2023-05-15 21:36:53] INFO root fetch - processPackages [kfish]: New version: [99.0.202305151933] Old Version: [99.0.202305151923]
+[2023-05-15 21:36:53] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 21:36:53] INFO root fetch - processPackages [renku]: New version: [2.4.1rc2] Old Version: [2.4.1rc1]
+[2023-05-15 21:36:53] INFO root fetch - processPackages [NikeCA]: New version: [0.2.8a0] Old Version: [0.2.8]
+[2023-05-15 21:36:53] INFO root fetch - processPackages [foursight-core]: New version: [4.1.2] Old Version: [4.1.1.1b1]
+[2023-05-15 21:36:53] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.1.2b4] Old Version: [8.0.1.1b5]
+[2023-05-15 21:36:53] INFO root fetch - processPackages [pywry]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: New version: [99.0.202305151933] Old Version: [99.0.202305151931]
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: New version: [99.0.202305151933] Old Version: [99.0.202305151931]
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/1d/d5/94d2d9827240c4a3b0257b7ec782036038fc8431b2d428887cc0843305b6/kfish-99.0.202305151923-py3-none-any.whl
+[2023-05-15 21:36:54] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.8.tar.gz tmp/opendatacrawler-1.0.9.tar.gz --markdown 20230515/o/opendatacrawler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/3d/07/145cc66a86bab650647452a8f7a941879d230bb10fdbb480e237a6b73e59/foursight_core-4.1.1.1b1.tar.gz
+[2023-05-15 21:36:54] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/20/4a/257ffbc8fa1e77f51e222b75f865fcf72a899e6f146b63a6d2850b602beb/dcicsnovault-8.0.1.1b5.tar.gz
+[2023-05-15 21:36:54] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/3a/38/afc247ab6965aea3979571f0da7d5cbb5d1d953c77249f32f9fa57d0b68f/renku_lock-2.4.1rc2-py3-none-any.whl
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e3/53/9e742f48d4a05c509d236e09679328f4cf6e769781ea61210b2f07984bd9/kcli-99.0.202305151931-py3-none-any.whl
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e3/53/9e742f48d4a05c509d236e09679328f4cf6e769781ea61210b2f07984bd9/kcli-99.0.202305151931-py3-none-any.whl
+[2023-05-15 21:36:54] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/76/f7/aa5f89443ca9ef630cb40928f837d59798a51b881c959769acdcef9d4d20/renku-2.4.1rc2.tar.gz
+[2023-05-15 21:36:54] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/f2/31/19f347638e59894d6460411b69081ec9ce0b526d04c12d77ce5da356e73c/NikeCA-0.2.8a0.tar.gz
+[2023-05-15 21:36:54] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.4.1rc1-py3-none-any.whl.zip tmp/renku_lock-2.4.1rc2-py3-none-any.whl.zip --markdown 20230515/r/renku-lock/2.4.1rc1-2.4.1rc2/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/46/2b/a0992a6bb7dae7bd1a86aea94f01ec8376b25a637f1d66ede7d238fd890e/pywry-0.5.6.tar.gz
+[2023-05-15 21:36:54] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.2.8.tar.gz tmp/NikeCA-0.2.8a0.tar.gz --markdown 20230515/N/NikeCA/0.2.8-0.2.8a0/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/bf/98/b931c9b6171eb62d5904e6dd90edafd8ea5d4fe0b38c0e910577d93df46d/foursight_core-4.1.2.tar.gz
+[2023-05-15 21:36:54] INFO root fetch - processPackages [renku]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.4.1rc1.tar.gz tmp/renku-2.4.1rc2.tar.gz --markdown 20230515/r/renku/2.4.1rc1-2.4.1rc2/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/34/17/eac1569e13a115b482a502e971285a77ed901a35acca2226764b1f453cf5/kfish-99.0.202305151933-py3-none-any.whl
+[2023-05-15 21:36:54] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/06/e3/daedd994defc54d7f633842d59bdc3c81117b1e8b527f5c456bf3c2ac81a/dcicsnovault-8.0.1.2b4.tar.gz
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/35/85/2574a07ded0b9ea1437e0c7f5412ecfec124f17c2dc8728bf13378b50446/kcli-99.0.202305151933-py3-none-any.whl
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/35/85/2574a07ded0b9ea1437e0c7f5412ecfec124f17c2dc8728bf13378b50446/kcli-99.0.202305151933-py3-none-any.whl
+[2023-05-15 21:36:54] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.1.1b1.tar.gz tmp/foursight_core-4.1.2.tar.gz --markdown 20230515/f/foursight-core/4.1.1.1b1-4.1.2/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305151923-py3-none-any.whl.zip tmp/kfish-99.0.202305151933-py3-none-any.whl.zip --markdown 20230515/k/kfish/99.0.202305151923-99.0.202305151933/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.5.tar.gz tmp/pywry-0.5.6.tar.gz --markdown 20230515/p/pywry/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305151931-py3-none-any.whl.zip tmp/kcli-99.0.202305151933-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305151931-99.0.202305151933/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305151931-py3-none-any.whl.zip tmp/kcli-99.0.202305151933-py3-none-any.whl.zip --markdown 20230515/k/kcli/99.0.202305151931-99.0.202305151933/diff.md --exclude *.pyd
+[2023-05-15 21:36:54] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-15 21:36:54] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.1b5.tar.gz tmp/dcicsnovault-8.0.1.2b4.tar.gz --markdown 20230515/d/dcicsnovault/8.0.1.1b5-8.0.1.2b4/diff.md --exclude *.pyd
+[2023-05-15 21:36:55] INFO root fetch - processPackages [renku-lock]: Start processing: beanclerk
+[2023-05-15 21:36:55] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2023-05-15 21:36:55] WARNING root fetch - processPackages [beanclerk]: Skipping, unable to determine old version
+[2023-05-15 21:36:55] INFO root fetch - processPackages [beanclerk]: Start processing: ecopipeline
+[2023-05-15 21:36:55] INFO root fetch - main [MainThread]: End processing [beanclerk] error
+[2023-05-15 21:36:55] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 21:36:55] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-15 21:36:55] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230515/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 21:36:55] INFO root fetch - processPackages [opendatacrawler]: Start processing: ket-lang
+[2023-05-15 21:36:55] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-05-15 21:36:55] INFO root fetch - processPackages [ket-lang]: New version: [0.6rc2] Old Version: [0.6.0.dev1]
+[2023-05-15 21:36:56] INFO root fetch - processPackages [kfish]: Start processing: kfish
+[2023-05-15 21:36:56] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-15 21:36:56] INFO root fetch - processPackages [kfish]: New version: [99.0.202305151935] Old Version: [99.0.202305151933]
+[2023-05-15 21:36:56] INFO root fetch - processPackages [NikeCA]: Start processing: lbt-ladybug
+[2023-05-15 21:36:56] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-15 21:36:56] INFO root fetch - processPackages [ket-lang]: executing diffoscope
+[2023-05-15 21:36:56] INFO root fetch - processPackages [ket-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ket-lang-0.6.0.dev1.tar.gz tmp/ket-lang-0.6rc2.tar.gz --markdown 20230515/k/ket-lang/0.6.0.dev1-0.6rc2/diff.md --exclude *.pyd
+[2023-05-15 21:36:56] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-15 21:36:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/eb/72/1c2050533297151509e331be10c41e583b7bfaca1a594bbcb27713a7c3fc/kfish-99.0.202305151935-py3-none-any.whl
+[2023-05-15 21:36:56] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-15 21:36:56] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305151933-py3-none-any.whl.zip tmp/kfish-99.0.202305151935-py3-none-any.whl.zip --markdown 20230515/k/kfish/99.0.202305151933-99.0.202305151935/diff.md --exclude *.pyd
+[2023-05-15 21:36:56] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-05-15 21:36:56] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230515/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 21:36:57] INFO root fetch - processPackages [pywry]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 21:36:57] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-05-15 21:36:57] INFO root fetch - processPackages [ecopipeline]: Start processing: strangeworks-core
+[2023-05-15 21:36:57] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-15 21:36:57] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.9.25.738539] Old Version: [20230515.8.30.947345]
+[2023-05-15 21:36:57] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/bf/ef/01dbf730e79959b14a661e61d8251b68e10c12a2362b5ea487bf586f1e6b/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.8.30.947345.tar.gz
+[2023-05-15 21:36:57] WARNING root fetch - processPackages [strangeworks-core]: Skipping, unable to determine old version
+[2023-05-15 21:36:57] INFO root fetch - processPackages [strangeworks-core]: Start processing: pyattck-data
+[2023-05-15 21:36:57] INFO root fetch - main [MainThread]: End processing [strangeworks-core] error
+[2023-05-15 21:36:57] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430959>=10485760
+[2023-05-15 21:36:57] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: aws-fortuna
+[2023-05-15 21:36:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 21:36:57] INFO root fetch - processPackages [pyattck-data]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-05-15 21:36:57] INFO root fetch - processPackages [aws-fortuna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 21:36:57] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-15 21:36:57] INFO root fetch - processPackages [pyattck-data]: Downloading https://files.pythonhosted.org/packages/86/68/3cdef436a76b7208f61a306ed04b25ff1a2a9f5b7c8b538160b8f513558d/pyattck_data-2.6.2.tar.gz
+[2023-05-15 21:36:58] INFO root fetch - processPackages [aws-fortuna]: executing diffoscope
+[2023-05-15 21:36:58] INFO root fetch - processPackages [aws-fortuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_fortuna-0.1.8.tar.gz tmp/aws_fortuna-0.1.9.tar.gz --markdown 20230515/a/aws-fortuna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 21:36:58] INFO root fetch - processPackages [pyattck-data]: Downloading https://files.pythonhosted.org/packages/a0/52/de5a296f61de2fe390352ed7593690a4eb09cd0823adfe8b1f740d41d7dd/pyattck_data-2.6.3.tar.gz
+[2023-05-15 21:36:58] INFO root fetch - processPackages [pyattck-data]: executing diffoscope
+[2023-05-15 21:36:58] INFO root fetch - processPackages [pyattck-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyattck_data-2.6.2.tar.gz tmp/pyattck_data-2.6.3.tar.gz --markdown 20230515/p/pyattck-data/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-05-15 21:36:58] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-15 21:36:59] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-05-15 21:36:59] INFO root fetch - main [MainThread]: End processing [ket-lang]: success
+[2023-05-15 21:36:59] INFO root fetch - main [MainThread]: End processing [pyattck-data]: success
+[2023-05-15 21:37:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 21:37:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-15 21:37:03] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
+[2023-05-15 21:37:05] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2023-05-15 21:37:11] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-05-15 21:37:11] INFO root fetch - main [MainThread]: Store serial: [18112517]
