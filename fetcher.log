@@ -15100,3 +15100,82 @@ EOFError: EOF read where object expected
 [2023-05-15 16:17:01] INFO root fetch - main [MainThread]: End processing [ImoT-tools]: success
 [2023-05-15 16:17:02] INFO root fetch - main [MainThread]: End processing [bmi-arcgis-restapi]: success
 [2023-05-15 16:17:02] INFO root fetch - main [MainThread]: Store serial: [18109036]
+[2023-05-15 16:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109036]
+[2023-05-15 16:22:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unofficial-dt-sms-api-sdk
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tala
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-andrew-satisfy
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chat2plot
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dev-gpt
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: utx
+[2023-05-15 16:22:12] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev6] Old Version: [0.18.41.dev5]
+[2023-05-15 16:22:12] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-15 16:22:12] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.9.25.738539] Old Version: [20230515.8.30.947345]
+[2023-05-15 16:22:12] WARNING root fetch - processPackages [unofficial-dt-sms-api-sdk]: Skipping, unable to determine old version
+[2023-05-15 16:22:12] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 16:22:12] INFO root fetch - processPackages [unofficial-dt-sms-api-sdk]: Start processing: ffdice
+[2023-05-15 16:22:12] INFO root fetch - main [MainThread]: End processing [unofficial-dt-sms-api-sdk] error
+[2023-05-15 16:22:12] INFO root fetch - processPackages [utx]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-15 16:22:12] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-15 16:22:12] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev8] Old Version: [0.6.4.dev7]
+[2023-05-15 16:22:12] INFO root fetch - processPackages [ffdice]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 16:22:12] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/bf/ef/01dbf730e79959b14a661e61d8251b68e10c12a2362b5ea487bf586f1e6b/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.8.30.947345.tar.gz
+[2023-05-15 16:22:12] WARNING root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Skipping, unable to determine old version
+[2023-05-15 16:22:12] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Start processing: kfsd
+[2023-05-15 16:22:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-andrew-satisfy] error
+[2023-05-15 16:22:12] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-15 16:22:12] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev5.tar.gz tmp/dev-gpt-0.18.41.dev6.tar.gz --markdown 20230515/d/dev-gpt/0.18.41.dev5-0.18.41.dev6/diff.md --exclude *.pyd
+[2023-05-15 16:22:12] INFO root fetch - processPackages [chat2plot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 16:22:13] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430959>=10485760
+[2023-05-15 16:22:13] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: WX-Push-Services
+[2023-05-15 16:22:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 16:22:13] INFO root fetch - processPackages [ffdice]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [ffdice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffdice-1.0.0.tar.gz tmp/ffdice-1.0.1.tar.gz --markdown 20230515/f/ffdice/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230515/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] INFO root fetch - processPackages [utx]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [utx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utx-1.3.4.tar.gz tmp/utx-1.3.5.tar.gz --markdown 20230515/u/utx/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 16:22:13] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 16:22:13] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230515/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.8.tar.gz tmp/WX_Push_Services-1.0.9.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/69/1d/e996085010b0dd0c4dfb54869e763fa3131e31c2604775ae5803ad991594/coiled-0.6.4.dev8.tar.gz
+[2023-05-15 16:22:13] INFO root fetch - processPackages [chat2plot]: Downloading https://files.pythonhosted.org/packages/ca/cb/8aebdeab6e2727238095d30e4ac4e630f6f6537b3baad9e457846872b9b0/chat2plot-0.0.9.tar.gz
+[2023-05-15 16:22:13] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev7.tar.gz tmp/coiled-0.6.4.dev8.tar.gz --markdown 20230515/c/coiled/0.6.4.dev7-0.6.4.dev8/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] INFO root fetch - processPackages [chat2plot]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [chat2plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat2plot-0.0.8.tar.gz tmp/chat2plot-0.0.9.tar.gz --markdown 20230515/c/chat2plot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:22:13] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-15 16:22:13] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230515/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 16:22:14] INFO root fetch - processPackages [ffdice]: Start processing: pyqrack
+[2023-05-15 16:22:14] INFO root fetch - main [MainThread]: End processing [ffdice]: success
+[2023-05-15 16:22:15] INFO root fetch - processPackages [pyqrack]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-15 16:22:15] INFO root fetch - processPackages [langchain-serve]: Start processing: pulumi-aws
+[2023-05-15 16:22:15] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-15 16:22:15] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 16:22:15] INFO root fetch - main [MainThread]: End processing [chat2plot]: success
+[2023-05-15 16:22:15] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/1e/34/773ae979db524480527dac6cd1bfc0845db19207d18c419cc04f9307420d/pyqrack-1.9.4-py3-none-manylinux_2_35_x86_64.whl
+[2023-05-15 16:22:15] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-15 16:22:15] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-05-15 16:22:15] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e5/69/3ce582391765ac681b8fe873c7c0edc5e4d4d60649195f04a5f5359a24fb/pulumi_aws-5.9.1.tar.gz
+[2023-05-15 16:22:16] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-15 16:22:16] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-15 16:22:16] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 16:22:17] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/b5/2d/3bb0c09182c2672c439edaba78942269f26ed68f8f3385d942e13fb37ce5/pulumi_aws-5.9.2.tar.gz
+[2023-05-15 16:22:17] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-15 16:22:18] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-05-15 16:22:18] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230515/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-05-15 16:22:19] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-15 16:22:19] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.3.tar.gz tmp/pyqrack-1.9.4-py3-none-manylinux_2_35_x86_64.whl.zip --markdown 20230515/p/pyqrack/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-15 16:22:19] INFO root fetch - main [MainThread]: End processing [utx]: success
+[2023-05-15 16:22:20] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-15 16:23:05] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-05-15 16:23:05] INFO root fetch - main [MainThread]: Store serial: [18109081]
