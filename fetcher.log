@@ -10298,3 +10298,211 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:44:12] INFO root fetch - main [MainThread]: End processing [curies]: success
 [2023-05-15 12:44:13] INFO root fetch - main [MainThread]: End processing [ispyb]: success
 [2023-05-15 12:44:13] INFO root fetch - main [MainThread]: Store serial: [18106011]
+[2023-05-15 12:49:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18106011]
+[2023-05-15 12:49:23] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prova-pypi
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alice-onboarding
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuflow-rest
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuflow-robotframework
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuflow-temporal-common
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fractal-server
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opsramp-analytics-utils
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kuflow-temporal-activity-kuflow
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TestingBm-123
+[2023-05-15 12:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: always-updates
+[2023-05-15 12:49:23] INFO root fetch - processPackages [alice-onboarding]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-rest]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [TestingBm-123]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-robotframework]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [fractal-server]: New version: [1.3.0a1] Old Version: [1.3.0a0]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-05-15 12:49:23] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-15 12:49:23] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230515/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-15 12:49:23] INFO root fetch - processPackages [alice-onboarding]: Downloading https://files.pythonhosted.org/packages/96/66/52c484ce178fa5649138000306f76597e7ef1f04a3d1ac81be6da843c074/alice-onboarding-1.9.0.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/c7/c0/897ae812657063943d4f3a0a5455f5ae9b1611065ddeb81f19d1c1a95cb2/kuflow_temporal_activity_kuflow-0.4.1.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/b3/85/50f0bba65a0a5dd4aacdfe0096194393901fdada7d0fa8fad0e4e47fdaaa/kuflow_rest-0.4.1.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/07/ba/dfc00ddd6520c6e739889a50289f25693047f227c20865c681c91af6084b/kuflow_robotframework-0.4.1.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [prova-pypi]: Downloading https://files.pythonhosted.org/packages/ba/2f/4230fe1be1cf0ff61c74506346d2443f1d2e7d7c7db234ce7272df553918/prova_pypi-0.0.5.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/5e/5e/e49f866dcd9ed462180c335a708c174893d830ccf583b307fa80bd9423de/kuflow_temporal_common-0.4.1.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [TestingBm-123]: Downloading https://files.pythonhosted.org/packages/cb/4b/60d1e1206ece69f051ffea8eb97933721d3004048b1136a50b37b5b1d4a1/TestingBm_123-0.0.4.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/cf/36/6c4078962359edfc20f7c927a7fd851f0b5c6296dc17d65a8dd2b20255ce/opsramp-analytics-utils-3.3.1.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [TestingBm-123]: executing diffoscope
+[2023-05-15 12:49:23] INFO root fetch - processPackages [TestingBm-123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TestingBm_123-0.0.3.tar.gz tmp/TestingBm_123-0.0.4.tar.gz --markdown 20230515/T/TestingBm-123/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 12:49:23] INFO root fetch - processPackages [alice-onboarding]: Downloading https://files.pythonhosted.org/packages/ec/50/aaab5ad8ae6a667a77b8f985fcf132b33229f571285ad36b887792fa4289/alice-onboarding-2.0.0.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/d6/9a/3ba7697bc9b02425e13269616163c020e0624be9b1cd318520e014369f9c/fractal_server-1.3.0a1.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/1c/89/4c1cb64c860439ca62ed965921229dff5710542c03b230a07fe37e50bf7e/kuflow_temporal_activity_kuflow-0.4.2.tar.gz
+[2023-05-15 12:49:23] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/eb/d0/65a888febc709a08b2abe2e6705f6a83ab5b283e2ff4fcdc1be9c640d255/kuflow_temporal_common-0.4.2.tar.gz
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-0.4.1.tar.gz tmp/kuflow_temporal_activity_kuflow-0.4.2.tar.gz --markdown 20230515/k/kuflow-temporal-activity-kuflow/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/ed/99/3e840e5ac56e337bb512c63bfdca8c2fea617b194819c9a435863577fd3f/kuflow_rest-0.4.2.tar.gz
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/98/72/cd56f1b8ddd6a317d8131cce756fc7fcecce9db1f204265646c4c82c045d/kuflow_robotframework-0.4.2.tar.gz
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.4.1.tar.gz tmp/kuflow_temporal_common-0.4.2.tar.gz --markdown 20230515/k/kuflow-temporal-common/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 12:49:24] INFO root fetch - processPackages [prova-pypi]: Downloading https://files.pythonhosted.org/packages/6f/cd/2ab300cd8127250e7c0ef83d8ab60520864c74c3391d76161a0d134d33b8/prova_pypi-0.0.6.tar.gz
+[2023-05-15 12:49:24] INFO root fetch - processPackages [alice-onboarding]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [alice-onboarding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alice-onboarding-1.9.0.tar.gz tmp/alice-onboarding-2.0.0.tar.gz --markdown 20230515/a/alice-onboarding/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-0.4.1.tar.gz tmp/kuflow_robotframework-0.4.2.tar.gz --markdown 20230515/k/kuflow-robotframework/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-0.4.1.tar.gz tmp/kuflow_rest-0.4.2.tar.gz --markdown 20230515/k/kuflow-rest/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-15 12:49:24] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.0a0.tar.gz tmp/fractal_server-1.3.0a1.tar.gz --markdown 20230515/f/fractal-server/1.3.0a0-1.3.0a1/diff.md --exclude *.pyd
+[2023-05-15 12:49:24] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/fa/24/dfb693b552f0bcdc96d753a0d411d30f1fe4bf9d8c4306dc9375490556af/opsramp-analytics-utils-3.3.2.tar.gz
+[2023-05-15 12:49:24] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.5.tar.gz tmp/prova_pypi-0.0.6.tar.gz --markdown 20230515/p/prova-pypi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-15 12:49:24] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2023-05-15 12:49:24] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.3.1.tar.gz tmp/opsramp-analytics-utils-3.3.2.tar.gz --markdown 20230515/o/opsramp-analytics-utils/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-05-15 12:49:25] INFO root fetch - processPackages [always-updates]: Start processing: cm-two
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-15 12:49:25] INFO root fetch - processPackages [cm-two]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-15 12:49:25] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/25/3b/f8d3a55c377b240800bce846e51086e6795ba53bb0a96c4d48b52359dfd4/cm_two-2.3.1-py3-none-any.whl
+[2023-05-15 12:49:25] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-15 12:49:25] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.0-py3-none-any.whl.zip tmp/cm_two-2.3.1-py3-none-any.whl.zip --markdown 20230515/c/cm-two/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-15 12:49:25] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: idbadapter
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-05-15 12:49:25] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Start processing: lbt-dragonfly
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2023-05-15 12:49:25] INFO root fetch - processPackages [idbadapter]: New version: [1.2] Old Version: [1.1]
+[2023-05-15 12:49:25] INFO root fetch - processPackages [kuflow-robotframework]: Start processing: odoo-module-migrator
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2023-05-15 12:49:25] INFO root fetch - processPackages [TestingBm-123]: Start processing: test1550hello
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [TestingBm-123]: success
+[2023-05-15 12:49:25] INFO root fetch - processPackages [prova-pypi]: Start processing: django-dnoticias-auth
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 12:49:25] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-15 12:49:25] INFO root fetch - processPackages [odoo-module-migrator]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-15 12:49:25] WARNING root fetch - processPackages [test1550hello]: Skipping, unable to determine old version
+[2023-05-15 12:49:25] INFO root fetch - processPackages [test1550hello]: Start processing: asa-tools
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [test1550hello] error
+[2023-05-15 12:49:25] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/bf/8b/4438d3c83b4fcdb8c2d851eb3f9f654f73254585e0e3fa310b26e2a923e9/idbadapter-1.1.tar.gz
+[2023-05-15 12:49:25] INFO root fetch - processPackages [alice-onboarding]: Start processing: code-loader
+[2023-05-15 12:49:25] INFO root fetch - main [MainThread]: End processing [alice-onboarding]: success
+[2023-05-15 12:49:25] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-15 12:49:25] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-15 12:49:25] INFO root fetch - processPackages [asa-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 12:49:26] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-05-15 12:49:26] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230515/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-15 12:49:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-05-15 12:49:26] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/94/31/b15540f4ea8ec6cb72138497871fd8269e0d88c51f5b5297a54c34c18163/idbadapter-1.2.tar.gz
+[2023-05-15 12:49:26] INFO root fetch - processPackages [odoo-module-migrator]: Downloading https://files.pythonhosted.org/packages/f7/c5/dd9694f2157566ce6a462fc61496c30fcf7b7c0e0cd92a5d545da7ff1066/odoo-module-migrator-0.3.1.tar.gz
+[2023-05-15 12:49:26] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2023-05-15 12:49:26] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-1.1.tar.gz tmp/idbadapter-1.2.tar.gz --markdown 20230515/i/idbadapter/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-15 12:49:26] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-15 12:49:26] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230515/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-15 12:49:26] INFO root fetch - processPackages [asa-tools]: Downloading https://files.pythonhosted.org/packages/68/a4/2f4b8a8dbe86a870343fa06ac949f061ea8b286d15d246b6fc715d371213/asa-tools-0.1.3.tar.gz
+[2023-05-15 12:49:26] INFO root fetch - processPackages [odoo-module-migrator]: Downloading https://files.pythonhosted.org/packages/92/b4/4bcf9caebd6eb41ecb80a5fb035de3396bd8ab97027e7715c7898100be41/odoo-module-migrator-0.4.0.tar.gz
+[2023-05-15 12:49:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-05-15 12:49:26] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-15 12:49:26] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230515/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-15 12:49:26] INFO root fetch - processPackages [asa-tools]: executing diffoscope
+[2023-05-15 12:49:26] INFO root fetch - processPackages [asa-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asa-tools-0.1.2.tar.gz tmp/asa-tools-0.1.3.tar.gz --markdown 20230515/a/asa-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 12:49:26] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-15 12:49:26] INFO root fetch - processPackages [cm-two]: Start processing: gocardless-pro
+[2023-05-15 12:49:26] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-15 12:49:26] INFO root fetch - processPackages [odoo-module-migrator]: executing diffoscope
+[2023-05-15 12:49:26] INFO root fetch - processPackages [odoo-module-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo-module-migrator-0.3.1.tar.gz tmp/odoo-module-migrator-0.4.0.tar.gz --markdown 20230515/o/odoo-module-migrator/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-15 12:49:26] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2023-05-15 12:49:26] INFO root fetch - processPackages [gocardless-pro]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-15 12:49:26] INFO root fetch - processPackages [gocardless-pro]: Downloading https://files.pythonhosted.org/packages/7e/84/7b53e39fd3789556d17d5389e31f2dddde2b1a73f8d5c34f34173366a1b9/gocardless_pro-1.8.0.tar.gz
+[2023-05-15 12:49:26] INFO root fetch - processPackages [gocardless-pro]: Downloading https://files.pythonhosted.org/packages/26/a3/05fe06a8fb94a48c4096747e7a6f99f4101fcf389ab99f6fe8156d4786fe/gocardless_pro-1.9.0.tar.gz
+[2023-05-15 12:49:27] INFO root fetch - processPackages [gocardless-pro]: executing diffoscope
+[2023-05-15 12:49:27] INFO root fetch - processPackages [gocardless-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocardless_pro-1.8.0.tar.gz tmp/gocardless_pro-1.9.0.tar.gz --markdown 20230515/g/gocardless-pro/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-15 12:49:27] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2023-05-15 12:49:27] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-05-15 12:49:27] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2023-05-15 12:49:27] INFO root fetch - main [MainThread]: End processing [asa-tools]: success
+[2023-05-15 12:49:27] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-05-15 12:49:27] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-15 12:49:28] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-15 12:49:28] INFO root fetch - main [MainThread]: End processing [odoo-module-migrator]: success
+[2023-05-15 12:49:28] INFO root fetch - main [MainThread]: End processing [gocardless-pro]: success
+[2023-05-15 12:49:28] INFO root fetch - main [MainThread]: Store serial: [18106088]
