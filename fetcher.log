@@ -12114,3 +12114,151 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 14:02:08] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-15 14:02:41] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-15 14:02:41] INFO root fetch - main [MainThread]: Store serial: [18107151]
+[2023-05-15 14:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18107151]
+[2023-05-15 14:07:50] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogc-na
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftrack-ams
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwert1234
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cone.calendar
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dabbas
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: issue-db-api
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datadiligence
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ebmdatalab
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spectrally-constrained-lvms
+[2023-05-15 14:07:50] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [issue-db-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [datadiligence]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [cone.calendar]: New version: [1.0a1] Old Version: [0.3]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ogc-na]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ftrack-ams]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-05-15 14:07:50] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230515/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 14:07:50] INFO root fetch - processPackages [qwert1234]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ebmdatalab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [spectrally-constrained-lvms]: New version: [0.1.0.2] Old Version: [0.1.0.1]
+[2023-05-15 14:07:50] INFO root fetch - processPackages [datadiligence]: executing diffoscope
+[2023-05-15 14:07:50] INFO root fetch - processPackages [datadiligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadiligence-0.1.2.tar.gz tmp/datadiligence-0.1.3.tar.gz --markdown 20230515/d/datadiligence/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 14:07:50] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/eb/63/e3c4e4e99611d32a7eb9a862d52e6eb4e0315a04dcc23f7c784587f9fc02/issue_db_api-0.9.1.tar.gz
+[2023-05-15 14:07:50] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/eb/4b/57331f9c99c8c4fc7412212e817e241fc5bea9bdb9af21aaca871c0e1780/PatryksAutoAI-0.6.9.tar.gz
+[2023-05-15 14:07:50] INFO root fetch - processPackages [qwert1234]: Downloading https://files.pythonhosted.org/packages/e9/35/c29e7aa8a91b5a05e00ee2280ab7ab6e9bfbbcd3ba80e7457f806d39c23e/qwert1234-1.0.2.tar.gz
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/0a/f1/88ecdca7a2eb946490f33d967638f4af338c82aa3d988dbcad4a500446b9/ftrack-ams-2.0.8.tar.gz
+[2023-05-15 14:07:50] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-15 14:07:50] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.9.0.tar.gz tmp/issue_db_api-0.9.1.tar.gz --markdown 20230515/i/issue-db-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-15 14:07:50] INFO root fetch - processPackages [cone.calendar]: Downloading https://files.pythonhosted.org/packages/4c/be/5aceaba1d422cc09c1a4ba4421458817893b22c22f3e68e4a1ab4d31ee77/cone.calendar-0.3.tar.gz
+[2023-05-15 14:07:50] INFO root fetch - processPackages [spectrally-constrained-lvms]: Downloading https://files.pythonhosted.org/packages/fd/c7/0e681df4488c458025a4118a0dec8ed917fa8c0403a08858def6a3d06428/spectrally_constrained_lvms-0.1.0.1.tar.gz
+[2023-05-15 14:07:50] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/49/ba/8688c15e797b017ccde45ad1050174e6b7e6fceed2060a1d8db7b34e52eb/ogc_na-0.2.6.tar.gz
+[2023-05-15 14:07:51] INFO root fetch - processPackages [ebmdatalab]: executing diffoscope
+[2023-05-15 14:07:51] INFO root fetch - processPackages [ebmdatalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebmdatalab-0.0.8.tar.gz tmp/ebmdatalab-0.0.9.tar.gz --markdown 20230515/e/ebmdatalab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 14:07:51] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/2c/57/c46f9523180dc0b71ebb80b7bd572a1b6112003a367b21bfbad72cc23a2d/PatryksAutoAI-0.7.0.tar.gz
+[2023-05-15 14:07:51] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-05-15 14:07:51] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.5-py3-none-any.whl.zip tmp/ogc_na-0.2.6.tar.gz --markdown 20230515/o/ogc-na/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-15 14:07:51] INFO root fetch - processPackages [spectrally-constrained-lvms]: Downloading https://files.pythonhosted.org/packages/ba/51/eb97b505b2f8b4113fdcfdb2b1f7071572406ce622bacdf399bff56e3f9b/spectrally_constrained_lvms-0.1.0.2.tar.gz
+[2023-05-15 14:07:51] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/34/ea/861e042065368474af4e1dd5aae5c75b15e4457811a6fd86d4bc977e16fe/ftrack-ams-2.0.9.tar.gz
+[2023-05-15 14:07:51] INFO root fetch - processPackages [qwert1234]: Downloading https://files.pythonhosted.org/packages/fc/6c/c4f2311ec4f43b3dd2b1b4d5e5ad96c37e45fcc549d002cf51b2bc1959a1/qwert1234-1.0.3.tar.gz
+[2023-05-15 14:07:51] INFO root fetch - processPackages [spectrally-constrained-lvms]: executing diffoscope
+[2023-05-15 14:07:51] INFO root fetch - processPackages [spectrally-constrained-lvms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrally_constrained_lvms-0.1.0.1.tar.gz tmp/spectrally_constrained_lvms-0.1.0.2.tar.gz --markdown 20230515/s/spectrally-constrained-lvms/0.1.0.1-0.1.0.2/diff.md --exclude *.pyd
+[2023-05-15 14:07:51] INFO root fetch - processPackages [ftrack-ams]: executing diffoscope
+[2023-05-15 14:07:51] INFO root fetch - processPackages [ftrack-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack-ams-2.0.8.tar.gz tmp/ftrack-ams-2.0.9.tar.gz --markdown 20230515/f/ftrack-ams/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-15 14:07:51] INFO root fetch - processPackages [cone.calendar]: Downloading https://files.pythonhosted.org/packages/fe/41/0b01e91ca962a691eb26a685f44e7feb50d91fe3e69f56187d605bf8ecff/cone.calendar-1.0a1.tar.gz
+[2023-05-15 14:07:51] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-15 14:07:51] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.6.9.tar.gz tmp/PatryksAutoAI-0.7.0.tar.gz --markdown 20230515/P/PatryksAutoAI/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-05-15 14:07:51] INFO root fetch - processPackages [qwert1234]: executing diffoscope
+[2023-05-15 14:07:51] INFO root fetch - processPackages [qwert1234]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwert1234-1.0.2.tar.gz tmp/qwert1234-1.0.3.tar.gz --markdown 20230515/q/qwert1234/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-15 14:07:51] INFO root fetch - processPackages [cone.calendar]: executing diffoscope
+[2023-05-15 14:07:51] INFO root fetch - processPackages [cone.calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cone.calendar-0.3.tar.gz tmp/cone.calendar-1.0a1.tar.gz --markdown 20230515/c/cone.calendar/0.3-1.0a1/diff.md --exclude *.pyd
+[2023-05-15 14:07:52] INFO root fetch - processPackages [dabbas]: Start processing: fenjing
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-05-15 14:07:52] INFO root fetch - processPackages [fenjing]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-15 14:07:52] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/4c/ad/92eb58cad76806a67b303c47f25f8dee2bed9f33cb81bf74ea127d32522f/fenjing-0.2.8.tar.gz
+[2023-05-15 14:07:52] INFO root fetch - processPackages [ogc-na]: Start processing: pandasflow
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-05-15 14:07:52] INFO root fetch - processPackages [pandasflow]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-15 14:07:52] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-15 14:07:52] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.2.7.tar.gz tmp/fenjing-0.2.8.tar.gz --markdown 20230515/f/fenjing/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-15 14:07:52] INFO root fetch - processPackages [ftrack-ams]: Start processing: nonebot-plugin-gscode
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [ftrack-ams]: success
+[2023-05-15 14:07:52] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/5d/f3/399863332d24ff7e30009bd0fd0498591cb174d1047e2ad6addc02cb0816/pandasflow-0.5.3.tar.gz
+[2023-05-15 14:07:52] INFO root fetch - processPackages [issue-db-api]: Start processing: lumigo-log-shipper
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-15 14:07:52] INFO root fetch - processPackages [qwert1234]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [qwert1234]: success
+[2023-05-15 14:07:52] INFO root fetch - processPackages [lumigo-log-shipper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 14:07:52] INFO root fetch - processPackages [nonebot-plugin-gscode]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 14:07:52] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.9.25.738539] Old Version: [20230515.8.30.947345]
+[2023-05-15 14:07:52] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-05-15 14:07:52] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.5.2.tar.gz tmp/pandasflow-0.5.3.tar.gz --markdown 20230515/p/pandasflow/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-15 14:07:52] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/bf/ef/01dbf730e79959b14a661e61d8251b68e10c12a2362b5ea487bf586f1e6b/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.8.30.947345.tar.gz
+[2023-05-15 14:07:52] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430959>=10485760
+[2023-05-15 14:07:52] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: exoorbit
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 14:07:52] INFO root fetch - processPackages [spectrally-constrained-lvms]: Start processing: upgini
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [spectrally-constrained-lvms]: success
+[2023-05-15 14:07:52] INFO root fetch - processPackages [exoorbit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 14:07:52] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: crabpy
+[2023-05-15 14:07:52] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-15 14:07:52] INFO root fetch - processPackages [lumigo-log-shipper]: Downloading https://files.pythonhosted.org/packages/a5/3e/6161fe9f04523367e5aa86e86cf1358a0e89a35f629288fa49bf1464ba5e/lumigo_log_shipper-1.0.8-py3-none-any.whl
+[2023-05-15 14:07:53] INFO root fetch - processPackages [exoorbit]: executing diffoscope
+[2023-05-15 14:07:53] INFO root fetch - processPackages [exoorbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exoorbit-0.1.8.tar.gz tmp/exoorbit-0.1.9.tar.gz --markdown 20230515/e/exoorbit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 14:07:53] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-15 14:07:53] INFO root fetch - processPackages [crabpy]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-15 14:07:53] INFO root fetch - processPackages [nonebot-plugin-gscode]: Downloading https://files.pythonhosted.org/packages/2c/a4/37bbeae23e6a502f327c01f5b0c3d606b36b5f55900fa817655b401dd5f3/nonebot_plugin_gscode-0.1.8.tar.gz
+[2023-05-15 14:07:53] INFO root fetch - processPackages [datadiligence]: Start processing: certora-cli-alpha-master
+[2023-05-15 14:07:53] INFO root fetch - main [MainThread]: End processing [datadiligence]: success
+[2023-05-15 14:07:53] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.9.25.343999] Old Version: [20230515.8.28.196716]
+[2023-05-15 14:07:53] INFO root fetch - processPackages [nonebot-plugin-gscode]: executing diffoscope
+[2023-05-15 14:07:53] INFO root fetch - processPackages [nonebot-plugin-gscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gscode-0.1.7.tar.gz tmp/nonebot_plugin_gscode-0.1.8.tar.gz --markdown 20230515/n/nonebot-plugin-gscode/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 14:07:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/57/3c8e4f696ecc29a6da16dae52cb9b9d1391b25ce946105a3f96ced6e88c4/certora-cli-alpha-master-20230515.8.28.196716.tar.gz
+[2023-05-15 14:07:53] INFO root fetch - processPackages [lumigo-log-shipper]: Downloading https://files.pythonhosted.org/packages/56/61/9d0aae7914d70c52b44fbd3591fbb310badec0c90fe857c25dff36da8a36/lumigo_log_shipper-1.0.9-py3-none-any.whl
+[2023-05-15 14:07:53] INFO root fetch - processPackages [crabpy]: Downloading https://files.pythonhosted.org/packages/cc/81/dacac7938666e650bbd4408be38430293089f3a41daf0d2ca782365b883a/crabpy-1.2.2.tar.gz
+[2023-05-15 14:07:53] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430676>=10485760
+[2023-05-15 14:07:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: psyki
+[2023-05-15 14:07:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-15 14:07:53] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-05-15 14:07:53] INFO root fetch - processPackages [lumigo-log-shipper]: executing diffoscope
+[2023-05-15 14:07:53] INFO root fetch - processPackages [lumigo-log-shipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_log_shipper-1.0.8-py3-none-any.whl.zip tmp/lumigo_log_shipper-1.0.9-py3-none-any.whl.zip --markdown 20230515/l/lumigo-log-shipper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 14:07:53] INFO root fetch - processPackages [psyki]: New version: [0.3.9] Old Version: [0.3.5]
+[2023-05-15 14:07:53] INFO root fetch - processPackages [crabpy]: Downloading https://files.pythonhosted.org/packages/9d/b1/486729d5131fb64037ab6a890015160b9ee1bad15df57cd1368dc88e76dc/crabpy-1.2.3.tar.gz
+[2023-05-15 14:07:53] INFO root fetch - processPackages [crabpy]: executing diffoscope
+[2023-05-15 14:07:53] INFO root fetch - processPackages [crabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crabpy-1.2.2.tar.gz tmp/crabpy-1.2.3.tar.gz --markdown 20230515/c/crabpy/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-15 14:07:53] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-05-15 14:07:53] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-15 14:07:53] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230515/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-15 14:07:53] INFO root fetch - processPackages [psyki]: executing diffoscope
+[2023-05-15 14:07:53] INFO root fetch - processPackages [psyki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyki-0.3.5.tar.gz tmp/psyki-0.3.9.tar.gz --markdown 20230515/p/psyki/0.3.5-0.3.9/diff.md --exclude *.pyd
+[2023-05-15 14:07:54] INFO root fetch - processPackages [pandasflow]: Start processing: FunPayAPI
+[2023-05-15 14:07:54] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-05-15 14:07:54] INFO root fetch - processPackages [FunPayAPI]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-15 14:07:54] INFO root fetch - processPackages [FunPayAPI]: Downloading https://files.pythonhosted.org/packages/ae/d5/6e5b715c6e28da188a7cc03e96e99e2e5e8d5db8e229eb7676faf44091a9/FunPayAPI-1.0.6.tar.gz
+[2023-05-15 14:07:54] INFO root fetch - processPackages [nonebot-plugin-gscode]: Start processing: cone.fileupload
+[2023-05-15 14:07:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gscode]: success
+[2023-05-15 14:07:54] INFO root fetch - processPackages [cone.fileupload]: New version: [1.0a1] Old Version: [0.7]
+[2023-05-15 14:07:54] INFO root fetch - processPackages [fenjing]: Start processing: security-util-py
+[2023-05-15 14:07:54] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-15 14:07:54] INFO root fetch - processPackages [security-util-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 14:07:54] INFO root fetch - processPackages [FunPayAPI]: Downloading https://files.pythonhosted.org/packages/b7/03/afeab3a95c271fc47cbc97718dafc1a48d014584d402888ded5a6b6fc5e3/FunPayAPI-1.0.7.tar.gz
+[2023-05-15 14:07:54] INFO root fetch - processPackages [lumigo-log-shipper]: Start processing: ramodels
+[2023-05-15 14:07:54] INFO root fetch - main [MainThread]: End processing [lumigo-log-shipper]: success
+[2023-05-15 14:07:54] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-15 14:07:54] INFO root fetch - processPackages [security-util-py]: executing diffoscope
+[2023-05-15 14:07:54] INFO root fetch - processPackages [security-util-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/security-util-py-0.0.3.tar.gz tmp/security-util-py-0.0.4.tar.gz --markdown 20230515/s/security-util-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 14:07:54] INFO root fetch - processPackages [cone.fileupload]: Downloading https://files.pythonhosted.org/packages/98/60/b061303a6fd0d9af8c1066bd361812a4c88dcc40869e66cb4f0bc3bbc994/cone.fileupload-0.7.tar.gz
+[2023-05-15 14:07:54] INFO root fetch - processPackages [FunPayAPI]: executing diffoscope
+[2023-05-15 14:07:54] INFO root fetch - processPackages [FunPayAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FunPayAPI-1.0.6.tar.gz tmp/FunPayAPI-1.0.7.tar.gz --markdown 20230515/F/FunPayAPI/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-15 14:07:54] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-15 14:07:54] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230515/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-15 14:07:55] INFO root fetch - processPackages [cone.fileupload]: Downloading https://files.pythonhosted.org/packages/fe/10/f23472d3c9fd3916d9a9cc2b4e5e48acb098da19795304fd47069900117e/cone.fileupload-1.0a1.tar.gz
+[2023-05-15 14:07:55] INFO root fetch - main [MainThread]: End processing [crabpy]: success
+[2023-05-15 14:07:55] INFO root fetch - processPackages [cone.fileupload]: executing diffoscope
+[2023-05-15 14:07:55] INFO root fetch - processPackages [cone.fileupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cone.fileupload-0.7.tar.gz tmp/cone.fileupload-1.0a1.tar.gz --markdown 20230515/c/cone.fileupload/0.7-1.0a1/diff.md --exclude *.pyd
+[2023-05-15 14:07:55] INFO root fetch - main [MainThread]: End processing [exoorbit]: success
+[2023-05-15 14:07:55] INFO root fetch - main [MainThread]: End processing [psyki]: success
+[2023-05-15 14:07:55] INFO root fetch - main [MainThread]: End processing [security-util-py]: success
+[2023-05-15 14:07:56] INFO root fetch - main [MainThread]: End processing [FunPayAPI]: success
+[2023-05-15 14:07:56] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-15 14:07:56] INFO root fetch - main [MainThread]: End processing [cone.fileupload]: success
+[2023-05-15 14:07:56] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-15 14:07:56] INFO root fetch - main [MainThread]: End processing [ebmdatalab]: success
+[2023-05-15 14:07:59] INFO root fetch - main [MainThread]: End processing [cone.calendar]: success
+[2023-05-15 14:07:59] INFO root fetch - main [MainThread]: Store serial: [18107220]
