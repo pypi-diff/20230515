@@ -1431,3 +1431,45 @@
 [2023-05-15 02:36:06] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230515/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
 [2023-05-15 02:36:08] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-05-15 02:36:08] INFO root fetch - main [MainThread]: Store serial: [18101113]
+[2023-05-15 02:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18101113]
+[2023-05-15 02:41:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-15 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optuna-dashboard
+[2023-05-15 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cookiestream
+[2023-05-15 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-05-15 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accurating
+[2023-05-15 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aphyt
+[2023-05-15 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytracking-cdm
+[2023-05-15 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: countess-minimap2
+[2023-05-15 02:41:18] INFO root fetch - processPackages [cookiestream]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-05-15 02:41:18] WARNING root fetch - processPackages [countess-minimap2]: Skipping, unable to determine old version
+[2023-05-15 02:41:18] INFO root fetch - main [MainThread]: End processing [countess-minimap2] error
+[2023-05-15 02:41:18] WARNING root fetch - processPackages [pytracking-cdm]: Skipping, unable to determine old version
+[2023-05-15 02:41:18] INFO root fetch - processPackages [aphyt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 02:41:18] INFO root fetch - main [MainThread]: End processing [pytracking-cdm] error
+[2023-05-15 02:41:18] INFO root fetch - processPackages [accurating]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-15 02:41:18] INFO root fetch - processPackages [optuna-dashboard]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-15 02:41:18] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-15 02:41:18] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-05-15 02:41:18] INFO root fetch - processPackages [accurating]: Downloading https://files.pythonhosted.org/packages/72/b7/2db7aded7dae5ef03a6d277e89fdb68e99b4f0e95c4b8eb0a2b7deb6b253/accurating-0.4.9.tar.gz
+[2023-05-15 02:41:18] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/c8/ff/86ca1400d507b1df6f24206aa33fdf91d5c92c7d6de5f4f7facf5c4098ff/optuna-dashboard-0.9.1.tar.gz
+[2023-05-15 02:41:18] INFO root fetch - processPackages [aphyt]: Downloading https://files.pythonhosted.org/packages/f6/8c/90f6bc9714328ea5cefd13d255234730fc78d9607b2cfecb807f5eaeb16c/aphyt-0.1.8.tar.gz
+[2023-05-15 02:41:18] INFO root fetch - processPackages [cookiestream]: Downloading https://files.pythonhosted.org/packages/6e/05/2329e914a0fd78b9057c06f219dc2dd3badc6e1f6c2146184b3cca6d378b/cookiestream-0.0.1.7.tar.gz
+[2023-05-15 02:41:18] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-05-15 02:41:19] INFO root fetch - processPackages [accurating]: executing diffoscope
+[2023-05-15 02:41:19] INFO root fetch - processPackages [accurating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accurating-0.4.8.tar.gz tmp/accurating-0.4.9.tar.gz --markdown 20230515/a/accurating/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-15 02:41:19] INFO root fetch - processPackages [cookiestream]: executing diffoscope
+[2023-05-15 02:41:19] INFO root fetch - processPackages [cookiestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookiestream-0.0.1.6.tar.gz tmp/cookiestream-0.0.1.7.tar.gz --markdown 20230515/c/cookiestream/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-05-15 02:41:19] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-15 02:41:19] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230515/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-15 02:41:19] INFO root fetch - processPackages [aphyt]: Downloading https://files.pythonhosted.org/packages/52/e0/eba7abcea7ef64380f75ab1598aae0b88842d837171aebefe5ba313d0bf9/aphyt-0.1.9.tar.gz
+[2023-05-15 02:41:19] INFO root fetch - processPackages [aphyt]: executing diffoscope
+[2023-05-15 02:41:19] INFO root fetch - processPackages [aphyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aphyt-0.1.8.tar.gz tmp/aphyt-0.1.9.tar.gz --markdown 20230515/a/aphyt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 02:41:20] INFO root fetch - main [MainThread]: End processing [accurating]: success
+[2023-05-15 02:41:20] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-15 02:41:20] INFO root fetch - main [MainThread]: End processing [cookiestream]: success
+[2023-05-15 02:41:20] INFO root fetch - main [MainThread]: End processing [aphyt]: success
+[2023-05-15 02:41:20] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/27/61/eedb08021226c3a12afaae3c1609e4745af8d825d04a37adae30d3af1dd4/optuna-dashboard-0.9.2.tar.gz
+[2023-05-15 02:41:20] INFO root fetch - processPackages [optuna-dashboard]: executing diffoscope
+[2023-05-15 02:41:20] INFO root fetch - processPackages [optuna-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-dashboard-0.9.1.tar.gz tmp/optuna-dashboard-0.9.2.tar.gz --markdown 20230515/o/optuna-dashboard/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-15 02:42:12] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
+[2023-05-15 02:42:12] INFO root fetch - main [MainThread]: Store serial: [18101139]
