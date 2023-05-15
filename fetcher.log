@@ -21392,3 +21392,75 @@ EOFError: EOF read where object expected
 [2023-05-15 22:00:08] INFO root fetch - main [MainThread]: End processing [tstoolbox]: success
 [2023-05-15 22:00:08] INFO root fetch - main [MainThread]: End processing [mitzu]: success
 [2023-05-15 22:00:08] INFO root fetch - main [MainThread]: Store serial: [18112734]
+[2023-05-15 22:05:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18112734]
+[2023-05-15 22:05:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-space-toolkit-physics
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simba-ml
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epdx
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecida
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuroboros
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rootbox
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langmuir-trough
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pharindoko.cdk-internal-gateway
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: upgini
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fennel-ai
+[2023-05-15 22:05:18] INFO root fetch - processPackages [simba-ml]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [neuroboros]: New version: [0.1.2] Old Version: [0.1.1a0]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [langmuir-trough]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [rootbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [epdx]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-15 22:05:18] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-15 22:05:18] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230515/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-15 22:05:18] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/fc/04/754dec644596eb4fb0d63f0fdff9aa1169e3191914d4fad3f32f61093ae8/open_space_toolkit_physics-0.7.0-py39-none-any.whl
+[2023-05-15 22:05:18] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/f7/16/4d2281303335f0d5840a935b14ff0001a169415182a2fb231ef67dd1761d/ecida-0.0.9.tar.gz
+[2023-05-15 22:05:18] INFO root fetch - processPackages [rootbox]: Downloading https://files.pythonhosted.org/packages/e4/91/4a414667a3c1982e04a1bc670028035dc1ba2b085afca3b971aefa21924e/rootbox-0.0.8.tar.gz
+[2023-05-15 22:05:18] INFO root fetch - processPackages [simba-ml]: Downloading https://files.pythonhosted.org/packages/00/16/3db1001ab1916c256d29effac9b67e47e5f46697f6c86472f02344819064/simba_ml-1.0.0rc3.tar.gz
+[2023-05-15 22:05:18] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-05-15 22:05:18] INFO root fetch - processPackages [neuroboros]: Downloading https://files.pythonhosted.org/packages/83/c5/62b65c353b7ece2e4b5cb1d060712e2dfb3fb22050906926657bc11076a8/neuroboros-0.1.2.tar.gz
+[2023-05-15 22:05:18] INFO root fetch - processPackages [epdx]: Downloading https://files.pythonhosted.org/packages/f0/5c/f871b16ef8f927ce448838891d6e34478ea11023d40c37877f9edde3dc0d/epdx-0.2.4-cp38-abi3-win_amd64.whl
+[2023-05-15 22:05:18] INFO root fetch - processPackages [langmuir-trough]: Downloading https://files.pythonhosted.org/packages/c0/3e/94d710fc09a1f0c6f2fb61fe2fe61246118cc47d498da0ab3af18fecca57/langmuir_trough-0.8.1.tar.gz
+[2023-05-15 22:05:19] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230515/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [simba-ml]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [simba-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simba_ml-1.0.0rc2.tar.gz tmp/simba_ml-1.0.0rc3.tar.gz --markdown 20230515/s/simba-ml/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230515/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [neuroboros]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [neuroboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroboros-0.1.1a0.tar.gz tmp/neuroboros-0.1.2.tar.gz --markdown 20230515/n/neuroboros/0.1.1a0-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [langmuir-trough]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [langmuir-trough]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langmuir_trough-0.8.0.tar.gz tmp/langmuir_trough-0.8.1.tar.gz --markdown 20230515/l/langmuir-trough/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/f3/4f/01110499d6cc5ecce4aefb22ac97733868d2ef62b659c1a26bca04343927/open_space_toolkit_physics-0.8.0-py39-none-any.whl
+[2023-05-15 22:05:19] INFO root fetch - processPackages [epdx]: Downloading https://files.pythonhosted.org/packages/dc/7e/ed08573c45afbc26a700dde621411e3cd7487623e7f71fea9d04483d189a/epdx-0.2.5-cp38-abi3-win_amd64.whl
+[2023-05-15 22:05:19] INFO root fetch - processPackages [rootbox]: Downloading https://files.pythonhosted.org/packages/28/6b/93e91460f93ae6ca8574487a0dfc47cdca5bd4b56502104dcb0b4c631cc6/rootbox-0.0.9.tar.gz
+[2023-05-15 22:05:19] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-05-15 22:05:19] INFO root fetch - processPackages [rootbox]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [rootbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rootbox-0.0.8.tar.gz tmp/rootbox-0.0.9.tar.gz --markdown 20230515/r/rootbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [epdx]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [epdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epdx-0.2.4-cp38-abi3-win_amd64.whl.zip tmp/epdx-0.2.5-cp38-abi3-win_amd64.whl.zip --markdown 20230515/e/epdx/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230515/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-15 22:05:19] INFO root fetch - processPackages [open-space-toolkit-physics]: executing diffoscope
+[2023-05-15 22:05:19] INFO root fetch - processPackages [open-space-toolkit-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_physics-0.7.0-py39-none-any.whl.zip tmp/open_space_toolkit_physics-0.8.0-py39-none-any.whl.zip --markdown 20230515/o/open-space-toolkit-physics/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-15 22:05:20] INFO root fetch - processPackages [ecida]: Start processing: metaapi-cloud-sdk
+[2023-05-15 22:05:20] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-15 22:05:20] INFO root fetch - processPackages [metaapi-cloud-sdk]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-05-15 22:05:20] INFO root fetch - processPackages [metaapi-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/33/8c/7322724753bc179c29f91be8b4964d5f039c5ca35562b2a8df3301f9a5b0/metaapi_cloud_sdk-9.0.0.tar.gz
+[2023-05-15 22:05:20] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-05-15 22:05:20] INFO root fetch - processPackages [metaapi-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/fd/e4/b2cb22b3a9fdf7221355894a097d71589eb7a4278d087eb9c6cf2102160a/metaapi_cloud_sdk-9.1.0.tar.gz
+[2023-05-15 22:05:20] INFO root fetch - main [MainThread]: End processing [epdx]: success
+[2023-05-15 22:05:21] INFO root fetch - main [MainThread]: End processing [rootbox]: success
+[2023-05-15 22:05:21] INFO root fetch - processPackages [metaapi-cloud-sdk]: executing diffoscope
+[2023-05-15 22:05:21] INFO root fetch - processPackages [metaapi-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaapi_cloud_sdk-9.0.0.tar.gz tmp/metaapi_cloud_sdk-9.1.0.tar.gz --markdown 20230515/m/metaapi-cloud-sdk/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-05-15 22:05:21] INFO root fetch - main [MainThread]: End processing [langmuir-trough]: success
+[2023-05-15 22:05:21] INFO root fetch - main [MainThread]: End processing [simba-ml]: success
+[2023-05-15 22:05:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-15 22:05:21] INFO root fetch - main [MainThread]: End processing [neuroboros]: success
+[2023-05-15 22:05:21] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-05-15 22:05:24] INFO root fetch - main [MainThread]: End processing [metaapi-cloud-sdk]: success
+[2023-05-15 22:05:44] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
+[2023-05-15 22:05:44] INFO root fetch - main [MainThread]: Store serial: [18112772]
