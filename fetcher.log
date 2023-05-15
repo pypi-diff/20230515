@@ -9822,3 +9822,155 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 12:17:07] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-15 12:17:23] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-15 12:17:23] INFO root fetch - main [MainThread]: Store serial: [18105753]
+[2023-05-15 12:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105753]
+[2023-05-15 12:22:43] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-ape
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravity-auto-exit
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyViCare
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaiaFramework
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TestingBm-123
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krisi
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-e
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: somnium
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pinatapy-vourhey
+[2023-05-15 12:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crawler-commons
+[2023-05-15 12:22:43] INFO root fetch - processPackages [TestingBm-123]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [iam-ape]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [pinatapy-vourhey]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [somnium]: New version: [9.6.9] Old Version: [7.9.7]
+[2023-05-15 12:22:43] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-e]: Skipping, unable to determine old version
+[2023-05-15 12:22:43] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-e]: Start processing: qontract-reconcile
+[2023-05-15 12:22:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-e] error
+[2023-05-15 12:22:43] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [krisi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [PyViCare]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-15 12:22:43] INFO root fetch - processPackages [TestingBm-123]: Downloading https://files.pythonhosted.org/packages/2f/f6/293a7af2818b44606aed12f2d9919ccee7e8d24e2d96015e231256a00a44/TestingBm_123-0.0.1.tar.gz
+[2023-05-15 12:22:43] INFO root fetch - processPackages [somnium]: Downloading https://files.pythonhosted.org/packages/8f/da/d29cf9a4b1d26c4c0eb84561b7a64b81e6d24811d96d44c1a37ce10306eb/somnium-7.9.7.tar.gz
+[2023-05-15 12:22:43] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/7d/31/d623b9c56c81d19a4de121c99750fbb5e7c9904c9f5bcee4b87e39922ece/gaiaFramework-1.0.8.tar.gz
+[2023-05-15 12:22:43] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-05-15 12:22:43] INFO root fetch - processPackages [iam-ape]: Downloading https://files.pythonhosted.org/packages/92/82/fb9f562d1b4b4f7f64764eef0ca9b46abf3109da6c5cd54dc7f87ae5e129/iam_ape-1.1.1.tar.gz
+[2023-05-15 12:22:43] INFO root fetch - processPackages [pinatapy-vourhey]: Downloading https://files.pythonhosted.org/packages/1d/e7/9db70f48d841592a767a9c7d56780d7999e59e52485b9e8ec8d4160a6254/pinatapy-vourhey-0.1.8.tar.gz
+[2023-05-15 12:22:43] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/f3/88/a0d68d1470e611bc35fe18c6d1be83df3ceabe2fa7ed41a00793025e8374/krisi-1.0.0.tar.gz
+[2023-05-15 12:22:43] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/e1/6c/653d60798bf5fa6005a3108521fa6115627699e04dd17a68347e46562a07/gravity_auto_exit-1.8.2-py3-none-any.whl
+[2023-05-15 12:22:43] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-15 12:22:43] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230515/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-15 12:22:43] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-15 12:22:43] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230515/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] INFO root fetch - processPackages [TestingBm-123]: Downloading https://files.pythonhosted.org/packages/e6/f4/8357867594a676a6366e6eaa263bf83f590cd1323caa49a94be0bdda7a11/TestingBm_123-0.0.2.tar.gz
+[2023-05-15 12:22:44] INFO root fetch - processPackages [PyViCare]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [PyViCare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyViCare-2.9.0.tar.gz tmp/PyViCare-2.9.1.tar.gz --markdown 20230515/P/PyViCare/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.1-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.2-py3-none-any.whl.zip --markdown 20230515/g/gravity-auto-exit/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] ERROR root fetch - processPackages [somnium]: Unable to fetch info: No such project/version 'somnium' 9.6.9
+[2023-05-15 12:22:44] INFO root fetch - processPackages [somnium]: Start processing: lzy-booting
+[2023-05-15 12:22:44] INFO root fetch - main [MainThread]: End processing [somnium] error
+[2023-05-15 12:22:44] INFO root fetch - processPackages [pinatapy-vourhey]: Downloading https://files.pythonhosted.org/packages/f0/ef/6fe4c52a77cf5244790124519b12d4e84ec9305f75070ed79c28ac83a087/pinatapy-vourhey-0.1.9.tar.gz
+[2023-05-15 12:22:44] INFO root fetch - processPackages [TestingBm-123]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [TestingBm-123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TestingBm_123-0.0.1.tar.gz tmp/TestingBm_123-0.0.2.tar.gz --markdown 20230515/T/TestingBm-123/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] INFO root fetch - processPackages [lzy-booting]: New version: [0.2] Old Version: [0.1]
+[2023-05-15 12:22:44] INFO root fetch - processPackages [iam-ape]: Downloading https://files.pythonhosted.org/packages/38/35/93e9cd89202e4df2036f1fdba8efb5e9f7be41e13e0148bd658832fc54b9/iam_ape-1.1.2.tar.gz
+[2023-05-15 12:22:44] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/8a/6a/7e1b5292c38185a28ac09beb052442740b1217ef8bbc97a594fc4cbb0bb3/gaiaFramework-1.0.9.tar.gz
+[2023-05-15 12:22:44] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/4e/0d/afca5a1d73f8ae00a8d1b40e0f3b40050b84b3d21372d9ca38c0ea766e3a/krisi-1.0.1.tar.gz
+[2023-05-15 12:22:44] INFO root fetch - processPackages [pinatapy-vourhey]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [pinatapy-vourhey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinatapy-vourhey-0.1.8.tar.gz tmp/pinatapy-vourhey-0.1.9.tar.gz --markdown 20230515/p/pinatapy-vourhey/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230515/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] INFO root fetch - processPackages [iam-ape]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [iam-ape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_ape-1.1.1.tar.gz tmp/iam_ape-1.1.2.tar.gz --markdown 20230515/i/iam-ape/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] INFO root fetch - processPackages [krisi]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [krisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krisi-1.0.0.tar.gz tmp/krisi-1.0.1.tar.gz --markdown 20230515/k/krisi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-15 12:22:44] INFO root fetch - processPackages [lzy-booting]: Downloading https://files.pythonhosted.org/packages/5c/b7/89a953f9547f98bcacf9ad5849150debd5b2a328a9f4eed64c01159c2ce9/lzy-booting-0.1.tar.gz
+[2023-05-15 12:22:44] INFO root fetch - processPackages [lzy-booting]: Downloading https://files.pythonhosted.org/packages/ad/54/9c71d49f5db015bfb84b5ceaa5be742fd2039327aff59e58a6b3e350e091/lzy-booting-0.2.tar.gz
+[2023-05-15 12:22:44] INFO root fetch - processPackages [lzy-booting]: executing diffoscope
+[2023-05-15 12:22:44] INFO root fetch - processPackages [lzy-booting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzy-booting-0.1.tar.gz tmp/lzy-booting-0.2.tar.gz --markdown 20230515/l/lzy-booting/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-15 12:22:45] INFO root fetch - processPackages [crawler-commons]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-15 12:22:45] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-15 12:22:45] INFO root fetch - processPackages [gravity-auto-exit]: Start processing: dbxflow
+[2023-05-15 12:22:45] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-05-15 12:22:45] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.9.25.738539] Old Version: [20230515.8.30.947345]
+[2023-05-15 12:22:45] WARNING root fetch - processPackages [dbxflow]: Skipping, unable to determine old version
+[2023-05-15 12:22:45] INFO root fetch - processPackages [dbxflow]: Start processing: seven-api-sdk
+[2023-05-15 12:22:45] INFO root fetch - main [MainThread]: End processing [dbxflow] error
+[2023-05-15 12:22:45] INFO root fetch - processPackages [seven-api-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 12:22:45] INFO root fetch - processPackages [PyViCare]: Start processing: zpywallet
+[2023-05-15 12:22:45] INFO root fetch - main [MainThread]: End processing [PyViCare]: success
+[2023-05-15 12:22:45] INFO root fetch - processPackages [pinatapy-vourhey]: Start processing: pandasflow
+[2023-05-15 12:22:45] INFO root fetch - main [MainThread]: End processing [pinatapy-vourhey]: success
+[2023-05-15 12:22:45] INFO root fetch - processPackages [seven-api-sdk]: executing diffoscope
+[2023-05-15 12:22:45] INFO root fetch - processPackages [seven-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_api_sdk-0.1.7.tar.gz tmp/seven_api_sdk-0.1.8.tar.gz --markdown 20230515/s/seven-api-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-15 12:22:45] INFO root fetch - processPackages [TestingBm-123]: Start processing: orwynn
+[2023-05-15 12:22:45] INFO root fetch - main [MainThread]: End processing [TestingBm-123]: success
+[2023-05-15 12:22:45] INFO root fetch - processPackages [pandasflow]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-15 12:22:46] INFO root fetch - processPackages [zpywallet]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-15 12:22:46] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/bf/ef/01dbf730e79959b14a661e61d8251b68e10c12a2362b5ea487bf586f1e6b/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.8.30.947345.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-05-15 12:22:46] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.5.0.tar.gz tmp/pandasflow-0.5.1.tar.gz --markdown 20230515/p/pandasflow/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-15 12:22:46] INFO root fetch - processPackages [lzy-booting]: Start processing: inhandtest
+[2023-05-15 12:22:46] INFO root fetch - main [MainThread]: End processing [lzy-booting]: success
+[2023-05-15 12:22:46] INFO root fetch - processPackages [orwynn]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-05-15 12:22:46] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430959>=10485760
+[2023-05-15 12:22:46] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: drive
+[2023-05-15 12:22:46] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-15 12:22:46] INFO root fetch - processPackages [zpywallet]: Downloading https://files.pythonhosted.org/packages/ed/f3/a2cd1eedc3e18517ff67ac18bc54b3a0d4dbf296100ea31b8cfacfd04c29/zpywallet-0.3.1.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [inhandtest]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-15 12:22:46] INFO root fetch - processPackages [drive]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-15 12:22:46] INFO root fetch - processPackages [orwynn]: Downloading https://files.pythonhosted.org/packages/e0/88/5649d01e5e602d9a7a69949d96ccc8cb17b0e270f77b64ef97141f750a0b/orwynn-1.0.0b2.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [zpywallet]: executing diffoscope
+[2023-05-15 12:22:46] INFO root fetch - processPackages [zpywallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpywallet-0.3.0.tar.gz tmp/zpywallet-0.3.1.tar.gz --markdown 20230515/z/zpywallet/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 12:22:46] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/c5/ba/19571d78f7d5894576d7fe37845f7bdc609797de12890745366eb388b6b6/drive-0.4.0.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/c3/e3/7a8a2a5ad9d96242bdb6c10d139ff3be2a324f1fcb727aee36e2224ccaac/inhandtest-0.0.44.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [orwynn]: Downloading https://files.pythonhosted.org/packages/99/8b/da89815b01e75f9b778f8a31fcdfe45741ea321ba07a122172855f1071ee/orwynn-1.0.0b3.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/c7/06/df36b32899aa30a15455f910753d39e1a0f904e83f8294c548e00457b9fc/drive-0.4.1.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [orwynn]: executing diffoscope
+[2023-05-15 12:22:46] INFO root fetch - processPackages [orwynn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orwynn-1.0.0b2.tar.gz tmp/orwynn-1.0.0b3.tar.gz --markdown 20230515/o/orwynn/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-05-15 12:22:46] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/6b/f4/4b80ae750e821a5875864bb351369d32ea675a1bbba988d068341586099e/inhandtest-0.0.45.tar.gz
+[2023-05-15 12:22:46] INFO root fetch - processPackages [drive]: executing diffoscope
+[2023-05-15 12:22:46] INFO root fetch - processPackages [drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive-0.4.0.tar.gz tmp/drive-0.4.1.tar.gz --markdown 20230515/d/drive/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-15 12:22:46] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-05-15 12:22:46] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.44.tar.gz tmp/inhandtest-0.0.45.tar.gz --markdown 20230515/i/inhandtest/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-15 12:22:47] INFO root fetch - processPackages [seven-api-sdk]: Start processing: vMedNLP
+[2023-05-15 12:22:47] INFO root fetch - main [MainThread]: End processing [seven-api-sdk]: success
+[2023-05-15 12:22:47] INFO root fetch - processPackages [vMedNLP]: New version: [3.0] Old Version: [2.0.1]
+[2023-05-15 12:22:47] INFO root fetch - processPackages [gaiaFramework]: Start processing: ccxt
+[2023-05-15 12:22:47] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-05-15 12:22:47] INFO root fetch - processPackages [vMedNLP]: executing diffoscope
+[2023-05-15 12:22:47] INFO root fetch - processPackages [vMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vMedNLP-2.0.1-py310-none-any.whl.zip tmp/vMedNLP-3.0-py38-none-any.whl.zip --markdown 20230515/v/vMedNLP/2.0.1-3.0/diff.md --exclude *.pyd
+[2023-05-15 12:22:47] INFO root fetch - processPackages [ccxt]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-15 12:22:47] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-15 12:22:47] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.98.tar.gz tmp/ccxt-3.0.99.tar.gz --markdown 20230515/c/ccxt/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-15 12:22:47] INFO root fetch - processPackages [iam-ape]: Start processing: python-can
+[2023-05-15 12:22:47] INFO root fetch - main [MainThread]: End processing [iam-ape]: success
+[2023-05-15 12:22:47] INFO root fetch - processPackages [krisi]: Start processing: PyFibreBundle
+[2023-05-15 12:22:47] INFO root fetch - main [MainThread]: End processing [krisi]: success
+[2023-05-15 12:22:47] INFO root fetch - processPackages [python-can]: New version: [4.2.1] Old Version: [4.2.0rc0]
+[2023-05-15 12:22:47] INFO root fetch - processPackages [PyFibreBundle]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-15 12:22:47] INFO root fetch - processPackages [pandasflow]: Start processing: taxi-zebra
+[2023-05-15 12:22:47] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-05-15 12:22:47] INFO root fetch - processPackages [taxi-zebra]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-05-15 12:22:48] INFO root fetch - processPackages [python-can]: Downloading https://files.pythonhosted.org/packages/f7/de/2d4f0a2384b4664ff358f1ac4b0326e783ba5d6228759002cf3de93e5e86/python-can-4.2.0rc0.tar.gz
+[2023-05-15 12:22:48] INFO root fetch - processPackages [PyFibreBundle]: Downloading https://files.pythonhosted.org/packages/99/c8/163a6a4245354f14dba06005f1a90a3eaa753b1c0c3c86bac811bb337e48/PyFibreBundle-1.2.0.tar.gz
+[2023-05-15 12:22:48] WARNING root fetch - processPackages [PyFibreBundle]: Skipping package: exceeds size limit 47135309>=10485760
+[2023-05-15 12:22:48] INFO root fetch - processPackages [PyFibreBundle]: Start processing: boogishell4
+[2023-05-15 12:22:48] INFO root fetch - main [MainThread]: End processing [PyFibreBundle] error
+[2023-05-15 12:22:48] INFO root fetch - main [MainThread]: End processing [zpywallet]: success
+[2023-05-15 12:22:48] INFO root fetch - main [MainThread]: End processing [drive]: success
+[2023-05-15 12:22:48] INFO root fetch - processPackages [taxi-zebra]: Downloading https://files.pythonhosted.org/packages/e5/62/2063add6786b8090a6cdafd07c3c9f647cd79fcfb5b7a5eb6c38b9e79218/taxi_zebra-3.0.1.tar.gz
+[2023-05-15 12:22:48] WARNING root fetch - processPackages [boogishell4]: Skipping, unable to determine old version
+[2023-05-15 12:22:48] INFO root fetch - main [MainThread]: End processing [boogishell4] error
+[2023-05-15 12:22:48] INFO root fetch - processPackages [python-can]: Downloading https://files.pythonhosted.org/packages/9c/c6/ac021966e45173f2ce09d8c2638d2993231cbab015b454bcfce61150a0e5/python-can-4.2.1.tar.gz
+[2023-05-15 12:22:48] INFO root fetch - processPackages [python-can]: executing diffoscope
+[2023-05-15 12:22:48] INFO root fetch - processPackages [python-can]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-can-4.2.0rc0.tar.gz tmp/python-can-4.2.1.tar.gz --markdown 20230515/p/python-can/4.2.0rc0-4.2.1/diff.md --exclude *.pyd
+[2023-05-15 12:22:48] INFO root fetch - processPackages [taxi-zebra]: Downloading https://files.pythonhosted.org/packages/d7/8e/fd435e9398a2a27dae411304547d16c1424b8b0f7eaeda6730292501cfb7/taxi_zebra-3.1.0.tar.gz
+[2023-05-15 12:22:48] INFO root fetch - main [MainThread]: End processing [vMedNLP]: success
+[2023-05-15 12:22:48] INFO root fetch - processPackages [taxi-zebra]: executing diffoscope
+[2023-05-15 12:22:48] INFO root fetch - processPackages [taxi-zebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxi_zebra-3.0.1.tar.gz tmp/taxi_zebra-3.1.0.tar.gz --markdown 20230515/t/taxi-zebra/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-05-15 12:22:49] INFO root fetch - main [MainThread]: End processing [taxi-zebra]: success
+[2023-05-15 12:22:50] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-05-15 12:22:50] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-15 12:22:51] INFO root fetch - main [MainThread]: End processing [python-can]: success
+[2023-05-15 12:22:51] INFO root fetch - main [MainThread]: End processing [orwynn]: success
+[2023-05-15 12:22:57] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-15 12:22:57] INFO root fetch - main [MainThread]: Store serial: [18105835]
