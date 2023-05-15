@@ -9358,3 +9358,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-15 11:48:50] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
 [2023-05-15 11:48:50] INFO root fetch - main [MainThread]: End processing [climetlab]: success
 [2023-05-15 11:48:50] INFO root fetch - main [MainThread]: Store serial: [18105433]
+[2023-05-15 11:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18105433]
+[2023-05-15 11:54:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-tzcld
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gtki-module-orup-errors
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcvContext
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omniplate
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boogipoper
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mtANN
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: segments-ai
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TestingBm-123
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vrplib
+[2023-05-15 11:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdascorer
+[2023-05-15 11:54:00] INFO root fetch - processPackages [djangoldp-tzcld]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-15 11:54:00] WARNING root fetch - processPackages [boogipoper]: Skipping, unable to determine old version
+[2023-05-15 11:54:00] INFO root fetch - processPackages [boogipoper]: Start processing: WX-Push-Services
+[2023-05-15 11:54:00] INFO root fetch - main [MainThread]: End processing [boogipoper] error
+[2023-05-15 11:54:00] INFO root fetch - processPackages [bcvContext]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.36.3] Old Version: [1.36.2]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [mtANN]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-15 11:54:00] WARNING root fetch - processPackages [TestingBm-123]: Skipping, unable to determine old version
+[2023-05-15 11:54:00] INFO root fetch - processPackages [cdascorer]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [TestingBm-123]: Start processing: spacy
+[2023-05-15 11:54:00] INFO root fetch - main [MainThread]: End processing [TestingBm-123] error
+[2023-05-15 11:54:00] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [omniplate]: New version: [0.9.84] Old Version: [0.9.82]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [segments-ai]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [vrplib]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [mtANN]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [mtANN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtANN-0.1.0.tar.gz tmp/mtANN-0.1.1.tar.gz --markdown 20230515/m/mtANN/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/b8/2c/118d2a1f20c3f11176ce0564884e734e457bad58fcb7eaf44a488c96cd63/bcvcontext-0.0.5.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [WX-Push-Services]: Downloading https://files.pythonhosted.org/packages/f7/3c/6a80e1e4ce7b837e8887cddf8eb79acccfc3b3fb3044eae027ec8e055fc2/WX_Push_Services-1.0.7.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [djangoldp-tzcld]: Downloading https://files.pythonhosted.org/packages/c6/1d/afaf83d4c28e06fd38cae0f3bf0a0f77d7e9ab89a668136c3a8bf7428fd6/djangoldp_tzcld-1.0.7.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [omniplate]: Downloading https://files.pythonhosted.org/packages/98/f6/21c275bc69ed9ce270e93cb3d14732b99a13348702bb46206a68a068ca7e/omniplate-0.9.82.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [vrplib]: Downloading https://files.pythonhosted.org/packages/83/03/90b9eb264c4f7562651b15af9c893b8fe9a2bd5250182e8da442f10cf520/vrplib-1.0.1.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [segments-ai]: Downloading https://files.pythonhosted.org/packages/1f/17/b48d29b7f27b9b4a7c09f879c7424a7edb55128ccca2ba4164ec20ce7b33/segments-ai-1.0.8.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/d4/e6/c55f388aa41f622736eca1075990713063c15f3fa72f1ea2bab1a2e5ed86/gtki_module_orup_errors-1.36.3-py3-none-any.whl
+[2023-05-15 11:54:00] INFO root fetch - processPackages [djangoldp-tzcld]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [djangoldp-tzcld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_tzcld-1.0.6.tar.gz tmp/djangoldp_tzcld-1.0.7.tar.gz --markdown 20230515/d/djangoldp-tzcld/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/a5/3c/6d6d2ac262f7091496d2aa41029bf04c17ace285af460a8bc48ff3eed9dc/bcvcontext-0.1.0.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [cdascorer]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [WX-Push-Services]: Downloading https://files.pythonhosted.org/packages/6c/d4/ea70b07affacdc43602691958628bb719031543cc0efb0d0beefff2719ca/WX_Push_Services-1.0.8.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [cdascorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdascorer-0.0.0.dev8.tar.gz tmp/cdascorer-0.0.0.dev9.tar.gz --markdown 20230515/c/cdascorer/0.0.0.dev8-0.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.36.2-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.36.3-py3-none-any.whl.zip --markdown 20230515/g/gtki-module-orup-errors/1.36.2-1.36.3/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [omniplate]: Downloading https://files.pythonhosted.org/packages/72/be/d25a0f93ac7e151aba39c98c22ba4f6e8f279e6c0bb39643b76c8e8da78b/omniplate-0.9.84.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [vrplib]: Downloading https://files.pythonhosted.org/packages/9e/da/3f9309b9cb0cb8be8e03654e6304fdd09cb5520bb1c7258eca686c7da25c/vrplib-1.1.0.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [bcvContext]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [bcvContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcvcontext-0.0.5.tar.gz tmp/bcvcontext-0.1.0.tar.gz --markdown 20230515/b/bcvContext/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [spacy]: New version: [4.0.0.dev0] Old Version: [3.6.0.dev0]
+[2023-05-15 11:54:00] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.7.tar.gz tmp/WX_Push_Services-1.0.8.tar.gz --markdown 20230515/W/WX-Push-Services/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [vrplib]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [vrplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrplib-1.0.1.tar.gz tmp/vrplib-1.1.0.tar.gz --markdown 20230515/v/vrplib/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [segments-ai]: Downloading https://files.pythonhosted.org/packages/9b/04/02b1397e920bd399a4c8afa356511604a82857ae0d3baf6e68fc73516192/segments-ai-1.0.9.tar.gz
+[2023-05-15 11:54:00] INFO root fetch - processPackages [omniplate]: executing diffoscope
+[2023-05-15 11:54:00] INFO root fetch - processPackages [omniplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniplate-0.9.82.tar.gz tmp/omniplate-0.9.84.tar.gz --markdown 20230515/o/omniplate/0.9.82-0.9.84/diff.md --exclude *.pyd
+[2023-05-15 11:54:00] INFO root fetch - processPackages [spacy]: Downloading https://files.pythonhosted.org/packages/d9/0a/e068ad8d2465a6b194cc73ba44b63b83f8349c6aa9ce624e05d8975f0e83/spacy-3.6.0.dev0.tar.gz
+[2023-05-15 11:54:01] INFO root fetch - processPackages [segments-ai]: executing diffoscope
+[2023-05-15 11:54:01] INFO root fetch - processPackages [segments-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segments-ai-1.0.8.tar.gz tmp/segments-ai-1.0.9.tar.gz --markdown 20230515/s/segments-ai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 11:54:01] INFO root fetch - processPackages [spacy]: Downloading https://files.pythonhosted.org/packages/2e/c5/212a64c021970e13c86b980311f16e60b688c16ab02f7a93b2c9c4e56bab/spacy-4.0.0.dev0.tar.gz
+[2023-05-15 11:54:01] INFO root fetch - processPackages [spacy]: executing diffoscope
+[2023-05-15 11:54:01] INFO root fetch - processPackages [spacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-3.6.0.dev0.tar.gz tmp/spacy-4.0.0.dev0.tar.gz --markdown 20230515/s/spacy/3.6.0.dev0-4.0.0.dev0/diff.md --exclude *.pyd
+[2023-05-15 11:54:01] INFO root fetch - processPackages [mtANN]: Start processing: mumuziyyds
+[2023-05-15 11:54:01] INFO root fetch - main [MainThread]: End processing [mtANN]: success
+[2023-05-15 11:54:01] WARNING root fetch - processPackages [mumuziyyds]: Skipping, unable to determine old version
+[2023-05-15 11:54:01] INFO root fetch - processPackages [mumuziyyds]: Start processing: pytheia
+[2023-05-15 11:54:01] INFO root fetch - main [MainThread]: End processing [mumuziyyds] error
+[2023-05-15 11:54:01] INFO root fetch - processPackages [pytheia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 11:54:01] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/db/cb/0be1f2ecd21e8ed7f9f3f3818b3f882fcd1f904b8e53b78b8665bbccf06c/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-15 11:54:02] INFO root fetch - main [MainThread]: End processing [cdascorer]: success
+[2023-05-15 11:54:02] INFO root fetch - main [MainThread]: End processing [bcvContext]: success
+[2023-05-15 11:54:02] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-15 11:54:02] INFO root fetch - main [MainThread]: End processing [djangoldp-tzcld]: success
+[2023-05-15 11:54:02] INFO root fetch - main [MainThread]: End processing [vrplib]: success
+[2023-05-15 11:54:02] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-15 11:54:02] INFO root fetch - main [MainThread]: End processing [segments-ai]: success
+[2023-05-15 11:54:03] INFO root fetch - main [MainThread]: End processing [omniplate]: success
+[2023-05-15 11:54:04] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/f4/1f/4929381cf46e92fdccf72ceab1b4a6858800ceff635f10e85be29b2a662e/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-15 11:54:06] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2023-05-15 11:54:06] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230515/p/pytheia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 11:54:15] INFO root fetch - main [MainThread]: End processing [spacy]: success
+[2023-05-15 11:54:51] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2023-05-15 11:54:51] INFO root fetch - main [MainThread]: Store serial: [18105500]
