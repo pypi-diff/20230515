@@ -5272,3 +5272,42 @@
 [2023-05-15 07:32:00] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-05-15 07:32:01] INFO root fetch - main [MainThread]: End processing [trojanzoo]: success
 [2023-05-15 07:32:01] INFO root fetch - main [MainThread]: Store serial: [18103329]
+[2023-05-15 07:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18103329]
+[2023-05-15 07:37:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-15 07:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipsqlipkg
+[2023-05-15 07:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinycta
+[2023-05-15 07:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noaa-coops
+[2023-05-15 07:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waveformtools
+[2023-05-15 07:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cduv
+[2023-05-15 07:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quasinet
+[2023-05-15 07:37:11] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-15 07:37:11] WARNING root fetch - processPackages [waveformtools]: Skipping, unable to determine old version
+[2023-05-15 07:37:11] INFO root fetch - main [MainThread]: End processing [waveformtools] error
+[2023-05-15 07:37:11] INFO root fetch - processPackages [pipsqlipkg]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-15 07:37:11] INFO root fetch - processPackages [cduv]: New version: [0.2] Old Version: [0.1]
+[2023-05-15 07:37:11] INFO root fetch - processPackages [tinycta]: New version: [0.3.1] Old Version: [0.2.8]
+[2023-05-15 07:37:11] INFO root fetch - processPackages [noaa-coops]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-15 07:37:11] INFO root fetch - processPackages [pipsqlipkg]: Downloading https://files.pythonhosted.org/packages/80/b9/4b2882a0da7efa48202b2253792237112ba343cde5e1cd30d7527f29f915/pipsqlipkg-1.0.0.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [tinycta]: Downloading https://files.pythonhosted.org/packages/af/f9/bf58fd67168e55b0de030bd78d7baa23b30977ec1173a621e09b8b2d01b2/tinycta-0.2.8.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-05-15 07:37:11] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-05-15 07:37:11] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-05-15 07:37:11] INFO root fetch - processPackages [cduv]: Downloading https://files.pythonhosted.org/packages/ad/c4/561e345501c79e4da14ef2c9c965fad4bff147698b20a62c4fb6cff0956d/cduv-0.1.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [noaa-coops]: Downloading https://files.pythonhosted.org/packages/79/98/9050482cf57a15da9a07598f5ed16ecbff6a46069b0be181e6d3f4f89af5/noaa_coops-0.3.1.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [cduv]: Downloading https://files.pythonhosted.org/packages/27/74/5ba8a990fd5b511224bc5fc8c3de62d5a8d6415c46329d03b35b20107a59/cduv-0.2.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [pipsqlipkg]: Downloading https://files.pythonhosted.org/packages/96/91/7eb7fdba5dcad971598070f2e48ca2d6d0c4c60a1c3273a9ad3693c0264b/pipsqlipkg-1.1.0.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [tinycta]: Downloading https://files.pythonhosted.org/packages/53/22/d7bedd6e5f9953687f246647119454a871df8c657810bc4e1414e37aaaef/tinycta-0.3.1.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [tinycta]: executing diffoscope
+[2023-05-15 07:37:11] INFO root fetch - processPackages [tinycta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinycta-0.2.8.tar.gz tmp/tinycta-0.3.1.tar.gz --markdown 20230515/t/tinycta/0.2.8-0.3.1/diff.md --exclude *.pyd
+[2023-05-15 07:37:11] INFO root fetch - processPackages [pipsqlipkg]: executing diffoscope
+[2023-05-15 07:37:11] INFO root fetch - processPackages [pipsqlipkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipsqlipkg-1.0.0.tar.gz tmp/pipsqlipkg-1.1.0.tar.gz --markdown 20230515/p/pipsqlipkg/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-15 07:37:11] INFO root fetch - processPackages [noaa-coops]: Downloading https://files.pythonhosted.org/packages/6b/2e/aa7c7e59b31f8c5da533e9c7bf276c0601c491b50475f53fec7105c080fc/noaa_coops-0.3.2.tar.gz
+[2023-05-15 07:37:11] INFO root fetch - processPackages [cduv]: executing diffoscope
+[2023-05-15 07:37:11] INFO root fetch - processPackages [cduv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cduv-0.1.tar.gz tmp/cduv-0.2.tar.gz --markdown 20230515/c/cduv/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-15 07:37:11] INFO root fetch - processPackages [noaa-coops]: executing diffoscope
+[2023-05-15 07:37:11] INFO root fetch - processPackages [noaa-coops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noaa_coops-0.3.1.tar.gz tmp/noaa_coops-0.3.2.tar.gz --markdown 20230515/n/noaa-coops/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-15 07:37:12] INFO root fetch - main [MainThread]: End processing [pipsqlipkg]: success
+[2023-05-15 07:37:12] INFO root fetch - main [MainThread]: End processing [tinycta]: success
+[2023-05-15 07:37:12] INFO root fetch - main [MainThread]: End processing [noaa-coops]: success
+[2023-05-15 07:37:12] INFO root fetch - main [MainThread]: End processing [cduv]: success
+[2023-05-15 07:37:12] INFO root fetch - main [MainThread]: Store serial: [18103349]
