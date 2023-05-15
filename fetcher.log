@@ -3018,3 +3018,91 @@
 [2023-05-15 04:47:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cloudhsm]: success
 [2023-05-15 04:48:04] INFO root fetch - main [MainThread]: End processing [hapdoc]: success
 [2023-05-15 04:48:04] INFO root fetch - main [MainThread]: Store serial: [18102118]
+[2023-05-15 04:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102118]
+[2023-05-15 04:53:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cme
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-cmq
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-cms
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-common
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-cpdp
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvosscript
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: markji-wordcard-assistant
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hapdoc
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decorrelation
+[2023-05-15 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyapns-client3
+[2023-05-15 04:53:13] INFO root fetch - processPackages [hapdoc]: New version: [1.9.9] Old Version: [1.9.6]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [hapdoc]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [hapdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapdoc-1.9.6.tar.gz tmp/hapdoc-1.9.9.tar.gz --markdown 20230515/h/hapdoc/1.9.6-1.9.9/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] WARNING root fetch - processPackages [markji-wordcard-assistant]: Skipping, unable to determine old version
+[2023-05-15 04:53:14] INFO root fetch - processPackages [markji-wordcard-assistant]: Start processing: countess-minimap2
+[2023-05-15 04:53:14] INFO root fetch - main [MainThread]: End processing [markji-wordcard-assistant] error
+[2023-05-15 04:53:14] INFO root fetch - processPackages [nvosscript]: New version: [1.3.0] Old Version: [1.2.9.1]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [pyapns-client3]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [decorrelation]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [countess-minimap2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: New version: [3.0.891] Old Version: [3.0.888]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: New version: [3.0.891] Old Version: [3.0.889]
+[2023-05-15 04:53:14] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/e5/b1/8356096abc668d93ee90ab0a29420e005fe3488cf4bceaeb64eaf09c453f/nvosscript-1.2.9.1.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [countess-minimap2]: Downloading https://files.pythonhosted.org/packages/66/e6/6fac3a1d51cf57d6a06ab68bc6e66002f00f079e67b149e19e3cd8a74694/countess-minimap2-0.0.3.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [decorrelation]: Downloading https://files.pythonhosted.org/packages/0a/cb/4f2b1fbd0c734974ed734d6ef8abad60667ba0556538f7bb81535f622cad/decorrelation-0.1.0.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Downloading https://files.pythonhosted.org/packages/8b/0d/698d4f46b7e02b3e88067471d40a480f0ce7d3aedd33eb60d3395c211872/tencentcloud-sdk-python-cme-3.0.889.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [pyapns-client3]: Downloading https://files.pythonhosted.org/packages/df/c4/a279ba2c53e52b107f0e00be782ac977880613b38317c3fe9c2bc4d6ca3b/pyapns_client3-3.0.5.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Downloading https://files.pythonhosted.org/packages/ab/d7/7cf7abb3130abdec10e19c0d40ec384a55391c1349babb7675f9c6440749/tencentcloud-sdk-python-cpdp-3.0.889.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: Downloading https://files.pythonhosted.org/packages/6c/56/aa6b03c0415d76143037991db36556ee4cd746a53f110b906eaef456fccc/tencentcloud-sdk-python-cms-3.0.889.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Downloading https://files.pythonhosted.org/packages/a6/44/c6b25af0b7d6154d85238f3d4bb1382495d85401813d0ee35d717c8d83ec/tencentcloud-sdk-python-cmq-3.0.889.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/74/dd/6baba6562c4eb1c589225712ab811491028d46b1bcca80492ca5d1883e39/tencentcloud-sdk-python-common-3.0.888.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/ae/f6/7841923cdbc64723739ed89134e75e67cb943a1f5e244d5e62a347bf2bda/nvosscript-1.3.0.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Downloading https://files.pythonhosted.org/packages/52/10/e934ea2afd655cb923cf975d2ae2fd66ecb00575077aaa5dceeefff24d33/tencentcloud-sdk-python-cme-3.0.891.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [countess-minimap2]: Downloading https://files.pythonhosted.org/packages/61/e4/da43b75bc9852238ba6a4e3542e4269bb4b61d24e2c22f724c99dacbd64b/countess-minimap2-0.0.4.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Downloading https://files.pythonhosted.org/packages/24/66/b0df802314f5bfba78591ce1e24685c66ad2744d57aa58f6bc0f24ac5aa3/tencentcloud-sdk-python-cpdp-3.0.891.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: Downloading https://files.pythonhosted.org/packages/42/9e/1385e9c3a5073c54640e582e9b936347c2a17f18a4e8113c93e623c4b95d/tencentcloud-sdk-python-cms-3.0.891.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.2.9.1.tar.gz tmp/nvosscript-1.3.0.tar.gz --markdown 20230515/n/nvosscript/1.2.9.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/c7/2a/01d726e857660460ebd205d21e329e7ee6c68149da90d11771028ed944e4/tencentcloud-sdk-python-common-3.0.891.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Downloading https://files.pythonhosted.org/packages/c9/82/a18b4452743f3f010337bf1aeb14c98f04723a70769da8cfffc350ca035c/tencentcloud-sdk-python-cmq-3.0.891.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cme-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cme-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-cme/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [pyapns-client3]: Downloading https://files.pythonhosted.org/packages/79/b1/b0fe33d6d130f4fd4ed39f08b06102de32ac361c331fa71f63a315382bf2/pyapns_client3-3.0.6.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [decorrelation]: Downloading https://files.pythonhosted.org/packages/45/c3/c575790b803fe087d0318e81b510ba48ba19b83d87af6f00a5eea15b60e0/decorrelation-0.2.0.tar.gz
+[2023-05-15 04:53:14] INFO root fetch - processPackages [countess-minimap2]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [countess-minimap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-minimap2-0.0.3.tar.gz tmp/countess-minimap2-0.0.4.tar.gz --markdown 20230515/c/countess-minimap2/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cpdp-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cpdp-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-cpdp/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cms-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cms-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-cms/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cmq-3.0.889.tar.gz tmp/tencentcloud-sdk-python-cmq-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-cmq/3.0.889-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-common-3.0.888.tar.gz tmp/tencentcloud-sdk-python-common-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-common/3.0.888-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [pyapns-client3]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [pyapns-client3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapns_client3-3.0.5.tar.gz tmp/pyapns_client3-3.0.6.tar.gz --markdown 20230515/p/pyapns-client3/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-05-15 04:53:14] INFO root fetch - processPackages [decorrelation]: executing diffoscope
+[2023-05-15 04:53:14] INFO root fetch - processPackages [decorrelation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorrelation-0.1.0.tar.gz tmp/decorrelation-0.2.0.tar.gz --markdown 20230515/d/decorrelation/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-15 04:53:15] INFO root fetch - processPackages [hapdoc]: Start processing: smartdns
+[2023-05-15 04:53:15] INFO root fetch - main [MainThread]: End processing [hapdoc]: success
+[2023-05-15 04:53:15] INFO root fetch - processPackages [smartdns]: New version: [3.6.1] Old Version: [3.5.1]
+[2023-05-15 04:53:15] INFO root fetch - processPackages [smartdns]: Downloading https://files.pythonhosted.org/packages/40/cc/637165eeaaaf92b99e95a61af363a217df89c5892b6813a5c8ca32f628e4/smartdns-3.5.1.tar.gz
+[2023-05-15 04:53:15] INFO root fetch - processPackages [smartdns]: Downloading https://files.pythonhosted.org/packages/2b/59/d4f44b70a41a4a08bded36fab5bffd829fc256a32bd4a9da7fa881cb4461/smartdns-3.6.1-py3-none-any.whl
+[2023-05-15 04:53:16] INFO root fetch - processPackages [smartdns]: executing diffoscope
+[2023-05-15 04:53:16] INFO root fetch - processPackages [smartdns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdns-3.5.1.tar.gz tmp/smartdns-3.6.1-py3-none-any.whl.zip --markdown 20230515/s/smartdns/3.5.1-3.6.1/diff.md --exclude *.pyd
+[2023-05-15 04:53:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Start processing: cloudpss
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cpdp]: success
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cmq]: success
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cms]: success
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [countess-minimap2]: success
+[2023-05-15 04:53:16] INFO root fetch - processPackages [cloudpss]: New version: [3.5.0a1] Old Version: [3.2.0a2]
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cme]: success
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-common]: success
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-15 04:53:16] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/d4/62/6fdc296728e9dbacd42b2b9936ef21cc09b12d2915d01265d884f4b78863/cloudpss-3.2.0a2.tar.gz
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [decorrelation]: success
+[2023-05-15 04:53:16] INFO root fetch - main [MainThread]: End processing [pyapns-client3]: success
+[2023-05-15 04:53:17] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/a1/ea/b982eca2d4f934e979415733a5cd17bfc1de57683a844475fac1be584921/cloudpss-3.5.0a1.tar.gz
+[2023-05-15 04:53:17] INFO root fetch - main [MainThread]: End processing [smartdns]: success
+[2023-05-15 04:53:17] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-05-15 04:53:17] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a2.tar.gz tmp/cloudpss-3.5.0a1.tar.gz --markdown 20230515/c/cloudpss/3.2.0a2-3.5.0a1/diff.md --exclude *.pyd
+[2023-05-15 04:53:18] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-05-15 04:53:18] INFO root fetch - main [MainThread]: Store serial: [18102159]
