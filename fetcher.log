@@ -4169,3 +4169,54 @@
 [2023-05-15 06:08:33] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
 [2023-05-15 06:08:35] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-05-15 06:08:35] INFO root fetch - main [MainThread]: Store serial: [18102739]
+[2023-05-15 06:13:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18102739]
+[2023-05-15 06:13:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymaro
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-redis
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartgpt
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatapi-translate
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transaction-accounts
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jiggybase
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spatial-summarize-within
+[2023-05-15 06:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-05-15 06:13:46] INFO root fetch - processPackages [pymaro]: New version: [0.3.2a2] Old Version: [0.3.2a1]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [chatapi-translate]: New version: [0.6] Old Version: [0.5]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [smartgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [transaction-accounts]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [jiggybase]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: New version: [3.0.891] Old Version: [3.0.890]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [spatial-summarize-within]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-15 06:13:46] INFO root fetch - processPackages [transaction-accounts]: Downloading https://files.pythonhosted.org/packages/ee/68/829897e0e0e52d4a46147a8cd206ceb0cafe5ca9ae83a10a1fb7e3c83b87/transaction-accounts-0.1.2.tar.gz
+[2023-05-15 06:13:46] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-15 06:13:46] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.29.tar.gz tmp/jiggybase-0.0.30.tar.gz --markdown 20230515/j/jiggybase/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-05-15 06:13:46] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-15 06:13:46] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230515/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-15 06:13:46] INFO root fetch - processPackages [pymaro]: Downloading https://files.pythonhosted.org/packages/6f/55/39f62a624b3b98e0e84cf7d3d65bb3656eefd9d3aa7c3d3f1f198ee9f117/pymaro-0.3.2a1-cp39-cp39-win_amd64.whl
+[2023-05-15 06:13:46] INFO root fetch - processPackages [chatapi-translate]: Downloading https://files.pythonhosted.org/packages/fe/af/e92278774c939afd3c2344d77ae4edb763d6a19fb3263c4979afedf6d388/chatapi-translate-0.6.tar.gz
+[2023-05-15 06:13:46] INFO root fetch - processPackages [smartgpt]: Downloading https://files.pythonhosted.org/packages/15/f6/09136e01e399f2ca151aa4edde8f9af2794b7ded9407c539ccbaa1544035/smartgpt-0.1.2.tar.gz
+[2023-05-15 06:13:46] INFO root fetch - processPackages [chatapi-translate]: executing diffoscope
+[2023-05-15 06:13:46] INFO root fetch - processPackages [chatapi-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatapi-translate-0.5.tar.gz tmp/chatapi-translate-0.6.tar.gz --markdown 20230515/c/chatapi-translate/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-15 06:13:46] INFO root fetch - processPackages [smartgpt]: executing diffoscope
+[2023-05-15 06:13:46] INFO root fetch - processPackages [smartgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartgpt-0.1.1.tar.gz tmp/smartgpt-0.1.2.tar.gz --markdown 20230515/s/smartgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-15 06:13:46] INFO root fetch - processPackages [transaction-accounts]: Downloading https://files.pythonhosted.org/packages/6a/ae/681e3170895d7815ea16db34156ad8d1489a2d72468e4737eda1108c0104/transaction-accounts-0.1.3.tar.gz
+[2023-05-15 06:13:46] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: Downloading https://files.pythonhosted.org/packages/e1/fe/92f2c169fc75056e61dd8151f9d68297466ea3569a3eafff1f451936bbac/tencentcloud-sdk-python-redis-3.0.891.tar.gz
+[2023-05-15 06:13:46] INFO root fetch - processPackages [transaction-accounts]: executing diffoscope
+[2023-05-15 06:13:46] INFO root fetch - processPackages [transaction-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transaction-accounts-0.1.2.tar.gz tmp/transaction-accounts-0.1.3.tar.gz --markdown 20230515/t/transaction-accounts/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-15 06:13:46] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: executing diffoscope
+[2023-05-15 06:13:46] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-redis-3.0.890.tar.gz tmp/tencentcloud-sdk-python-redis-3.0.891.tar.gz --markdown 20230515/t/tencentcloud-sdk-python-redis/3.0.890-3.0.891/diff.md --exclude *.pyd
+[2023-05-15 06:13:46] INFO root fetch - processPackages [spatial-summarize-within]: Downloading https://files.pythonhosted.org/packages/10/ba/017ece263285654dc86cd530fb55047825b71126ce51ac71e2c9d8bc3e84/spatial_summarize_within-0.2.5.tar.gz
+[2023-05-15 06:13:46] INFO root fetch - processPackages [spatial-summarize-within]: executing diffoscope
+[2023-05-15 06:13:46] INFO root fetch - processPackages [spatial-summarize-within]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial_summarize_within-0.2.4.tar.gz tmp/spatial_summarize_within-0.2.5.tar.gz --markdown 20230515/s/spatial-summarize-within/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-15 06:13:46] INFO root fetch - processPackages [pymaro]: Downloading https://files.pythonhosted.org/packages/0e/36/e7d3ba2e396ca0787594137cefeb7092273a021c90538ff8b54ae464c301/pymaro-0.3.2a2-cp39-cp39-win_amd64.whl
+[2023-05-15 06:13:47] INFO root fetch - processPackages [pymaro]: executing diffoscope
+[2023-05-15 06:13:47] INFO root fetch - processPackages [pymaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymaro-0.3.2a1-cp39-cp39-win_amd64.whl.zip tmp/pymaro-0.3.2a2-cp39-cp39-win_amd64.whl.zip --markdown 20230515/p/pymaro/0.3.2a1-0.3.2a2/diff.md --exclude *.pyd
+[2023-05-15 06:13:47] INFO root fetch - main [MainThread]: End processing [chatapi-translate]: success
+[2023-05-15 06:13:47] INFO root fetch - main [MainThread]: End processing [smartgpt]: success
+[2023-05-15 06:13:47] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-15 06:13:47] INFO root fetch - main [MainThread]: End processing [spatial-summarize-within]: success
+[2023-05-15 06:13:47] INFO root fetch - main [MainThread]: End processing [transaction-accounts]: success
+[2023-05-15 06:13:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-redis]: success
+[2023-05-15 06:13:51] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-15 06:13:53] INFO root fetch - main [MainThread]: End processing [pymaro]: success
+[2023-05-15 06:13:53] INFO root fetch - main [MainThread]: Store serial: [18102770]
