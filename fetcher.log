@@ -15487,3 +15487,68 @@ EOFError: EOF read where object expected
 [2023-05-15 16:38:52] INFO root fetch - main [MainThread]: End processing [requests-toolkit-stable]: success
 [2023-05-15 16:38:53] INFO root fetch - main [MainThread]: End processing [ersilia]: success
 [2023-05-15 16:38:53] INFO root fetch - main [MainThread]: Store serial: [18109291]
+[2023-05-15 16:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18109291]
+[2023-05-15 16:44:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requests-toolkit-stable
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulp-glue-ostree
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulp-cli-ostree
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyriksprot
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ersilia
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botsh
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tala
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openshift-python-utilities
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test1550getflag
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xxxxssss
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.13.9] Old Version: [4.13.8]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [requests-toolkit-stable]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pulp-cli-ostree]: New version: [0.2.0.dev0] Old Version: [0.1.1]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pulp-glue-ostree]: New version: [0.2.0.dev0] Old Version: [0.1.1]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pyriksprot]: New version: [2023.4.4] Old Version: [2023.4.3]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-05-15 16:44:02] WARNING root fetch - processPackages [xxxxssss]: Skipping, unable to determine old version
+[2023-05-15 16:44:02] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.13.8.tar.gz tmp/openshift-python-utilities-4.13.9.tar.gz --markdown 20230515/o/openshift-python-utilities/4.13.8-4.13.9/diff.md --exclude *.pyd
+[2023-05-15 16:44:02] INFO root fetch - processPackages [xxxxssss]: Start processing: pollination-annual-daylight-en17037
+[2023-05-15 16:44:02] INFO root fetch - main [MainThread]: End processing [xxxxssss] error
+[2023-05-15 16:44:02] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-15 16:44:02] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230515/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-15 16:44:02] WARNING root fetch - processPackages [test1550getflag]: Skipping, unable to determine old version
+[2023-05-15 16:44:02] INFO root fetch - main [MainThread]: End processing [test1550getflag] error
+[2023-05-15 16:44:02] INFO root fetch - processPackages [requests-toolkit-stable]: executing diffoscope
+[2023-05-15 16:44:02] INFO root fetch - processPackages [requests-toolkit-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests-toolkit-stable-0.9.1.tar.gz tmp/requests-toolkit-stable-0.9.2.tar.gz --markdown 20230515/r/requests-toolkit-stable/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-15 16:44:02] INFO root fetch - processPackages [botsh]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pulp-cli-ostree]: Downloading https://files.pythonhosted.org/packages/b5/fd/83eee3b7fab4c340609428206fe5dc57ea77c9869e497ae664e163d86a20/pulp-cli-ostree-0.1.1.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pulp-glue-ostree]: Downloading https://files.pythonhosted.org/packages/40/e7/907017d4d6d4ced8014d4d884c854504c5738ed0e2eb84b92ce59866d72b/pulp-glue-ostree-0.1.1.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pyriksprot]: Downloading https://files.pythonhosted.org/packages/33/96/1fb7e8419e789430dbd1404e5c10baf910649590ffd0c2ab4d9eddcf22ab/pyriksprot-2023.4.3.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [botsh]: Downloading https://files.pythonhosted.org/packages/2a/ff/33924067571b6a265a9ad53b7638b20d9cf4396823c32882df6d1dfca527/botsh-0.1.6.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: Downloading https://files.pythonhosted.org/packages/f6/87/a7d0fb31c14398b639d606d16fbf3078ab0813f05d66643f68551500ba4c/pollination-annual-daylight-en17037-0.1.4.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pulp-cli-ostree]: Downloading https://files.pythonhosted.org/packages/dd/b9/e38b902efb224c1aa3281ca77e20ccd0cf22ea363ebe2e47820c2213dd78/pulp-cli-ostree-0.2.0.dev0.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-05-15 16:44:02] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20230515/e/ersilia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pyriksprot]: Downloading https://files.pythonhosted.org/packages/6f/7e/fdbae0bd8bf8194a1d57fc80773afc3be14d960b597ec8e4afe8dc2a1de1/pyriksprot-2023.4.4.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [botsh]: Downloading https://files.pythonhosted.org/packages/5b/04/87008cfef91d8d02ac2d3440c0e82569e9a2843628d8c33b318ce2d4cfc9/botsh-0.1.7.tar.gz
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pulp-cli-ostree]: executing diffoscope
+[2023-05-15 16:44:02] INFO root fetch - processPackages [pulp-cli-ostree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-ostree-0.1.1.tar.gz tmp/pulp-cli-ostree-0.2.0.dev0.tar.gz --markdown 20230515/p/pulp-cli-ostree/0.1.1-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-05-15 16:44:03] INFO root fetch - processPackages [botsh]: executing diffoscope
+[2023-05-15 16:44:03] INFO root fetch - processPackages [botsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botsh-0.1.6.tar.gz tmp/botsh-0.1.7.tar.gz --markdown 20230515/b/botsh/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: Downloading https://files.pythonhosted.org/packages/4f/c4/765f34633de74a955b6bea037d2068c96c693f9a3f7c9afbc4ae95aae044/pollination-annual-daylight-en17037-0.1.5.tar.gz
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pyriksprot]: executing diffoscope
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pyriksprot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriksprot-2023.4.3.tar.gz tmp/pyriksprot-2023.4.4.tar.gz --markdown 20230515/p/pyriksprot/2023.4.3-2023.4.4/diff.md --exclude *.pyd
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pulp-glue-ostree]: Downloading https://files.pythonhosted.org/packages/90/77/3e9dfac95c8bf41e2600cb5ca6056ace2b60a64d1f4c116c3b6e7f3c1cdc/pulp-glue-ostree-0.2.0.dev0.tar.gz
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pulp-glue-ostree]: executing diffoscope
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pulp-glue-ostree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-ostree-0.1.1.tar.gz tmp/pulp-glue-ostree-0.2.0.dev0.tar.gz --markdown 20230515/p/pulp-glue-ostree/0.1.1-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: executing diffoscope
+[2023-05-15 16:44:03] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight-en17037-0.1.4.tar.gz tmp/pollination-annual-daylight-en17037-0.1.5.tar.gz --markdown 20230515/p/pollination-annual-daylight-en17037/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-15 16:44:03] INFO root fetch - main [MainThread]: End processing [requests-toolkit-stable]: success
+[2023-05-15 16:44:04] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-05-15 16:44:04] INFO root fetch - main [MainThread]: End processing [pulp-cli-ostree]: success
+[2023-05-15 16:44:04] INFO root fetch - main [MainThread]: End processing [pulp-glue-ostree]: success
+[2023-05-15 16:44:04] INFO root fetch - main [MainThread]: End processing [botsh]: success
+[2023-05-15 16:44:04] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight-en17037]: success
+[2023-05-15 16:44:04] INFO root fetch - main [MainThread]: End processing [pyriksprot]: success
+[2023-05-15 16:44:06] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-15 16:44:06] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-05-15 16:44:06] INFO root fetch - main [MainThread]: Store serial: [18109328]
