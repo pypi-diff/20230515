@@ -21955,3 +21955,125 @@ EOFError: EOF read where object expected
 [2023-05-15 22:33:14] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
 [2023-05-15 22:33:51] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
 [2023-05-15 22:33:51] INFO root fetch - main [MainThread]: Store serial: [18113057]
+[2023-05-15 22:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113057]
+[2023-05-15 22:39:01] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasaku
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zep-python
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: donatello
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iron-toolbox
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vim-python-framework
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelfree-protein15n
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prova-pypi
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iricore
+[2023-05-15 22:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nico-sc-sp
+[2023-05-15 22:39:01] WARNING root fetch - processPackages [vim-python-framework]: Skipping, unable to determine old version
+[2023-05-15 22:39:01] INFO root fetch - processPackages [vim-python-framework]: Start processing: gpt-review
+[2023-05-15 22:39:01] INFO root fetch - main [MainThread]: End processing [vim-python-framework] error
+[2023-05-15 22:39:01] WARNING root fetch - processPackages [nico-sc-sp]: Skipping, unable to determine old version
+[2023-05-15 22:39:01] INFO root fetch - processPackages [prova-pypi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [nico-sc-sp]: Start processing: cdk-nag
+[2023-05-15 22:39:01] INFO root fetch - main [MainThread]: End processing [nico-sc-sp] error
+[2023-05-15 22:39:01] INFO root fetch - processPackages [iricore]: New version: [1.4.1] Old Version: [1.3.1]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [gpt-review]: New version: [0.9.0rc715.post1] Old Version: [0.9.0rc714.post1]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [gpt-review]: New version: [0.9.0rc715.post1] Old Version: [0.9.0rc714.post1]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [datasaku]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [zep-python]: New version: [0.24] Old Version: [0.23]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [donatello]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-05-15 22:39:01] WARNING root fetch - processPackages [modelfree-protein15n]: Skipping, unable to determine old version
+[2023-05-15 22:39:01] INFO root fetch - processPackages [modelfree-protein15n]: Start processing: com.castsoftware.uc.python.common
+[2023-05-15 22:39:01] INFO root fetch - main [MainThread]: End processing [modelfree-protein15n] error
+[2023-05-15 22:39:01] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/91/15/e33f2b10b6c13f1a972eb5fda7eb2d310b97aaab7b4d12bad1e33b57a905/gpt_review-0.9.0rc714.post1.tar.gz
+[2023-05-15 22:39:01] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/91/15/e33f2b10b6c13f1a972eb5fda7eb2d310b97aaab7b4d12bad1e33b57a905/gpt_review-0.9.0rc714.post1.tar.gz
+[2023-05-15 22:39:01] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-15 22:39:01] INFO root fetch - processPackages [prova-pypi]: executing diffoscope
+[2023-05-15 22:39:01] INFO root fetch - processPackages [prova-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prova_pypi-0.0.8.tar.gz tmp/prova_pypi-0.0.9.tar.gz --markdown 20230515/p/prova-pypi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230515/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/a0/ec/f56eee620c29f90de9e6b755d25bc1fc345397ea364aa723e799bcc878e9/iricore-1.3.1.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [datasaku]: Downloading https://files.pythonhosted.org/packages/73/50/c2744ed369b95f8abefeca0277a83648e1671379568524e55b7312f20551/datasaku-0.0.4.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/14/56/607715d5f0a4a64f571ffe260dbd6c986eb107b6942e4a94bd250688ae9d/iron_toolbox-1.0.8.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [donatello]: Downloading https://files.pythonhosted.org/packages/e5/bf/29ff9f3d247e386eca3991ed36990bad5a5146b5b07036784516b5047d1f/donatello-1.0.5.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/2b/7b/95be7afa55dd0064a9fa7626138253ffff8cf239ed5d5db5b4e549c85c59/gpt_review-0.9.0rc715.post1.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/2b/7b/95be7afa55dd0064a9fa7626138253ffff8cf239ed5d5db5b4e549c85c59/gpt_review-0.9.0rc715.post1.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/a2/c8/219fa35565e8cbe90f3ec54dd81d4b73b94006a4d45a81fa3d26c69da2f0/zep_python-0.23.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [datasaku]: Downloading https://files.pythonhosted.org/packages/6b/28/e0a0cb70faa165c444e749af8c615e7a3cf44ba3e0dc352faeab2ba865dd/datasaku-0.0.5.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [donatello]: Downloading https://files.pythonhosted.org/packages/c7/5f/4d2512060808c70341debc555580ececbb4c3eaa7cc4b7eea9a9d574be26/donatello-1.0.7.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/15/c9/6ddb477d6f0ec6bef2b9ab1904ced650193c203c83b26b8b7371a39bbe01/iron_toolbox-1.0.9.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.0rc714.post1.tar.gz tmp/gpt_review-0.9.0rc715.post1.tar.gz --markdown 20230515/g/gpt-review/0.9.0rc714.post1-0.9.0rc715.post1/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.0rc714.post1.tar.gz tmp/gpt_review-0.9.0rc715.post1.tar.gz --markdown 20230515/g/gpt-review/0.9.0rc714.post1-0.9.0rc715.post1/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.python.common-0.1.8.tar.gz tmp/com.castsoftware.uc.python.common-0.1.9.tar.gz --markdown 20230515/c/com.castsoftware.uc.python.common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/42/3f/676dd3c80509ba71a79b85d32ea83a2966f00881ffb4b8309df26b6d4f96/iricore-1.4.1.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230515/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [datasaku]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [datasaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasaku-0.0.4.tar.gz tmp/datasaku-0.0.5.tar.gz --markdown 20230515/d/datasaku/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/9b/a8/b5c1d0a6850a4cd90ac01f1454149273ecf93afc61b4d6a8898349196172/zep_python-0.24.tar.gz
+[2023-05-15 22:39:02] INFO root fetch - processPackages [donatello]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [donatello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donatello-1.0.5.tar.gz tmp/donatello-1.0.7.tar.gz --markdown 20230515/d/donatello/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iricore]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [iricore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iricore-1.3.1.tar.gz tmp/iricore-1.4.1.tar.gz --markdown 20230515/i/iricore/1.3.1-1.4.1/diff.md --exclude *.pyd
+[2023-05-15 22:39:02] INFO root fetch - processPackages [zep-python]: executing diffoscope
+[2023-05-15 22:39:02] INFO root fetch - processPackages [zep-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_python-0.23.tar.gz tmp/zep_python-0.24.tar.gz --markdown 20230515/z/zep-python/0.23-0.24/diff.md --exclude *.pyd
+[2023-05-15 22:39:03] INFO root fetch - processPackages [prova-pypi]: Start processing: neon-phal-plugin-reset
+[2023-05-15 22:39:03] INFO root fetch - main [MainThread]: End processing [prova-pypi]: success
+[2023-05-15 22:39:03] INFO root fetch - processPackages [neon-phal-plugin-reset]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-05-15 22:39:03] INFO root fetch - processPackages [neon-phal-plugin-reset]: executing diffoscope
+[2023-05-15 22:39:03] INFO root fetch - processPackages [neon-phal-plugin-reset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-reset-0.1.1a0.tar.gz tmp/neon-phal-plugin-reset-0.1.1a1.tar.gz --markdown 20230515/n/neon-phal-plugin-reset/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-05-15 22:39:03] INFO root fetch - processPackages [cdk-nag]: Start processing: mosmo
+[2023-05-15 22:39:03] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-05-15 22:39:03] WARNING root fetch - processPackages [mosmo]: Skipping, unable to determine old version
+[2023-05-15 22:39:03] INFO root fetch - processPackages [mosmo]: Start processing: com.castsoftware.uc.oneclick
+[2023-05-15 22:39:03] INFO root fetch - main [MainThread]: End processing [mosmo] error
+[2023-05-15 22:39:03] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2023-05-15 22:39:03] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/71/de/d1cd9fe6d9ace4ee91fb9869329f420fd572c0943ded35c04c6614310b79/com.castsoftware.uc.oneclick-0.2.2.7.tar.gz
+[2023-05-15 22:39:04] INFO root fetch - processPackages [datasaku]: Start processing: geodesic-api
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [datasaku]: success
+[2023-05-15 22:39:04] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/ad/42/494b2cd0e20dd33fb8197f39255573277234b7b6b4c8fc661447c16a914b/com.castsoftware.uc.oneclick-0.2.2.8.tar.gz
+[2023-05-15 22:39:04] INFO root fetch - processPackages [geodesic-api]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-05-15 22:39:04] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2023-05-15 22:39:04] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-0.2.2.7.tar.gz tmp/com.castsoftware.uc.oneclick-0.2.2.8.tar.gz --markdown 20230515/c/com.castsoftware.uc.oneclick/0.2.2.7-0.2.2.8/diff.md --exclude *.pyd
+[2023-05-15 22:39:04] INFO root fetch - processPackages [zep-python]: Start processing: mozanalysis
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [zep-python]: success
+[2023-05-15 22:39:04] INFO root fetch - processPackages [mozanalysis]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-15 22:39:04] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/6a/a8/14dfb83cda43cbac659279db5f70de1b36c3e82ad69a56b069a6770e1bc8/geodesic_api-0.8.7-py3-none-any.whl
+[2023-05-15 22:39:04] INFO root fetch - processPackages [mozanalysis]: executing diffoscope
+[2023-05-15 22:39:04] INFO root fetch - processPackages [mozanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozanalysis-2023.5.1.tar.gz tmp/mozanalysis-2023.5.2.tar.gz --markdown 20230515/m/mozanalysis/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-15 22:39:04] INFO root fetch - processPackages [donatello]: Start processing: sh40-slate
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [donatello]: success
+[2023-05-15 22:39:04] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Start processing: lana
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.python.common]: success
+[2023-05-15 22:39:04] INFO root fetch - processPackages [lana]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-15 22:39:04] INFO root fetch - processPackages [sh40-slate]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-15 22:39:04] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-15 22:39:04] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.0.3-cp39-cp39-macosx_10_7_x86_64.whl.zip tmp/lana-0.0.4-cp37-abi3-macosx_10_7_x86_64.whl.zip --markdown 20230515/l/lana/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-15 22:39:04] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/b5/87/6f6437e716fb0cb26a0c09ae9e51e19882b0f84a7d7d8e55aaeca7125838/geodesic_api-0.9.0-py3-none-any.whl
+[2023-05-15 22:39:04] INFO root fetch - processPackages [sh40-slate]: Downloading https://files.pythonhosted.org/packages/ac/a8/e84458e02388cb7efef7c52430cb928d2e881e6ad72659f09e44f3ba6467/sh40_slate-0.0.1.tar.gz
+[2023-05-15 22:39:04] INFO root fetch - processPackages [geodesic-api]: executing diffoscope
+[2023-05-15 22:39:04] INFO root fetch - processPackages [geodesic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodesic_api-0.8.7-py3-none-any.whl.zip tmp/geodesic_api-0.9.0-py3-none-any.whl.zip --markdown 20230515/g/geodesic-api/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-05-15 22:39:04] INFO root fetch - processPackages [gpt-review]: Start processing: mundiapi
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-reset]: success
+[2023-05-15 22:39:04] INFO root fetch - processPackages [mundiapi]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-05-15 22:39:04] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-15 22:39:05] INFO root fetch - processPackages [sh40-slate]: Downloading https://files.pythonhosted.org/packages/ac/a7/d919311c3c5185bd4b875e7edea0b073522982d502856773cf9a4b716772/sh40_slate-0.1.0.tar.gz
+[2023-05-15 22:39:05] INFO root fetch - processPackages [mundiapi]: Downloading https://files.pythonhosted.org/packages/a6/27/5a00a0429aa03615863576ac7e92ee8a370143bca1cdc5d3d801ea264524/mundiapi-2.4.1.tar.gz
+[2023-05-15 22:39:05] INFO root fetch - processPackages [sh40-slate]: executing diffoscope
+[2023-05-15 22:39:05] INFO root fetch - processPackages [sh40-slate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh40_slate-0.0.1.tar.gz tmp/sh40_slate-0.1.0.tar.gz --markdown 20230515/s/sh40-slate/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-15 22:39:05] INFO root fetch - processPackages [mundiapi]: Downloading https://files.pythonhosted.org/packages/5e/49/f74047ea5b70447cadd19637472dfe73674e7f3dab2a2a3b218d6141b54b/mundiapi-2.4.2.tar.gz
+[2023-05-15 22:39:05] INFO root fetch - processPackages [mundiapi]: executing diffoscope
+[2023-05-15 22:39:05] INFO root fetch - processPackages [mundiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230515:/home/abi/fetcher/20230515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mundiapi-2.4.1.tar.gz tmp/mundiapi-2.4.2.tar.gz --markdown 20230515/m/mundiapi/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-15 22:39:06] INFO root fetch - main [MainThread]: End processing [mozanalysis]: success
+[2023-05-15 22:39:06] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2023-05-15 22:39:06] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-15 22:39:06] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
+[2023-05-15 22:39:06] INFO root fetch - main [MainThread]: End processing [sh40-slate]: success
+[2023-05-15 22:39:09] INFO root fetch - main [MainThread]: End processing [iricore]: success
+[2023-05-15 22:39:11] INFO root fetch - main [MainThread]: End processing [mundiapi]: success
+[2023-05-15 22:39:11] INFO root fetch - main [MainThread]: Store serial: [18113118]
